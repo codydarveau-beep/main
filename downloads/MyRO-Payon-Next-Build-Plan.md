@@ -112,3 +112,13 @@ Requested Payon expedition + first-job stabilization/base99 -> remaining first-j
 mechanics/effects/useful services -> second jobs -> broader equipment/loot/
 consumables -> cards/refinement/crafting -> remaining maps/enemies/MVP behavior
 -> offline progression/balance/real-hardware polish. AI companions last; no WoE.
+
+COLLECTOR ROUTE HOTFIX
+User's auto-discovery succeeded at D:\MyRO\MyROAllFiles\World\Server\hercules_pre
+but old collector aborted on missing pay_arche route. Corrected shared npc/warps
+scan alongside pre-re warps; shared npc/mobs also included for selected spawn
+lines. UTF8-strict/BOM and CP949 fallback for server text; Korean paths and client
+resnametable aliases tested. Missing route now marks partial and collects named
+destination assets independently, with scoped warp evidence/file inventory.
+No guessed warp coordinates or translated internal map identifiers. Fresh
+RouteFix asset-request ZIP supersedes AutoFind ZIP, auto-discovery retained.
