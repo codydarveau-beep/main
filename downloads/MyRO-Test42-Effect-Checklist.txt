@@ -1,0 +1,119 @@
+MYRO TEST42 - EFFECTS AND CONTROLS TO TEST
+
+QUICK ROUTES
+Hold START about0.6s > Testing > Developer testing tools.
+LB/RB changes developer page. Class presets learn implemented first-job skills.
+Player > Attack sound delay: LEFT/RIGHT changes0..300ms in10ms steps; A resets0.
+This delays the outgoing hit sound, preserving multi-hit spacing. It is session
+only. Please report the preferred ms value. Actual damage, floating-number timing,
+attack cooldowns and cast completion are unchanged; audio tuning does not solve
+any separate damage-number/animation timing discrepancy.
+Walking pace remains84% with its adjustment tool. Cart spacing is fixed15 world
+units and its former slider is removed. Practice > Target type label restored.
+Practice > Spawn target, then > Behaviour: A or LEFT/RIGHT toggles Idle/Active.
+Active targets chase and attack, even while Other monster AI is paused. Immortal
+practice remains optional. No rewards or automatic respawn. Spawn again if dead.
+Use a durable practice target to test Fire Wall; natural passive monsters can
+also be toggled active for this test without changing normal monster species.
+
+START > LB/RB to the Toggles tab (the redundant Game entry is removed):
+Damage OFF by default. EXP/level-up, Loot, Skills/status, Items/services, System
+and overhead Spell name callouts each have separate switches. These switches
+control text notifications; floating damage numbers always remain visible.
+Pop-up switches and Tooltips are saved with the character in Save22 slots.
+Help/diagnostics, Scenery, Music and Sound switches are also accessible here;
+they retain their existing session behavior. Audio volume remains in Audio.
+Tooltips OFF hides optional control/hover/sitting tips, independently of spell
+callouts. System OFF can hide ordinary action/error messages; save-failure
+warnings remain visible. No extra pop-up is needed to confirm your damage.
+EXP and loot remain independently switchable even on the same enemy defeat.
+
+ART PREVIEW ROUTE
+Developer > Skill checks > Art preview. LEFT/RIGHT chooses one of21 named
+entries; A resumes play for an8-second visual preview. Preview does not apply
+mechanics. Frozen-target hold must be tested with actual Frost Diver, not its
+looping artwork preview. Numbered entries match the menu order below.
+
+01 [ ] Energy Coat cast - unchanged accepted one-shot pulse and steady tint.
+02 [ ] Cure - Acolyte Cure after applying a removable ailment.
+03 [ ] Freeze - Mage Frost Diver on a living target. Ice forms, then HOLDS its
+       formed frame while frozen. Cold Bolt reuses impact art without freezing.
+04 [ ] Holy hit - Acolyte Holy Light on a valid target.
+05 [ ] Fire Wall - cast between yourself and an ACTIVE durable practice target.
+       Check three cells, movement/contact/knockback and expiry. Idle is also
+       available. Existing hit/collision/resource mechanics are unchanged.
+06 [ ] Fire hit - Fire Bolt, Fire Ball impact, Magnum Break reuse.
+07 [ ] Wind hit - Lightning Bolt impact, unchanged.
+08 [ ] Thunder Storm small bolts - Mage Thunder Storm. Smaller staggered bolts
+       spread around the field replace the oversized composite artwork. Strike
+       timing/damage and square gameplay bounds remain unchanged. While aiming,
+       the indicator is a continuous blue outline joining tapered shimmering points,
+       with a very faint blue shimmering interior (roughly5-11% source alpha),
+       red if invalid. Circular artwork does not imply circular damage checks.
+09 [ ] Stone Curse - unchanged accepted forming-stone loop and petrification.
+10 [ ] Cart Revolution - original burst plus NEW tight visual player spin.
+       Check in place from several angles; damage/knockback/facing unaffected.
+11 [ ] Cart style1 - Merchant with rented cart; free Prontera Cart Stylist.
+12 [ ] Cart style2 - same. All five style options remain available there.
+13 [ ] Cart style3 - same.
+14 [ ] Cart style4 - same.
+15 [ ] Cart style5 - same. Check idle stillness, walking and fixed15-unit spacing.
+16 [ ] Air: Fire Bolt - accepted airborne phase and impact, unchanged.
+17 [ ] Air: Cold Bolt - accepted airborne phase and impact, unchanged.
+18 [ ] Air: Lightning Bolt - accepted airborne phase and impact, unchanged.
+19 [ ] Fire Ball flight - NEW compact orange projectile from caster to target
+       in the last0.35s of a normal cast, followed by accepted impact. Very short
+       or skipped observed casts use a post-release visual fallback. Projectile
+       is visual only and does not introduce extra damage/delay/collision.
+20 [ ] Casting aura - NEW warm yellow animated rim/wisps around caster during
+       timed casting. Stops on completion or interruption. Check different zooms.
+21 [ ] Spell target circle - NEW ground circle/star: shrinks, rotates, flashes
+       white/red while shrinking for0.6s after successful casts, then keeps rotating
+       at its final radius for1 additional second. Strokes are about2.8x thicker. Implemented for Fire/Cold/
+       Lightning Bolt, Napalm Beat, Soul Strike, Fire Ball, Frost Diver, Thunder
+       Storm, Decrease AGI, Stone Curse and Holy Light. Preview near the player.
+
+ADDITIONAL VISUAL/CONTROL CHECKS
+[ ] Small translucent black spell-name callout above caster, independent of
+    Tooltips; its own Toggles switch hides it. No central notification stack.
+[ ] Blue cast bar: equal-width segments with single-pixel black separators.
+    Half-second intervals, maximum12 segments; the full interior width fills blue.
+    Check both tips early/late in a cast. Only border and separator pixels stay black.
+    Fractional final intervals are approximate. No separator at the endpoints.
+[ ] Yellow target corners have3px clearance from the current monster crop;
+    grow immediately as needed and relax smoothly as its animation shrinks.
+[ ] Inventory Zeny/Weight summary uses full normal-size font instead of0.7x.
+    Large balances abbreviate to K/M only when necessary. Inspect on a CRT.
+[ ] R3 closes the focused window then focuses the most recently opened remaining
+    window; repeated R3 closes the rest. Close-button wrap behavior is retained.
+[ ] Toggle each pop-up type independently. Attack, cast, defeat and loot a
+    natural enemy; confirm numbers/resources/EXP still change with text hidden.
+[ ] Preserve accepted hotbars, camera/zoom, short/long START and level-up hints.
+
+AUTHENTICITY / LIMITS
+Entries01-10 originally sample supplied STR artwork at15Hz; Thunder Storm now
+uses the smaller prototype bolt path. Entries16-20 are prototype compositions
+from collected textures. Entry21 and the aiming ring are procedural prototypes,
+not the original client's full effects/models. Exact original effect playback
+remains unfinished. Existing numerical mechanics have not been replaced by
+visual approximations. Shared24-instance art pool remains capped; crowd effects
+can be omitted when saturated. All assets needed for this batch were available.
+No xemu, original-Xbox, runtime FPS/free-RAM or Windows picker testing claimed.
+Please report by entry number, plus observed FPS/free RAM and cart distance.
+
+TEST42 REGRESSIONS / DEFERRED ASSETS
+[ ] Use the Cart Stylist to select EACH of five styles, then save and load in
+    Prontera. High cosmetic styles now pass persistence at the test level cap;
+    normal Change Cart acquisition requirements remain unchanged. Save22 retained.
+[ ] Select top buttons read Status, Equip, Items, Skills. Navigate left/right,
+    open the intended window and close via R3. Semantic window IDs/MRU retained.
+[ ] Toggle highlights have extra lower padding and clear glyph descenders.
+[ ] Game menu has Save/Load/Remember/Resume; use category selector for Toggles.
+[ ] Optional: run Asset-Request/Merchant-Icons/Collect-Next-Assets.cmd after
+    extracting the ZIP. Send its Desktop RO-Merchant-Icons42-*.zip for the NEXT
+    update. Targets: Enlarge Weight Limit, Push Cart, Change Cart original icons.
+    Test42 intentionally retains their placeholders. Partial results are labelled.
+
+This batch consolidates first-job testing and feedback. No additional job or new
+NPC gameplay service is claimed. The roadmap remains first-job completion and
+useful services before second jobs. Original client effects remain unfinished.

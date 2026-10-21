@@ -1,0 +1,35 @@
+MYRO TEST42 - CART SAVE FIX / TIMING TOOL / CASTING PRESENTATION
+
+Extract the entire ZIP. Run Apply-Update.cmd and choose your exact working
+Test41 MyRO-Current.iso. The updater verifies and retains that input, then builds
+and verifies the Test42 MyRO-Current.iso. Load the result in xemu and reset.
+Full current source is in Source/. No rollback bundle is included.
+
+CHANGES
+- Fixed save rejection after free Cart Stylist selections: cosmetic styles are
+  valid saved states at the level20 test cap. Normal Change Cart level gates
+  remain. Save22/popup preferences retained; no save migration is needed.
+- Cart spacing fixed15 world units; distance slider removed. Walking84% and its
+  adjustment tool retained.
+- Hold START > Testing > Developer testing tools > Player > Attack sound delay.
+  LEFT/RIGHT:0..300ms in10ms steps; A resets0. Hit audio only, session-only.
+  Report your preferred value. Damage/number timing and combat rules unchanged.
+- Toggles reached through LB/RB category selector; redundant Game entry removed.
+  Toggle highlight bottom padding expanded. Select buttons reordered to
+  Status, Equip, Items, Skills, including actual navigation/opening behavior.
+- Cast bar now fills both interior tips blue across its full progress range.
+- Successful-cast circle strokes about2.8x thicker, same0.6s shrink, then rotate
+  at final size for1 more second. Blue aiming outline continuous, with very faint
+  shimmering blue fill; original pointed markers preserved. Square hit rules kept.
+- Corrected an incorrect Practice Target type label exposed during this review.
+
+ASSET REQUEST FOR THE FOLLOWING UPDATE
+Asset-Request/Merchant-Icons/ contains the usual read-only Windows collector.
+Run Collect-Next-Assets.cmd after extraction and send the Desktop ZIP next time.
+Only three original Merchant skill icons are sought. No installation/admin/
+network use or client writes. Missing icons are reported honestly. They do not
+block Test42; the current placeholder mappings are unchanged until you return
+those assets. Collector source/license and fixture verifier are included.
+
+See EFFECT-CHECKLIST.txt for21 preview entries, live tests and prototype limits.
+No xemu/hardware/runtime FPS/free-RAM or Windows GUI testing is claimed.
