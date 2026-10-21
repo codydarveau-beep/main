@@ -1,0 +1,26 @@
+TEST46 CHECKLIST
+
+1. Use a class preset and shop for suitable weapons/armor. Check source job/level
+   restrictions, two-handed weapon versus shield, equip/unequip/sell, and save/load.
+2. Check Basic Info at Knight HP8488, Status, all ten Equipment rows, Inventory
+   scrolling and long Shop descriptions. Check readability on your CRT display.
+3. RT switches skill list/grid. White/Black change selected cast rank. Confirm
+   hotbar assignment and normal RT camera zoom outside windows still work.
+4. Retest the giant stone mushroom, tree trunks and posts, plus Izlude props and
+   West Field's water-edge walls. Report location if body penetration remains.
+   Also check Payon stairs, Sograt bridges and both directions through portals.
+5. Look at black areas of caves and fields while rotating/zooming. Is the faint
+   line pattern reduced? Ground visibility and map orientation should stay correct.
+6. Target Moonlight Flower: name and full current/max HP should fit separately.
+7. Check the lighter Quicken body tint with its unchanged fading trails.
+8. Successful-cast circle should finish10% smaller than45a, with opaque thicker
+   lines and slightly faster rotation. Ground-aim circles remain as accepted.
+9. Developer menu has three pages. Practice ends with Apply ailment. No wading
+   shortcut, ranged-hit action or artwork-preview page remains.
+10. Retest the attacking fire monster's final frame; the source Horong animation
+    now retains every attack frame and its partial transparency.
+11. Watch FPS/free RAM across a busy field, Izlude, cave5 and repeated class/map
+    changes. Only the current map and selected actor variant should stay loaded.
+
+Spell-specific effects still needing work are tracked in ROADMAP.txt. Please
+continue reporting the spell, visible missing component and target context.
