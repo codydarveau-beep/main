@@ -1,0 +1,79 @@
+MYRO TEST40 EFFECT / ARTWORK CHECKLIST
+
+Fast route: HOLD START about0.6s > Testing > Developer testing tools >
+Skill checks (LB/RB pages) > Art preview. Left/right selects one of18 named
+entries; A resumes play and previews near the player for8 gameplay seconds.
+Energy Coat is a one-shot pulse in preview. Others loop for inspection.
+Previews are visual only: no damage, resources, status or gameplay fields.
+
+For real skills, use Class presets to learn the implemented skills, restore
+HP/SP, and spawn a passive practice target with x100HP. Keep target type Natural.
+Impacts play on completion; bolt air phases begin in the last0.4s of casting.
+Wait for the blue cast bar. A failed/blocked skill
+may keep resources or display an action response rather than create a field.
+
+01 [ ] Energy Coat cast - Mage Energy Coat. ONE cast pulse, followed by a steady
+       subtle blue player tint while the buff is active. Check expiry/tint reset.
+       The steady tint is a prototype status cue, not original aura playback.
+02 [ ] Cure - Acolyte Cure. Apply Blind in Skill checks first; Cure removes it
+       and plays the rising source effect. No ailment means no cast/resources.
+03 [ ] Freeze - Frost Diver impact and frozen living targets. Cold Bolt also
+       reuses this art for impact; its art does NOT grant the freeze mechanic.
+04 [ ] Holy hit - Acolyte Holy Light on a valid living practice target.
+05 [ ] Fire Wall - Mage Fire Wall on clear ground. Inspect all live cells,
+       turn/zoom camera, lure a target through it, then check cell expiry.
+06 [ ] Fire hit - Fire Bolt impact, Fire Ball and Magnum Break art reuse.
+       Fire Bolt now has a separate airborne phase (entry16 below).
+07 [ ] Wind hit - Lightning Bolt impact. Airborne phase is entry18.
+08 [ ] Thunder Storm - Mage ground field. Check overhead lightning and ground
+       strikes across its duration. Existing half-second mechanics are unchanged.
+09 [ ] Stone Curse - Cast/target and forming-stone phase. Check the result
+       message; immunity/resistance is a mechanic, not proof of missing artwork.
+10 [ ] Cart Revolution - Merchant, rented cart, melee loadout and living target.
+       Look for the original burst; existing cost/damage/knockback stay unchanged.
+11 [ ] Cart style1 - Fast preview OR free Cart Stylist service in Prontera.
+12 [ ] Cart style2 - Same. These preview styles match the original collected art.
+13 [ ] Cart style3 - Same.
+14 [ ] Cart style4 - Same.
+15 [ ] Cart style5 - Same.
+16 [ ] Air: Fire Bolt - NEW falling fire-texture volley over the target, followed
+       by impact. Volley count follows learned rank, capped at10 visually.
+17 [ ] Air: Cold Bolt - NEW falling blue ice volley before its impact clip.
+18 [ ] Air: Lightning Bolt - NEW descending blue/white streaks over the target.
+
+Entries01-10 sample the supplied original STR timelines at15Hz. Entries16-18
+are prototype airborne paths composed from received original textures, not
+imports of the original client's complete bolt model/effect system. Hit/resource
+logic and numerical timing are unchanged; visual travel/impact timing is a
+prototype approximation. There is a shared24-instance visual cap.
+
+CART TEST ROUTE
+Use Merchant class preset; rent a cart from the existing supplies merchant.
+The third visible NPC near the Prontera starting area is now the Cart Stylist,
+48worldunits from the centre along the other street axis, between/beyond the two
+existing service NPCs. Three gold minimap service markers are shown.
+Approach the third NPC and press A. Choose any of five styles for free and B to
+leave. This test service bypasses level/SP restrictions; the normal Change Cart
+skill keeps its existing level requirements (41/66/81/91 for higher styles).
+Check stillness, movement, stop/start, all camera angles/zooms and all styles.
+Idle must not bounce. Wheels should stay at the projected ground contact, with
+a24-unit gap behind the player. Cart depth is sorted with characters.
+
+OTHER TESTS
+- Toggle Tooltips OFF, press Select, navigate windows and sit/stand: no optional
+  control/sitting/hover tips. Action responses/errors still use the bottom dock.
+- Toggle Tooltips ON: all transient captions share ONE bottom area, including
+  when a window is retained open. Long captions page every2s rather than stack.
+- All eight yellow target-corner strokes: complete, bottom sides rise, about
+  one-third thinner. HP bar is unchanged. Check different enemies/camera/zoom.
+- No LVL UP square: holding LB/RB must not open Stats/Skills; quick actions still
+  fire on release. With a visible level-up square, its hold shortcut should work.
+- Tap START: normal Game menu. Hold START0.6s: Testing page directly. The world
+  pauses immediately; the Game page is not flashed first while holding.
+- Skill checks > ranged-hit test: A resumes play and arms a20raw physical hit
+  after ONE gameplay second. Pausing/menus suspend the countdown. Coat/Pneuma/
+  existing protection still apply. Map travel or knockout cancels the test.
+
+Please report effect size/position, missing layers, brightness, timing, cart
+occlusion, FPS/free RAM and any issue by entry number. Host/native checks do not
+replace your xemu testing; no emulator/hardware results are claimed for Test40.
