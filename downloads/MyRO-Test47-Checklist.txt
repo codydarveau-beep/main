@@ -1,0 +1,25 @@
+TEST47 CHECKLIST
+
+1. Load your Test46 character. Confirm this update retains the character/location
+   and that restarting Test47 also restores the state. No intentional save reset.
+2. Visit the missing chunks in Payon Cave3 and other affected areas. All original
+   triangles are restored; ignore the faint void lines for now.
+3. Check LVL UP/Hold, ordinary/yellow damage, Miss and critical hits for corruption.
+   Check First Aid's new medical-cross symbol.
+4. Check class/levels and BASE/JOB EXP alignment in Basic Info.
+5. Inventory: only owned stacks, actual icons, no empty0x catalog entries. Consume
+   the last potion, equip/remove items, bind an item and confirm selection stays
+   consistent. Long selected item names should stay inside their field and be bold.
+6. Equipment: headers remain visible with gear equipped; empty slots say (empty).
+   Smaller player portrait remains centered. Check the clearer Status metrics.
+7. R3 nearest, X farther and Y nearer on a crowded field, including distant visible
+   enemies. A still approaches/attacks. Check the exact name tag (no !!), the two
+   white HP lines above the bar, and the absence of the old top-screen enemy box.
+8. Check the lighter Quicken body tint; the trails should retain their appearance.
+   Successful-cast circle and Horong should look exactly as accepted in Test46.
+9. Retest the Izlude stall/counter and other large props. Also test stairs, bridges,
+   portals and NPC access so extra clearance does not obstruct travel.
+10. Continue FPS/RAM observations. Current-map/current-character streaming is kept.
+
+Remaining distinct spell/air/geometry effects are still follow-up work, not
+claimed complete by this UI/collision review patch.
