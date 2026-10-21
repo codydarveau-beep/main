@@ -1,0 +1,86 @@
+{
+  "build": "MyRO Test43",
+  "manifest": {
+    "format": 1,
+    "fromVersion": 42,
+    "toVersion": 43,
+    "baseBytes": 33030144,
+    "baseSHA256": "fc61580fc1baa7f877ebc909af0a57dd8d8f5dab8ecc72ce1f054d959088b964",
+    "targetBytes": 61603840,
+    "targetSHA256": "44aae766f2c682355b44000a4c771fe1bfdcfb7f5b1402e8b22054960925f89c",
+    "payloadBytes": 36850729,
+    "payloadSHA256": "dfbf007a032bfe435c1775323874d3757440be75b35591548294c579d03703aa",
+    "operations": [
+      {
+        "source": "payload",
+        "offset": 0,
+        "length": 9848832
+      },
+      {
+        "source": "baseline",
+        "offset": 8239104,
+        "length": 1856646
+      },
+      {
+        "source": "payload",
+        "offset": 9848832,
+        "length": 213882
+      },
+      {
+        "source": "baseline",
+        "offset": 10096640,
+        "length": 22896465
+      },
+      {
+        "source": "payload",
+        "offset": 10062714,
+        "length": 26788015
+      }
+    ],
+    "files": {
+      "default.xbe": {
+        "bytes": 9306112,
+        "sha256": "e3d8cc902f292e4f327915a9dfc735aa7aed99102f2c04c1031f3d7c08085a36"
+      },
+      "actors.bin": {
+        "bytes": 2069673,
+        "sha256": "8c9a0db0aeae900c54a35d60d2466cf655e72cad3eb94abcc1eaedab660ede9f"
+      },
+      "world.bin": {
+        "bytes": 49646520,
+        "sha256": "5044852dd681d9586dd51f809393f942cafe11eefd04b1dbac2a96fc031c16e1"
+      }
+    }
+  },
+  "new_maps": 11,
+  "map_count": 18,
+  "enemy_species": 50,
+  "new_enemy_species": 32,
+  "new_second_job_skills": 20,
+  "classes": [
+    "Knight",
+    "High Wizard"
+  ],
+  "base_cap": 99,
+  "Knight_job_cap": 50,
+  "High_Wizard_job_cap": 70,
+  "default_walk_percent": 84,
+  "hit_sound_delay_ms": 20,
+  "cart_distance": 13,
+  "circle_diameter_range": [
+    16,
+    56
+  ],
+  "circle_diameter_default": 32,
+  "save_namespace": "Save43",
+  "xbe_bytes": 9306112,
+  "xbe_image_memory_bytes": 9388308,
+  "host_suites": 16,
+  "hud_cases": 722,
+  "unrun": [
+    "xemu",
+    "original Xbox",
+    "runtime FPS/free RAM",
+    "Windows GUI/CMD"
+  ]
+}

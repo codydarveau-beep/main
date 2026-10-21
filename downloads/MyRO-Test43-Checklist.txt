@@ -1,0 +1,72 @@
+MYRO TEST43 - FOCUSED EXPEDITION / CLASS CHECKLIST
+
+1. Apply to Test42, mount the new ISO and reset. Confirm the Test43 title.
+   A fresh character is expected. Set your desired popup/tooltip toggles.
+2. Hold START > Testing > Developer testing tools > Class presets (LB/RB).
+   Try Knight and High Wizard. Both should be level99, with job50/70 respectively.
+   Use Select > Skills > class page to assign other skills to either bar/quick slot.
+3. Explore main South Field southern exit ->moc_fild01 ->moc_fild02 ->moc_fild03
+   ->pay_fild01 ->Payon ->Archer Village ->Payon Cave1..5. Check return journeys.
+   Floor5 entrance selects one of four source arrival points. Each room has an exit.
+   Test travel offers all18 maps in a scrolling list.
+4. Fight new families: Skeleton/Archer Skeleton/Zombie, Munak/Bongun/Sohee,
+   familiar/drainliar, Whisper, Nine Tail and the stronger lower-floor enemies.
+   Eddga/Moonlight and source boss variants have basic prototype combat, not
+   complete MVP skills. Some new basic ranged hits currently have no projectile.
+5. Save/load in new fields, Payon and a cave with both classes; check equipment,
+   skills and popup preferences. Travel repeatedly while watching FPS/free RAM.
+   Check Payon town and then several field/cave transitions for lasting RAM loss.
+6. Open Select during a fight/cast: enemies, casts and timers continue. Navigation
+   must not walk the player. START must freeze simulation. Auto-attack survives Select.
+7. Tune Player build > Cast circle diameter; report your preferred number.
+   Check slower rotation/longer hold, connected raised blue ring and cyan shimmer.
+   Cast bar: uniform black ticks including equal-sized blue end segments.
+
+KNIGHT - NEW SKILLS
+- Two-Hand Quicken: use supplied two-handed sword; faster basic swings, timed buff.
+- Auto Counter: brief guard; next close physical hit is countered. Direction and
+  exact RO counter rules are simplified. Does not counter ranged basic shots.
+- Bowling Bash: two-hit melee splash + small knockback. No authentic gutter/
+  chain-collision algorithm; sword requirement, source SP/rank/cast values imported.
+- Charge Attack: closes along legal steps and hits; path/scaling are simplified.
+Inherited Swordsman skills remain available. No spear/riding skills this build.
+
+HIGH WIZARD - NEW SKILLS
+- Fire Pillar: persistent prototype fire zone. Rank6+ requires Blue Gemstone.
+- Sightrasher: use Sight first; self fire splash consumes Sight.
+- Meteor Storm: cast then repeated fire impacts in a zone; prototype uniform area.
+- Jupitel Thunder: wind multi-hit and knockback. Visual/sound hit display bounded.
+- Lord of Vermilion: repeated wind zone; simplified hit/area presentation.
+- Water Ball: water multi-hit; requires actual walkable shallow water. Testing's
+  Skill checks water tool can find a spot on existing wet maps.
+- Frost Nova: self water splash and freeze chance on eligible enemies.
+- Storm Gust: water pulses; eligible survivors freeze every third pulse.
+- Earth Spike: targeted earth multi-hit. Heaven's Drive is also available.
+- Quagmire: persistent non-boss slow zone; full AGI/DEX/status interactions deferred.
+- Sense/Estimation: selected enemy HP, DEF and MDEF inspection message.
+- Sight Blaster: one close-hit retaliation; timing/trigger is a prototype.
+- Soul Drain (passive): maxSP +2%/rank; simplified magic-kill SP restoration.
+- Magic Crasher: magic-powered physical strike using prototype defence calculation.
+- Mystical Amplification: buffs the next new damaging Wizard spell; current prototype
+  does not apply to every inherited Mage spell/channel interaction.
+- Napalm Vulcan: ghost splash multi-hit; damage split/curse rules incomplete.
+Mage skills remain available. Ice Wall, Ganbantein and Gravitational Field deferred.
+
+EFFECTS / ART TO TEST
+- Original Knight and High Wizard standing/walking/attack/cast/hurt/death bodies,
+  with measured standing foot offsets and20 original new skill icons.
+- New skill feedback deliberately reuses existing fire/water/wind/stone/impact/
+  Coat clips and procedural circles. This is NOT20 new original skill animations.
+- Fire Pillar/Meteor use existing fire hit; Jupitel/Vermilion wind hit; Frost Nova/
+  Storm Gust/Water Ball freeze art; Bowling/Charge impact; Amplification Coat-like
+  burst; Napalm Vulcan existing curse/ghost-style burst. Persistent field art is
+  not a full original effect player. Other new skill artwork is still unfinished.
+Do not repeat every accepted first-job effect test unless you notice a regression.
+
+KNOWN PROTOTYPE LIMITS
+All source enemy types/spawn rows included, but only catalog-supported loot and
+basic AI/ranges. Appended enemy elemental tier scaling uses prototype rates;
+full monster skill/MVP/status mechanics are not claimed. First-job scenery and
+camera/zoom controls are preserved. New-map partial-opacity models follow the
+existing scenery converter's exclusion rule; eleven cave5 cobweb placements are
+excluded. New maps currently reuse existing field/town music tracks.
