@@ -7,8 +7,9 @@ Do not modify/rebuild42. This supersedes previous43/next-batch plans.
 
 Required input / prepared deliverable
 /workspace/myro/asset-request43/Payon-Expansion/Collect-Payon-Assets.cmd
-Read-only Windows collector prompts for client data.grf root and Hercules root
-containing npc/pre-re/{warps,mobs} and db/pre-re/mob_db.conf. Uses real source warp
+Read-only Windows collector uses the known client root (client picker fallback)
+and automatically finds the server gameplay root near it and under MyRO. No
+server-folder picker. Validates npc/pre-re/{warps,mobs} and db/pre-re/mob_db.conf. Uses real source warp
 graph, shortest connected overland route from existing7 maps to Payon, then
 Archer Village/pay_arche and pay_dun00..04. No guessed portal coordinates.
 Only selected map GAT/GND/RSW + recursively referenced terrain/model textures and
