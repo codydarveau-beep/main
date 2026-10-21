@@ -1,0 +1,26 @@
+TEST44 - FOCUSED XEMU CHECKLIST
+
+1. Apply to exact Test43 ISO, mount new image, reset. Confirm fresh start,
+   then select Knight/High Wizard preset and reapply preferred options.
+2. South Field main southern portal -> Morroc Border. Confirm title appears,
+   gameplay resumes, and save/restart on the new map succeeds. Continue through
+   all18 maps via test travel if convenient. Main source exit is near233,16;
+   the side exit near55,21 remains on a disconnected original terrain patch.
+3. Confirm red unbuilt-destination portals cannot travel. Existing18map routes
+   remain active; a red portal is not an instruction to enter missing scenery.
+4. Recovery check: save on a new map, reset while holding B through initial
+   loading, confirm same character loads at South Field camp instead.
+5. Knight full8488HP: numbers clear the bars; BASE/JOB EXP labels align better.
+6. South Field minimap: confirm horizontal orientation matches expected north
+   alignment; player and portal markers track their mirrored map locations.
+7. Izlude southern ramp/bridge: approach from town, walk through the reported
+   sinking spot both directions, then try bridge edges and other bridges.
+8. Merchant icons: Enlarge Weight Limit, Push Cart, Change Cart are distinct
+   original icons, including their skill-list/hotbar appearances.
+9. Compare free RAM in Izlude/Payon before and after repeated travels and class
+   switches. Check all9 class presets, equipment variants and current-map enemy
+   animation; optional test species should be evicted when replaced/travelling.
+10. Confirm accepted hotbars, camera/zoom, spell visuals and live Select menu.
+
+No new effects or gameplay skills were added in this repair build. See the
+included Test43 feature checklist for Knight/High Wizard and Payon coverage.
