@@ -1,0 +1,54 @@
+TEST45 FOCUSED CHECKLIST
+
+Skills / UI / persistence
+[ ] Highlight a learned active skill: White lowers / Black raises its use rank.
+    Confirm SP cost, cast time and power change without unlearning ranks.
+[ ] Diagnostics toggle persists through travel, save/load and Select windows.
+    R3 closes windows without switching diagnostics.
+[ ] Increase AGI, Blessing, Energy Coat and Quicken retain remaining time on travel.
+[ ] Random Teleport commits with A on both older and Payon-region maps.
+[ ] Soul Drain / High Wizard HP and SP remain consistent after travel/load.
+[ ] Test 100% default walking and retained walking slider.
+
+World / enemies
+[ ] All 18 maps and minimaps agree; Cave 1 entry upper-left, exit lower-right.
+[ ] Sograt bridges and Payon upper stairs are walkable; Izlude stays correct.
+[ ] Check cave mushroom/torch contact and original minimap detail.
+[ ] Moving enemies no longer rapidly alternate facing at diagonal/home boundaries.
+[ ] Target cycling favors attackers, their lowest HP, then nearest other targets.
+[ ] Skeleton Archer winds up, launches a visible arrow, then applies impact damage.
+[ ] Willow / Elder Willow death fades and Zombie attack/vomit frame sequence.
+
+Changed effects - test individually
+[ ] Knight Katana: original two-handed body/weapon frames throughout swing.
+[ ] Two-Hand Quicken: buff icon, yellow tint, fading pose trails walking/attacking.
+[ ] Auto Berserk: warm red tint only while its existing low-HP condition is active.
+[ ] Jupitel Thunder: original lightning-ball texture travels, followed by staggered
+    wind hits and collision-checked knockback, including a killing hit.
+[ ] Lord of Vermilion: restored original large thunderstorm STR used by the earlier
+    LoV-looking Thunder Storm. Thunder Storm retains its smaller bolt treatment.
+[ ] Storm Gust: original stormgust STR snow/blizzard plus enemy freeze feedback.
+[ ] Quagmire: original quagmire STR bubbles over a prototype mud-colored ground patch.
+[ ] Fire Pillar: waiting trap, one-shot original intro, then source flame stack and
+    original explosion on trigger. Vertical flame assembly is a prototype, not a
+    complete original client 3D pillar renderer.
+[ ] Earth Spike / Heaven's Drive: original earth-hit/debris with prototype rising
+    stone geometry. Original client spike models are not integrated.
+[ ] Bowling Bash: original bowling STR distinct from Charge Attack's body animation.
+[ ] Magnum Break: one-shot source explosion rather than a looping Fire Pillar orb.
+[ ] Successful cast circle: larger final size, thicker lines, much slower spin/flash,
+    same hold duration. Physical Knight actions do not produce this magic circle.
+[ ] AoE aiming uses each skill footprint; no obsolete dotted outer overlay.
+    Preserve the accepted continuous cyan raised ridge and shimmering interior.
+
+Regression: accepted blue cast bar, hotbars, bolt spells, Energy Coat, Holy Light,
+Fire Wall, movement/camera/extended zoom and existing services.
+
+REMAINING ART LIMITS
+Mandragora's original ground-tentacle effect is still missing; no status icon is
+used as a substitute. The returned geometry collector found scenery vine/root
+models, not verified original spell meshes. Two job4 RSM2 files were version 2.3
+and their dependencies could not be decoded by that collector. No unrelated
+scenery models were added as spells. Ice Wall's original 3D playback is not added
+in this build; the casting aura remains the existing prototype. Original sprite
+and STR playback does not imply full original client 3D effect support.
