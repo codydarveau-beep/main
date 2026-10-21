@@ -1,3 +1,7 @@
+IMPORTANT: Test47 has a startup assertion in its diagnostics math helper.
+Apply MyRO-Xbox-Test47a-Hotfix.zip before testing. It fixes that call and changes
+gameplay selection to X inward / Y outward / R3 nearest. See MyRO-Test47a-Readme.txt.
+
 MYRO TEST47 - TEST46 REVIEW FIXES
 
 Extract the whole ZIP. Run Apply-Update.cmd and select your Test46
