@@ -1,0 +1,30 @@
+MYRO TEST41 - FEEDBACK FIXES, SPELL VISUALS AND NOTIFICATION TOGGLES
+
+Extract the entire ZIP. Run Apply-Update.cmd and select your exact working
+Test40 MyRO-Current.iso. The updater verifies it, builds/verifies the Test41
+MyRO-Current.iso and retains the original input safely. Load the resulting ISO
+in xemu and reset. Do not select a ZIP or the xemu hard-drive image.
+Full current source is in Source/. No rollback bundle is included.
+
+THIS BUILD
+- START > Game > Toggles and pop-ups..., or the Toggles category: separate text
+  switches for Damage, EXP/level-up, Loot, Skills/status, Items/services, System
+  and overhead Spell names. Damage text defaults OFF. Floating numbers remain.
+- Default walking84%; adjustment tool retained. New numbered Cart distance tool
+  in Developer > Player,0..32, default12, session-only. Report preferred number.
+- Developer > Practice > Behaviour toggles Idle/Active to test Fire Wall.
+- Steady formed ice while frozen, Fire Ball flight, smaller Thunder Storm bolts,
+  shimmering circular aiming points, casting aura and shrinking spell circle.
+- Half-second cast-bar dividers, padded breathing target corners, larger Zeny/
+  Weight summary, Cart Revolution spin and most-recent-window R3 closing.
+The accepted hotbar layout, camera and extended zoom remain unchanged.
+
+SAVE NOTES
+Test characters start fresh under E:\MyROOffline\Save22. Previous save slots
+are untouched. Pop-up preferences and Tooltips are saved with the character.
+No migration work is included; existing test characters are disposable.
+
+See EFFECT-CHECKLIST.txt for all21 artwork previews, real-skill triggers,
+prototype limits and other tests. See VALIDATION.txt for checks and unrun tests.
+No new asset request is needed for this batch. No runtime performance claim is
+made: please test graphics, FPS/free RAM and the adjustable cart spacing.
