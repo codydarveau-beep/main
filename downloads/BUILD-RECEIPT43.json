@@ -7,9 +7,9 @@
     "baseBytes": 33030144,
     "baseSHA256": "fc61580fc1baa7f877ebc909af0a57dd8d8f5dab8ecc72ce1f054d959088b964",
     "targetBytes": 61603840,
-    "targetSHA256": "44aae766f2c682355b44000a4c771fe1bfdcfb7f5b1402e8b22054960925f89c",
+    "targetSHA256": "290f59709722a2af6ed1e658d9c05f2be9076f849d6c38c6897e30a6935424b0",
     "payloadBytes": 36850729,
-    "payloadSHA256": "dfbf007a032bfe435c1775323874d3757440be75b35591548294c579d03703aa",
+    "payloadSHA256": "d9b5c588b3673df9afe7e4a60bc79b9d3aecb5ecec085bcc0af8747d93a1a597",
     "operations": [
       {
         "source": "payload",
@@ -40,7 +40,7 @@
     "files": {
       "default.xbe": {
         "bytes": 9306112,
-        "sha256": "e3d8cc902f292e4f327915a9dfc735aa7aed99102f2c04c1031f3d7c08085a36"
+        "sha256": "d9657f34bcbf78b1abf75d0a13aa0cf250a9046b3679b0ef004e79ff7716d8c1"
       },
       "actors.bin": {
         "bytes": 2069673,
