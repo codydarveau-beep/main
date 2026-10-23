@@ -1,0 +1,22 @@
+{
+  "isoSHA256": "16929391ffcf555e49166379bfbc68b2eb1cb3c40dbe3802c8f7da1a1cf7348b",
+  "files": [
+    {
+      "file": "MyRO-Xbox-Test50-Update.zip",
+      "bytes": 21533815,
+      "sha256": "4da968cc0268fbe242efbdb43e8955c7425cfcffab3f516d1fa3964e903d7e17"
+    },
+    {
+      "file": "MyRO-Xbox-Test50-Source.zip",
+      "bytes": 22868298,
+      "sha256": "60cffd0b2c197ffcbbf2a584591c2749a75f76bfb32d9bd1c05b0ccf79d738fb"
+    }
+  ],
+  "validation": {
+    "suites": 55,
+    "hudCases": 1629,
+    "peakQuads": 718,
+    "nativeXboxBuild": true,
+    "hardwareTest": false
+  }
+}
