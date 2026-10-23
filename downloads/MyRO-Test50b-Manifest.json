@@ -1,0 +1,26 @@
+{
+  "version": "50b",
+  "isoSHA256": "9052f8defc93281a4e5e78dec9e17623038383e924c8cba7ed78302c45217d52",
+  "files": [
+    {
+      "file": "MyRO-Xbox-Test50b-Update.zip",
+      "bytes": 2680395,
+      "sha256": "2ab00f5018f8b7ec70a7e3a74f1a1150d8c0d560f12b4100679ccb6155e79e3b"
+    },
+    {
+      "file": "MyRO-Xbox-Test50b-Source.zip",
+      "bytes": 22927642,
+      "sha256": "77ba54170863c68a821761a7dc6bae2b5b7297f1e4bcef44ea803d17e687bdc2"
+    }
+  ],
+  "validation": {
+    "asan_ubsan_suites": 63,
+    "hud_cases": 1642,
+    "peak_hud_quads": 719,
+    "native_xbox_build": true,
+    "nxdk_unsupported_math_guard": true,
+    "stackReserve": 131072,
+    "autosaveStackBytes": 59964,
+    "hardwareTest": false
+  }
+}
