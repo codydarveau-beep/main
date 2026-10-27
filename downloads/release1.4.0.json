@@ -1,10 +1,10 @@
 {
   "version": "1.4.0",
   "package": "MyRO-1.4.0-Update.zip",
-  "bytes": 5894931,
-  "sha256": "fe30e7b19832bd7d3be61d254fd2184622ac5cca144b8cfeca084b7de38a5a65",
+  "bytes": 5894942,
+  "sha256": "2a7b4cf2cae51f9ffba7d316cc4935c2300c5571deafc975dda4e3c1f66b1d9a",
   "targetBytes": 1667694592,
-  "targetSHA256": "a244ab2df8e447ca05ac8c0bc1843882a51782d9203e7667bf79ff59aeab22e1",
+  "targetSHA256": "159c55792ed67b144ece4e7928132cf74a0aeec9b24cc57c9f6eb259ab539bfd",
   "baselines": [
     {
       "version": "1.3.0",
@@ -23,7 +23,7 @@
     },
     "default.xbe": {
       "bytes": 10412032,
-      "sha256": "585ad6a38f4ccd23e1ada1d3c4754dee100fbd588bd5eafed23898b2022b20c7"
+      "sha256": "1ba5148700099e76afca9e87ac1e6c3dbdcc4645815154e286f2f73a62d2ba3e"
     },
     "actors.bin": {
       "bytes": 121719800,
