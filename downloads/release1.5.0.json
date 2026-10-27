@@ -1,0 +1,57 @@
+{
+  "version": "1.5.0",
+  "package": "MyRO-1.5.0-Update.zip",
+  "bytes": 8273005,
+  "sha256": "ac141f0290253b094b1184f0d2415c3e967b4961bb21565905e5e62e4078d09b",
+  "targetBytes": 1670119424,
+  "targetSHA256": "db23798ad49cc5fb2cb2cc4e8041a85aed5ea05f1646e543768f92f2400af286",
+  "baselines": [
+    {
+      "version": "1.4.0",
+      "bytes": 1667694592,
+      "sha256": "159c55792ed67b144ece4e7928132cf74a0aeec9b24cc57c9f6eb259ab539bfd"
+    }
+  ],
+  "files": {
+    "scripts.bin": {
+      "bytes": 16502454,
+      "sha256": "ec438d7aba0ebf6feaf1f0a752d4724cdbc8b7e3a303125f26306ccaee41cdc5"
+    },
+    "enemies.bin": {
+      "bytes": 193015978,
+      "sha256": "64da31ff155d7d850bd268b42edefa858f34896452845bbc626afbf5ced9d402"
+    },
+    "default.xbe": {
+      "bytes": 10448896,
+      "sha256": "f993cea26d35ecf3f575640aaf3953310355f03cc4e239eb5a8b9031eb688f3f"
+    },
+    "actors.bin": {
+      "bytes": 121719800,
+      "sha256": "38f384cb4c4517e08fa4aa81e3203cf059ed0474b141c983adebd56a15ae05db"
+    },
+    "effects.bin": {
+      "bytes": 2696346,
+      "sha256": "fef21dbe9e181d16b5c41279d9d4dd3272c6a452315dd19128526cec6434bf59"
+    },
+    "music.bin": {
+      "bytes": 115751520,
+      "sha256": "65cbdd174c5fe333630bc1d980c13f85d8df89c6767b4774bce60ef27e7df735"
+    },
+    "itemicons.bin": {
+      "bytes": 2400882,
+      "sha256": "069a58ffcf6898fdf4bede61a365cc0a03bb7fcfc7234a6a78df15e528e66c3d"
+    },
+    "npcs.bin": {
+      "bytes": 13591609,
+      "sha256": "db0e32ab260973fed5ee2f8c26b64cd6be3d046ab99447cca4daeaebe7c05deb"
+    },
+    "systems.bin": {
+      "bytes": 19324342,
+      "sha256": "b302515bcc528a0470c0199a866926dc0ad0d2c8f9b8eaa1b67ff50a3fd94bff"
+    },
+    "world.bin": {
+      "bytes": 1174064552,
+      "sha256": "1bf2b039bf69c2f99108ec0d83e896383d291e3e40998c56aab21a0562dd4d95"
+    }
+  }
+}
