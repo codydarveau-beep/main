@@ -1,0 +1,23 @@
+MyRO v1.7.0
+Apply to the released 1.6.3 ISO using Apply-Update.cmd. Select your existing 1.6.3 game ISO; the updater verifies it, keeps a backup and builds MyRO-Current.iso. Upload/mount the rebuilt game using your usual method. This is an original-Xbox build, also usable in xemu. Game saves are not edited by the updater.
+
+Included completed work:
+- Quest window and per-character quest tracking, using original quest text and available objective counters. The window replaces Status at the left; Status moves to the middle. The closed-window tracker hides while the quest window is open.
+- Additional original solo quest, skill-quest, crafting, city, museum, information and service NPCs. Includes authentic First Aid, Shrink quest access, Hugel missing-person room, original hair services and airport staff.
+- Original single/dual Hugel monster races and ticket/medal conversations, the airship typing challenge, and Gonryun's original strength-test/500z solo monster arena. Gonryun offers all65 source monsters with its original3minute limit.
+- All MVP maximum HP reduced to20% and outgoing damage to50%; normal monsters, boss rewards and respawn rules retained.
+- Guardian sprite artwork preserved from1.6.3, with attack cadence/animation synchronization adjustments and directional arrow artwork for Bow Guardians. Original3D mode remains available.
+- Storm Gust freeze/knockback and overlapping-hit handling; Lord of Vermillion waves/hit interruption and status corrections. Shared freeze/stun resistance fixes and corrected SP costs for affected skills.
+- Developer Rates page with globally saved EXP/drop multipliers. Normal cards/equipment default2x; EXP retains level-based scaling and drops stay flat.
+- Fixed zoom choices: Closest48, Furthest16, Starting36. Temporary Display submenu removed; Always Show Quests is in Video. Original portals remain enabled.
+- Narrower Basic Info, compass clearance/decoration and message-description spacing fixes. Expanded/Super Novice facing/walk-cadence adjustments.
+- Bounded enemy frame caches reduce repeated frame-file reads without changing artwork. Actual console FPS gains still require play testing.
+
+Deferred to1.7.1:
+- Remaining solo NPC coverage/branch review and any dependent unfinished services.
+- NPC portrait/cutin, emotion and special-effect rendering that is not yet complete.
+- Further all-skill behavior/animation review beyond the completed corrections.
+- Proposed off-screen monster activation/sleep policy and further performance work.
+- Story campaign/companions remain a separate future project; party/guild/WoE/online services remain excluded.
+
+Validation: native Xbox compilation; exact rebuilt-ISO/file hashes and updater safety tests; targeted quest/service/arena/race, combat, preferences, sprite/data and journal regressions. These are targeted checks, not certification of every original quest branch. New version has not been physically tested on an Xbox by the developer; player hardware testing remains necessary.
