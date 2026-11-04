@@ -1,0 +1,68 @@
+{
+  "version": "1.7.1",
+  "package": "MyRO-1.7.1-Update.zip",
+  "bytes": 8977843,
+  "sha256": "b0a631837e8b2cfd1402ba05329106ba9ada14f53ceb66af1296e20c01ab13dc",
+  "targetBytes": 1801125888,
+  "targetSHA256": "7e9064eee285ab37e8d35ca9d9647771f5d285a2a29d694d8109affa9765eb57",
+  "baselines": [
+    {
+      "version": "1.7.0",
+      "bytes": 1798307840,
+      "sha256": "8796d4550ffe50f3e5da25e7c3a26a1f578c866c4e711d4a0e96e02d6ec8982a"
+    }
+  ],
+  "files": {
+    "scripts.bin": {
+      "bytes": 16778501,
+      "sha256": "f1add851b2ab26d2dd75ff44a28f9540afa7d7ce17a0e3d8497e73b08373478d"
+    },
+    "enemies.bin": {
+      "bytes": 286158172,
+      "sha256": "a1bf8dc7d66120993959ea35fbe35a438eb7dc756412d41542db15acef23740b"
+    },
+    "default.xbe": {
+      "bytes": 11800576,
+      "sha256": "339b17fa4dd276a866317c85b03ab174e2f11556089996f35c62f580016fd4f8"
+    },
+    "actors.bin": {
+      "bytes": 121719800,
+      "sha256": "38f384cb4c4517e08fa4aa81e3203cf059ed0474b141c983adebd56a15ae05db"
+    },
+    "effects.bin": {
+      "bytes": 2696346,
+      "sha256": "fef21dbe9e181d16b5c41279d9d4dd3272c6a452315dd19128526cec6434bf59"
+    },
+    "music.bin": {
+      "bytes": 115751520,
+      "sha256": "65cbdd174c5fe333630bc1d980c13f85d8df89c6767b4774bce60ef27e7df735"
+    },
+    "itemicons.bin": {
+      "bytes": 2400882,
+      "sha256": "069a58ffcf6898fdf4bede61a365cc0a03bb7fcfc7234a6a78df15e528e66c3d"
+    },
+    "npcs.bin": {
+      "bytes": 14462259,
+      "sha256": "1c99b38d8afdab3ae3a9fe312f031cca41babc3a97b6ec9e4464fe7e92140b53"
+    },
+    "systems.bin": {
+      "bytes": 19324342,
+      "sha256": "b302515bcc528a0470c0199a866926dc0ad0d2c8f9b8eaa1b67ff50a3fd94bff"
+    },
+    "world.bin": {
+      "bytes": 1209460504,
+      "sha256": "7ef72495b67bc160a0ccbb3051a4299cfc5a37aa755c58eba475c327044feb44"
+    }
+  },
+  "scope": "RAM/load-time pressure and source-verified traversal fix; NPC feature work parked",
+  "validation": [
+    "Native Xbox executable and ISO",
+    "494maps/1976sections exact pixel/geometry/metadata parity and sanitizers",
+    "50originalmonster species/2558frames exact art/animation data parity and sanitizers",
+    "494map movement comparison;8837verifiedbidirectionalseams;blockedcellsretained",
+    "Bounded1MiBeffectsLRU and pinned-program eviction tests",
+    "11targetedcombat/quest/job/data/preference regressions",
+    "ShippedPowerShell updater exactISO/all10files,backup/receipt,idempotence,corruptpayload/wrongbaseline rejection"
+  ],
+  "physicalXboxTested": false
+}

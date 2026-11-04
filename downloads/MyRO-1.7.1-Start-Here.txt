@@ -1,0 +1,29 @@
+MyRO v1.7.1 - RAM and traversal fix
+
+Apply to the released1.7.0 ISO with Apply-Update.cmd. The usual updater verifies your original, retains its backup and builds MyRO-Current.iso. Transfer/mount the rebuilt game as usual. Character saves are not modified by this updater.
+
+RAM and loading:
+- Terrain/scenery textures and geometry now decompress directly into their final graphics buffers with fixed96KiB IO workspace. Large complete temporary copies are removed. Exact existing pixels, coordinates, UVs and formats are preserved; Brasilis's existing pavement filter is retained.
+- Large scenery textures are reserved before smaller map allocations, reducing pressure on contiguous graphics memory. Empty scenery no longer allocates an unused atlas.
+- Original50 monster types now stream exact animation frames rather than retaining complete decompressed animations. Their original colors, crop pixels, anchors, sequences and timings are preserved. This extends streaming to older monsters such as Giant Whisper and Wild Rose; newer monsters already streamed.
+- Actor textures allocate when drawn rather than eagerly reserving up to34full64KiB buffers per map.
+- Field and targeting-ring opacity variants share a bounded1MiB graphics cache. Images are rebuilt as needed with unchanged pixels. This replaces growth across many texture/opacity combinations during play.
+- Idle NPC pose/art caches and unpinned script programs are reclaimed during area/class changes. Running script call frames remain pinned.
+- Monster frame caches reduce their budgets under low available RAM. These changes apply globally, not specifically to Thor3.
+
+Traversal:
+- Audited494maps with actual collision and movement code. Added8,596source-verified walkable stair/height transitions across128maps, retaining241previous fixes (8,837total).
+- Pyramid04's1,632identified false height rejections are resolved, including the reported ring area. Both cells must be source-walkable and source/rendered floor heights must agree for these additions.
+- Original blocked cells and solid-object/footprint checks are retained. Unverified discrepancies remain blocked for further investigation; automated checks cannot establish that every visually apparent passage is intended to be walkable.
+
+Validation:
+- Native original-Xbox executable/ISO build.
+- All494maps/1,976streamed sections compared byte-for-byte with existing terrain, scenery, geometry and metadata; CRC/short-read and memory-sanitizer checks.
+- All50original monster species/2,558frames compared with accepted images and animation data; memory-sanitizer checks.
+- Full494map traversal comparison,8,837bidirectional verified seams and millions of blocked-source-cell checks.
+- Bounded effects cache/pinned-script cache and targeted combat, quest, job-route, data and preference regressions.
+- Packaged updater reconstruction, file hashes, backup/receipt, repeat-run and damaged-input rejection.
+
+These checks do not measure actual console free RAM/FPS. Please test Lighthalzen and Glast Heim Knight01, including repeated travel and casting, on your Xbox. The fixes should reduce pressure, but map-specific remaining problems require those hardware results.
+
+Other NPC implementation and portrait work are parked. The requested smaller NPC text windows/font cleanup are queued after this stability fix and are not mixed into this patch.
