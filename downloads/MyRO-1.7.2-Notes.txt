@@ -1,0 +1,16 @@
+MyRO v1.7.2
+Apply to the released 1.7.1 ISO with Apply-Update.cmd. The updater verifies the starting image, keeps a backup, and reconstructs MyRO-Current.iso. Upload or mount the rebuilt image using your usual method. This is an original-Xbox build, also usable in xemu. The updater does not edit game saves.
+
+Included:
+- Smaller NPC dialogue windows sized to their text; long pages retain scrolling. Answer lists wrap and stay clear of the dialogue panel.
+- Clear native 11px dialogue glyphs and spacing matched to Basic Info, including readable item/skill descriptions. Other font/atlas regions are unchanged.
+- 258original dialogue illustrations, including original quest/card pictures and hairstyle previews. A single optional portrait texture is loaded when requested and released afterward; low-memory situations skip the illustration safely.
+- Original emote animations with the correct emotion/action mapping; original SPR/ACT and STR NPC effects streamed as individual frames. Source placement and animation timing are retained in the bounded playback system.
+- 66additional original effect sound cues, sharing the existing 2 MiB streamed audio cache. Existing NPC audio and original-Xbox AC97 output remain intact.
+- Correct player, current-NPC and named-NPC targets, including the older named-emote syntax used by beauticians and quest NPCs.
+- Ordinary-monster OnTouchNPC events, mobattached and unitemote support with monster-lifetime checks. Includes Maheo's original reaction to nearby creatures.
+- The effect GPU pool now allocates slots only when drawn and releases them on map/class changes, removing its previous 2.5 MiB idle reservation. All 1.7.1 map-streaming, sprite-cache and traversal fixes are retained.
+
+Validation: native Xbox compilation; dialogue layout/font checks; all packed portrait/effect frame bounds and CRCs; actual effect upload/playback/cache tests; streamed sound-cache tests; Maheo's introduction, missing-item and complete reward/encounter branches; First Aid, skill/crafting/city/service/appearance/Kafra/journal/program-cache regressions; exact updater reconstruction and file hashes.
+
+Limits: these are targeted checks, not proof of every original quest branch or console performance. Some client-only procedural cosmetic effects still require dedicated renderers; source script handling and quest state do not depend on their display. Existing party, guild, WoE, online-economy and other unsupported system exclusions remain. This update does not claim all future NPC systems or the full skill audit are complete. Please test on the Xbox, especially previously tight-memory maps.
