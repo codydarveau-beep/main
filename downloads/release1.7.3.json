@@ -1,0 +1,65 @@
+{
+  "version": "1.7.3",
+  "package": "MyRO-1.7.3-Update.zip",
+  "bytes": 6481939,
+  "sha256": "00d464b70e9942dd1ec6896306e868b1d6e75196e990366f5c6b59ecf9d2267f",
+  "targetBytes": 1835139072,
+  "targetSHA256": "49211090b6c616ee9cbfd598e217d42ad4f8bbeffa9332cd0242c5097084ac42",
+  "baselines": [
+    {
+      "version": "1.7.2",
+      "bytes": 1835139072,
+      "sha256": "3def03ffd7e6bcb3a7175ecf87ce20571e35fa85a6f4aafaec80d19521d2b5f1"
+    }
+  ],
+  "files": {
+    "music.bin": {
+      "bytes": 115751520,
+      "sha256": "65cbdd174c5fe333630bc1d980c13f85d8df89c6767b4774bce60ef27e7df735"
+    },
+    "enemies.bin": {
+      "bytes": 286158172,
+      "sha256": "a1bf8dc7d66120993959ea35fbe35a438eb7dc756412d41542db15acef23740b"
+    },
+    "default.xbe": {
+      "bytes": 11984896,
+      "sha256": "d8cccce7b35436aeac55ff9beded514d5b95ab7059ec1a8cbf9a41477ebdd2ca"
+    },
+    "actors.bin": {
+      "bytes": 121719800,
+      "sha256": "38f384cb4c4517e08fa4aa81e3203cf059ed0474b141c983adebd56a15ae05db"
+    },
+    "effects.bin": {
+      "bytes": 2696346,
+      "sha256": "fef21dbe9e181d16b5c41279d9d4dd3272c6a452315dd19128526cec6434bf59"
+    },
+    "itemicons.bin": {
+      "bytes": 2400882,
+      "sha256": "069a58ffcf6898fdf4bede61a365cc0a03bb7fcfc7234a6a78df15e528e66c3d"
+    },
+    "scripts.bin": {
+      "bytes": 16778501,
+      "sha256": "f1add851b2ab26d2dd75ff44a28f9540afa7d7ce17a0e3d8497e73b08373478d"
+    },
+    "npcs.bin": {
+      "bytes": 14462259,
+      "sha256": "1c99b38d8afdab3ae3a9fe312f031cca41babc3a97b6ec9e4464fe7e92140b53"
+    },
+    "npcfx.bin": {
+      "bytes": 6345461,
+      "sha256": "920b54d26472fcafe9fc08d2b0877adf9c78ba03aaf0d28998825083858ff0fa"
+    },
+    "portraits.bin": {
+      "bytes": 27460634,
+      "sha256": "a81358e822738ef403242a42df3dbb0d2741e63146d0a5f623e5bf626a6b1cd7"
+    },
+    "systems.bin": {
+      "bytes": 19324342,
+      "sha256": "b302515bcc528a0470c0199a866926dc0ad0d2c8f9b8eaa1b67ff50a3fd94bff"
+    },
+    "world.bin": {
+      "bytes": 1209460504,
+      "sha256": "7ef72495b67bc160a0ccbb3051a4299cfc5a37aa755c58eba475c327044feb44"
+    }
+  }
+}
