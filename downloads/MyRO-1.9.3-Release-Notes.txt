@@ -1,0 +1,45 @@
+MYRO v1.9.3 — FOUR-CHAPTER STORY PREVIEW
+
+Extract the whole ZIP, run Apply-Update.cmd and select your released 1.9.0,
+1.9.1 or 1.9.2 ISO. The updater creates MyRO-Current.iso. Use your usual
+Xbox transfer or xemu process. Folder installs need ALL files from the new
+image, including campaign.bin, chapter1.bin and storyportraits.bin.
+Saves and settings use the normal E:\MyROOffline folder.
+
+STORY AND COMPANIONS
+Start a fresh Novice without Developer Mode to play the campaign. Finish the
+Training Grounds; the journal then guides you to the driver south of Prontera.
+The preview covers four chapters: Prontera, Payon/Alberta, Geffen/Izlude,
+and Morroc/Pyramids. It stops explicitly after Chapter 4. Story recruitment
+introduces Roan, Yuufa, Judia, Maya, Brann, Takius, Pip and Iruga. Recruitment
+can be postponed where offered. Up to three companions travel with you.
+Open Pause > Game > Companions for the roster, settings and controller guide.
+Only active, living nearby companions earn EXP; they have independent base
+and job levels, personality builds and story-gated job promotions. Reserve
+members do not gain EXP. Maya's Potion Pitcher consumes your Red Potions;
+her skill use starts OFF so you can choose whether to spend supplies.
+
+Developer Mode is a testing sandbox: the three humorous confirmation prompts
+convert a campaign character out of normal story progression. Keep your normal
+story character separate from your morphing developer test character.
+
+UI AND COMBAT
+Compact gold Main/silver Side quest groups; concise larger objectives, live
+collection/kill counters and fixed-position completion/failure markers.
+Use Y in the journal for full quest text, A to track or untrack.
+Larger damage and Miss art; critical burst fits its centered number.
+Centered larger equipment preview, compact icon/name fields and bold headers.
+Hotbar quantity backing; bold current HP/SP; status equals column.
+Hold X to add stats repeatedly. Developer items now have subtype menus/icons.
+Item hover descriptions no longer print raw metadata or split into extra boxes.
+Bash now plays the original cast/impact cues and effects, with actual damage
+and numbers delayed to the attack's impact. No additional assets required.
+
+VALIDATION
+Native nxdk Xbox build and host sanitizer checks, actual packed map placement
+renders, companion combat/growth/save tests and shipped PowerShell updater
+verification. Original Xbox gameplay, audio and CRT acceptance remain for
+hands-on testing; no hardware performance guarantee is implied.
+
+Version 2.0.0 remains reserved for the complete campaign. The guild-base
+upgrade/arcade proposal is not included in this preview.
