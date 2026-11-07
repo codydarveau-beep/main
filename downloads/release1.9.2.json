@@ -1,0 +1,77 @@
+{
+  "version": "1.9.2",
+  "package": "MyRO-1.9.2-Update.zip",
+  "bytes": 9698161,
+  "sha256": "f947a22bbdec4e9056d26dd21085a974fd57ec1c0a16b65e71abeac23021d58e",
+  "targetBytes": 1865351168,
+  "targetSHA256": "910ebcc0a8a1d9917e4c4003cfe141814047510c376a975a395bc22a288793a9",
+  "baselines": [
+    {
+      "version": "1.9.0",
+      "bytes": 1861484544,
+      "sha256": "00c093c47d17641f13de8176397835e6a0a1c373d7b397f63a02950c2854fbef"
+    }
+  ],
+  "files": {
+    "music.bin": {
+      "bytes": 115751520,
+      "sha256": "65cbdd174c5fe333630bc1d980c13f85d8df89c6767b4774bce60ef27e7df735"
+    },
+    "itemicons.bin": {
+      "bytes": 2400882,
+      "sha256": "069a58ffcf6898fdf4bede61a365cc0a03bb7fcfc7234a6a78df15e528e66c3d"
+    },
+    "effects.bin": {
+      "bytes": 5862889,
+      "sha256": "802332b7e3fdd4c8e5bf9052fc909e8711d919bf15f0191e796005de7526cff2"
+    },
+    "default.xbe": {
+      "bytes": 11972608,
+      "sha256": "b66064504edaed26cf4469694f1d8453c9ae913fe49b8b4f9146cf5b78f1cb15"
+    },
+    "actors.bin": {
+      "bytes": 122672695,
+      "sha256": "8f20b53a5363633a9f80c320da937b7f2286e7b489e677bc228424eb6f6882aa"
+    },
+    "enemies.bin": {
+      "bytes": 286158172,
+      "sha256": "a1bf8dc7d66120993959ea35fbe35a438eb7dc756412d41542db15acef23740b"
+    },
+    "minimaps.bin": {
+      "bytes": 3075787,
+      "sha256": "33c452c0c0a63c68e8d8ae8044d62198f3a66b8de7b32bb51147aeb0e02cfc09"
+    },
+    "mercenary.bin": {
+      "bytes": 789063,
+      "sha256": "acd335955f6d526d49c57cabacd35fc904e8d61cac0a806a776f9ca63912f6d3"
+    },
+    "scripts.bin": {
+      "bytes": 17353591,
+      "sha256": "a101e501cbc97b73b7268e0ba3a3f7361c2f3624416be51c6b5f6b1fe1fea93e"
+    },
+    "npcs.bin": {
+      "bytes": 14462259,
+      "sha256": "1c99b38d8afdab3ae3a9fe312f031cca41babc3a97b6ec9e4464fe7e92140b53"
+    },
+    "npcfx.bin": {
+      "bytes": 7075895,
+      "sha256": "1b16a7b49fe1932291abb43bbe1fadb28e8ce7035a00d4a5a1b9fa0a583ff8fb"
+    },
+    "portraits.bin": {
+      "bytes": 27460634,
+      "sha256": "a81358e822738ef403242a42df3dbb0d2741e63146d0a5f623e5bf626a6b1cd7"
+    },
+    "water.bin": {
+      "bytes": 20949665,
+      "sha256": "688cd30070a7b65fe78e14ccd9b6fd17637db0dd3c66338dfc5e725ac24ee126"
+    },
+    "systems.bin": {
+      "bytes": 19324342,
+      "sha256": "b302515bcc528a0470c0199a866926dc0ad0d2c8f9b8eaa1b67ff50a3fd94bff"
+    },
+    "world.bin": {
+      "bytes": 1209460504,
+      "sha256": "7ef72495b67bc160a0ccbb3051a4299cfc5a37aa755c58eba475c327044feb44"
+    }
+  }
+}
