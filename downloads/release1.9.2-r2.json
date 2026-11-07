@@ -1,0 +1,22 @@
+{
+  "version": "1.9.2",
+  "updaterRevision": 2,
+  "package": "MyRO-1.9.2-Update-r2.zip",
+  "bytes": 9698394,
+  "sha256": "1896c9490847b3bd66faa1c88b4a3d70ad3a7df8ce3a3f8eccdbaecc9a53a30f",
+  "targetBytes": 1865351168,
+  "targetSHA256": "910ebcc0a8a1d9917e4c4003cfe141814047510c376a975a395bc22a288793a9",
+  "gameUnchanged": true,
+  "baselines": [
+    {
+      "version": "1.9.0",
+      "bytes": 1861484544,
+      "sha256": "00c093c47d17641f13de8176397835e6a0a1c373d7b397f63a02950c2854fbef"
+    },
+    {
+      "version": "1.9.1",
+      "bytes": 1864564736,
+      "sha256": "f2dfdc8ebfed8e03e05ef879f595ba77352f709e32549ebf66e49ef62dcdebc9"
+    }
+  ]
+}
