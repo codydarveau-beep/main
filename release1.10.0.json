@@ -1,0 +1,106 @@
+{
+  "version": "1.10.0",
+  "package": "MyRO-1.10.0-Update.zip",
+  "bytes": 20418973,
+  "sha256": "66e40cda55adf906bda6142c743a112b3d9d547ba4a53967b18a728ea821c2b3",
+  "targetBytes": 1889075200,
+  "targetSHA256": "b6f4f9c5e8af271f40aaa8eaae5bcca5329ba29693c6ab65a40702261736e25e",
+  "baselines": [
+    {
+      "version": "1.9.3",
+      "bytes": 1871118336,
+      "sha256": "b4faef67d486de04c0c492bf1d5d7b8bd068565775fbefc82f21b02eefd01e9b"
+    }
+  ],
+  "files": {
+    "guildhall.bin": {
+      "bytes": 49904,
+      "sha256": "b063235975c43375b126fc9f0c8e69c97efcc304111edcf46789bf13b6016cc5"
+    },
+    "chapter1.bin": {
+      "bytes": 23717,
+      "sha256": "33814c0e591aa40928591cef8c44bc2ce63ddb74a79d21d3eee06a39f610915a"
+    },
+    "campaign.bin": {
+      "bytes": 14738055,
+      "sha256": "1dcafb171c4ecbad160b3358b1339a2c86f87451722db25c493d8b9df64aa0a0"
+    },
+    "actors.bin": {
+      "bytes": 122672695,
+      "sha256": "8f20b53a5363633a9f80c320da937b7f2286e7b489e677bc228424eb6f6882aa"
+    },
+    "effects.bin": {
+      "bytes": 5862889,
+      "sha256": "802332b7e3fdd4c8e5bf9052fc909e8711d919bf15f0191e796005de7526cff2"
+    },
+    "default.xbe": {
+      "bytes": 12386304,
+      "sha256": "9e2c14d9fda478453790093c685e2b012951c34966a0d164a3408d672d9f0809"
+    },
+    "enemies.bin": {
+      "bytes": 286158172,
+      "sha256": "a1bf8dc7d66120993959ea35fbe35a438eb7dc756412d41542db15acef23740b"
+    },
+    "scripts.bin": {
+      "bytes": 17353591,
+      "sha256": "a101e501cbc97b73b7268e0ba3a3f7361c2f3624416be51c6b5f6b1fe1fea93e"
+    },
+    "music.bin": {
+      "bytes": 115751520,
+      "sha256": "65cbdd174c5fe333630bc1d980c13f85d8df89c6767b4774bce60ef27e7df735"
+    },
+    "mercenary.bin": {
+      "bytes": 789063,
+      "sha256": "acd335955f6d526d49c57cabacd35fc904e8d61cac0a806a776f9ca63912f6d3"
+    },
+    "itemicons.bin": {
+      "bytes": 2400882,
+      "sha256": "069a58ffcf6898fdf4bede61a365cc0a03bb7fcfc7234a6a78df15e528e66c3d"
+    },
+    "minimaps.bin": {
+      "bytes": 3075787,
+      "sha256": "33c452c0c0a63c68e8d8ae8044d62198f3a66b8de7b32bb51147aeb0e02cfc09"
+    },
+    "npcs.bin": {
+      "bytes": 14462259,
+      "sha256": "1c99b38d8afdab3ae3a9fe312f031cca41babc3a97b6ec9e4464fe7e92140b53"
+    },
+    "npcfx.bin": {
+      "bytes": 7075895,
+      "sha256": "1b16a7b49fe1932291abb43bbe1fadb28e8ce7035a00d4a5a1b9fa0a583ff8fb"
+    },
+    "portraits.bin": {
+      "bytes": 28098643,
+      "sha256": "51aeddd50a18016cc0da6e9ae7a240b820bf7881c308b6819e6fdad6f332c9db"
+    },
+    "systems.bin": {
+      "bytes": 19324342,
+      "sha256": "b302515bcc528a0470c0199a866926dc0ad0d2c8f9b8eaa1b67ff50a3fd94bff"
+    },
+    "storyportraits.bin": {
+      "bytes": 7839013,
+      "sha256": "7c715b4fb36a839391085252a97c931a00b0d3398e46c4620b277a2d8372c58f"
+    },
+    "world.bin": {
+      "bytes": 1209460504,
+      "sha256": "7ef72495b67bc160a0ccbb3051a4299cfc5a37aa755c58eba475c327044feb44"
+    },
+    "water.bin": {
+      "bytes": 20949665,
+      "sha256": "688cd30070a7b65fe78e14ccd9b6fd17637db0dd3c66338dfc5e725ac24ee126"
+    }
+  },
+  "scope": {
+    "version": "1.10.0",
+    "playableChapters": 4,
+    "playableScenes": 12,
+    "laterCampaignEnabled": false,
+    "publicMapCount": 495,
+    "privateLaterPassagesIncluded": false,
+    "characterNamespace": "E:\\MyROOffline\\Campaign1_10_0",
+    "globalPreferences": "E:\\MyROOffline",
+    "originalActorPrefixMatches193": true,
+    "hardwareTested": false
+  },
+  "originalXboxPlaytested": false
+}
