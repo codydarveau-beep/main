@@ -38,11 +38,12 @@ static void campaign_actor_submit200(const Combat*g,const float*m,float co,float
  actors[*count]=(DrawActor){CAMPAIGN_TEXTURE200+(int)slot,CAMPAIGN_KIND200+(int)slot,0,sx+campaignContact200[source][dir][0]*zoom/3,sy+campaignContact200[source][dir][1]*zoom/3,depth,sy};
  water_actor_mark54(actors+*count,m,x,y,z);(*count)++;
 }
-static void campaign_actor_collect200(const Combat*g,const float*m,float co,float si,float zoom,DrawActor*actors,int*count){
+static void campaign_actor_collect_ready200(const Combat*g,const float*m,float co,float si,float zoom,DrawActor*actors,int*count,int ready){
  for(unsigned slot=0;slot<4;slot++)campaignWanted200[slot]=~0u;
- if(!campaign_art_ready200())return;
+ if(!ready)return;
  if(campaignRescue200.active){for(unsigned source=0;source<4;source++){float x,y;rescue_position200(&campaignRescue200,source,&x,&y);float fx=1468-x,fy=2780-y;unsigned group=0;if(source==R200_DRIVER){fx=0;fy=campaignRescue200.escort?1:-1;group=campaignRescue200.escort?1:0;}campaign_actor_submit200(g,m,co,si,zoom,source,source,x,y,fx,fy,group,NULL,actors,count);}return;}
  unsigned nextSlot=0;if(campaignStage200.active&&campaignStage200.definition&&campaignStage200.definition->map==g->mapId){const CampaignStageDefinition200*d=campaignStage200.definition;unsigned first=d->cursor==5&&!campaignStageModal200?2:0;for(unsigned i=first;i<d->count&&nextSlot<4;i++){const CampaignStageActor200*a=d->actor+i;campaign_actor_submit200(g,m,co,si,zoom,nextSlot++,a->source,a->x,a->y,d->x-a->x,d->y-a->y,0,NULL,actors,count);}if(d->cursor==5&&campaignStageModal200)return;}
  for(unsigned slot=0;slot<campaignParty200.count&&slot<3&&nextSlot<4;slot++){const CampaignFollower200*member=campaignParty200.members+slot;if(member->id>=19||member->map!=g->mapId)continue;unsigned source=campaignCompanions200[member->id].sceneActor;campaign_actor_submit200(g,m,co,si,zoom,nextSlot++,source,member->x,member->y,member->faceX,member->faceY,member->moving?1:0,member,actors,count);}
 }
+static void campaign_actor_collect200(const Combat*g,const float*m,float co,float si,float zoom,DrawActor*actors,int*count){campaign_actor_collect_ready200(g,m,co,si,zoom,actors,count,campaign_art_ready200());}
 #endif

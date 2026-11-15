@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "cases": 11646,
+  "packedScenes": 36,
+  "roles": 3,
+  "failedWritesChecked": true,
+  "sourceSHA256": "874dd54a881972983c3aa8caf90ee8acd329de8b045c30cf5adc20cff61e6036",
+  "scope": "Every authored node through actual C polling versus independent original native scene polling. This does not establish world/actor/camera integration or companion behavior.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

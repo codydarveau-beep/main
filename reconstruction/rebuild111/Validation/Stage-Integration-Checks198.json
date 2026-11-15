@@ -14,5 +14,5 @@
   "staleStageRejected": true,
   "activationChanged": false,
   "preparedLaterRuntime": "Evidence decisions are implemented; later binding remains guarded pending encounter lifecycle and transition integration",
-  "integrationSourceSHA256": "c3f6c37bdbeab429eed9cd0e6441861abdd40fba1e2e90a0ed1fbc52a4b87e63"
+  "integrationSourceSHA256": "1a2a9df3644428fd50fab1523a5529aa2dcdce07c9102a1030a1a8df2f1c9962"
 }

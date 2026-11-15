@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "packedScenes": 36,
+  "roles": 3,
+  "replyVariants": 2,
+  "releaseCeiling": 12,
+  "privateOpeningGuard": 0,
+  "phase": "normal candidate integration",
+  "scope": "Actual packed world, scene/controller and dialogue layout, opening escort, authored evidence and encounter hooks, actor pose reader, camera projection and cleanup with host GPU recorder.",
+  "limitations": [
+    "Native first-job completion and enemy deaths use explicit fixtures",
+    "No companion growth/promotion/complete career-AI acceptance in this suite",
+    "No GPU raster/CRT, Xbox/Xemu playtest or 64MB residency proof",
+    "World-map staging and local entrances are exercised; complete native travel and quest playthrough remains separate"
+  ],
+  "additionalReviewPassesCompleted": 0,
+  "sourceSHA256": "1b8d8687b05bfb982918fda9a602f9d85df3dd8a1e4281eb9bdae2e8df6d6e11"
+}

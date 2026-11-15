@@ -75,6 +75,16 @@
       "name": "confirmed scene environments, physical routes and denied-travel preservation",
       "status": "passed",
       "evidence": "Story-Alias-Checks199.json"
+    },
+    {
+      "name": "all authored scene node/state transitions against original native code",
+      "status": "passed",
+      "evidence": "Scene-Transition-Checks200.json"
+    },
+    {
+      "name": "candidate twelve-chapter world/controller/presentation/evidence/encounter sequences",
+      "status": "passed",
+      "evidence": "Campaign-Sequence-Checks200.json"
     }
   ],
   "normalReleaseWideChecksComplete": false,

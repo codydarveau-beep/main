@@ -1,0 +1,11 @@
+"""Normal candidate scene integration; release readiness guards stay in place."""
+from pathlib import Path
+import subprocess,os,json,hashlib,re
+R=Path(__file__).resolve().parent.parent;V=R/'Validation';S=R/'Source';env=os.environ.copy();env.update(MYRO_WORLD_PATH=str((R/'XboxFiles/world.bin').resolve()),MYRO_CHAPTER1_PATH=str(R/'Recovered195/chapter1.bin'),MYRO_CAMPAIGN_ACTOR_PATH=str(R/'Recovered195/campaign.bin'),MYRO_CAMPAIGN_PORTRAIT_PATH=str(R/'Recovered195/storyportraits.bin'),ASAN_OPTIONS='detect_leaks=1:halt_on_error=1',UBSAN_OPTIONS='halt_on_error=1:print_stacktrace=1')
+# Keep the recorder's types/facing implementation tied to production declarations.
+s=(S/'main.c').read_text();(V/'scene_presentation_declarations200.inc').write_text('/* Exact production declarations used by the host draw recorder. */\n'+re.search(r'typedef struct \{int slot,kind;[^\n]+DrawActor;',s)[0]+'\n'+re.search(r'static int facing\([^\n]+',s)[0]+'\n')
+with (V/'campaign-sequence200.log').open('w')as out:
+ subprocess.run(['cc','-O1','-g','-fsanitize=address,undefined','-fno-omit-frame-pointer','-I'+str(S),str(S/'test_campaign_sequence200.c'),'-lm','-lz','-o',str(V/'campaign-sequence200_asan')],stdout=out,stderr=subprocess.STDOUT,check=True)
+ subprocess.run([str(V/'campaign-sequence200_asan')],stdout=out,stderr=subprocess.STDOUT,env=env,check=True)
+report=dict(passed=True,packedScenes=36,roles=3,replyVariants=2,releaseCeiling=12,privateOpeningGuard=0,phase='normal candidate integration',scope='Actual packed world, scene/controller and dialogue layout, opening escort, authored evidence and encounter hooks, actor pose reader, camera projection and cleanup with host GPU recorder.',limitations=['Native first-job completion and enemy deaths use explicit fixtures','No companion growth/promotion/complete career-AI acceptance in this suite','No GPU raster/CRT, Xbox/Xemu playtest or 64MB residency proof','World-map staging and local entrances are exercised; complete native travel and quest playthrough remains separate'],additionalReviewPassesCompleted=0,sourceSHA256=hashlib.sha256((S/'test_campaign_sequence200.c').read_bytes()).hexdigest())
+(V/'Campaign-Sequence-Checks200.json').write_text(json.dumps(report,indent=2)+'\n');print('PASS candidate scene integration with production modules; guards unchanged, host only.')

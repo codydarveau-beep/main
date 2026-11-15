@@ -1,0 +1,17 @@
+Scene transition records checked 1 /36
+Scene transition records checked 2 /36
+Scene transition records checked 3 /36
+Scene transition records checked 4 /36
+Scene transition records checked 5 /36
+Scene transition records checked 6 /36
+Scene transition records checked 7 /36
+Scene transition records checked 8 /36
+Scene transition records checked 9 /36
+Scene transition records checked 10 /36
+Scene transition records checked 11 /36
+Scene transition records checked 12 /36
+Traceback (most recent call last):
+  File "/workspace/work/recovery/rebuild111/Preparation/check_scene_poll200.py", line 37, in <module>
+    assert list(out)==expected,(cursor,node,role,hex(objectives),named,fail,list(out),expected)
+           ^^^^^^^^^^^^^^^^^^^
+AssertionError: (12, 11, 1, '0x30e', 0, 0, [3, 12, 11, 782, 18, 1], [5, 13, 0, 0, 18, 0])

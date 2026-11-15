@@ -4,6 +4,7 @@
 #include "campaign_state200.h"
 #include "campaign_actor_data200.h"
 #include "chapter2_gates200.h"
+#include "chapter1_data200.h"
 typedef struct{unsigned source;float x,y;const char*name;}CampaignStageActor200;
 typedef struct{unsigned cursor,map,count;float x,y,docX,docY;CampaignStageActor200 actor[4];unsigned recoveredFields197[9];}CampaignStageDefinition200;
 #include "campaign_stage_data197.h"
@@ -11,7 +12,9 @@ typedef struct{unsigned cursor,map,count;float x,y,docX,docY;CampaignStageActor2
 typedef struct{Combat*player;NpcState55*state;const CampaignStageDefinition200*definition;unsigned active;}CampaignStage200;
 static CampaignStage200 campaignStage200;
 static int campaignStageModal200;
-static void campaign_stage_bind200(CampaignStage200*r,Combat*g,NpcState55*state,int graphicsReady){r->player=g;r->state=state;r->active=0;r->definition=NULL;Campaign200 c;if(!graphicsReady||CAMPAIGN_ACTOR_COUNT200<7||!state||campaign_load200(state,&c)!=1||c.cursor<3||c.cursor>5)return;const CampaignStageDefinition200*d=campaignStages200+c.cursor-3;if(g->mapId!=d->map)return;r->definition=d;r->active=1;}
+static void campaign_stage_bind_bounded200(CampaignStage200*r,Combat*g,NpcState55*state,int graphicsReady,unsigned ceiling){r->player=g;r->state=state;r->active=0;r->definition=NULL;Campaign200 c;if(!graphicsReady||CAMPAIGN_ACTOR_COUNT200<7||!state||ceiling>36||campaign_load200(state,&c)!=1||c.cursor<3||c.cursor>=ceiling)return;const CampaignStageDefinition200*d=campaign_stage_select198(c.cursor,g->mapId,c.objectives);if(!d)return;r->definition=d;r->active=1;}
+/* Retain the release ceiling while restoring all verified early scene staging. */
+static void campaign_stage_bind200(CampaignStage200*r,Combat*g,NpcState55*state,int graphicsReady){campaign_stage_bind_bounded200(r,g,state,graphicsReady,CAMPAIGN_RELEASE_SCENES193);}
 static int campaign_stage_reachable200(const Combat*g,float x,float y){return(!g->canAim||g->canAim(g->world,g->x,g->y,x,y))&&(!g->canMove||g->canMove(g->world,g->x,g->y,x,y));}
 /* Lead contact and independently positioned physical evidence. A stale stage
  * never grants proof; prepared later rules do not expand the activation guard. */

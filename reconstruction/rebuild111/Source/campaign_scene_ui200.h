@@ -8,14 +8,15 @@ typedef struct{Scene200 scene;unsigned page,choice,lastNode,role,confirmRole,sup
 static SceneUI200 campaignUI200;
 static void scene_ui_release200(void){scene_close200(&campaignUI200.scene);memset(&campaignUI200,0,sizeof(campaignUI200));}
 static int scene_file_read200(void*context,unsigned at,unsigned char*out,unsigned bytes){FILE*f=context;return at<=CHAPTER1_FILE_BYTES200&&bytes<=CHAPTER1_FILE_BYTES200-at&&!fseek(f,at,SEEK_SET)&&fread(out,1,bytes,f)==bytes;}
-static int scene_ui_open200(NpcState55*state){
+static int scene_ui_open_bounded200(NpcState55*state,unsigned ceiling){
 #ifdef MYRO_HOST
  const char*path=getenv("MYRO_CHAPTER1_PATH");if(!path)path="../Campaign/chapter1-scenes.bin";
 #else
  const char*path="D:\\chapter1.bin";
 #endif
- FILE*f=fopen(path,"rb");if(!f)return 0;int valid=!fseek(f,0,SEEK_END)&&ftell(f)==CHAPTER1_FILE_BYTES200;int ok=valid&&scene_open200(&campaignUI200.scene,state,scene_file_read200,f);fclose(f);if(ok){campaignUI200.page=campaignUI200.choice=campaignUI200.confirmRole=campaignUI200.superReview=0;campaignUI200.lastNode=~0u;}return ok;
+ FILE*f=fopen(path,"rb");if(!f)return 0;int valid=!fseek(f,0,SEEK_END)&&ftell(f)==CHAPTER1_FILE_BYTES200;int ok=valid&&scene_open_bounded200(&campaignUI200.scene,state,scene_file_read200,f,ceiling);fclose(f);if(ok){campaignUI200.page=campaignUI200.choice=campaignUI200.confirmRole=campaignUI200.superReview=0;campaignUI200.lastNode=~0u;}return ok;
 }
+static int scene_ui_open200(NpcState55*state){return scene_ui_open_bounded200(state,CAMPAIGN_RELEASE_SCENES193);}
 static const char*scene_ui_text200(SceneUI200*u,const Campaign200*c,char out[512]){const char*text=scene_text200(&u->scene,1),*at=strstr(text,"{GUILD}");if(!at)return text;snprintf(out,512,"%.*s%s%s",(int)(at-text),text,c->guild,at+7);return out;}
 static int scene_ui_tick200(void){SceneUI200*u=&campaignUI200;int status=scene_poll200(&u->scene);if(u->scene.data){Campaign200 c;if(campaign_load200(u->scene.state,&c)!=1)return SC200_ERROR;if(c.checkpoint!=u->lastNode){u->lastNode=c.checkpoint;u->page=u->choice=0;char text[512];u->count=ui_wrap(scene_ui_text200(u,&c,text),u->lines,372,1);if(status==SC200_GUILD){memset(&u->guildEditor,0,sizeof(u->guildEditor));u->guildEditor.string=1;u->guildReview=u->guildError=0;}}}return status;}
 static int scene_ui_modal200(void){int status=scene_ui_tick200();Campaign200 c;return status==SC200_GUILD||status==SC200_LINE||status==SC200_CHOICE||status==SC200_ROLE||(status==SC200_WAIT&&campaignUI200.scene.state&&campaign_load200(campaignUI200.scene.state,&c)==1&&c.cursor==1);}
