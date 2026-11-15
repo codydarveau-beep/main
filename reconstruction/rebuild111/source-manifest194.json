@@ -4773,8 +4773,8 @@
     },
     {
       "path": "Preparation/checkpoint_source194.py",
-      "bytes": 1442,
-      "sha256": "6a5ac0771fa4b3293ed8121b99ccba0859143a74cdfb119a37a99c92831db350"
+      "bytes": 1539,
+      "sha256": "18e2e63c5d2f310a899a1f73d61746a0e8797d3be2eeca5b4a82af2625db46c9"
     },
     {
       "path": "Preparation/integrate_admission194.py",
@@ -4995,6 +4995,96 @@
       "path": "Recovered195/content-recovery195.json",
       "bytes": 3276766,
       "sha256": "3ca4106e2ee91e63aaf42592830b4b1b5f219c8a75b5586c1983bbb226b83740"
+    },
+    {
+      "path": "Retained196/arcade_draw194.partial.h",
+      "bytes": 4039,
+      "sha256": "89fa8b162cd877c79e69abaefa5b7fc87ca12a18586e1194fe6c97fc3ab2cf31"
+    },
+    {
+      "path": "Retained196/campaign_bind200.partial.h",
+      "bytes": 1753,
+      "sha256": "b1a258ca017ecd3e44ed84abf36bfcf2b84264a08cce1bd5767beecbec764855"
+    },
+    {
+      "path": "Retained196/campaign_minimap194.partial.h",
+      "bytes": 1442,
+      "sha256": "30f49721cf591c2ca251ee83de3c7f1db3a035da8d1f4e9ae4e1ae54f1a9ecfe"
+    },
+    {
+      "path": "Retained196/campaign_reset200.partial.h",
+      "bytes": 792,
+      "sha256": "714c4dcb534157db1d91b0dc343850e13f8a9023bd27effd76713fb81c404f9b"
+    },
+    {
+      "path": "Retained196/campaign_world200.partial.h",
+      "bytes": 1930,
+      "sha256": "09838e5348c3a9eaf209c531cd806f52d3f5c0f86cb1ca7f1d3d85dd2b689422"
+    },
+    {
+      "path": "Retained196/combat_hooks200.partial.h",
+      "bytes": 537,
+      "sha256": "8f3619065b45131ea2422eb8bf252450b353040a510a93497e6a49b2ce09e54f"
+    },
+    {
+      "path": "Retained196/companion_cast_test194.partial.c",
+      "bytes": 400,
+      "sha256": "fdff3521a968cdebe2560a073277b85e826d419b5e2c70a39d654459bfd66573"
+    },
+    {
+      "path": "Retained196/companion_kaina_test194.partial.c",
+      "bytes": 188,
+      "sha256": "1e33e08fbfa80257ab3e4f4c9cfc71e34cf06a0276b5f5404beded182e8ad9e8"
+    },
+    {
+      "path": "Retained196/companion_resolve_test194.partial.c",
+      "bytes": 105,
+      "sha256": "000781d4ca947ba4916b411de92e4e6853b69d09d303d7656bfb682d7b289d5c"
+    },
+    {
+      "path": "Retained196/guild194.h",
+      "bytes": 7120,
+      "sha256": "6d1f9a03a503e9e1688c190c1f76e3aaa0de63b260dc1fe8400e64cd35751b4b"
+    },
+    {
+      "path": "Retained196/guild_cabinets194.partial.h",
+      "bytes": 48,
+      "sha256": "4525e29c9ae1848e3d2af8214525477c308075c3510fe20a1ceec9fb9c20444d"
+    },
+    {
+      "path": "Retained196/guild_collision194.partial.h",
+      "bytes": 68,
+      "sha256": "242d125c0812097417c873327c12a5bcd3dcf5df80f6dad12ce07c8b906d1817"
+    },
+    {
+      "path": "Retained196/guild_decor_labels194.partial.h",
+      "bytes": 105,
+      "sha256": "6e007073600c07d50b0f2b91f18362cb6732a0f70371a9e7c05cc053c3c7bfcc"
+    },
+    {
+      "path": "Retained196/guild_layout194.partial.h",
+      "bytes": 1091,
+      "sha256": "ef80d6ccaaf9b7238c3635d2f3a0f6edd0a093266c437973f0ba72726352b1fa"
+    },
+    {
+      "path": "Retained196/guild_ui194.partial.h",
+      "bytes": 4388,
+      "sha256": "ce0e51594cf77c203d4a19bec69cc70b30c85dbe4cdfd875093d1ce2eeea97f0"
+    },
+    {
+      "path": "Retained196/guild_world194.release.partial.h",
+      "bytes": 673,
+      "sha256": "5283254423ca2a49205128cddba41810fe20570d4892683ba3aeb54ae2dfae7c"
+    },
+    {
+      "path": "Retained196/manifest.json",
+      "bytes": 3248,
+      "sha256": "ac0ea899214e6b454eed15758bca2d950cf18ee2adbc61e9256a9681c6507c4f"
+    },
+    {
+      "path": "Retained196/original-packet.txt",
+      "bytes": 30795,
+      "sha256": "8d0cd480c8ef6dfa1244ecee36904f4c34f5837649142b15c94fdcf305a63da8"
     },
     {
       "path": "STATUS.md",

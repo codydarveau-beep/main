@@ -2,12 +2,13 @@
 from pathlib import Path
 import shutil,hashlib,json
 r=Path(__file__).resolve().parent.parent;dest=r.parent/'checkpoint/reconstruction/rebuild111';files=[]
-for folder in ['Source','Preparation','Validation','Recovered195']:
+for folder in ['Source','Preparation','Validation','Recovered195','Retained196']:
  for p in sorted((r/folder).rglob('*')):
   if not p.is_file() or p.is_symlink() or '__pycache__' in p.parts or 'tmp' in p.relative_to(r).parts:continue
   if folder=='Source' and p.suffix in ['.obj','.o','.exe','.su','.d','.pyc']:continue
   if folder=='Validation' and p.suffix not in ['.log','.json','.h','.inc']:continue
   if folder=='Preparation' and p.suffix not in ['.py','.json','.md']:continue
+  if folder=='Retained196' and p.suffix not in ['.json','.h','.c','.txt']:continue
   if folder=='Recovered195' and p.suffix not in ['.json','.h']:continue
   if p.stat().st_size>90_000_000:raise ValueError(p)
   files.append(p)

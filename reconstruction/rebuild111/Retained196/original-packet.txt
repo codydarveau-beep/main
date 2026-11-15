@@ -1,0 +1,1188 @@
+**Yes. Several useful excerpts remain beyond the previous packet.** They were captured from the historical working copy, not freshly recovered from disk, so compare them with the executable before treating them as exact released-source matches.
+
+What I can supply:
+
+| System | Additional retained code |
+|---|---|
+| Guild state/progression | **Complete `guild194.h`**, including all 12 projects, save format, material transactions, furnishing rules and invitations |
+| Guild rooms | Door table, room-access predicate, resource-release functions, and partial collision implementation |
+| Guild controls | Original noticeboard/input implementation before regional journeys expanded it |
+| Arcades | **Renderer for all six games**, score submission and menu integration; **not the complete game-logic engine** |
+| Companions | Actual roster binding, growth/promotion initialization, reset, combat hooks and regression-test excerpts |
+| Later chapters | World/stage/dialogue integration functions; **not the complete scene engine, encounter engine or chapter graphs** |
+
+The distinction between complete and partial material below matters. **Do not fill missing engines with these renderers or integration wrappers.**
+
+**Complete retained `Source/guild194.h`**
+
+This is additional to the six headers already extracted.
+
+```c
+/* MIT. Optional per-character guild improvements; main story never charges these. */
+#ifndef MYRO_GUILD194_H
+#define MYRO_GUILD194_H
+#include "campaign_state200.h"
+
+#define GUILD_KEY194 UINT64_C(0xeca20000f219bc70)
+#define GUILD_QUEST194 2000000100u
+#define GUILD_PROJECTS194 12u
+
+typedef struct{
+ unsigned accepted,built,decor,highscore[6];
+}Guild194;
+
+typedef struct{
+ const char*name,*pitch;
+ unsigned chapter,requires,item[2],amount[2];
+}GuildProject194;
+
+static const GuildProject194 guildProjects194[12]={
+ {
+  "A roof over every head",
+  "Maya: A dry ledger is a useful ledger. A dry adventurer is a pleasant surprise. Bring lumber and cloth; we will repair the roof and door.",
+  9,0,{1019,914},{40,10}
+ },
+ {
+  "A table with room for one more",
+  "Yuufa: We have beds. Now we need somewhere people can sit without being asked why they are here.",
+  12,1,{1019,998},{30,10}
+ },
+ {
+  "Dagna's second chance",
+  "Dagna: This bench makes hinges, not restraints. You may remind me of that whenever necessary.",
+  18,3,{999,1003},{20,10}
+ },
+ {
+  "Copies nobody can burn",
+  "Nera: One copy is a secret. Several copies, in several hands, are a record.",
+  18,3,{914,991},{20,10}
+ },
+ {
+  "A door held wider",
+  "Brann: The next room is empty. The landlord calls it storage. I think we can improve that description.",
+  24,15,{1019,999},{80,20}
+ },
+ {
+  "The extremely important recreation annex",
+  "Maya: Rest is productive. I have written it in the accounts, so it must be true. Help Pip wire the cabinets.",
+  15,3,{1019,938},{25,15}
+ },
+ {
+  "Poring Pong",
+  "Pip: The Poring volunteered to be a ball. The paddle remains unconvinced. Build our first cabinet.",
+  15,35,{1019,909},{10,5}
+ },
+ {
+  "Peco Patrol",
+  "Corin: This one shoots at painted monsters. I recommend it over several of my previous employers.",
+  18,39,{998,1003},{10,5}
+ },
+ {
+  "Herb Trail",
+  "Yuufa: You eat herbs, get longer, and must not bite yourself. I am assured this is medicinal research.",
+  15,35,{511,938},{10,5}
+ },
+ {
+  "Pupa Breaker",
+  "Dagna: An excellent demonstration of applied force. Please use the cabinet, not the guild's actual walls.",
+  18,39,{999,909},{5,10}
+ },
+ {
+  "Kafra's Lost Parcels",
+  "Nera: Sixteen parcels. Fifteen spaces. A familiar workplace situation, regrettably.",
+  18,43,{1019,914},{10,10}
+ },
+ {
+  "Moonlight Munch",
+  "Miri: The ghosts agreed to chase a Poring for an afternoon. Nobody is bound here; the dots are biscuits.",
+  24,47,{991,938},{10,10}
+ }
+};
+
+static int guild_load194(const NpcState55*s,Guild194*out){
+ if(!s||!out)return-1;
+
+ const NpcVariable55*v=npc_state_get55(s,GUILD_KEY194,0);
+ memset(out,0,sizeof(*out));
+
+ if(!v)return 0;
+ if(v->kind!=NPC_STATE_STRING_KIND55||v->length!=112)return-1;
+
+ unsigned char b[56];
+
+ for(unsigned i=0;i<56;i++){
+  unsigned n=0;
+
+  for(unsigned j=0;j<2;j++){
+   unsigned c=(unsigned char)v->text[i*2+j];
+
+   if(c>='0'&&c<='9')c-='0';
+   else if(c>='a'&&c<='f')c=c-'a'+10;
+   else return-1;
+
+   n=n*16+c;
+  }
+
+  b[i]=(unsigned char)n;
+ }
+
+ if(memcmp(b,"RGH1",4)||
+    npc_state_u32_55(b+52)!=crc32(0,b,52))
+  return-1;
+
+ out->accepted=npc_state_u32_55(b+4);
+ out->built=npc_state_u32_55(b+8);
+ out->decor=npc_state_u32_55(b+12);
+
+ if(out->accepted>=4096||
+    out->built>=4096||
+    (out->built&~out->accepted)||
+    out->decor>3)
+  return-1;
+
+ for(unsigned i=0;i<6;i++)
+  out->highscore[i]=npc_state_u32_55(b+16+i*4);
+
+ for(unsigned i=40;i<52;i++)
+  if(b[i])return-1;
+
+ return 1;
+}
+
+static int guild_store194(NpcState55*s,const Guild194*g){
+ if(!s||
+    g->accepted>=4096||
+    g->built>=4096||
+    (g->built&~g->accepted)||
+    g->decor>3)
+  return 0;
+
+ unsigned char b[56]={0};
+
+ memcpy(b,"RGH1",4);
+ npc_state_put32_55(b+4,g->accepted);
+ npc_state_put32_55(b+8,g->built);
+ npc_state_put32_55(b+12,g->decor);
+
+ for(unsigned i=0;i<6;i++)
+  npc_state_put32_55(b+16+i*4,g->highscore[i]);
+
+ npc_state_put32_55(b+52,crc32(0,b,52));
+
+ char text[113];
+ const char*h="0123456789abcdef";
+
+ for(unsigned i=0;i<56;i++){
+  text[2*i]=h[b[i]>>4];
+  text[2*i+1]=h[b[i]&15];
+ }
+
+ text[112]=0;
+
+ return npc_state_set_text55(s,GUILD_KEY194,0,text,112);
+}
+
+static int guild_open194(const NpcState55*s){
+ Campaign200 c;
+ return campaign_load200(s,&c)==1&&c.cursor>=9&&*c.guild;
+}
+
+static int guild_available194(const NpcState55*s,unsigned project){
+ if(project>=12)return 0;
+
+ Campaign200 c;
+ Guild194 g;
+ const GuildProject194*p=guildProjects194+project;
+
+ return guild_open194(s)&&
+        campaign_load200(s,&c)==1&&
+        guild_load194(s,&g)>=0&&
+        c.cursor>=p->chapter&&
+        (g.built&p->requires)==p->requires;
+}
+
+static int guild_accept194(NpcState55*s,unsigned project){
+ Guild194 g;
+
+ if(!guild_available194(s,project)||guild_load194(s,&g)<0)
+  return 0;
+
+ g.accepted|=1u<<project;
+ return guild_store194(s,&g);
+}
+
+/* Preflight a disposable inventory before committing the small guild record.
+ * Both become part of the same ordinary save bundle; no yield between them. */
+static int guild_build194(
+ NpcState55*s,Combat*player,unsigned project
+){
+ Guild194 g;
+
+ if(!guild_available194(s,project)||
+    guild_load194(s,&g)<0||
+    !(g.accepted&(1u<<project))||
+    (g.built&(1u<<project)))
+  return 0;
+
+ const GuildProject194*p=guildProjects194+project;
+
+ OwnedItems52*bag=malloc(sizeof(*bag));
+ if(!bag)return 0;
+ *bag=player->owned52;
+
+ for(unsigned k=0;k<2;k++){
+  unsigned left=p->amount[k];
+
+  for(unsigned i=0;i<bag->count[0]&&left;){
+   OwnedItem52*o=bag->items+i;
+
+   if(o->sourceID!=p->item[k]||o->equipped){
+    i++;
+    continue;
+   }
+
+   unsigned amount=o->quantity<left?o->quantity:left;
+   unsigned uid=o->uid;
+   int erased=amount==o->quantity;
+
+   if(owned_remove52(bag,0,uid,amount)!=OWNED_OK52){
+    free(bag);
+    return 0;
+   }
+
+   left-=amount;
+   if(!erased)i++;
+  }
+
+  if(left){
+   free(bag);
+   return 0;
+  }
+ }
+
+ g.built|=1u<<project;
+
+ if(!guild_store194(s,&g)){
+  free(bag);
+  return 0;
+ }
+
+ player->owned52=*bag;
+ free(bag);
+ return 1;
+}
+
+static int guild_score194(
+ NpcState55*s,unsigned game,unsigned score
+){
+ Guild194 g;
+
+ if(game>=6||
+    guild_load194(s,&g)<0||
+    !(g.built&(1u<<(6+game))))
+  return 0;
+
+ if(score<=g.highscore[game])return 1;
+
+ g.highscore[game]=score;
+ return guild_store194(s,&g);
+}
+
+static int guild_decor194(NpcState55*s,unsigned decor){
+ Guild194 g;
+
+ if(decor>3||
+    guild_load194(s,&g)<0||
+    !(g.built&2)||
+    (decor==2&&!(g.built&8))||
+    (decor==3&&!(g.built&4)))
+  return 0;
+
+ g.decor=decor;
+ return guild_store194(s,&g);
+}
+
+/* Declining an introduction never permanently deletes a recruit.
+ * Future cast remains hidden. */
+static unsigned guild_met_mask194(unsigned cursor){
+ static const unsigned char after[19]={
+  8,2,8,15,2,14,11,13,5,13,13,16,5,8,18,16,13,23,23
+ };
+
+ unsigned mask=0;
+
+ for(unsigned id=0;id<19;id++)
+  if(cursor>after[id])mask|=1u<<id;
+
+ return mask;
+}
+
+static int guild_invite194(NpcState55*s,unsigned id){
+ Campaign200 c;
+
+ if(id>=19||
+    !guild_open194(s)||
+    campaign_load200(s,&c)!=1||
+    !(guild_met_mask194(c.cursor)&(1u<<id)))
+  return 0;
+
+ if(c.recruits&(1u<<id))return 1;
+
+ c.recruits|=1u<<id;
+ return campaign_store200(s,&c);
+}
+#endif
+```
+
+The `after[]` table is also additional evidence for recruitment timing. At cursor 12 its introduced-member mask includes IDs **0, 1, 2, 4, 6, 8, 12 and 13**. Resolve their names from the preserved canonical roster.
+
+**Guild-room layout excerpts**
+
+These definitions were captured from `guild_layout194.h`:
+
+```c
+#define GUILD_PROPS_MAX194 48u
+
+typedef struct{
+ unsigned model;
+ float x,y,angle,scale;
+ unsigned solid;
+}GuildProp194;
+
+typedef struct{
+ float x,y;
+ unsigned map;
+ float toX,toY;
+ unsigned any;
+ const char*label;
+}GuildDoor194;
+
+static const GuildDoor194 guildDoors194[]={
+ {192,1324,132,188,1116,0,"return to Alberta"},
+ {268,1408,GUILD_MAP194,192,848,2,"enter the common room"},
+ {192,864,GUILD_MAP194,244,1408,0,"return to the entrance room"},
+ {300,720,GUILD_MAP194,784,800,12,"visit the library / workshop"},
+ {784,832,GUILD_MAP194,276,720,0,"return to the common room"},
+ {300,800,GUILD_MAP194,1340,1376,32,"visit the arcade annex"},
+ {1340,1392,GUILD_MAP194,276,800,0,"return to the common room"},
+ {192,620,GUILD_MAP194,192,588,16,"enter the great hall"}
+};
+
+static int guild_room_ready194(unsigned built,float x,float y){
+ if(x>=96&&x<288&&y>=1312&&y<1504)
+  return 1;
+
+ if(x>=64&&x<320&&y>=272&&y<880)
+  return (built&2)&&(y>=608||(built&16));
+
+ if(x>=720&&x<848&&y>=272&&y<848)
+  return (built&12)!=0;
+
+ if(x>=1280&&x<1408&&y>=112&&y<1440)
+  return (built&32)!=0;
+
+ return 0;
+}
+```
+
+Retained resource ownership and cleanup from `guild_world194.h`:
+
+```c
+static void*guildTexture194,*guildMesh194;
+static unsigned char*guildFloor194;
+static unsigned guildFloorBytes194;
+static unsigned guildBuilt194=~0u,guildDecor194=~0u;
+static unsigned guildPropCount194;
+static GuildProp194 guildProps194[GUILD_PROPS_MAX194];
+
+static void guild_world_release194(void){
+ if(guildTexture194)MmFreeContiguousMemory(guildTexture194);
+ if(guildMesh194)MmFreeContiguousMemory(guildMesh194);
+
+ guildTexture194=guildMesh194=NULL;
+
+ free(guildFloor194);
+ guildFloor194=NULL;
+
+ guildFloorBytes194=guildPropCount194=0;
+ guildBuilt194=guildDecor194=~0u;
+}
+
+static void campaign_guild_release194(void){
+ campaign_reset200();
+ guild_world_release194();
+}
+```
+
+The recorded collision implementation:
+
+- Captured the original walkable floor in a **bitset**, allocated only during guild visits.
+- Restored that original floor before applying project-dependent closures.
+- Rebuilt room masking from the **complete original floor**, so inaccessible wings still had room ownership.
+- Included this specific great-hall closure:
+
+```c
+if(!(hall.built&16))
+ for(unsigned x=8;x<40;x++)
+  walk[75*gw+x]=0;
+```
+
+The complete furniture placement generator, mesh construction and remainder of the collision refresh function are **not retained verbatim**. The cabinet positions tested were:
+
+```c
+x = 1332;
+y = 464 + game * 88;  /* game 0..5 */
+```
+
+Recorded guild-world tests exercised **652 valid build/decor floor plans**, physical entrances/exits, room connections, six cabinet interactions, atlas/mesh CRC decoding, reuse and map-change cleanup. These are historical test results, not a replacement for reconstructing those functions.
+
+**Original guild controls and arcade score submission**
+
+This predates the regional additions that changed the root from 16 to 17 rows.
+
+```c
+typedef struct{
+ unsigned page,row,project,decor;
+}GuildUI194;
+
+static GuildUI194 guildUI194;
+static int(*guildVisit194)(Combat*);
+
+static int guild_near194(const Combat*g){
+ return guild_open194(questPins65)&&g->hp>0&&(
+  (
+   g->mapId==132&&
+   combat_dist(g->x,g->y,188,1116)<22&&
+   (!g->canMove||
+    g->canMove(g->world,g->x,g->y,188,1116))
+  )||
+  (
+   g->mapId==GUILD_MAP194&&
+   combat_dist(g->x,g->y,128,1444)<24&&
+   (!g->canMove||
+    g->canMove(g->world,g->x,g->y,128,1444))
+  )
+ );
+}
+
+static void guild_ui_open194(Combat*g){
+ memset(&guildUI194,0,sizeof(guildUI194));
+ g->utilityMenu=504;
+ g->autoAttack=g->floorGather60=g->approachSkill53=0;
+ g->route53.state=0;
+}
+
+static void guild_arcade_result194(Combat*g){
+ if(!arcade194.over||arcade194.submitted)return;
+
+ unsigned score=arcade194.game==AR194_PUZZLE?
+  (arcade194.won?10000/(arcade194.score+1):0):
+  arcade194.score;
+
+ if(guild_score194(questPins65,arcade194.game,score))
+  arcade194.submitted=1;
+ else
+  combat_message(
+   g,"Your cabinet score could not be saved. Please retry.");
+}
+
+static void guild_ui_input194(
+ Combat*g,unsigned pressed,unsigned held,float dt
+){
+ GuildUI194*u=&guildUI194;
+ Guild194 hall;
+
+ if(guild_load194(questPins65,&hall)<0||
+    !guild_open194(questPins65)){
+  g->utilityMenu=0;
+  combat_message(g,"Guild record could not be read.");
+  return;
+ }
+
+ if(g->utilityMenu==505){
+  guild_arcade_result194(g);
+
+  if(pressed&4){
+   g->utilityMenu=504;
+   u->page=3;
+   u->row=arcade194.game;
+   return;
+  }
+
+  if(arcade194.over&&(pressed&2))
+   guild_arcade_result194(g);
+
+  arcade_input194(&arcade194,pressed);
+  arcade_tick194(&arcade194,held,dt);
+  guild_arcade_result194(g);
+  return;
+ }
+
+ if(pressed&4){
+  if(u->page==0)g->utilityMenu=0;
+  else{
+   u->row=u->page==1?u->project:
+          u->page==2?12:
+          u->page==3?13:14;
+   u->page=0;
+  }
+  return;
+ }
+
+ if(u->page==0){
+  if(pressed&1024)u->row=(u->row+15)%16;
+  else if(pressed&2048)u->row=(u->row+1)%16;
+  else if(pressed&2){
+   if(u->row<12){
+    u->project=u->row;
+    u->page=1;
+   }else if(u->row==12){
+    u->page=2;
+    u->decor=hall.decor;
+   }else if(u->row==13){
+    u->page=3;
+    u->row=0;
+   }else if(u->row==14){
+    u->page=4;
+    u->row=0;
+   }else if(guildVisit194&&guildVisit194(g)){
+    g->utilityMenu=0;
+   }else{
+    combat_message(g,"The guild entrance could not be reached.");
+   }
+  }
+ }else if(u->page==1&&(pressed&2)){
+  unsigned id=u->project;
+
+  if(hall.built&(1u<<id)){
+   combat_message(g,"This improvement is already finished.");
+   return;
+  }
+
+  if(!(hall.accepted&(1u<<id))){
+   if(guild_accept194(questPins65,id))
+    combat_message(
+     g,"Guild project added to Side Quests. Bring the materials here.");
+   else
+    combat_message(
+     g,"Complete the listed story milestone and earlier improvements first.");
+  }else if(guild_build194(questPins65,g,id)){
+   combat_message(
+    g,"Guild improvement complete. Thank you for making room for us.");
+  }else{
+   combat_message(
+    g,"Keep the required materials in your bag. Nothing was spent.");
+  }
+ }else if(u->page==2){
+  if(pressed&4096)u->decor=(u->decor+3)%4;
+  else if(pressed&8192)u->decor=(u->decor+1)%4;
+  else if(pressed&2){
+   if(guild_decor194(questPins65,u->decor)){
+    combat_message(g,"Guild furnishings saved.");
+    u->page=0;
+    u->row=12;
+   }else{
+    combat_message(
+     g,"Build the common room and the matching facilities first.");
+   }
+  }
+ }else if(u->page==3){
+  if(pressed&1024)u->row=(u->row+5)%6;
+  else if(pressed&2048)u->row=(u->row+1)%6;
+  else if(pressed&2){
+   if(!(hall.built&(1u<<(6+u->row)))){
+    u->project=6+u->row;
+    u->page=1;
+    return;
+   }
+
+   arcade_reset194(
+    &arcade194,u->row,(unsigned)(g->time*1000)+u->row+1);
+
+   g->utilityMenu=505;
+  }
+ }else if(u->page==4){
+  if(pressed&1024)u->row=(u->row+18)%19;
+  else if(pressed&2048)u->row=(u->row+1)%19;
+  else if(pressed&2){
+   Campaign200 c;
+
+   if(campaign_load200(questPins65,&c)!=1){
+    combat_message(g,"The guild roster could not be read.");
+    return;
+   }
+
+   if(c.recruits&(1u<<u->row))
+    combat_message(
+     g,"Already a member. Choose your active group in Companions.");
+   else if(guild_invite194(questPins65,u->row))
+    combat_message(
+     g,"Invitation accepted. Choose your active group in Companions.");
+   else
+    combat_message(
+     g,"Meet this ally in the story first. No invitation was sent.");
+  }
+ }
+}
+```
+
+The original furnishing labels were:
+
+```c
+static const char*names[]={
+ "Plain and practical",
+ "Cosy common room",
+ "Reading room",
+ "Workshop"
+};
+```
+
+**Retained renderer for all six arcades**
+
+This is actual additional code. **It renders the existing game state; it does not supply collision, enemy AI, scoring or progression logic.** The complete `arcade194.h` engine is not retained verbatim in my current context.
+
+```c
+static void arcade_poring194(
+ int x,int y,int size,unsigned color
+){
+ for(int r=0;r<size;r++){
+  float v=(r-size*.5f)/(size*.5f);
+  int w=(int)(sqrtf(fmaxf(0,1-v*v))*size*.5f);
+  if(w)pb_fill(x+size/2-w,y+r,w*2,1,color);
+ }
+
+ if(size>=8){
+  pb_fill(x+size/3,y+size/2,1,2,0xff000000);
+  pb_fill(x+size*2/3,y+size/2,1,2,0xff000000);
+  pb_fill(x+size/2,y+size*2/3,2,1,0xff000000);
+ }
+}
+
+static void arcade_draw194(void){
+ const Arcade194*a=&arcade194;
+
+ ui_panel(68,46,504,390,arcade_names194[a->game],1,-1);
+ pb_fill(84,105,472,286,0xff101711);
+
+ ui_scaled(
+  88,77,1,"Score %u    Lives %u    Round %u",
+  a->score,a->lives,a->level);
+
+ int x=100,y=116,w=440,h=264;
+
+ if(a->game==AR194_PONG){
+  for(int k=0;k<15;k++)
+   pb_fill(x+w/2,y+k*18,2,8,0xff5b7568);
+
+  pb_fill(x+20,y+(int)(a->paddle*h)-27,6,54,0xff6aabef);
+  pb_fill(x+w-26,y+(int)(a->opponent*h)-27,6,54,0xff60d27a);
+
+  arcade_poring194(
+   x+(int)(a->x*w)-5,y+(int)(a->y*h)-5,10,0xffedbfd1);
+ }
+ else if(a->game==AR194_PATROL){
+  for(unsigned i=0;i<36;i++)if(a->board[i]){
+   int ex=x+(int)(
+    (.12f+i%9*.09f+sinf(a->time*.8f)*.04f)*w);
+   int ey=y+(int)((.12f+i/9*.085f)*h);
+
+   pb_fill(ex-6,ey-4,12,8,0xffffdf56);
+   pb_fill(ex-8,ey+2,3,5,0xffbd8c3e);
+   pb_fill(ex+5,ey+2,3,5,0xffbd8c3e);
+   pb_fill(ex+2,ey-2,2,2,0xff000000);
+  }
+
+  arcade_poring194(
+   x+(int)(a->x*w)-7,y+(int)(h*.89f),14,0xffedbfd1);
+
+  for(unsigned i=0;i<24;i++)if(a->shots[i].on)
+   pb_fill(
+    x+(int)(a->shots[i].x*w),
+    y+(int)(a->shots[i].y*h),
+    2,5,
+    a->shots[i].vy<0?0xff65dffa:0xffff4848);
+ }
+ else if(a->game==AR194_SNAKE||a->game==AR194_MAZE){
+  const int cell=15,gx=148,gy=116;
+
+  if(a->game==AR194_SNAKE){
+   for(unsigned i=0;i<a->length;i++)
+    pb_fill(
+     gx+a->snake[i]%23*cell+1,
+     gy+a->snake[i]/23*cell+1,
+     13,13,i?0xff60d27a:0xffedbfd1);
+
+   pb_fill(
+    gx+a->food%23*cell+4,
+    gy+a->food/23*cell+4,
+    7,7,0xffff4848);
+  }else{
+   for(unsigned i=0;i<AR194_CELLS;i++){
+    int xx=gx+i%23*cell,yy=gy+i/23*cell;
+
+    if(!a->board[i])
+     pb_fill(xx,yy,14,14,0xff6aabef);
+    else if(a->board[i]<3)
+     pb_fill(
+      xx+(a->board[i]==2?5:6),
+      yy+(a->board[i]==2?5:6),
+      a->board[i]==2?5:2,
+      a->board[i]==2?5:2,
+      0xffffdf56);
+   }
+
+   arcade_poring194(
+    gx+a->food%23*cell+1,
+    gy+a->food/23*cell+1,
+    13,0xffedbfd1);
+
+   for(unsigned i=0;i<4;i++)
+    arcade_poring194(
+     gx+a->ghosts[i]%23*cell+2,
+     gy+a->ghosts[i]/23*cell+2,
+     11,
+     a->powerUntil>a->time?0xff8999b2:
+      (unsigned[]){
+       0xffff4848,0xff65dffa,0xffffdf56,0xff60d27a
+      }[i]);
+  }
+ }
+ else if(a->game==AR194_BREAKER){
+  for(unsigned i=0;i<60;i++)if(a->board[i]){
+   int xx=x+i%10*44,yy=y+26+i/10*13;
+   pb_fill(xx+1,yy,41,11,i/10%2?0xff60d27a:0xffbd8c3e);
+  }
+
+  pb_fill(
+   x+(int)(a->paddle*w)-44,
+   y+(int)(h*.92f),
+   88,6,0xff6aabef);
+
+  arcade_poring194(
+   x+(int)(a->x*w)-5,y+(int)(a->y*h)-5,10,0xffedbfd1);
+ }
+ else if(a->game==AR194_PUZZLE){
+  for(unsigned i=0;i<16;i++){
+   int xx=182+i%4*70,yy=112+i/4*66;
+
+   pb_fill(
+    xx,yy,66,62,
+    a->tiles[i]?0xffdbe3ed:0xff27392b);
+
+   if(i==a->cursor)
+    ui_outline(xx-1,yy-1,68,64,0xffffdf56);
+
+   if(a->tiles[i]){
+    arcade_poring194(xx+21,yy+8,24,0xffedbfd1);
+
+    char n[8];
+    snprintf(n,sizeof(n),"%u",a->tiles[i]);
+
+    ui_scaled(
+     xx+31-ui_text_width(n,1)/2,yy+39,1,"%s",n);
+   }
+  }
+ }
+
+ if(a->paused||a->over){
+  pb_fill(176,204,288,84,0xffeaf0f5);
+  ui_outline(176,204,288,84,0xff6aabef);
+
+  ui_scaled(
+   196,218,1,"%s",
+   a->paused?"Resting the Poring...":
+   a->won?"A splendid result!":
+          "Another biscuit, another try.");
+
+  ui_hint64(
+   196,253,.9f,
+   a->paused?"Y: resume   B: leave":
+             "A: play again   B: leave");
+ }
+
+ const char*help=
+  a->game==AR194_PONG?
+   "UP/DOWN: paddle":
+  a->game==AR194_PATROL?
+   "LEFT/RIGHT: move   A: fire":
+  a->game==AR194_BREAKER?
+   "LEFT/RIGHT: paddle   A: launch":
+  a->game==AR194_PUZZLE?
+   "D-PAD: choose   A: slide":
+   "D-PAD: move";
+
+ ui_hint64(
+  88,400,.85f,"%s   Y: pause   B: leave",help);
+}
+```
+
+Additional retained arcade implementation evidence—not full engine code:
+
+- Sliding puzzle generation was corrected to avoid immediately undoing the previous blank movement.
+- Historical testing covered **10,000 initially unsolved, solvable puzzle seeds**.
+- Games used bounded arrays/pools; a shared cabinet UI called `arcade_input194()` and `arcade_tick194()`.
+- Sliding-puzzle best score converted move count using `10000 / (moves + 1)` only on a win.
+- Gameplay and best-score persistence were separate; a failed score save could be retried.
+
+**Companion runtime excerpts**
+
+These are additional actual functions from `campaign_world200.h`. They expose the original initialization and persistence contracts, but are **not the missing movement/combat/progression engines themselves**.
+
+```c
+static void campaign_killed200(Combat*g,const CombatMob*m){
+ rescue_killed200(&campaignRescue200,g,m);
+ campaign_encounter_killed193(g,m);
+ party_gain_exp193(g,m);
+}
+
+static void campaign_party_bind200(Combat*g){
+ Campaign200 c;
+ unsigned ids[3],count=0;
+
+ campaignPartyState200=questPins65;
+
+ if(campaign_load200(questPins65,&c)!=1||c.cursor<3){
+  campaignParty200.count=0;
+  return;
+ }
+
+ int found=party_config_load200(
+  questPins65,&campaignConfig200,c.recruits);
+
+ if(!found){
+  party_config_default200(&campaignConfig200,c.recruits);
+
+  if(!party_config_store200(
+      questPins65,&campaignConfig200,c.recruits))
+   found=-1;
+ }
+
+ if(found<0){
+  campaignParty200.count=0;
+  campaignPartyState200=NULL;
+  return;
+ }
+
+ if(!party_seed_recruits193(questPins65,c.recruits,g)||
+    !party_promote194(questPins65,c.cursor)){
+  campaignParty200.count=0;
+  campaignPartyState200=NULL;
+  return;
+ }
+
+ for(unsigned k=0;k<3;k++){
+  unsigned id=campaignConfig200.active[k];
+
+  if(id<19&&campaignCompanions200[id].sceneActor!=255)
+   ids[count++]=id;
+ }
+
+ if(count>diagCompanionLimit194)
+  count=diagCompanionLimit194;
+
+ if(!campaign_follow_select200(
+     &campaignParty200,c.recruits,ids,count)){
+  campaignParty200.count=0;
+  return;
+ }
+
+ for(unsigned i=0;i<count;i++){
+  if(!party_init_vital200(campaignParty200.members+i,g)){
+   campaignParty200.count=0;
+   campaignPartyState200=NULL;
+   return;
+  }
+ }
+}
+
+static void campaign_world_bind200(Combat*g){
+ campaignRosterState200=questPins65;
+ campaign_party_bind200(g);
+
+ campaign_stage_bind200(
+  &campaignStage200,g,questPins65,campaign_art_ready200());
+
+ campaign_job_proof200(questPins65,g->jobId);
+
+ rescue_bind200(
+  &campaignRescue200,g,&npcGame55.monsters,
+  questPins65,campaign_art_ready200());
+}
+```
+
+The historical full reset was:
+
+```c
+static void(*campaignCosmeticReset194)(void);
+
+static void campaign_reset200(void){
+ memset(&campaignNativeAccess194,0,sizeof(campaignNativeAccess194));
+
+ if(campaignCosmeticReset194)
+  campaignCosmeticReset194();
+
+ campaign_encounter_clear193();
+
+ while(pb_busy()){}
+
+ scene_ui_release200();
+ memset(&campaignStage200,0,sizeof(campaignStage200));
+ campaignStageModal200=0;
+
+ campaignRosterState200=NULL;
+ campaignPartyState200=NULL;
+ campaignCommandTarget200=-1;
+
+ party_config_default200(&campaignConfig200,0);
+
+ memset(campaignShots200,0,sizeof(campaignShots200));
+ memset(partyArrows193,0,sizeof(partyArrows193));
+ memset(campaignFx200,0,sizeof(campaignFx200));
+ memset(&campaignParty200,0,sizeof(campaignParty200));
+
+ rescue_reset200(&campaignRescue200);
+ campaign_actor_release200();
+}
+```
+
+The chronology-cache clearing line was a later integration addition. Preserve that distinction when comparing versions.
+
+Recorded combat hook registrations:
+
+```c
+combat_campaign_kill200=campaign_killed200;
+combat_campaign_enemy200=party_enemy200;
+
+combat_friendly_heal200=campaign_friendly_heal200;
+combat_friendly_revive_ready200=campaign_friendly_revive_ready200;
+combat_friendly_revive200=campaign_friendly_revive200;
+combat_friendly_buff_ready200=campaign_friendly_buff_ready200;
+combat_friendly_buff200=campaign_friendly_buff200;
+
+combat_party_recover200=campaign_party_recover200;
+combat_party_needs_recovery200=campaign_party_needs_recovery200;
+combat_companion_field194=party_wizard_hit194;
+```
+
+These hooks are evidence of integration, **not proof that every named action was automatically selected by every companion’s AI**.
+
+Retained companion spell-test assertions establish these intended behaviors:
+
+```c
+/* Source test used actual prepared companions and the actual combat tick. */
+
+campaign_battle_tick200(&g,.05f,0);
+
+assert(m->pendingSkill);
+assert(party_caster_spell194(m->pendingSkill));
+assert(m->castUntil>=g.time);
+assert(m->sp==sp); /* Not paid at cast initiation. */
+
+assert(party_hurt200(&g,m,1));
+assert(!m->pendingSkill);
+assert(m->sp==sp); /* Interrupted before completion: no SP debit. */
+```
+
+After successful resolution, the test checked:
+
+```c
+assert(g.mobs[0].hp<100000);
+assert(m->sp==sp-cost);
+assert(g.sp==playerSP);
+assert(g.damageNext==hits);
+```
+
+It also tested:
+
+- Skills OFF and passive/Hold prevent spell selection.
+- Insufficient companion SP prevents casting.
+- Reused/stale target life cancels without damage/SP payment.
+- Already-paid multi-hit spells survive later hurt without a second debit.
+- Slow frames advance bounded pending hits rather than charging again.
+- Soul Linker’s Estin/Estun → Esma gate.
+- Kaina discount uses the companion’s own learned rank.
+
+The retained exact Kaina assertion was:
+
+```c
+unsigned rank=party_skill_rank193(m,440);
+
+assert(
+ party_caster_cost194(m,440,rank)==
+ party_skill_cost200(440,rank)-
+ party_skill_cost200(440,rank)*
+ 7*party_skill_rank193(m,437)/100
+);
+```
+
+The full definitions of companion growth serialization, skill learning queues, damage resolution, support targeting and movement are **not present verbatim in the retained excerpts**. Their recorded historical tests and public assets must not be mistaken for recovered source.
+
+**Later-chapter world/dialogue integration**
+
+These actual functions are additional to the previous packet:
+
+```c
+static int campaign_world_near200(void){
+ int near=campaign_stage_near200(&campaignStage200);
+ return near>=0?near:rescue_near200(&campaignRescue200);
+}
+
+static void campaign_world_interact200(void){
+ int who=campaign_world_near200();
+ if(who<0)return;
+
+ if(who>=100){
+  if(campaign_stage_interact200(&campaignStage200,who)==1){
+   if(!scene_ui_open200(questPins65)){
+    combat_message(
+     campaignStage200.player,
+     "The conversation could not be loaded. Please try again.");
+   }else if(scene_ui_tick200()==SC200_WAIT){
+    Campaign200 c;
+
+    if(campaign_load200(questPins65,&c)==1)
+     combat_message(
+      campaignStage200.player,
+      "%s",campaign_objective_text200(&c));
+
+    scene_ui_release200();
+   }
+  }
+  return;
+ }
+
+ if(rescue_interact200(&campaignRescue200,(unsigned)who)){
+  if(!scene_ui_open200(questPins65)){
+   combat_message(
+    campaignRescue200.player,
+    "The conversation could not be loaded. Please try again.");
+  }else{
+   unsigned recommended=campaign_recommended_role200(
+    campaign_career_root200(campaignRescue200.player->jobId));
+
+   if(recommended)
+    campaignUI200.role=recommended-1;
+  }
+ }
+}
+
+static int campaign_native_page200(
+ Combat*g,const NpcRecord55*n,const char*text
+){
+ if(campaign_investigation_page200(
+     questPins65,g->mapId,n->map,n->unique,text))
+  return 1;
+
+ combat_message(
+  g,"The witness account could not be saved. Please try again.");
+
+ return 0;
+}
+
+static int campaign_job_guard200(Combat*g,unsigned job){
+ if(!questPins65||campaign_sandbox193(questPins65))
+  return 1;
+
+ Campaign200 c;
+ int found=campaign_load200(questPins65,&c);
+
+ if(!found)return 1;
+
+ if(found<0){
+  combat_message(
+   g,"Your story record could not be read. Job change was not applied.");
+  return 0;
+ }
+
+ if(campaign_career_allows200(c.lineage,job))
+  return 1;
+
+ combat_message(
+  g,"Your chosen career is permanent. Promotions within that path remain available.");
+
+ return 0;
+}
+```
+
+The actual current-map minimap integration was also retained:
+
+```c
+static void campaign_minimap194(const Combat*g){
+ const CampaignStage200*r=&campaignStage200;
+ Campaign200 c;
+
+ if(!r->active||
+    !r->definition||
+    !quest_tracked65(CAMPAIGN_QUEST200)||
+    campaign_load200(r->state,&c)!=1)
+  return;
+
+ const CampaignStageDefinition200*d=r->definition;
+
+ if(g->mapId!=d->map||
+    c.cursor!=d->cursor||
+    (c.objectives&d->forbidden194))
+  return;
+
+ if(d->count){
+  unsigned actor=c.cursor==5?2:0;
+
+  if(actor<d->count){
+   minimap_marker(
+    d->actor[actor].x,d->actor[actor].y,0xff000000,6);
+   minimap_marker(
+    d->actor[actor].x,d->actor[actor].y,0xffffdf56,4);
+  }
+ }
+
+ unsigned gate=
+  c.cursor>=12?campaign_proof_gate194(c.cursor):
+  c.cursor==3?CHAPTER2_WITNESS_GATE200:
+  c.cursor==4?CHAPTER2_LEDGER_GATE200:
+  c.cursor==6?CHAPTER3_OBSERVE193:
+  c.cursor==9?CHAPTER4_MANIFEST193:
+  c.cursor==10?CHAPTER4_ANCHOR193:65535;
+
+ if(c.cursor==34)
+  gate=CAMPAIGN_FINAL_BINDINGS194;
+
+ if(c.checkpoint!=gate)return;
+
+ unsigned kills=
+  c.cursor==34?768:campaign_battle_mask194(d);
+
+ if(kills&&(c.objectives&kills)!=kills)
+  return;
+
+ for(unsigned k=0;k<d->docs193;k++){
+  unsigned bit=
+   c.cursor>=12?d->docBit194+k:
+   c.cursor==3?2:
+   c.cursor==4||c.cursor==9?0:
+   c.cursor==10?(k==2?0:k+4):k;
+
+  if(bit>=31||(c.objectives&(1u<<bit)))
+   continue;
+
+  float x=d->docX+
+   ((float)k-(d->docs193-1)*.5f)*24;
+
+  minimap_marker(x,d->docY,0xff000000,5);
+  minimap_marker(x,d->docY,0xffffdf56,3);
+ }
+}
+```
+
+The later regional-marker insertion went **before** this function’s early return; otherwise regional notices disappear from the minimap whenever no main-story stage is active.
+
+**What is still not retained verbatim**
+
+I cannot supply complete originals of:
+
+- `arcade194.h` game-logic engine.
+- Guild furniture/mesh placement implementation.
+- Companion combat, movement and progression engines.
+- Later-chapter stage definitions, encounter definitions, graph interpreter or all dialogue graphs.
+- Complete companion skill-path tables.
+
+Those need comparison with the surviving source/assets and executable, followed by reconstruction where genuinely absent. **The complete guild state implementation, physical layout excerpts, arcade renderer and runtime integration above should be preserved now before further reconstruction.**
