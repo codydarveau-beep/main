@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "nativeCallerComparisons": 74,
+  "cameraViews": 592,
+  "sourceHelper": "0x117850",
+  "sourceCallers": [
+    "0x45dd1..0x45f2f"
+  ],
+  "scope": "Actual native caller enumeration for all stage records and static guild paper conditions; production renderer host recording checks authored positions, eight bearings, projection, depth, room visibility, unavailable icons and atlas fallback without state mutation. GPU rasterization and target residency remain untested.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

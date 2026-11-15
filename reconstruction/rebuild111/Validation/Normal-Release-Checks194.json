@@ -37,6 +37,11 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original scene evidence props and actual draw-call integration",
+      "status": "passed",
+      "evidence": "Campaign-Document-Checks207.json"
+    },
+    {
       "name": "original first-pair caller fees and starting-technique rank across promotions",
       "status": "passed",
       "evidence": "Companion-Legacy-Cast-Checks206.json"

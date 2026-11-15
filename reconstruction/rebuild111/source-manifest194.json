@@ -302,6 +302,11 @@
       "sha256": "bf2f6e624239b34132e095a8b9d44aef23a9bb4bef714834430132539a249c45"
     },
     {
+      "path": "Source/campaign_document207.h",
+      "bytes": 1627,
+      "sha256": "25688ccd50fa56baadd1bee1eb063632f47d11fccd100fefdb1ea8c85e6a85bd"
+    },
+    {
       "path": "Source/campaign_encounter198.h",
       "bytes": 5035,
       "sha256": "69ded4bf682b9f7170619722d2df61e265bfe456e708bd881ed8ccf8b4f8b327"
@@ -403,8 +408,8 @@
     },
     {
       "path": "Source/campaign_world200.h",
-      "bytes": 8306,
-      "sha256": "5b4dade1973096ae9677d98c939f5807d1fd81f03cee7b49d3f459af39434304"
+      "bytes": 7315,
+      "sha256": "ef61d411aa94d1461172af91b411981e4cc63d9402b01735deb677aa86ab704b"
     },
     {
       "path": "Source/career_access194.h",
@@ -5082,6 +5087,11 @@
       "sha256": "97892fa33068cf1ca48d4e290f6b57057a70db984e2e3dcbac5c4fca91e2df64"
     },
     {
+      "path": "Preparation/check_campaign_document207.py",
+      "bytes": 4481,
+      "sha256": "cb55ad7acff0d99c3bbf0b9a4c3cb02aec7bd28b62d1349e39857eb930f4bed2"
+    },
+    {
       "path": "Preparation/check_campaign_minimap200.py",
       "bytes": 1371,
       "sha256": "c8f084a57dc93ad470ce86249ce8c6afe40f656c26fcf225fa85b8501f52d3ea"
@@ -5363,13 +5373,18 @@
     },
     {
       "path": "Preparation/summarize_normal_checks194.py",
-      "bytes": 5999,
-      "sha256": "c8bf05bbb1be6652d9683cbaf9cdf968c3a1be1d599f5e2a57897ae9aff7bc96"
+      "bytes": 6101,
+      "sha256": "84c77dedebcfc3a49cdcddd14e4eb071eeab6001b7bc5de45d24b08f1ef09f7a"
     },
     {
       "path": "Validation/Arcade-Logic-Checks197.json",
       "bytes": 429,
       "sha256": "8a13c46a4f041171994b45314b628fe8c1e0843ead9b46435c632b6880066545"
+    },
+    {
+      "path": "Validation/Campaign-Document-Checks207.json",
+      "bytes": 592,
+      "sha256": "9dc951efb5e1679b00e931b3bcbc9e2ecaf0673c4318abad6118b7efcbba8fa3"
     },
     {
       "path": "Validation/Campaign-Minimap-Checks200.json",
@@ -5519,7 +5534,12 @@
     {
       "path": "Validation/Native-Checks194.json",
       "bytes": 4136,
-      "sha256": "47e35548fe3d78bd2615e66e0cb40790a3d020ac1fa0582ba20bb6d4b7c2c236"
+      "sha256": "5415d97831d600cf8586e556acdf053b01b2f107386dacc7a2532e72bc7070aa"
+    },
+    {
+      "path": "Validation/Native-Decompile203/callback-117850.c",
+      "bytes": 4279,
+      "sha256": "39a26a7947cf44d40bc8fec8592ee31437ce8cec1d698f421c71c7aaa6762c28"
     },
     {
       "path": "Validation/Native-Decompile203/callback-668c0.c",
@@ -5653,8 +5673,8 @@
     },
     {
       "path": "Validation/Native-Decompile203/document207.log",
-      "bytes": 4918,
-      "sha256": "35976276de0bdfe07585ecea0fd20a0384d97fc2ffff2d9cde882307b4973371"
+      "bytes": 5304,
+      "sha256": "69b5f4e6d05a832285bc39b8a42010e0aef8b2285ae585d54aae743176aea0d4"
     },
     {
       "path": "Validation/Native-Decompile203/native-111490.c",
@@ -5713,8 +5733,8 @@
     },
     {
       "path": "Validation/Normal-Release-Checks194.json",
-      "bytes": 6979,
-      "sha256": "8e6760ac754619e7705ec69469f7effccc8cce3fcf9b3a07694efc803bc1471d"
+      "bytes": 7151,
+      "sha256": "0b73fb822fe3ed914e752f09819fd56a7056d13903d7e182847925f9d37565cd"
     },
     {
       "path": "Validation/Release-Inputs194.json",
@@ -5802,6 +5822,11 @@
       "sha256": "d198b4a6d1713bea574d77626d14e79d8cc2f466a0878a432e107ddb37c2d355"
     },
     {
+      "path": "Validation/campaign-document207.log",
+      "bytes": 85,
+      "sha256": "2233779c439c1bd80b7fd45246d94a1c3e922fda3e9fe13dad404c2b687541af"
+    },
+    {
       "path": "Validation/campaign-encounter-build198.log",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -5810,6 +5835,11 @@
       "path": "Validation/campaign-encounter198.log",
       "bytes": 200,
       "sha256": "2e579f57d3ba442235e8dc1ec5e312b984e54d48c7ac17f74b014e38223c221b"
+    },
+    {
+      "path": "Validation/campaign-minimap-regression207.log",
+      "bytes": 57,
+      "sha256": "f7bb9773d4758f4e9e5e897ad7b38e9da0980b582dffb0faf180a23f5c283f6d"
     },
     {
       "path": "Validation/campaign-minimap200.log",
@@ -5832,14 +5862,19 @@
       "sha256": "43a7cd81f7ee624045a34438f0f42f40fc2930cfb43b4aeb6e2748228367cd0c"
     },
     {
+      "path": "Validation/campaign-sequence-regression207.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
       "path": "Validation/campaign-sequence-run200.log",
       "bytes": 87,
       "sha256": "43a7cd81f7ee624045a34438f0f42f40fc2930cfb43b4aeb6e2748228367cd0c"
     },
     {
       "path": "Validation/campaign-sequence200.log",
-      "bytes": 308,
-      "sha256": "596ffdd82c3b565d6ad7e4d21f53d25f2fecc37e5c2faa20e938b12907cac2c5"
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "path": "Validation/campaign-sequence201.log",
@@ -5855,6 +5890,11 @@
       "path": "Validation/campaign-stage198.log",
       "bytes": 157,
       "sha256": "52ff004f92a0ee94d41aa77b7531d07c906f0b84c8a78de813fed84b230d1154"
+    },
+    {
+      "path": "Validation/campaign_document_adapter207.c",
+      "bytes": 2978,
+      "sha256": "0142e70177d0cea00b7e12ad4157d9269d25d5d1ac9e08866cbd5fba2eb135c3"
     },
     {
       "path": "Validation/companion-bolt-choice204.log",
@@ -6263,6 +6303,16 @@
     },
     {
       "path": "Validation/native-caller206.log",
+      "bytes": 612,
+      "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
+    },
+    {
+      "path": "Validation/native-document-guards207.log",
+      "bytes": 4136,
+      "sha256": "5415d97831d600cf8586e556acdf053b01b2f107386dacc7a2532e72bc7070aa"
+    },
+    {
+      "path": "Validation/native-document207.log",
       "bytes": 612,
       "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
     },
@@ -6788,8 +6838,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 36283,
-      "sha256": "79bbd1a7fd5dc4fe2e7fd16b66576393bf2d5b8bcb35b8e8ca74499c1fc04bd9"
+      "bytes": 37209,
+      "sha256": "88b62602586abc7d972ead3491f762105bc657b78b3e8677c11454b3be6b021e"
     },
     {
       "path": "RELEASE-GATES.md",
@@ -6798,8 +6848,8 @@
     },
     {
       "path": "WORK-REMAINING.md",
-      "bytes": 10507,
-      "sha256": "a4060efb164762d0678b24d69e96105728b21310740702225f157d45ba9a46d5"
+      "bytes": 10554,
+      "sha256": "27f541c3b4ffc0261ecdfb2cc5d7282d595e0c92e356273888b816fd89c2d6b4"
     }
   ]
 }
