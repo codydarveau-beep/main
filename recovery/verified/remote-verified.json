@@ -1,0 +1,2264 @@
+[
+  {
+    "path": "downloads/BUILD-RECEIPT43.json",
+    "location": "/workspace/main/downloads/BUILD-RECEIPT43.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.0.0-Xbox-Startup-Fix.zip",
+    "location": "/workspace/main/downloads/MyRO-1.0.0-Xbox-Startup-Fix.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.0.0-Xbox-Startup-Fix.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.0.0-Xbox-Startup-Fix.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.1.0-Appearance-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.1.0-Appearance-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.1.0-Appearance-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.1.0-Appearance-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.1.0-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.1.0-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.1.0-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.1.0-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.1.0-release.json",
+    "location": "/workspace/main/downloads/MyRO-1.1.0-release.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.1.1-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.1.1-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.1.1-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.1.1-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.1.1-release.json",
+    "location": "/workspace/main/downloads/MyRO-1.1.1-release.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.1.2-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.1.2-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.1.2-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.1.2-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.10.0-Campaign-Cast-Portraits-Collector.zip",
+    "location": "/workspace/work/recovery/remote-originals/downloads/MyRO-1.10.0-Campaign-Cast-Portraits-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/MyRO-1.10.0-Story-References-Collector.zip",
+    "location": "/workspace/work/recovery/remote-originals/downloads/MyRO-1.10.0-Story-References-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/MyRO-1.10.0-Update.zip",
+    "location": "/workspace/work/recovery/remote-originals/downloads/MyRO-1.10.0-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/MyRO-1.10.0-Update.zip.sha256",
+    "location": "/workspace/work/recovery/remote-originals/downloads/MyRO-1.10.0-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/MyRO-1.2.0-Expanded-Classes-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.2.0-Expanded-Classes-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.2.0-Expanded-Classes-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.2.0-Expanded-Classes-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.2.0-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.2.0-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.2.0-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.2.0-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.3.0-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.3.0-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.3.0-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.3.0-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.4.0-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.4.0-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.4.0-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.4.0-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.5.0-Effect-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.5.0-Effect-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.5.0-Sound-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.5.0-Sound-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.5.0-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.5.0-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.5.0-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.5.0-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.0-NPC-Book-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.6.0-NPC-Book-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.0-NPC-Sound-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.6.0-NPC-Sound-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.0-Quest-Monster-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.6.0-Quest-Monster-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.0-Seasonal-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.6.0-Seasonal-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.0-Solo-Arena-Collector-Fixed.zip",
+    "location": "/workspace/main/downloads/MyRO-1.6.0-Solo-Arena-Collector-Fixed.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.0-Solo-Arena-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.6.0-Solo-Arena-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.0-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.6.0-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.0-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.6.0-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.1-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.6.1-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.1-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.6.1-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.2-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.6.2-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.2-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.6.2-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.3-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.6.3-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.6.3-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.6.3-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.0-Gonryun-Arena-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.0-Gonryun-Arena-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.0-Hugel-Quest-Room-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.0-Hugel-Quest-Room-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.0-Monster-Race-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.0-Monster-Race-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.0-Quest-Text-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.0-Quest-Text-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.0-Race-NPC-Art-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.0-Race-NPC-Art-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.0-Skill-Quest-Followup-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.0-Skill-Quest-Followup-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.0-Start-Here.txt",
+    "location": "/workspace/main/downloads/MyRO-1.7.0-Start-Here.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.0-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.0-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.0-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.7.0-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.1-NPC-Presentation-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.1-NPC-Presentation-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.1-Start-Here.txt",
+    "location": "/workspace/main/downloads/MyRO-1.7.1-Start-Here.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.1-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.1-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.1-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.7.1-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.2-NPC-Emotes-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.2-NPC-Emotes-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.2-NPC-Presentation-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.2-NPC-Presentation-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.2-NPC-Presentation-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.7.2-NPC-Presentation-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.2-Notes.txt",
+    "location": "/workspace/main/downloads/MyRO-1.7.2-Notes.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.2-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.2-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.2-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.7.2-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.3-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.7.3-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.7.3-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.7.3-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.0-Audio-Appearance-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.8.0-Audio-Appearance-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.0-Mercenary-Layers-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.8.0-Mercenary-Layers-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.0-Mercenary-Layers-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.8.0-Mercenary-Layers-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.0-NPC-System-Art-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.8.0-NPC-System-Art-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.0-NPC-System-Art-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.8.0-NPC-System-Art-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.0-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.8.0-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.0-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.8.0-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.1-Appearance-Effects-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.8.1-Appearance-Effects-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.1-Legacy-Effects-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.8.1-Legacy-Effects-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.1-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.8.1-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.1-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.8.1-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.2-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.8.2-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.2-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.8.2-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.3-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.8.3-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.8.3-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.8.3-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.9.0-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.9.0-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.9.0-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.9.0-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.9.0-Water-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-1.9.0-Water-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.9.0-Water-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.9.0-Water-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.9.1-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-1.9.1-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.9.1-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-1.9.1-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.9.1-release.json",
+    "location": "/workspace/main/downloads/MyRO-1.9.1-release.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-1.9.2-Level-Up-Collector.zip",
+    "location": "/workspace/work/recovery/remote-originals/downloads/MyRO-1.9.2-Level-Up-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/MyRO-1.9.2-Update-r2.zip",
+    "location": "/workspace/work/recovery/remote-originals/downloads/MyRO-1.9.2-Update-r2.zip",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/MyRO-1.9.2-Update-r2.zip.sha256",
+    "location": "/workspace/work/recovery/remote-originals/downloads/MyRO-1.9.2-Update-r2.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/MyRO-1.9.2-Update.zip",
+    "location": "/workspace/work/recovery/remote-originals/downloads/MyRO-1.9.2-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/MyRO-1.9.2-Update.zip.sha256",
+    "location": "/workspace/work/recovery/remote-originals/downloads/MyRO-1.9.2-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/MyRO-1.9.3-Release-Notes.txt",
+    "location": "/workspace/work/recovery/remote-originals/downloads/MyRO-1.9.3-Release-Notes.txt",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/MyRO-1.9.3-Update.zip",
+    "location": "/workspace/work/recovery/remote-originals/downloads/MyRO-1.9.3-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/MyRO-1.9.3-Update.zip.sha256",
+    "location": "/workspace/work/recovery/remote-originals/downloads/MyRO-1.9.3-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/MyRO-2.0.0-Campaign-Actors-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-2.0.0-Campaign-Actors-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-2.0.0-Campaign-Actors-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-2.0.0-Campaign-Actors-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-54.0.0-Job-Quests-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-54.0.0-Job-Quests-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-54.0.0-Job-Quests-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-54.0.0-Job-Quests-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-54.0.0-NPC-Art-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-54.0.0-NPC-Art-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-54.0.0-NPC-Art-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-54.0.0-NPC-Art-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-54.0.0-NPC-Rooms-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-54.0.0-NPC-Rooms-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-54.0.0-NPC-Rooms-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-54.0.0-NPC-Rooms-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-54.1.0-Start-Menu-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-54.1.0-Start-Menu-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-54.1.0-Start-Menu-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-54.1.0-Start-Menu-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-54.1.0-Training-Grounds-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-54.1.0-Training-Grounds-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-54.1.0-Training-Grounds-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-54.1.0-Training-Grounds-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Damage-Art-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Damage-Art-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Izlude-Bridge-Collector44.zip",
+    "location": "/workspace/main/downloads/MyRO-Izlude-Bridge-Collector44.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Payon-Asset-Request-AutoFind.zip",
+    "location": "/workspace/main/downloads/MyRO-Payon-Asset-Request-AutoFind.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Payon-Asset-Request-AutoFind.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Payon-Asset-Request-AutoFind.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Payon-Asset-Request-RouteFix.zip",
+    "location": "/workspace/main/downloads/MyRO-Payon-Asset-Request-RouteFix.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Payon-Asset-Request-RouteFix.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Payon-Asset-Request-RouteFix.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Payon-Asset-Request.zip",
+    "location": "/workspace/main/downloads/MyRO-Payon-Asset-Request.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Payon-Asset-Request.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Payon-Asset-Request.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Payon-Next-Build-Plan.md",
+    "location": "/workspace/main/downloads/MyRO-Payon-Next-Build-Plan.md",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Payon-Skeletons43.zip",
+    "location": "/workspace/main/downloads/MyRO-Payon-Skeletons43.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Payon-Skeletons43.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Payon-Skeletons43.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Payon-Supplement43.zip",
+    "location": "/workspace/main/downloads/MyRO-Payon-Supplement43.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Payon-Supplement43.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Payon-Supplement43.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Super-Novice-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Super-Novice-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test36-Next-Assets.zip",
+    "location": "/workspace/main/downloads/MyRO-Test36-Next-Assets.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test36-Next-Assets.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test36-Next-Assets.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test37-Next-Assets.zip",
+    "location": "/workspace/main/downloads/MyRO-Test37-Next-Assets.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test37-Next-Assets.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test37-Next-Assets.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test39-Effect-Assets.zip",
+    "location": "/workspace/main/downloads/MyRO-Test39-Effect-Assets.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test39-Effect-Assets.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test39-Effect-Assets.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test40-Effect-Checklist.txt",
+    "location": "/workspace/main/downloads/MyRO-Test40-Effect-Checklist.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test41-Effect-Checklist.txt",
+    "location": "/workspace/main/downloads/MyRO-Test41-Effect-Checklist.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test41-Start-Here.txt",
+    "location": "/workspace/main/downloads/MyRO-Test41-Start-Here.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test42-Effect-Checklist.txt",
+    "location": "/workspace/main/downloads/MyRO-Test42-Effect-Checklist.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test42-Start-Here.txt",
+    "location": "/workspace/main/downloads/MyRO-Test42-Start-Here.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test43-Checklist.txt",
+    "location": "/workspace/main/downloads/MyRO-Test43-Checklist.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test43-Knight-HighWizard-Assets.zip",
+    "location": "/workspace/main/downloads/MyRO-Test43-Knight-HighWizard-Assets.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test43-Knight-HighWizard-Assets.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test43-Knight-HighWizard-Assets.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test44-Checklist.txt",
+    "location": "/workspace/main/downloads/MyRO-Test44-Checklist.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test44-Readme.txt",
+    "location": "/workspace/main/downloads/MyRO-Test44-Readme.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test45-Asset-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test45-Asset-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test45-Checklist.txt",
+    "location": "/workspace/main/downloads/MyRO-Test45-Checklist.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test45-Effect-Geometry.zip",
+    "location": "/workspace/main/downloads/MyRO-Test45-Effect-Geometry.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test45-Effect-Supplement.zip",
+    "location": "/workspace/main/downloads/MyRO-Test45-Effect-Supplement.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test45-Readme.txt",
+    "location": "/workspace/main/downloads/MyRO-Test45-Readme.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test45a-Readme.txt",
+    "location": "/workspace/main/downloads/MyRO-Test45a-Readme.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test46-Asset-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test46-Asset-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test46-Asset-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test46-Asset-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test46-Checklist.txt",
+    "location": "/workspace/main/downloads/MyRO-Test46-Checklist.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test46-Equipment-Art.zip",
+    "location": "/workspace/main/downloads/MyRO-Test46-Equipment-Art.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test46-Equipment-Art.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test46-Equipment-Art.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test46-Focused-Followup.zip",
+    "location": "/workspace/main/downloads/MyRO-Test46-Focused-Followup.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test46-Focused-Followup.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test46-Focused-Followup.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test46-Readme.txt",
+    "location": "/workspace/main/downloads/MyRO-Test46-Readme.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test47-Checklist.txt",
+    "location": "/workspace/main/downloads/MyRO-Test47-Checklist.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test47-Readme.txt",
+    "location": "/workspace/main/downloads/MyRO-Test47-Readme.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test47a-Readme.txt",
+    "location": "/workspace/main/downloads/MyRO-Test47a-Readme.txt",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test48-Final-Effects-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test48-Final-Effects-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test48-Final-Effects-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test48-Final-Effects-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test48-Focused-Followup-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test48-Focused-Followup-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test48-Focused-Followup-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test48-Focused-Followup-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test48-Second-Classes-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test48-Second-Classes-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test48-Second-Classes-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test48-Second-Classes-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test48-Skill-Art-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test48-Skill-Art-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test48-Skill-Art-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test48-Skill-Art-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test49-Classic-Effects-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test49-Classic-Effects-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test49-Classic-Effects-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test49-Classic-Effects-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test49-Original-Casting-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test49-Original-Casting-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test49-Original-Casting-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test49-Original-Casting-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Focused-Followup-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test50-Focused-Followup-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Focused-Followup-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test50-Focused-Followup-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Item-Icon-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test50-Item-Icon-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Item-Icon-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test50-Item-Icon-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Manifest.json",
+    "location": "/workspace/main/downloads/MyRO-Test50-Manifest.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Notes.md",
+    "location": "/workspace/main/downloads/MyRO-Test50-Notes.md",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Second-Classes-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test50-Second-Classes-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Second-Classes-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test50-Second-Classes-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Solo-System-Items-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test50-Solo-System-Items-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Solo-System-Items-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test50-Solo-System-Items-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Solo-System-Items-and-Audio-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test50-Solo-System-Items-and-Audio-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Solo-System-Items-and-Audio-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test50-Solo-System-Items-and-Audio-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50-Start-Here.md",
+    "location": "/workspace/main/downloads/MyRO-Test50-Start-Here.md",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50a-Manifest.json",
+    "location": "/workspace/main/downloads/MyRO-Test50a-Manifest.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50a-Notes.md",
+    "location": "/workspace/main/downloads/MyRO-Test50a-Notes.md",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50a-Start-Here.md",
+    "location": "/workspace/main/downloads/MyRO-Test50a-Start-Here.md",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50b-Manifest.json",
+    "location": "/workspace/main/downloads/MyRO-Test50b-Manifest.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50b-Notes.md",
+    "location": "/workspace/main/downloads/MyRO-Test50b-Notes.md",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50b-Start-Here.md",
+    "location": "/workspace/main/downloads/MyRO-Test50b-Start-Here.md",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test50c-Notes.md",
+    "location": "/workspace/main/downloads/MyRO-Test50c-Notes.md",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test51-Map-Followup-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test51-Map-Followup-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test51-Map-Followup-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test51-Map-Followup-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test51-Map-Inventory-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test51-Map-Inventory-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test51-Map-Inventory-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test51-Map-Inventory-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test51-World-Maps-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test51-World-Maps-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test51-World-Maps-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test51-World-Maps-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test52-Collector-Fix1.zip",
+    "location": "/workspace/main/downloads/MyRO-Test52-Collector-Fix1.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test52-Collector-Fix1.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test52-Collector-Fix1.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test52-Final-Graphics-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test52-Final-Graphics-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test52-Transcendent-Items-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test52-Transcendent-Items-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test52-Transcendent-Items-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test52-Transcendent-Items-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test53-NPC-Art-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test53-NPC-Art-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test53-NPC-Art-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test53-NPC-Art-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test53-NPC-Inventory-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test53-NPC-Inventory-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test53-NPC-Inventory-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test53-NPC-Inventory-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test54-Head-Anchors-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test54-Head-Anchors-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test54-Head-Anchors-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test54-Head-Anchors-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test54-Visuals-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test54-Visuals-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test54-Visuals-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test54-Visuals-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test55-NPC-Systems-Collector.zip",
+    "location": "/workspace/main/downloads/MyRO-Test55-NPC-Systems-Collector.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Test55-NPC-Systems-Collector.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Test55-NPC-Systems-Collector.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Hardware-Check-1-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Hardware-Check-1-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Hardware-Check-1-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Hardware-Check-1-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Hardware-Check-1.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Hardware-Check-1.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Hardware-Check-1.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Hardware-Check-1.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test35-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test35-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test35-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test35-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test36-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test36-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test36-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test36-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test37-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test37-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test37-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test37-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test38-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test38-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test38-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test38-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test39-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test39-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test39-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test39-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test40-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test40-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test40-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test40-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test41-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test41-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test41-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test41-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test42-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test42-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test42-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test42-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test43-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test43-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test43-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test43-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test44-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test44-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test44-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test44-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test45-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test45-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test45-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test45-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test45a-Hotfix.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test45a-Hotfix.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test45a-Hotfix.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test45a-Hotfix.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test46-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test46-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test46-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test46-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test47-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test47-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test47-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test47-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test47a-Hotfix.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test47a-Hotfix.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test47a-Hotfix.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test47a-Hotfix.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test48-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test48-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test48-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test48-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test49-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test49-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test49-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test49-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test49a-Audio-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test49a-Audio-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test49a-Audio-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test49a-Audio-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50-Source.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50-Source.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50-Source.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50-Source.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50a-Source.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50a-Source.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50a-Source.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50a-Source.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50a-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50a-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50a-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50a-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50b-Source.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50b-Source.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50b-Source.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50b-Source.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50b-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50b-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50b-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50b-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50c-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50c-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50c-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50c-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50d-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50d-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50d-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50d-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50e-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50e-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50e-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50e-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50f-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50f-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test50f-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test50f-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test51-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test51-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test51-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test51-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test51a-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test51a-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test51a-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test51a-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test51b-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test51b-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test51b-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test51b-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test51c-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test51c-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test51c-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test51c-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test52-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test52-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test52-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test52-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test52a-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test52a-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test52a-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test52a-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test52b-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test52b-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test52b-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test52b-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test52c-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test52c-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test52c-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test52c-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test52d-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test52d-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test52d-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test52d-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test53-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test53-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test53-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test53-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test53a-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test53a-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test53a-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test53a-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test53b-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test53b-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test53b-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test53b-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test54-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test54-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test54-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test54-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test54a-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test54a-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test54a-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test54a-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test54b-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test54b-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test54b-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test54b-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test54c-Update.zip",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test54c-Update.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/MyRO-Xbox-Test54c-Update.zip.sha256",
+    "location": "/workspace/main/downloads/MyRO-Xbox-Test54c-Update.zip.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/Ragnarok-Offline-1.9.0-Testing-Checklist.pdf",
+    "location": "/workspace/main/downloads/Ragnarok-Offline-1.9.0-Testing-Checklist.pdf",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/Ragnarok-Offline-1.9.0-Testing-Checklist.pdf.sha256",
+    "location": "/workspace/main/downloads/Ragnarok-Offline-1.9.0-Testing-Checklist.pdf.sha256",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/Ragnarok-Offline-Story-Design-First-Draft.zip",
+    "location": "/workspace/main/downloads/Ragnarok-Offline-Story-Design-First-Draft.zip",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.1.2.json",
+    "location": "/workspace/main/downloads/release1.1.2.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.2.0.json",
+    "location": "/workspace/main/downloads/release1.2.0.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.3.0.json",
+    "location": "/workspace/main/downloads/release1.3.0.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.4.0.json",
+    "location": "/workspace/main/downloads/release1.4.0.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.5.0.json",
+    "location": "/workspace/main/downloads/release1.5.0.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.6.0.json",
+    "location": "/workspace/main/downloads/release1.6.0.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.7.0.json",
+    "location": "/workspace/main/downloads/release1.7.0.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.7.1.json",
+    "location": "/workspace/main/downloads/release1.7.1.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.7.2.json",
+    "location": "/workspace/main/downloads/release1.7.2.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.7.3.json",
+    "location": "/workspace/main/downloads/release1.7.3.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.8.0.json",
+    "location": "/workspace/main/downloads/release1.8.0.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.8.1.json",
+    "location": "/workspace/main/downloads/release1.8.1.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.8.2.json",
+    "location": "/workspace/main/downloads/release1.8.2.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.8.3.json",
+    "location": "/workspace/main/downloads/release1.8.3.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.9.0.json",
+    "location": "/workspace/main/downloads/release1.9.0.json",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/release1.9.2-r2.json",
+    "location": "/workspace/work/recovery/remote-originals/downloads/release1.9.2-r2.json",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/release1.9.2.json",
+    "location": "/workspace/work/recovery/remote-originals/downloads/release1.9.2.json",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/release1.9.3.json",
+    "location": "/workspace/work/recovery/remote-originals/downloads/release1.9.3.json",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-001.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-001.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-002.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-002.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-003.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-003.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-004.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-004.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-005.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-005.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-006.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-006.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-007.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-007.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-008.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-008.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-009.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-009.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-010.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-010.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-011.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-011.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-012.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-012.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-013.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-013.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-014.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-014.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-015.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-015.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-016.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-016.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-017.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-017.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-018.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-018.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-019.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-019.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-020.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-020.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-021.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-021.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-022.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-022.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-023.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-023.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-024.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-024.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-025.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-025.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-026.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-026.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-027.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-027.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-028.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-028.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-029.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-029.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-030.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-030.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-031.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-031.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-032.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-032.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-033.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-033.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-034.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-034.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-035.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-035.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-036.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-036.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-037.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-037.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-038.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-038.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-039.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-039.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-040.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-040.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-041.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-041.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-042.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-042.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-043.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-043.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-044.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-044.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-045.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-045.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-046.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-046.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-047.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-047.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-048.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-048.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-049.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-049.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-050.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-050.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-051.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-051.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-052.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-052.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-053.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-053.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test51/MyRO-Test51-Data-054.bin",
+    "location": "/workspace/main/downloads/test51/MyRO-Test51-Data-054.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test52/MyRO-Test52-Data-001.bin",
+    "location": "/workspace/main/downloads/test52/MyRO-Test52-Data-001.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "downloads/test52/MyRO-Test52-Data-002.bin",
+    "location": "/workspace/main/downloads/test52/MyRO-Test52-Data-002.bin",
+    "gitBlobVerified": true,
+    "downloaded": false
+  },
+  {
+    "path": "release1.10.0.json",
+    "location": "/workspace/work/recovery/remote-originals/release1.10.0.json",
+    "gitBlobVerified": true,
+    "downloaded": true
+  },
+  {
+    "path": "release1.9.3.json",
+    "location": "/workspace/work/recovery/remote-originals/release1.9.3.json",
+    "gitBlobVerified": true,
+    "downloaded": true
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "recordedFiles": 918,
+  "mismatched": [
+    "Makefile",
+    "campaign_actor_data200.h",
+    "campaign_actor_render200.h",
+    "campaign_battle200.h",
+    "campaign_data200.h",
+    "campaign_follow200.h",
+    "campaign_party_ui200.h",
+    "campaign_scene200.h",
+    "campaign_scene_ui200.h",
+    "campaign_world200.h",
+    "cast_timing.h",
+    "chapter1_data200.h",
+    "combat.h",
+    "integrate_catalog50.py",
+    "main.c",
+    "main.c.d",
+    "main.exe",
+    "main.obj",
+    "main.su",
+    "npc_game55.h",
+    "quest_journal65.h",
+    "skills.h"
+  ],
+  "missing": [],
+  "note": "Historical manifest is not an up-to-date proof of the recovered source snapshot."
+}

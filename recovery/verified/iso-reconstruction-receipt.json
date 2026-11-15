@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.9.3",
+    "baseline": "/workspace/myro/test70/Source/MyRO-Xbox-1.9.0.iso",
+    "baselineSHA256": "00c093c47d17641f13de8176397835e6a0a1c373d7b397f63a02950c2854fbef",
+    "target": "/workspace/work/recovery/released-1.9.3.iso",
+    "targetBytes": 1871118336,
+    "targetSHA256": "b4faef67d486de04c0c492bf1d5d7b8bd068565775fbefc82f21b02eefd01e9b",
+    "verified": true
+  },
+  {
+    "version": "1.10.0",
+    "baseline": "/workspace/work/recovery/released-1.9.3.iso",
+    "baselineSHA256": "b4faef67d486de04c0c492bf1d5d7b8bd068565775fbefc82f21b02eefd01e9b",
+    "target": "/workspace/work/recovery/released-1.10.0.iso",
+    "targetBytes": 1889075200,
+    "targetSHA256": "b6f4f9c5e8af271f40aaa8eaae5bcca5329ba29693c6ab65a40702261736e25e",
+    "verified": true
+  }
+]

@@ -1,0 +1,429 @@
+[
+  {
+    "group": "RO-Test51-Assets-Maps-All-Regions-20261023-070532-7da0c2",
+    "observedParts": 47,
+    "maximumPart": 47,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test48-Assets-Second-Classes-20261021-134724-747608",
+    "observedParts": 3,
+    "maximumPart": 3,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test46-Assets-Effects-Equipment-UI-20261021-083757-ae0dee",
+    "observedParts": 22,
+    "maximumPart": 22,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.5.0-Assets-Missing-Effects-All-Regions-20261027-132211-ea96f3",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test52d-Assets-Damage-Art-20261024-192011-255ec5",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.6.0-Assets-NPC-Books-All-Regions-20261028-151501-520a6e",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test54-Assets-Visuals-20261025-053621-3afda9",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-54.0.0-Assets-NPC-Art-All-Regions-20261025-163956-4dc903",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test55-Assets-NPC-Systems-All-Regions-20261025-094306-393051",
+    "observedParts": 4,
+    "maximumPart": 4,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Payon-Assets43-Supplement-20261021-002040-f69c1b",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test51-Map-Inventory-20261023-000723-2be82f",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test46-Assets-Focused-Followup-20261021-093850-f6b811",
+    "observedParts": 3,
+    "maximumPart": 3,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test48-Assets-Second-Classes-Followup-20261021-135410-8f7372",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Payon-Assets43-20261021-001107-f6b503",
+    "observedParts": 5,
+    "maximumPart": 5,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test53-Assets-NPC-Art-20261024-181339-becfb8",
+    "observedParts": 3,
+    "maximumPart": 3,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.6.0-Assets-NPC-Sounds-All-Regions-20261028-192423-b858f4",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test45-Assets-Graphics-Collision-20261021-054604-a2ad2e",
+    "observedParts": 2,
+    "maximumPart": 2,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.9.0-Assets-Water-All-Regions-20261105-203629-781c2f",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test46-Assets-Equipment-Art-20261021-100140-a34bd1",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test53-NPC-Inventory-20261024-150915-da5311",
+    "observedParts": 2,
+    "maximumPart": 2,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Payon-Assets43-Classes-20261021-004020-5d555d",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test51-Assets-Map-Followup-20261023-081057-a0dabb",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test49-Assets-Original-Casting-20261021-235625-7a57ce",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.8.1-Assets-Legacy-Effects-All-Regions-20261105-125202-6c8cff",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test48-Assets-Skill-Art-20261021-142143-97fd10",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test53b-Assets-Super-Novice-20261025-010009-19b570",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.8.0-Assets-Mercenary-Layers-All-Regions-20261105-063900-c3f8f7",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test52d-Assets-Damage-Art-20261024-192303-a79424",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-2.0.0-Assets-Campaign-Actors-All-Regions-20261106-103341-37ffc6",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.6.0-Assets-Quest-Monsters-All-Regions-20261028-190904-32245c",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.7.0-Assets-Quest-Text-All-Regions-20261029-013053-f97b98",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.8.0-Assets-Audio-Appearance-All-Regions-20261104-204734-d59352",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.7.1-Assets-NPC-Presentation-All-Regions-20261104-094837-13aacb",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.7.0-Assets-Hugel-Quest-Room-All-Regions-20261029-134312-63c177",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test54-Assets-Head-Anchors-20261025-074845-2296e7",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.7.0-Assets-Gonryun-Arena-All-Regions-20261031-084717-1d4257",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test45-Assets-Effect-Supplement-20261021-055613-806b66",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.6.0-Assets-Seasonal-All-Regions-20261028-100838-24c0fd",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.7.0-Assets-Race-NPC-Art-All-Regions-20261029-140742-e7a866",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.6.0-Assets-Solo-Arenas-All-Regions-20261028-103847-78709e",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-54.1.0-Assets-Training-Grounds-All-Regions-20261026-073141-64d19e",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Payon-Assets43-Skeletons-20261021-002631-6f7a6e",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.8.0-Assets-NPC-System-Art-All-Regions-20261104-172318-8ed4df",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.1.0-Assets-Appearance-All-Regions-20261026-130146-e012e8",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test50-Assets-Solo-System-Items-20261022-182345-2f2e44",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test49-Assets-Focused-Effects-20261021-214809-c33579",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.2.0-Assets-Expanded-Classes-All-Regions-20261026-163756-264df1",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Payon-Assets43-Izlude-Bridge-20261021-040752-d85149",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test50-Assets-Focused-Followup-20261022-114513-5fb5d2",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-54.0.0-Assets-NPC-Rooms-All-Regions-20261025-183947-b57745",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test45-Assets-Effect-Geometry-20261021-075142-10f08d",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test50-Assets-Second-Classes-20261022-100816-67d53b",
+    "observedParts": 3,
+    "maximumPart": 3,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.7.0-Assets-Monster-Races-All-Regions-20261029-102623-2d3285",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test52-Assets-Classes-Items-20261023-142444-03bf9a",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test48-Assets-Final-Effects-20261021-185247-8c05d1",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.8.1-Assets-Appearance-Effects-All-Regions-20261105-120723-261ede",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.7.0-Assets-Skill-Quest-Followup-All-Regions-20261029-140706-4292d8",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.5.0-Assets-Missing-Sounds-All-Regions-20261027-101812-d642c7",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test50-Assets-Item-Icon-20261022-124500-f4b054",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-Test52-Assets-Final-Graphics-20261024-132845-231501",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  },
+  {
+    "group": "RO-1.7.2-Assets-NPC-Presentation-All-Regions-20261104-123339-fda5c0",
+    "observedParts": 1,
+    "maximumPart": 1,
+    "gapsWithinObservedRange": [],
+    "finalPartCountVerified": false
+  }
+]

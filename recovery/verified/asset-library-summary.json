@@ -1,0 +1,254 @@
+{
+  "RO-Effect-Textures-20261020-094130-b02140.zip": {
+    "files": 1,
+    "bytes": 162238
+  },
+  "effect-textures-verified.json": {
+    "files": 1,
+    "bytes": 2617
+  },
+  "Classes43-return": {
+    "files": 228,
+    "bytes": 21419436
+  },
+  "Izlude-Bridge44-return": {
+    "files": 5,
+    "bytes": 3997347
+  },
+  "Merchant-icons42-return": {
+    "files": 4,
+    "bytes": 5436
+  },
+  "Next-Assets-Test37": {
+    "files": 7,
+    "bytes": 581682
+  },
+  "Next-Assets37-return": {
+    "files": 26,
+    "bytes": 378271
+  },
+  "Next-Assets39-return": {
+    "files": 40,
+    "bytes": 2053546
+  },
+  "Payon43-return": {
+    "files": 902,
+    "bytes": 117630316
+  },
+  "Payon43-skeletons": {
+    "files": 9,
+    "bytes": 511131
+  },
+  "Payon43-supplement": {
+    "files": 69,
+    "bytes": 4161827
+  },
+  "Test45-geometry": {
+    "files": 90,
+    "bytes": 2931512
+  },
+  "Test45-return": {
+    "files": 207,
+    "bytes": 39161685
+  },
+  "Test45-supplement": {
+    "files": 18,
+    "bytes": 499810
+  },
+  "Test46-equipment-art": {
+    "files": 421,
+    "bytes": 7419236
+  },
+  "Test46-followup": {
+    "files": 425,
+    "bytes": 67559055
+  },
+  "Test46-return": {
+    "files": 8905,
+    "bytes": 606320733
+  },
+  "Test48-classes": {
+    "files": 1799,
+    "bytes": 67107632
+  },
+  "Test48-final-effects": {
+    "files": 14,
+    "bytes": 283593
+  },
+  "Test48-followup": {
+    "files": 407,
+    "bytes": 22573054
+  },
+  "Test48-skill-art": {
+    "files": 71,
+    "bytes": 1368964
+  },
+  "Test49-focused-effects": {
+    "files": 22,
+    "bytes": 631613
+  },
+  "Test49-original-casting": {
+    "files": 7,
+    "bytes": 207093
+  },
+  "Test50-focused-followup": {
+    "files": 10,
+    "bytes": 48149
+  },
+  "Test50-item-icon": {
+    "files": 3,
+    "bytes": 2767
+  },
+  "Test50-second-classes": {
+    "files": 1951,
+    "bytes": 65983965
+  },
+  "Test50-solo-items-audio": {
+    "files": 18,
+    "bytes": 108156
+  },
+  "Test51-map-inventory": {
+    "files": 11,
+    "bytes": 1127408
+  },
+  "Test51-world-maps": {
+    "files": 13055,
+    "bytes": 3451552780
+  },
+  "Test52-final-graphics": {
+    "files": 32,
+    "bytes": 1683751
+  },
+  "Test52-transcendent-items": {
+    "files": 3912,
+    "bytes": 83238112
+  },
+  "Test52d-damage-art": {
+    "files": 6,
+    "bytes": 18022
+  },
+  "Test53-npc-art": {
+    "files": 1081,
+    "bytes": 164119354
+  },
+  "Test53-npc-inventory": {
+    "files": 568,
+    "bytes": 14786870
+  },
+  "Test53b-super-novice": {
+    "files": 42,
+    "bytes": 972263
+  },
+  "Test54-head-anchors": {
+    "files": 15,
+    "bytes": 373094
+  },
+  "Test54-visuals": {
+    "files": 448,
+    "bytes": 5768441
+  },
+  "Test54_0_0-npc-art-followup": {
+    "files": 50,
+    "bytes": 1486758
+  },
+  "Test55-npc-systems": {
+    "files": 581,
+    "bytes": 226647621
+  },
+  "Test56-training-grounds": {
+    "files": 38,
+    "bytes": 15049355
+  },
+  "Test58-appearance": {
+    "files": 311,
+    "bytes": 1262165
+  },
+  "Test59-expanded-classes": {
+    "files": 316,
+    "bytes": 6786477
+  },
+  "Test62-missing-effects": {
+    "files": 103,
+    "bytes": 3671064
+  },
+  "Test62-missing-sounds": {
+    "files": 28,
+    "bytes": 1091496
+  },
+  "Test64-npc-books": {
+    "files": 7,
+    "bytes": 4755
+  },
+  "Test64-npc-sounds": {
+    "files": 32,
+    "bytes": 14184272
+  },
+  "Test64-quest-monsters": {
+    "files": 64,
+    "bytes": 6280279
+  },
+  "Test64-seasonal": {
+    "files": 238,
+    "bytes": 76782156
+  },
+  "Test64-solo-arenas": {
+    "files": 121,
+    "bytes": 28549251
+  },
+  "Test65-gonryun-arena": {
+    "files": 65,
+    "bytes": 3006000
+  },
+  "Test65-hugel-quest-room": {
+    "files": 55,
+    "bytes": 2474139
+  },
+  "Test65-monster-races": {
+    "files": 83,
+    "bytes": 4566129
+  },
+  "Test65-quest-text": {
+    "files": 2,
+    "bytes": 1174731
+  },
+  "Test65-skill-quest-followup": {
+    "files": 86,
+    "bytes": 12696616
+  },
+  "Test66-npc-presentation": {
+    "files": 9,
+    "bytes": 941035
+  },
+  "Test67-npc-presentation": {
+    "files": 106,
+    "bytes": 4026930
+  },
+  "Test68-audio-appearance": {
+    "files": 4,
+    "bytes": 398715
+  },
+  "Test68-mercenary-layers": {
+    "files": 30,
+    "bytes": 487410
+  },
+  "Test68-npc-system-art": {
+    "files": 21,
+    "bytes": 640033
+  },
+  "Test69-appearance-effects": {
+    "files": 409,
+    "bytes": 5148055
+  },
+  "Test69-legacy-effects": {
+    "files": 17,
+    "bytes": 2254440
+  },
+  "Test70-water": {
+    "files": 321,
+    "bytes": 10456317
+  },
+  "campaign-actors200": {
+    "files": 21,
+    "bytes": 1598557
+  }
+}
