@@ -13,6 +13,11 @@ chains=[['main','save_commit','save_scan','save_decode','save_valid'],['main','m
 checks=[]
 for chain in chains:
  frames={n:u[n] for n in chain};total=sum(frames.values());assert total+32768<=reserve,(frames,total,reserve);checks.append(dict(frames=frames,bytes=total,margin=32768))
+# Assembly wrappers reserve 6144 bytes plus alignment/saved registers; the
+# 512-byte nested-helper allowance exceeds recovered reset/math frames.
+arcadeFrames=dict(main=u['main'],assemblyWrapper=6144+32,nestedHelpers=512)
+arcadeTotal=sum(arcadeFrames.values());assert arcadeTotal+32768<=reserve
+checks.append(dict(frames=arcadeFrames,bytes=arcadeTotal,margin=32768,assemblyExplicit=True))
 nxdk=Path('/workspace/myro/toolchain/xbox-nxdk');objdump=nxdk.parent/'xbox-toolchain/usr/lib/llvm-18/bin/llvm-objdump';env=os.environ.copy();env['LD_LIBRARY_PATH']=str(nxdk.parent/'xbox-toolchain/usr/lib/x86_64-linux-gnu');symbols=subprocess.check_output([str(objdump),'-t',str(S/'main.obj')],env=env,text=True);assert '_lroundf' not in symbols
 # Exercise exact bounded conversion with real asserting SDK math stub.
 function=re.search(r'static int ui_round47a\(float value\)\{[^\n]+', (S/'ui_context.h').read_text()).group(0)

@@ -1,1 +1,1 @@
-PASS complete sliding-puzzle engine: 10000 unsolved solvable seeds, legal/illegal slides, win/move scoring and terminal state. HOST ONLY.
+PASS recovered original sliding-puzzle native logic: solvable resets, legal/illegal slides, pause and completion scoring. HOST CPU replay only.

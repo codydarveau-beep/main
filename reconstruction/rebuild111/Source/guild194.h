@@ -320,5 +320,5 @@ static int guild_style194(NpcState55*s,unsigned style){return guild_decor194(s,s
 static unsigned guild_material_count194(const Combat*g,unsigned source){unsigned n=0;for(unsigned i=0;i<g->owned52.count[0];i++){const OwnedItem52*p=g->owned52.items+i;if(p->sourceID==source&&!p->equipped)n+=p->quantity;}return n;}
 /* Original Alberta proximity/clear-path contract. The temporary room's board
  * coordinate remains explicit until the original room geometry is restored. */
-static int guild_near194(const Combat*g){return g&&g->hp>0&&((g->mapId==132&&combat_dist(g->x,g->y,188,1116)<22&&(!g->canMove||g->canMove(g->world,g->x,g->y,188,1116)))||(g->mapId==494&&combat_dist(g->x,g->y,800,1440)<24&&(!g->canMove||g->canMove(g->world,g->x,g->y,800,1440))));}
+static int guild_near194(const Combat*g){return g&&g->hp>0&&((g->mapId==132&&combat_dist(g->x,g->y,188,1116)<22&&(!g->canMove||g->canMove(g->world,g->x,g->y,188,1116)))||(g->mapId==494&&combat_dist(g->x,g->y,128,1444)<24&&(!g->canMove||g->canMove(g->world,g->x,g->y,128,1444))));}
 #endif

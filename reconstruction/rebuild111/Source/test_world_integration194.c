@@ -33,11 +33,11 @@ int main(void){
  /* Every project-room combination is bounded and actually walkable at entry. */
  story194(36);unsigned peak=0;
  for(unsigned mask=1;mask<64;mask+=2){
-  guild.accepted=guild.completed=mask;guild.style=mask%4;assert(guild_store194(&character,&guild));activeMap=~0u;assert(world_activate(494));assert(allowed(800,1440)&&world_can_move(NULL,800,1440,800,900));
-  assert(!!allowed(400,400)==!!(mask&2));assert(!!allowed(800,400)==!!(mask&4));assert(!!allowed(1280,400)==!!(mask&8));
-  assert(gw==200&&gh==200&&mw==100&&mh==100&&nverts<=80000&&allocated==2);if(bytesNow>peak)peak=bytesNow;
+  guild.accepted=guild.completed=mask;guild.style=mask%4;assert(guild_store194(&character,&guild));activeMap=~0u;assert(world_activate(494));assert(allowed(192,1408)&&notice_path194(192,1408,128,1444));
+  assert(!!allowed(192,800)==!!(mask&2));assert(!!allowed(784,800)==!!(mask&12));assert(!!allowed(1340,1376)==!!(mask&32));
+  assert(gw==200&&gh==200&&mw==100&&mh==100&&nverts<=80000&&allocated==4);if(bytesNow>peak)peak=bytesNow;
  }
- player194.mapId=494;player194.x=800;player194.y=1440;assert(guild_world_visit194(&player194)&&player194.mapId==132&&allowed(player194.x,player194.y));
+ player194.mapId=494;player194.x=128;player194.y=1444;assert(guild_world_visit194(&player194)&&player194.mapId==132&&allowed(player194.x,player194.y));
  assert(campaign_npc_admission194(&player194,495)&&campaign_npc_admission194(&player194,496));
  /* Retained career coach endpoints use the real packed maps and original
   * gate indices remain untouched. Pilgrimage access is never a story grant. */

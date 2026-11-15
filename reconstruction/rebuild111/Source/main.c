@@ -164,6 +164,9 @@ static int facing(float fx,float fy,float co,float si){float sx=co*fx+si*fy,sy=s
 #include "regional_world194.h"
 #include "guild_ui194.h"
 #include "guild_world194.h"
+#include "guild_interact197.h"
+#include "guild_furnish_draw197.h"
+#include "guild_cabinet_draw197.h"
 #include "regional_draw194.h"
 #include "class_sound_cache50.h"
 static void fail(const char*s){
@@ -185,7 +188,7 @@ int main(void){boss_wallclock53();FILE*hardwareTrace54=fopen("D:\\gpu-trace.on",
  static FrameProfile50b frameProfile50b;uint64_t frameFrequency50b=KeQueryPerformanceFrequency();
  XVideoSetMode(640,480,32,REFRESH_DEFAULT);
  if(SDL_Init(SDL_INIT_GAMECONTROLLER)!=0)fail(SDL_GetError());if(pb_init()!=0)fail("GPU init failed");gpuReady=1;pb_show_front_screen();gpu_setup();
- campaign_admission_install194();guildVisit194=guild_world_visit194;guildRoomCompleted194=guild_world_completed194;guildRoomStyle194=guild_world_style194;regionalVisit194=regional_world_visit194;regionalReturn194=regional_world_return194;visualCacheRelease50=render_release54;worldHeapTrim183=heap_trim183;worldWaterRelease190=water_release190;worldSceneRelease200=campaign_reset200;campaignSessionReset200=campaign_reset200;combat_campaign_kill200=campaign_killed200;campaignJobGuard200=campaign_job_guard200;npc_campaign_page200=campaign_native_page200;combat_campaign_enemy200=party_enemy200;combat_friendly_heal200=campaign_friendly_heal200;combat_friendly_revive_ready200=campaign_friendly_revive_ready200;combat_friendly_revive200=campaign_friendly_revive200;combat_friendly_buff_ready200=campaign_friendly_buff_ready200;combat_friendly_buff200=campaign_friendly_buff200;combat_party_recover200=campaign_party_recover200;combat_party_needs_recovery200=campaign_party_needs_recovery200;campaignPartyDraw200=campaign_party_draw200;
+ campaign_admission_install194();guildVisit194=guild_world_visit194;guildRoomCompleted194=guild_world_completed194;guildRoomStyle194=guild_world_style194;regionalVisit194=regional_world_visit194;regionalReturn194=regional_world_return194;visualCacheRelease50=render_release54;worldHeapTrim183=heap_trim183;worldWaterRelease190=water_release190;worldSceneRelease200=campaign_guild_release197;campaignSessionReset200=campaign_reset200;combat_campaign_kill200=campaign_killed200;campaignJobGuard200=campaign_job_guard200;npc_campaign_page200=campaign_native_page200;combat_campaign_enemy200=party_enemy200;combat_friendly_heal200=campaign_friendly_heal200;combat_friendly_revive_ready200=campaign_friendly_revive_ready200;combat_friendly_revive200=campaign_friendly_revive200;combat_friendly_buff_ready200=campaign_friendly_buff_ready200;combat_friendly_buff200=campaign_friendly_buff200;combat_party_recover200=campaign_party_recover200;combat_party_needs_recovery200=campaign_party_needs_recovery200;campaignPartyDraw200=campaign_party_draw200;
  sound_init();world_blob_init();npcLegacyPortal181=portal_legacy181;sprite_load_all();art39_init();hud_init();skin_init();damage_init53();
  SDL_GameController*pad=NULL;for(int i=0;i<SDL_NumJoysticks();i++)if(SDL_IsGameController(i)){pad=SDL_GameControllerOpen(i);if(pad)break;}
  static TargetTrack41 targetTrack;static Art39State artState;static Combat game;
@@ -260,7 +263,7 @@ int main(void){boss_wallclock53();FILE*hardwareTrace54=fopen("D:\\gpu-trace.on",
   if(menuInput)aiming=0;
   if(utilityWasOpen&&!paused&&game.utilityMenu==63&&(pressed&(4096|8192))){int q=game.cartQuantity?game.cartQuantity:1;game.cartQuantity=(pressed&8192)?(q==1?10:q==10?100:1):(q==100?10:q==10?1:100);}
   if(utilityWasOpen&&!paused&&game.utilityMenu==503)campaign_party_input200(&game,pressed,&utilityChoice);
-  else if(utilityWasOpen&&!paused&&game.utilityMenu==504)guild_ui_input194(&game,pressed,(unsigned)(dt*1000.f+.5f));
+  else if(utilityWasOpen&&!paused&&game.utilityMenu==504)guild_ui_input_held197(&game,pressed,buttons,dt);
   else if(utilityWasOpen&&!paused){int n=skill_utility_rows(&game);if((pressed&16)&&game.utilityMenu==54){combat_memorize(&game);utilityChoice=0;}else if(pressed&4){game.utilityMenu=0;utilityChoice=0;combat_message(&game,"Menu closed. Pending choice cancelled.");}else if(n&&(pressed&1024))utilityChoice=(utilityChoice+n-1)%n;else if(n&&(pressed&2048))utilityChoice=(utilityChoice+1)%n;else if((pressed&8)&&game.utilityMenu==500){if(!homun_learn50(&game,utilityChoice-4))combat_message(&game,"Check Homunculus points, prerequisites and intimacy.");}else if(pressed&2){if(skill_utility_commit(&game,utilityChoice)&&!game.utilityMenu)utilityChoice=0;}}
   if(jobOpen){
    if(pressed&4){if(jobConfirm)jobConfirm=0;else jobOpen=0;}
@@ -349,6 +352,7 @@ if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56
      if(diskReady&&npc_native_can_save55(&npcGame55)&&autosave_enabled50b(autosave50b.choice)){saveDiskError=0;saveError=!save_commit(&saves,&game);save_disk_feedback(&saves,saveError);saveNotice=now;noticeActive=1;lastAuto=now;}
     }
     else if(near_pending(&game)){combat_message(&game,"That red warp leads to an area not connected in this build.");}
+    else if(guild_world_near197(&game)>=0){guild_world_interact197(&game);aiming=0;}
     else if(guild_open194(questPins65)&&guild_near194(&game)){guild_ui_open194(&game);aiming=0;}
     else if(regional_near194(questPins65,&game)>=0){regional_ui_open194(&game,(unsigned)regional_near194(questPins65,&game));aiming=0;}
     else if(campaign_world_near200()>=0){campaign_world_interact200();aiming=0;}
@@ -471,12 +475,12 @@ if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56
   unsigned visualEntities180[SPRITE_SLOT_COUNT]={0},visualLives180[SPRITE_SLOT_COUNT]={0};visualEntities180[0]=1;
   for(int vi=0;vi<visibleCount;vi++){unsigned slot=visibleSlots45[vi],mob=visible[vi];visualEntities180[slot]=NPC_MOB_ENTITY172+mob+1;visualLives180[slot]=game.mobs[mob].life;}
   for(int i=0;i<actorCount;i++){DrawActor*a=&actors[i];if(a->kind>=SCRIPT_NPC_KIND55&&a->kind<SCRIPT_NPC_KIND55+SCRIPT_NPC_SLOTS55)visualEntities180[a->slot]=NPC_ENTITY_BASE55+scriptNpcRecords55[a->kind-SCRIPT_NPC_KIND55]+1;unsigned flash=npc_proc_flash180(&npcGame55,visualEntities180[a->slot],visualLives180[a->slot]);if(flash)spriteFlash49[a->slot]=flash;sprite_upload(actor_shape50(a->kind),a->frame,a->slot);}
-  campaign_actor_prepare200();head_upload54();stylist_prepare191(stylingPreview191);guardian_prepare51();npcHaloQuads180=0;
+  campaign_actor_prepare200();guild_furnish_prepare197(&game);guild_cabinet_prepare197(&game,yaw);head_upload54();stylist_prepare191(stylingPreview191);guardian_prepare51();npcHaloQuads180=0;
   quicken_record45(&game,&quickenPlayer45,cartDir);
   frame_draw_span51(&frameProfile50b,DRAW_UPLOAD51,frame_clock50b(),&drawAt51);
   gpu_ground(matrix,(int)(x/16),(int)(y/16),1);
   frame_draw_span51(&frameProfile50b,DRAW_TERRAIN51,frame_clock50b(),&drawAt51);
-  sceneFocusX61=game.x;sceneFocusY61=game.y;if(sceneryEnabled)scenery_draw(matrix,activeMap);trap_draw50(&game,matrix);
+  sceneFocusX61=game.x;sceneFocusY61=game.y;if(sceneryEnabled)scenery_draw(matrix,activeMap);guild_furnish_draw197(&game,matrix);guild_cabinet_draw197(&game,matrix,zoom,actorDepthSlope50);trap_draw50(&game,matrix);
   ground_draw58(&game,matrix,zoom,actorDepthSlope50);campaign_parcel_draw200(&game,matrix,zoom,actorDepthSlope50);campaign_document_draw200(&game,matrix,zoom,actorDepthSlope50);regional_document_draw194(&game,matrix,zoom,actorDepthSlope50);
   frame_draw_span51(&frameProfile50b,DRAW_SCENERY51,frame_clock50b(),&drawAt51);
   for(int i=0;i<actorCount;i++){DrawActor*a=&actors[i];if(!a->water54)continue;if(actor_shape50(a->kind)->guardian51){guardian_draw51(a->slot,matrix);continue;}spriteClipLow54=a->waterline54;spriteClipHigh54=1e9f;if((a->kind>=NPC_KIND53&&a->kind<NPC_KIND53+NPC_CACHE_COUNT53)||(a->kind>=SCRIPT_NPC_KIND55&&a->kind<SCRIPT_NPC_KIND55+SCRIPT_NPC_SLOTS55))gpu_npc_sprite182(entityTextures[a->slot],actor_shape50(a->kind),a->x,a->y,a->depth,npc_actor_scale55(a->kind,zoom),a->groundY,actorDepthSlope50,(matrix[8]*matrix[4]+matrix[9]*matrix[5])/(matrix[4]*matrix[4]+matrix[5]*matrix[5]));else gpu_actor_sprite50c(entityTextures[a->slot],actor_shape50(a->kind),a->x,a->y,a->depth,npc_actor_scale55(a->kind,zoom)*(a->scale60>0?a->scale60:1),a->kind==0?contactY:a->kind>=COMPANION_KIND50?a->groundY:a->y,actorDepthSlope50,a->sourceFade50c);if(a->kind==0)head_draw54(playerHeadPose54,a->x,a->y,a->depth,zoom/3.f,contactY,actorDepthSlope50);sprite_clip_reset54();}
@@ -531,6 +535,7 @@ if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56
    if(!game.tooltipsDisabled&&combat_portal_near(&game)>=0)snprintf(context,sizeof(context),"A: enter your Warp Portal");
    else if(!game.tooltipsDisabled&&gate>=0)snprintf(context,sizeof(context),"A: travel to %s",mapLabels[worldGates[gate].destination]);
    else if(!game.tooltipsDisabled&&near_pending(&game))snprintf(context,sizeof(context),"Red warp: destination not connected yet");
+   else if(!game.tooltipsDisabled&&guild_world_near197(&game)>=0)snprintf(context,sizeof(context),"%s",guild_world_context197(&game));
    else if(!game.tooltipsDisabled&&guild_open194(questPins65)&&guild_near194(&game))snprintf(context,sizeof(context),"A: guild noticeboard");
    else if(!game.tooltipsDisabled&&regional_near194(questPins65,&game)>=0)snprintf(context,sizeof(context),"A: read courier notice");
    else if(!game.tooltipsDisabled&&campaign_world_near200()>=0)snprintf(context,sizeof(context),"%s",campaign_context200());

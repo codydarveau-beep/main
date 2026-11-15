@@ -20,7 +20,7 @@ static void world_release(void){
  sprite_release_enemies();gpu_stream_reset51();guardian_reset51();
 #endif
  if(gpuTerrain)MmFreeContiguousMemory(gpuTerrain);if(gpuMesh)MmFreeContiguousMemory(gpuMesh);gpuTerrain=gpuMesh=NULL;
- if(walk)free(walk-8);if(cellStarts)free(cellStarts);if(groundHeights)free(groundHeights);walk=NULL;cellStarts=NULL;groundHeights=NULL;surfaceCells45=NULL;surfaceCount45=0;propCells46=NULL;propCount46=0;if(worldHeapTrim183)worldHeapTrim183();
+ guild_floor_release197();if(walk)free(walk-8);if(cellStarts)free(cellStarts);if(groundHeights)free(groundHeights);walk=NULL;cellStarts=NULL;groundHeights=NULL;surfaceCells45=NULL;surfaceCount45=0;propCells46=NULL;propCount46=0;if(worldHeapTrim183)worldHeapTrim183();
 }
 static int world_activate(unsigned id){
  if(!world_destination_ready44(id))return 0;if(id==activeMap)return 1;
@@ -28,7 +28,7 @@ static int world_activate(unsigned id){
 #ifndef MYRO_HOST
  snprintf(stage,sizeof(stage),"%s - reserving map graphics",mapLabels[id]);world_loading(stage);world_gpu_reserve171(id);
 #endif
- snprintf(stage,sizeof(stage),"%s - loading terrain and collision",mapLabels[id]);world_loading(stage);load(id);gpu_memory();rooms_build181(&interiorRooms181,mapNames[id],walk,gw,gh);
+ snprintf(stage,sizeof(stage),"%s - loading terrain and collision",mapLabels[id]);world_loading(stage);load(id);gpu_memory();rooms_build181(&interiorRooms181,mapNames[id],walk,gw,gh);if(id==494)guild_floor_apply197();
  snprintf(stage,sizeof(stage),"%s - loading scenery",mapLabels[id]);world_loading(stage);scenery_load(id);activeMap=id;
 #ifndef MYRO_HOST
  snprintf(stage,sizeof(stage),"%s - loading current-map enemies",mapLabels[id]);world_loading(stage);sprite_load_map(id);sound_music_map(id);snprintf(stage,sizeof(stage),"%s - preparing minimap",mapLabels[id]);world_loading(stage);minimap_upload();

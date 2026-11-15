@@ -1,0 +1,12 @@
+{
+  "releasedTableFileOffset": 3784204,
+  "originalMapCount": 494,
+  "guildMap": 494,
+  "sourceGeometryAlias": 451,
+  "sourceMapName": "z_agit",
+  "onlineContent": false,
+  "sourceGeometryOnly": true,
+  "allOriginalRowsPreserved": true,
+  "aliasRowMatchesReleased": true,
+  "tableSHA256": "b32547288d8b65b1c29a0df2b02d2decf945f27eae81a27cc577ac5d6e40b76a"
+}

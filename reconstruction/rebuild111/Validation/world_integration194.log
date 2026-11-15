@@ -1,2 +1,1 @@
 HOST ONLY: address/undefined sanitizers. No native build or Xbox/Xemu playtest.
-PASS HOST actual world: all nine arrival-to-notice paths and free returns; denied road preserves RNG/resources before load; 32 separate guild-room combinations, return, no leaked recorded GPU resources (peak guild GPU allocation 876992 bytes); private absent maps denied. Not an Xbox RAM/FPS playtest.

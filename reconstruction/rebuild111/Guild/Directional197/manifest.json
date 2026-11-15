@@ -1,0 +1,789 @@
+{
+  "sources": [
+    {
+      "cabinet": "pong",
+      "path": "pong.png",
+      "sha256": "a94909d7d14171e86b8836caafd93e70456d663aa0fa625e22f5a036c9582dd9",
+      "generatedSource": "/workspace/generated_images/exec-2da50094-49e3-4337-932f-7a9efb4758c0.png",
+      "provenance": "New eight-view art generated with image_gen from recovered guildhall atlas; Pong face approved by user; original PNG unchanged"
+    },
+    {
+      "cabinet": "patrol",
+      "path": "patrol.png",
+      "sha256": "421ad8f6ff0ecfd484ab9b6ab48e2ee87332992180878e9385981b97cad6f19b",
+      "generatedSource": "/workspace/generated_images/exec-68239fa5-8f01-43b4-9baf-d84fc8a7f07a.png",
+      "provenance": "New eight-view art generated with image_gen from recovered guildhall atlas; Pong face approved by user; original PNG unchanged"
+    },
+    {
+      "cabinet": "snake",
+      "path": "snake.png",
+      "sha256": "62b37d6ac0b684a68838d821cbfdd06d0ef84681d71a9fa67f7380977f29da5f",
+      "generatedSource": "/workspace/generated_images/exec-d8aac340-cd3a-4c19-bd7c-5fb515050857.png",
+      "provenance": "New eight-view art generated with image_gen from recovered guildhall atlas; Pong face approved by user; original PNG unchanged"
+    },
+    {
+      "cabinet": "breaker",
+      "path": "breaker.png",
+      "sha256": "c875394db73c2efdd51603bc0eaebba2a6b775729224ad03d8f3ddfa1a1bbc95",
+      "generatedSource": "/workspace/generated_images/exec-b1e482e0-3e92-4997-9560-1c1a4cb153df.png",
+      "provenance": "New eight-view art generated with image_gen from recovered guildhall atlas; Pong face approved by user; original PNG unchanged"
+    },
+    {
+      "cabinet": "puzzle",
+      "path": "puzzle.png",
+      "sha256": "c6ce73d2b2cc8a1492e6c8f3391be291847440cd0a4dc7e4a03124fb65cbbe18",
+      "generatedSource": "/workspace/generated_images/exec-15eac072-1f54-44d9-8a9a-0d529a8a4d08.png",
+      "provenance": "New eight-view art generated with image_gen from recovered guildhall atlas; Pong face approved by user; original PNG unchanged"
+    },
+    {
+      "cabinet": "maze",
+      "path": "maze.png",
+      "sha256": "8344ec19c71a7ad2adaaf4abd40578a6cf8e0966aee2307d3c5b55229bfe4cad",
+      "generatedSource": "/workspace/generated_images/exec-459e92a8-2557-4a3d-9a66-2532998c2a3c.png",
+      "provenance": "New eight-view art generated with image_gen from recovered guildhall atlas; Pong face approved by user; original PNG unchanged"
+    }
+  ],
+  "frames": [
+    {
+      "game": 0,
+      "view": 0,
+      "offset": 0,
+      "packed": 5132,
+      "raw": 12288,
+      "crc": 3448745120,
+      "rawCRC": 1356847808,
+      "sourceCellBox": [
+        193,
+        49,
+        403,
+        425
+      ]
+    },
+    {
+      "game": 0,
+      "view": 1,
+      "offset": 5132,
+      "packed": 5403,
+      "raw": 12288,
+      "crc": 1617551313,
+      "rawCRC": 3696282866,
+      "sourceCellBox": [
+        503,
+        50,
+        720,
+        434
+      ]
+    },
+    {
+      "game": 0,
+      "view": 2,
+      "offset": 10535,
+      "packed": 3247,
+      "raw": 12288,
+      "crc": 1429351464,
+      "rawCRC": 3643492761,
+      "sourceCellBox": [
+        825,
+        50,
+        994,
+        428
+      ]
+    },
+    {
+      "game": 0,
+      "view": 3,
+      "offset": 13782,
+      "packed": 4123,
+      "raw": 12288,
+      "crc": 1116850217,
+      "rawCRC": 2496810563,
+      "sourceCellBox": [
+        1112,
+        49,
+        1331,
+        434
+      ]
+    },
+    {
+      "game": 0,
+      "view": 4,
+      "offset": 17905,
+      "packed": 3661,
+      "raw": 12288,
+      "crc": 4176799629,
+      "rawCRC": 2375052530,
+      "sourceCellBox": [
+        194,
+        527,
+        402,
+        904
+      ]
+    },
+    {
+      "game": 0,
+      "view": 5,
+      "offset": 21566,
+      "packed": 4212,
+      "raw": 12288,
+      "crc": 1614995030,
+      "rawCRC": 3166768864,
+      "sourceCellBox": [
+        508,
+        527,
+        730,
+        912
+      ]
+    },
+    {
+      "game": 0,
+      "view": 6,
+      "offset": 25778,
+      "packed": 3187,
+      "raw": 12288,
+      "crc": 1507716058,
+      "rawCRC": 2954088844,
+      "sourceCellBox": [
+        842,
+        530,
+        1014,
+        906
+      ]
+    },
+    {
+      "game": 0,
+      "view": 7,
+      "offset": 28965,
+      "packed": 5438,
+      "raw": 12288,
+      "crc": 2952742636,
+      "rawCRC": 1741712085,
+      "sourceCellBox": [
+        1132,
+        529,
+        1355,
+        912
+      ]
+    },
+    {
+      "game": 1,
+      "view": 0,
+      "offset": 34403,
+      "packed": 4940,
+      "raw": 12288,
+      "crc": 2854681562,
+      "rawCRC": 3276362503,
+      "sourceCellBox": [
+        49,
+        129,
+        262,
+        506
+      ]
+    },
+    {
+      "game": 1,
+      "view": 1,
+      "offset": 39343,
+      "packed": 5382,
+      "raw": 12288,
+      "crc": 1804148769,
+      "rawCRC": 758052522,
+      "sourceCellBox": [
+        356,
+        128,
+        575,
+        508
+      ]
+    },
+    {
+      "game": 1,
+      "view": 2,
+      "offset": 44725,
+      "packed": 3484,
+      "raw": 12288,
+      "crc": 3635798434,
+      "rawCRC": 798701614,
+      "sourceCellBox": [
+        682,
+        129,
+        866,
+        507
+      ]
+    },
+    {
+      "game": 1,
+      "view": 3,
+      "offset": 48209,
+      "packed": 4183,
+      "raw": 12288,
+      "crc": 1544791681,
+      "rawCRC": 1386686816,
+      "sourceCellBox": [
+        972,
+        128,
+        1201,
+        508
+      ]
+    },
+    {
+      "game": 1,
+      "view": 4,
+      "offset": 52392,
+      "packed": 3549,
+      "raw": 12288,
+      "crc": 3323820156,
+      "rawCRC": 2365118678,
+      "sourceCellBox": [
+        49,
+        719,
+        262,
+        1102
+      ]
+    },
+    {
+      "game": 1,
+      "view": 5,
+      "offset": 55941,
+      "packed": 4182,
+      "raw": 12288,
+      "crc": 1083611923,
+      "rawCRC": 4229876951,
+      "sourceCellBox": [
+        352,
+        716,
+        586,
+        1106
+      ]
+    },
+    {
+      "game": 1,
+      "view": 6,
+      "offset": 60123,
+      "packed": 3453,
+      "raw": 12288,
+      "crc": 2258750429,
+      "rawCRC": 1505894932,
+      "sourceCellBox": [
+        693,
+        718,
+        878,
+        1101
+      ]
+    },
+    {
+      "game": 1,
+      "view": 7,
+      "offset": 63576,
+      "packed": 5288,
+      "raw": 12288,
+      "crc": 3566436786,
+      "rawCRC": 4236823721,
+      "sourceCellBox": [
+        983,
+        718,
+        1204,
+        1105
+      ]
+    },
+    {
+      "game": 2,
+      "view": 0,
+      "offset": 68864,
+      "packed": 4739,
+      "raw": 12288,
+      "crc": 254749886,
+      "rawCRC": 1487407388,
+      "sourceCellBox": [
+        45,
+        98,
+        267,
+        498
+      ]
+    },
+    {
+      "game": 2,
+      "view": 1,
+      "offset": 73603,
+      "packed": 5224,
+      "raw": 12288,
+      "crc": 3801014114,
+      "rawCRC": 3377613876,
+      "sourceCellBox": [
+        353,
+        97,
+        584,
+        501
+      ]
+    },
+    {
+      "game": 2,
+      "view": 2,
+      "offset": 78827,
+      "packed": 3773,
+      "raw": 12288,
+      "crc": 497546106,
+      "rawCRC": 403434362,
+      "sourceCellBox": [
+        687,
+        98,
+        887,
+        498
+      ]
+    },
+    {
+      "game": 2,
+      "view": 3,
+      "offset": 82600,
+      "packed": 4267,
+      "raw": 12288,
+      "crc": 914892783,
+      "rawCRC": 65272599,
+      "sourceCellBox": [
+        979,
+        97,
+        1216,
+        505
+      ]
+    },
+    {
+      "game": 2,
+      "view": 4,
+      "offset": 86867,
+      "packed": 3935,
+      "raw": 12288,
+      "crc": 43094498,
+      "rawCRC": 3441130472,
+      "sourceCellBox": [
+        41,
+        725,
+        265,
+        1122
+      ]
+    },
+    {
+      "game": 2,
+      "view": 5,
+      "offset": 90802,
+      "packed": 4325,
+      "raw": 12288,
+      "crc": 855831899,
+      "rawCRC": 409243777,
+      "sourceCellBox": [
+        353,
+        725,
+        590,
+        1132
+      ]
+    },
+    {
+      "game": 2,
+      "view": 6,
+      "offset": 95127,
+      "packed": 3801,
+      "raw": 12288,
+      "crc": 2639143804,
+      "rawCRC": 771898827,
+      "sourceCellBox": [
+        680,
+        725,
+        882,
+        1125
+      ]
+    },
+    {
+      "game": 2,
+      "view": 7,
+      "offset": 98928,
+      "packed": 5239,
+      "raw": 12288,
+      "crc": 935880785,
+      "rawCRC": 2247042974,
+      "sourceCellBox": [
+        983,
+        725,
+        1218,
+        1128
+      ]
+    },
+    {
+      "game": 3,
+      "view": 0,
+      "offset": 104167,
+      "packed": 5234,
+      "raw": 12288,
+      "crc": 2891329935,
+      "rawCRC": 2109411179,
+      "sourceCellBox": [
+        47,
+        113,
+        264,
+        503
+      ]
+    },
+    {
+      "game": 3,
+      "view": 1,
+      "offset": 109401,
+      "packed": 5415,
+      "raw": 12288,
+      "crc": 1051661546,
+      "rawCRC": 562329439,
+      "sourceCellBox": [
+        342,
+        112,
+        571,
+        512
+      ]
+    },
+    {
+      "game": 3,
+      "view": 2,
+      "offset": 114816,
+      "packed": 3448,
+      "raw": 12288,
+      "crc": 344944570,
+      "rawCRC": 4155513197,
+      "sourceCellBox": [
+        677,
+        110,
+        878,
+        504
+      ]
+    },
+    {
+      "game": 3,
+      "view": 3,
+      "offset": 118264,
+      "packed": 3932,
+      "raw": 12288,
+      "crc": 2826201808,
+      "rawCRC": 3748125252,
+      "sourceCellBox": [
+        968,
+        111,
+        1212,
+        521
+      ]
+    },
+    {
+      "game": 3,
+      "view": 4,
+      "offset": 122196,
+      "packed": 3427,
+      "raw": 12288,
+      "crc": 155022430,
+      "rawCRC": 1382050400,
+      "sourceCellBox": [
+        45,
+        742,
+        264,
+        1139
+      ]
+    },
+    {
+      "game": 3,
+      "view": 5,
+      "offset": 125623,
+      "packed": 3775,
+      "raw": 12288,
+      "crc": 2973212580,
+      "rawCRC": 1995937713,
+      "sourceCellBox": [
+        356,
+        738,
+        600,
+        1152
+      ]
+    },
+    {
+      "game": 3,
+      "view": 6,
+      "offset": 129398,
+      "packed": 3356,
+      "raw": 12288,
+      "crc": 2803509082,
+      "rawCRC": 3280750026,
+      "sourceCellBox": [
+        689,
+        739,
+        888,
+        1139
+      ]
+    },
+    {
+      "game": 3,
+      "view": 7,
+      "offset": 132754,
+      "packed": 5291,
+      "raw": 12288,
+      "crc": 3548338303,
+      "rawCRC": 2294019505,
+      "sourceCellBox": [
+        990,
+        741,
+        1225,
+        1147
+      ]
+    },
+    {
+      "game": 4,
+      "view": 0,
+      "offset": 138045,
+      "packed": 5605,
+      "raw": 12288,
+      "crc": 1611033098,
+      "rawCRC": 2730304026,
+      "sourceCellBox": [
+        56,
+        120,
+        265,
+        501
+      ]
+    },
+    {
+      "game": 4,
+      "view": 1,
+      "offset": 143650,
+      "packed": 5619,
+      "raw": 12288,
+      "crc": 1457490089,
+      "rawCRC": 1770710031,
+      "sourceCellBox": [
+        359,
+        120,
+        575,
+        514
+      ]
+    },
+    {
+      "game": 4,
+      "view": 2,
+      "offset": 149269,
+      "packed": 3329,
+      "raw": 12288,
+      "crc": 1275617158,
+      "rawCRC": 31531882,
+      "sourceCellBox": [
+        692,
+        120,
+        859,
+        504
+      ]
+    },
+    {
+      "game": 4,
+      "view": 3,
+      "offset": 152598,
+      "packed": 3945,
+      "raw": 12288,
+      "crc": 3289345346,
+      "rawCRC": 1641322311,
+      "sourceCellBox": [
+        993,
+        120,
+        1204,
+        513
+      ]
+    },
+    {
+      "game": 4,
+      "view": 4,
+      "offset": 156543,
+      "packed": 3780,
+      "raw": 12288,
+      "crc": 3245785212,
+      "rawCRC": 1830781596,
+      "sourceCellBox": [
+        63,
+        745,
+        264,
+        1130
+      ]
+    },
+    {
+      "game": 4,
+      "view": 5,
+      "offset": 160323,
+      "packed": 4086,
+      "raw": 12288,
+      "crc": 2526405253,
+      "rawCRC": 2142081989,
+      "sourceCellBox": [
+        366,
+        746,
+        583,
+        1139
+      ]
+    },
+    {
+      "game": 4,
+      "view": 6,
+      "offset": 164409,
+      "packed": 3430,
+      "raw": 12288,
+      "crc": 1321595388,
+      "rawCRC": 4047828610,
+      "sourceCellBox": [
+        706,
+        747,
+        877,
+        1130
+      ]
+    },
+    {
+      "game": 4,
+      "view": 7,
+      "offset": 167839,
+      "packed": 5616,
+      "raw": 12288,
+      "crc": 2109061155,
+      "rawCRC": 1198258584,
+      "sourceCellBox": [
+        1003,
+        745,
+        1213,
+        1137
+      ]
+    },
+    {
+      "game": 5,
+      "view": 0,
+      "offset": 173455,
+      "packed": 5817,
+      "raw": 12288,
+      "crc": 2231860189,
+      "rawCRC": 4227582821,
+      "sourceCellBox": [
+        45,
+        137,
+        267,
+        498
+      ]
+    },
+    {
+      "game": 5,
+      "view": 1,
+      "offset": 179272,
+      "packed": 6197,
+      "raw": 12288,
+      "crc": 2469734568,
+      "rawCRC": 2162400307,
+      "sourceCellBox": [
+        355,
+        137,
+        590,
+        506
+      ]
+    },
+    {
+      "game": 5,
+      "view": 2,
+      "offset": 185469,
+      "packed": 3625,
+      "raw": 12288,
+      "crc": 1246820563,
+      "rawCRC": 366431996,
+      "sourceCellBox": [
+        683,
+        137,
+        861,
+        498
+      ]
+    },
+    {
+      "game": 5,
+      "view": 3,
+      "offset": 189094,
+      "packed": 4225,
+      "raw": 12288,
+      "crc": 469432919,
+      "rawCRC": 3979676349,
+      "sourceCellBox": [
+        978,
+        137,
+        1209,
+        503
+      ]
+    },
+    {
+      "game": 5,
+      "view": 4,
+      "offset": 193319,
+      "packed": 3832,
+      "raw": 12288,
+      "crc": 4189538917,
+      "rawCRC": 4176948362,
+      "sourceCellBox": [
+        49,
+        740,
+        263,
+        1103
+      ]
+    },
+    {
+      "game": 5,
+      "view": 5,
+      "offset": 197151,
+      "packed": 4239,
+      "raw": 12288,
+      "crc": 3215087810,
+      "rawCRC": 3864406406,
+      "sourceCellBox": [
+        356,
+        740,
+        591,
+        1108
+      ]
+    },
+    {
+      "game": 5,
+      "view": 6,
+      "offset": 201390,
+      "packed": 3630,
+      "raw": 12288,
+      "crc": 3722349514,
+      "rawCRC": 243983080,
+      "sourceCellBox": [
+        707,
+        740,
+        886,
+        1103
+      ]
+    },
+    {
+      "game": 5,
+      "view": 7,
+      "offset": 205020,
+      "packed": 6257,
+      "raw": 12288,
+      "crc": 2327140030,
+      "rawCRC": 3030401489,
+      "sourceCellBox": [
+        979,
+        740,
+        1215,
+        1109
+      ]
+    }
+  ],
+  "bankSHA256": "9a8f2117485dd345028fa7c9373b15982cfecea15eff909260ec7019540f3205",
+  "frameSize": [
+    64,
+    96
+  ],
+  "floorAnchor": [
+    32,
+    94
+  ],
+  "cameraViews": [
+    "front",
+    "front-right",
+    "right",
+    "back-right",
+    "back",
+    "back-left",
+    "left",
+    "front-left"
+  ],
+  "newArt": true,
+  "allAnglesResident": false
+}

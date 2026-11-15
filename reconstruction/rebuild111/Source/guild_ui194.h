@@ -30,19 +30,15 @@ static const char*regional_status194(unsigned index){
  CampaignRegions194 r;if(!regional_available194(questPins65,index)||!campaign_regions_load194(questPins65,&r))return "Later";
  unsigned bit=regional_bit194(index);return r.completed&bit?"Received":r.unlocked&bit?"Passage":r.accepted&bit?"Supplies":"Open";
 }
-static int guild_arcade_save194(Combat*g){
- GuildArcade194*a=&guildUI194.arcade;if(a->kind==4){if(!a->puzzle.won||a->submitted)return 1;if(guild_score194(questPins65,4,puzzle_best196(&a->puzzle))){a->submitted=1;return 1;}combat_message(g,"Your cabinet score could not be saved. Please retry.");return 0;}if(a->elapsed<1000)return 1;
- if(guild_score194(questPins65,guildUI194.cabinet,a->score))return 1;
- combat_message(g,"Your cabinet score could not be saved. Please retry.");return 0;
-}
-static void guild_arcade_start196(Combat*g,unsigned kind){unsigned seed=arcade_random194(&guildUI194.arcade)^(unsigned)(g->time*1000)^(kind+1);arcade_start_seed196(&guildUI194.arcade,kind,seed);}
-static void guild_ui_input194(Combat*g,unsigned pressed,unsigned milliseconds){
+static int guild_arcade_save194(Combat*g){Arcade194*a=&guildUI194.arcade;if(!a->over||a->submitted)return 1;unsigned score=a->game==AR194_PUZZLE?(a->won?10000/(a->score+1):0):a->score;if(guild_score194(questPins65,a->game,score)){a->submitted=1;return 1;}combat_message(g,"Your cabinet score could not be saved. Please retry.");return 0;}
+static void guild_arcade_start196(Combat*g,unsigned kind){arcade_start_seed196(&guildUI194.arcade,kind,(unsigned)(g->time*1000)+kind+1);}
+static void guild_ui_input_held197(Combat*g,unsigned pressed,unsigned held,float dt){
  GuildUI194*u=&guildUI194;Guild194 guild;CampaignRegions194 regions;
  if(!guild_open194(questPins65)||guild_load194(questPins65,&guild)<0||!campaign_regions_load194(questPins65,&regions)){combat_message(g,"Guild record could not be read.");g->utilityMenu=0;return;}
  if(u->page==4){
   if(pressed&4){if(guild_arcade_save194(g)){u->page=3;u->row=u->cabinet;}return;}
-  if(u->arcade.over&&(pressed&2)){if(guild_arcade_save194(g))guild_arcade_start196(g,u->cabinet);return;}
-  arcade_input194(&u->arcade,pressed);arcade_tick194(&u->arcade,milliseconds);if(u->arcade.kind==4&&u->arcade.over&&!u->arcade.submitted)guild_arcade_save194(g);return;
+  if(u->arcade.over&&(pressed&2)&&!guild_arcade_save194(g))return;
+  arcade_input194(&u->arcade,pressed);arcade_tick_held197(&u->arcade,held,dt);if(u->arcade.over&&!u->arcade.submitted)guild_arcade_save194(g);return;
  }
  if(pressed&4){
   if(u->page==7||u->page==0)g->utilityMenu=0;
@@ -83,6 +79,7 @@ static void guild_ui_input194(Combat*g,unsigned pressed,unsigned milliseconds){
   if(!ok)combat_message(g,"Check the milestone, supplies, fare and destination before travelling.");
  }
 }
+static void guild_ui_input194(Combat*g,unsigned pressed,unsigned milliseconds){guild_ui_input_held197(g,pressed,pressed,milliseconds/1000.f);}
 static void arcade_poring194(
  int x,int y,int size,unsigned color
 ){
@@ -99,29 +96,164 @@ static void arcade_poring194(
  }
 }
 
-static void guild_puzzle_draw196(void){const GuildArcade194*a=&guildUI194.arcade;const ArcadePuzzle196*p=&a->puzzle;
- ui_panel(68,46,504,390,guildProjects194[10].title,1,-1);ui_scaled(88,77,1,"Moves %u",p->moves);
- for(unsigned i=0;i<16;i++){int xx=182+i%4*70,yy=112+i/4*66;pb_fill(xx,yy,66,62,p->tiles[i]?0xffdbe3ed:0xff27392b);if(i==p->cursor)ui_outline(xx-1,yy-1,68,64,0xffffdf56);
-  if(p->tiles[i]){arcade_poring194(xx+21,yy+8,24,0xffedbfd1);char n[8];snprintf(n,sizeof(n),"%u",p->tiles[i]);ui_scaled(xx+31-ui_text_width(n,1)/2,yy+39,1,"%s",n);}}
- if(a->paused||a->over){pb_fill(176,204,288,84,0xffeaf0f5);ui_outline(176,204,288,84,0xff6aabef);ui_scaled(196,218,1,a->paused?"Resting the Poring...":"A splendid result!");ui_hint64(196,253,.9f,a->paused?"Y: resume   B: leave":"A: play again   B: leave");}
- ui_hint64(88,400,.85f,"D-PAD: choose   A: slide   Y: pause   B: leave");
-}
-static void guild_arcade_draw194(void){
- GuildArcade194*a=&guildUI194.arcade;unsigned kind=a->kind;if(kind==4){guild_puzzle_draw196();return;}
- ui_panel(118,76,404,338,guildProjects194[kind+6].title,1,-1);ui_scaled(138,102,1,"Score: %u",a->score);
- int left=152,top=132,cell=14;pb_fill(left-2,top-2,340,228,0xff000000);
- for(int y=0;y<16;y++)for(int x=0;x<24;x++){
-  unsigned color=0xffeaf0f5;int visible=0;
-  if(a->cells[y*24+x]){visible=1;color=a->cells[y*24+x]==1?0xff65dffa:0xffffdf56;}
-  if(kind==2){for(unsigned i=0;i<a->length;i++)if(a->snake[i]==y*24+x){visible=1;color=0xff65dffa;}if(x==a->foodX&&y==a->foodY){visible=1;color=0xffffdf56;}}
-  if((kind==0||kind==3)&&y==14&&abs(x-a->paddle)<=2){visible=1;color=0xffeaf0f5;}
-  if((kind==0||kind==3)&&x==a->ballX&&y==a->ballY){visible=1;color=0xffffdf56;}
-  if(kind==1&&y==15&&x==a->paddle){visible=1;color=0xffffdf56;}
-  if(kind==5){if(x==a->x&&y==a->y){visible=1;color=0xffffdf56;}for(unsigned i=0;i<2;i++)if(x==a->ghostX[i]&&y==a->ghostY[i]){visible=1;color=0xffff4848;}}
-  if(visible)pb_fill(left+x*cell,top+y*cell,cell-1,cell-1,color);
+static void arcade_draw194(void){
+ const Arcade194*a=&guildUI194.arcade;
+
+ ui_panel(68,46,504,390,arcade_names194[a->game],1,-1);
+ pb_fill(84,105,472,286,0xff101711);
+
+ ui_scaled(
+  88,77,1,"Score %u    Lives %u    Round %u",
+  a->score,a->lives,a->level);
+
+ int x=100,y=116,w=440,h=264;
+
+ if(a->game==AR194_PONG){
+  for(int k=0;k<15;k++)
+   pb_fill(x+w/2,y+k*18,2,8,0xff5b7568);
+
+  pb_fill(x+20,y+(int)(a->paddle*h)-27,6,54,0xff6aabef);
+  pb_fill(x+w-26,y+(int)(a->opponent*h)-27,6,54,0xff60d27a);
+
+  arcade_poring194(
+   x+(int)(a->x*w)-5,y+(int)(a->y*h)-5,10,0xffedbfd1);
  }
- ui_hint64(138,370,.85f,a->over?"A: play again   B: save score and leave":"D-pad: move   A: action/rotate   B: leave");
+ else if(a->game==AR194_PATROL){
+  for(unsigned i=0;i<36;i++)if(a->board[i]){
+   int ex=x+(int)(
+    (.12f+i%9*.09f+sinf(a->time*.8f)*.04f)*w);
+   int ey=y+(int)((.12f+i/9*.085f)*h);
+
+   pb_fill(ex-6,ey-4,12,8,0xffffdf56);
+   pb_fill(ex-8,ey+2,3,5,0xffbd8c3e);
+   pb_fill(ex+5,ey+2,3,5,0xffbd8c3e);
+   pb_fill(ex+2,ey-2,2,2,0xff000000);
+  }
+
+  arcade_poring194(
+   x+(int)(a->x*w)-7,y+(int)(h*.89f),14,0xffedbfd1);
+
+  for(unsigned i=0;i<24;i++)if(a->shots[i].on)
+   pb_fill(
+    x+(int)(a->shots[i].x*w),
+    y+(int)(a->shots[i].y*h),
+    2,5,
+    a->shots[i].vy<0?0xff65dffa:0xffff4848);
+ }
+ else if(a->game==AR194_SNAKE||a->game==AR194_MAZE){
+  const int cell=15,gx=148,gy=116;
+
+  if(a->game==AR194_SNAKE){
+   for(unsigned i=0;i<a->length;i++)
+    pb_fill(
+     gx+a->snake[i]%23*cell+1,
+     gy+a->snake[i]/23*cell+1,
+     13,13,i?0xff60d27a:0xffedbfd1);
+
+   pb_fill(
+    gx+a->food%23*cell+4,
+    gy+a->food/23*cell+4,
+    7,7,0xffff4848);
+  }else{
+   for(unsigned i=0;i<AR194_CELLS;i++){
+    int xx=gx+i%23*cell,yy=gy+i/23*cell;
+
+    if(!a->board[i])
+     pb_fill(xx,yy,14,14,0xff6aabef);
+    else if(a->board[i]<3)
+     pb_fill(
+      xx+(a->board[i]==2?5:6),
+      yy+(a->board[i]==2?5:6),
+      a->board[i]==2?5:2,
+      a->board[i]==2?5:2,
+      0xffffdf56);
+   }
+
+   arcade_poring194(
+    gx+a->food%23*cell+1,
+    gy+a->food/23*cell+1,
+    13,0xffedbfd1);
+
+   for(unsigned i=0;i<4;i++)
+    arcade_poring194(
+     gx+a->ghosts[i]%23*cell+2,
+     gy+a->ghosts[i]/23*cell+2,
+     11,
+     a->powerUntil>a->time?0xff8999b2:
+      (unsigned[]){
+       0xffff4848,0xff65dffa,0xffffdf56,0xff60d27a
+      }[i]);
+  }
+ }
+ else if(a->game==AR194_BREAKER){
+  for(unsigned i=0;i<60;i++)if(a->board[i]){
+   int xx=x+i%10*44,yy=y+26+i/10*13;
+   pb_fill(xx+1,yy,41,11,i/10%2?0xff60d27a:0xffbd8c3e);
+  }
+
+  pb_fill(
+   x+(int)(a->paddle*w)-44,
+   y+(int)(h*.92f),
+   88,6,0xff6aabef);
+
+  arcade_poring194(
+   x+(int)(a->x*w)-5,y+(int)(a->y*h)-5,10,0xffedbfd1);
+ }
+ else if(a->game==AR194_PUZZLE){
+  for(unsigned i=0;i<16;i++){
+   int xx=182+i%4*70,yy=112+i/4*66;
+
+   pb_fill(
+    xx,yy,66,62,
+    a->tiles[i]?0xffdbe3ed:0xff27392b);
+
+   if(i==a->cursor)
+    ui_outline(xx-1,yy-1,68,64,0xffffdf56);
+
+   if(a->tiles[i]){
+    arcade_poring194(xx+21,yy+8,24,0xffedbfd1);
+
+    char n[8];
+    snprintf(n,sizeof(n),"%u",a->tiles[i]);
+
+    ui_scaled(
+     xx+31-ui_text_width(n,1)/2,yy+39,1,"%s",n);
+   }
+  }
+ }
+
+ if(a->paused||a->over){
+  pb_fill(176,204,288,84,0xffeaf0f5);
+  ui_outline(176,204,288,84,0xff6aabef);
+
+  ui_scaled(
+   196,218,1,"%s",
+   a->paused?"Resting the Poring...":
+   a->won?"A splendid result!":
+          "Another biscuit, another try.");
+
+  ui_hint64(
+   196,253,.9f,
+   a->paused?"Y: resume   B: leave":
+             "A: play again   B: leave");
+ }
+
+ const char*help=
+  a->game==AR194_PONG?
+   "UP/DOWN: paddle":
+  a->game==AR194_PATROL?
+   "LEFT/RIGHT: move   A: fire":
+  a->game==AR194_BREAKER?
+   "LEFT/RIGHT: paddle   A: launch":
+  a->game==AR194_PUZZLE?
+   "D-PAD: choose   A: slide":
+   "D-PAD: move";
+
+ ui_hint64(
+  88,400,.85f,"%s   Y: pause   B: leave",help);
 }
+
+static void guild_arcade_draw194(void){arcade_draw194();}
 static void guild_ui_draw194(const Combat*g){
  GuildUI194*u=&guildUI194;Guild194 guild;CampaignRegions194 regions;
  if(guild_load194(questPins65,&guild)<0||!campaign_regions_load194(questPins65,&regions))return;

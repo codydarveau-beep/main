@@ -11,13 +11,13 @@
     {
       "source": "test_puzzle196.c",
       "passed": true,
-      "sourceSHA256": "d0564ddd762a131ba81331030382fe9bd603535ca0df2ef53f4461ed850efd72",
+      "sourceSHA256": "e740033633666487e810cb9f37b49b6cca6cdcda79eb5d7904b5ca9edba05dcf",
       "log": "puzzle196.log"
     },
     {
       "source": "test_guild_ui194.c",
       "passed": true,
-      "sourceSHA256": "b8bf5d1137b895c416a69fc1a0562bae4194fd24413f9c764e4f3a0524a27a4c",
+      "sourceSHA256": "017d104a136a27a28542bd1d0d8019f3c18f40ac0028e933317672225f8b7c02",
       "log": "guild-ui196.log"
     }
   ],

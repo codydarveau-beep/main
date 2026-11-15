@@ -1,0 +1,11 @@
+{
+  "plans": 610,
+  "entryVA": 485156,
+  "exitVA": 488078,
+  "originalFloorCRC": 1961358041,
+  "visualOnlyCallsSkipped": [
+    648256,
+    655008
+  ],
+  "scope": "Host CPU replay of deployed pure floor/collision logic; no Xbox/Xemu playtest"
+}

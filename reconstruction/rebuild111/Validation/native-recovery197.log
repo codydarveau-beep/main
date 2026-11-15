@@ -1,0 +1,6 @@
+make: Entering directory '/workspace/work/recovery/rebuild111/Source'
+[ AS       ] /workspace/work/recovery/rebuild111/Source/arcade_recovered197.obj
+[ LD       ] main.exe
+lld: warning: .edata=.rdata: already merged into .edataxb
+[ CXBE     ] ../XboxFiles/default.xbe
+make: Leaving directory '/workspace/work/recovery/rebuild111/Source'

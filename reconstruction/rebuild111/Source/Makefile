@@ -1,7 +1,7 @@
 XBE_TITLE = MyRO\ v1.11.0\ RECOVERY
 GEN_XISO = MyRO-Xbox-1.11.0-RECOVERY.iso
 OUTPUT_DIR = ../XboxFiles
-SRCS = $(CURDIR)/main.c $(CURDIR)/ui_assets.c $(CURDIR)/loading_assets.c $(CURDIR)/sound_assets.c $(CURDIR)/skin_assets.c $(CURDIR)/pbkit_hardware54.c $(CURDIR)/frontend_assets56.c
+SRCS = $(CURDIR)/main.c $(CURDIR)/ui_assets.c $(CURDIR)/loading_assets.c $(CURDIR)/sound_assets.c $(CURDIR)/skin_assets.c $(CURDIR)/pbkit_hardware54.c $(CURDIR)/frontend_assets56.c $(CURDIR)/arcade_recovered197.s
 NXDK_DIR ?= $(CURDIR)/../../xbox-nxdk
 NXDK_SDL = y
 NXDK_CFLAGS += -O2 -fstack-usage -I$(NXDK_DIR)/lib/pbkit
@@ -96,3 +96,9 @@ all: $(OUTPUT_DIR)/storyportraits.bin
 $(OUTPUT_DIR)/storyportraits.bin: $(CURDIR)/../Recovered195/storyportraits.bin
 	cp "$<" "$@"
 $(GEN_XISO): $(OUTPUT_DIR)/storyportraits.bin
+
+# Newly authored eight-direction cabinets, streamed one pose per visible machine.
+all: $(OUTPUT_DIR)/guildviews.bin
+$(OUTPUT_DIR)/guildviews.bin: $(CURDIR)/../Guild/Directional197/views.bin
+	cp "$<" "$@"
+$(GEN_XISO): $(OUTPUT_DIR)/guildviews.bin

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "guild-room197",
+      "source": "test_guild_room197.c",
+      "sourceSHA256": "008dc48852225618323f68d1e27a66f0c54f446abdecfc3d287aa55a2cc80529",
+      "passed": true,
+      "log": "guild-room197.log"
+    },
+    {
+      "name": "guild-interactions197",
+      "source": "test_guild_interactions197.c",
+      "sourceSHA256": "8a445d7c794cea17862c05f429a9867ba018f05eb14f268a2c6c80ce45dfbe51",
+      "passed": true,
+      "log": "guild-interactions197.log"
+    },
+    {
+      "name": "world197",
+      "source": "test_world_integration194.c",
+      "sourceSHA256": "3a0943602ace679b6fcf46b6a4a78591841c8be214180902777c2ed5ea6ae22b",
+      "passed": true,
+      "log": "world197.log"
+    }
+  ],
+  "originalFurnishingPlans": 610,
+  "planAndCollisionCRCMatchesReleased": true,
+  "newCabinetViews": 48,
+  "cabinetGPUAtlasBytes": 131072,
+  "originalFurnitureGPUAtlasBytes": 131072,
+  "originalMeshCPUBytes": 11760,
+  "originalFloorBitsetBytes": 5000,
+  "scope": "Actual packed map, production art/model/interaction adapters and host GPU recorder; not Xbox/Xemu execution or full 64MB proof",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

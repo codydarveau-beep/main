@@ -4,8 +4,7 @@
 static uint8_t*sceneRoomBits181;static unsigned sceneRoomStride181;
 static void*sceneTexture,*sceneMesh;static unsigned sceneW,sceneH,sceneVertices;
 static unsigned char*sceneMetadataRaw;static SceneData scene;
-static void scenery_load(unsigned id){if(id==494){sceneTexture=sceneMesh=NULL;sceneVertices=sceneH=0;sceneW=2048;memset(&scene,0,sizeof(scene));return;}
- const WorldBlob*b=worldBlobs[id];
+static void scenery_load(unsigned id){ const WorldBlob*b=worldBlobs[id];
  unsigned scenery1_raw=b[5].raw,scenery2_raw=b[6].raw;
 #ifndef MYRO_HOST
  if(b[5].raw>4)world_scenery_atlas171(id);else{sceneTexture=NULL;sceneW=2048;sceneH=0;}

@@ -1,3 +1,4 @@
+#define MYRO_HOST 1
 #include <assert.h>
 #include <stdio.h>
 #include <stdarg.h>
@@ -56,7 +57,7 @@ int main(void){
  guild_ui_input194(&game,8,16);assert(!game.utilityMenu&&game.mapId==132&&game.zeny==19000);
  guildUI194.page=0;guildUI194.row=14;guild_ui_input194(&game,2,16);assert(guildUI194.page==8);for(unsigned id=0;id<19;id++){guildUI194.row=id;guild_ui_draw194(&game);guild_ui_input194(&game,2,16);Campaign200 c;assert(campaign_load200(&state,&c)==1&&(c.recruits&(1u<<id)));}guild_ui_input194(&game,4,16);assert(guildUI194.page==0&&guildUI194.row==14);
  /* Actual winning slide, interrupted score persistence and explicit retry. */
- guildUI194.page=3;guildUI194.row=4;guild_ui_input194(&game,2,16);ArcadePuzzle196*puzzle=&guildUI194.arcade.puzzle;memset(puzzle,0,sizeof(*puzzle));for(unsigned i=0;i<15;i++)puzzle->tiles[i]=(unsigned char)(i+1);puzzle->blank=15;puzzle_swap196(puzzle,14);puzzle->cursor=15;int money196=game.zeny;
+ guildUI194.page=3;guildUI194.row=4;guild_ui_input194(&game,2,16);Arcade194*puzzle=&guildUI194.arcade;memset(puzzle->tiles,0,16);for(unsigned i=0;i<15;i++)puzzle->tiles[i]=(unsigned char)(i+1);puzzle->blank=14;puzzle->tiles[15]=15;puzzle->tiles[14]=0;puzzle->cursor=15;puzzle->score=0;puzzle->over=puzzle->won=puzzle->submitted=0;int money196=game.zeny;
  failGuildSave196=1;guild_ui_input194(&game,2,16);assert(puzzle->won&&!guildUI194.arcade.submitted&&game.zeny==money196);guild_ui_draw194(&game);Guild194 score196;assert(guild_load194(&state,&score196)==1&&score196.scores[4]==0);guild_ui_input194(&game,4,16);assert(guildUI194.page==4&&!guildUI194.arcade.submitted);failGuildSave196=0;guild_ui_input194(&game,4,16);assert(guildUI194.page==3&&guild_load194(&state,&score196)==1&&score196.scores[4]==5000&&game.zeny==money196);
  for(unsigned cabinet=0;cabinet<6;cabinet++){
   guildUI194.page=3;guildUI194.row=cabinet;guild_ui_input194(&game,2,16);assert(guildUI194.page==4);
@@ -68,5 +69,5 @@ int main(void){
   guild_ui_input194(&game,4,16);assert(guildUI194.page==3);
  }
  npc_state_clear55(&state);npc_state_clear55(&logState);
- printf("PASS HOST: 17-row guild navigation, nine dispatch pages, exact letter paragraph preservation at actual font metrics, journal counters/tracking, failed-fare preservation, completed free return, six bounded cabinet simulations and %u recorded layout operations; no GPU/Xbox playtest\n",draws);
+ printf("PASS HOST: 17-row guild navigation, nine dispatch pages, exact letter paragraph preservation at actual font metrics, journal counters/tracking, failed-fare preservation, completed free return, six recovered native arcade engines and %u recorded layout operations; no GPU/Xbox playtest\n",draws);
 }

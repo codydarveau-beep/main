@@ -9,7 +9,6 @@ static void world_geometry_gpu171(unsigned map);
 #endif
 #include "guild_room_geometry194.h"
 static void load(unsigned map){
- if(map==494){guild_room_load194();return;}
  if(map>=WORLD_MAP_COUNT)fail("Unknown map ID");surfaceMap=map;const WorldBlob*b=worldBlobs[map];
  unsigned char*p;
 #ifndef MYRO_HOST
@@ -35,5 +34,6 @@ static void load(unsigned map){
  if(cellStarts[mw*mh]!=nverts)fail("Geometry directory mismatch");for(unsigned i=0;i<mw*mh;i++)if(cellStarts[i]>cellStarts[i+1]||cellStarts[i]%3)fail("Invalid geometry directory");
  for(unsigned i=0;i<mw*mh*4;i++)if(!isfinite(groundHeights[i]))fail("Invalid ground height");
 #endif
+ if(map==494)guild_floor_capture197();
  if(!ordinary_collision52(map,&propCount46,propCells46))fail("Ordinary town collision override invalid");
 }
