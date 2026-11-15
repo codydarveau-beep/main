@@ -30,3 +30,5 @@ Original Xbox with 64 MB RAM is primary; Xemu remains supported. Preserve native
 ## Completed backups
 
 The earlier campaign source checkpoint is GitHub commit `c391aa13431fe7ae58d6771067e245e3c39c190b`. All 1,189 provenance-listed checkpoint files match their recorded hashes. A separate local source/recovery backup contains 60,531 files; SHA-256 `75b1b4cb48cd7888a364f62dc2c2ad7e19c4e43e927db0938d4fcc5f9f1c93ee`. This is a source/text backup, not a duplicate of all original raw assets. Original raw asset files and attachments remain preserved in place; the full released runtime is also retained in the verified recovered ISO. All 388 original local ZIPs passed CRC inspection. The initial complete filesystem inventory, ZIP member inventories and recovery receipts are preserved alongside this report.
+
+Recovery files in the new workspace are under `/workspace/work/recovery/`; the source backup is `source-and-recovery-backup.zip` and the exact released baseline is `released-1.10.0.iso`. These recovery outputs are not a 1.11.0 release package.
