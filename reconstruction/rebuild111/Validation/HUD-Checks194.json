@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "cases": 1806,
+  "legacyCases": 1642,
+  "currentSettingsAndWindowCases": 164,
+  "peakRecordedQuads": 762,
+  "capacity": 4096,
+  "sanitizers": [
+    "address",
+    "undefined",
+    "leaks"
+  ],
+  "actualSDKAssertingMathStub": true,
+  "scope": "Actual UI draw recorder and host platform adapters; not GPU rendering, Xbox/Xemu playtest or hardware RAM proof"
+}

@@ -556,7 +556,7 @@ static int skill_apply(Combat*g,unsigned id,float groundX,float groundY,int rele
  else if(id==29){
   CombatMob*m=&g->mobs[target];int power=combat_magic_power48(g);int damage=power*(100+10*rank)/100;damage=damage*(m->frozenLeft>0?25:mobWaterRate[m->kind])/100;
   if(damage>0){skill_magic_hit48(g,target,damage,0);skill_sound49(g,g->fxSkill);}
-  if(damage>0&&skill_freeze164(g,m,35+3*rank,3000*rank))combat_notice(g,POP_SKILLS,"Frost Diver: frozen for %.1fs.",m->frozenLeft);
+  if(damage>0&&skill_freeze164(g,m,35+3*rank,3000*rank)){int tenths=(int)(m->frozenLeft*10+.5f);combat_notice(g,POP_SKILLS,"Frost Diver: frozen for %d.%ds.",tenths/10,tenths%10);}
   else combat_notice(g,POP_DAMAGE,"Frost Diver: %d damage; no freeze.",damage);
  }else if(id==30){
   combat_field_start(g,x,y,rank,(combat_magic_power48(g))*80/100);

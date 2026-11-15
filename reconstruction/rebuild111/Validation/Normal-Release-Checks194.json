@@ -1,0 +1,61 @@
+{
+  "phase": "normal integration assessment",
+  "availableChecks": [
+    {
+      "name": "six integration sanitizer suites",
+      "status": "passed",
+      "evidence": "Integration-Checks194.json"
+    },
+    {
+      "name": "expanded current HUD sanitizer/bounds cases",
+      "status": "passed",
+      "cases": 1806,
+      "evidence": "HUD-Checks194.json"
+    },
+    {
+      "name": "SDK math/HUD cases",
+      "status": "passed",
+      "cases": 42,
+      "evidence": "SDK-Checks194.json"
+    },
+    {
+      "name": "production literal formats",
+      "status": "passed",
+      "strings": 1347,
+      "evidence": "formats194.log"
+    },
+    {
+      "name": "native build and known stack/artifact guards",
+      "status": "passed",
+      "evidence": "Native-Checks194.json"
+    },
+    {
+      "name": "private vs released input reconciliation",
+      "status": "assessed",
+      "matchingFiles": 13,
+      "totalFiles": 19,
+      "evidence": "Release-Inputs194.json"
+    }
+  ],
+  "normalReleaseWideChecksComplete": false,
+  "releaseReady": false,
+  "blockedGates": [
+    "complete twelve-chapter implementation",
+    "released campaign/content reader compatibility",
+    "full companion roster and behavior",
+    "released guild/cabinet preservation",
+    "two later-story maps",
+    "complete native-job and chronology paths",
+    "full released-save compatibility including legacy sandbox",
+    "64 MB Xbox and Xemu runtime validation",
+    "complete release-candidate regression"
+  ],
+  "closureCriteria": "RELEASE-GATES.md",
+  "additionalReviewPassesCompleted": 0,
+  "additionalReviewPassesStarted": false,
+  "packagingValidated": false,
+  "postReviewPackagingGate": "Exact-1.10.0 ZIP reconstruction/rejection/rollback validation, after both additional reviews",
+  "privateExecutable": "development build only",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false
+}

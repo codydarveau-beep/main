@@ -1,0 +1,22 @@
+{
+  "matches": 13,
+  "different": [
+    "campaign.bin",
+    "chapter1.bin",
+    "default.xbe",
+    "npcfx.bin",
+    "portraits.bin",
+    "storyportraits.bin"
+  ],
+  "sourceEvidence": {
+    "openingReady": 0,
+    "typedScenes": 6,
+    "campaignStages": 36,
+    "placeholderDirections": 33,
+    "rosterEntries": 19,
+    "rosterSceneActorsPrepared": 2,
+    "worldMapCount": 495,
+    "policyMapCount": 497,
+    "privateLaterMapsLoadable": false
+  }
+}

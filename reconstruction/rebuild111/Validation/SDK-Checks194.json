@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "cases": 42,
+  "actualAssertingMathStub": true,
+  "boundedRounding": true,
+  "nativeNoLroundReference": true,
+  "scope": "Host HUD recording plus native symbol inspection; no Xbox/Xemu execution"
+}

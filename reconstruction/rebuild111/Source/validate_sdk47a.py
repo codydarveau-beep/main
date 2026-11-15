@@ -15,3 +15,6 @@ with tempfile.TemporaryDirectory(prefix='myro-sdk47a-')as td:
  obj=r/'main.obj'
  if obj.exists():
   tool=nxdk.parent/'xbox-toolchain/usr/lib/llvm-18/bin/llvm-objdump';env=os.environ.copy();env['LD_LIBRARY_PATH']=str(nxdk.parent/'xbox-toolchain/usr/lib/x86_64-linux-gnu');table=subprocess.check_output([str(tool),'-t',str(obj)],env=env,text=True);assert '_lroundf'not in table;print('PASS47a native main.obj has no lroundf symbol/reference.')
+
+import json
+(r.parent/'Validation/SDK-Checks194.json').write_text(json.dumps(dict(passed=True,cases=len(cases),actualAssertingMathStub=True,boundedRounding=True,nativeNoLroundReference=obj.exists(),scope='Host HUD recording plus native symbol inspection; no Xbox/Xemu execution'),indent=2)+'\n')

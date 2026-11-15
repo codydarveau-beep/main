@@ -10,7 +10,7 @@ for folder in ['Source','Preparation','Validation']:
   if folder=='Preparation' and p.suffix not in ['.py','.json','.md']:continue
   if p.stat().st_size>90_000_000:raise ValueError(p)
   files.append(p)
-files.append(r/'STATUS.md')
+files.extend([r/'STATUS.md',r/'RELEASE-GATES.md'])
 manifest=[]
 for p in files:
  rel=p.relative_to(r);target=dest/rel;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,target);data=p.read_bytes();manifest.append(dict(path=str(rel),bytes=len(data),sha256=hashlib.sha256(data).hexdigest()))

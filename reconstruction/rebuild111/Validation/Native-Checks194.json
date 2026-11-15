@@ -2,7 +2,7 @@
   "nativeCompiled": true,
   "title": "MyRO v1.11.0 RECOVERY",
   "xbeBytes": 12066816,
-  "xbeSHA256": "288247fb9f8ad652004b945233f6e151722cc0af56ffc8519ef160c10789a628",
+  "xbeSHA256": "f19bcf6c8b08d583923f3ba1e7d434c569595913823f296df57eede0a9a5c615",
   "stackReserve": 163840,
   "knownChains": [
     {
@@ -72,7 +72,7 @@
   ],
   "unsupportedLroundReference": false,
   "boundedRoundingPassed": true,
-  "legacySDKHarness": "Could not compile: stale fixture interfaces; see sdk194.log. No full legacy HUD pass claimed.",
+  "legacySDKHarness": "Repaired: 42 SDK cases and 1806 sanitizer HUD cases pass; see SDK-Checks194.json and HUD-Checks194.json",
   "warnings": [
     "Ignored trigraph in inherited NPC text",
     "Linker .edata merge warning"

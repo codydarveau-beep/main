@@ -27,7 +27,7 @@ static void ui_pause_options50b(const PauseUI*u,int confirm,int help,int scenery
  }
  ui_hint64(28,376,.78f,u->editing61?"LEFT/RIGHT: adjust   A: save   B: cancel":u->inside?"LT/RT: category   A: edit   B: back":"LT/RT: category   A: open   B: back");
  ui_hint64(28,400,.72f,u->frontOnly61?"Settings also apply when you enter the game.":"START: resume game");
- char lines[8][96];int rows=ui_wrap(status,lines,102,.68f),sideHeight=64+rows*18;if(sideHeight<90)sideHeight=90;ui_panel(512,62,120,sideHeight,"Info",0,-1);for(int i=0;i<rows&&i<8;i++)ui_scaled(519,91+i*18,.68f,"%s",lines[i]);ui_scaled(519,62+sideHeight-32,.65f,"MyRO v2.0.0 DEV");ui_scaled(519,62+sideHeight-16,.65f,disk?"HDD available":"Session only");
+ char lines[8][96];int rows=ui_wrap(status,lines,102,.68f),sideHeight=64+rows*18;if(sideHeight<90)sideHeight=90;ui_panel(512,62,120,sideHeight,"Info",0,-1);for(int i=0;i<rows&&i<8;i++)ui_scaled(519,91+i*18,.68f,"%s",lines[i]);ui_scaled(519,62+sideHeight-32,.65f,"MyRO 1.11.0 DEV");ui_scaled(519,62+sideHeight-16,.65f,disk?"HDD available":"Session only");
 }
 
 static void ui_pause_options41(const PauseUI*u,int confirm,int help,int scenery,int disk,const char*status,int tips,unsigned popupMask){ui_pause_options50b(u,confirm,help,scenery,disk,status,tips,popupMask,1,0,0,0);}

@@ -1,0 +1,194 @@
+{
+  "scope": "Recovery and release-readiness assessment; not playtesting",
+  "baselineVersion": "1.10.0",
+  "targetVersion": "1.11.0",
+  "releasedISO_SHA256": "b6f4f9c5e8af271f40aaa8eaae5bcca5329ba29693c6ab65a40702261736e25e",
+  "releasedFilesVerified": 19,
+  "files": [
+    {
+      "name": "actors.bin",
+      "releasedBytes": 122672695,
+      "releasedSHA256": "8f20b53a5363633a9f80c320da937b7f2286e7b489e677bc228424eb6f6882aa",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 122672695,
+      "privateSHA256": "8f20b53a5363633a9f80c320da937b7f2286e7b489e677bc228424eb6f6882aa",
+      "matchesReleased": true
+    },
+    {
+      "name": "campaign.bin",
+      "releasedBytes": 14738055,
+      "releasedSHA256": "1dcafb171c4ecbad160b3358b1339a2c86f87451722db25c493d8b9df64aa0a0",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 2044614,
+      "privateSHA256": "5627cb3c01591f10a9b387d57ee1da889af7cf54d93676624c2bbadf9aac1d01",
+      "matchesReleased": false
+    },
+    {
+      "name": "chapter1.bin",
+      "releasedBytes": 23717,
+      "releasedSHA256": "33814c0e591aa40928591cef8c44bc2ce63ddb74a79d21d3eee06a39f610915a",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 3694,
+      "privateSHA256": "1c3228448e996564ef178d1eeb5b345f3f3611e93776b2a62582bdd230224e3b",
+      "matchesReleased": false
+    },
+    {
+      "name": "default.xbe",
+      "releasedBytes": 12386304,
+      "releasedSHA256": "9e2c14d9fda478453790093c685e2b012951c34966a0d164a3408d672d9f0809",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 12066816,
+      "privateSHA256": "f19bcf6c8b08d583923f3ba1e7d434c569595913823f296df57eede0a9a5c615",
+      "matchesReleased": false
+    },
+    {
+      "name": "effects.bin",
+      "releasedBytes": 5862889,
+      "releasedSHA256": "802332b7e3fdd4c8e5bf9052fc909e8711d919bf15f0191e796005de7526cff2",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 5862889,
+      "privateSHA256": "802332b7e3fdd4c8e5bf9052fc909e8711d919bf15f0191e796005de7526cff2",
+      "matchesReleased": true
+    },
+    {
+      "name": "enemies.bin",
+      "releasedBytes": 286158172,
+      "releasedSHA256": "a1bf8dc7d66120993959ea35fbe35a438eb7dc756412d41542db15acef23740b",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 286158172,
+      "privateSHA256": "a1bf8dc7d66120993959ea35fbe35a438eb7dc756412d41542db15acef23740b",
+      "matchesReleased": true
+    },
+    {
+      "name": "guildhall.bin",
+      "releasedBytes": 49904,
+      "releasedSHA256": "b063235975c43375b126fc9f0c8e69c97efcc304111edcf46789bf13b6016cc5",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 49904,
+      "privateSHA256": "b063235975c43375b126fc9f0c8e69c97efcc304111edcf46789bf13b6016cc5",
+      "matchesReleased": true
+    },
+    {
+      "name": "itemicons.bin",
+      "releasedBytes": 2400882,
+      "releasedSHA256": "069a58ffcf6898fdf4bede61a365cc0a03bb7fcfc7234a6a78df15e528e66c3d",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 2400882,
+      "privateSHA256": "069a58ffcf6898fdf4bede61a365cc0a03bb7fcfc7234a6a78df15e528e66c3d",
+      "matchesReleased": true
+    },
+    {
+      "name": "mercenary.bin",
+      "releasedBytes": 789063,
+      "releasedSHA256": "acd335955f6d526d49c57cabacd35fc904e8d61cac0a806a776f9ca63912f6d3",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 789063,
+      "privateSHA256": "acd335955f6d526d49c57cabacd35fc904e8d61cac0a806a776f9ca63912f6d3",
+      "matchesReleased": true
+    },
+    {
+      "name": "minimaps.bin",
+      "releasedBytes": 3075787,
+      "releasedSHA256": "33c452c0c0a63c68e8d8ae8044d62198f3a66b8de7b32bb51147aeb0e02cfc09",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 3075787,
+      "privateSHA256": "33c452c0c0a63c68e8d8ae8044d62198f3a66b8de7b32bb51147aeb0e02cfc09",
+      "matchesReleased": true
+    },
+    {
+      "name": "music.bin",
+      "releasedBytes": 115751520,
+      "releasedSHA256": "65cbdd174c5fe333630bc1d980c13f85d8df89c6767b4774bce60ef27e7df735",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 115751520,
+      "privateSHA256": "65cbdd174c5fe333630bc1d980c13f85d8df89c6767b4774bce60ef27e7df735",
+      "matchesReleased": true
+    },
+    {
+      "name": "npcfx.bin",
+      "releasedBytes": 7075895,
+      "releasedSHA256": "1b16a7b49fe1932291abb43bbe1fadb28e8ce7035a00d4a5a1b9fa0a583ff8fb",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 6934298,
+      "privateSHA256": "ca649f122b0864752b9531fea8e6966abaf26126fc13e7055769c98e54fb41ef",
+      "matchesReleased": false
+    },
+    {
+      "name": "npcs.bin",
+      "releasedBytes": 14462259,
+      "releasedSHA256": "1c99b38d8afdab3ae3a9fe312f031cca41babc3a97b6ec9e4464fe7e92140b53",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 14462259,
+      "privateSHA256": "1c99b38d8afdab3ae3a9fe312f031cca41babc3a97b6ec9e4464fe7e92140b53",
+      "matchesReleased": true
+    },
+    {
+      "name": "portraits.bin",
+      "releasedBytes": 28098643,
+      "releasedSHA256": "51aeddd50a18016cc0da6e9ae7a240b820bf7881c308b6819e6fdad6f332c9db",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 27460634,
+      "privateSHA256": "a81358e822738ef403242a42df3dbb0d2741e63146d0a5f623e5bf626a6b1cd7",
+      "matchesReleased": false
+    },
+    {
+      "name": "scripts.bin",
+      "releasedBytes": 17353591,
+      "releasedSHA256": "a101e501cbc97b73b7268e0ba3a3f7361c2f3624416be51c6b5f6b1fe1fea93e",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 17353591,
+      "privateSHA256": "a101e501cbc97b73b7268e0ba3a3f7361c2f3624416be51c6b5f6b1fe1fea93e",
+      "matchesReleased": true
+    },
+    {
+      "name": "storyportraits.bin",
+      "releasedBytes": 7839013,
+      "releasedSHA256": "7c715b4fb36a839391085252a97c931a00b0d3398e46c4620b277a2d8372c58f",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 1905853,
+      "privateSHA256": "3b18daf98ec4ef930854b366dca90401ab4551e3d45b873cfd8bde8087b593f0",
+      "matchesReleased": false
+    },
+    {
+      "name": "systems.bin",
+      "releasedBytes": 19324342,
+      "releasedSHA256": "b302515bcc528a0470c0199a866926dc0ad0d2c8f9b8eaa1b67ff50a3fd94bff",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 19324342,
+      "privateSHA256": "b302515bcc528a0470c0199a866926dc0ad0d2c8f9b8eaa1b67ff50a3fd94bff",
+      "matchesReleased": true
+    },
+    {
+      "name": "water.bin",
+      "releasedBytes": 20949665,
+      "releasedSHA256": "688cd30070a7b65fe78e14ccd9b6fd17637db0dd3c66338dfc5e725ac24ee126",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 20949665,
+      "privateSHA256": "688cd30070a7b65fe78e14ccd9b6fd17637db0dd3c66338dfc5e725ac24ee126",
+      "matchesReleased": true
+    },
+    {
+      "name": "world.bin",
+      "releasedBytes": 1209460504,
+      "releasedSHA256": "7ef72495b67bc160a0ccbb3051a4299cfc5a37aa755c58eba475c327044feb44",
+      "releasedAssetRecoverable": true,
+      "privateBytes": 1209460504,
+      "privateSHA256": "7ef72495b67bc160a0ccbb3051a4299cfc5a37aa755c58eba475c327044feb44",
+      "matchesReleased": true
+    }
+  ],
+  "sourceEvidence": {
+    "openingReady": 0,
+    "typedScenes": 6,
+    "campaignStages": 36,
+    "placeholderDirections": 33,
+    "rosterEntries": 19,
+    "rosterSceneActorsPrepared": 2,
+    "worldMapCount": 495,
+    "policyMapCount": 497,
+    "privateLaterMapsLoadable": false
+  },
+  "normalReleaseWideChecksComplete": false,
+  "additionalReviewPassesCompleted": 0,
+  "packagingValidated": false
+}
