@@ -11,6 +11,7 @@ base=struct.unpack_from('<I',xbe,0x104)[0];cert=struct.unpack_from('<I',xbe,0x11
 # Missing emitted functions have been inlined into callers, not silently ignored.
 chains=[['main','save_commit','save_scan','save_decode','save_valid'],['main','mp3dec_decode_frame'],['main','npc_player_command55','npc_runtime_call55','world_script_warp55'],['main','guild_world_visit194','world_script_warp55'],['main','regional_world_visit194','world_script_warp55'],['main','world_test_warp'],['main','frontend_run56','frontend_fade56'],['main','campaign_encounter_tick198','npc_monster_attach55','npc_monster_place55'],['main','combat_reward','campaign_killed200','campaign_encounter_flush198','campaign_store200','npc_state_set55']]
 chains += [['main','party_gain_award200','party_progress_load200'],['main','party_gain_award200','party_progress_commit200'],['main','campaign_party_bind200','party_seed_recruits200','party_progress_commit200'],['main','party_vital_store200','party_progress_commit200']]
+chains += [['main','party_resolve200','party_save_vital200','party_vital_store200','party_progress_commit200']]
 checks=[]
 for chain in chains:
  frames={n:u[n] for n in chain};total=sum(frames.values());assert total+32768<=reserve,(frames,total,reserve);checks.append(dict(frames=frames,bytes=total,margin=32768))

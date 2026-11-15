@@ -4,6 +4,7 @@
 #include "campaign_actor_data200.h"
 #include "campaign_follow200.h"
 #include "companion_art200.h"
+#include "companion_spell_class204.h"
 #include "campaign_stage200.h"
 #define CAMPAIGN_KIND200 (MERCENARY_KIND180+1)
 #define CAMPAIGN_TEXTURE200 (MERCENARY_TEXTURE180+1)
@@ -26,7 +27,7 @@ static void campaign_actor_submit200(const Combat*g,const float*m,float co,float
  if(!monster_visible52(npcView64,x-g->x,y-g->y)||!rooms_point181(&interiorRooms181,x,y))return;
  float z=height_at(x,y),sx,sy;world_project(m,x,y,z,&sx,&sy);if(sx< -80||sx>720||sy< -160||sy>560)return;
  unsigned dir=(unsigned)facing(fx,fy,co,si);
- if(member&&member->initialized){if(!member->hp)group=4;else if(g->time<member->castUntil||(g->time<member->attackUntil&&(member->lastSkill==SKILL_HEAL||member->lastSkill==SKILL_HOLY_LIGHT)))group=5;else if(g->time<member->attackUntil)group=2;else if(g->time-member->hurtAt<.24f)group=3;}
+ if(member&&member->initialized){if(!member->hp)group=4;else if(g->time<member->castUntil||(g->time<member->attackUntil&&(member->lastSkill==SKILL_HEAL||party_caster_spell194(member->lastSkill))))group=5;else if(g->time<member->attackUntil)group=2;else if(g->time-member->hurtAt<.24f)group=3;}
  if(group*8+dir>=CAMPAIGN_ACTIONS_PER_ACTOR200)return;
  unsigned index=source*CAMPAIGN_ACTIONS_PER_ACTOR200+group*8+dir,first=campaignActions200[index].first,n=campaignActions200[index].count,ms=campaignActions200[index].ms;
  if(!n||!ms||first>=CAMPAIGN_FRAME_COUNT200||n>CAMPAIGN_FRAME_COUNT200-first)fail("Campaign action bounds invalid");

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "nativeComparisons": 446,
+  "spellIDs": [
+    3,
+    9,
+    10,
+    21,
+    51,
+    77,
+    80,
+    242,
+    352,
+    355,
+    358,
+    438,
+    439,
+    440
+  ],
+  "scope": "Actual original interruption-family branch; shared by candidate casting pose selection. Full effect and career activation checks remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

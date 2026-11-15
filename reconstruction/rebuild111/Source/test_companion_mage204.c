@@ -1,0 +1,18 @@
+/* Actual candidate mage tick and real combat impacts; world selection stays guarded. */
+#define main initial_pair_fixture204
+#include "test_companion_runtime200.c"
+#undef main
+static CampaignFollower200*prepare201(unsigned jobLevel){
+ npc_state_clear55(&record201);memset(&campaignParty200,0,sizeof campaignParty200);combat_init(&player201,100,100,NULL,NULL);player201.mapId=3;player201.time=10;player201.level=100;player201.hp=player201.maxhp=1000;player201.sp=77;player201.peaceful=1;campaignPartyState200=&record201;
+ unsigned char b[640];party_progress_empty200(b);PartyGrowth200 p={20,0,jobLevel,0,3,0,0};unsigned char stats[6];assert(party_growth_stats200(COMP200_YUUFA,p.job,p.level,stats,&p.hp,&p.sp));assert(party_progress_put200(b,COMP200_YUUFA,&p)&&party_progress_commit200(&record201,b));unsigned id=COMP200_YUUFA;select201(1u<<id,&id,1);party_config_default200(&campaignConfig200,1u<<id);campaignConfig200.skills[id]=1;campaignConfig200.mode[id]=PARTY_ASSIST200;CampaignFollower200*m=campaignParty200.members;m->map=3;m->x=m->y=100;m->regenAt=1000;return m;
+}
+static void enemy201(void){memset(player201.mobs,0,sizeof player201.mobs);CombatMob*e=player201.mobs;e->enabled=1;e->kind=0;e->hp=100000;e->x=112;e->y=100;e->life=123;player201.target=0;player201.peaceful=0;}
+
+static CampaignFollower200*mage204(void){prepare201(2);unsigned char b[640],stats[6];assert(party_progress_load200(&record201,b)==1);PartyGrowth200 p={20,0,50,0,2,0,0};assert(party_growth_stats200(COMP200_TAKIUS,2,20,stats,&p.hp,&p.sp));assert(party_progress_put200(b,COMP200_TAKIUS,&p)&&party_progress_commit200(&record201,b));unsigned id=COMP200_TAKIUS;select201((1u<<COMP200_YUUFA)|(1u<<id),&id,1);CampaignFollower200*m=campaignParty200.members;m->map=3;m->x=m->y=100;m->regenAt=1000;party_config_default200(&campaignConfig200,1u<<id);campaignConfig200.skills[id]=1;campaignConfig200.mode[id]=PARTY_ASSIST200;enemy201();player201.mobs[0].x=160;return m;}
+int main(void){
+ CampaignFollower200*m=mage204();unsigned sp=m->sp;campaign_battle_tick200(&player201,.05f,0);assert(party_bolt_skill204(m->pendingSkill)&&m->sp==sp&&m->castUntil>player201.time);unsigned skill=m->pendingSkill,rank=m->pendingRank,cost=party_skill_cost200(skill,rank);assert(rank==party_skill_rank193(m,skill)&&rank>1);assert(party_hurt200(&player201,m,1));assert(!m->pendingSkill&&m->sp==sp&&player201.sp==77);
+ m=mage204();sp=m->sp;campaign_battle_tick200(&player201,.05f,0);rank=m->pendingRank;cost=party_skill_cost200(m->pendingSkill,rank);unsigned start=player201.damageNext;for(unsigned frame=0;frame<1000&&m->pendingSkill;frame++){player201.time+=.05f;campaign_battle_tick200(&player201,.05f,0);}assert(!m->pendingSkill&&player201.damageNext-start==rank&&m->sp==sp-cost&&player201.sp==77);
+ m=mage204();sp=m->sp;campaign_battle_tick200(&player201,.05f,0);player201.time=m->castUntil+.01f;unsigned revision=record201.revision;int hp=player201.mobs[0].hp;failGrowth200=1;campaign_battle_tick200(&player201,.05f,0);failGrowth200=0;assert(!m->pendingSkill&&m->sp==sp&&player201.mobs[0].hp==hp&&record201.revision==revision);
+ m=mage204();sp=m->sp;campaign_battle_tick200(&player201,.05f,0);player201.mobs[0].life++;player201.time=m->castUntil+.01f;hp=player201.mobs[0].hp;campaign_battle_tick200(&player201,.05f,0);assert(!m->pendingSkill&&m->sp==sp&&player201.mobs[0].hp==hp);
+ npc_state_clear55(&record201);puts("PASS candidate initial mage: actual learned choice, cast interruption, complete real bolt series, single SP debit, no action overwrite and failed/stale impact preservation. Later mage kits and world selection remain guarded; HOST ONLY.");
+}

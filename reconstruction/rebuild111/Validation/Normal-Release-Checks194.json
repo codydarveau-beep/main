@@ -37,6 +37,31 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original elemental bolt selection and resource preflight",
+      "status": "passed",
+      "evidence": "Companion-Bolt-Choice-Checks204.json"
+    },
+    {
+      "name": "original bolt impact rolls, resource debit and repeat timing",
+      "status": "passed",
+      "evidence": "Companion-Bolt-Impact-Checks204.json"
+    },
+    {
+      "name": "original interruptible spell family",
+      "status": "passed",
+      "evidence": "Companion-Spell-Class-Checks204.json"
+    },
+    {
+      "name": "actual initial mage candidate tick and real combat impacts",
+      "status": "passed",
+      "evidence": "Companion-Mage-Checks204.json"
+    },
+    {
+      "name": "original companion impact-element rules",
+      "status": "passed",
+      "evidence": "Companion-Element-Checks204.json"
+    },
+    {
       "name": "original companion weapons and physical power",
       "status": "passed",
       "evidence": "Companion-Power-Checks202.json"

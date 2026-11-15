@@ -1,0 +1,21 @@
+{
+  "scope": "Reference pseudocode only; not editable-source completion or a game test.",
+  "availableFunctions": [
+    "native-114370.c",
+    "native-114870.c",
+    "native-113c70.c",
+    "native-941f0.c",
+    "native-111490.c",
+    "native-114980.c",
+    "native-1135e0.c",
+    "native-95650.c"
+  ],
+  "limitations": [
+    "Automatic whole-image analysis reached its configured limit",
+    "Whole main function decompilation exceeded its time limit; helper/impact functions exported successfully",
+    "Companion decision region is being isolated at explicit analysis-only boundaries; immutable source executable is untouched"
+  ],
+  "additionalReviewPassesCompleted": 0,
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false
+}

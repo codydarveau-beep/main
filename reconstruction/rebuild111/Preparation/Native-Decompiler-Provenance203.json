@@ -1,0 +1,11 @@
+{
+  "tool": "Ghidra 12.2 PUBLIC",
+  "source": "https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build",
+  "jdk": "Eclipse Temurin 25.0.5+8",
+  "jdkSource": "https://github.com/adoptium/temurin25-binaries/releases/latest",
+  "scope": "Reference-only decompilation of preserved executable; no recovered function is automatically treated as completed editable source.",
+  "binaryLoader": "x86:LE:32:default:windows, base 0x10000, complete virtual section image including zero-filled BSS",
+  "mainVA": "0x16440",
+  "impactResolverVA": "0x111490",
+  "additionalReviewPassesCompleted": 0
+}

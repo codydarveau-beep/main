@@ -3,6 +3,8 @@
   "packedScenes": 36,
   "roles": 3,
   "replyVariants": 2,
+  "modalCompanionReplacementVerified": true,
+  "activeCompanionDrawFixtures": 3,
   "releaseCeiling": 12,
   "privateOpeningGuard": 0,
   "phase": "normal candidate integration",
@@ -14,7 +16,5 @@
     "World-map staging and local entrances are exercised; complete native travel and quest playthrough remains separate"
   ],
   "additionalReviewPassesCompleted": 0,
-  "sourceSHA256": "2debd021e87cd57559fe1579025ba5644c2c66dcae86521d1ac44522ed0e372e",
-  "modalCompanionReplacementVerified": true,
-  "activeCompanionDrawFixtures": 3
+  "sourceSHA256": "2debd021e87cd57559fe1579025ba5644c2c66dcae86521d1ac44522ed0e372e"
 }

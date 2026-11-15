@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "nativeComparisons": 892,
+  "runtimeImpactCallerIntegrated": true,
+  "scope": "Original per-skill magical/physical impact element selection; complete career targeting, statuses and repeated-hit casting remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}
