@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "nativeComparisons": 1900,
+  "authoredWeapons": [
+    1116,
+    1101,
+    1601,
+    1601,
+    1601,
+    1801,
+    1252,
+    1201,
+    1701,
+    1901,
+    1950,
+    1301,
+    1301,
+    1201,
+    1201,
+    13100,
+    0,
+    0,
+    1601
+  ],
+  "scope": "Original per-person weapon and melee/ranged physical power, including active Blessing. Full career choices, modifiers and hit/effect resolution remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

@@ -37,6 +37,11 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original companion weapons and physical power",
+      "status": "passed",
+      "evidence": "Companion-Power-Checks202.json"
+    },
+    {
       "name": "original per-companion career skill-learning queues",
       "status": "passed",
       "evidence": "Companion-Skill-Checks201.json"
