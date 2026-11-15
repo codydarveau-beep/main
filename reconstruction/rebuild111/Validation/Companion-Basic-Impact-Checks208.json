@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "nativeComparisons": 1200,
+  "fleePassiveComparisons": 648,
+  "scope": "Actual native impact versus production basic/Bash step: authored weapon, own STR/DEX/LUK, Blessing, learned passive 35, ranks, RNG/hit chance, unchanged resources, serial/range/line/time gates across original and promoted Roan records. Enemy flee is an explicit fixture; final damage and sound use recorded callbacks. The existing reconstructed Bash cue is preserved separately; the native impact branch emits no additional cue at this boundary. Other career action choices remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

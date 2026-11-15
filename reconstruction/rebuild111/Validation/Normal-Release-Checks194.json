@@ -37,6 +37,11 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original basic/Bash impacts and learned attack/evasion passives",
+      "status": "passed",
+      "evidence": "Companion-Basic-Impact-Checks208.json"
+    },
+    {
       "name": "original scene evidence props and actual draw-call integration",
       "status": "passed",
       "evidence": "Campaign-Document-Checks207.json"
