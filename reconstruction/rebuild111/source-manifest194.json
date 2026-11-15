@@ -807,6 +807,11 @@
       "sha256": "914cb62528e37d38607e39097a4afc700573a40ffecb7eb011289033fec5ade6"
     },
     {
+      "path": "Source/companion_multipliers203.h",
+      "bytes": 540,
+      "sha256": "3f24600f683db549e394f751b823f5b0829fedb02b27693de22654218d824b39"
+    },
+    {
       "path": "Source/companion_paths200.h",
       "bytes": 1493,
       "sha256": "63e2c7bf98774142a03cba4977f5085ddee287708f9ba660dc4e0cbfbab5aef8"
@@ -5172,6 +5177,11 @@
       "sha256": "910ebd9d95c8d452190829bb8d498259b428033d9d914fb6a0cc940a62d43128"
     },
     {
+      "path": "Preparation/recover_companion_multipliers203.py",
+      "bytes": 2926,
+      "sha256": "1ebfd2b6130fd144c7697f12a4ed3de8d442f28b25393fe759259e588d339902"
+    },
+    {
       "path": "Preparation/recover_companion_paths200.py",
       "bytes": 5537,
       "sha256": "d083878b7bfaf2a9f6c158e276aa3ec56dc362c967aaae107a9c679caae74be6"
@@ -5270,6 +5280,11 @@
       "path": "Validation/Companion-Experience-Checks200.json",
       "bytes": 530,
       "sha256": "c738bc31dd21030fbec80b81783dfa2ef539b9cee815acab57bee1766010e763"
+    },
+    {
+      "path": "Validation/Companion-Multiplier-Checks203.json",
+      "bytes": 920,
+      "sha256": "0b2daab07eaf0b6e0d6a328719d52714b3de406f6407715fdd67ca9d4377ec85"
     },
     {
       "path": "Validation/Companion-Path-Checks200.json",
@@ -5560,6 +5575,11 @@
       "path": "Validation/companion_exp_adapter200.c",
       "bytes": 340,
       "sha256": "70a68eb597365a1001db0d3f17542257f7e6337d061a33b124c6fc360212095d"
+    },
+    {
+      "path": "Validation/companion_multipliers_adapter203.c",
+      "bytes": 114,
+      "sha256": "f18e531322a35fda490328981013e395fe5a8d60a8d0ee82aa6cb0e01ecbee28"
     },
     {
       "path": "Validation/companion_paths_adapter200.c",
@@ -6223,8 +6243,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 29265,
-      "sha256": "5ebf851a8bd79a823153fb9c6e9c417353aac0e756c9153a5409247b57a5d648"
+      "bytes": 30189,
+      "sha256": "eae3c24fb4493b9a094dd31219af01382a7048c91e50b4f207c96a9966efc6a3"
     },
     {
       "path": "RELEASE-GATES.md",
@@ -6233,8 +6253,8 @@
     },
     {
       "path": "WORK-REMAINING.md",
-      "bytes": 9760,
-      "sha256": "a8ae7c39dbd4c346d435c7e3f94138bc25e65ec7bd361ac903bff8194d949153"
+      "bytes": 9900,
+      "sha256": "87d24bbd575387fdea73a0df2e33967b2e64cbd378516a9a35cfcfa9f0d8b12d"
     }
   ]
 }

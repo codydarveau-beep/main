@@ -138,3 +138,9 @@ Designer clarification exposed a genuine rendering defect: ordinary followers we
 ## Companion weapon/power checkpoint 202
 
 Restored the original nineteen authored weapon IDs from native table 0x5e59a0 and physical power function 0x114870, including the per-person ranged stat branch and active Blessing. Independent native CPU comparisons cover random stat/buff combinations for every identity and the actual inventory item attack lookup. See Companion-Power-Checks202.json. The current physical-hit caller now uses this helper instead of an inline fixed-sword calculation. Other careers remain guarded: weapon/stat recovery alone does not restore their complete skill choices, attack modifiers, support behavior, status/AoE interactions or effects. No activation guard changes, additional review passes or release packaging occurred. Host checks and native compilation are not target playtests.
+
+## Career attack-ratio recovery 203
+
+Recovered the original distinct career attack-ratio function at native 0x114980, preserving its skill cases, rank dependence and neutral fallback. The generated compact C helper is independently compared to the executable across every skill and ranks 0–10. See Companion-Multiplier-Checks203.json. This is recovered resolver data, not completed career gameplay: it is deliberately not substituted for Bash, spell hit counts, elemental formulas, target selection or status/AoE logic. It is not yet called by the live resolver. No career selection guards or campaign activation limits changed.
+
+The preserved full impact resolver is located at 0x111490 and contains separate targeted, support and area-effect branches. Those branches remain implementation work. No new Xbox/Xemu playtest, extra review pass, release-ready claim or package was produced for this recovery-only increment.

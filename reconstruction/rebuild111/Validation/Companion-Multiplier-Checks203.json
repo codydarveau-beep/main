@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "nativeVA": "0x114980",
+  "nativeComparisons": 4906,
+  "authoredCases": [
+    [
+      142,
+      300,
+      40
+    ],
+    [
+      173,
+      125,
+      25
+    ],
+    [
+      180,
+      125,
+      25
+    ],
+    [
+      202,
+      100,
+      20
+    ],
+    [
+      211,
+      150,
+      50
+    ],
+    [
+      378,
+      100,
+      10
+    ],
+    [
+      386,
+      160,
+      20
+    ],
+    [
+      388,
+      160,
+      20
+    ],
+    [
+      390,
+      190,
+      30
+    ],
+    [
+      392,
+      190,
+      30
+    ]
+  ],
+  "runtimeIntegrated": false,
+  "scope": "Original distinct career skill ratios, including rank zero and unknown skill fallback. This helper is not the full resolver: separate hit counts, elements, costs, statuses and target rules must be integrated before enabling careers.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}
