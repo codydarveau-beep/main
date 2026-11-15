@@ -53,7 +53,7 @@ static int world_gate(const Combat*g){
 }
 static int world_near_gate(const Combat*g){return world_gate(g)>=0;}
 static void world_travel(Combat*g){
- int k=world_gate(g);if(k<0)return;WorldGate gate=worldGates[k];if(combatTravelAdmission194){const char*reason=combatTravelAdmission194(g,gate.destination);if(reason){combat_message(g,"%s",reason);return;}}if(gate.source==16&&gate.destination==17){static const float arrivals[4][2]={{1612,1636},{1516,348},{348,324},{276,1620}};unsigned choice=combat_random(g)%4;gate.destX=arrivals[choice][0];gate.destY=arrivals[choice][1];}
+ int k=world_gate(g);if(k<0)return;if(!world_gate_open199((unsigned)k)){combat_message(g,"This passage is not open yet. Continue your current objective.");return;}WorldGate gate=worldGates[k];if(combatTravelAdmission194){const char*reason=combatTravelAdmission194(g,gate.destination);if(reason){combat_message(g,"%s",reason);return;}}if(gate.source==16&&gate.destination==17){static const float arrivals[4][2]={{1612,1636},{1516,348},{348,324},{276,1620}};unsigned choice=combat_random(g)%4;gate.destX=arrivals[choice][0];gate.destY=arrivals[choice][1];}
 #ifndef MYRO_HOST
  sound_play(1);
 #endif

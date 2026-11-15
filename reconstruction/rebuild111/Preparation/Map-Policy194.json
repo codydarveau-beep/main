@@ -4462,8 +4462,9 @@
       "minimumCursor": 28,
       "region": 0,
       "excluded": false,
-      "reason": "Retained private-story policy; geometry unavailable",
-      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+      "reason": "Retained story threshold; environment alias confirmed by designer",
+      "provenance": "Retained policy plus designer alias clarification 199",
+      "environmentSource": 343
     },
     {
       "id": 496,
@@ -4471,8 +4472,9 @@
       "minimumCursor": 33,
       "region": 0,
       "excluded": false,
-      "reason": "Retained private-story policy; geometry unavailable",
-      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+      "reason": "Retained story threshold; environment alias confirmed by designer",
+      "provenance": "Retained policy plus designer alias clarification 199",
+      "environmentSource": 118
     }
   ]
 }

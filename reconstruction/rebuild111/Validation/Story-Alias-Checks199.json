@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "aliases": {
+    "495": 343,
+    "496": 118
+  },
+  "actualPackedTerrainSceneryLoaded": true,
+  "collisionAndHeightMatchSources": true,
+  "authoredPlacementsPreserved": true,
+  "nativeScriptsAndSpawnsIsolated": true,
+  "actualWalkablePaths": true,
+  "passageMilestonesAndObjectiveGate": true,
+  "deniedTravelPreservesMoneyItemsQuestStateAndRNG": true,
+  "originalMap118StillRestrictedUntil35": true,
+  "resourceCleanupPassed": true,
+  "scope": "Production world/collision/travel code with host GPU allocation recorder; not target RAM/performance, native rendering or Xbox/Xemu playtesting",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0,
+  "sourceSHA256": "4ccd0c1b436d7430a7010a1fa6b71dcc5e47a71b2d12b3e3bc92198ba9229a18",
+  "originalWorldRowsPreserved": 495
+}

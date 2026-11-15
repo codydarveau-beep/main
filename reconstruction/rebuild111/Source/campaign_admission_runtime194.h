@@ -2,6 +2,7 @@
 #ifndef MYRO_CAMPAIGN_ADMISSION_RUNTIME194_H
 #define MYRO_CAMPAIGN_ADMISSION_RUNTIME194_H
 #include "native_admission194.h"
+#include "story_routes199.h"
 static NativeAdmissionCache194 campaignNativeAccess194;
 static void campaign_admission_reset194(void){memset(&campaignNativeAccess194,0,sizeof(campaignNativeAccess194));}
 static const char*campaign_native_admission194(unsigned npc){
@@ -25,12 +26,12 @@ static void campaign_departure_redirect193(Combat*g,unsigned*destination,float*x
  }
 }
 static int campaign_career_gate194(unsigned gate){
- if(gate<CAREER_GATE_START194)return 1;if(gate>=WORLD_GATE_COUNT)return 0;Campaign200 c;
+ if(gate>=STORY_GATE_START199)return campaign_story_gate_visible199(gate);if(gate<CAREER_GATE_START194)return 1;if(gate>=WORLD_GATE_COUNT)return 0;Campaign200 c;
  if(campaign_load200(questPins65,&c)!=1||c.cursor<1)return 0;
  return gate<CAREER_GATE_START194+6||career_pilgrimage194(questPins65);
 }
 static void campaign_admission_install194(void){
- campaign_admission_reset194();worldCareerGateAvailable194=campaign_career_gate194;npcTravelAdmission194=campaign_npc_choice_admission194;
+ campaign_admission_reset194();worldStoryGateOpen199=campaign_story_gate_open199;worldCareerGateAvailable194=campaign_career_gate194;npcTravelAdmission194=campaign_npc_choice_admission194;
  npcNativeAdmission194=campaign_native_admission194;combatTravelAdmission194=campaign_npc_admission194;
  npcTravelRedirect193=campaign_departure_redirect193;
 }

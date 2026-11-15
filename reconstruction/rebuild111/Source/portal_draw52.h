@@ -55,7 +55,7 @@ static int portal_marker52(const float*m,float x,float y,float ringRadius,unsign
 }
 static unsigned portal_draw52(const Combat*g,const float*m,unsigned map){
  if(map>=WORLD_MAP_COUNT)return 0;int begun=0;unsigned drawn=0;
- for(unsigned i=0;i<WORLD_GATE_COUNT;i++)if(worldGates[i].source==map&&world_gate_enabled64(i))drawn+=portal_marker52(m,worldGates[i].x,worldGates[i].y,12.f,world_destination_ready44(worldGates[i].destination)?0xff65dffau:0xffff4848u,&begun);
+ for(unsigned i=0;i<WORLD_GATE_COUNT;i++)if(worldGates[i].source==map&&world_gate_enabled64(i))drawn+=portal_marker52(m,worldGates[i].x,worldGates[i].y,12.f,(world_destination_ready44(worldGates[i].destination)&&world_gate_open199(i))?0xff65dffau:0xffff4848u,&begun);
  for(unsigned i=0;i<PENDING_WARP_COUNT;i++)if(pendingWarps[i].map==map)drawn+=portal_marker52(m,pendingWarps[i].x,pendingWarps[i].y,12.f,0xffff4848u,&begun);
  for(unsigned i=0;i<3;i++){const SkillPortal*w=g->portals+i;if(w->expires>g->time&&w->uses)drawn+=portal_marker52(m,w->x,w->y,6.f,0xff65dffau,&begun);}
  return drawn;

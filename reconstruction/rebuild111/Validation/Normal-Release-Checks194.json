@@ -70,6 +70,11 @@
       "name": "authored campaign encounter plans and actual NPC/combat lifecycle",
       "status": "passed",
       "evidence": "Encounter-Integration-Checks198.json"
+    },
+    {
+      "name": "confirmed scene environments, physical routes and denied-travel preservation",
+      "status": "passed",
+      "evidence": "Story-Alias-Checks199.json"
     }
   ],
   "normalReleaseWideChecksComplete": false,
@@ -79,7 +84,7 @@
     "released campaign/content reader compatibility",
     "full companion roster and behavior",
     "released guild/cabinet preservation",
-    "two later-story maps",
+    "complete staged scene lifecycle and campaign access",
     "complete native-job and chronology paths",
     "full released-save compatibility including legacy sandbox",
     "64 MB Xbox and Xemu runtime validation",

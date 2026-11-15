@@ -1,5 +1,17 @@
 # 1.11.0 reconstruction: policy, preflight, guild and dispatch integration
 
+## Current checkpoint 199: confirmed scene environments restored
+
+Designer clarification resolves both missing environment references: 495 `story_thana194` reuses map 343, and 496 `story_moc194` reuses map 118 `moc_fild22`. All seven world sections, dimensions, minimap, original water settings and music are referenced from the source environments. No new terrain/scenery/collision assets were invented or modified. All original 495 world rows remain byte-identical to the preserved executable. Native NPC records, spawn definitions, source-map gates and ritual/multiplayer prerequisites are not imported into either alias.
+
+The recovered 280 -> 495 entrance/arrival is retained. Missing return and camp/breach coordinates are explicitly reconstructed in `Preparation/Story-Aliases-Recovery199.json`, based on actual collision and walkable paths to the surviving authored placements. Four paired campaign passages are integrated. Visibility and opening are distinct: the camp breach appears at cursor 32 but opens at 33; the tower passage requires objective bit 2 while at cursor 28. Original map 118 remains separately restricted until cursor 35. Both portal renderers and the minimap show the closed passage correctly.
+
+Actual packed-world checks validate geometry/height parity, preserved actor/evidence/enemy placements, reachable entrances/returns and transitions, absence of imported native NPCs/spawns, resource cleanup and denied-travel preservation of money, owned items, quest state and RNG. The actual encounter lifecycle suite now exercises both aliases as well as the earlier loadable definitions. Native compilation and normal integration checks pass. These are host/build checks, not Xbox or Xemu playtests or 64 MB residency proof.
+
+Still missing: complete later scene binding, scripted movement/control-lock lifecycle, companion RPV3 growth/promotion/AI integration and end-to-end campaign completion validation. The opening guard and twelve-scene ceiling remain unchanged until integration is verified. Neither additional review pass has started; no release patch is packaged. The previous missing-layout question is answered; no further map assets or decisions are needed for these two aliases.
+
+## Earlier checkpoints and evidence
+
 This is an isolated development tree based on the earlier recovered source, the retained packet, and verified released 1.10.0 metadata. Original workspace source/assets and the published branch are unchanged. This tree is not a recovered complete 1.10.0 source tree or a ready public 1.11.0 build.
 
 ## Implemented

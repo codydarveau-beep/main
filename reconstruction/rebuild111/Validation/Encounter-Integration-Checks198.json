@@ -13,7 +13,8 @@
   "pausedRangeAndCapacityPassed": true,
   "failedSaveRetryPassed": true,
   "worldResetCleanupPassed": true,
-  "privateMapsNotRuntimeTested": [
+  "privateMapsNotRuntimeTested": [],
+  "privateMapsLifecycleTested": [
     495,
     496
   ],

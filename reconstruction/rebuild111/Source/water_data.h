@@ -496,7 +496,8 @@ static const struct {unsigned start,count;float z;} waterMaps[]={
 {27267,0,-2.400000000e+01f},
 /* Reconstructed indoor guild map 494 has no water. Original 494 rows unchanged. */
 {27267,0,0.0f},
-};
+
+{19661,0,-1.600000000e+02f},{6492,0,-1.600000000e+02f}};
 static const unsigned short waterRects[][4]={
 {3104,416,3136,432},
 {3152,416,3168,432},

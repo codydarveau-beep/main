@@ -38,7 +38,7 @@ int main(void){
   assert(gw==200&&gh==200&&mw==100&&mh==100&&nverts<=80000&&allocated==4);if(bytesNow>peak)peak=bytesNow;
  }
  player194.mapId=494;player194.x=128;player194.y=1444;assert(guild_world_visit194(&player194)&&player194.mapId==132&&allowed(player194.x,player194.y));
- assert(campaign_npc_admission194(&player194,495)&&campaign_npc_admission194(&player194,496));
+ assert(!campaign_npc_admission194(&player194,495)&&!campaign_npc_admission194(&player194,496));
  /* Retained career coach endpoints use the real packed maps and original
   * gate indices remain untouched. Pilgrimage access is never a story grant. */
  story194(0);for(unsigned i=0;i<8;i++)assert(!world_gate_enabled64(CAREER_GATE_START194+i));story194(1);

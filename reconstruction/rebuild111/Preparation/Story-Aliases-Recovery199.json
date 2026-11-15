@@ -1,0 +1,92 @@
+{
+  "authority": "Designer clarification in current conversation",
+  "aliases": [
+    {
+      "map": 495,
+      "name": "story_thana194",
+      "source": 343
+    },
+    {
+      "map": 496,
+      "name": "story_moc194",
+      "source": 118,
+      "sourceName": "moc_fild22"
+    }
+  ],
+  "staticModifications": false,
+  "nativeScriptsCopied": false,
+  "nativeSpawnDefinitionsCopied": false,
+  "changes": [
+    {
+      "file": "water_data190.h",
+      "array": "waterSettings190",
+      "beforeSHA256": "e54fd5a066e608de5d9d9ecb1e226672157ff584716e989599d0ed1877ad4c21",
+      "aliases": [
+        "{1.600000000e+00f,2.000000000e+00f,5.000000000e+01f,0u,3u}",
+        "{1.600000000e+00f,2.000000000e+00f,5.000000000e+01f,0u,3u}"
+      ]
+    },
+    {
+      "file": "music_data.h",
+      "array": "musicMapTracks",
+      "beforeSHA256": "73df283858c91b6627effd2401f41a0bf4369a16f89583e5779ed56fbe52bc12",
+      "aliases": [
+        "91",
+        "35"
+      ]
+    }
+  ],
+  "transportRecovered": [
+    {
+      "source": 280,
+      "x": 1004,
+      "y": 100,
+      "destination": 495,
+      "destX": 1092,
+      "destY": 932,
+      "visibleCursor": 28,
+      "requiredObjectiveBitAt28": 2
+    },
+    {
+      "source": 7,
+      "destination": 496,
+      "visibleCursor": 32,
+      "openCursor": 33
+    }
+  ],
+  "sourceMap118SeparateMinimumCursor": 35,
+  "sceneArchitecture": "Environment -> staged actors/encounters -> scripted movement/dialogue/combat with control locks -> resource release -> exploration",
+  "status": "Environment aliases and paired passages pass normal host collision/path/state checks; native compilation passed; full scene activation remains guarded",
+  "reconstructedCoordinates": [
+    {
+      "source": 495,
+      "x": 1092,
+      "y": 908,
+      "destination": 280,
+      "destX": 1004,
+      "destY": 124
+    },
+    {
+      "source": 7,
+      "x": 324,
+      "y": 1940,
+      "destination": 496,
+      "destX": 1772,
+      "destY": 1804
+    },
+    {
+      "source": 496,
+      "x": 1732,
+      "y": 1756,
+      "destination": 7,
+      "destX": 300,
+      "destY": 1940
+    }
+  ],
+  "reconstructedReturnVisibility": "Return passages remain available from their associated sequence visibility milestone; this detail is reconstructed.",
+  "transportUnretained": [
+    "495 return trigger coordinates",
+    "map 7 breach trigger and arrival",
+    "496 return trigger and map 7 arrival"
+  ]
+}
