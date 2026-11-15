@@ -60,6 +60,16 @@
       "name": "all six original native arcade engines against independent released-code replay",
       "status": "passed",
       "evidence": "Arcade-Logic-Checks197.json"
+    },
+    {
+      "name": "authored campaign evidence decisions and physical interaction adapters",
+      "status": "passed",
+      "evidence": "Stage-Integration-Checks198.json"
+    },
+    {
+      "name": "authored campaign encounter plans and actual NPC/combat lifecycle",
+      "status": "passed",
+      "evidence": "Encounter-Integration-Checks198.json"
     }
   ],
   "normalReleaseWideChecksComplete": false,

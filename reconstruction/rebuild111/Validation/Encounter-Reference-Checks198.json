@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "cases": 760,
+  "originalSpawns": 194,
+  "sourceSHA256": "69ded4bf682b9f7170619722d2df61e265bfe456e708bd881ed8ccf8b4f8b327",
+  "scope": "Actual original encounter tick with storage/attachment allocation adapters compared to editable C spawn plans. Real lifecycle and failure checks are separate; not Xbox/Xemu playtesting.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

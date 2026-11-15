@@ -1,0 +1,21 @@
+{
+  "status": "Confirmed released companion state mismatch; repair not yet implemented",
+  "key": "0xeca20000f219bc63",
+  "releasedReaderVA": "0x92ae0",
+  "releasedRecordBytes": 640,
+  "releasedCRCOffset": 636,
+  "earlierSourceRecordBytes": 256,
+  "earlierSourceCRCOffset": 252,
+  "releasedLegacyRecordBytes": 256,
+  "legacyMigrationBranchVA": "0x92ba4",
+  "releasedAbsentInitializationVA": "0x92b6d",
+  "evidence": [
+    "Native reader zeroes 0x280 bytes for an absent record",
+    "Native reader explicitly recognizes a legacy 0x200-character encoded record",
+    "Current released writer encodes 0x500 characters and checksums 0x27c bytes"
+  ],
+  "next": "Recover complete validation/migration and per-companion field layout before changing production saves; preserve unknown state and retain read-error rejection",
+  "originalXboxPlaytested": false,
+  "releasedMagic": "RPV3",
+  "legacyMagic": "RPV2"
+}

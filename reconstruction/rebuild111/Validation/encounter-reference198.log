@@ -1,0 +1,11 @@
+Compared encounter row 4
+Compared encounter row 7
+Compared encounter row 12
+Compared encounter row 16
+Compared encounter row 17
+Compared encounter row 31
+Compared encounter row 32
+Compared encounter row 33
+Compared encounter row 36
+Compared encounter row 39
+PASS authored encounter eligibility, monster IDs, tags and exact positions against independent original CPU replay.

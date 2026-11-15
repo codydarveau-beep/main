@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "cases": 36360,
+  "nearestCases": 11568,
+  "stageRecords": 42,
+  "sourceSHA256": "8b0baaafa3973dcb30629c48f471709de2a3e69fec1f9575b0a8c65ecf4432f7",
+  "scope": "Full authored contact/document decisions and production nearest-contact selection against independent released-code CPU replay. Encounter lifecycle, world binding and target execution remain separate checks.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0,
+  "physicalAdaptersSanitized": true,
+  "saveAllocationFailurePreserved": true,
+  "blockedMovementPreserved": true,
+  "staleStageRejected": true,
+  "activationChanged": false,
+  "preparedLaterRuntime": "Evidence decisions are implemented; later binding remains guarded pending encounter lifecycle and transition integration",
+  "integrationSourceSHA256": "c3f6c37bdbeab429eed9cd0e6441861abdd40fba1e2e90a0ed1fbc52a4b87e63"
+}

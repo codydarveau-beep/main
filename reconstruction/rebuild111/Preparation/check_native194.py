@@ -9,7 +9,7 @@ pe=(S/'main.exe').read_bytes();p=struct.unpack_from('<I',pe,60)[0];assert pe[p:p
 reserve=struct.unpack_from('<I',pe,p+24+72)[0];xbe=(R/'XboxFiles/default.xbe').read_bytes();assert xbe[:4]==b'XBEH';assert struct.unpack_from('<I',xbe,0x130)[0]==reserve==0x28000
 base=struct.unpack_from('<I',xbe,0x104)[0];cert=struct.unpack_from('<I',xbe,0x118)[0]-base;title=xbe[cert+12:cert+92].decode('utf-16le').split('\0')[0];assert title=='MyRO v1.11.0 RECOVERY',title
 # Missing emitted functions have been inlined into callers, not silently ignored.
-chains=[['main','save_commit','save_scan','save_decode','save_valid'],['main','mp3dec_decode_frame'],['main','npc_player_command55','npc_runtime_call55','world_script_warp55'],['main','guild_world_visit194','world_script_warp55'],['main','regional_world_visit194','world_script_warp55'],['main','world_test_warp'],['main','frontend_run56','frontend_fade56']]
+chains=[['main','save_commit','save_scan','save_decode','save_valid'],['main','mp3dec_decode_frame'],['main','npc_player_command55','npc_runtime_call55','world_script_warp55'],['main','guild_world_visit194','world_script_warp55'],['main','regional_world_visit194','world_script_warp55'],['main','world_test_warp'],['main','frontend_run56','frontend_fade56'],['main','campaign_encounter_tick198','npc_monster_attach55','npc_monster_place55'],['main','combat_reward','campaign_killed200','campaign_encounter_flush198','campaign_store200','npc_state_set55']]
 checks=[]
 for chain in chains:
  frames={n:u[n] for n in chain};total=sum(frames.values());assert total+32768<=reserve,(frames,total,reserve);checks.append(dict(frames=frames,bytes=total,margin=32768))
