@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "nativeComparisons": 874,
+  "promotedMappings": [
+    [
+      1,
+      11,
+      28
+    ],
+    [
+      2,
+      17,
+      29
+    ],
+    [
+      11,
+      13,
+      30
+    ],
+    [
+      7,
+      21,
+      31
+    ],
+    [
+      1,
+      22,
+      32
+    ],
+    [
+      8,
+      8,
+      33
+    ],
+    [
+      12,
+      23,
+      34
+    ],
+    [
+      2,
+      24,
+      35
+    ],
+    [
+      13,
+      25,
+      36
+    ],
+    [
+      10,
+      26,
+      37
+    ],
+    [
+      11,
+      27,
+      38
+    ],
+    [
+      4,
+      28,
+      39
+    ],
+    [
+      14,
+      29,
+      40
+    ],
+    [
+      15,
+      30,
+      41
+    ],
+    [
+      16,
+      31,
+      42
+    ],
+    [
+      5,
+      32,
+      43
+    ],
+    [
+      9,
+      40,
+      44
+    ]
+  ],
+  "runtimeSelectorIntegrated": true,
+  "scope": "Exact promoted actor selector; source pose decoding separately covered by content/sequence checks. Complete career AI remains pending.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "cases": 3901,
+  "acceptedCases": 355,
+  "legacyMigrations": 186,
+  "wireBytes": 640,
+  "sourceSHA256": "a00c87126cd50243a922b7cd8c69e164cde199405a4c716d1b7ea0757b81beb6",
+  "scope": "Native RPV3 record validation and exact RPV2 migration versus editable C, including rechecksummed malformed fields and truncation. Sparse-state commits, growth awards, promotions and battle/formation callers require further integration.",
+  "runtimeCallersIntegrated": true,
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0,
+  "sparseSaveRoundtripPassed": true,
+  "legacyMigrationDoesNotWriteOnRead": true,
+  "failedCommitAtomic": true,
+  "independentCharactersPassed": true,
+  "behaviorSettingsDoNotAlterGrowthRecord": true,
+  "runtimeIntegrationEvidence": "Companion-Runtime-Checks200.json",
+  "remaining": "Complete authored career skill/AI integration and full native save/gameplay regression before enabling unprepared careers"
+}

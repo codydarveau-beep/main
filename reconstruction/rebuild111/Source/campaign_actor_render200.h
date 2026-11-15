@@ -3,6 +3,7 @@
 #define MYRO_CAMPAIGN_ACTOR_RENDER200_H
 #include "campaign_actor_data200.h"
 #include "campaign_follow200.h"
+#include "companion_art200.h"
 #include "campaign_stage200.h"
 #define CAMPAIGN_KIND200 (MERCENARY_KIND180+1)
 #define CAMPAIGN_TEXTURE200 (MERCENARY_TEXTURE180+1)
@@ -43,7 +44,7 @@ static void campaign_actor_collect_ready200(const Combat*g,const float*m,float c
  if(!ready)return;
  if(campaignRescue200.active){for(unsigned source=0;source<4;source++){float x,y;rescue_position200(&campaignRescue200,source,&x,&y);float fx=1468-x,fy=2780-y;unsigned group=0;if(source==R200_DRIVER){fx=0;fy=campaignRescue200.escort?1:-1;group=campaignRescue200.escort?1:0;}campaign_actor_submit200(g,m,co,si,zoom,source,source,x,y,fx,fy,group,NULL,actors,count);}return;}
  unsigned nextSlot=0;if(campaignStage200.active&&campaignStage200.definition&&campaignStage200.definition->map==g->mapId){const CampaignStageDefinition200*d=campaignStage200.definition;unsigned first=d->cursor==5&&!campaignStageModal200?2:0;for(unsigned i=first;i<d->count&&nextSlot<4;i++){const CampaignStageActor200*a=d->actor+i;campaign_actor_submit200(g,m,co,si,zoom,nextSlot++,a->source,a->x,a->y,d->x-a->x,d->y-a->y,0,NULL,actors,count);}if(d->cursor==5&&campaignStageModal200)return;}
- for(unsigned slot=0;slot<campaignParty200.count&&slot<3&&nextSlot<4;slot++){const CampaignFollower200*member=campaignParty200.members+slot;if(member->id>=19||member->map!=g->mapId)continue;unsigned source=campaignCompanions200[member->id].sceneActor;campaign_actor_submit200(g,m,co,si,zoom,nextSlot++,source,member->x,member->y,member->faceX,member->faceY,member->moving?1:0,member,actors,count);}
+ for(unsigned slot=0;slot<campaignParty200.count&&slot<3&&nextSlot<4;slot++){const CampaignFollower200*member=campaignParty200.members+slot;if(member->id>=19||member->map!=g->mapId)continue;unsigned source=party_actor_source200(campaignCompanions200[member->id].sceneActor,member->job);campaign_actor_submit200(g,m,co,si,zoom,nextSlot++,source,member->x,member->y,member->faceX,member->faceY,member->moving?1:0,member,actors,count);}
 }
 static void campaign_actor_collect200(const Combat*g,const float*m,float co,float si,float zoom,DrawActor*actors,int*count){campaign_actor_collect_ready200(g,m,co,si,zoom,actors,count,campaign_art_ready200());}
 #endif

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "cases": 1152,
+  "personalities": 19,
+  "sourceSHA256": "914cb62528e37d38607e39097a4afc700573a40ffecb7eb011289033fec5ade6",
+  "scope": "Full original active-member EXP function with durable-state adapters versus C; own level/job curves, rate settings, caps and level-up resources. Eligibility and actual battle/formation persistence require separate runtime checks.",
+  "runtimeCallersIntegrated": false,
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

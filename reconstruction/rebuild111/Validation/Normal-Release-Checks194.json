@@ -37,6 +37,36 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "complete native companion record and migration parity",
+      "status": "passed",
+      "evidence": "Companion-Wire-Checks200.json"
+    },
+    {
+      "name": "durable companion record failure and save roundtrip checks",
+      "status": "passed",
+      "evidence": "Companion-Persistence-Checks200.json"
+    },
+    {
+      "name": "original per-person stats and promotion eligibility",
+      "status": "passed",
+      "evidence": "Companion-Path-Checks200.json"
+    },
+    {
+      "name": "independent companion experience arithmetic against native code",
+      "status": "passed",
+      "evidence": "Companion-Experience-Checks200.json"
+    },
+    {
+      "name": "live companion growth, reserve vitals and campaign rewards",
+      "status": "passed",
+      "evidence": "Companion-Runtime-Checks200.json"
+    },
+    {
+      "name": "original promoted actor selection",
+      "status": "passed",
+      "evidence": "Companion-Art-Checks200.json"
+    },
+    {
       "name": "complete restored art catalogs through production readers",
       "status": "passed",
       "evidence": "Content-Checks195.json"

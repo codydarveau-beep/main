@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "personalities": 19,
+  "statCases": 715,
+  "promotionCases": 2695,
+  "storyMilestones": [
+    15,
+    27
+  ],
+  "nativeHPAndSPTablesMatch": true,
+  "sourceSHA256": "63e2c7bf98774142a03cba4977f5085ddee287708f9ba660dc4e0cbfbab5aef8",
+  "runtimeCallersIntegrated": false,
+  "scope": "Original per-person stat allocation, resource calculation and story/job-level promotion eligibility compared to actual native functions. EXP awards, promotion commits and full skill/AI behavior still require integration.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

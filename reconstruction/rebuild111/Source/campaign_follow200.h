@@ -5,7 +5,7 @@
 #include "campaign_party_state200.h"
 #define CAMPAIGN_PARTY_SLOTS200 3
 #define CAMPAIGN_NO_MEMBER200 255u
-typedef struct{unsigned id,map,moving,ownsMove,level,hp,sp,maxHP,maxSP,life,initialized;unsigned char stats[6],buffRank[2];float buffUntil[3];unsigned shieldHP,shieldHits;int target,pendingTarget,healTarget;unsigned targetLife,pendingLife,pendingSkill,pendingRank,lastSkill,blockedTarget,blockedLife;float x,y,faceX,faceY,stuck,elapsed,attackAt,attackUntil,nextAttack,impactAt,castUntil,hurtAt,skillAt,regenAt,thinkAt,blockedUntil;}CampaignFollower200;
+typedef struct{unsigned id,map,moving,ownsMove,level,hp,sp,maxHP,maxSP,life,initialized;unsigned char stats[6],buffRank[2];float buffUntil[3];unsigned shieldHP,shieldHits;int target,pendingTarget,healTarget;unsigned targetLife,pendingLife,pendingSkill,pendingRank,lastSkill,blockedTarget,blockedLife;float x,y,faceX,faceY,stuck,elapsed,attackAt,attackUntil,nextAttack,impactAt,castUntil,hurtAt,skillAt,regenAt,thinkAt,blockedUntil;unsigned exp,jobLevel,jobExp,job;}CampaignFollower200;
 typedef struct{CampaignFollower200 members[CAMPAIGN_PARTY_SLOTS200];unsigned count;}CampaignFollow200;
 static CampaignFollow200 campaignParty200;
 static int party_stat200(const CampaignFollower200*m,unsigned n,float now){int value=m->stats[n];if(m->buffUntil[0]>now&&(n==0||n==3||n==4))value+=m->buffRank[0];if(m->buffUntil[1]>now&&n==1)value+=2+m->buffRank[1];return value;}

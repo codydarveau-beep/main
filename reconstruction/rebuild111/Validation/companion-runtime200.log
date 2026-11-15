@@ -1,0 +1,1 @@
+PASS actual formation/vitals/growth callers: own levels, reserve persistence without free HP/SP, active/alive/range EXP eligibility, failed-award atomicity, all-chapter promotion gating and growth-safe HP/SP writes. Full nineteen-career combat AI remains pending; HOST ONLY.
