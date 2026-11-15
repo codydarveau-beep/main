@@ -298,8 +298,8 @@
     },
     {
       "path": "Source/campaign_data200.h",
-      "bytes": 4396,
-      "sha256": "f919cbd753ea3f5b3875ae4fb70c06b393f1f6794d9725362c0503cd06d26174"
+      "bytes": 6157,
+      "sha256": "bf2f6e624239b34132e095a8b9d44aef23a9bb4bef714834430132539a249c45"
     },
     {
       "path": "Source/campaign_encounter198.h",
@@ -315,6 +315,11 @@
       "path": "Source/campaign_investigation200.h",
       "bytes": 970,
       "sha256": "5b4ab1fa71b7e0cc9ca26b4540e04e73e49aaea27e49d4b0341cc95ff8b064d6"
+    },
+    {
+      "path": "Source/campaign_minimap200.h",
+      "bytes": 1557,
+      "sha256": "1131543b561627498cce8ef43b5de14889828fa9d9510b6d9972ee4a2c7c7dcc"
     },
     {
       "path": "Source/campaign_objectives200.h",
@@ -1968,8 +1973,8 @@
     },
     {
       "path": "Source/main.c",
-      "bytes": 64700,
-      "sha256": "7896741062f50d5105552f53fe66fc1546ac71aba89458185c7d22c7811bf18e"
+      "bytes": 64781,
+      "sha256": "fe7a6881d96486705613153ffdd097e91e8909e0d095ca2c573e5caa53ba0787"
     },
     {
       "path": "Source/map_limits43.h",
@@ -2068,8 +2073,8 @@
     },
     {
       "path": "Source/minimap_draw.h",
-      "bytes": 5064,
-      "sha256": "cfb54bc2994bde4dc15cf441273e180da95116e6bf21cc8543295cb5bc133556"
+      "bytes": 5089,
+      "sha256": "d3c5fcbc9609b51698e91f89f972b9986aa264909d6e4e25b6334c585958fee5"
     },
     {
       "path": "Source/minimap_upload.h",
@@ -3632,6 +3637,11 @@
       "sha256": "510f751bf7e39b102829d1f383957835f98b38208f213e092f2869c9f35828a3"
     },
     {
+      "path": "Source/test_campaign_minimap200.c",
+      "bytes": 2424,
+      "sha256": "04e949446ef2a850548a6806ee431d6eb21add2a0306a841e1fdea2188cac1c0"
+    },
+    {
       "path": "Source/test_campaign_sequence200.c",
       "bytes": 10723,
       "sha256": "1b8d8687b05bfb982918fda9a602f9d85df3dd8a1e4281eb9bdae2e8df6d6e11"
@@ -4852,6 +4862,11 @@
       "sha256": "96f834332e505168e9338c85e318d86b3b1e3eb90d8e96217ea25d398e4a6960"
     },
     {
+      "path": "Preparation/Campaign-Journal-Recovery200.json",
+      "bytes": 10714,
+      "sha256": "21dadab57b7a776eb0ba95db22615378351051a5d83b7cad0e21d10217e04a4f"
+    },
+    {
       "path": "Preparation/Campaign-Stages-Recovery197.json",
       "bytes": 32990,
       "sha256": "6f498e13493afdf3749b4df95443b10ae8dbfcab37a41b4b367a846240c9a2e7"
@@ -4965,6 +4980,11 @@
       "path": "Preparation/check_arcade_lift197.py",
       "bytes": 4432,
       "sha256": "97892fa33068cf1ca48d4e290f6b57057a70db984e2e3dcbac5c4fca91e2df64"
+    },
+    {
+      "path": "Preparation/check_campaign_minimap200.py",
+      "bytes": 1371,
+      "sha256": "c8f084a57dc93ad470ce86249ce8c6afe40f656c26fcf225fa85b8501f52d3ea"
     },
     {
       "path": "Preparation/check_campaign_sequence200.py",
@@ -5092,6 +5112,11 @@
       "sha256": "60819e954c3a7742294f877743d0370562410c93e02df8b2536bbc6dbccac0ca"
     },
     {
+      "path": "Preparation/recover_campaign_journal200.py",
+      "bytes": 1555,
+      "sha256": "58a13b6a1db2b77affd392deac0b9cb653ac67fd941755f5559c995453009826"
+    },
+    {
       "path": "Preparation/recover_campaign_stages197.py",
       "bytes": 3103,
       "sha256": "e8482d89625c93c98b843db96ccea4dd5443cc2fe2be1bf8cb8338df02d84acc"
@@ -5153,13 +5178,18 @@
     },
     {
       "path": "Preparation/summarize_normal_checks194.py",
-      "bytes": 4620,
-      "sha256": "8814cf8e5ccd2e68db22d1bd36fda1000475b95e6414004497b200359ef7ea1a"
+      "bytes": 4711,
+      "sha256": "89425ea8021552f00ca92f0763b70b771b5399b1bf55730962c03da66dee3304"
     },
     {
       "path": "Validation/Arcade-Logic-Checks197.json",
       "bytes": 429,
       "sha256": "8a13c46a4f041171994b45314b628fe8c1e0843ead9b46435c632b6880066545"
+    },
+    {
+      "path": "Validation/Campaign-Minimap-Checks200.json",
+      "bytes": 560,
+      "sha256": "94046d29a3bdef514194c3a9a2c186ce1b490f362ff87530b368631bd736b17b"
     },
     {
       "path": "Validation/Campaign-Sequence-Checks200.json",
@@ -5234,12 +5264,12 @@
     {
       "path": "Validation/Native-Checks194.json",
       "bytes": 3529,
-      "sha256": "ec4084d1aa6d10f17d89c5dd1bdba2c1187fa8919a7470b182596cd89a012791"
+      "sha256": "6a6424d50d58aee6b33d65f1e3510076eba04d28d5d161ef8780f7f8592e430d"
     },
     {
       "path": "Validation/Normal-Release-Checks194.json",
-      "bytes": 4620,
-      "sha256": "7185593646096abe697aed3845fb9074a24b0dd22ad457bbe561fcc09e929f3e"
+      "bytes": 4781,
+      "sha256": "ff5194306f504dff8be4e038b1d8cbf32adc6fec98d30abb4242befacfa8fe2f"
     },
     {
       "path": "Validation/Release-Inputs194.json",
@@ -5335,6 +5365,11 @@
       "path": "Validation/campaign-encounter198.log",
       "bytes": 200,
       "sha256": "2e579f57d3ba442235e8dc1ec5e312b984e54d48c7ac17f74b014e38223c221b"
+    },
+    {
+      "path": "Validation/campaign-minimap200.log",
+      "bytes": 175,
+      "sha256": "5b88b9edeea08a78ec1756c58cce656abfc8c2423c444fa5c50c2746df600f05"
     },
     {
       "path": "Validation/campaign-sequence-build200.log",
@@ -5642,6 +5677,21 @@
       "sha256": "631f7ecce0a923b30caf2b008268dba95d403a6fe08bb0bb26661387b57b0986"
     },
     {
+      "path": "Validation/native-journal-guards200.log",
+      "bytes": 3529,
+      "sha256": "6a6424d50d58aee6b33d65f1e3510076eba04d28d5d161ef8780f7f8592e430d"
+    },
+    {
+      "path": "Validation/native-journal200.log",
+      "bytes": 612,
+      "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
+    },
+    {
+      "path": "Validation/native-minimap200.log",
+      "bytes": 612,
+      "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
+    },
+    {
       "path": "Validation/native-recovery194.log",
       "bytes": 612,
       "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
@@ -5683,6 +5733,11 @@
     },
     {
       "path": "Validation/normal-summary-growth200.log",
+      "bytes": 108,
+      "sha256": "0056bf11f8c40301632590620934bf130f400e3944ea66be9a3b8bf50c34889a"
+    },
+    {
+      "path": "Validation/normal-summary-journal200.log",
       "bytes": 108,
       "sha256": "0056bf11f8c40301632590620934bf130f400e3944ea66be9a3b8bf50c34889a"
     },
@@ -6013,8 +6068,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 24746,
-      "sha256": "9350c907abb3ad0957c1815c91c34071ad0ca5f65897a0e9dc9eb5e1be2aaa9c"
+      "bytes": 26015,
+      "sha256": "bc7af6a2d1614f1cf7ac40d5500ad0ee3475f803609ad3cd82958e10710cd2f3"
     },
     {
       "path": "RELEASE-GATES.md",
@@ -6023,8 +6078,8 @@
     },
     {
       "path": "WORK-REMAINING.md",
-      "bytes": 9088,
-      "sha256": "933c97f2df92594d1631315d60936fd6032b612644488ca522f7b74fd8df4297"
+      "bytes": 9263,
+      "sha256": "ced3bb99f6000dfcc4c29849f88c0a972b3c54ebed8c2fb687d91d43f36c2f29"
     }
   ]
 }

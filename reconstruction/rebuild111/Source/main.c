@@ -102,6 +102,7 @@ static int world_can_cast(void*unused,float x,float y,float nx,float ny){(void)u
 static int world_in_water(void*,float,float,float,float);
 #include "world_maps.h"
 #include "utility_draw.h"
+static void campaign_minimap200(const Combat*);
 #include "minimap_draw.h"
 #include "scenery.h"
 #include "water_draw.h"
@@ -160,6 +161,7 @@ static int facing(float fx,float fy,float co,float si){float sx=co*fx+si*fy,sy=s
 #include "campaign_actor_render200.h"
 #include "companion_render50.h"
 #include "campaign_world200.h"
+#include "campaign_minimap200.h"
 #include "campaign_party_ui200.h"
 #include "regional_world194.h"
 #include "guild_ui194.h"

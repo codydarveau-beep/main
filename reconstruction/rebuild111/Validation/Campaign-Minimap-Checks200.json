@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "source": "Retained196/campaign_minimap194.partial.h",
+  "adapters": [
+    "recovered trailing-field names",
+    "original gate/mask helpers",
+    "early single-document count absent from trailing extension"
+  ],
+  "integration": "Called after regional markers; main-story early returns do not hide regional notices.",
+  "scope": "Host marker recorder and sanitizer checks; GPU presentation and world prop rendering remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

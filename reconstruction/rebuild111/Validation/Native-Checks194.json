@@ -2,139 +2,139 @@
   "nativeCompiled": true,
   "title": "MyRO v1.11.0 RECOVERY",
   "xbeBytes": 12238848,
-  "xbeSHA256": "bf4d5d9b9ec43ed207dd9b74806a3776dd7bd9dd5653c15b841b31a362e1f3bd",
+  "xbeSHA256": "5b9a2c984b11a58ad4a6c1df9059acb0bede1b8e6e8523556604baee5507fdac",
   "stackReserve": 163840,
   "knownChains": [
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "save_commit": 48,
         "save_scan": 4,
         "save_decode": 36,
         "save_valid": 92
       },
-      "bytes": 55168,
+      "bytes": 55200,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "mp3dec_decode_frame": 17008
       },
-      "bytes": 71996,
+      "bytes": 72028,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "npc_player_command55": 2148,
         "npc_runtime_call55": 4508,
         "world_script_warp55": 47836
       },
-      "bytes": 109480,
+      "bytes": 109512,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "guild_world_visit194": 84,
         "world_script_warp55": 47836
       },
-      "bytes": 102908,
+      "bytes": 102940,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "regional_world_visit194": 100,
         "world_script_warp55": 47836
       },
-      "bytes": 102924,
+      "bytes": 102956,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "world_test_warp": 47788
       },
-      "bytes": 102776,
+      "bytes": 102808,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "frontend_run56": 2956,
         "frontend_fade56": 16412
       },
-      "bytes": 74356,
+      "bytes": 74388,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "campaign_encounter_tick198": 252,
         "npc_monster_attach55": 32,
         "npc_monster_place55": 140
       },
-      "bytes": 55412,
+      "bytes": 55444,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "combat_reward": 224,
         "campaign_killed200": 28,
         "campaign_encounter_flush198": 56,
         "campaign_store200": 212,
         "npc_state_set55": 48
       },
-      "bytes": 55556,
+      "bytes": 55588,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "party_gain_award200": 804,
         "party_progress_load200": 696
       },
-      "bytes": 56488,
+      "bytes": 56520,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 57728,
+      "bytes": 57760,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "campaign_party_bind200": 948,
         "party_seed_recruits200": 692,
         "party_progress_commit200": 1936
       },
-      "bytes": 58564,
+      "bytes": 58596,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "party_vital_store200": 684,
         "party_progress_commit200": 1936
       },
-      "bytes": 57608,
+      "bytes": 57640,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 54988,
+        "main": 55020,
         "assemblyWrapper": 6176,
         "nestedHelpers": 512
       },
-      "bytes": 61676,
+      "bytes": 61708,
       "margin": 32768,
       "assemblyExplicit": true
     }

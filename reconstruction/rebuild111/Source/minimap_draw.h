@@ -12,6 +12,7 @@ static void ui_minimap(const Combat*g,unsigned id){if(id>=WORLD_MAP_COUNT||minim
  for(unsigned i=0;i<sizeof(worldGates)/sizeof(*worldGates);i++)if(worldGates[i].source==id&&world_gate_enabled64(i))minimap_marker(worldGates[i].x,worldGates[i].y,((world_destination_ready44(worldGates[i].destination)&&world_gate_open199(i))&&(!combatTravelAdmission194||!combatTravelAdmission194((Combat*)g,worldGates[i].destination)))?0xff65dffa:0xffff4848,3);
  for(unsigned i=0;i<32;i++)if(mapMarkers64[i].active&&mapMarkers64[i].map==id)minimap_marker(mapMarkers64[i].x,mapMarkers64[i].y,minimap_marker_color64(mapMarkers64[i].color),4);
  CampaignRegions194 regional194;if(campaign_regions_load194(questPins65,&regional194))for(unsigned i=0;i<REGIONAL_COUNT194;i++){const RegionalJourney194*p=regionalJourneys194+i;unsigned bit=regional_bit194(i);if(p->map==id&&(regional194.unlocked&bit)&&!(regional194.completed&bit)&&quest_tracked65(REGIONAL_QUEST194+p->region-1)){minimap_marker(p->noteX,p->noteY,0xff000000,6);minimap_marker(p->noteX,p->noteY,0xffffdf56,3);}}
+ campaign_minimap200(g);
  if(id==2){float x,y;world_merchant(&x,&y);minimap_marker(x,y,0xffffdf56,3);world_instructor(&x,&y);minimap_marker(x,y,0xffffdf56,3);world_stylist(&x,&y);minimap_marker(x,y,0xffffdf56,3);}minimap_marker(g->x,g->y,0xffff4848,4);
 }
 #include "compass_layout62.h"

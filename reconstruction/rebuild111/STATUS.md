@@ -97,7 +97,7 @@ The main loop, campaign kill hook and world/session reset now call the recovered
 
 Companion follow-up identified a concrete compatibility gap: the released executable uses the 640-byte RPV3 record and explicitly migrates the earlier 256-byte RPV2 record. This editable source still implements RPV2 only. The released validation/migration path and field layout must be restored before enabling companion progression. The existing reader rejects an incompatible record instead of silently replacing it. Exact instruction evidence is preserved in `Preparation/Companion-State-Followup198.json`.
 
-Designer clarification is pending for the intended layouts/source aliases of private interiors 495 and 496. Their authored stage and encounter records survive, but the executable has no loadable world-table rows for them. Other campaign/companion recovery can proceed independently.
+Resolved by the subsequent designer clarification and alias checkpoint: private maps 495 and 496 reuse original maps 343 and 118, respectively. Their independent world rows, assets and paired campaign passages are restored; missing route coordinates are explicitly labelled reconstructed. See Story-Aliases-Recovery199.json and the current WORK-REMAINING.md.
 
 ## Candidate scene sequence checkpoint 200
 
@@ -116,3 +116,9 @@ Restored the complete 640-byte RPV3 record and native RPV2 migration without dis
 Normal sanitizer integration exercises actual formation/vitals/growth callers and failure/retry paths. Promoted sprite selection is recovered from the original native mapping and connected to the actor renderer; all roster/job combinations match native execution. Detailed evidence is in the Companion-*200 reports. Earlier isolated reference reports describe their narrower scope; Companion-Runtime-Checks200 supplies the live-caller integration evidence.
 
 The remaining careers are still guarded from selection until their complete authored combat/support skills and AI are recovered. No generic melee substitutes have been enabled. Later evidence presentation, objective guidance, full travel/job/save regression and any additional authored scene choreography also remain to be completed or clarified. Native compilation and host comparisons are not Xbox/Xemu playtests or a 64 MB residency result. The release ceiling remains 12 scenes and private opening readiness remains 0 while the complete 36-scene candidate is integrated. Both additional reviews remain unstarted and final packaging remains pending.
+
+## Campaign navigation presentation checkpoint 200
+
+Restored the retained current-map story-marker helper after regional notices, preserving independent regional markers even when the main-story helper returns early. Field-name adapters map the retained metadata onto the recovered original tables; early single-document stages require an explicit count because their old rows do not contain the later extension. Host marker recording/sanitizers cover contact markers, encounter/checkpoint gates, collected evidence, chapter-four evidence spacing/order state, both aliases, hidden tracking and no state mutation. See Campaign-Minimap-Checks200.json. World evidence-prop rendering beyond early chapters remains separate unfinished presentation work.
+
+Replaced all temporary journal destination placeholders with the exact original 36-entry native title/objective table at 0x5dd184. Existing objective-sensitive early guidance remains layered above it. See Preparation/Campaign-Journal-Recovery200.json for text and source addresses; this is recovered authored guidance, not newly written replacement objectives. Activation guards remain unchanged. Both additional reviews are still unstarted.
