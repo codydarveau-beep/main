@@ -2,6 +2,11 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <ctype.h>
+#include <stdlib.h>
+static int failGuildSave196;
+static void*ui_state_alloc196(size_t n){return failGuildSave196?NULL:malloc(n);}
+#define NPC_STATE_ALLOC55 ui_state_alloc196
+#define NPC_STATE_FREE55 free
 #include "combat.h"
 #include "quest_journal65.h"
 #include "font_metrics65.h"
@@ -10,6 +15,7 @@
 static unsigned draws;
 static void pb_fill(int x,int y,int w,int h,unsigned c){(void)c;assert(x>=0&&y>=0&&w>=0&&h>=0&&x+w<=640&&y+h<=480);draws++;}
 static void ui_panel(int x,int y,int w,int h,const char*t,int f,int c){(void)t;(void)f;(void)c;pb_fill(x,y,w,h,0);}
+static void ui_outline(int x,int y,int w,int h,unsigned c){pb_fill(x,y,w,1,c);pb_fill(x,y+h-1,w,1,c);pb_fill(x,y,1,h,c);pb_fill(x+w-1,y,1,h,c);}
 static void ui_cell(int x,int y,int w,int h,int selected){(void)selected;pb_fill(x,y,w,h,0);}
 static void ui_scaled(int x,int y,float scale,const char*format,...){char s[160];va_list ap;va_start(ap,format);vsnprintf(s,sizeof(s),format,ap);va_end(ap);assert(x>=0&&y>=0&&x+ui_text_width(s,scale)<=640&&y+11<=480);draws++;}
 static void ui_hint64(int x,int y,float scale,const char*format,...){char s[160];va_list ap;va_start(ap,format);vsnprintf(s,sizeof(s),format,ap);va_end(ap);ui_scaled(x,y,scale,"%s",s);}
@@ -48,6 +54,10 @@ int main(void){
  assert(regional_world_visit194(&game,0)&&game.zeny==19000&&game.mapId==386);
  game.x=regionalJourneys194[0].noteX;game.y=regionalJourneys194[0].noteY;regional_ui_open194(&game,0);guild_ui_input194(&game,2,16);assert(quest_custom_completed194(winter));
  guild_ui_input194(&game,8,16);assert(!game.utilityMenu&&game.mapId==132&&game.zeny==19000);
+ guildUI194.page=0;guildUI194.row=14;guild_ui_input194(&game,2,16);assert(guildUI194.page==8);for(unsigned id=0;id<19;id++){guildUI194.row=id;guild_ui_draw194(&game);guild_ui_input194(&game,2,16);Campaign200 c;assert(campaign_load200(&state,&c)==1&&(c.recruits&(1u<<id)));}guild_ui_input194(&game,4,16);assert(guildUI194.page==0&&guildUI194.row==14);
+ /* Actual winning slide, interrupted score persistence and explicit retry. */
+ guildUI194.page=3;guildUI194.row=4;guild_ui_input194(&game,2,16);ArcadePuzzle196*puzzle=&guildUI194.arcade.puzzle;memset(puzzle,0,sizeof(*puzzle));for(unsigned i=0;i<15;i++)puzzle->tiles[i]=(unsigned char)(i+1);puzzle->blank=15;puzzle_swap196(puzzle,14);puzzle->cursor=15;int money196=game.zeny;
+ failGuildSave196=1;guild_ui_input194(&game,2,16);assert(puzzle->won&&!guildUI194.arcade.submitted&&game.zeny==money196);guild_ui_draw194(&game);Guild194 score196;assert(guild_load194(&state,&score196)==1&&score196.scores[4]==0);guild_ui_input194(&game,4,16);assert(guildUI194.page==4&&!guildUI194.arcade.submitted);failGuildSave196=0;guild_ui_input194(&game,4,16);assert(guildUI194.page==3&&guild_load194(&state,&score196)==1&&score196.scores[4]==5000&&game.zeny==money196);
  for(unsigned cabinet=0;cabinet<6;cabinet++){
   guildUI194.page=3;guildUI194.row=cabinet;guild_ui_input194(&game,2,16);assert(guildUI194.page==4);
   for(unsigned i=0;i<4000;i++){

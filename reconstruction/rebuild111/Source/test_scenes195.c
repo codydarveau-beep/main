@@ -10,7 +10,7 @@ int main(int argc,char**argv){assert(argc==2);FILE*f=fopen(argv[1],"rb");assert(
   for(unsigned role=1;role<=3;role++){
    NpcState55 state={0};Campaign200 c={.cursor=cursor,.route=role,.lineage=role,.recruits=0};assert(campaign_store200(&state,&c));Scene200 scene={.state=&state,.data=out,.bytes=raw,.count=count,.pool=16+count*32,.cursor=cursor};
    for(unsigned node=0;node<count;node++){assert(campaign_checkpoint200(&state,cursor,node));unsigned word=npc_state_u32_55(out+16+node*32+28);assert(scene_expression200(&scene)==(word&255u));assert(scene_emotion195(&scene)==(word>>8));}
-   Scene200 opened={0};assert(campaign_checkpoint200(&state,cursor,0));int ok=scene_open200(&opened,&state,read_scene195,f);assert(ok==(cursor<CAMPAIGN_TYPED_SCENES200));if(ok){assert(scene_expression200(&opened)==(npc_state_u32_55(out+44)&255u));scene_close200(&opened);}npc_state_clear55(&state);
+   Scene200 opened={0};assert(campaign_checkpoint200(&state,cursor,0));int ok=scene_open200(&opened,&state,read_scene195,f);assert(ok==(cursor<CAMPAIGN_RELEASE_SCENES193));if(ok){assert(scene_expression200(&opened)==(npc_state_u32_55(out+44)&255u));scene_close200(&opened);}npc_state_clear55(&state);
   }
   free(out);free(p);
  }

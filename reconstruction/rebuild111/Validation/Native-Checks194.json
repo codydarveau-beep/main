@@ -1,8 +1,8 @@
 {
   "nativeCompiled": true,
   "title": "MyRO v1.11.0 RECOVERY",
-  "xbeBytes": 12197888,
-  "xbeSHA256": "e6c0cc80262a1a5e3f9ba42e47aa8c71cea6ac6fc73a0c4c8d2e1f8c0200104e",
+  "xbeBytes": 12201984,
+  "xbeSHA256": "5e67c5bcc849a622804f11933b7339bb79d311e72d84bc1bb85f177f93eef935",
   "stackReserve": 163840,
   "knownChains": [
     {
@@ -37,19 +37,19 @@
     {
       "frames": {
         "main": 54844,
-        "guild_world_visit194": 132,
+        "guild_world_visit194": 84,
         "world_script_warp55": 47836
       },
-      "bytes": 102812,
+      "bytes": 102764,
       "margin": 32768
     },
     {
       "frames": {
         "main": 54844,
-        "regional_world_visit194": 132,
+        "regional_world_visit194": 100,
         "world_script_warp55": 47836
       },
-      "bytes": 102812,
+      "bytes": 102780,
       "margin": 32768
     },
     {

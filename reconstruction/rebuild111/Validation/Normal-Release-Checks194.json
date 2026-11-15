@@ -21,8 +21,8 @@
     {
       "name": "production literal formats",
       "status": "passed",
-      "strings": 1347,
-      "evidence": "formats194.log"
+      "strings": 1357,
+      "evidence": "formats196.log"
     },
     {
       "name": "native build and known stack/artifact guards",
@@ -45,6 +45,11 @@
       "name": "released scene wire and checkpoint compatibility",
       "status": "passed",
       "evidence": "Scene-Checks195.json"
+    },
+    {
+      "name": "retained guild, invitations and sliding-puzzle integration",
+      "status": "passed",
+      "evidence": "Retained-Checks196.json"
     }
   ],
   "normalReleaseWideChecksComplete": false,

@@ -1,0 +1,19 @@
+{
+  "retainedProjectDefinitionsMatchReleased": true,
+  "projectCount": 12,
+  "wireMatchesReleased": true,
+  "materialPredicate": "sourceID matches and unequipped; bound flag is not a deployed exclusion",
+  "restored": [
+    "complete retained guild core with member-name adapters",
+    "introduced-ally invitations",
+    "original root invitation/visit entries plus regional row",
+    "original furnishing labels",
+    "Alberta proximity and clear path"
+  ],
+  "unresolved": [
+    "original room geometry and furniture generator",
+    "complete original arcade engines",
+    "temporary interior noticeboard coordinate differs from original"
+  ],
+  "invitationChronologyEvidence": "Supplied retained code plus supplied cursor-12 mask; complete binary equivalence not certified"
+}

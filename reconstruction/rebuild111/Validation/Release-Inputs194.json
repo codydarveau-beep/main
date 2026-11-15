@@ -37,8 +37,8 @@
       "releasedBytes": 12386304,
       "releasedSHA256": "9e2c14d9fda478453790093c685e2b012951c34966a0d164a3408d672d9f0809",
       "releasedAssetRecoverable": true,
-      "privateBytes": 12197888,
-      "privateSHA256": "e6c0cc80262a1a5e3f9ba42e47aa8c71cea6ac6fc73a0c4c8d2e1f8c0200104e",
+      "privateBytes": 12201984,
+      "privateSHA256": "5e67c5bcc849a622804f11933b7339bb79d311e72d84bc1bb85f177f93eef935",
       "matchesReleased": false
     },
     {
@@ -179,7 +179,8 @@
   ],
   "sourceEvidence": {
     "openingReady": 0,
-    "typedScenes": 12,
+    "typedScenes": 36,
+    "runtimeSceneCeiling": 12,
     "campaignStages": 36,
     "placeholderDirections": 33,
     "rosterEntries": 19,

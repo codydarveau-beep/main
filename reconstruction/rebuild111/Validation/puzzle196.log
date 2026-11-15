@@ -1,0 +1,1 @@
+PASS complete sliding-puzzle engine: 10000 unsolved solvable seeds, legal/illegal slides, win/move scoring and terminal state. HOST ONLY.

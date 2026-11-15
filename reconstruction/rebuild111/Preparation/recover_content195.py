@@ -26,7 +26,7 @@ for name,rawcrc in [('campaign.bin',False),('chapter1.bin',True)]:
   t=struct.unpack_from('<4I',xbe,at+i*16);assert t==tuple(r[k]for k in ['offset','packed','raw',key]);decoded.append(t)
  report[name]['tableFileOffset']=at
  if name=='chapter1.bin':
-  header='/* Verified released typed-scene metadata; not new authored scenes. */\n#ifndef MYRO_CHAPTER1_DATA200_H\n#define MYRO_CHAPTER1_DATA200_H\n#define CHAPTER1_RESCUE_GATE200 5u\n#define CHAPTER2_INVESTIGATION_GATE200 9u\n#define CAMPAIGN_PACKED_SCENES195 36u\n#define CAMPAIGN_TYPED_SCENES200 %du\n#define CHAPTER1_FILE_BYTES200 %du\nstatic const struct{unsigned offset,packed,raw,crc;}chapter1Index200[]={\n'%(12,report[name]['bytes'])
+  header='/* Verified released typed-scene metadata; not new authored scenes. */\n#ifndef MYRO_CHAPTER1_DATA200_H\n#define MYRO_CHAPTER1_DATA200_H\n#define CHAPTER1_RESCUE_GATE200 5u\n#define CHAPTER2_INVESTIGATION_GATE200 9u\n#define CAMPAIGN_PACKED_SCENES195 36u\n#define CAMPAIGN_TYPED_SCENES200 36u\n#define CAMPAIGN_RELEASE_SCENES193 %du\n#define CHAPTER1_FILE_BYTES200 %du\nstatic const struct{unsigned offset,packed,raw,crc;}chapter1Index200[]={\n'%(12,report[name]['bytes'])
   header+=''.join('{'+','.join(str(v)+'u'for v in t)+'},\n'for t in decoded)+'};\n#endif\n';(D/'chapter1_data200.h').write_text(header)
 # FX table retains crop origin/size: recover exact rows and validate sequential blobs.
 rows=report['npcfx.bin']['streams'];at=unique(b''.join(struct.pack('<4I',r['offset'],r['packed'],r['raw'],r['crc'])+struct.pack('<4I',*v)for r,v in zip(rows[:3],[(72,117,36,54),(72,116,36,55),(72,117,36,55)])))

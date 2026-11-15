@@ -33,8 +33,8 @@
       "name": "guild_ui",
       "passed": true,
       "phase": "host execution",
-      "log": "guild_ui194.log",
-      "sourceSHA256": "79b5468b8d97bf88a7d4b28a8079bc362d84890b15864bc900f3384f3659a5d0"
+      "log": "guild-ui196.log",
+      "sourceSHA256": "b8bf5d1137b895c416a69fc1a0562bae4194fd24413f9c764e4f3a0524a27a4c"
     },
     {
       "name": "world_integration",

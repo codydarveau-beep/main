@@ -1,0 +1,8 @@
+#include <assert.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "guild_arcade194.h"
+static void valid(const ArcadePuzzle196*p){unsigned seen=0,inversions=0;for(unsigned i=0;i<16;i++){assert(p->tiles[i]<16);assert(!(seen&(1u<<p->tiles[i])));seen|=1u<<p->tiles[i];if(p->tiles[i])for(unsigned j=i+1;j<16;j++)if(p->tiles[j]&&p->tiles[i]>p->tiles[j])inversions++;}assert(seen==65535&&!p->tiles[p->blank]&&((inversions+4-p->blank/4)&1)==1);}
+int main(void){GuildArcade194 a,b;arcade_start_seed196(&a,4,1);arcade_start_seed196(&b,4,1);assert(!memcmp(&a,&b,sizeof a));arcade_input194(&a,16);assert(a.paused);b=a;arcade_tick194(&a,500);arcade_input194(&a,2|8192);assert(!memcmp(&a,&b,sizeof a));arcade_input194(&a,16);assert(!a.paused);arcade_start_seed196(&b,4,2);assert(memcmp(a.puzzle.tiles,b.puzzle.tiles,16));for(unsigned seed=1;seed<=10000;seed++){unsigned rng=seed;ArcadePuzzle196 p;puzzle_reset196(&p,&rng);valid(&p);assert(!puzzle_solved196(&p)&&!p.won&&!p.moves&&!puzzle_best196(&p));for(unsigned i=0;i<16;i++){ArcadePuzzle196 before=p;p.cursor=i;before.cursor=i;puzzle_input196(&p,2);valid(&p);if(p.blank==before.blank)assert(!memcmp(&p,&before,sizeof(p)));}}
+ ArcadePuzzle196 p={0};for(unsigned i=0;i<15;i++)p.tiles[i]=(unsigned char)(i+1);p.blank=15;puzzle_swap196(&p,14);p.cursor=15;assert(puzzle_input196(&p,2)&&p.won&&p.moves==1&&puzzle_best196(&p)==5000);ArcadePuzzle196 before=p;assert(!puzzle_input196(&p,2)&&!memcmp(&p,&before,sizeof p));puts("PASS complete sliding-puzzle engine: 10000 unsolved solvable seeds, legal/illegal slides, win/move scoring and terminal state. HOST ONLY.");}

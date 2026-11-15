@@ -8,7 +8,7 @@ for folder in ['Source','Preparation','Validation','Recovered195','Retained196']
   if folder=='Source' and p.suffix in ['.obj','.o','.exe','.su','.d','.pyc']:continue
   if folder=='Validation' and p.suffix not in ['.log','.json','.h','.inc']:continue
   if folder=='Preparation' and p.suffix not in ['.py','.json','.md']:continue
-  if folder=='Retained196' and p.suffix not in ['.json','.h','.c','.txt']:continue
+  if folder=='Retained196' and p.suffix not in ['.json','.h','.c','.txt','.md']:continue
   if folder=='Recovered195' and p.suffix not in ['.json','.h']:continue
   if p.stat().st_size>90_000_000:raise ValueError(p)
   files.append(p)
