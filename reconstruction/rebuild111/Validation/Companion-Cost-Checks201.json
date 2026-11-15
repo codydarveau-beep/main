@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "nativeComparisons": 81792,
+  "scope": "Exact rank-sensitive original SP costs, own skill paths and passive reductions. Payment atomicity and full career casting behavior remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

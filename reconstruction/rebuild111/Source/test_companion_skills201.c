@@ -1,0 +1,17 @@
+/* Actual initial support/cast callers with restored own-job learning paths. */
+#define main companion_growth_fixture201
+#include "test_companion_runtime200.c"
+#undef main
+static CampaignFollower200*prepare201(unsigned jobLevel){
+ npc_state_clear55(&record201);memset(&campaignParty200,0,sizeof campaignParty200);combat_init(&player201,100,100,NULL,NULL);player201.mapId=3;player201.time=10;player201.level=100;player201.hp=player201.maxhp=1000;player201.sp=77;player201.peaceful=1;campaignPartyState200=&record201;
+ unsigned char b[640];party_progress_empty200(b);PartyGrowth200 p={20,0,jobLevel,0,3,0,0};unsigned char stats[6];assert(party_growth_stats200(COMP200_YUUFA,p.job,p.level,stats,&p.hp,&p.sp));assert(party_progress_put200(b,COMP200_YUUFA,&p)&&party_progress_commit200(&record201,b));unsigned id=COMP200_YUUFA;select201(1u<<id,&id,1);party_config_default200(&campaignConfig200,1u<<id);campaignConfig200.skills[id]=1;campaignConfig200.mode[id]=PARTY_ASSIST200;CampaignFollower200*m=campaignParty200.members;m->map=3;m->x=m->y=100;m->regenAt=1000;return m;
+}
+static void enemy201(void){memset(player201.mobs,0,sizeof player201.mobs);CombatMob*e=player201.mobs;e->enabled=1;e->kind=0;e->hp=100000;e->x=112;e->y=100;e->life=123;player201.target=0;player201.peaceful=0;}
+int main(void){
+ CampaignFollower200*m=prepare201(1);assert(!party_skill_rank193(m,SKILL_HEAL));player201.hp=1;unsigned sp=m->sp;campaign_battle_tick200(&player201,.05f,0);assert(player201.hp==1&&m->sp==sp);
+ m=prepare201(2);assert(party_skill_rank193(m,SKILL_HEAL)==1);unsigned rank=party_skill_rank193(m,SKILL_HEAL),cost=party_caster_cost194(m,SKILL_HEAL,rank);sp=m->sp;player201.hp=1;unsigned revision=record201.revision;failGrowth200=1;campaign_battle_tick200(&player201,.05f,0);failGrowth200=0;assert(player201.hp==1&&m->sp==sp&&record201.revision==revision);campaign_battle_tick200(&player201,.05f,0);assert(player201.hp>1&&m->sp==sp-cost&&m->lastSkill==SKILL_HEAL&&player201.sp==77);m->level=200;assert(party_skill_rank193(m,SKILL_HEAL)==1);m->level=20;m->jobLevel=20;assert(party_skill_rank193(m,SKILL_HEAL)==6);
+ m=prepare201(2);enemy201();sp=m->sp;campaign_battle_tick200(&player201,.05f,0);assert(m->pendingSkill==SKILL_HOLY_LIGHT&&m->sp==sp&&m->castUntil>=player201.time);assert(party_hurt200(&player201,m,1));assert(!m->pendingSkill&&m->sp==sp&&player201.sp==77);
+ m=prepare201(2);enemy201();sp=m->sp;campaign_battle_tick200(&player201,.05f,0);assert(m->pendingSkill==SKILL_HOLY_LIGHT);player201.time=m->castUntil+.01f;int hp=player201.mobs[0].hp;revision=record201.revision;failGrowth200=1;party_resolve200(&player201,m);failGrowth200=0;assert(m->sp==sp&&player201.mobs[0].hp==hp&&record201.revision==revision);
+ m=prepare201(2);enemy201();sp=m->sp;campaign_battle_tick200(&player201,.05f,0);assert(m->pendingSkill==SKILL_HOLY_LIGHT);cost=party_caster_cost194(m,SKILL_HOLY_LIGHT,m->pendingRank);player201.time=m->castUntil+.01f;hp=player201.mobs[0].hp;party_resolve200(&player201,m);assert(m->sp==sp-cost&&player201.mobs[0].hp<hp&&player201.sp==77);
+ npc_state_clear55(&record201);puts("PASS actual own-job skill learning, support payment, interrupted casts and failed/successful completion without charging player SP. Full career AI remains pending; HOST ONLY.");
+}

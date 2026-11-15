@@ -14,5 +14,7 @@
     "World-map staging and local entrances are exercised; complete native travel and quest playthrough remains separate"
   ],
   "additionalReviewPassesCompleted": 0,
-  "sourceSHA256": "1b8d8687b05bfb982918fda9a602f9d85df3dd8a1e4281eb9bdae2e8df6d6e11"
+  "sourceSHA256": "2debd021e87cd57559fe1579025ba5644c2c66dcae86521d1ac44522ed0e372e",
+  "modalCompanionReplacementVerified": true,
+  "activeCompanionDrawFixtures": 3
 }

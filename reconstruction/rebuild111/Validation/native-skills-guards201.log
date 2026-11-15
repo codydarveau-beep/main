@@ -1,0 +1,153 @@
+{
+  "nativeCompiled": true,
+  "title": "MyRO v1.11.0 RECOVERY",
+  "xbeBytes": 12251136,
+  "xbeSHA256": "8a75efe97732519e5e6a7099c3d7aa2b104d8b47e29657c6d82925d06c5c27e4",
+  "stackReserve": 163840,
+  "knownChains": [
+    {
+      "frames": {
+        "main": 55036,
+        "save_commit": 48,
+        "save_scan": 4,
+        "save_decode": 36,
+        "save_valid": 92
+      },
+      "bytes": 55216,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "mp3dec_decode_frame": 17008
+      },
+      "bytes": 72044,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "npc_player_command55": 2148,
+        "npc_runtime_call55": 4508,
+        "world_script_warp55": 47836
+      },
+      "bytes": 109528,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "guild_world_visit194": 84,
+        "world_script_warp55": 47836
+      },
+      "bytes": 102956,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "regional_world_visit194": 100,
+        "world_script_warp55": 47836
+      },
+      "bytes": 102972,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "world_test_warp": 47788
+      },
+      "bytes": 102824,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "frontend_run56": 2956,
+        "frontend_fade56": 16412
+      },
+      "bytes": 74404,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "campaign_encounter_tick198": 252,
+        "npc_monster_attach55": 32,
+        "npc_monster_place55": 140
+      },
+      "bytes": 55460,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "combat_reward": 224,
+        "campaign_killed200": 28,
+        "campaign_encounter_flush198": 56,
+        "campaign_store200": 212,
+        "npc_state_set55": 48
+      },
+      "bytes": 55604,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "party_gain_award200": 804,
+        "party_progress_load200": 696
+      },
+      "bytes": 56536,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57776,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "campaign_party_bind200": 948,
+        "party_seed_recruits200": 692,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58612,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "party_vital_store200": 684,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57656,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55036,
+        "assemblyWrapper": 6176,
+        "nestedHelpers": 512
+      },
+      "bytes": 61724,
+      "margin": 32768,
+      "assemblyExplicit": true
+    }
+  ],
+  "unsupportedLroundReference": false,
+  "boundedRoundingPassed": true,
+  "legacySDKHarness": "Repaired: 42 SDK cases and 1806 sanitizer HUD cases pass; see SDK-Checks194.json and HUD-Checks194.json",
+  "warnings": [
+    "Ignored trigraph in inherited NPC text",
+    "Linker .edata merge warning"
+  ],
+  "scope": "Private native compile/link and conservative known stack nesting plus 32KiB margin; not exhaustive stack analysis, hardware RAM measurement or Xbox/Xemu playtest",
+  "additionalReviewPassesCompleted": 0,
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false
+}

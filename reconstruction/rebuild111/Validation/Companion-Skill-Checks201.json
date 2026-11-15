@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "paths": 36,
+  "nativeComparisons": 160560,
+  "boundedCaches": 3,
+  "scope": "Exact original per-character/per-career job-level learning and rank limits, including innate exceptions and invalid levels. Full career combat AI/effects remain separate.",
+  "sourceSHA256": "d9685bc476f1da8d7d63d1e9a61b1161f93b5a32b01b5c29bc974a84bcbb0219",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

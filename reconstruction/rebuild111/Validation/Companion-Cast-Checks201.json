@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "scope": "Actual initial support and cast callers: learned ranks follow own job level, failed support save preserves resources, cast initiation/interruption does not debit SP, failed completion does not hit or spend, successful completion charges ally only. Remaining career AI/effects are not certified.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}
