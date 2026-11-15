@@ -1,0 +1,128 @@
+{
+  "status": "Private reconstruction inputs only; not a release or baseline-equivalent playable image",
+  "files": [
+    {
+      "name": "actors.bin",
+      "source": "/workspace/myro/test69/Actors/actors.bin",
+      "bytes": 122672695
+    },
+    {
+      "name": "campaign.bin",
+      "source": "/workspace/myro/dev200/XboxFiles/campaign.bin",
+      "bytes": 2044614
+    },
+    {
+      "name": "chapter1.bin",
+      "source": "/workspace/myro/dev200/XboxFiles/chapter1.bin",
+      "bytes": 3694
+    },
+    {
+      "name": "effects.bin",
+      "source": "/workspace/myro/hotfix183/Effects/effects.bin",
+      "bytes": 5862889
+    },
+    {
+      "name": "enemies.bin",
+      "source": "/workspace/myro/hotfix171/Enemies/enemies.bin",
+      "bytes": 286158172
+    },
+    {
+      "name": "itemicons.bin",
+      "source": "/workspace/myro/test55/Items/icons.bin",
+      "bytes": 2400882
+    },
+    {
+      "name": "mercenary.bin",
+      "source": "/workspace/myro/test69/Presentation/mercenary.bin",
+      "bytes": 789063
+    },
+    {
+      "name": "minimaps.bin",
+      "source": "/workspace/myro/dev200/XboxFiles/minimaps.bin",
+      "bytes": 3075787
+    },
+    {
+      "name": "music.bin",
+      "source": "/workspace/myro/test58/Music/music.bin",
+      "bytes": 115751520
+    },
+    {
+      "name": "npcfx.bin",
+      "source": "/workspace/myro/test69/Presentation/npcfx.bin",
+      "bytes": 6934298
+    },
+    {
+      "name": "npcs.bin",
+      "source": "/workspace/myro/test65/NPCs/npcs.bin",
+      "bytes": 14462259
+    },
+    {
+      "name": "portraits.bin",
+      "source": "/workspace/myro/test69/Presentation/portraits.bin",
+      "bytes": 27460634
+    },
+    {
+      "name": "scripts.bin",
+      "source": "/workspace/work/recovery/packet194/released-scripts.bin",
+      "bytes": 17353591
+    },
+    {
+      "name": "storyportraits.bin",
+      "source": "/workspace/myro/dev200/XboxFiles/storyportraits.bin",
+      "bytes": 1905853
+    },
+    {
+      "name": "systems.bin",
+      "source": "/workspace/myro/test62/Systems/systems.bin",
+      "bytes": 19324342
+    },
+    {
+      "name": "water.bin",
+      "source": "/workspace/myro/test70/Water/water.bin",
+      "bytes": 20949665
+    },
+    {
+      "name": "world.bin",
+      "source": "/workspace/myro/test65/Packed/world.bin",
+      "bytes": 1209460504
+    },
+    {
+      "name": "guildhall.bin",
+      "source": "/workspace/work/recovery/rebuild111/Guild/guildhall.bin",
+      "bytes": 49904,
+      "usedByReconstructedRoom": false
+    }
+  ],
+  "sourceHeaderChecks": [
+    {
+      "header": "chapter1_data200.h",
+      "macro": "CHAPTER1_FILE_BYTES200",
+      "file": "chapter1.bin",
+      "bytes": 3694
+    },
+    {
+      "header": "campaign_actor_data200.h",
+      "macro": "CAMPAIGN_ACTOR_BYTES200",
+      "file": "campaign.bin",
+      "bytes": 2044614
+    },
+    {
+      "header": "campaign_portrait_data200.h",
+      "macro": "CAMPAIGN_PORTRAIT_FILE_BYTES200",
+      "file": "storyportraits.bin",
+      "bytes": 1905853
+    },
+    {
+      "header": "npc_registry_data55.h",
+      "macro": "NPC_SCRIPT_FILE_BYTES55",
+      "file": "scripts.bin",
+      "bytes": 17353591
+    }
+  ],
+  "storyOpeningReady": false,
+  "sourceTypedScenes": 6,
+  "retainedReleaseSceneCeiling": 12,
+  "publicBaseline": "1.10.0",
+  "nextTarget": "1.11.0",
+  "noISOOrPatchPackaged": true
+}

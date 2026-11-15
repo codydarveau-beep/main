@@ -1,0 +1,16 @@
+/* MIT. Source-coordinate handedness, all-map navigation and persistent statuses. */
+#define main world43_previous_main
+#include "test_world43.c"
+#undef main
+#include "projection.h"
+#include "developer.h"
+#include "minimap.h"
+static unsigned reached45(int terrain){unsigned n=gw*gh,*queue=malloc(n*4),head=0,tail=0;unsigned char*seen=calloc(n,1);unsigned start=(unsigned)(spawny/8)*gw+(unsigned)(spawnx/8);seen[start]=1;queue[tail++]=start;while(head<tail){unsigned at=queue[head++],x=at%gw,y=at/gw;const int dx[4]={1,-1,0,0},dy[4]={0,0,1,-1};for(int d=0;d<4;d++){int nx=x+dx[d],ny=y+dy[d];if(nx<1||ny<1||nx>=(int)gw-1||ny>=(int)gh-1)continue;unsigned next=ny*gw+nx;if(seen[next]||!walk[next])continue;if(terrain&&!world_can_move(NULL,x*8+4,y*8+4,nx*8+4,ny*8+4))continue;seen[next]=1;queue[tail++]=next;}}free(queue);free(seen);return tail;}
+int main(void){Combat g;for(unsigned map=0;map<WORLD_MAP_COUNT;map++){assert(world_activate(map));float m[16],cx=gw*4,cy=gh*4;for(int rot=0;rot<32;rot++){float yaw=rot*.19634954f;world_camera(m,cx,cy,0,yaw,.8f,1.2f);assert(m[0]*m[5]-m[1]*m[4]<0);float dx=cosf(yaw)*.7f+sinf(yaw)*.4f,dy=sinf(yaw)*.7f-cosf(yaw)*.4f;assert(fabsf(m[0]*dx+m[1]*dy-.84f)<.001f);assert(fabsf(m[4]*dx+m[5]*dy-.48f*cosf(.8f))<.001f);}
+world_camera(m,cx,cy,0,0,.8f,1.2f);float ex,ey,nx,ny;world_project(m,cx+32,cy,0,&ex,&ey);world_project(m,cx,cy+32,0,&nx,&ny);assert(ex>320&&ny<245);int px,py,qx,qy;minimap_point(cx+32,cy,gw,gh,&px,&py);minimap_point(cx,cy+32,gw,gh,&qx,&qy);assert(px>=qx&&qy<=py);
+for(unsigned i=0;i<WORLD_GATE_COUNT;i++)if(worldGates[i].source==map){const WorldGate*w=&worldGates[i];world_project(m,w->x,w->y,0,&ex,&ey);assert((w->x<cx)==(ex<320));assert((w->y<cy)==(ey>245));}
+const WorldBlob*b=&minimapBlobs45[map];unsigned char*cp=world_packed_blob45(b,map,7);unsigned char*raw=inflateasset("source minimap",cp,b->packed,b->raw);free(cp);assert(b->raw==96*72*4);unsigned different=0;for(unsigned i=1;i<b->raw/4;i++)different+=memcmp(raw+i*4,raw,4)!=0;assert(different>100);free(raw);
+unsigned pure=reached45(0),height=reached45(1);assert(height<=pure);if(!propCount46&&map!=3)assert(pure==height);printf("Navigation45 map%u %s: GAT%u height-aware%u difference%u surfaces%u\n",map,mapNames[map],pure,height,pure-height,surfaceCount45);}
+/* Canonical original Cave1 entrance upper-left, exit tofloor2 lower-right. */
+assert(world_activate(13));float m[16],x,y;world_camera(m,800,800,0,0,.8f,1.2f);world_project(m,172,1468,0,&x,&y);assert(x<320&&y<245);world_project(m,1476,268,0,&x,&y);assert(x>320&&y>245);
+combat_init(&g,spawnx,spawny,world_can_move,NULL);dev_class_preset(&g,8);g.mapId=13;g.buffs[1]=123;g.buffLevels[1]=12;g.quickenLeft=45;g.energyCoatLeft=90;g.angelusLeft=77;g.angelusRank=5;g.walkPercent=100;g.diagnosticsOff45=1;g.skillCD[2]=3;g.sp=g.maxsp;int hp=g.hp,sp=g.sp;assert(world_test_warp(&g,14));assert(g.buffs[1]==123&&g.buffLevels[1]==12&&g.quickenLeft==45&&g.energyCoatLeft==90&&g.angelusLeft==77&&g.angelusRank==5&&g.walkPercent==100&&g.diagnosticsOff45&&g.skillCD[2]==3&&g.hp==hp&&g.sp==sp&&g.maxsp==stat_maxsp(&g));world_release();assert(!allocated&&!bytesNow);puts("PASS45 all18 maps: nonmirrored source-coordinate orientation, controller inverse, warp/minimap direction, streamed original minimap, source navigation; personal buffs and correct maxSP survive zoning.");}

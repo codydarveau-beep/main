@@ -1,0 +1,18 @@
+#include <assert.h>
+#include "save_store.h"
+#include "save_v9.h"
+#include "shop.h"
+#include "window_ui.h"
+static void train(Combat*g){g->joblevel=20;g->jexp=0;g->skillPoints=19;g->sp=g->maxsp;}
+static void ready(Combat*g){g->sp=g->maxsp;g->castDelay=0;memset(g->skillCD,0,sizeof(g->skillCD));}
+int main(){Combat g,h;combat_init(&g,1500,1500,NULL,NULL);g.joblevel=10;g.level=20;g.statPoints=stat_budget(20);stat_refresh(&g);g.equipment=9;assert(combat_change_job(&g,5));train(&g);assert(!skill_learn(&g,16));for(int i=0;i<3;i++)assert(skill_learn(&g,15));assert(stat_value(&g,4)==4);assert(skill_learn(&g,16)&&skill_learn(&g,17));assert(!skill_assign(&g,0,15)&&!quick_bind(&g,1,16));
+ g.zeny=1000;assert(shop_trade(&g,8,1,0)&&g.extraItems[5]==1&&g.zeny==0);inventory_action(&g,8);assert(g.equipment==16);assert(combat_attack_range(&g)==80);int d=combat_physical(&g);assert(d>60);
+ memset(g.mobs,0,sizeof(g.mobs));CombatMob*m=&g.mobs[0];m->enabled=1;m->kind=2;m->hp=10000;m->spawnDef=-1;m->x=g.x+70;m->y=g.y;g.target=0;g.peaceful=1;g.autoAttack=1;float x=g.x;combat_tick(&g,.05,0,0);assert(m->hp<10000&&g.x==x);ready(&g);int sp=g.sp,hp=m->hp;assert(skill_cast(&g,17,0,0)&&g.sp==sp-12&&m->hp==hp-d*2);ready(&g);m->x=g.x+90;sp=g.sp;hp=m->hp;assert(!skill_cast(&g,17,0,0)&&g.sp==sp&&m->hp==hp);
+ inventory_action(&g,4);assert((g.equipment&1)&&!(g.equipment&16));ready(&g);assert(!skill_cast(&g,17,0,0));inventory_action(&g,8);assert(g.equipment==16);assert(skill_assign(&g,2,17)&&quick_bind(&g,1,17));SavedCharacter s;save_capture(&s,&g,2);assert(save_valid(&s));unsigned char raw[SAVE_BYTES];save_encode(raw,&s);assert(save_decode(&s,raw)==1);save_restore(&h,&s,1500,1500,NULL,NULL);assert(h.equipment==16&&h.extraItems[5]==1&&h.ranks[11]==3&&h.ranks[12]==1&&h.ranks[13]==1&&h.hotbar[2]==17&&h.quickId==17);
+ assert(combat_change_job(&g,6)&&!(g.equipment&16));train(&g);assert(!skill_learn(&g,19));for(int i=0;i<3;i++)assert(skill_learn(&g,18));assert(skill_learn(&g,19)&&skill_learn(&g,20));assert(shop_price(&g,8,0)==890&&shop_price(&g,8,1)==535);g.zeny=1000;int stock=g.apples;assert(shop_trade(&g,0,1,0)&&g.zeny==987&&g.apples==stock+1);assert(shop_trade(&g,0,1,1)&&g.zeny==994&&g.apples==stock);
+ m=&g.mobs[0];m->enabled=1;m->kind=2;m->hp=10000;m->x=g.x+8;m->y=g.y;g.target=0;ready(&g);g.zeny=99;sp=g.sp;assert(!skill_cast(&g,20,0,0)&&g.sp==sp&&g.zeny==99);g.zeny=100;hp=m->hp;assert(skill_cast(&g,20,0,0)&&g.zeny==0&&g.sp==sp-5&&m->hp<hp);ready(&g);g.zeny=100;m->x=g.x+100;assert(!skill_cast(&g,20,0,0)&&g.zeny==100);
+ for(int rank=0;rank<=10;rank++){g.ranks[14]=rank;g.ranks[15]=rank;for(int item=0;item<ITEM_COUNT;item++)if(shopBuy[item])assert(shop_price(&g,item,1)<shop_price(&g,item,0));}
+ g.ranks[14]=3;g.ranks[15]=1;save_capture(&s,&g,3);assert(save_valid(&s));save_encode(raw,&s);assert(save_decode(&s,raw)==1);assert(s.ranks[16]==1&&s.extraItems[5]==1);
+ // frozen09 migration validates independent old bounds and copies no adjacent bytes.
+ combat_init(&g,1500,1500,NULL,NULL);g.joblevel=10;assert(combat_change_job(&g,4));train(&g);for(int i=0;i<3;i++)assert(skill_learn(&g,13));assert(skill_learn(&g,14));assert(quick_bind(&g,1,14));V9Character old;v9_capture(&old,&g,88);assert(v9_valid(&old));v9_encode(raw,&old);assert(v9_decode(&old,raw)==1);v9_restore(&h,&old,1500,1500,NULL,NULL);assert(h.ranks[9]==3&&h.ranks[10]==1&&h.ranks[11]==0&&h.extraItems[5]==0&&h.quickId==14);save_capture(&s,&h,1);assert(save_valid(&s));
+ puts("PASS Archer/Bow range+DEX+Double Strafe, Merchant prices+Mammonite atomic costs, equipment mutual exclusion/class rules, passives/prereqs, Save10 roundtrips and frozen09 import");}

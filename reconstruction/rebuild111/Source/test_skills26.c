@@ -1,0 +1,23 @@
+/* MIT. Execute real new-skill casts, ticks, progression and versioned serializers. */
+#include <assert.h>
+#include "save_store.h"
+#include "save_v13.h"
+#include "developer.h"
+static void base(Combat*g,int job){combat_init(g,1500,1500,NULL,NULL);g->jobId=job;g->joblevel=50;g->level=20;g->skillPoints=49;g->statPoints=stat_budget(20);stat_refresh(g);dev_restore(g);g->debugFreeze=1;g->debugImmortal=0;for(int i=0;i<MOB_COUNT;i++)g->mobs[i].hp=g->mobs[i].enabled=0;}
+static void ready(Combat*g){g->sp=g->maxsp;g->castDelay=0;memset(g->skillCD,0,sizeof(g->skillCD));}
+static void target(Combat*g,int i,int kind,float x,float y){CombatMob*m=&g->mobs[i];memset(m,0,sizeof(*m));m->training=m->enabled=1;m->kind=kind;m->hp=m->testMaxHP=10000;m->x=m->homeX=x;m->y=m->homeY=y;m->spawnDef=-1;}
+static void tick(Combat*g,int n){for(int i=0;i<n;i++)combat_tick(g,.05f,0,0);}
+static int fence(void*p,float x,float y,float nx,float ny){(void)p;(void)x;(void)y;return nx<1548&&nx>=8&&ny>=8&&ny<3192;}
+static void learn(Combat*g,unsigned id,int rank){for(int i=0;i<rank;i++)assert(skill_learn(g,id));}
+static void mage(Combat*g){base(g,2);learn(g,3,4);learn(g,24,5);learn(g,31,1);}
+int main(void){Combat g,h;base(&g,2);assert(!skill_learn(&g,31));mage(&g);assert(class_count(&g)==10&&skill_cost(&g,31)==40);target(&g,0,1,1540,1500);int sp=g.sp;assert(skill_cast(&g,31,1540,1500)&&g.sp==sp-40);assert(g.mobs[0].hp==9928&&g.mobs[0].x==1556&&g.barriers[0].hits[1]==4);assert(g.damage[g.barriers[0].totalEvent[0]-1].value==72);tick(&g,4);assert(g.mobs[0].hp==9928);tick(&g,100);assert(combat_barrier_slot(&g)==0);
+ mage(&g);target(&g,0,3,1540,1500);assert(skill_cast(&g,31,1540,1500));assert(g.mobs[0].hp==9982&&g.mobs[0].x==1540);tick(&g,16);assert(g.barriers[0].hits[1]==0&&g.mobs[0].hp==9910);assert(g.damage[(g.barriers[0].totalEvent[0]-1)%DAMAGE_EVENTS].value==90);tick(&g,20);assert(g.mobs[0].hp==9910);
+ mage(&g);target(&g,0,1,1540,1500);g.canMove=fence;assert(skill_cast(&g,31,1540,1500));assert(g.mobs[0].x==1546);ready(&g);sp=g.sp;assert(!skill_cast(&g,31,1560,1500)&&g.sp==sp);for(int i=0;i<COMBAT_BARRIERS;i++)g.barriers[i].expires=g.time+10;assert(!skill_cast(&g,31,1540,1500)&&g.sp==sp);g.hp=0;tick(&g,1);assert(combat_barrier_slot(&g)==0);
+ base(&g,5);assert(!skill_learn(&g,32));learn(&g,17,5);learn(&g,32,1);target(&g,0,1,1559,1519);target(&g,1,1,1561,1500);sp=g.sp;assert(!skill_cast(&g,32,1540,1500)&&g.sp==sp);g.equipment=16;int attack=combat_physical(&g);assert(skill_cast(&g,32,1540,1500));assert(g.mobs[0].hp==10000-attack*80/100&&g.mobs[1].hp==10000);assert(combat_dist(1559,1519,g.mobs[0].x,g.mobs[0].y)>15.99f);ready(&g);learn(&g,15,3);learn(&g,16,1);assert(skill_ground_range(&g,32)==80);assert(skill_ground_point(&g,32,1578,1500));
+ base(&g,3);assert(!skill_learn(&g,33));learn(&g,11,3);learn(&g,33,10);g.stats[2]=25;int defense=combat_vit_defense(&g);assert(skill_cast(&g,33,0,0)&&g.angelusLeft==300&&g.castDelay==3.5f);assert(combat_vit_defense(&g)==defense*150/100&&skill_cost(&g,33)==50);g.angelusLeft=.01f;tick(&g,1);assert(!g.angelusLeft&&combat_vit_defense(&g)==defense);
+ base(&g,4);learn(&g,34,10);assert(skill_passive(34)&&combat_dodge_chance(&g)==30&&!skill_assign(&g,0,34));g.debugFreeze=0;target(&g,0,1,1508,1500);g.mobs[0].training=0;int misses=0;for(int i=0;i<1000;i++){g.hp=g.maxhp;g.mobs[0].cooldown=0;g.mobs[0].aggro=1;g.mobs[0].x=1508;g.mobs[0].y=1500;combat_tick(&g,.001f,0,0);misses+=g.hp==g.maxhp;}assert(misses>200&&misses<400);
+ base(&g,1);g.equipment=1;int before=combat_physical(&g);learn(&g,35,10);assert(skill_passive(35)&&combat_physical(&g)==before+40);g.equipment=0;int bare=combat_physical(&g);g.ranks[31]=0;assert(combat_physical(&g)==bare);
+ mage(&g);g.hotbar[7]=31;g.quickKind=1;g.quickId=31;g.rbBinding=31;SavedCharacter c;save_capture(&c,&g,10);assert(save_valid(&c));unsigned char raw[SAVE_BYTES];save_encode(raw,&c);assert(!memcmp(raw,"MYROSV14",8)&&save_decode(&c,raw)==1);save_restore(&h,&c,1500,1500,NULL,NULL);assert(h.ranks[27]==1&&h.hotbar[7]==31&&h.quickId==31&&!h.barriers[0].expires&&!h.angelusLeft);V13Character old;v13_capture(&old,&g,1);assert(!v13_valid(&old));
+ base(&g,2);learn(&g,3,4);v13_capture(&old,&g,2);assert(v13_valid(&old));v13_encode(raw,&old);unsigned char exact[V13_BYTES];memcpy(exact,raw,sizeof(exact));assert(v13_decode(&old,raw)==1);v13_restore(&h,&old,1500,1500,NULL,NULL);assert(h.ranks[2]==4&&!h.ranks[27]&&!memcmp(exact,raw,sizeof(exact)));dev_reset_skills(&h);assert(!h.angelusLeft&&!h.barriers[0].expires);
+ printf("PASS new first-job casts/prerequisites/SP, flame cells/hit budgets/expiry/collision/KO, bow AoE/range/knockback, Angelus defence/duration, Dodge %d/1000, Knife mastery, Save14 and frozen Save13 import\n",misses);
+}

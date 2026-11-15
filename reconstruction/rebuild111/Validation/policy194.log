@@ -1,0 +1,2 @@
+HOST ONLY: address/undefined sanitizers. No native build or Xbox/Xemu playtest.
+PASS HOST: 18389 map/milestone decisions; 376697 NPC/cache reads; no read-side mutations; pilgrimage persistence, 51-bit corruption, exclusions and exact relocated memberships

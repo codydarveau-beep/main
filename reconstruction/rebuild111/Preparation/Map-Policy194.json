@@ -1,0 +1,4478 @@
+{
+  "status": "Reconstructed, not recovered original policy",
+  "maps": [
+    {
+      "id": 0,
+      "name": "prt_fild08",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 1,
+      "name": "prt_fild05",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 2,
+      "name": "prontera",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 3,
+      "name": "izlude",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 4,
+      "name": "prt_fild06",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 5,
+      "name": "prt_fild07",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 6,
+      "name": "prt_fild09",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 7,
+      "name": "moc_fild01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained starter-town connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 8,
+      "name": "moc_fild02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained starter-town connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 9,
+      "name": "moc_fild03",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained starter-town connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 10,
+      "name": "pay_fild01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 11,
+      "name": "payon",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 12,
+      "name": "pay_arche",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 13,
+      "name": "pay_dun00",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 14,
+      "name": "pay_dun01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 15,
+      "name": "pay_dun02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 16,
+      "name": "pay_dun03",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 17,
+      "name": "pay_dun04",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 18,
+      "name": "gef_dun00",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 19,
+      "name": "gef_dun01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 20,
+      "name": "gef_dun02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 21,
+      "name": "gef_dun03",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 22,
+      "name": "gef_fild00",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 23,
+      "name": "gef_fild01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 24,
+      "name": "gef_fild02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 25,
+      "name": "gef_fild03",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 26,
+      "name": "gef_fild04",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 27,
+      "name": "gef_fild05",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 28,
+      "name": "gef_fild06",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 29,
+      "name": "gef_fild07",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 30,
+      "name": "gef_fild08",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 31,
+      "name": "gef_fild09",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 32,
+      "name": "gef_fild10",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 33,
+      "name": "gef_fild11",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 34,
+      "name": "gef_fild12",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 35,
+      "name": "gef_fild14",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 36,
+      "name": "gef_tower",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 37,
+      "name": "gefenia01",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 38,
+      "name": "gefenia02",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 39,
+      "name": "gefenia03",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 40,
+      "name": "gefenia04",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 41,
+      "name": "geffen",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 42,
+      "name": "geffen_in",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 43,
+      "name": "gl_cas01",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 44,
+      "name": "gl_cas02",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 45,
+      "name": "gl_church",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 46,
+      "name": "gl_chyard",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 47,
+      "name": "gl_dun01",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 48,
+      "name": "gl_dun02",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 49,
+      "name": "gl_in01",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 50,
+      "name": "gl_knt01",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 51,
+      "name": "gl_knt02",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 52,
+      "name": "gl_prison",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 53,
+      "name": "gl_prison1",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 54,
+      "name": "gl_sew01",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 55,
+      "name": "gl_sew02",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 56,
+      "name": "gl_sew03",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 57,
+      "name": "gl_sew04",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 58,
+      "name": "gl_step",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 59,
+      "name": "glast_01",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Geffen investigation and original adjacent dungeons",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 60,
+      "name": "in_orcs01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 61,
+      "name": "orcsdun01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 62,
+      "name": "orcsdun02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 63,
+      "name": "in_hunter",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 64,
+      "name": "izlude_in",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 65,
+      "name": "job_duncer",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 66,
+      "name": "monk_in",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 67,
+      "name": "monk_test",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 68,
+      "name": "pay_fild02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 69,
+      "name": "pay_fild03",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 70,
+      "name": "pay_fild04",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 71,
+      "name": "pay_fild05",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 72,
+      "name": "pay_fild06",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 73,
+      "name": "pay_fild07",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 74,
+      "name": "pay_fild08",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 75,
+      "name": "pay_fild09",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 76,
+      "name": "pay_fild10",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 77,
+      "name": "pay_fild11",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 78,
+      "name": "payon_in01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 79,
+      "name": "payon_in02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 80,
+      "name": "payon_in03",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 81,
+      "name": "prt_castle",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 82,
+      "name": "prt_church",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 83,
+      "name": "prt_fild00",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 84,
+      "name": "prt_fild01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 85,
+      "name": "prt_fild02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 86,
+      "name": "prt_fild03",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 87,
+      "name": "prt_fild04",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 88,
+      "name": "prt_fild10",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 89,
+      "name": "prt_fild11",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 90,
+      "name": "prt_in",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 91,
+      "name": "prt_maze01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 92,
+      "name": "prt_maze02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 93,
+      "name": "prt_maze03",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 94,
+      "name": "prt_monk",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 95,
+      "name": "prt_sewb1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 96,
+      "name": "prt_sewb2",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 97,
+      "name": "prt_sewb3",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 98,
+      "name": "prt_sewb4",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 99,
+      "name": "anthell01",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 100,
+      "name": "anthell02",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 101,
+      "name": "in_moc_16",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 102,
+      "name": "in_sphinx1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 103,
+      "name": "in_sphinx2",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 104,
+      "name": "in_sphinx3",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 105,
+      "name": "in_sphinx4",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 106,
+      "name": "in_sphinx5",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 107,
+      "name": "job_thief1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 108,
+      "name": "moc_fild07",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 109,
+      "name": "moc_fild11",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 110,
+      "name": "moc_fild12",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 111,
+      "name": "moc_fild13",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 112,
+      "name": "moc_fild16",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 113,
+      "name": "moc_fild17",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 114,
+      "name": "moc_fild18",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 115,
+      "name": "moc_fild19",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 116,
+      "name": "moc_fild20",
+      "minimumCursor": 31,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained breach chronology",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 117,
+      "name": "moc_fild21",
+      "minimumCursor": 31,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained breach chronology",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 118,
+      "name": "moc_fild22",
+      "minimumCursor": 35,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained original encounter chronology",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 119,
+      "name": "moc_pryd01",
+      "minimumCursor": 1,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained early Thief approach; native room warps remain",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 120,
+      "name": "moc_pryd02",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 121,
+      "name": "moc_pryd03",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 122,
+      "name": "moc_pryd04",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 123,
+      "name": "moc_pryd05",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 124,
+      "name": "moc_pryd06",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 125,
+      "name": "moc_prydb1",
+      "minimumCursor": 1,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained early Thief room",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 126,
+      "name": "moc_ruins",
+      "minimumCursor": 1,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained early Merchant/Thief outpost access",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 127,
+      "name": "morocc",
+      "minimumCursor": 35,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained post-catastrophe chronology",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 128,
+      "name": "morocc_in",
+      "minimumCursor": 35,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained post-catastrophe chronology",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 129,
+      "name": "alb2trea",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 130,
+      "name": "alb_ship",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 131,
+      "name": "alberta",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 132,
+      "name": "alberta_in",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 133,
+      "name": "iz_dun00",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 134,
+      "name": "iz_dun01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 135,
+      "name": "iz_dun02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 136,
+      "name": "iz_dun03",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 137,
+      "name": "iz_dun04",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 138,
+      "name": "izlu2dun",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 139,
+      "name": "jawaii",
+      "minimumCursor": 20,
+      "region": 13,
+      "excluded": false,
+      "reason": "Jawaii dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 140,
+      "name": "jawaii_in",
+      "minimumCursor": 20,
+      "region": 13,
+      "excluded": false,
+      "reason": "Jawaii dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 141,
+      "name": "treasure01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 142,
+      "name": "treasure02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 143,
+      "name": "tur_dun01",
+      "minimumCursor": 15,
+      "region": 12,
+      "excluded": false,
+      "reason": "Turtle Island dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 144,
+      "name": "tur_dun02",
+      "minimumCursor": 15,
+      "region": 12,
+      "excluded": false,
+      "reason": "Turtle Island dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 145,
+      "name": "tur_dun03",
+      "minimumCursor": 15,
+      "region": 12,
+      "excluded": false,
+      "reason": "Turtle Island dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 146,
+      "name": "tur_dun04",
+      "minimumCursor": 15,
+      "region": 12,
+      "excluded": false,
+      "reason": "Turtle Island dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 147,
+      "name": "tur_dun05",
+      "minimumCursor": 15,
+      "region": 12,
+      "excluded": false,
+      "reason": "Turtle Island dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 148,
+      "name": "alde_alche",
+      "minimumCursor": 12,
+      "region": 0,
+      "excluded": false,
+      "reason": "Northern relief chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 149,
+      "name": "alde_dun01",
+      "minimumCursor": 12,
+      "region": 0,
+      "excluded": false,
+      "reason": "Northern relief chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 150,
+      "name": "alde_dun02",
+      "minimumCursor": 12,
+      "region": 0,
+      "excluded": false,
+      "reason": "Northern relief chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 151,
+      "name": "alde_dun03",
+      "minimumCursor": 12,
+      "region": 0,
+      "excluded": false,
+      "reason": "Northern relief chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 152,
+      "name": "alde_dun04",
+      "minimumCursor": 12,
+      "region": 0,
+      "excluded": false,
+      "reason": "Northern relief chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 153,
+      "name": "aldeba_in",
+      "minimumCursor": 12,
+      "region": 0,
+      "excluded": false,
+      "reason": "Northern relief chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 154,
+      "name": "aldebaran",
+      "minimumCursor": 12,
+      "region": 0,
+      "excluded": false,
+      "reason": "Northern relief chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 155,
+      "name": "c_tower1",
+      "minimumCursor": 12,
+      "region": 0,
+      "excluded": false,
+      "reason": "Northern relief chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 156,
+      "name": "c_tower2",
+      "minimumCursor": 12,
+      "region": 0,
+      "excluded": false,
+      "reason": "Northern relief chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 157,
+      "name": "c_tower3",
+      "minimumCursor": 12,
+      "region": 0,
+      "excluded": false,
+      "reason": "Northern relief chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 158,
+      "name": "c_tower4",
+      "minimumCursor": 12,
+      "region": 0,
+      "excluded": false,
+      "reason": "Northern relief chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 159,
+      "name": "mjo_dun01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 160,
+      "name": "mjo_dun02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 161,
+      "name": "mjo_dun03",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 162,
+      "name": "mjolnir_01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 163,
+      "name": "mjolnir_02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 164,
+      "name": "mjolnir_03",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 165,
+      "name": "mjolnir_04",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 166,
+      "name": "mjolnir_05",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 167,
+      "name": "mjolnir_06",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 168,
+      "name": "mjolnir_07",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 169,
+      "name": "mjolnir_08",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 170,
+      "name": "mjolnir_09",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 171,
+      "name": "mjolnir_10",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 172,
+      "name": "mjolnir_11",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 173,
+      "name": "mjolnir_12",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 174,
+      "name": "beach_dun",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 175,
+      "name": "beach_dun2",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 176,
+      "name": "beach_dun3",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 177,
+      "name": "cmd_fild01",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 178,
+      "name": "cmd_fild02",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 179,
+      "name": "cmd_fild03",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 180,
+      "name": "cmd_fild04",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 181,
+      "name": "cmd_fild05",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 182,
+      "name": "cmd_fild06",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 183,
+      "name": "cmd_fild07",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 184,
+      "name": "cmd_fild08",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 185,
+      "name": "cmd_fild09",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 186,
+      "name": "cmd_in01",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 187,
+      "name": "cmd_in02",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 188,
+      "name": "comodo",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Comodo chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 189,
+      "name": "in_rogue",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 190,
+      "name": "nif_fild01",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 191,
+      "name": "nif_fild02",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 192,
+      "name": "nif_in",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 193,
+      "name": "niflheim",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 194,
+      "name": "um_dun01",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 195,
+      "name": "um_dun02",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 196,
+      "name": "um_fild01",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 197,
+      "name": "um_fild02",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 198,
+      "name": "um_fild03",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 199,
+      "name": "um_fild04",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 200,
+      "name": "um_in",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 201,
+      "name": "umbala",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 202,
+      "name": "yggdrasil01",
+      "minimumCursor": 21,
+      "region": 0,
+      "excluded": false,
+      "reason": "Umbala and Niflheim chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 203,
+      "name": "airplane",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 204,
+      "name": "airport",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 205,
+      "name": "ein_dun01",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 206,
+      "name": "ein_dun02",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 207,
+      "name": "ein_fild01",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 208,
+      "name": "ein_fild02",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 209,
+      "name": "ein_fild03",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 210,
+      "name": "ein_fild04",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 211,
+      "name": "ein_fild05",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 212,
+      "name": "ein_fild06",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 213,
+      "name": "ein_fild07",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 214,
+      "name": "ein_fild08",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 215,
+      "name": "ein_fild09",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 216,
+      "name": "ein_fild10",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 217,
+      "name": "ein_in01",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 218,
+      "name": "einbech",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 219,
+      "name": "einbroch",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 220,
+      "name": "hu_fild01",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 221,
+      "name": "hu_fild02",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 222,
+      "name": "hu_fild03",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 223,
+      "name": "hu_fild04",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 224,
+      "name": "hu_fild05",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 225,
+      "name": "hu_fild06",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 226,
+      "name": "hu_fild07",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 227,
+      "name": "hu_in01",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 228,
+      "name": "hugel",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 229,
+      "name": "jupe_area1",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 230,
+      "name": "jupe_area2",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 231,
+      "name": "jupe_cave",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 232,
+      "name": "jupe_core",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 233,
+      "name": "jupe_ele_r",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 234,
+      "name": "jupe_gate",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 235,
+      "name": "juperos_01",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 236,
+      "name": "juperos_02",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 237,
+      "name": "mag_dun01",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 238,
+      "name": "mag_dun02",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 239,
+      "name": "yuno",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 240,
+      "name": "yuno_fild01",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 241,
+      "name": "yuno_fild02",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 242,
+      "name": "yuno_fild03",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 243,
+      "name": "yuno_fild04",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 244,
+      "name": "yuno_fild05",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 245,
+      "name": "yuno_fild06",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 246,
+      "name": "yuno_fild07",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 247,
+      "name": "yuno_fild08",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 248,
+      "name": "yuno_fild09",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 249,
+      "name": "yuno_fild10",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 250,
+      "name": "yuno_fild11",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 251,
+      "name": "yuno_fild12",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 252,
+      "name": "yuno_in01",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 253,
+      "name": "yuno_in02",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 254,
+      "name": "yuno_in03",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 255,
+      "name": "yuno_in04",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 256,
+      "name": "yuno_in05",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 257,
+      "name": "yuno_pre",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 258,
+      "name": "kh_dun01",
+      "minimumCursor": 16,
+      "region": 14,
+      "excluded": false,
+      "reason": "Kiel Hyre dispatch; original locked-room quests remain intact",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 259,
+      "name": "kh_dun02",
+      "minimumCursor": 16,
+      "region": 14,
+      "excluded": false,
+      "reason": "Kiel Hyre dispatch; original locked-room quests remain intact",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 260,
+      "name": "kh_kiehl01",
+      "minimumCursor": 16,
+      "region": 14,
+      "excluded": false,
+      "reason": "Kiel Hyre dispatch; original locked-room quests remain intact",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 261,
+      "name": "kh_kiehl02",
+      "minimumCursor": 16,
+      "region": 14,
+      "excluded": false,
+      "reason": "Kiel Hyre dispatch; original locked-room quests remain intact",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 262,
+      "name": "kh_mansion",
+      "minimumCursor": 16,
+      "region": 14,
+      "excluded": false,
+      "reason": "Kiel Hyre dispatch; original locked-room quests remain intact",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 263,
+      "name": "kh_rossi",
+      "minimumCursor": 16,
+      "region": 14,
+      "excluded": false,
+      "reason": "Kiel Hyre dispatch; original locked-room quests remain intact",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 264,
+      "name": "kh_school",
+      "minimumCursor": 16,
+      "region": 14,
+      "excluded": false,
+      "reason": "Kiel Hyre dispatch; original locked-room quests remain intact",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 265,
+      "name": "kh_vila",
+      "minimumCursor": 16,
+      "region": 14,
+      "excluded": false,
+      "reason": "Kiel Hyre dispatch; original locked-room quests remain intact",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 266,
+      "name": "lhz_cube",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 267,
+      "name": "lhz_dun01",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 268,
+      "name": "lhz_dun02",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 269,
+      "name": "lhz_dun03",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 270,
+      "name": "lhz_fild01",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 271,
+      "name": "lhz_fild02",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 272,
+      "name": "lhz_fild03",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 273,
+      "name": "lhz_in01",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 274,
+      "name": "lhz_in02",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 275,
+      "name": "lhz_in03",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 276,
+      "name": "lhz_que01",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 277,
+      "name": "lighthalzen",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 278,
+      "name": "abbey01",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 279,
+      "name": "abbey02",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 280,
+      "name": "abbey03",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 281,
+      "name": "ice_dun01",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 282,
+      "name": "ice_dun02",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 283,
+      "name": "ice_dun03",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 284,
+      "name": "ice_dun04",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 285,
+      "name": "nameless_i",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 286,
+      "name": "nameless_in",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 287,
+      "name": "nameless_n",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 288,
+      "name": "ra_fild01",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 289,
+      "name": "ra_fild02",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 290,
+      "name": "ra_fild03",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 291,
+      "name": "ra_fild04",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 292,
+      "name": "ra_fild05",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 293,
+      "name": "ra_fild06",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 294,
+      "name": "ra_fild07",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 295,
+      "name": "ra_fild08",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 296,
+      "name": "ra_fild09",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 297,
+      "name": "ra_fild10",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 298,
+      "name": "ra_fild11",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 299,
+      "name": "ra_fild12",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 300,
+      "name": "ra_fild13",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 301,
+      "name": "ra_in01",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 302,
+      "name": "ra_san01",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 303,
+      "name": "ra_san02",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 304,
+      "name": "ra_san03",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 305,
+      "name": "ra_san04",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 306,
+      "name": "ra_san05",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 307,
+      "name": "ra_temin",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 308,
+      "name": "ra_temple",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 309,
+      "name": "ra_temsky",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 310,
+      "name": "rachel",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 311,
+      "name": "thor_v01",
+      "minimumCursor": 27,
+      "region": 0,
+      "excluded": false,
+      "reason": "Thor approach",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 312,
+      "name": "thor_v02",
+      "minimumCursor": 27,
+      "region": 0,
+      "excluded": false,
+      "reason": "Thor approach",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 313,
+      "name": "thor_v03",
+      "minimumCursor": 27,
+      "region": 0,
+      "excluded": false,
+      "reason": "Thor approach",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 314,
+      "name": "ve_fild01",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 315,
+      "name": "ve_fild02",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 316,
+      "name": "ve_fild03",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 317,
+      "name": "ve_fild04",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 318,
+      "name": "ve_fild05",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 319,
+      "name": "ve_fild06",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 320,
+      "name": "ve_fild07",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 321,
+      "name": "ve_in",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 322,
+      "name": "ve_in02",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 323,
+      "name": "veins",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel and Veins investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 324,
+      "name": "abyss_01",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 325,
+      "name": "abyss_02",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 326,
+      "name": "abyss_03",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 327,
+      "name": "odin_tem01",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 328,
+      "name": "odin_tem02",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 329,
+      "name": "odin_tem03",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 330,
+      "name": "tha_scene01",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 331,
+      "name": "tha_t01",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 332,
+      "name": "tha_t02",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 333,
+      "name": "tha_t03",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 334,
+      "name": "tha_t04",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 335,
+      "name": "tha_t05",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 336,
+      "name": "tha_t06",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 337,
+      "name": "tha_t07",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 338,
+      "name": "tha_t08",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 339,
+      "name": "tha_t09",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 340,
+      "name": "tha_t10",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 341,
+      "name": "tha_t11",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 342,
+      "name": "tha_t12",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 343,
+      "name": "thana_boss",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 344,
+      "name": "thana_step",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Abbey and Thanatos investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 345,
+      "name": "ama_dun01",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 346,
+      "name": "ama_dun02",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 347,
+      "name": "ama_dun03",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 348,
+      "name": "ama_fild01",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 349,
+      "name": "ama_in01",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 350,
+      "name": "ama_in02",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 351,
+      "name": "amatsu",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 352,
+      "name": "ayo_dun01",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 353,
+      "name": "ayo_dun02",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 354,
+      "name": "ayo_fild01",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 355,
+      "name": "ayo_fild02",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 356,
+      "name": "ayo_in01",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 357,
+      "name": "ayo_in02",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 358,
+      "name": "ayothaya",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 359,
+      "name": "gon_dun01",
+      "minimumCursor": 19,
+      "region": 0,
+      "excluded": false,
+      "reason": "Gonryun chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 360,
+      "name": "gon_dun02",
+      "minimumCursor": 19,
+      "region": 0,
+      "excluded": false,
+      "reason": "Gonryun chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 361,
+      "name": "gon_dun03",
+      "minimumCursor": 19,
+      "region": 0,
+      "excluded": false,
+      "reason": "Gonryun chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 362,
+      "name": "gon_fild01",
+      "minimumCursor": 19,
+      "region": 0,
+      "excluded": false,
+      "reason": "Gonryun chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 363,
+      "name": "gon_in",
+      "minimumCursor": 19,
+      "region": 0,
+      "excluded": false,
+      "reason": "Gonryun chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 364,
+      "name": "gonryun",
+      "minimumCursor": 19,
+      "region": 0,
+      "excluded": false,
+      "reason": "Gonryun chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 365,
+      "name": "lou_dun01",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 366,
+      "name": "lou_dun02",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 367,
+      "name": "lou_dun03",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 368,
+      "name": "lou_fild01",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 369,
+      "name": "lou_in01",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 370,
+      "name": "lou_in02",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 371,
+      "name": "louyang",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 372,
+      "name": "bra_dun01",
+      "minimumCursor": 18,
+      "region": 3,
+      "excluded": false,
+      "reason": "Brasilis dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 373,
+      "name": "bra_dun02",
+      "minimumCursor": 18,
+      "region": 3,
+      "excluded": false,
+      "reason": "Brasilis dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 374,
+      "name": "bra_fild01",
+      "minimumCursor": 18,
+      "region": 3,
+      "excluded": false,
+      "reason": "Brasilis dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 375,
+      "name": "bra_in01",
+      "minimumCursor": 18,
+      "region": 3,
+      "excluded": false,
+      "reason": "Brasilis dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 376,
+      "name": "brasilis",
+      "minimumCursor": 18,
+      "region": 3,
+      "excluded": false,
+      "reason": "Brasilis dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 377,
+      "name": "moscovia",
+      "minimumCursor": 18,
+      "region": 2,
+      "excluded": false,
+      "reason": "Moscovia dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 378,
+      "name": "mosk_dun01",
+      "minimumCursor": 18,
+      "region": 2,
+      "excluded": false,
+      "reason": "Moscovia dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 379,
+      "name": "mosk_dun02",
+      "minimumCursor": 18,
+      "region": 2,
+      "excluded": false,
+      "reason": "Moscovia dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 380,
+      "name": "mosk_dun03",
+      "minimumCursor": 18,
+      "region": 2,
+      "excluded": false,
+      "reason": "Moscovia dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 381,
+      "name": "mosk_fild01",
+      "minimumCursor": 18,
+      "region": 2,
+      "excluded": false,
+      "reason": "Moscovia dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 382,
+      "name": "mosk_fild02",
+      "minimumCursor": 18,
+      "region": 2,
+      "excluded": false,
+      "reason": "Moscovia dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 383,
+      "name": "mosk_in",
+      "minimumCursor": 18,
+      "region": 2,
+      "excluded": false,
+      "reason": "Moscovia dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 384,
+      "name": "mosk_que",
+      "minimumCursor": 18,
+      "region": 2,
+      "excluded": false,
+      "reason": "Moscovia dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 385,
+      "name": "mosk_ship",
+      "minimumCursor": 18,
+      "region": 2,
+      "excluded": false,
+      "reason": "Moscovia dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 386,
+      "name": "xmas",
+      "minimumCursor": 12,
+      "region": 1,
+      "excluded": false,
+      "reason": "Winter dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 387,
+      "name": "xmas_dun01",
+      "minimumCursor": 12,
+      "region": 1,
+      "excluded": false,
+      "reason": "Winter dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 388,
+      "name": "xmas_dun02",
+      "minimumCursor": 12,
+      "region": 1,
+      "excluded": false,
+      "reason": "Winter dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 389,
+      "name": "xmas_fild01",
+      "minimumCursor": 12,
+      "region": 1,
+      "excluded": false,
+      "reason": "Winter dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 390,
+      "name": "xmas_in",
+      "minimumCursor": 12,
+      "region": 1,
+      "excluded": false,
+      "reason": "Winter dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 391,
+      "name": "man_fild01",
+      "minimumCursor": 35,
+      "region": 9,
+      "excluded": false,
+      "reason": "Manuk dispatch after Expedition completion",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 392,
+      "name": "man_fild02",
+      "minimumCursor": 35,
+      "region": 9,
+      "excluded": false,
+      "reason": "Manuk dispatch after Expedition completion",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 393,
+      "name": "man_fild03",
+      "minimumCursor": 35,
+      "region": 9,
+      "excluded": false,
+      "reason": "Manuk dispatch after Expedition completion",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 394,
+      "name": "man_in01",
+      "minimumCursor": 35,
+      "region": 9,
+      "excluded": false,
+      "reason": "Manuk dispatch after Expedition completion",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 395,
+      "name": "manuk",
+      "minimumCursor": 35,
+      "region": 9,
+      "excluded": false,
+      "reason": "Manuk dispatch after Expedition completion",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 396,
+      "name": "mid_camp",
+      "minimumCursor": 35,
+      "region": 11,
+      "excluded": false,
+      "reason": "Expedition dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 397,
+      "name": "mid_campin",
+      "minimumCursor": 35,
+      "region": 11,
+      "excluded": false,
+      "reason": "Expedition dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 398,
+      "name": "nyd_dun01",
+      "minimumCursor": 35,
+      "region": 11,
+      "excluded": false,
+      "reason": "Expedition dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 399,
+      "name": "nyd_dun02",
+      "minimumCursor": 35,
+      "region": 11,
+      "excluded": false,
+      "reason": "Expedition dispatch",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 400,
+      "name": "spl_fild01",
+      "minimumCursor": 35,
+      "region": 8,
+      "excluded": false,
+      "reason": "Splendide dispatch after Expedition completion",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 401,
+      "name": "spl_fild02",
+      "minimumCursor": 35,
+      "region": 8,
+      "excluded": false,
+      "reason": "Splendide dispatch after Expedition completion",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 402,
+      "name": "spl_fild03",
+      "minimumCursor": 35,
+      "region": 8,
+      "excluded": false,
+      "reason": "Splendide dispatch after Expedition completion",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 403,
+      "name": "spl_in01",
+      "minimumCursor": 35,
+      "region": 8,
+      "excluded": false,
+      "reason": "Splendide dispatch after Expedition completion",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 404,
+      "name": "spl_in02",
+      "minimumCursor": 35,
+      "region": 8,
+      "excluded": false,
+      "reason": "Splendide dispatch after Expedition completion",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 405,
+      "name": "splendide",
+      "minimumCursor": 35,
+      "region": 8,
+      "excluded": false,
+      "reason": "Splendide dispatch after Expedition completion",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 406,
+      "name": "que_ng",
+      "minimumCursor": 1,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained early Ninja/Gunslinger classrooms",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 407,
+      "name": "que_rachel",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel quest room",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 408,
+      "name": "que_sign01",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Sign quest room; native quest conditions unchanged",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 409,
+      "name": "1@cata",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 410,
+      "name": "1@nyd",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 411,
+      "name": "1@orcs",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 412,
+      "name": "1@tower",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 413,
+      "name": "2@cata",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 414,
+      "name": "2@nyd",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 415,
+      "name": "2@orcs",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 416,
+      "name": "2@tower",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 417,
+      "name": "3@tower",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 418,
+      "name": "4@tower",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 419,
+      "name": "5@tower",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 420,
+      "name": "6@tower",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 421,
+      "name": "airplane_01",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 422,
+      "name": "ama_test",
+      "minimumCursor": 18,
+      "region": 0,
+      "excluded": false,
+      "reason": "Eastern regional chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 423,
+      "name": "cave",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 424,
+      "name": "e_tower",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 425,
+      "name": "himinn",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 426,
+      "name": "job_cru",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 427,
+      "name": "job_hunte",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 428,
+      "name": "job_knt",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 429,
+      "name": "job_monk",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 430,
+      "name": "job_prist",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 431,
+      "name": "job_sage",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 432,
+      "name": "job_soul",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 433,
+      "name": "job_star",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 434,
+      "name": "job_sword1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 435,
+      "name": "job_wiz",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 436,
+      "name": "jupe_ele",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 437,
+      "name": "lhz_airport",
+      "minimumCursor": 16,
+      "region": 0,
+      "excluded": false,
+      "reason": "Lighthalzen investigation",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 438,
+      "name": "moc_fild22b",
+      "minimumCursor": 35,
+      "region": 0,
+      "excluded": false,
+      "reason": "Same original encounter family; reconstructed restriction",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 439,
+      "name": "que_ba",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Bard quest room",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 440,
+      "name": "que_dan01",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Dancer quest room",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 441,
+      "name": "que_dan02",
+      "minimumCursor": 13,
+      "region": 0,
+      "excluded": false,
+      "reason": "Dancer quest room",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 442,
+      "name": "que_hugel",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Hugel quest room",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 443,
+      "name": "que_job01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "Native career room",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 444,
+      "name": "que_san04",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel quest room",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 445,
+      "name": "que_sign02",
+      "minimumCursor": 6,
+      "region": 0,
+      "excluded": false,
+      "reason": "Sign quest room; native quest conditions unchanged",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 446,
+      "name": "que_temsky",
+      "minimumCursor": 25,
+      "region": 0,
+      "excluded": false,
+      "reason": "Rachel quest room",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 447,
+      "name": "que_thor",
+      "minimumCursor": 27,
+      "region": 0,
+      "excluded": false,
+      "reason": "Thor quest room",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 448,
+      "name": "thor_camp",
+      "minimumCursor": 27,
+      "region": 0,
+      "excluded": false,
+      "reason": "Thor approach",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 449,
+      "name": "valkyrie",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 450,
+      "name": "y_airport",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Juno and industrial approaches",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 451,
+      "name": "z_agit",
+      "minimumCursor": 37,
+      "region": 0,
+      "excluded": true,
+      "reason": "Excluded online party-instance/WoE content",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 452,
+      "name": "new_1-1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 453,
+      "name": "new_1-2",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 454,
+      "name": "new_1-3",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 455,
+      "name": "new_1-4",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 456,
+      "name": "new_2-1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 457,
+      "name": "new_2-2",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 458,
+      "name": "new_2-3",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 459,
+      "name": "new_2-4",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 460,
+      "name": "new_3-1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 461,
+      "name": "new_3-2",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 462,
+      "name": "new_3-3",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 463,
+      "name": "new_3-4",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 464,
+      "name": "new_4-1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 465,
+      "name": "new_4-2",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 466,
+      "name": "new_4-3",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 467,
+      "name": "new_4-4",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 468,
+      "name": "new_5-1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 469,
+      "name": "new_5-2",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 470,
+      "name": "new_5-3",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 471,
+      "name": "new_5-4",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 472,
+      "name": "moc_fild04",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 473,
+      "name": "moc_fild05",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 474,
+      "name": "moc_fild06",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 475,
+      "name": "moc_fild08",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 476,
+      "name": "moc_fild09",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 477,
+      "name": "moc_fild10",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 478,
+      "name": "moc_fild14",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 479,
+      "name": "moc_fild15",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Desert chapter; explicit early-career exceptions below",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 480,
+      "name": "sec_in02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 481,
+      "name": "arena_room",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 482,
+      "name": "prt_are_in",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 483,
+      "name": "prt_are01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 484,
+      "name": "force_1-1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 485,
+      "name": "force_2-1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 486,
+      "name": "force_3-1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 487,
+      "name": "force_4-1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 488,
+      "name": "force_5-1",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 489,
+      "name": "p_track01",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 490,
+      "name": "p_track02",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 491,
+      "name": "que_bingo",
+      "minimumCursor": 15,
+      "region": 0,
+      "excluded": false,
+      "reason": "Hugel original activity room",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 492,
+      "name": "gef_fild13",
+      "minimumCursor": 0,
+      "region": 0,
+      "excluded": false,
+      "reason": "First-career towns, native classrooms and beginner connectivity",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 493,
+      "name": "gon_test",
+      "minimumCursor": 19,
+      "region": 0,
+      "excluded": false,
+      "reason": "Gonryun chapter",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 494,
+      "name": "guild_in194",
+      "minimumCursor": 9,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained guild interior milestone",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 495,
+      "name": "story_thana194",
+      "minimumCursor": 28,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained private-story policy; geometry unavailable",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    },
+    {
+      "id": 496,
+      "name": "story_moc194",
+      "minimumCursor": 33,
+      "region": 0,
+      "excluded": false,
+      "reason": "Retained private-story policy; geometry unavailable",
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+/* Original event NPC identity ranges; accepted IDs remain unchanged. */
+static unsigned npc_season_required64(unsigned npc){static const unsigned ranges[][3]={{7602,7695,1u},{7695,7703,2u},{7703,7711,4u},{7711,7714,8u},{7714,7715,16u},{7715,7718,32u},{7718,7720,64u},{7720,7721,128u},{7721,7722,256u},{7722,7723,512u},{7723,7726,1024u}};for(unsigned i=0;i<sizeof(ranges)/sizeof(*ranges);i++)if(npc>=ranges[i][0]&&npc<ranges[i][1])return ranges[i][2];return 0;}

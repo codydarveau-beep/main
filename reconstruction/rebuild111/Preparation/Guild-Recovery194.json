@@ -1,0 +1,191 @@
+{
+  "xbeSHA256": "9e2c14d9fda478453790093c685e2b012951c34966a0d164a3408d672d9f0809",
+  "projectTableVA": 3826784,
+  "stateKey": "0xeca20000f219bc70",
+  "magic": "RGH1",
+  "wireBytes": 56,
+  "textBytes": 112,
+  "acceptedOffset": 4,
+  "completedOffset": 8,
+  "styleOffset": 12,
+  "scoresOffset": 16,
+  "scoreCount": 6,
+  "reservedOffsets": [
+    40,
+    52
+  ],
+  "crcOffset": 52,
+  "loaderVA": 624688,
+  "storeVA": 838480,
+  "status": "Data and wire evidence recovered; C implementation newly reconstructed",
+  "projects": [
+    {
+      "title": "A roof over every head",
+      "pitch": "Maya: A dry ledger is a useful ledger. A dry adventurer is a pleasant surprise. Bring lumber and cloth; we will repair the roof and door.",
+      "minimum": 9,
+      "requires": 0,
+      "items": [
+        1019,
+        914
+      ],
+      "amounts": [
+        40,
+        10
+      ]
+    },
+    {
+      "title": "A table with room for one more",
+      "pitch": "Yuufa: We have beds. Now we need somewhere people can sit without being asked why they are here.",
+      "minimum": 12,
+      "requires": 1,
+      "items": [
+        1019,
+        998
+      ],
+      "amounts": [
+        30,
+        10
+      ]
+    },
+    {
+      "title": "Dagna's second chance",
+      "pitch": "Dagna: This bench makes hinges, not restraints. You may remind me of that whenever necessary.",
+      "minimum": 18,
+      "requires": 3,
+      "items": [
+        999,
+        1003
+      ],
+      "amounts": [
+        20,
+        10
+      ]
+    },
+    {
+      "title": "Copies nobody can burn",
+      "pitch": "Nera: One copy is a secret. Several copies, in several hands, are a record.",
+      "minimum": 18,
+      "requires": 3,
+      "items": [
+        914,
+        991
+      ],
+      "amounts": [
+        20,
+        10
+      ]
+    },
+    {
+      "title": "A door held wider",
+      "pitch": "Brann: The next room is empty. The landlord calls it storage. I think we can improve that description.",
+      "minimum": 24,
+      "requires": 15,
+      "items": [
+        1019,
+        999
+      ],
+      "amounts": [
+        80,
+        20
+      ]
+    },
+    {
+      "title": "The extremely important recreation annex",
+      "pitch": "Maya: Rest is productive. I have written it in the accounts, so it must be true. Help Pip wire the cabinets.",
+      "minimum": 15,
+      "requires": 3,
+      "items": [
+        1019,
+        938
+      ],
+      "amounts": [
+        25,
+        15
+      ]
+    },
+    {
+      "title": "Poring Pong",
+      "pitch": "Pip: The Poring volunteered to be a ball. The paddle remains unconvinced. Build our first cabinet.",
+      "minimum": 15,
+      "requires": 35,
+      "items": [
+        1019,
+        909
+      ],
+      "amounts": [
+        10,
+        5
+      ]
+    },
+    {
+      "title": "Peco Patrol",
+      "pitch": "Corin: This one shoots at painted monsters. I recommend it over several of my previous employers.",
+      "minimum": 18,
+      "requires": 39,
+      "items": [
+        998,
+        1003
+      ],
+      "amounts": [
+        10,
+        5
+      ]
+    },
+    {
+      "title": "Herb Trail",
+      "pitch": "Yuufa: You eat herbs, get longer, and must not bite yourself. I am assured this is medicinal research.",
+      "minimum": 15,
+      "requires": 35,
+      "items": [
+        511,
+        938
+      ],
+      "amounts": [
+        10,
+        5
+      ]
+    },
+    {
+      "title": "Pupa Breaker",
+      "pitch": "Dagna: An excellent demonstration of applied force. Please use the cabinet, not the guild's actual walls.",
+      "minimum": 18,
+      "requires": 39,
+      "items": [
+        999,
+        909
+      ],
+      "amounts": [
+        5,
+        10
+      ]
+    },
+    {
+      "title": "Kafra's Lost Parcels",
+      "pitch": "Nera: Sixteen parcels. Fifteen spaces. A familiar workplace situation, regrettably.",
+      "minimum": 18,
+      "requires": 43,
+      "items": [
+        1019,
+        914
+      ],
+      "amounts": [
+        10,
+        10
+      ]
+    },
+    {
+      "title": "Moonlight Munch",
+      "pitch": "Miri: The ghosts agreed to chase a Poring for an afternoon. Nobody is bound here; the dots are biscuits.",
+      "minimum": 24,
+      "requires": 47,
+      "items": [
+        991,
+        938
+      ],
+      "amounts": [
+        10,
+        10
+      ]
+    }
+  ]
+}

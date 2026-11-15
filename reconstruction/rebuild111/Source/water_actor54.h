@@ -1,0 +1,2 @@
+/* MIT. Shared player/enemy coverage and bridge-aware waterline. */
+static void water_actor_mark54(DrawActor*a,const float*m,float x,float y,float ground){a->water54=0;if(!water_map_valid51a(activeMap))return;float z=waterMaps[activeMap].z;if(waterOriginal190)z=water_surface190(activeMap,x,y,waterTime190,z);if(ground>=z-.05f)return;for(unsigned i=waterMaps[activeMap].start,end=i+waterMaps[activeMap].count;i<end;i++){const unsigned short*r=waterRects[i];if(x>=r[0]&&x<r[2]&&y>=r[1]&&y<r[3]){a->water54=1;a->waterline54=m[4]*x+m[5]*y+m[6]*z+m[7];return;}}}

@@ -1,0 +1,2 @@
+HOST ONLY: address/undefined sanitizers. No native build or Xbox/Xemu playtest.
+PASS HOST: released guild wire roundtrip and six score slots preserved; nine dispatches, prerequisites, material counters, failed-ledger atomicity, one-time rewards, completed notices and reload; corruption fails closed

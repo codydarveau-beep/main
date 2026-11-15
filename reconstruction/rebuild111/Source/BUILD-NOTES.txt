@@ -1,0 +1,46 @@
+MYRO TEST50b PORTABLE NATIVE BUILD
+
+Requires the matching nxdk Checkpoint15 toolchain, Python3 and clang/lld18.
+Extract the matching Source ZIP. Use an existing Test50, Test50a or Test50b ISO to stage the unchanged packs:
+  cd Source
+  python3 stage_base_assets50.py /path/to/MyRO-Current.iso
+  bash build50.sh /path/to/toolchain
+
+Use the matching Test50, Test50a or Test50b ISO, not an earlier test ISO. The stager reads without
+changing it, verifies all six packs and refuses different existing destinations.
+The packs are world.bin, actors.bin, enemies.bin, effects.bin, music.bin and
+systems.bin. The native Makefile places them beside default.xbe in the new ISO.
+No re-collection or image/audio conversion is necessary for a native rebuild.
+The toolchain stamps3XBE header time fields. A later rebuild can therefore have
+a different ISO hash with identical executable code/data and all six packs.
+
+Host checks: NXDK_DIR=/path/to/nxdk python3 validate50.py
+Requires host C compiler, AddressSanitizer/UndefinedBehaviorSanitizer and zlib.
+The included frozen fixtures50 files are read only. ClassAssets50/catalog50.h
+is the sibling catalog used by one source-data validation test.
+
+Xbox compatibility: python3 validate_sdk47a.py /path/to/nxdk
+That guard reproduces nxdk's unsupported lroundf assertion, then checks the real
+HUD and native object. GPU dimensions, counts, register values and PCM types
+remain integers. Gameplay positions and elapsed times use supported floats.
+
+Additional source-art check: python3 test_effect_bake50.py
+Requires the pinned original client reference, original collected files, Node,
+Pillow and numpy. It compares against source calculateAnimation, not the game.
+Historical conversion tools require their original local collector returns;
+do not rerun them over finished generated native headers. New final converters
+are convert_class_effects50.py, convert_systems50.py, pack_sounds50.py and
+prepare_icons50.py. pack_music50.py retains the original MP3 bytes exactly.
+
+Test50 writes Save50 and imports valid Save48 characters without changing the
+original files. See TEST50-NOTES.md for controls, implementation scope and limits.
+
+Test50b outputs MyRO-Xbox-Test-50b.iso. build50.sh also runs
+validate_stack50a.py against main.su, main.exe and XboxFiles/default.xbe.
+The 128 KiB stack reserve and 32 KiB additional save-call margin are required.
+Full suite: NXDK_DIR=/path/to/nxdk python3 validate50.py
+See TEST50B-NOTES.md for the hotfix and class-kit replacement behavior.
+
+Test50b autosave settings use two24-byte files at E:\MyROOffline\settings-a.dat
+and settings-b.dat, independent of Save50. Off suppresses every automatic
+character commit while explicit manual Save remains enabled.

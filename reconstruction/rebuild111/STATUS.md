@@ -1,0 +1,36 @@
+# 1.11.0 reconstruction: policy, preflight, guild and dispatch integration
+
+This is an isolated development tree based on the earlier recovered source, the retained packet, and verified released 1.10.0 metadata. Original workspace source/assets and the published branch are unchanged. This tree is not a recovered complete 1.10.0 source tree or a ready public 1.11.0 build.
+
+## Implemented
+
+- Explicit 497-map policy, with retained exceptions and nine regional minima. Remaining family assignments are newly reconstructed from the authored chapter locations and are individually recorded in `Preparation/Map-Policy194.json`; unmatched maps stop generation. Party-instance/WoE destinations are excluded even in sandbox admission.
+- NPC dependencies reconstructed from deployed bytecode and helper closure, including savepoints. All 3,948 programs are processed without abstract-stack failures. The 86 dynamic warp sites resolve to the same four reachable dynamic-warp programs recorded in the packet. Menus covered by route-choice preflight do not disable their entire multi-city service. The Ninja destination dependency is remapped consistently with its career adapter.
+- The reconstructed dependency table has 1,117 map members / 10,132 bytes. This differs from the historical 2,175 / 12,248 figures; the counts are not fabricated to match. The current method and exclusions are in `Preparation/NPC-Dependencies194.json` and remain subject to later review.
+- Original NPC IDs/programs and all script bytes are retained. The two retained relocations use one-based record IDs, and map membership lists are rebuilt. Eight retained career coach passages are appended without changing original gate indices; the pilgrimage pair requires native proof.
+- Admission before native SELECT resumes, original fees/tickets, script savepoints/warps, road RNG/loading, spell SP/material/cooldown spending, portal-use decrement, and custom Warp Girl fees. Career dispatch uses the root NPC program. Denials retain original option ordinals and Cancel, do not write `@menu`, and show one bounded reason.
+- Separate NPC interaction/render admission. Blocked opens return before pending talk or movement/cast changes. Attached events/touch are blocked while global and attached OnInit and unattached preparation remain functional.
+- Guild state and 12 project definitions reconstructed using recovered released key, wire layout and material costs. Existing accepted/completed/style fields and all six high-score slots roundtrip against an independently encoded released-layout fixture. Native quest variables are separate.
+- Nine dispatches integrated with the guild's 17-row root, controller pages, journal/tracking/material counters, current-map notices, one-time parcels, black/gold markers and free returns. Completed notices remain discoverable.
+- Missing guild room and six cabinet simulations are newly reconstructed implementations, not recovered original source. Rooms retain the released 1600x1600 dimensions and use a separate map (494), bounded normal map resources and project gates. Their layout/rendering and cabinet behavior do not claim pixel/behavioral parity with the lost implementation. The original guild furnishing asset remains preserved but is not used by the reconstructed procedural room.
+
+## Completed host checks
+
+All six ASan/UBSan suites passed (`Validation/Integration-Checks194.json`):
+
+- Actual released Kafra/Airship/Valkyrie/Training Kafra bytecode with native VM/player/world adapters. Ten denied confirmations and the real production A-button hook preserve the complete VM, character, item bag/free ticket, savepoint and sparse quest state. Admitted original fares remain 1,000 and 1,800 Zeny. Valkyrie uses outpost 126; training graduation redirects to the opening.
+- 18,389 map/milestone decisions and 376,697 NPC/cache reads; corruption, pilgrimage receipt, exclusions, exact relocation membership and no read-side state mutation.
+- Actual NPC open/scheduler/touch boundaries, preserving initialization lifecycle.
+- Released-layout guild fixture, six score slots, nine dispatches, prerequisites, material progress, allocation-failure atomicity, one-time rewards, saved reload and corruption rejection. Native pilgrimage savepoint rollback on receipt-allocation failure is covered.
+- Actual font metrics/wrapping, preservation of every retained letter paragraph, controller navigation, counters/tracking, failed-fare preservation and 22,496 recorded layout operations; six bounded cabinet simulations.
+- Real packed-world collision/height reads for all nine arrival-to-notice paths and free returns; denied road before RNG/load; all eight coach endpoint positions/visibility; 32 guild room combinations and return with no recorded GPU resource leaks. The peak recorded guild GPU allocation is 876,992 bytes, excluding system memory and other game resources.
+
+These are host checks, not native execution, Xbox RAM/FPS measurements, or Xemu playtests.
+
+## Current gates
+
+Native compilation has not yet been completed. Both additional review passes remain pending and are not counted by the host tests above. No ISO/ZIP patch has been produced.
+
+The retained opening-ready gate remains **0**. The earlier source has six typed scenes; the packet's twelve-scene release ceiling is not permission to enable missing scenes or claim the full campaign. Private source-matching content inputs are recorded in `Preparation/Private-Inputs194.json`; they are not represented as the complete released 1.10.0 runtime. Public 1.11.0 packaging must accept only the exact released 1.10.0 baseline.
+
+Remaining baseline-reconciliation limits include full released campaign/companion/render implementation parity, the two private later-story maps, and unverified platform behavior. The earlier source's `NPC_RELEASE_JOBS_ONLY55=1` integration mode is preserved explicitly, not claimed as recovered executable metadata. The sandbox record key is a marked reconstruction; no legacy sandbox-record migration or new developer-conversion UI has been certified. No extra review or public package should be inferred from this checkpoint.

@@ -1,0 +1,4805 @@
+{
+  "status": "Partial-source reconstruction, not release ready",
+  "files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 6132,
+      "sha256": "47f65b5301e463471ce5cca63ef2c6d4b3510edbef165f42d5d2f74a3728b5f1"
+    },
+    {
+      "path": "Preparation/NPC-Dependencies194.json",
+      "bytes": 949669,
+      "sha256": "a1b895538bf9ebe46c2a005a38c547a48db1cd93f7925d4df552912c0e5980cb"
+    },
+    {
+      "path": "Preparation/Guild-Recovery194.json",
+      "bytes": 4298,
+      "sha256": "4c86bc40e8a45bd2e7ebd5de7d63a5390f60048b0ce9db5ed274b37c519e205e"
+    },
+    {
+      "path": "Preparation/integrate_guild_world194.py",
+      "bytes": 3720,
+      "sha256": "502d0349acd23945a9e45fcfc7069d14d6d1b3fbe8a24fc3ec51045e22df0c04"
+    },
+    {
+      "path": "Preparation/Native-Travel-Routes194.json",
+      "bytes": 284,
+      "sha256": "f6e88a41303bf6f297eea2a6e47a72a9257585112eb7eb84b13689a289c70b58"
+    },
+    {
+      "path": "Preparation/Private-Inputs194.json",
+      "bytes": 3330,
+      "sha256": "644f269cd737e6f2384fa21f779c1002a0cb5bc47e98128f6a364f153532777e"
+    },
+    {
+      "path": "Preparation/build_travel_routes194.py",
+      "bytes": 1652,
+      "sha256": "35287d98bed5a67fda77f8fc050d6ab95edce45acd630e5805d4a1e881b84011"
+    },
+    {
+      "path": "Preparation/build_policy194.py",
+      "bytes": 6226,
+      "sha256": "9a1093253e94543e184fd5d11511a8614aaacd5db2785a9b9cf450ee7c0cfaa5"
+    },
+    {
+      "path": "Preparation/run_checks194.py",
+      "bytes": 1956,
+      "sha256": "b65f11a478aa8881e209c222f3ef18ac05f186734cd8383a3f3c41f0a3661b0f"
+    },
+    {
+      "path": "Preparation/integrate_guild_ui194.py",
+      "bytes": 4036,
+      "sha256": "32fb83c9bf8134d262bf7afea34f74da0f13f243985f0c12aa296f304bdb09e5"
+    },
+    {
+      "path": "Preparation/integrate_journal194.py",
+      "bytes": 4772,
+      "sha256": "918c3c3bcbeb9db1403f16093e52e73b273f28a0d6e0936e93bc4c3775050afe"
+    },
+    {
+      "path": "Preparation/integrate_admission194.py",
+      "bytes": 4800,
+      "sha256": "11df479f87bb47ba080b2b0d9151ce38dbb30f48454d1a93fb63420dd60836a5"
+    },
+    {
+      "path": "Preparation/Career-Coaches194.json",
+      "bytes": 991,
+      "sha256": "69c01898b0066ba3a46ab4cf04f2c4000f1be240bf5746548d74316c2a455a8a"
+    },
+    {
+      "path": "Preparation/Map-Policy194.json",
+      "bytes": 135584,
+      "sha256": "5ff73a08297adab3dfd9e747ed8034f1f6f93684d065dd6aaac61f560f980907"
+    },
+    {
+      "path": "Preparation/build_dependencies194.py",
+      "bytes": 10288,
+      "sha256": "569f5ee0e568970ced7003b498df701ed624cb0a7eec349e495a450e911e42f5"
+    },
+    {
+      "path": "Preparation/recover_guild_data194.py",
+      "bytes": 2360,
+      "sha256": "2b300d8a1164fcfca5efee475f79751f2268979665c9e9ffc2b15dfe82ecbd78"
+    },
+    {
+      "path": "Preparation/add_career_coaches194.py",
+      "bytes": 2050,
+      "sha256": "41d28426e13324962ea2ced2f9475fab145af1dc3d0ba521a6f4b18debfe79f5"
+    },
+    {
+      "path": "Source/walk_phase62.h",
+      "bytes": 808,
+      "sha256": "5d3cd7c6d2aadfd08607afccb69519d17d2e9de79e10d82596cb20928b670c48"
+    },
+    {
+      "path": "Source/import_sounds49.py",
+      "bytes": 1705,
+      "sha256": "26d3548d1d2676eb52ca0aef8eb4986e55f23baa2ea5667e149ce47f7dc2e457"
+    },
+    {
+      "path": "Source/sound_mix.h",
+      "bytes": 3821,
+      "sha256": "d2111d03cf7409be0f2dd04ae77da18092d75842ff107c76ca61e31e4330ba4e"
+    },
+    {
+      "path": "Source/SOURCE-REFERENCES48.txt",
+      "bytes": 1345,
+      "sha256": "2074cd566d648730132e5154527182e1cc62a97843d2d467c0f3919151c88c68"
+    },
+    {
+      "path": "Source/prepare_catalog50.py",
+      "bytes": 9707,
+      "sha256": "505ac6d0f7cedb008d289bd3e252a0a913cc92b8e2605961dcb8f52f4d104b59"
+    },
+    {
+      "path": "Source/convert_horong46.py",
+      "bytes": 2258,
+      "sha256": "2c28136e732727c10293e743f18d46dcc851d6001ca25a8059303120a5602584"
+    },
+    {
+      "path": "Source/spell_world41.h",
+      "bytes": 6216,
+      "sha256": "84befae74a12404e7babd27973cc7a2f5f48c51eec60bbe77e849a9e1206510d"
+    },
+    {
+      "path": "Source/npc_refine_rates59.h",
+      "bytes": 602,
+      "sha256": "7483a10fcba64d941bf788081b7d40368cb7edb242ca6a582067c99ea1236c2d"
+    },
+    {
+      "path": "Source/class_skills48.h",
+      "bytes": 14794,
+      "sha256": "ed67a636d54ec4820f71989d5bfaec7c45a3116e628365f82e7f9ee66a687315"
+    },
+    {
+      "path": "Source/mob_data50.h",
+      "bytes": 5443,
+      "sha256": "6595b84d071a37cfcd8fd334389df9188ecfe9958586aa8ed255313b4b153915"
+    },
+    {
+      "path": "Source/convert_art40.py",
+      "bytes": 8348,
+      "sha256": "433c3e04106dbc3045e730cfcce023c18baa36aa2b3a0b2945cd076cf55c8b90"
+    },
+    {
+      "path": "Source/audit_materials50.py",
+      "bytes": 2941,
+      "sha256": "655e9eaad46b8547454445ac322b339d66a0283aa2a7fc400a0b4083b170410e"
+    },
+    {
+      "path": "Source/convert_ui25.py",
+      "bytes": 3177,
+      "sha256": "04914132cbf96f0c8a87cf42a843d2bc5f306340538b75b73705181113fb4402"
+    },
+    {
+      "path": "Source/item_weights52.inc",
+      "bytes": 22244,
+      "sha256": "71cb8b328f4b955ad1d9e06d087d47a8b6473dd16482e28c6474e5ea12351281"
+    },
+    {
+      "path": "Source/test_world51.c",
+      "bytes": 1666,
+      "sha256": "42cf3679df3e9467de74e880b990b88e14ac0f00bcb821be9c83f8452937950c"
+    },
+    {
+      "path": "Source/test_upload50b.c",
+      "bytes": 3849,
+      "sha256": "1ddd745eeef4bf99ac8c7e97850cba13aa7fcb55b3df5b8165aec76f2bfc8e83"
+    },
+    {
+      "path": "Source/expanded_ids60.h",
+      "bytes": 2452,
+      "sha256": "3e014b0f22bbbf94703380a2200f5fdf0918650e103cefd52ea47767b151ac0e"
+    },
+    {
+      "path": "Source/test_solo_systems50.c",
+      "bytes": 5745,
+      "sha256": "ac0fc584c32e9a24073e01eba87f3d9eb58f9000cb3279e3501ae80448c44e7c"
+    },
+    {
+      "path": "Source/job_profiles52.h",
+      "bytes": 109286,
+      "sha256": "79ed53f919b4d0d297096ef5f523f60aa3419cb631e06eada60fb4aee838de48"
+    },
+    {
+      "path": "Source/validate48.py",
+      "bytes": 4226,
+      "sha256": "c1add3755f7a6182daeefc63757fddab076352a8bac4255a9a4c54321a8f3756"
+    },
+    {
+      "path": "Source/death_audio51.py",
+      "bytes": 1830,
+      "sha256": "45f881cf290db36bc7fbdcfa36a0f9bb6654d7808b9d941a92a7e5cf9aef4d4c"
+    },
+    {
+      "path": "Source/class_ninja60.h",
+      "bytes": 8177,
+      "sha256": "11ce55884d557e34dbc61460a2738766b05620a9c2b5b9feb07728ff60f9f73a"
+    },
+    {
+      "path": "Source/npc_save_bundle55.h",
+      "bytes": 3426,
+      "sha256": "38634720bb287f34bda1bce828031a8582953544ef60f028a2c2e370b181bc64"
+    },
+    {
+      "path": "Source/window_layout161.h",
+      "bytes": 3031,
+      "sha256": "07441667a4ef5bf83b9cfdf7bea593122a690766c38bb5a8536c9e2953f5ae5b"
+    },
+    {
+      "path": "Source/item_info58.h",
+      "bytes": 798,
+      "sha256": "2a721299552555ba272bd79d99d03333cbaadc70f1168979c44001b80e0b03dc"
+    },
+    {
+      "path": "Source/npc_state55.h",
+      "bytes": 7362,
+      "sha256": "f8d5371c103628bb60b8c67664530df6583618aa8c36ff16c5e01e4cb69a67bb"
+    },
+    {
+      "path": "Source/test_ui38.c",
+      "bytes": 4042,
+      "sha256": "a922ecc77a807a3377608d9e4cb9a417b38f210216f0f3b1d528993846e3d1ee"
+    },
+    {
+      "path": "Source/npc_waiting55.h",
+      "bytes": 578,
+      "sha256": "2ebf448f22612685c7cebd4d05ab61898664139dd6692c7522eb3f2a528e7e3b"
+    },
+    {
+      "path": "Source/convert_clearance46.py",
+      "bytes": 5847,
+      "sha256": "43922259af9ebce1c24c5331bc55bcafb9ffaab771a02e752ae866c8d6722efc"
+    },
+    {
+      "path": "Source/test_developer20.c",
+      "bytes": 2807,
+      "sha256": "1bb2c62dedbee2aeeb198dc90426d5b880322c30c347444e77f0a2d98a819332"
+    },
+    {
+      "path": "Source/class_monk50.h",
+      "bytes": 5582,
+      "sha256": "e4e749af6acbe5274f79f5cee308137c7e368843483b6124250ec6cb214ca026"
+    },
+    {
+      "path": "Source/sprite_slice54.h",
+      "bytes": 826,
+      "sha256": "a03a2a16814369b4532fbc72b7dc78f442b60c16db14e8432fe7f079e76e8e30"
+    },
+    {
+      "path": "Source/convert_combat_assets.py",
+      "bytes": 5452,
+      "sha256": "fef14c850c47fcdeb2aa6a7beb518e9055c2f55aa59c18c3e0dc1035627d1648"
+    },
+    {
+      "path": "Source/test_spell_world42.c",
+      "bytes": 2512,
+      "sha256": "48b3d0686faea622d308105f7d479023adbbcbbb4711c4a84f1688243a1d70cd"
+    },
+    {
+      "path": "Source/campaign_admission_runtime194.h",
+      "bytes": 2168,
+      "sha256": "ddc03e5668ac92e803557bc97ff013f8cb89b5f6c2f1c15ba647083fd0de9f51"
+    },
+    {
+      "path": "Source/compact_font.h",
+      "bytes": 632,
+      "sha256": "b3de37da0ee022011b32051db1a8bb6368ba995a31fac88c5400433a1356d670"
+    },
+    {
+      "path": "Source/character_pages62.h",
+      "bytes": 770,
+      "sha256": "186407d832bf3732d6c45ca2430656e2d6caadf74b76870ed60e61f37355f931"
+    },
+    {
+      "path": "Source/class_field52.h",
+      "bytes": 2758,
+      "sha256": "45a262db0c591073ee96b78c8066acd8cf673a3aea915d6d40053a3c192f0093"
+    },
+    {
+      "path": "Source/integrate_catalog50.py",
+      "bytes": 8557,
+      "sha256": "37089066dd2583f657053d7b02184108edb3a0d0b2d22fd723f8532d6d8b4135"
+    },
+    {
+      "path": "Source/art_draw39.h",
+      "bytes": 13327,
+      "sha256": "d895971f2e0cbaaea9b817a0f148b8c0e3c2ba6d84d4ae323ed14ee91d334645"
+    },
+    {
+      "path": "Source/convert_scenery.py",
+      "bytes": 12167,
+      "sha256": "41974e31d97da9ec016c2a878dba1868dd720388f13b45e998cc4a7674568c69"
+    },
+    {
+      "path": "Source/skin_colors.h",
+      "bytes": 1544,
+      "sha256": "85508787fcbe5bcbc3415021cd4e7d240f35db528496ac515890a041b9b134ec"
+    },
+    {
+      "path": "Source/test_world.c",
+      "bytes": 10273,
+      "sha256": "7b3a88522b85383a75022a588b49be0f900fb60bf1c5ac21d76efcf0a7d6a340"
+    },
+    {
+      "path": "Source/music.h",
+      "bytes": 807,
+      "sha256": "5db39ca48d6435a47f35b874e44d4690747e6ee4ba4d8022a90ebbefdc4ed349"
+    },
+    {
+      "path": "Source/test_review50c.c",
+      "bytes": 2632,
+      "sha256": "dd7df9233782c59e526a7b745e1d467481901b31ed9442f9e9066022601b6f33"
+    },
+    {
+      "path": "Source/class_draw50.h",
+      "bytes": 2891,
+      "sha256": "aa088bd4cbac4d107cb3a83a8bd37e5e44e97d1ae2d324bec12f7d34154b1ca2"
+    },
+    {
+      "path": "Source/expanded_resources60.h",
+      "bytes": 2951,
+      "sha256": "e3535efdef68b10ae76e96f8e7a475cc8065093c61ddfd8d703b38de3a50f404"
+    },
+    {
+      "path": "Source/validate35.py",
+      "bytes": 2723,
+      "sha256": "7c9eafa96413dc933798db105db5ce0c9385d461e2430147acd553b093e375ea"
+    },
+    {
+      "path": "Source/music_stream.h",
+      "bytes": 1748,
+      "sha256": "9f1a9b5e10958f780531fac4309cb5abf2ced88c2a4b027e37d2bd6097c74e53"
+    },
+    {
+      "path": "Source/test_effect_cache45.c",
+      "bytes": 1584,
+      "sha256": "0c0334cb4d1ef42e34dac95e9c545babe76192ce45c48d85a52c3f4ca4ae4cd4"
+    },
+    {
+      "path": "Source/npc_particle_pose180.h",
+      "bytes": 8046,
+      "sha256": "c73f13e4961f4b199e0728fad2324684275405c7f6111b240ac6a52617068057"
+    },
+    {
+      "path": "Source/save_v8.h",
+      "bytes": 6792,
+      "sha256": "847b0abfa134a363659dfa3ac895f17a06c544ba855fc57fc6e557ab14099a33"
+    },
+    {
+      "path": "Source/quest_journal_data65.h",
+      "bytes": 773253,
+      "sha256": "21b2328682d1a9db491c840a9cf2061b495a6a930067dd8829a8f750ce0a681b"
+    },
+    {
+      "path": "Source/campaign_actor_data200.h",
+      "bytes": 54669,
+      "sha256": "f511117228dba1c231d52d21e95611009559336f4052cfa7b2de09c1ae8cc55f"
+    },
+    {
+      "path": "Source/class_whitesmith52.h",
+      "bytes": 549,
+      "sha256": "a22595836667fd067065117ff73aa3750f35a91b3b1f6ab965fdf13df0d8f86b"
+    },
+    {
+      "path": "Source/test_hud_backend.py",
+      "bytes": 2526,
+      "sha256": "c2a680c1d38129a0188f72fe65c821a621341b657cf5d43744626e5fa5e9017c"
+    },
+    {
+      "path": "Source/clearance51.py",
+      "bytes": 6149,
+      "sha256": "caacc6a970e365deb7071879e3c04eb6ccff8b25ee2c010b9bc7fed5e8b48b72"
+    },
+    {
+      "path": "Source/bake_enemies51.py",
+      "bytes": 7486,
+      "sha256": "cba498334e5be6c5d2d4e10f7877451be3cb88b864387fd4322a9fa9b2472813"
+    },
+    {
+      "path": "Source/save_v14.h",
+      "bytes": 8366,
+      "sha256": "51c9f2ee00c775a74a6eae6a1bf8f8f802fe3b96584835690713350b2b791f8f"
+    },
+    {
+      "path": "Source/save_v9.h",
+      "bytes": 7525,
+      "sha256": "9f49df59719fec2677364833898dae4d6e799f78a9199056f60fd26004ebe108"
+    },
+    {
+      "path": "Source/class_shadow52.h",
+      "bytes": 2627,
+      "sha256": "d64ba88e949c15d735fc59c749054ca5aa0d2b6366ea1adcaf71b4139f520054"
+    },
+    {
+      "path": "Source/career_access194.h",
+      "bytes": 786,
+      "sha256": "e58930b0f9d1859a21de423ef6e177f0f10b016e8ff00c92851274541f76006c"
+    },
+    {
+      "path": "Source/test_skill_views46.c",
+      "bytes": 977,
+      "sha256": "cb31d40a41bdc5f75ccf62fded621f09e8ae599b46fc73ccab99d703f008e437"
+    },
+    {
+      "path": "Source/skills_ui.h",
+      "bytes": 5199,
+      "sha256": "c3a64b8dd2be498976e05020feb04ba7fc0eb7edc86cdba0089e8e8041d061c1"
+    },
+    {
+      "path": "Source/npc_dialogue_layout172.h",
+      "bytes": 2934,
+      "sha256": "dc4b659432808e47470d8ba88acda8aad496565ec81fa0a2ab7c274f6b9a73f6"
+    },
+    {
+      "path": "Source/item_icon_slots52.h",
+      "bytes": 1246,
+      "sha256": "0e2031cdcd313b751c64b93dfc932ad9d9ca96df641131659fc0bf6c6d623686"
+    },
+    {
+      "path": "Source/test_utility_render33.c",
+      "bytes": 4661,
+      "sha256": "a61c90fb908ac41aa20b748b0d3835da18c39af763542717d562dd9977b96b0c"
+    },
+    {
+      "path": "Source/npc_direction191.h",
+      "bytes": 361,
+      "sha256": "b50bb0dc6dd88b60d1f35047d883da593c4afbe03fb782e3d2e4eadb540969d9"
+    },
+    {
+      "path": "Source/npc_art_data55.h",
+      "bytes": 472061,
+      "sha256": "9f7df96ba42eaddcae55ea0666bf23cc5cd15bb10d62dd204386e54a0c9f1876"
+    },
+    {
+      "path": "Source/convert_systems50.py",
+      "bytes": 5417,
+      "sha256": "6eeeda632343bb9d978a58fd20e193e5e2cf584b7001398ec885c9b7d080e3e2"
+    },
+    {
+      "path": "Source/npc_editor55.h",
+      "bytes": 1833,
+      "sha256": "4dd76ce860be15780424ab88959632fbf022113947f02f35ce74eac73ea69dee"
+    },
+    {
+      "path": "Source/convert_effects45.py",
+      "bytes": 4561,
+      "sha256": "ac3481a8948f57b17b5f30c37dca3454b698193429d72a87667779b45fbdb055"
+    },
+    {
+      "path": "Source/convert_icons43.py",
+      "bytes": 1644,
+      "sha256": "8ed6f0e64d473c1f1258b3f668972373af003dd8148703665bce66ff3c991dd5"
+    },
+    {
+      "path": "Source/sound_poll.h",
+      "bytes": 413,
+      "sha256": "7928baeaa2e6f1dfb9403ca89202f645ebf1f0b479c6214440f157588d60b366"
+    },
+    {
+      "path": "Source/mercenary_art180.h",
+      "bytes": 21058,
+      "sha256": "4748a679150fed94aaadf4788b92ab566e032cd0ff5e07ec58c8d79160db727d"
+    },
+    {
+      "path": "Source/map_surfaces51.py",
+      "bytes": 2321,
+      "sha256": "0964d0ab382c8d5e01e8a450c18b644f605a8e9c5ae431215576573682bc8c40"
+    },
+    {
+      "path": "Source/convert_smite49.py",
+      "bytes": 4753,
+      "sha256": "1436268b2767e3f1ac036330d922f44cc5d9960409549cd763d34ab60a2731d1"
+    },
+    {
+      "path": "Source/effect_cache171.h",
+      "bytes": 2214,
+      "sha256": "cff49ac3274a26c6c588364eed6915117d955f73cb8d2d4922f44dc6f1940971"
+    },
+    {
+      "path": "Source/npc_audio_command64.h",
+      "bytes": 1801,
+      "sha256": "f025419e5cabff3c9679b2ef6272254a0bc6bad700cdb6f7d69eeba5ed8a05f3"
+    },
+    {
+      "path": "Source/test_lockon49.c",
+      "bytes": 1734,
+      "sha256": "0906385c4adecf92d1567e35225673789974e1d77eb1e72b28767bae8dd08d1e"
+    },
+    {
+      "path": "Source/mercenary_ui180.h",
+      "bytes": 2355,
+      "sha256": "cdff3a7b8af32cac5e6e3f7fba477bb766ef127ff9b94b4cef357f7f7b84e600"
+    },
+    {
+      "path": "Source/test_classes17.c",
+      "bytes": 3622,
+      "sha256": "ad6b2abdcf52e7e3b333c96c0fa736bd458fcbf902d98e1160edde48fd545faf"
+    },
+    {
+      "path": "Source/menu_signature58.h",
+      "bytes": 826,
+      "sha256": "4c4886febaee95d95a540767dfd6b2181d514eecd2d680f0c246a36833c09859"
+    },
+    {
+      "path": "Source/field_textures48.h",
+      "bytes": 452115,
+      "sha256": "dcb0904e8a9d8f79f9810e3bcba0f749deaf591e926a14e00ae35c6335ec4ce2"
+    },
+    {
+      "path": "Source/convert_class_icons.py",
+      "bytes": 1833,
+      "sha256": "5fa6d8f37dc66525dedea4436ac250ef99debcebb222b09bfa3f281b6190fedc"
+    },
+    {
+      "path": "Source/convert_bridge44.py",
+      "bytes": 2515,
+      "sha256": "45f376890193652a8a4c9c0a96be6f8b25ab48590b5cad1609d0be6e94301d79"
+    },
+    {
+      "path": "Source/screen_layout55.h",
+      "bytes": 1499,
+      "sha256": "fb1678ceb0976e963c47c08bb7aa19ab80a90a522840e5791259526e8c747792"
+    },
+    {
+      "path": "Source/save_v2.h",
+      "bytes": 4693,
+      "sha256": "9299cef95826ad73d4d471fd7d836d49b8ba88860c4ebbddad567ecf4adea354"
+    },
+    {
+      "path": "Source/owned_codec52.h",
+      "bytes": 3446,
+      "sha256": "79b0431bc45cace3c2648078d543d52f88555ba210de477bde28c7ad18f6c509"
+    },
+    {
+      "path": "Source/bindings50.h",
+      "bytes": 602,
+      "sha256": "31f115fc24d43ac795fa38571d4813e67fc1692a6f04105ca9d806bdee917807"
+    },
+    {
+      "path": "Source/world_maps.h",
+      "bytes": 7762,
+      "sha256": "cd15f165fd97379e1dc2b10bc6ea0bd252ed4b5d0efefe5455ec34cb11b6bfc1"
+    },
+    {
+      "path": "Source/gpu_sprite_upload45.h",
+      "bytes": 5144,
+      "sha256": "88861c66b68f84ec9c75e167de01d17dadef0caff2ca1e49f5ad092944e5d537"
+    },
+    {
+      "path": "Source/item_count46.h",
+      "bytes": 118,
+      "sha256": "3d3bf23308e505f85a6da42138a12619c0794e2f64bf459df1b83bea4785f392"
+    },
+    {
+      "path": "Source/core_npc_data53.h",
+      "bytes": 3067793,
+      "sha256": "0ec691354781e25a6e36d4bf64c58f9390cb6b3874db2e537f89eea17561dcd0"
+    },
+    {
+      "path": "Source/test_class_audio50.c",
+      "bytes": 2079,
+      "sha256": "88f8e05708fc366ca32d000123e17eb55d01dd3a272393ced8fe135404baea34"
+    },
+    {
+      "path": "Source/stage_base_assets50.py",
+      "bytes": 1546,
+      "sha256": "42bf9c770cb131462f374bc0f9e7635decd3187e94a2851d77662ed791c97ef7"
+    },
+    {
+      "path": "Source/npc_game55.h",
+      "bytes": 54079,
+      "sha256": "f18c445562189b4f5cdbae9778477f137711970e5b60e0032fac4ffb684fa77c"
+    },
+    {
+      "path": "Source/test_ui39.c",
+      "bytes": 4210,
+      "sha256": "a60c96fd859017a82e1f0107d58067310056b156bcc97d3cbc3e3f11f8adad02"
+    },
+    {
+      "path": "Source/test_services36.c",
+      "bytes": 3414,
+      "sha256": "bd4f0816a00814ab4d8dd4a564e5c0fba2ad537f55eb42cf4f8cee8f520026e3"
+    },
+    {
+      "path": "Source/skill_info55.h",
+      "bytes": 4433,
+      "sha256": "2faeb5cff1cede4837610ded263fa9d927bd24b0beb0b949db9c79a1721a14aa"
+    },
+    {
+      "path": "Source/stage_base_assets36.py",
+      "bytes": 1551,
+      "sha256": "28d549151cd38c669c3dc61a3914140a76a10bec7c52015b60332362c88c119b"
+    },
+    {
+      "path": "Source/world_gpu_stream171.h",
+      "bytes": 5002,
+      "sha256": "7755a11dfd1384080b9b74c99332d6b03e660d67b578b7a9c18b15bd57e5d3ba"
+    },
+    {
+      "path": "Source/pause_draw.h",
+      "bytes": 8298,
+      "sha256": "a2e1c735eeb2150bfcb2e8edddc5a2c434d7e710366f9ac531bd52ad6900745f"
+    },
+    {
+      "path": "Source/loading_assets.c",
+      "bytes": 1038599,
+      "sha256": "58efb57165e19c04c660d9a0eb7ebca3df20f9702708ce043b6243f257ab9c7e"
+    },
+    {
+      "path": "Source/test_fields26.c",
+      "bytes": 2209,
+      "sha256": "21739380cbd500123e823840db37222768cdda49b111404cc712eec2d508c2ea"
+    },
+    {
+      "path": "Source/combat_barriers.h",
+      "bytes": 2593,
+      "sha256": "2c902e4c4f5c93af0404c4c287a01d2ff395680b0c6acb6007090bc4cf007a6a"
+    },
+    {
+      "path": "Source/npc_item_commands55.h",
+      "bytes": 3771,
+      "sha256": "7c8dd0e417e0e7c543baad98cc127890c2398feb4db73d3c6e647fe9e013550c"
+    },
+    {
+      "path": "Source/appearance_state58.h",
+      "bytes": 426,
+      "sha256": "593b587cd902af85d728a262b6e3ea5fe7ea362e64e3abaf95ec8d456233069b"
+    },
+    {
+      "path": "Source/lockon_draw49.h",
+      "bytes": 1517,
+      "sha256": "1380e9d30105ae364c20177a52d5a66b0af1e73832121f1cf975c0e7cf908003"
+    },
+    {
+      "path": "Source/class_blacksmith50.h",
+      "bytes": 2108,
+      "sha256": "cc9316228a7060829607310a3f29227ba44fc1505f3d0f076090512b2ceca71e"
+    },
+    {
+      "path": "Source/font_native53.h",
+      "bytes": 10433,
+      "sha256": "f6cf9a74e9f386b741a7c7bbe730716520a07afb24db76f41b6a46da1f59626e"
+    },
+    {
+      "path": "Source/test_jobs.c",
+      "bytes": 3532,
+      "sha256": "e3f6322957df6c27e1f832fa342fcb5e090509cb40304020bc8271e35f6a4703"
+    },
+    {
+      "path": "Source/gpu_stream51.h",
+      "bytes": 4623,
+      "sha256": "6b13802dcce7008bd975aef4c00f03c132305465c6a1530dc3e87e7091d06f9b"
+    },
+    {
+      "path": "Source/actor_origin59.h",
+      "bytes": 776,
+      "sha256": "a14b395c35b802d87f4413ae5e67b6bad343fcf507f61485929ec11c883738f6"
+    },
+    {
+      "path": "Source/reset_service55.h",
+      "bytes": 3486,
+      "sha256": "f6d11e01e797c3e22339ed4ecd9a16c4ff3b8c9a8a0d7a2548638df87c368794"
+    },
+    {
+      "path": "Source/validate49.py",
+      "bytes": 4339,
+      "sha256": "f5d9992c4997d80ab42b8ad6043db6dc6b5bb26ededdeb661435c520a4d75b19"
+    },
+    {
+      "path": "Source/pack_music51.py",
+      "bytes": 3709,
+      "sha256": "fa312540db1b1875fdebcc56d1b5dd54e45578d03251d79579cdc6b191c94c3e"
+    },
+    {
+      "path": "Source/convert_last_jobs.py",
+      "bytes": 3249,
+      "sha256": "68e682d6e1c5c092cb992924bfc26b5f167242647ed7e6cda1c11b4e96c365cb"
+    },
+    {
+      "path": "Source/test_skills.c",
+      "bytes": 3444,
+      "sha256": "ee939b7c458149239d9f57a534f5ceab799ed3263499f1e55bc5135a151a3c9e"
+    },
+    {
+      "path": "Source/BUILD-NOTES.txt",
+      "bytes": 2725,
+      "sha256": "1138ce12a476abfd2fd4f777d3012caabd9d9541d24da87ee10ba0d50188d580"
+    },
+    {
+      "path": "Source/frontend_assets56.c",
+      "bytes": 1168067,
+      "sha256": "8ecd5e968caa80c7877358b8352c9ad0dd4c511d68d7db07c9a089e3f65c5a80"
+    },
+    {
+      "path": "Source/stage_test34_assets.py",
+      "bytes": 1446,
+      "sha256": "2498707105993c32399230011a3a05d25fc1d43d0ee57058e72091455f65cfae"
+    },
+    {
+      "path": "Source/test_batch37.c",
+      "bytes": 4764,
+      "sha256": "886ec7145f989833565532976cf562bd1600a4196e0b84ac349433f38589fe87"
+    },
+    {
+      "path": "Source/save_legacy.h",
+      "bytes": 4338,
+      "sha256": "e7a0cc355a99fe10c24a1381da7adac9b6cb78c6de0d3b6faf8e257b58260f82"
+    },
+    {
+      "path": "Source/options61.h",
+      "bytes": 871,
+      "sha256": "63f2946ec0269dcfe7ce592df29c97f0c7594879e2950de40f64c0765d1862bd"
+    },
+    {
+      "path": "Source/npc_storage_draw64.h",
+      "bytes": 1156,
+      "sha256": "3c0c12c86a3ad34a28905ed96408b201d1aec370d89afab9d494c2d3d0f81830"
+    },
+    {
+      "path": "Source/npc_solo_services180.h",
+      "bytes": 2811,
+      "sha256": "a3cc661bbbb3b52d6a4388ccd75a61ed1f7adb2914dcbd1a71831ef54c452279"
+    },
+    {
+      "path": "Source/class_duration48.h",
+      "bytes": 3733,
+      "sha256": "6521d40c4328af7eadfd181d5e8be9f437339de32ac247a166dfe0c97591c393"
+    },
+    {
+      "path": "Source/mob_utility_traits.h",
+      "bytes": 15440,
+      "sha256": "3de205ea624d280567979c3262627e52d0e2ba8a0092ed9ec1b43b5d3f5f01ca"
+    },
+    {
+      "path": "Source/bake_classic_textures49.py",
+      "bytes": 1824,
+      "sha256": "eef13d60d08ef7dd727a563beec8284227b8810b9790d13a696025d5ae81156b"
+    },
+    {
+      "path": "Source/grandcross_geometry52.h",
+      "bytes": 1503,
+      "sha256": "f0ec69cfbb4c79066b0bb23ac552ca5e2289aae104caae82e67a73369ad8cbb9"
+    },
+    {
+      "path": "Source/class_gear52.h",
+      "bytes": 5505,
+      "sha256": "a5de08e3e76f77c55ce27acc69862202dfacccf9d6f56afd87ac8e150931ca29"
+    },
+    {
+      "path": "Source/class_menu48.h",
+      "bytes": 648,
+      "sha256": "29bb8178307b3adcb6277fbbeb0cdcdb1c87b8e98bc4fac3b3864f8c772d6447"
+    },
+    {
+      "path": "Source/npc_init_scope164.h",
+      "bytes": 34505,
+      "sha256": "507d7fd99fb299e4d1c9751841fece98252af8e12b95fcc0aa7161d3e2d3485c"
+    },
+    {
+      "path": "Source/terrain_key52.h",
+      "bytes": 851,
+      "sha256": "79f3f1b8454775f19233a8763c8367a7aaa82f6d3a84f7bd3e52d5f2950e3e98"
+    },
+    {
+      "path": "Source/test_update28.c",
+      "bytes": 3161,
+      "sha256": "6e8a3f8dd636bd3048b650b7bd0a26eabf1a70a4ac502de606939c35cd8718fc"
+    },
+    {
+      "path": "Source/npc_identity55.h",
+      "bytes": 1325,
+      "sha256": "2595e2d59347843d8188f604daa6486d86c0f422b1a563723e50786af71e15dd"
+    },
+    {
+      "path": "Source/save_v3.h",
+      "bytes": 5023,
+      "sha256": "96a924c649693c7da61df738d4e623b3ecb9f0753e789725ad79557d466dba64"
+    },
+    {
+      "path": "Source/npc_shop55.h",
+      "bytes": 1598,
+      "sha256": "ae4ee1a4750ecb61a4b4ea60eede80bb487e0a58893f64d7972523c49fa012a2"
+    },
+    {
+      "path": "Source/classic_costs164.h",
+      "bytes": 5386,
+      "sha256": "e1c4ef61c47a3739115b7c08affe0c33da7413d30ca42052ccfb6b876e951eeb"
+    },
+    {
+      "path": "Source/test_hocus48.c",
+      "bytes": 1909,
+      "sha256": "d41580a3682f10b35bdaccf286581e227b1d92e72e06ca40d106cf99deae8c07"
+    },
+    {
+      "path": "Source/scenery.h",
+      "bytes": 4526,
+      "sha256": "f8c8def51a295c3c7374976f308fee29771ead2ad605c81fb7ee1d4017e49ba3"
+    },
+    {
+      "path": "Source/npc_quests55.h",
+      "bytes": 5113,
+      "sha256": "d51434214e30aee694df88cf9511d2f9042c0d5bc421e7ea5696a3ebd90e17a6"
+    },
+    {
+      "path": "Source/controlled_warps64.h",
+      "bytes": 53557,
+      "sha256": "c31f5dea5e89474a654207e8292a46fa1850119fa511940513438c62648f18d2"
+    },
+    {
+      "path": "Source/test_cast_head38.c",
+      "bytes": 1884,
+      "sha256": "2f6fa1d89f0001214010112a78f244bd2108ab11681ad2576e8970964310144f"
+    },
+    {
+      "path": "Source/inspect_effect_definitions32.py",
+      "bytes": 1495,
+      "sha256": "00b11fae9639d004e6a19ddaa58d7938f6cc909a89e64798a8e9fd0836d2d9a1"
+    },
+    {
+      "path": "Source/monster_visibility180.h",
+      "bytes": 1119,
+      "sha256": "bc500aafb3f895b44d333f5d87bde863ea9b7862ed8fb8396df9ce2d077ee752"
+    },
+    {
+      "path": "Source/convert_jobs.py",
+      "bytes": 3496,
+      "sha256": "be144cce32b1c73a9a16d8863bccd4a5aeab41258c6b86e1a86fbbb1f98f11bb"
+    },
+    {
+      "path": "Source/npc_monster_touch172.h",
+      "bytes": 1518,
+      "sha256": "c36268556ba385ce10527fe5f737c6f9dc0310ba09bf6c3ba713f946e9a743f4"
+    },
+    {
+      "path": "Source/test_update31.c",
+      "bytes": 4966,
+      "sha256": "a9775146e00fdd938529b57dcb6c028f4b46f0a71de80aff747c3dd11030cc2c"
+    },
+    {
+      "path": "Source/class_soullinker60.h",
+      "bytes": 4946,
+      "sha256": "0d3477f8a2904cc61d9274c21422905b38fff02b227cdb9d7f5db6fada9d762f"
+    },
+    {
+      "path": "Source/npc_cylinder_data180.h",
+      "bytes": 4899,
+      "sha256": "4686ebf2fca43fdf49641e2be34b52525b26386b084c7d6a9b91318ad742b6e5"
+    },
+    {
+      "path": "Source/test_bindings50.c",
+      "bytes": 4575,
+      "sha256": "5127b52e00304f1a4626837b8c8b79955e46fc44c038f20ecc8c94b40e5b43be"
+    },
+    {
+      "path": "Source/sound.h",
+      "bytes": 9397,
+      "sha256": "c451f3dbcdaa91a18370f1859115d3b197a2e722cc98ad522d475e8de150cac1"
+    },
+    {
+      "path": "Source/skin_data.h",
+      "bytes": 58004,
+      "sha256": "ad962ca9728d7df579e3b471ea8ea659cb548946c4c4ed7d8a843385f2642c97"
+    },
+    {
+      "path": "Source/expanded_skill_rows60.inc",
+      "bytes": 46734,
+      "sha256": "1b643de62f4289ca624dfe40faf94a832544115d60c68c514cf02bb2b47a7ee7"
+    },
+    {
+      "path": "Source/class_art50.h",
+      "bytes": 3318,
+      "sha256": "ec066cb0b12969b30a2989cbc47e7e4ad8d9634d1c3ec756631e27a6b274eff0"
+    },
+    {
+      "path": "Source/render_cache50.h",
+      "bytes": 1084,
+      "sha256": "7d1847f4a4c0dac89da3ca046845af3f2c1915043a5de29f27a6475669906966"
+    },
+    {
+      "path": "Source/convert_class_effects50.py",
+      "bytes": 11754,
+      "sha256": "5e6541f1391d6bae5d1825b525c97822043c38ceb6e09088787f7148ba841235"
+    },
+    {
+      "path": "Source/test_target_frames41.c",
+      "bytes": 1308,
+      "sha256": "0334e6a305bc8049e1672fac4bb627f276934964ac54ddfd60f6765d85104057"
+    },
+    {
+      "path": "Source/test_damage_render.c",
+      "bytes": 2658,
+      "sha256": "aeb6c230d78c8e5fde454951a48613f78e348b4cc35c5d1ac62ffbc8a94f79f8"
+    },
+    {
+      "path": "Source/npc_program55.h",
+      "bytes": 4920,
+      "sha256": "f16958efffce5b79136aaaf6016a42c9284bd27829cbdc332cabd49a81c4fc56"
+    },
+    {
+      "path": "Source/test_sprite_projection35.c",
+      "bytes": 2490,
+      "sha256": "a6e005c56dd87f3af1444b6aa0041c44b5def316525aa6b9513b16e4c9825d98"
+    },
+    {
+      "path": "Source/skills.h",
+      "bytes": 87711,
+      "sha256": "54ec470f81c029976021920a16e73eb5416ec07e986cf106ef9bec776ebf0cc6"
+    },
+    {
+      "path": "Source/play_options52.h",
+      "bytes": 1845,
+      "sha256": "3ee29fc7bfde1f59196f4685f320a2bfaa7a9948e5b0d5031bb3ca2bf69f1b22"
+    },
+    {
+      "path": "Source/trans_skill_rows52.inc",
+      "bytes": 29653,
+      "sha256": "6855d1cfbc03b9010db241b412d0afc8779c3739ddbe389e88c207480eb784c3"
+    },
+    {
+      "path": "Source/update_palette42.py",
+      "bytes": 1490,
+      "sha256": "22bbf2a7c6da0410d7e6ea62b959dad35cb535e8ba3eff4500236003b58b3cd7"
+    },
+    {
+      "path": "Source/validate36.py",
+      "bytes": 3244,
+      "sha256": "8e6b535068a3b13259203c6b2f211a2e24e43e973618989f43a4dd9ddc6897b1"
+    },
+    {
+      "path": "Source/expanded_prereqs60.h",
+      "bytes": 1316,
+      "sha256": "a3c560fc0372b4d73c254999f59967603f6b0b49c8332b572dd4484f8629aeeb"
+    },
+    {
+      "path": "Source/test_regen50.c",
+      "bytes": 6561,
+      "sha256": "fc85412f6a25d49fa8526f64abc3e5b5742c607bd8b6c70c4bdb98febf21b586"
+    },
+    {
+      "path": "Source/class_assassin_rogue50.h",
+      "bytes": 3654,
+      "sha256": "29151d00f87d30790472f76dab17cad6de5b460fdb6404fb4acaa752b6441aea"
+    },
+    {
+      "path": "Source/VALIDATION50A.txt",
+      "bytes": 11733,
+      "sha256": "fd6dec023ca36d935c6873af0c1bd5145f2d039ab407b034a6b3f16a3eee044f"
+    },
+    {
+      "path": "Source/campaign_portrait200.h",
+      "bytes": 1664,
+      "sha256": "d55351969d2c9795c657789dedaa2a8fc3e5630aeffb42e830c6c243fc773e73"
+    },
+    {
+      "path": "Source/hotbar_motion.h",
+      "bytes": 1202,
+      "sha256": "3824da95ce930c8f112c6c4e244ad313e3684b8bb5e63df8ec1f6cfbf6422cfe"
+    },
+    {
+      "path": "Source/window_ui.h",
+      "bytes": 11509,
+      "sha256": "fce7a7dccd8a6c9ff63e3686013d54144e85f9784f03da8389227462c06dce99"
+    },
+    {
+      "path": "Source/world_availability44.h",
+      "bytes": 551,
+      "sha256": "f27087475fc203bd8b675d84ae2d6a08c1620ac145e1c133cd8f57db203ade46"
+    },
+    {
+      "path": "Source/validate37.py",
+      "bytes": 4398,
+      "sha256": "ecacf1862bd6c14db331e830742fb199102a2d318363eb65d969a182423265c8"
+    },
+    {
+      "path": "Source/convert_creatures45.py",
+      "bytes": 2314,
+      "sha256": "a3164dd92755a55524ba77a9b4beb470eeab5d995361e4e9bd7b4c9e89a988df"
+    },
+    {
+      "path": "Source/dungeon_data53.h",
+      "bytes": 1553,
+      "sha256": "8c1f15be3d8182759584468593e1794cc496493d81ddf4f0db7fd30b8d67d8ab"
+    },
+    {
+      "path": "Source/npc_appearance59.h",
+      "bytes": 2281,
+      "sha256": "59823c479640f5a97a924ebb73a2f70d20000282915a67a94cade2482f64cf2f"
+    },
+    {
+      "path": "Source/dialogue_font64.h",
+      "bytes": 364,
+      "sha256": "6f173931c5cb68ff0f6ca3849177d7c77d8813ef7ec3151d0d171999794fe3bb"
+    },
+    {
+      "path": "Source/npc_effect_audio172.h",
+      "bytes": 1006,
+      "sha256": "591e5dc52df5a53ccfc58cdd9f287972af48ee2eb2ad66b264c0df07d927c28c"
+    },
+    {
+      "path": "Source/validate45.py",
+      "bytes": 3513,
+      "sha256": "071ef970dbe8cddc0e9a609d4feae60ec7f6a89cb3fa3f4acc0aec0e8dfd7423"
+    },
+    {
+      "path": "Source/job_save_rules55.h",
+      "bytes": 549,
+      "sha256": "523e765ca2d19f58d8881b821518a029d51c1786521b21f01e5c917a7dd4d32e"
+    },
+    {
+      "path": "Source/art_assets40.h",
+      "bytes": 1403994,
+      "sha256": "8d6a3b883220fd7597455b0f317f96b98c0f35a6577ba1c60f6ed5839a163f7a"
+    },
+    {
+      "path": "Source/frontend_choices112.h",
+      "bytes": 2581,
+      "sha256": "de9b6c0484bc3d9c72a510a088bd47ff4d8383045561fb214855c9e81ab2414a"
+    },
+    {
+      "path": "Source/ice_draw48.h",
+      "bytes": 1866,
+      "sha256": "f8b4f63e39a9e35f5130c0685b13f80f81738b0b72eb76b70058017fdb1ab1fc"
+    },
+    {
+      "path": "Source/water_mode190.h",
+      "bytes": 455,
+      "sha256": "b5a7e92fe54b2843590cc11b41253fb7acd3e719224b6954cfa65ce79c022689"
+    },
+    {
+      "path": "Source/quest_journal65.h",
+      "bytes": 8928,
+      "sha256": "f70a0bc6067bb3c2a7c6fcf079da9815f3ff38dd5336f3a3671a389a4c3de79d"
+    },
+    {
+      "path": "Source/test_class_art48.c",
+      "bytes": 2667,
+      "sha256": "91405e2e47374f878e6b6e57d792a247123fc6a9330313d43f4cbdd8b15f14d4"
+    },
+    {
+      "path": "Source/test_update50b.py",
+      "bytes": 3532,
+      "sha256": "5017933bee27825900b7599f09a70a3c9e219ee3b3e4e3d78555567fd7e9abb6"
+    },
+    {
+      "path": "Source/walk_surface_data.h",
+      "bytes": 39546,
+      "sha256": "0ae558ea22fa00bcfbb8d7bd893a442e0c8a7e1d0739f0e889cbcf98380be027"
+    },
+    {
+      "path": "Source/test_cart43.c",
+      "bytes": 2142,
+      "sha256": "cf522b3ffdca02b56d2709d228629aa102fd61303f450b528a531aed80ebc19e"
+    },
+    {
+      "path": "Source/convert_weapon_families48.py",
+      "bytes": 5311,
+      "sha256": "7de9902e2c83b511d7859e794ffce4576bcebe54a6be1b7f2172196c14cecc2c"
+    },
+    {
+      "path": "Source/autosave50b.h",
+      "bytes": 3207,
+      "sha256": "fb0e98410f7623b683a2b8a119ad3f7c7c0aadf005f0b12f100bfff5ef77abe5"
+    },
+    {
+      "path": "Source/taekwon_mission_data60.h",
+      "bytes": 5332,
+      "sha256": "23734f8d88649e7d2e577f29c44ecbfddb3744ad7a16858091c6639e5502748c"
+    },
+    {
+      "path": "Source/test_upload40.c",
+      "bytes": 2147,
+      "sha256": "3254bbf08f770a133a26eb569633daf2575b5fc81861dce1af760e3faaf49c1a"
+    },
+    {
+      "path": "Source/damage_art53.h",
+      "bytes": 90475,
+      "sha256": "4ff837304323a9363c859a40cc9d8182674a10a4f9c3f0c86374997ee4fae404"
+    },
+    {
+      "path": "Source/npc_builtins55.h",
+      "bytes": 3671,
+      "sha256": "828c4f69742abc0efa2865df60eee07dd8bc489c856213fb3ef7d9900e45c81c"
+    },
+    {
+      "path": "Source/job_identity52.h",
+      "bytes": 1736,
+      "sha256": "e29759d4faa370d2beb10a74c924ab8a3bc3f9d0730a7c2e7cf24a8c357fb309"
+    },
+    {
+      "path": "Source/head_pose_data54.h",
+      "bytes": 789314,
+      "sha256": "4110eda888971aaefe36fb71a9ea4db0c5e8fef5f3353022064059b9026a21a6"
+    },
+    {
+      "path": "Source/test_creatures51.c",
+      "bytes": 3427,
+      "sha256": "3ac12c54cddb6a0d294b0dfb5a693dea4a73113b847edbbc321d7f6aa8e68d87"
+    },
+    {
+      "path": "Source/convert_actors48.py",
+      "bytes": 1805,
+      "sha256": "813bfc90d3f9058e81facab6fed87d5f8ce14a4323e87a761f06bd720d6d7382"
+    },
+    {
+      "path": "Source/career_warp194.h",
+      "bytes": 2044,
+      "sha256": "3c60724a0a82f3b993826e7d2a80c22bba2f1d65c2e19dab080949b99337e18d"
+    },
+    {
+      "path": "Source/merchant_services.h",
+      "bytes": 6945,
+      "sha256": "59071a1ab80d6ed6e397e0ee0207f8ac99b1880c1f30e8e387f163f76f5fb278"
+    },
+    {
+      "path": "Source/map_loader.h",
+      "bytes": 3246,
+      "sha256": "d8172c9a73b5ecf88827bda457445d8433d30436dcb0a0bd9561807878675e4f"
+    },
+    {
+      "path": "Source/test_native_lifecycle194.c",
+      "bytes": 3021,
+      "sha256": "2f843f57b05737b10653e03ba34283f12e57fad3498d88be96926bd80366fc10"
+    },
+    {
+      "path": "Source/npc_effect_stream172.h",
+      "bytes": 1422,
+      "sha256": "86fb47248ae088cca5ad0bc25a8d4183645de70d028877099a3cecdb09c0868c"
+    },
+    {
+      "path": "Source/music_data.h",
+      "bytes": 3147,
+      "sha256": "73df283858c91b6627effd2401f41a0bf4369a16f89583e5779ed56fbe52bc12"
+    },
+    {
+      "path": "Source/convert_first_jobs.py",
+      "bytes": 3229,
+      "sha256": "36d7c5f6f0c16b437e9775a3fea749e84ecb402427cfbafa6a14f594393eb7c9"
+    },
+    {
+      "path": "Source/system_disc50.h",
+      "bytes": 1983,
+      "sha256": "775fa93b7b0088f79b392781f4bc4edcbffc96020f7d48d3f95fc75136da051e"
+    },
+    {
+      "path": "Source/ui_context.h",
+      "bytes": 6036,
+      "sha256": "dc7e8db390cc1c060c8516e24d66820698ab24fd8a0192657af0073d3ff1bc43"
+    },
+    {
+      "path": "Source/expanded_mechanics60.h",
+      "bytes": 349,
+      "sha256": "f864c962f2a6e17509bba2c1a9035e4b29999f6e76b5e6f1ab3a842a906ae6d6"
+    },
+    {
+      "path": "Source/test_navigation50b.c",
+      "bytes": 1267,
+      "sha256": "9e0d1a339565dd41b0ee36abc93b96c6e15900b29e3e8d8ee2d7f8328827eb6a"
+    },
+    {
+      "path": "Source/verify_prepared_actors50.py",
+      "bytes": 2993,
+      "sha256": "ce072f5e9ce62125554141ec3ee4200b427d6f758c1a1975947826d126a9c5dd"
+    },
+    {
+      "path": "Source/test_expansion36.c",
+      "bytes": 3875,
+      "sha256": "6db1b70938841278a3ee6d365934ffd94c0976e4266759ef7489042aea9e6635"
+    },
+    {
+      "path": "Source/test_control_draw24.c",
+      "bytes": 1071,
+      "sha256": "93c4581af34c8304926c1e4ac4a695219854738375521bb0c7a8daa2bf4b9757"
+    },
+    {
+      "path": "Source/npc_books_data64.h",
+      "bytes": 3639,
+      "sha256": "9314ef940870b42e0fe512a20aa45c93552107db766fd136b95bfb8e7be9ada8"
+    },
+    {
+      "path": "Source/test_ui_controls41.c",
+      "bytes": 2145,
+      "sha256": "98709450bc350c12ecfec72a48ecda8961d0d93740452d9ac3979abb4e99bb79"
+    },
+    {
+      "path": "Source/npc_constants_data55.h",
+      "bytes": 63894,
+      "sha256": "6b29ff0a46d004fce9e6ced7850e6cd10f6794741a1d97244da753bf4fa5ca46"
+    },
+    {
+      "path": "Source/npc_input55.h",
+      "bytes": 1972,
+      "sha256": "8b374946da53b598c7f577dbfb1c73e1419acc896d999a8f74f002941896731c"
+    },
+    {
+      "path": "Source/npc_extra64.h",
+      "bytes": 8172,
+      "sha256": "94fec43294c941df848c5a6cd321e2bbfed176f35ecfaa3cc6af55230d00e645"
+    },
+    {
+      "path": "Source/appearance_limits58.h",
+      "bytes": 220,
+      "sha256": "56d35af581fe1dc0b495aa272aa33e071b6677d20cf36b061936c04adc4e9d8e"
+    },
+    {
+      "path": "Source/test_art45.c",
+      "bytes": 3060,
+      "sha256": "f6eedab97c09c2e28c7d3478591abdc8afee49a72dab7f0dcb7ba502bb3b0f88"
+    },
+    {
+      "path": "Source/convert_progression43.py",
+      "bytes": 2420,
+      "sha256": "ba81064db613ddd4b6d2a9ddadc8bb806546f3ee377add8760c3465a227ed1b2"
+    },
+    {
+      "path": "Source/test_feedback42.c",
+      "bytes": 1804,
+      "sha256": "50c58170b10cae2b603001f77bc4dab5d7c65ce9fd71168ccfd45ba33df1a5e3"
+    },
+    {
+      "path": "Source/npc_variables55.h",
+      "bytes": 3794,
+      "sha256": "3b5a3fcb088fbbfa7c7c7ae88279ab6c3ce11dab28771ffca7b588afc2975784"
+    },
+    {
+      "path": "Source/test_acolyte37.c",
+      "bytes": 4116,
+      "sha256": "467e73f6a758d490f9c77adf7cd0fe270c6733134cd5792deb86acfc206dfcd9"
+    },
+    {
+      "path": "Source/test_rebuild50a.py",
+      "bytes": 978,
+      "sha256": "71454f8736ca7fb65d7a63e89be061a486c0a559794dbc4590aed03157ef8f5a"
+    },
+    {
+      "path": "Source/hud.h",
+      "bytes": 5888,
+      "sha256": "1de2fa488733fab56c87e310c3dfa1516809e2dd600dc1dbb2ec849793c5889e"
+    },
+    {
+      "path": "Source/art_stream183.h",
+      "bytes": 6134,
+      "sha256": "7b2777f9723608beb1e1622801abf4a1dd83655db99ee616bb0c8daf17a7a322"
+    },
+    {
+      "path": "Source/music_pack50.h",
+      "bytes": 3891,
+      "sha256": "c464e467f2b564506074bf6075f2a232f0f298047c082a756105bc1f554cbde5"
+    },
+    {
+      "path": "Source/item_use52.h",
+      "bytes": 5949,
+      "sha256": "6ef83299f129470ea8e3f9afa9565cb3793f54b7a71a1fbd8d43d3dd7ba75d4a"
+    },
+    {
+      "path": "Source/art_metadata183.h",
+      "bytes": 3619,
+      "sha256": "fb170f2d41378af0cf1aefb3e9325986f9cce4c10701fe0447d7f8a44f97508f"
+    },
+    {
+      "path": "Source/terrain.vp",
+      "bytes": 168,
+      "sha256": "7f93242aaac78e1d96ef6076b16ddb7914b3cbc18bb469527c810b35463395ba"
+    },
+    {
+      "path": "Source/test_storage38.c",
+      "bytes": 4766,
+      "sha256": "6545afb9864877c5df2c42a85de5554f178452365171b687fc4852f1e82bcaa0"
+    },
+    {
+      "path": "Source/npc_mercenary180.h",
+      "bytes": 6431,
+      "sha256": "ddf47cec735c0a1588d988479d7bc59d5a3dff7d505d0debeb1342bbd10e1147"
+    },
+    {
+      "path": "Source/recovery_state50.h",
+      "bytes": 263,
+      "sha256": "163d26f7d9837c01cb0c128dcea9a0ffc457f326356fa1c60ee9928212005d5c"
+    },
+    {
+      "path": "Source/refine_rates52.h",
+      "bytes": 304,
+      "sha256": "bae9060ed21df177de70ab83c9454814b93de07c9f0446ee0be0f72c8484786d"
+    },
+    {
+      "path": "Source/collect_requests50.py",
+      "bytes": 8350,
+      "sha256": "e9c4a802afc664750a0de36b7b1c486da20275e68c460fdb657e76cd084e57c5"
+    },
+    {
+      "path": "Source/npc_save_bridge55.h",
+      "bytes": 3598,
+      "sha256": "cabd5380103dcb88c6438232be2a15e8c89e31c8ebeac257af6cbc46dd9e0079"
+    },
+    {
+      "path": "Source/npc_class_ids55.h",
+      "bytes": 323,
+      "sha256": "535af6fce44ea8730014ad0c17b0202c5f318b4a1395b46525e2ebfd9494d9e0"
+    },
+    {
+      "path": "Source/test_damage18.c",
+      "bytes": 1598,
+      "sha256": "d4e4bfd5280322f2c3ef56f5ccb48850241747b242936173b4f21093e9607b3c"
+    },
+    {
+      "path": "Source/party_art200.h",
+      "bytes": 240,
+      "sha256": "c1590365a68f10f19b89016579133a6a937b119ccc4c8562d50e0ebdb0a2c47c"
+    },
+    {
+      "path": "Source/validate44.py",
+      "bytes": 3271,
+      "sha256": "93015ba99c781bc1151612483f0e769fa927d7f3c02e17f92028bf8a367e4fc2"
+    },
+    {
+      "path": "Source/test_atlas33.c",
+      "bytes": 1735,
+      "sha256": "66410448fcb6ec35ed9919e57b675c7ef366fdc3017fef40243b0a86dfb3ae6b"
+    },
+    {
+      "path": "Source/test_atlas29.c",
+      "bytes": 1735,
+      "sha256": "6259e017e080f51f78d826e74fcee9c387d3148873b6f59cc4f415656ed87113"
+    },
+    {
+      "path": "Source/inventory.h",
+      "bytes": 18854,
+      "sha256": "f6ecd0e68cab1e4ffbe812766a9159999063c09f7795caacd84a2c7d10e5b139"
+    },
+    {
+      "path": "Source/shop.h",
+      "bytes": 3607,
+      "sha256": "5dc0cd93e86538e870b9149fd908068493e0d444ea11f7d33943a2a1026f9311"
+    },
+    {
+      "path": "Source/pack_sounds50.py",
+      "bytes": 5802,
+      "sha256": "d449e4ccc376fca4a16522443e1c2178c2f097e2f843bc8fc05b845a54663f45"
+    },
+    {
+      "path": "Source/convert_regions51.py",
+      "bytes": 2156,
+      "sha256": "bc4073ee5ef454236df9ef8f0169c17577786c06b1032cf7737e25e7c322e59c"
+    },
+    {
+      "path": "Source/test_projection.c",
+      "bytes": 1391,
+      "sha256": "74980f514aef237389deb8af02baf8c8647dbbe0196ebcba26102bf00ca52f08"
+    },
+    {
+      "path": "Source/title_font58.h",
+      "bytes": 70404,
+      "sha256": "41669a1dfee6088aba248a99c93f306c548182ebeafc86e67202c83d901042de"
+    },
+    {
+      "path": "Source/campaign_actor_render200.h",
+      "bytes": 6101,
+      "sha256": "80ca57c8870a895e1cbd5ffeaedac7d3ecdd53cee4d79479cd595dd247a02cd7"
+    },
+    {
+      "path": "Source/save_v4.h",
+      "bytes": 5145,
+      "sha256": "3f5b01f0b50a35aa851a9f74f17fec23dbf8c0c0cb5c63f49531d48f367ea7cc"
+    },
+    {
+      "path": "Source/hotbar_input53.h",
+      "bytes": 344,
+      "sha256": "b5bb1966ee4bb55b656f1985f46c0d2aedb81ff29c5fd45826ce2359017c368d"
+    },
+    {
+      "path": "Source/test_cast49.c",
+      "bytes": 1376,
+      "sha256": "56aac94422e0b89d7cba66592f9dd64befe162d73a7d25b5fdcf5be9a92ca7d2"
+    },
+    {
+      "path": "Source/test_expansion38.c",
+      "bytes": 4203,
+      "sha256": "a56bba345086a390ea7dc0f6183a2c2a9fc5118d43006776c1277d93d6852376"
+    },
+    {
+      "path": "Source/test_cast37.c",
+      "bytes": 5982,
+      "sha256": "299a34e9a499063d8dd2f1ac499398237812975f5f4c65c8d5789ed277ec8e09"
+    },
+    {
+      "path": "Source/shop_draw.h",
+      "bytes": 3233,
+      "sha256": "38d487604923358d5b3b2256e23a4f46565b357d67244589ca93c27ecff173bf"
+    },
+    {
+      "path": "Source/autosave_xbox50b.h",
+      "bytes": 1320,
+      "sha256": "87f1d2123a62324c134acf5d5cb6e8c8451c43d80f671e012b43e1afc2849989"
+    },
+    {
+      "path": "Source/stack_budget50a.json",
+      "bytes": 725,
+      "sha256": "c8c60d751df721fc71f16cd28f50bda178b2bca128b6ee2706319358622e1424"
+    },
+    {
+      "path": "Source/test_save_disk50.c",
+      "bytes": 6857,
+      "sha256": "b213fc866e00aa0737f399e4a1e65423d5ef6b864216bf1d5fcd47141c1dbd48"
+    },
+    {
+      "path": "Source/VALIDATION50B.txt",
+      "bytes": 12938,
+      "sha256": "a04950a4f4165b070dc5329fdbe3333744023c16813de5f2f7e0fb977bc82546"
+    },
+    {
+      "path": "Source/test_class_interactions48.c",
+      "bytes": 2803,
+      "sha256": "8f6c5e8913847b2e0b5a1604e170ded3754cf0f4d0cb65e08f77d9e27743e009"
+    },
+    {
+      "path": "Source/test_atlas27.c",
+      "bytes": 1090,
+      "sha256": "9b48d41ff282b552f1265ce4335b5d98e5900f8709edce40a4176bd43992e717"
+    },
+    {
+      "path": "Source/classic_field49.h",
+      "bytes": 2671,
+      "sha256": "14c95f7e99d0221736aaeda35571cb6b4c3130326f2f30e0ce7be329d47fb468"
+    },
+    {
+      "path": "Source/test_feedback45.c",
+      "bytes": 4194,
+      "sha256": "0ed28ad58f052f78006c17834ea1be67f9c49706e00ae0610dcb65f154486257"
+    },
+    {
+      "path": "Source/npc_audio64.h",
+      "bytes": 2074,
+      "sha256": "6062961349afc296fae697bb88dbc3d6eba1afa8b444701b7934f482a82071cd"
+    },
+    {
+      "path": "Source/import_elements48.py",
+      "bytes": 1660,
+      "sha256": "915da24e66bb2c96d8ebc9fbecb949a48468987ae488d4d2ea0a6e863d7e3463"
+    },
+    {
+      "path": "Source/update_palette39.py",
+      "bytes": 1413,
+      "sha256": "e6dc1a318ad80e0833af0dba958a1361c97a2d438abeedfb56016599efedbd35"
+    },
+    {
+      "path": "Source/npc_portrait171.h",
+      "bytes": 2320,
+      "sha256": "049fbdabb99d75bcda47adb1f2a7910aca6f83dbbc35e5f8c50fc6b8136c1f09"
+    },
+    {
+      "path": "Source/shop_layout182.h",
+      "bytes": 962,
+      "sha256": "9898b74621c0a7ba2ff70644b0a43633a373fdf32654e1373875c02f7f386b02"
+    },
+    {
+      "path": "Source/test_runtime50a.c",
+      "bytes": 2493,
+      "sha256": "ddc7ca6e426d0a4d68a09af3fbdac7ed5d3a68dcbc4222ec224afcf62b4e725e"
+    },
+    {
+      "path": "Source/validate_ui50b.py",
+      "bytes": 1048,
+      "sha256": "10502b78ae4d64c5a04d0b71464d1a03f0882786e76e7f12a92d7e1d7415433b"
+    },
+    {
+      "path": "Source/diagnostics45.h",
+      "bytes": 627,
+      "sha256": "da81ae51e49104f7480bfcced323b8b5ca9cc7bd715138db2d13ea4a1e126b4d"
+    },
+    {
+      "path": "Source/equipment_data52.h",
+      "bytes": 127505,
+      "sha256": "dae6c7b75c06e51e82391fb2fc72173e0034ab7df25d1582d3e618fb65fa4ebc"
+    },
+    {
+      "path": "Source/character_create56.h",
+      "bytes": 1777,
+      "sha256": "4a143fd50eb9189378170bbe202a0b679a3a0499ca280a2ce1b99b134c13cad2"
+    },
+    {
+      "path": "Source/enemy_disc_data44.h",
+      "bytes": 1942,
+      "sha256": "8fa39207ae6c79443f30e82cb279de3035c05d98b328025d7813595837eef359"
+    },
+    {
+      "path": "Source/sprite_slots45.h",
+      "bytes": 733,
+      "sha256": "dfa06b88ab2da868b51349001e6210e2bc3a581ef0470909aff24c930faf2d2c"
+    },
+    {
+      "path": "Source/top_buttons200.h",
+      "bytes": 1197,
+      "sha256": "4d5d1ebecbeb2aaf1c26be8c69426dd2cffa8d6979757b840fb8ea7f26cf0ef8"
+    },
+    {
+      "path": "Source/test_save35.c",
+      "bytes": 5614,
+      "sha256": "f79ebe9575ff577e7946e69fee8f3c3c1acede30fde40da9cce5c00633f60a09"
+    },
+    {
+      "path": "Source/validate_stack50a.py",
+      "bytes": 1760,
+      "sha256": "4a5b8bbd8e99bce15f101bf38efaf837373396f0f9cdd9fbfadbefd99e36eece"
+    },
+    {
+      "path": "Source/campaign_scene200.h",
+      "bytes": 6375,
+      "sha256": "ea0e643a4030198c262e3d145f06ab19b86d044900716cf8a3204bed3f5bbd8c"
+    },
+    {
+      "path": "Source/gear_skill_ids52.h",
+      "bytes": 1020,
+      "sha256": "1088c1c3234537bf6efaf3c0e884bd4b327b58f026db8b13ae2ecd69e745489f"
+    },
+    {
+      "path": "Source/npc_legacy_draw181.h",
+      "bytes": 4968,
+      "sha256": "8c61157bce7bc2b06c26dbabd4b55ffe4d60e1f6e292243c73af2ebc9173ad13"
+    },
+    {
+      "path": "Source/class_art_needs50.h",
+      "bytes": 1581,
+      "sha256": "8bb1b3f4991e799ae2877a4635e414e0365139d98c14316fdc79c91aee299134"
+    },
+    {
+      "path": "Source/asset_index50.py",
+      "bytes": 264,
+      "sha256": "4d102cb72ca0ca90f61b36946284130a6c1065767c51a69d4c26bf75e1d16120"
+    },
+    {
+      "path": "Source/main.c",
+      "bytes": 64056,
+      "sha256": "2c3b8b6672163c1290b51026fd83c87526d210deac035801497951792337d975"
+    },
+    {
+      "path": "Source/test_prepared_catalog50.c",
+      "bytes": 2106,
+      "sha256": "7551a59d03e24b5f78ab77c2ff3702d3748d6524bef54d06296410297d142984"
+    },
+    {
+      "path": "Source/item_catalog_rows52.inc",
+      "bytes": 1290982,
+      "sha256": "130484a58dbc956af8bd969b348f7239b6b425c20aa5633bc2a37a22be1fee84"
+    },
+    {
+      "path": "Source/item_data50.h",
+      "bytes": 4253,
+      "sha256": "5359a470c2c1d4305b5a08c4fbfafee940c7404c6a61d4a1099ed60837b5c92e"
+    },
+    {
+      "path": "Source/import_book48.py",
+      "bytes": 2114,
+      "sha256": "9c7f7d243ae46fea1fb7c7560ccb36fd550860e9956bed0d0a381dec25409593"
+    },
+    {
+      "path": "Source/item_index52.inc",
+      "bytes": 35415,
+      "sha256": "eec9c6de29cce0e92971bc369251ae6fe978be2d474a2bf7412cf2e42393a3f9"
+    },
+    {
+      "path": "Source/encounter_data.h",
+      "bytes": 160934,
+      "sha256": "520c73f2758449a7d3c64b8303d3aa2b595f00753cd142e74dc5a79551fe7555"
+    },
+    {
+      "path": "Source/class_effect_ids60.h",
+      "bytes": 68,
+      "sha256": "e481ef129412bd1f83d68424b2dcb4c31c5e8450dc609a4cf38f9df50a806cf3"
+    },
+    {
+      "path": "Source/stage_base_assets49.py",
+      "bytes": 1740,
+      "sha256": "179222ff8f79bb418095b9bf08af0ae802a15092333e36a7e4fee90dc9667152"
+    },
+    {
+      "path": "Source/second_jobs43.h",
+      "bytes": 6510,
+      "sha256": "e54bd6c9a77575fe4e80e154011344db3f9f4d5400db74f75bf0e66c5267c1cd"
+    },
+    {
+      "path": "Source/headgear_data54.h",
+      "bytes": 50357,
+      "sha256": "028882ad8d4a4f1770632a9630679b23114e54e444ded21adea8e566b7fa9362"
+    },
+    {
+      "path": "Source/npc_travel_preflight194.h",
+      "bytes": 2903,
+      "sha256": "f65439a7ca95347843fbb3f522fb0de4ea3574655c9ac1d130a4a01e076fdf87"
+    },
+    {
+      "path": "Source/test_bridge44.c",
+      "bytes": 1398,
+      "sha256": "a0058e556ba373dbdc1d39d6891b3d23c2e760480e715076588c11de2aa5ec90"
+    },
+    {
+      "path": "Source/test_behaviour42.c",
+      "bytes": 3653,
+      "sha256": "2190998fa3d7e4aa8ccb2d1e99ea84233c78861edd1e5304e7b8905b20d92047"
+    },
+    {
+      "path": "Source/test_update50a.py",
+      "bytes": 3524,
+      "sha256": "83aa80571184879c5d1714dd753f58062fa992a6a90af8041be652b80eb8536f"
+    },
+    {
+      "path": "Source/guardian_motion53.h",
+      "bytes": 3189,
+      "sha256": "0159f7a08aac01b85dd5587cc0c03ef8f4fb2fbcce5bd928a48e10d95cbc76fc"
+    },
+    {
+      "path": "Source/stage_base_assets40.py",
+      "bytes": 1849,
+      "sha256": "9b04f3acd443dff8ea5aa0931a67ea965b19d72dde5dc4a7b59d464dbc83ea43"
+    },
+    {
+      "path": "Source/class_tarot52.h",
+      "bytes": 2255,
+      "sha256": "a714975e6716249bc32f53d413792a06e486ea89c95da8e326807f79e34bd719"
+    },
+    {
+      "path": "Source/skill_status164.h",
+      "bytes": 2058,
+      "sha256": "cd22e9ba1b1455fbe48bea3b0f751ec8e73c9522a44b2a5028e75e033fb947ee"
+    },
+    {
+      "path": "Source/test_mechanics37.c",
+      "bytes": 7582,
+      "sha256": "6bfbf5b1a7f49c3a18ae38fa0a610dd0246644a64c5d3ac2d5e75e29ff469292"
+    },
+    {
+      "path": "Source/class_effect_ids52.h",
+      "bytes": 761,
+      "sha256": "7334027bb080be1e186a0429b0d452bf37eaa551ad4ab5af938d7ac3e9e2b813"
+    },
+    {
+      "path": "Source/skill_costs.h",
+      "bytes": 353,
+      "sha256": "4ab4c896b3858221ddbeb659e163df8773952df0556a15f95cdca73dc16557ed"
+    },
+    {
+      "path": "Source/test_migration26.c",
+      "bytes": 1936,
+      "sha256": "446316d8bd25f375587f7cbedaff0f02f848107ff7d9d0e16cd3a85621d09e91"
+    },
+    {
+      "path": "Source/controller_tolerance58.h",
+      "bytes": 499,
+      "sha256": "0bf8bb6337a5e185eba8e44b9bf239ebb21033c3d844e47cc9410bdf02cfa8f5"
+    },
+    {
+      "path": "Source/controller_nav61.h",
+      "bytes": 417,
+      "sha256": "7bf644b7484a4fca008b26b1189c2d2800e9cf160978aefe8f0575a0884dbeda"
+    },
+    {
+      "path": "Source/class_ids50.h",
+      "bytes": 3954,
+      "sha256": "edee9d061bec14eb820050ff16ff831d469c474b839133b6e1637cb746eb2d43"
+    },
+    {
+      "path": "Source/npc_cylinder_draw180.h",
+      "bytes": 3989,
+      "sha256": "34418afeb4861450ef6a8e906e1aa4a4ac6748667b91898519b97726100dada3"
+    },
+    {
+      "path": "Source/campaign_battle200.h",
+      "bytes": 23155,
+      "sha256": "90d6be4b98a5948cb9b1e8f79fac77fa6f37da7412954b8bad43349cafe29d48"
+    },
+    {
+      "path": "Source/actor_disc.h",
+      "bytes": 2374,
+      "sha256": "1cc0f556a481e6e8efed0356c7add5e6398fff424d2e3647a8380f70ca2046f4"
+    },
+    {
+      "path": "Source/gpu.h",
+      "bytes": 6254,
+      "sha256": "7dcb01d61967fe5be1423e289471e4f67c4a91b4fef5046dd3b050ac0e0db53f"
+    },
+    {
+      "path": "Source/stage_base_assets44.py",
+      "bytes": 1428,
+      "sha256": "8442ff5505332487eba3b8901c2bdce051628902c9a238175de31072affc1fae"
+    },
+    {
+      "path": "Source/convert_actors50.py",
+      "bytes": 6644,
+      "sha256": "4f680bfbb4f9083d180289f7748511422b72a4e0614a96b5268e4d5945cc2893"
+    },
+    {
+      "path": "Source/options60.h",
+      "bytes": 497,
+      "sha256": "df1a43fcc0ca4046393d0c17df399b42de4ac73957a66356e9464c373f851e9a"
+    },
+    {
+      "path": "Source/test_ui22.c",
+      "bytes": 4466,
+      "sha256": "f795ca5965ed4bac56f8f10267ac902d2c8287d62d499cd0dd22f9c34711178c"
+    },
+    {
+      "path": "Source/test_batch41.c",
+      "bytes": 4764,
+      "sha256": "7b84de5fcedf8bd755144bbee1e0eea318327950b378387e7d518af8b979a4d9"
+    },
+    {
+      "path": "Source/campaign_portrait_data200.h",
+      "bytes": 1638,
+      "sha256": "0c85463c8af649c535054f9506c12f17c2c90472a752afb53282f8fd5a7275a0"
+    },
+    {
+      "path": "Source/ground_draw58.h",
+      "bytes": 2610,
+      "sha256": "3bb5e1124541e8fe2c801890204b37a327f7a3ad99842af58c3e90a8e544f291"
+    },
+    {
+      "path": "Source/npc_presentation172.h",
+      "bytes": 1208,
+      "sha256": "9083eda81cb78d09eab73d7636660140a8bc19749e92ab96923efc933bb3291d"
+    },
+    {
+      "path": "Source/sword_assets39.h",
+      "bytes": 611388,
+      "sha256": "c71842d920c2f0e61bdfc25d00c5db66df12f5cf81f98fca8fb9ab9e861372d8"
+    },
+    {
+      "path": "Source/safety_draw50.h",
+      "bytes": 1135,
+      "sha256": "da8f226059454404b0104ef31cf4bfd0f6e870053e19221109293f78a993b3f5"
+    },
+    {
+      "path": "Source/test_save.c",
+      "bytes": 5221,
+      "sha256": "b39b79fe16b4028dc7ac7e6a9f63aba560ad873eedb8cb7fb917eb962d20e033"
+    },
+    {
+      "path": "Source/test_update50.py",
+      "bytes": 3530,
+      "sha256": "b152dc5d9f6d0b2a5e0efb96468d55d473ff7743da9d5b32d37e8f9a1a49db5e"
+    },
+    {
+      "path": "Source/stats_data48.h",
+      "bytes": 15124,
+      "sha256": "0a01d61b247e557b4f208ac734b9485ec386fa0f1f54888e0f2280de1a900517"
+    },
+    {
+      "path": "Source/class_sniper52.h",
+      "bytes": 1131,
+      "sha256": "59a329ac13a7d1bc4ae9fae0e509e8bc91db7ee7bb752b20ee1b84dbc477f054"
+    },
+    {
+      "path": "Source/terrain_alpha171.h",
+      "bytes": 1134,
+      "sha256": "209325211823bf674e02ac827c687399857c23a020bff0c2c72b67a100d5733d"
+    },
+    {
+      "path": "Source/test_mechanics36.c",
+      "bytes": 7540,
+      "sha256": "9388f7529dfc797ca5d00ce7be6f05e3de202ed5d6ca75fd3a0de1faa1a4a8b8"
+    },
+    {
+      "path": "Source/validate_sdk47a.py",
+      "bytes": 2602,
+      "sha256": "a34de5018d008a65d8f38ae90ca9f1fe5def0c3f12d59153349216eecad0d70c"
+    },
+    {
+      "path": "Source/target_marker40.h",
+      "bytes": 2588,
+      "sha256": "812c3379d486aa4db6c3065266354e0d703d8ef454f534188bcbcbec49318e78"
+    },
+    {
+      "path": "Source/ammo60.h",
+      "bytes": 2079,
+      "sha256": "f2ef34d81595326c5b07ec1f6b740afa0a2372419ac6653404f2bf0003abb1d1"
+    },
+    {
+      "path": "Source/boss_state53.h",
+      "bytes": 817,
+      "sha256": "be5b37e3f62ad90f89c9e804fdbe0648f41016ae722bfe79c07ebd0d34a1b869"
+    },
+    {
+      "path": "Source/stage_base_assets39.py",
+      "bytes": 1782,
+      "sha256": "366f6361f4e686f18fb386ccaacf8ec5ac93e4d16c13edb38685429012eec362"
+    },
+    {
+      "path": "Source/frontend_state56.h",
+      "bytes": 4118,
+      "sha256": "852529463bed8ee62ce6f2503d871bed4239d149ead0e506a5a065e7ed292765"
+    },
+    {
+      "path": "Source/verify_player_contact35.py",
+      "bytes": 1951,
+      "sha256": "c05604f13d15414cf56b0438e83c9543c30afcc5ee9f307fabf4df9707f14dfd"
+    },
+    {
+      "path": "Source/npc_storage64.h",
+      "bytes": 1344,
+      "sha256": "77fe1971a5ef77dbef30521f7f4c480df081b7a1712b176a3d75d64322ab1632"
+    },
+    {
+      "path": "Source/death_sound51.h",
+      "bytes": 3034,
+      "sha256": "eb9aa5979ebd7ce178772a2d3d1d767f4a9753a27a78b75a946bfc3a3d2371be"
+    },
+    {
+      "path": "Source/update_palette41.py",
+      "bytes": 1446,
+      "sha256": "975ba498be2c8016787e9533649d384566caebb0b72e294ce53378accb7faba9"
+    },
+    {
+      "path": "Source/save_v5.h",
+      "bytes": 4768,
+      "sha256": "fc91bbc10c10f31bc8bbf580e8e6633820a5ca6d8b49fc8b815b90a9dca03205"
+    },
+    {
+      "path": "Source/brandish_cells52.h",
+      "bytes": 417,
+      "sha256": "fab591fd20c096d5fb647e267f87e5252d738266957448b33cb6c8f25f5dccd5"
+    },
+    {
+      "path": "Source/controller_tokens64.h",
+      "bytes": 1998,
+      "sha256": "6cf648b905d71c048559a7ae8f6f03ad0d931d52846d265ffae2f55bcebfdc1f"
+    },
+    {
+      "path": "Source/mercenary_draw180.h",
+      "bytes": 3290,
+      "sha256": "12a8ea6a960772290b9e5beaa138d243e4a5c531d04239bf4b358b80f5293db5"
+    },
+    {
+      "path": "Source/campaign_data200.h",
+      "bytes": 4396,
+      "sha256": "f919cbd753ea3f5b3875ae4fb70c06b393f1f6794d9725362c0503cd06d26174"
+    },
+    {
+      "path": "Source/test_ui37.c",
+      "bytes": 3459,
+      "sha256": "63368acf0d06cb436398fdb204607d7cc1a1d9873577f2f9bb88202e63a7965b"
+    },
+    {
+      "path": "Source/scenery_format.h",
+      "bytes": 3193,
+      "sha256": "7537d30605ec4ae5f0ee930a298a3b08f9e8c69956dd5624f1c80d239d5a5a04"
+    },
+    {
+      "path": "Source/npc_dialogue55.h",
+      "bytes": 4116,
+      "sha256": "582be6924cc5fb8e1ad3ad309e8123d00df282bef6f05643e16e1e6083ea2955"
+    },
+    {
+      "path": "Source/test_atlas28.c",
+      "bytes": 1300,
+      "sha256": "615e6ece0e5a3856bb07defbce7c804fa328cf7634752d960fc6c9534357aa9e"
+    },
+    {
+      "path": "Source/validate47.py",
+      "bytes": 3955,
+      "sha256": "f81d5d44b8d40379f0838e1215903c6d20270f90da734e03443287845aa94c17"
+    },
+    {
+      "path": "Source/guild_arcade194.h",
+      "bytes": 6802,
+      "sha256": "2a62a87fb9cad06426ba8eab58bbe30f4d0ba9f2c273281d6a60295c2aacc3d0"
+    },
+    {
+      "path": "Source/npc_procedural180.h",
+      "bytes": 2489,
+      "sha256": "4214d24c6da4719ab2ff0ad3c503fed05ed14e2c041e31bb04422a4964182360"
+    },
+    {
+      "path": "Source/mercenary_state180.h",
+      "bytes": 1319,
+      "sha256": "3ed50e885fc53aa548a9cac95994d9ee42eec387a5250bf97d8c09bbb17c6765"
+    },
+    {
+      "path": "Source/npc_racing164.h",
+      "bytes": 3110,
+      "sha256": "0d73db2263ebff3c6f10ff51102a29b332264e2638f393d91a89ae95eb54cb63"
+    },
+    {
+      "path": "Source/class_state50.h",
+      "bytes": 3788,
+      "sha256": "e8e50a434edc7b82631839a7c6fd0d41123f358a34600991126819de7bfe6e9f"
+    },
+    {
+      "path": "Source/test_acolyte34.c",
+      "bytes": 4045,
+      "sha256": "7305313aa7c7200cdace2f97ec13f96b129c6737ffb380b06a039bc643f8b262"
+    },
+    {
+      "path": "Source/test_fields25.c",
+      "bytes": 2109,
+      "sha256": "4240ce257e6cd43bfdbab3faa697b4e4e5f11e2e70a77d47c8d194c9c64b91a9"
+    },
+    {
+      "path": "Source/legacy_enemy_streams171.h",
+      "bytes": 3014,
+      "sha256": "2468db4ab51ed7f706fbab3b6c8074a9cfc436c67f559f41fe368eae642b1dec"
+    },
+    {
+      "path": "Source/font_policy200.h",
+      "bytes": 571,
+      "sha256": "b33d98b3a6b5f42930468eb3de3255f709db6410ca2ba20273ef285b965a581e"
+    },
+    {
+      "path": "Source/minimap_draw.h",
+      "bytes": 5039,
+      "sha256": "de5d74ad32dc0385c509d2bac10870ab9adb3cd9aeb93e0a8ea4c0dcd2a5f43d"
+    },
+    {
+      "path": "Source/craft_draw50.h",
+      "bytes": 1178,
+      "sha256": "fd247c4101bd9370a5580851c59fd183bd75626f398d447588b1e7427d1bf4d3"
+    },
+    {
+      "path": "Source/npc_travel_data194.h",
+      "bytes": 493,
+      "sha256": "2c608d7b874ce20e60e5761a8fde25536dc062380770d6d89c9ffb9310650ba5"
+    },
+    {
+      "path": "Source/lockon_geometry49.h",
+      "bytes": 523,
+      "sha256": "9aa6a1d45b1c5e50869c6fee818acf5c7d156931ab205d439df9a938c6d19bd1"
+    },
+    {
+      "path": "Source/import_equipment48.py",
+      "bytes": 1423,
+      "sha256": "51496a9eaf6285975ee1a24c6499eb2cd43863d90c09eddce78d3772ae793758"
+    },
+    {
+      "path": "Source/pause_ui.h",
+      "bytes": 4853,
+      "sha256": "2ca5155068d6084906badb3a06e92a703436db4797304162284d18f0165f1903"
+    },
+    {
+      "path": "Source/pbkit_hardware54.c",
+      "bytes": 117678,
+      "sha256": "70133580f3c2863e9113b4c753632334c73c787b2669f171337c8f2b0b060dcb"
+    },
+    {
+      "path": "Source/test_policy194.c",
+      "bytes": 3326,
+      "sha256": "237e1b7a9147762bd25989d419ddd7cdcf145879f5c2a27fd5e085eb81a049c6"
+    },
+    {
+      "path": "Source/test_water_queries51a.c",
+      "bytes": 1174,
+      "sha256": "330a74fbf84a087d76074e6d4e66a4e28c2b23e158e86a1eb5aace9db4bc3ecf"
+    },
+    {
+      "path": "Source/npc_particle_data180.h",
+      "bytes": 104561,
+      "sha256": "e84acf7cf2436b8a7671d6258d12e4dfd8e21e32d8522d088245dd28a7b78191"
+    },
+    {
+      "path": "Source/hud_batch.h",
+      "bytes": 751,
+      "sha256": "034d0e01f554a01f850ce4722755c4cc4eac0c42a35cf9f9c0bb9e1013ae5ff6"
+    },
+    {
+      "path": "Source/campaign_follow200.h",
+      "bytes": 3530,
+      "sha256": "1e44a58bce41c1e961cff3e17285457f807b3c96859ce256dc5ad6d441f63c1a"
+    },
+    {
+      "path": "Source/chapter2_gates200.h",
+      "bytes": 256,
+      "sha256": "8522c824bb5125fbebfd89962ce10bc1037de3f6d972587caece88e0ea2a1bbc"
+    },
+    {
+      "path": "Source/portal_draw61.h",
+      "bytes": 5966,
+      "sha256": "53e7458c9d729aea1fc49cb0a2c12b1ebfc6d70dea8d477395704eb03a064a94"
+    },
+    {
+      "path": "Source/class_creator52.h",
+      "bytes": 1936,
+      "sha256": "4b41cd00e2d6a6f8574aa10c92e8406db38b4378fc06a34c276fe10194ecc4b7"
+    },
+    {
+      "path": "Source/convert_skills26.py",
+      "bytes": 3389,
+      "sha256": "5e0295fb313ad2d2e596ed7415ed46f6889787ff251049e75387a24b6d308012"
+    },
+    {
+      "path": "Source/regional_draw194.h",
+      "bytes": 1507,
+      "sha256": "8d9fd07dcd65f62d2a77a90d4247c8f7eaeeefdb9a89b5d646794fecfd167b89"
+    },
+    {
+      "path": "Source/compass_layout62.h",
+      "bytes": 642,
+      "sha256": "95182d5b6308415263fce2a71d4b5606c1b607b978ba572cad491f71df2a0782"
+    },
+    {
+      "path": "Source/appearance_data58.h",
+      "bytes": 44649,
+      "sha256": "f243df441b3e5af291eac2c5c0c89d84238d517c9e42f654d2df6c1f53c2cc93"
+    },
+    {
+      "path": "Source/appearance_stream181.h",
+      "bytes": 1421,
+      "sha256": "22ac4cf95d8b1a2f457932671f0eb1c309ce30b6b07255c3ef377cb24e4a85fa"
+    },
+    {
+      "path": "Source/npc_events55.h",
+      "bytes": 2738,
+      "sha256": "6d9d7fc8e71838d6533ff78523855b6a0a2104d6e9e0b528ded68d26ca8534e6"
+    },
+    {
+      "path": "Source/convert_water43.py",
+      "bytes": 1350,
+      "sha256": "cf44875eac04a72d1b09442d6d660ee14605591a891a5bd2f2a9a16c9d78765a"
+    },
+    {
+      "path": "Source/preview_turn191.h",
+      "bytes": 892,
+      "sha256": "191fbcf12a41f53a017500cfebe71860350c7bcdcd8e4d295546b9b2e97b3e04"
+    },
+    {
+      "path": "Source/seasonal_calendar64.h",
+      "bytes": 2182,
+      "sha256": "1bb2881b3b81929cdb4bebab3ce5e908ebf0406c5bfe52774ea8e120fddaa094"
+    },
+    {
+      "path": "Source/stage_base_assets48.py",
+      "bytes": 1734,
+      "sha256": "97753285c874f0a74e34ee00becddba28016ffcf912413d2d408615c6d08b0af"
+    },
+    {
+      "path": "Source/convert_hud.py",
+      "bytes": 4613,
+      "sha256": "70ad5cbb852c033b1200988e1829b1f9dbbe5b79a3b3d82aa6363534d835a099"
+    },
+    {
+      "path": "Source/target_geometry41.h",
+      "bytes": 1030,
+      "sha256": "c315c4187c51ac1005e5a23e404c8741782a3346d0cebdc48a38840a27184d90"
+    },
+    {
+      "path": "Source/font_sample53.h",
+      "bytes": 756,
+      "sha256": "13ef44b7fffbf864279dee5b25d528e5a04098e183bf1f620bb207b69efb8ef4"
+    },
+    {
+      "path": "Source/stage_base_assets45.py",
+      "bytes": 1517,
+      "sha256": "7943fc0c36fcb0b0a500a8463fc137cd089c353058d79825750642dbaa06afc6"
+    },
+    {
+      "path": "Source/class_copy50.h",
+      "bytes": 1059,
+      "sha256": "00b17324034f04e4585dc84cb46426b01a0bdeeb0bf082a7440e02a428ddbccb"
+    },
+    {
+      "path": "Source/convert_walk_surface.py",
+      "bytes": 3583,
+      "sha256": "5143f952160a7891c127faa831783c4fbecf4253ad547fd3e8cb2616aedb52df"
+    },
+    {
+      "path": "Source/enemy_stream51.h",
+      "bytes": 5973,
+      "sha256": "7b9a52b0e5f767967a71473545eb5b2273af2341cd6caf83a323e19042799463"
+    },
+    {
+      "path": "Source/item_skill_map52.h",
+      "bytes": 7013,
+      "sha256": "da4c57ca4c6603d76ccc7d8e32890916c24a2dacd3dca9ba7573cea1d79add82"
+    },
+    {
+      "path": "Source/test_second_jobs43.c",
+      "bytes": 2564,
+      "sha256": "e3c3448501b10f7e9cbe7d36170b5b7ef96f10172485b5e53d7fd99dc3e2812c"
+    },
+    {
+      "path": "Source/test_sound_poll.c",
+      "bytes": 938,
+      "sha256": "39e18fdfaf98c62f66a489acff88ad6b4984611cdcbad2d0ad864b9b837aaca7"
+    },
+    {
+      "path": "Source/npc_trader180.h",
+      "bytes": 1222,
+      "sha256": "5251507d5ba84c142ad4ca95a35fcc55e371bfaa478bf0ba983ecf28479dccc3"
+    },
+    {
+      "path": "Source/travel_status45.h",
+      "bytes": 6472,
+      "sha256": "e9ba39094704194ec87952ef5625cb3a5c66d460a39b493c30e6af25f4eb3315"
+    },
+    {
+      "path": "Source/test_ui36.c",
+      "bytes": 2456,
+      "sha256": "7627ffa1ef366ec64ceaff7d36f9faa03308202876eb78b0558467b431be4edb"
+    },
+    {
+      "path": "Source/item_actions52.h",
+      "bytes": 2331,
+      "sha256": "3e47c598288ec462af3c7f12d9703f910554feadf6d4c39eb9c07f0b1a9d8661"
+    },
+    {
+      "path": "Source/convert_equipped_actors.py",
+      "bytes": 5891,
+      "sha256": "da35a3a01ea89eb9ff462729c4966dfa72e19257562d56ef5169d0304b45c320"
+    },
+    {
+      "path": "Source/class_common50.h",
+      "bytes": 7308,
+      "sha256": "6360ceecda3ea9a98e82fdbc3f5c026f4e79553703f736cc8984ecd8c42e1816"
+    },
+    {
+      "path": "Source/test_recovery44.c",
+      "bytes": 1662,
+      "sha256": "1d62ea5ae95cf579be406827209165ffe30110af9214ee2019719c5ddb39ba8e"
+    },
+    {
+      "path": "Source/button_tokens64.h",
+      "bytes": 229,
+      "sha256": "de58857539f79a210ff35602914ba6d5d94691fcf3d75d5f71737f6fa70c89e3"
+    },
+    {
+      "path": "Source/world_regions51.h",
+      "bytes": 1112,
+      "sha256": "1dbcc52791eefce93191e477a3246f4c6cd7dce68d47f1aa778ac785e491779a"
+    },
+    {
+      "path": "Source/save_store.h",
+      "bytes": 5624,
+      "sha256": "9a423659ad1af9e9f840d3babe0cb04cce5870432be758fa915b56bb15773e22"
+    },
+    {
+      "path": "Source/test_update29.c",
+      "bytes": 2797,
+      "sha256": "d8a0228a13237870d1894e55b0917edb3b8479551ee5c889f38fe7e4e8d4d34b"
+    },
+    {
+      "path": "Source/owned_equip52.h",
+      "bytes": 2854,
+      "sha256": "707f80b2f3cd29197bb85c951cdbd9cb09885a511518ba30e0423adf0d0d85d6"
+    },
+    {
+      "path": "Source/test_world_integration194.c",
+      "bytes": 5012,
+      "sha256": "9d45a07fef113ca6c7d61c5157767fe5c568f3f6d2f13d5585ca16ef687a8c5a"
+    },
+    {
+      "path": "Source/prefs_format61.h",
+      "bytes": 1231,
+      "sha256": "80c261c56a1d8f76d9123b8a5ec5489ebdcc8a340e80c39856e21f3e8d4641ef"
+    },
+    {
+      "path": "Source/companion_data50.h",
+      "bytes": 8518,
+      "sha256": "64d003bf18149481fe1b8592b80ae54e28a05e8e2aaaefe0b105eb80186ceaf0"
+    },
+    {
+      "path": "Source/seasonal_spawns64.h",
+      "bytes": 23689,
+      "sha256": "9515a557ade88ff5fd618e948bb7ada55ab450f7ffdf9f0228233e43d3ff0fd1"
+    },
+    {
+      "path": "Source/save_v13.h",
+      "bytes": 8366,
+      "sha256": "97ee64af87780dba821aed86f9374ab5fab82da9e09ce8b4ff454ab34c3d7b5f"
+    },
+    {
+      "path": "Source/test_loadouts50a.c",
+      "bytes": 2307,
+      "sha256": "a9b5fb9d99e2fcce5cc37a1d5558b54812a072af7c97bebbbf9f39cda83bd978"
+    },
+    {
+      "path": "Source/test_repeat25.c",
+      "bytes": 1124,
+      "sha256": "e6d6fbee5f2d50e809e98d260e1f4094d1264186bd5504be3b350b8bec683cfd"
+    },
+    {
+      "path": "Source/system_data50.h",
+      "bytes": 7069,
+      "sha256": "eddac4f6c4a973d53a542d23346b6424ada5f88ee581addfc1eed1507a4caf98"
+    },
+    {
+      "path": "Source/target_select47.h",
+      "bytes": 3304,
+      "sha256": "f06565c86d9edda6563c651257067752e968f6a1cd8ebd17796261541430f5b5"
+    },
+    {
+      "path": "Source/pause_settings61.h",
+      "bytes": 2961,
+      "sha256": "da72d3597937702768ef63b2ed0ad4972a0719fd134af4d7bac81ec376a7cb07"
+    },
+    {
+      "path": "Source/stage_base_assets47a.py",
+      "bytes": 1518,
+      "sha256": "8b3ea63d1e934be824d69c1d939c69059de2467b45476e892afb7e3c3c5593d7"
+    },
+    {
+      "path": "Source/expanded_icons60.h",
+      "bytes": 1893,
+      "sha256": "193dcadf384e5fb6ecd271e73800fa9e504c535bae898af1c6f4124d546f3506"
+    },
+    {
+      "path": "Source/convert_class_art48.py",
+      "bytes": 4652,
+      "sha256": "673432e16c23ffcb3c398336e21c7b67f2e3c319be7a9c9cc59c1543d245b0de"
+    },
+    {
+      "path": "Source/frame_profile50b.h",
+      "bytes": 1946,
+      "sha256": "603639b68d7a14deb06ee551206a29862fa2ce5fb5adae1907e514d793814b56"
+    },
+    {
+      "path": "Source/normal_towns52.h",
+      "bytes": 12965,
+      "sha256": "dda6f8ae6b95ecec09af6535edad0eccc518d62c9068398e2959d7ef3dbeb059"
+    },
+    {
+      "path": "Source/test_ui49.c",
+      "bytes": 1404,
+      "sha256": "6253bdc8b48a8f0397dd2244db3dda50c3231df3b7235bc82707bbded8be023a"
+    },
+    {
+      "path": "Source/test_art39.c",
+      "bytes": 2960,
+      "sha256": "570d1c2509b06b99cd08f12f0e549ab5bde8b67df6f7fab29f34143af2e76c9a"
+    },
+    {
+      "path": "Source/verify_prepared_actors52.py",
+      "bytes": 3097,
+      "sha256": "f4ad1ac8828520e80f167d1f92a509fbdce9a4b5a43d40d02a3c4e62d24701dd"
+    },
+    {
+      "path": "Source/mob_route53.h",
+      "bytes": 2463,
+      "sha256": "861b7935aee08ed291af431fc22318fcc1e84ef1d68b954f5433f06ef175df66"
+    },
+    {
+      "path": "Source/campaign_party_state200.h",
+      "bytes": 4880,
+      "sha256": "7bfa57711781d2685c4af0a19a458c0e41eaed290743f0a340047aeaa94bf991"
+    },
+    {
+      "path": "Source/acolyte_skills.h",
+      "bytes": 5266,
+      "sha256": "9902cb2b9e8f25aab87eb3a6808ef528dc5eb0dec7f0b01cb99a935b1e48e70c"
+    },
+    {
+      "path": "Source/compass_letters200.h",
+      "bytes": 1290,
+      "sha256": "fea00732e1f83d526fe09d81e1e813a8795b341fa99518314ebc5e942b7bd995"
+    },
+    {
+      "path": "Source/save_browser56.h",
+      "bytes": 3304,
+      "sha256": "8949dd092c1f2b694388c2836811f5f4b240e36fed072416bb90d1df2ba7c8d9"
+    },
+    {
+      "path": "Source/quicken_trail45.h",
+      "bytes": 2263,
+      "sha256": "56f02bf5112c05e9982caf8831a82231b9ed095286ff6e51d8ebf9c3072824ce"
+    },
+    {
+      "path": "Source/save48_import50.h",
+      "bytes": 2572,
+      "sha256": "48c551fce14af38cef8c3256a0071d8ae833cdc0f35f26ff9642bad9cba462e4"
+    },
+    {
+      "path": "Source/test_equipped_actors.c",
+      "bytes": 1462,
+      "sha256": "64a475ad94d07ad0d6625fd900101539d66475c7bce269900552efd973827c28"
+    },
+    {
+      "path": "Source/npc_cache183.h",
+      "bytes": 480,
+      "sha256": "11ff6255d76ca76d1165f9e453a039fecb91b0cb5931d72444cb63f6097713c0"
+    },
+    {
+      "path": "Source/npc_runtime55.h",
+      "bytes": 7632,
+      "sha256": "52a14217d21dfa440641dedd0aedb5f06a27dd0fb9852f0489c601ce5008f024"
+    },
+    {
+      "path": "Source/import_music49.py",
+      "bytes": 2864,
+      "sha256": "2850b8b80870364bda75930b97e00dfea1a8ccf469ea0c21bd47ec55b283f182"
+    },
+    {
+      "path": "Source/npc_player55.h",
+      "bytes": 9157,
+      "sha256": "1ace584adff6aea5d5295640525826bba016e798ec73b3261950e403369a7c5e"
+    },
+    {
+      "path": "Source/core_quests53.h",
+      "bytes": 2156,
+      "sha256": "84089705f3d3f2490b1bc208d5aaa06db9a0786cd066da2cf0099455fb947778"
+    },
+    {
+      "path": "Source/map_markers64.h",
+      "bytes": 587,
+      "sha256": "15a722c66e86d1930b5ee221877778263afbe627d9c36896b709ee344a9c3685"
+    },
+    {
+      "path": "Source/test_session40.c",
+      "bytes": 1970,
+      "sha256": "0fe6c7121165919cc7d69547e5111b2c5b2bcc6caee2b39a3f39e79c3a47074e"
+    },
+    {
+      "path": "Source/convert_ui.py",
+      "bytes": 1613,
+      "sha256": "947d361af82806aebdb7c4ed65cd41b6b2f461e1f556782b0a63eb7f5eef47dc"
+    },
+    {
+      "path": "Source/trans_registry52.h",
+      "bytes": 3978,
+      "sha256": "4da34e3c034f0c9b81b1638a89f6cc28ea55a98f42142c57eb565c8554764db6"
+    },
+    {
+      "path": "Source/hocus_pool48.h",
+      "bytes": 1759,
+      "sha256": "4135c92cae5c5fb2c266fbad5e26a582b064b48f06baea2a7d1f92085c8347ff"
+    },
+    {
+      "path": "Source/convert_clearance47.py",
+      "bytes": 5383,
+      "sha256": "e30ad8960c17ae659e6ceba08ac3aa2233b6729289054b7232994d8767325707"
+    },
+    {
+      "path": "Source/Makefile",
+      "bytes": 3161,
+      "sha256": "8c076d2baa0e7ea04358cad8c423262641c3ae8088aadd20971f8eca2e87f88b"
+    },
+    {
+      "path": "Source/art_assets39.h",
+      "bytes": 1396912,
+      "sha256": "47be9f42953cbda8f315461833a742d39204030281b9a570894da9567cdaa49a"
+    },
+    {
+      "path": "Source/enemy_disc44.h",
+      "bytes": 2295,
+      "sha256": "3f20c8fd285c066f32df18144a0f3125649c48242907241d52e9ddcb30ca7d26"
+    },
+    {
+      "path": "Source/terrain_minify52.h",
+      "bytes": 1742,
+      "sha256": "48f5fa28bd72d49a0909d3f221225af3614a6687531ba546da00d45979465450"
+    },
+    {
+      "path": "Source/convert_actors43.py",
+      "bytes": 1551,
+      "sha256": "d9575c5997fcbf1a8310e455e419100e89278af2d6d3205a6e2777153c710123"
+    },
+    {
+      "path": "Source/portal_geometry61.h",
+      "bytes": 694,
+      "sha256": "4bd75048190fbe1bd6c7d6667b81806ec111f2f585fe11fe54feca100eb57de5"
+    },
+    {
+      "path": "Source/class_prereqs48.h",
+      "bytes": 3775,
+      "sha256": "7ceb209aaf5eb052bd3d5bf596d6c148469d27a2e62e976b59ef7c53faf6685a"
+    },
+    {
+      "path": "Source/verify_player_contact34.py",
+      "bytes": 1433,
+      "sha256": "6caee9df9fbf49bd5ce1fedeb11e92f5cad72cfac002a996f0b221b958a71aab"
+    },
+    {
+      "path": "Source/test_encounters.c",
+      "bytes": 1979,
+      "sha256": "91e9fdb159837c355d07914db5c20c4c30da5e54ddee204caa1e406da89ed74b"
+    },
+    {
+      "path": "Source/class_hunter50.h",
+      "bytes": 3952,
+      "sha256": "a0f4b4bb9bc36eb6f479cc26f5113d514694cf448560f8a138db018056ee07a7"
+    },
+    {
+      "path": "Source/hired_helpers191.h",
+      "bytes": 467,
+      "sha256": "7cd956f1a0803404695f06dbe712c57bd669238730c961e37d9960bda7266b39"
+    },
+    {
+      "path": "Source/water_draw.h",
+      "bytes": 2171,
+      "sha256": "db12eba300eb062c292589d2b58604499c3718647b16691a5131368600518904"
+    },
+    {
+      "path": "Source/test_music_residency50.c",
+      "bytes": 4418,
+      "sha256": "931dbc59bffafed099088cbd839fe1b64c85221f3aa565b07668f731d0f63fbd"
+    },
+    {
+      "path": "Source/class_lord_knight52.h",
+      "bytes": 5561,
+      "sha256": "27c50b1cfc3042da2f13fd6354ef3466ed6ba043be83905e3ec5e3a5b659ad39"
+    },
+    {
+      "path": "Source/convert_control24.py",
+      "bytes": 1848,
+      "sha256": "1462cda43247e5ddcf83f7687b988baa2c37ecf32392eaa0ee8d459edb9af398"
+    },
+    {
+      "path": "Source/frontend_prefs56.h",
+      "bytes": 3660,
+      "sha256": "eaad7e8201709c96eec2dec9f4d05bb255c9fa315eb7dc08ff3b899b03da231c"
+    },
+    {
+      "path": "Source/item_icon_pack52.h",
+      "bytes": 111,
+      "sha256": "ecafacd8a37fc69e1fd449a9d5cf2cf7afdba709bfd967595b6d44c67eac9703"
+    },
+    {
+      "path": "Source/test_rebuild50b.py",
+      "bytes": 978,
+      "sha256": "fa892c5c4f0dfbe69d850c18ceb154710e74b3d9354988b8dacf2d1178c55b89"
+    },
+    {
+      "path": "Source/ammo_data60.h",
+      "bytes": 3342,
+      "sha256": "00e6d31cce94cd64dbbe35fce01a6cc353788eff6c6cba052ed36a5fb61d1ca6"
+    },
+    {
+      "path": "Source/restore_assets.py",
+      "bytes": 1011,
+      "sha256": "87394a198568cd75ff901ba5621cbf043ee6269acc4a92fc395c32f7589cbc7c"
+    },
+    {
+      "path": "Source/ui_assets.c",
+      "bytes": 51826,
+      "sha256": "702d7e8929cbff2cd92afc58363a34bd2111bfb7fe55595e31d1625f5fcf9058"
+    },
+    {
+      "path": "Source/test_atlas30.c",
+      "bytes": 1735,
+      "sha256": "1bfb08c1babc071983ea14916cc37bfa6f846fda2e8080a9651ec4d67592bf9e"
+    },
+    {
+      "path": "Source/test_world43.c",
+      "bytes": 10411,
+      "sha256": "978e226ff57346bf9d5ebbebce18352742bb4325820bac7661cabb7658450492"
+    },
+    {
+      "path": "Source/item_access52.h",
+      "bytes": 58440,
+      "sha256": "ef19672e9ba917e301dbd1435c80f6306006072f7781b7b4597031efee5c0730"
+    },
+    {
+      "path": "Source/regional_world194.h",
+      "bytes": 1061,
+      "sha256": "7375e6e8b47483a4260f059161a57df7eb7e3a2b66de2a6e4b0b7734c2dc53a0"
+    },
+    {
+      "path": "Source/portal_draw52.h",
+      "bytes": 3021,
+      "sha256": "69e1f0bbdd5ed926460e370a998ac658e4016dadc0ad056ad01c0b9c26a44eec"
+    },
+    {
+      "path": "Source/validate43.py",
+      "bytes": 2255,
+      "sha256": "d1bae151c92f05a35825aed313e61c0230be0f960fab751be2a029b485199287"
+    },
+    {
+      "path": "Source/convert_ui33.py",
+      "bytes": 1937,
+      "sha256": "4b799b8ea42237c5d1691be5c55e850711954fb4770f25f310f03769933a55f5"
+    },
+    {
+      "path": "Source/skin_layout.h",
+      "bytes": 348,
+      "sha256": "91ed16ce8b2fc38261bcaef9feb22388a2d44033ba9be526ee5d601e62d583f8"
+    },
+    {
+      "path": "Source/item_rules52.h",
+      "bytes": 227231,
+      "sha256": "a3b252d35191342da57aa90a1efacf561b7ea01c2ebd02a9c5687d9c9b7e5fc5"
+    },
+    {
+      "path": "Source/stair_seams52.h",
+      "bytes": 136206,
+      "sha256": "cd4fdbb8f2af2e009658c058b0849d43627ba6e752002d0349a2ea6eb9f93af8"
+    },
+    {
+      "path": "Source/convert_item_icons46.py",
+      "bytes": 2990,
+      "sha256": "86acfae927399079174637c32368bd55bbd85d3313e40bd9eba69ff30561eb6a"
+    },
+    {
+      "path": "Source/test_travel_preflight194.c",
+      "bytes": 8910,
+      "sha256": "62102ce1f9f2aca5f059e190a9f4c9197ab4115e9989a9653cf477e8f9263aa2"
+    },
+    {
+      "path": "Source/npc_effect_audio_data172.h",
+      "bytes": 1018,
+      "sha256": "11b290c0cbb95a7774563860104f8777a3ca42629d759649504d3f727738ff1b"
+    },
+    {
+      "path": "Source/trans_req_data52.h",
+      "bytes": 3874,
+      "sha256": "b082dab478ca4994fa944d056cdc835adb63e073adfb562fd758fbdce2fecd52"
+    },
+    {
+      "path": "Source/test_stats48.c",
+      "bytes": 2070,
+      "sha256": "7d7ba1593537d857d88cb5d98fef46f762a4c3c439ee3f08dbb7f90cc3aee382"
+    },
+    {
+      "path": "Source/prepare_damage_art53b.py",
+      "bytes": 2596,
+      "sha256": "2474e29eed5cea818a0ea6056c1b95479320760d352e3b64463486e31e24d4fd"
+    },
+    {
+      "path": "Source/npc_halo180.h",
+      "bytes": 1389,
+      "sha256": "c5e0e4ba4147b828b846993de327334bc13a4c3aa3c7447481c5e4d9eb6ae835"
+    },
+    {
+      "path": "Source/npc_sound_data64.h",
+      "bytes": 4253,
+      "sha256": "bc53a1f036d6e689f0eed8f1e1f2e64f1ab80e7090315d000e18a6dec88aec15"
+    },
+    {
+      "path": "Source/stylist_preview191.h",
+      "bytes": 1441,
+      "sha256": "4a118a20f52727d63345c9cd15a72df235b90656f3330c7ddaae4ebbdc894284"
+    },
+    {
+      "path": "Source/test_gpu_program51.c",
+      "bytes": 1648,
+      "sha256": "60e0e9190e4b9f6747ffa2ae74c221712f1daaa5f48c15b8a9a6ee370f9dc0e8"
+    },
+    {
+      "path": "Source/test_skills26.c",
+      "bytes": 4716,
+      "sha256": "d5e91f05dd63765896ec5b8aaabd89d50c390e1fd72480e9b4feef24f485fb98"
+    },
+    {
+      "path": "Source/guardian_pose_cache65.h",
+      "bytes": 1729,
+      "sha256": "d0506c175372a96945151d359cfc28da8c11b092ea42301f79e0d28c89f0be84"
+    },
+    {
+      "path": "Source/plan_classes50.py",
+      "bytes": 3877,
+      "sha256": "5bffa18fc6b977141fea8f81b8bd795faa2de6d921b1cf5dc07f6b72524ddf33"
+    },
+    {
+      "path": "Source/npc_dialogue_draw55.h",
+      "bytes": 6943,
+      "sha256": "97257c6c22d486094ada67fcf9ec1583193615df80e7e11504fb6c2190832ff7"
+    },
+    {
+      "path": "Source/stage_base_assets46.py",
+      "bytes": 1517,
+      "sha256": "cd41f1ea7f6941be6c4a6c0583e50761e7fd86de212884a905858e5b76f3c83c"
+    },
+    {
+      "path": "Source/terrain_view180.h",
+      "bytes": 1206,
+      "sha256": "02d376894d7539d6f3dbedb95afe4e19619f38c96a8b55333a3443ababdcbd0b"
+    },
+    {
+      "path": "Source/lockon_asset49.h",
+      "bytes": 23157,
+      "sha256": "1d3ef52c033b6050e6345c143360b3c8bf1741f0105b74e9b905a2942ecc36d8"
+    },
+    {
+      "path": "Source/player_route53.h",
+      "bytes": 7212,
+      "sha256": "cb35d53d216035f27ffa3ae73feeea3b3618e4ab496a5ca1d46601d3fd0659cf"
+    },
+    {
+      "path": "Source/hair_choices112.h",
+      "bytes": 721891,
+      "sha256": "810711777fd7c845eff5aa1f5119481f428ee8919fbc9c9982eee6c37c84525f"
+    },
+    {
+      "path": "Source/session_controls40.h",
+      "bytes": 1137,
+      "sha256": "c73c3ef2ffbe6dab1c10505e745f1e03c6cc1927ebb3cc77d5b7366ef5e3d50c"
+    },
+    {
+      "path": "Source/test_disc44.c",
+      "bytes": 2581,
+      "sha256": "0e7a5274a910eb4266b98d094d3ac19564b2fac580b08c7b055a333dc91e3ace"
+    },
+    {
+      "path": "Source/ice_texture48.h",
+      "bytes": 57635,
+      "sha256": "5a62bc5fbba87d63c20456d65685fc36f4bbe07d761bfe798fc140ab56a98f51"
+    },
+    {
+      "path": "Source/test_behaviour41.c",
+      "bytes": 3630,
+      "sha256": "3446c1f82dbc015afb5027ce2ca86e7a339d48db392564c191c94d05026d5e76"
+    },
+    {
+      "path": "Source/water_wave190.h",
+      "bytes": 1892,
+      "sha256": "a15d5c01c1e920732cf3d6d5ffa7f794b6ecf46a5c743d834c7e942a9a433416"
+    },
+    {
+      "path": "Source/convert_cast_timing38.py",
+      "bytes": 2125,
+      "sha256": "0d2b7f198b58c1fe58b119c3d19081ad57813c2e8b179c01678f2d95cbab938d"
+    },
+    {
+      "path": "Source/test_effect_draw26.c",
+      "bytes": 1087,
+      "sha256": "0e930633fb4388c799508329429f14e4e579ab283afaa947b0d0f48b0ba83bb4"
+    },
+    {
+      "path": "Source/convert_sword39.py",
+      "bytes": 5327,
+      "sha256": "5b007ff2432ea365cbed315f95a02ffc394081be3b5d2601dc6faab5257c2b96"
+    },
+    {
+      "path": "Source/water_data190.h",
+      "bytes": 41455,
+      "sha256": "e54fd5a066e608de5d9d9ecb1e226672157ff584716e989599d0ed1877ad4c21"
+    },
+    {
+      "path": "Source/convert_last_icons.py",
+      "bytes": 1860,
+      "sha256": "bc87605e2924e9645f2f74ceeded1274f3f0fde73768993467494af115a4c2cf"
+    },
+    {
+      "path": "Source/validate41.py",
+      "bytes": 6355,
+      "sha256": "bf5a3fd439aadeef86ccc735fb0a164c7b937d0703ef6c8dcefa6c5e6c2e2146"
+    },
+    {
+      "path": "Source/npc_items55.h",
+      "bytes": 2516,
+      "sha256": "88d92393f231ff0107f74ad842b827834bfb2ae0728b690f69ef8477ed62a8f1"
+    },
+    {
+      "path": "Source/skill_audio180.h",
+      "bytes": 201,
+      "sha256": "cbf5f71fd59a3693ab896595b0a74bbae76b14db9db71a7b74ee371c93820842"
+    },
+    {
+      "path": "Source/quick_slot.h",
+      "bytes": 2163,
+      "sha256": "c4492084f576dc540fef64ea2f360502965488c31a546793bebf6b204b47b6e3"
+    },
+    {
+      "path": "Source/validate42.py",
+      "bytes": 6622,
+      "sha256": "a67220beb9ca26c4a4018e68a175edd3c838944d27748b4790e4a72632db6098"
+    },
+    {
+      "path": "Source/item_script_runtime52.h",
+      "bytes": 14555,
+      "sha256": "1fce8d6946e203f443080cea134d522dbf3427004c18066c9623efd6ac0c9992"
+    },
+    {
+      "path": "Source/npc_text55.h",
+      "bytes": 3342,
+      "sha256": "3092037d2d521d8447ee39c3c78683567761ae98df61bf0bf0fe0a28726fc54a"
+    },
+    {
+      "path": "Source/prepare_companions50.py",
+      "bytes": 3851,
+      "sha256": "45239d56455237c8991a5ed8972485259c1a0c273b57aca6c9118b8852a954ca"
+    },
+    {
+      "path": "Source/convert_meteor49.py",
+      "bytes": 4792,
+      "sha256": "bbdf97a6db89c6e2173aa7650c4047f83664632fa9fb9a881093eb5c18adcad2"
+    },
+    {
+      "path": "Source/class_ids48.h",
+      "bytes": 1202,
+      "sha256": "ecd55d755c9185f9d6bf82cef5277ba7ced3e2b64507aca3cbd868338eda8a79"
+    },
+    {
+      "path": "Source/class_field50.h",
+      "bytes": 951,
+      "sha256": "4b560b9fd83e40b105173b3d2ae958e024b1ce3055cebf68ce57a928ffa824ef"
+    },
+    {
+      "path": "Source/test_hud_batch.c",
+      "bytes": 1276,
+      "sha256": "1da2cf8328fb5d953a6fc8d4690aa602edf6b3c812d38ad62ed44fb03f66b0ba"
+    },
+    {
+      "path": "Source/test_fields49.c",
+      "bytes": 2078,
+      "sha256": "53c9ec80c9424839c17d792fdf3cff9d1da57de1c96cbd4685c35ef2f90b766e"
+    },
+    {
+      "path": "Source/test_profile50b.c",
+      "bytes": 1250,
+      "sha256": "10edc6e3be9afa877390e6f37fb01343a6bc7f592a18583c634c381ae8221930"
+    },
+    {
+      "path": "Source/bake_lockon49.py",
+      "bytes": 1075,
+      "sha256": "90c60e535b2c10fe29e5249b36f27cba07bb86beb270e5532ac2601d45328a2e"
+    },
+    {
+      "path": "Source/mercenary_traps180.h",
+      "bytes": 2724,
+      "sha256": "3355c1ccfa56a9c1b0ecafff7b66b272b3d5c1da5ef59c995f79aca97bf8a0b1"
+    },
+    {
+      "path": "Source/convert_cart_contact40.py",
+      "bytes": 1480,
+      "sha256": "c3afc52a39f76b31782f5cf12a3af3d26e1a06f08041423a1c4e53d869be1cd0"
+    },
+    {
+      "path": "Source/convert_skill_atlas21.py",
+      "bytes": 2731,
+      "sha256": "4c99896207930318e98ad51321cb6b7913fa96a5a8538e4160e85fa0b042a83b"
+    },
+    {
+      "path": "Source/test_ui41.c",
+      "bytes": 5749,
+      "sha256": "1d02bea65f1b4f17e4a86269fcddd13f49cf2b456d14642b56af6db0a96e56c3"
+    },
+    {
+      "path": "Source/test_storage41.c",
+      "bytes": 4766,
+      "sha256": "4d9b35f0044260532126d1c51fe1054420d69883d7c7957821be509cb28e3f93"
+    },
+    {
+      "path": "Source/convert_water.py",
+      "bytes": 2884,
+      "sha256": "2da511bf0daadd75f2b6ce7cfbd9055bd130ed64eca2619f181741b0cd1213a5"
+    },
+    {
+      "path": "Source/test_ui42.c",
+      "bytes": 8337,
+      "sha256": "5bca934c7eeb7d9f706dd13b817234b92f3f966233d84e853f72f28d4df85e9c"
+    },
+    {
+      "path": "Source/trans_burst_draw52.h",
+      "bytes": 1338,
+      "sha256": "5b648ca5bf5ff4aa54486a2ecad12e8cd3a6102348fcaed1e187f0036d9cfccc"
+    },
+    {
+      "path": "Source/minimap_upload.h",
+      "bytes": 1943,
+      "sha256": "ef36132cdeb53138657c533df8443e4822c494a5c18422653151d10e8ce1fb12"
+    },
+    {
+      "path": "Source/memory_draw183.h",
+      "bytes": 1838,
+      "sha256": "2e1a922a6b25e022c29c65e60e037bfbae730ca0675f003a03d050ae1d215903"
+    },
+    {
+      "path": "Source/npc_access_data194.h",
+      "bytes": 20430,
+      "sha256": "24960a3da0a39e9864066f067c058c0a45c83a40e48df4dd6c9bcf589bd95345"
+    },
+    {
+      "path": "Source/test_damage_render20.c",
+      "bytes": 3840,
+      "sha256": "2eb40ab2da57f8aecb1f5fa8e96599d46dc6f614b57c6b5e7b4de6c3b74349f7"
+    },
+    {
+      "path": "Source/test_support_cast38.c",
+      "bytes": 2594,
+      "sha256": "9a3695c49eb6c0bea4a5987825272773474cb43492b48ba33e48ac7fb4075aa6"
+    },
+    {
+      "path": "Source/test_developer_render20.c",
+      "bytes": 2799,
+      "sha256": "f24a50fb78c23a4c2208e65327458cd8524fd8dd2f8778a4aa6964748c65fa1a"
+    },
+    {
+      "path": "Source/mvp_balance164.h",
+      "bytes": 1452,
+      "sha256": "0af39d2dbe485367c3532c45591a879a81a92c09c938878356ed31620b4d932c"
+    },
+    {
+      "path": "Source/cast_ray.h",
+      "bytes": 615,
+      "sha256": "81647cf32dc7a8c8c5e41e3854bb2ba3c19af2d515f8879279ea7a829291a60b"
+    },
+    {
+      "path": "Source/regional194.h",
+      "bytes": 9335,
+      "sha256": "14705adb1bbde5da80c3ed676f7b1600d599540d962fef9e2781a3501b8540a4"
+    },
+    {
+      "path": "Source/import_class_skills48.py",
+      "bytes": 1818,
+      "sha256": "0d8029a2aca71b411bf631f709cdcc1637aa04819b1a7137dcd5baaef8a2bcd3"
+    },
+    {
+      "path": "Source/frontend_xbox56.h",
+      "bytes": 19351,
+      "sha256": "4faf48cd39895747aac08ec750aa93f7decb42a54bf085a56142d5fc3dc93fef"
+    },
+    {
+      "path": "Source/import_materials48.py",
+      "bytes": 1946,
+      "sha256": "2aa85ed38ae1186f099f2f4168e1896240d213b311cd21cdf77ce22f7258662f"
+    },
+    {
+      "path": "Source/test_guild_ui194.c",
+      "bytes": 5303,
+      "sha256": "79b5468b8d97bf88a7d4b28a8079bc362d84890b15864bc900f3384f3659a5d0"
+    },
+    {
+      "path": "Source/gear_skill_rows52.inc",
+      "bytes": 8549,
+      "sha256": "91b49a5d608370ac7e9df849cae03987183ad6c8677d44d96c8da9bc04bdc354"
+    },
+    {
+      "path": "Source/npc_cylinder_geometry180.h",
+      "bytes": 2311,
+      "sha256": "3f5b86c6deefa8783f159d1e1f55f9f5aa5c88e1306c3accaffb9341f794c20f"
+    },
+    {
+      "path": "Source/expanded_rules60.h",
+      "bytes": 2098,
+      "sha256": "54ffc281dd67e1ef06ba48d50a8a80b94f64cf85d105d14b0a5c07b40340d829"
+    },
+    {
+      "path": "Source/test_atlas26.c",
+      "bytes": 1090,
+      "sha256": "e6b600357ab1cdf9212411deade52d533fde2552601dc9bebebb37838e305ba7"
+    },
+    {
+      "path": "Source/LICENSE.txt",
+      "bytes": 1084,
+      "sha256": "2bb991476c7a10353327de954326f5b690b7553351c2805d1926724c76c56be9"
+    },
+    {
+      "path": "Source/convert_cast_timing37.py",
+      "bytes": 1887,
+      "sha256": "3d5aa70a217f6f0b67d303c98d1aecd2bd25408c879ede144d0080e2f419fcfe"
+    },
+    {
+      "path": "Source/test_combat.c",
+      "bytes": 2534,
+      "sha256": "c8def365aefbd56a65c33cb5bbb194c779bceaa00c9c5f6156a66273994e31a3"
+    },
+    {
+      "path": "Source/test_controls15.c",
+      "bytes": 3330,
+      "sha256": "9b68c2e0fbaa6d9afc8c81dbcb05279a74a13f36b43cf28379c3c1d1f9426d67"
+    },
+    {
+      "path": "Source/headgear54.h",
+      "bytes": 11161,
+      "sha256": "eeae847e598ce4ed8b38953fb565156120eca30a3c61fc465ba163ab0fe9ea08"
+    },
+    {
+      "path": "Source/guardian_data51.h",
+      "bytes": 32675,
+      "sha256": "1ab0fe4ef609ef79871aa520e8a441b8fd36cf83a7b18e11022fd71a4c299d68"
+    },
+    {
+      "path": "Source/test_maps45.c",
+      "bytes": 3333,
+      "sha256": "964899279101b3ac0676060ba8929992ce85e0d5731f5c44c4abe92fef073d9a"
+    },
+    {
+      "path": "Source/mob_range43.h",
+      "bytes": 2082,
+      "sha256": "9a5bb24920f5187e82634cd380d0c4a5f94a3ac682549dbd90442db32e8c5bca"
+    },
+    {
+      "path": "Source/screen.inl",
+      "bytes": 144,
+      "sha256": "544305a36ba6924b4da59a0146d427cbaed345be4ff4fa33e3eb95095fe787b2"
+    },
+    {
+      "path": "Source/test_acolyte38.c",
+      "bytes": 4398,
+      "sha256": "066b600a400cb53b5ca48d58eae115eb8436bf0c8e457b7490f8976395029028"
+    },
+    {
+      "path": "Source/npc_touch_data172.h",
+      "bytes": 1750,
+      "sha256": "01259fca3551a93598e00ce6b8c7ea7f0b051ecab89f3e9da036b7ba2b53ed2c"
+    },
+    {
+      "path": "Source/heap_trim183.h",
+      "bytes": 1078,
+      "sha256": "c0b1162582f95aacbfe7ded0c152cf571d1450efcad8d95e14a08d45dba81dbf"
+    },
+    {
+      "path": "Source/class_callouts50.h",
+      "bytes": 7349,
+      "sha256": "eef0e215ffd31eb00077aa955c748152b86809e91299851d519140cfac246e0e"
+    },
+    {
+      "path": "Source/owned_import52.h",
+      "bytes": 3955,
+      "sha256": "ab355bb475333dc54b3ba9239b36b6d849fc03240fdbc6a784053c60fa84658d"
+    },
+    {
+      "path": "Source/walk_footprint46.h",
+      "bytes": 1113,
+      "sha256": "809e9c2765b0d13957928a4e65b68a71f972b1d8434bb263611c7b2f782623f5"
+    },
+    {
+      "path": "Source/npc_program_cache55.h",
+      "bytes": 3376,
+      "sha256": "8bef3f9707e034cf6b3ae270d5db17412da48a45e2e9ca2fdeff0dfca79f7225"
+    },
+    {
+      "path": "Source/test_expansion35.c",
+      "bytes": 3875,
+      "sha256": "1a75afdceac8be27bc5e11cc02fc44ef76c00489e4c065fe995eae8e0936410d"
+    },
+    {
+      "path": "Source/companion_render50.h",
+      "bytes": 7201,
+      "sha256": "bde76498d8f218941a8a11b1370815941469347eeb877646a7d34663991eae36"
+    },
+    {
+      "path": "Source/class_effect_ids62.h",
+      "bytes": 922,
+      "sha256": "305126fb935ee4c67b77b0a6921d21457c2497bc6a9283fb1d5a25c7074d1a59"
+    },
+    {
+      "path": "Source/hair_choice_decode112.h",
+      "bytes": 341,
+      "sha256": "c06085f60490c5b5fbc72fa6e6e159aa6850cc74c3530fcbaf69f2be5b5902d8"
+    },
+    {
+      "path": "Source/art_catalog40.h",
+      "bytes": 737,
+      "sha256": "ac5dedc96655aea345aea55a344a2318e7868b6cea1f0230a91280e2f7de41f6"
+    },
+    {
+      "path": "Source/combat_support.h",
+      "bytes": 2190,
+      "sha256": "f8c84fb4cf6a495475b02d95f55f8dbd0f75011eb418b6a63687fbc042e0d93c"
+    },
+    {
+      "path": "Source/convert_art41.py",
+      "bytes": 10075,
+      "sha256": "9cb761dbd8ac05a47d95cccf78bd95d09e01bb1bf15ba1465bf6ce1667f820aa"
+    },
+    {
+      "path": "Source/ground_state58.h",
+      "bytes": 481,
+      "sha256": "a36426326ad8a795cfe7dfddf63b066a84ba1b484d44b4617d1045131f3f3617"
+    },
+    {
+      "path": "Source/test_dual50.c",
+      "bytes": 2474,
+      "sha256": "e07d754fcc4e18707a24a4f549d562bb5bdae440edeeb40f0abed1c80613f973"
+    },
+    {
+      "path": "Source/prop_routes46.py",
+      "bytes": 1071,
+      "sha256": "6248104694f49c111837569f4c02f4466ff5f7bf88b1c4417cb903ced874c20c"
+    },
+    {
+      "path": "Source/npc_sound_names64.h",
+      "bytes": 3594,
+      "sha256": "79d2531c73d39ac089902bca71565acd20f196530dfc1d35bdb37ff322919f23"
+    },
+    {
+      "path": "Source/campaign_career200.h",
+      "bytes": 2474,
+      "sha256": "7b3de6569337bc86d59c7d8a4c20fbb28324f1187bdd351d783621c1c0fb5b31"
+    },
+    {
+      "path": "Source/art_assets41.h",
+      "bytes": 1433309,
+      "sha256": "5e116b47799c2e9148ec293fb5d84bad9a82e25cbb5f493fa9e10f94aeef13e1"
+    },
+    {
+      "path": "Source/validate_formats50a.py",
+      "bytes": 1142,
+      "sha256": "dfbf342e57e187b1c4d4214e21692d546a6aa3e29b689da765360bbf0512a10e"
+    },
+    {
+      "path": "Source/ice_geometry48.h",
+      "bytes": 1411,
+      "sha256": "eb16325c5d11e807bb0e9eebd7df699e18b49debe54daf5247a7aff81dfc0aae"
+    },
+    {
+      "path": "Source/test_ui40.c",
+      "bytes": 4988,
+      "sha256": "e2d185cea00da4ffd4b74337eac378baca443297bd52c6ccf135fd7981372edf"
+    },
+    {
+      "path": "Source/prop_clearance46.h",
+      "bytes": 933,
+      "sha256": "25f9b3ea0cfe1c42b9b63d9241ec226186499998f072454c1e19e468450fb22d"
+    },
+    {
+      "path": "Source/ground_loot58.h",
+      "bytes": 5935,
+      "sha256": "d530666050cbf779c9e78b09984b45e759e2129da171283fca38dbdfe20e792b"
+    },
+    {
+      "path": "Source/class_sound_data50.h",
+      "bytes": 6048,
+      "sha256": "37372e891d24d26ffa469cd439fac5957cb3b1530d4d29a8f1090435230ea1ab"
+    },
+    {
+      "path": "Source/input_repeat.h",
+      "bytes": 732,
+      "sha256": "0d97dcb76c56fe09cc9c7112617760e242a1aa307f447f46e3dfb1cf51a472ff"
+    },
+    {
+      "path": "Source/test_sound.c",
+      "bytes": 600,
+      "sha256": "2179159ad68d841ec71fd95ebd9ebc2545262a0f110493a0fced89a196a5a109"
+    },
+    {
+      "path": "Source/encounter_assets.c",
+      "bytes": 6950709,
+      "sha256": "b58e5c705bc2d22f7a73098512c2bf75f1ddfd9e057be6a439fbe7c4997407d2"
+    },
+    {
+      "path": "Source/npc_special_draw180.h",
+      "bytes": 5237,
+      "sha256": "7e3cbc7d0c110be4f1a76db98cc6be9f2065c8a57fc4888eeb9f22a645817193"
+    },
+    {
+      "path": "Source/ro_sprite_bake.py",
+      "bytes": 4784,
+      "sha256": "3d6748fefaabd0ee81ca6bad4314f05666877e162cfe9bdf4ddc70d4dc6c5dd5"
+    },
+    {
+      "path": "Source/expanded_skill_defs60.inc",
+      "bytes": 15450,
+      "sha256": "a9562350624b2d8a82a676bae7953635d42f24da008228a3b48d628d26e572d5"
+    },
+    {
+      "path": "Source/class_stargladiator60.h",
+      "bytes": 3711,
+      "sha256": "f71f99ee7a93f8e54ce13c5aeced86af8e06af413b701a4df000d2e09bb69ee0"
+    },
+    {
+      "path": "Source/npc_arrays55.h",
+      "bytes": 5345,
+      "sha256": "8ecfb3ab53741deb6427840b5e07c3ffc5dc93881313dc2efad879ab6e7ab67a"
+    },
+    {
+      "path": "Source/test_atlas31.c",
+      "bytes": 1735,
+      "sha256": "9390861194fed1fcdd79fbc0ad80f53683d4c30d6c7f53764c3b2699d37bbb2e"
+    },
+    {
+      "path": "Source/validate39.py",
+      "bytes": 6618,
+      "sha256": "a694328452e3eb2b3f4a3e987a46fcb6c1f090c0525a356ba50bcb1d3b94460d"
+    },
+    {
+      "path": "Source/visual_cache50.h",
+      "bytes": 335,
+      "sha256": "672994d085aae58d92df76852cebd8577d04ab99b2ed1729250b2f396fc7ec68"
+    },
+    {
+      "path": "Source/npc_books64.h",
+      "bytes": 303,
+      "sha256": "293e657ef7548f3c534c3bb3746fa31a229b3a6c990e4a482c26a28bdb31ecc0"
+    },
+    {
+      "path": "Source/save_xbox.h",
+      "bytes": 5034,
+      "sha256": "cbddc6184dfc863a236fe56ea71cec360efb4052370451c04a8778f6a3c90720"
+    },
+    {
+      "path": "Source/npc_portrait_data171.h",
+      "bytes": 13665,
+      "sha256": "e9e30db420888246f157b90577b468f8a26e78c5eb35871621c066ab1a0e91ce"
+    },
+    {
+      "path": "Source/art_assets45.h",
+      "bytes": 9733567,
+      "sha256": "5676ed8276f62bad5a3385fa0d819aad0422a1fc1c1e9d2de536aad9a2efcd11"
+    },
+    {
+      "path": "Source/progression_data.h",
+      "bytes": 22184,
+      "sha256": "a4aa6dc580dc0dea4e086664b3f20b26820398cf8311d005ee9726c382bab2d6"
+    },
+    {
+      "path": "Source/convert_actors52.py",
+      "bytes": 7169,
+      "sha256": "47699c5573f80eefc4aaf3922b70d6d0bd847a5f4b627a30ad8ea615a5940b0b"
+    },
+    {
+      "path": "Source/class_taekwon60.h",
+      "bytes": 4414,
+      "sha256": "2b3a59355b380d11095495fb00d1b21e0bc5306909778128076c499eb334b3eb"
+    },
+    {
+      "path": "Source/test_autosave_disk50b.c",
+      "bytes": 2704,
+      "sha256": "9ba2af4d7f65de79effb86d6d1da7e6fc8968317c3050cd2a2d4aeb1858b421f"
+    },
+    {
+      "path": "Source/test_music_disk50.c",
+      "bytes": 2583,
+      "sha256": "e269446a4c4d7984562c84da1ed04512061ce387034e3d28f9b79cbbdf22db39"
+    },
+    {
+      "path": "Source/trans_cast_rows52.inc",
+      "bytes": 7620,
+      "sha256": "637ec37b02ac42b5aaa556f178698264696af496a32b3562c2907e2863f0268d"
+    },
+    {
+      "path": "Source/test_update30.c",
+      "bytes": 3104,
+      "sha256": "26fea875af6538ffc8eed8fece6f77502ab28904dc7b1e0d0d22c2fe981aad8f"
+    },
+    {
+      "path": "Source/sprite_tint.h",
+      "bytes": 3728,
+      "sha256": "df601da169c95f01145b4b25b3c1d91cf440b411557ff8d7f4d14b47a24e1c70"
+    },
+    {
+      "path": "Source/window_draw.h",
+      "bytes": 75394,
+      "sha256": "11ae049350125f9f21eba48bf38fff8eb06921894abfc768d7049ea484730c88"
+    },
+    {
+      "path": "Source/test_review50.c",
+      "bytes": 2689,
+      "sha256": "fc9979f12d8e1f018243eba83558a21bec4acd8f9f1af8ecc7b6a38abeb9c0bf"
+    },
+    {
+      "path": "Source/convert_water51a.py",
+      "bytes": 3066,
+      "sha256": "8856b5d7fb97f48ed42eca2c141c9e1b8b493362bd42bf24d950a288e52f33b9"
+    },
+    {
+      "path": "Source/guardian_draw51.h",
+      "bytes": 3093,
+      "sha256": "846078bf5e36979e8a2ada0e9ef1dddce3248fc131937b7f05928c1b7d7f126f"
+    },
+    {
+      "path": "Source/convert_contact43.py",
+      "bytes": 1142,
+      "sha256": "793e993bf92f4ee0fd59b7096af6efe6df35e5c0ef421ab3b318f652f8c84a1e"
+    },
+    {
+      "path": "Source/test_save38.c",
+      "bytes": 5728,
+      "sha256": "0dddd9c09fc2fc4517071afda50aa68b337b598ee7bd7cca0820f812320087ce"
+    },
+    {
+      "path": "Source/fade_texture57.h",
+      "bytes": 427,
+      "sha256": "e143dadede0c00463fcfae9080d87dbabbc017fe63e908a9dc62b99cdb199531"
+    },
+    {
+      "path": "Source/test_feedback43.c",
+      "bytes": 1812,
+      "sha256": "f822a309a930aededb6aef932264f0d79ef26833743b9bb7cb6638237960bd89"
+    },
+    {
+      "path": "Source/npc_feet182.h",
+      "bytes": 946,
+      "sha256": "0ba4295a4473d0d46619e5431e181c479c7b31356a5dbe3075357919462d3122"
+    },
+    {
+      "path": "Source/dungeon_services53.h",
+      "bytes": 2244,
+      "sha256": "4216212efa08069d80e2c81195970dc4ec4bda67170ae815b7daec593e03e015"
+    },
+    {
+      "path": "Source/sound_watch50.h",
+      "bytes": 1296,
+      "sha256": "dbcf84be2138bbcefa82ef29c38e8784f283e8ecb246589a96a25492d08de023"
+    },
+    {
+      "path": "Source/super_tree53.h",
+      "bytes": 896,
+      "sha256": "9cfae4310e3da007fceb55040ca92646c663a4a978813032bd341d9106cfeb6c"
+    },
+    {
+      "path": "Source/campaign_access_data194.h",
+      "bytes": 3804,
+      "sha256": "d20b3b2cb54436256f31c3f23d643c6752b3ad80e6071bf40298c3d6ef1340d3"
+    },
+    {
+      "path": "Source/combat_fields.h",
+      "bytes": 3647,
+      "sha256": "4ba765ea45d24e38a62ba6eb6e46fe2258fcd0238a4d31c5c1914db23a254829"
+    },
+    {
+      "path": "Source/test_skills21.c",
+      "bytes": 5533,
+      "sha256": "3055a4eab43918c59fd59b89a5121c8fe021438d3c793b0580c530d7b934d32b"
+    },
+    {
+      "path": "Source/class_sound_cache50.h",
+      "bytes": 4071,
+      "sha256": "2415b9613b94148c63826039e0d0906f782e6472b761ab04212d3fb99154eeda"
+    },
+    {
+      "path": "Source/campaign_party_ui200.h",
+      "bytes": 9160,
+      "sha256": "52966172d97438b7341a52ab9cb1a0f41cf25e654f43edf1232771eb6600cf81"
+    },
+    {
+      "path": "Source/test_atlas25.c",
+      "bytes": 1090,
+      "sha256": "986bf384dd4c2d740cfe258b45a590b592cf46c07062ef9eafc658a1b645c6b9"
+    },
+    {
+      "path": "Source/test_sprite_visual45.c",
+      "bytes": 2476,
+      "sha256": "d19bdfb217e6c43569a96af9c5697e1cbb9b39ce7c691e05b6781ce2319fbfd2"
+    },
+    {
+      "path": "Source/test_ice24.c",
+      "bytes": 737,
+      "sha256": "8f3506d6552f9ae2ee2175b478aa705562877334083e8717f28cb7ddacb02b39"
+    },
+    {
+      "path": "Source/test_art_render40.c",
+      "bytes": 3521,
+      "sha256": "c8b8ead785dd4bddf9a9f0ee4c84f726096bc4f8b9a93de477b408c3a657a153"
+    },
+    {
+      "path": "Source/save_v6.h",
+      "bytes": 5355,
+      "sha256": "5eeecefce333d6536905d7aed7c34748d913bcf201bc6b33972e1bf8531da59c"
+    },
+    {
+      "path": "Source/gpu_vertex_window54.h",
+      "bytes": 1445,
+      "sha256": "49332c858e36f37348fc96c8190359e7adc8f935764b2f2d871dc9e83f217de5"
+    },
+    {
+      "path": "Source/mob_motion49.h",
+      "bytes": 2729,
+      "sha256": "4e503484f04447391241fce36a11736ab9446a0a559dc8c8562bd36d19b268a1"
+    },
+    {
+      "path": "Source/test_system_cache50.c",
+      "bytes": 3910,
+      "sha256": "cf94e1d71455ddc46bf12b509392b66eeb09f8c1fc67b5a4c50f68a7daf1e277"
+    },
+    {
+      "path": "Source/gear_skill_defs52.inc",
+      "bytes": 1587,
+      "sha256": "7f536f57059c8e8f70373db4412c6f3e0fecce35f98b125b0799da4bcaabc0b6"
+    },
+    {
+      "path": "Source/class_data50.h",
+      "bytes": 73920,
+      "sha256": "70114809c7ad1daeb04aae6e41bf8814dfc41e04b4f98c59b5bba5dd245587e9"
+    },
+    {
+      "path": "Source/enemy_stream_data51.h",
+      "bytes": 30072,
+      "sha256": "12ed45243ceb31262173a4b4e35020af749613c849d5db2fb5e3fd32cdfd5f02"
+    },
+    {
+      "path": "Source/test_render_memory50.c",
+      "bytes": 2467,
+      "sha256": "429bc8f0c64f24dccd8f4a622fce4c18ab37d9096b3a18e4fd3249b978d46a81"
+    },
+    {
+      "path": "Source/class_weapon50.h",
+      "bytes": 4028,
+      "sha256": "cca677fd67e3ae5f89ba58b9ffc71229e30d1a432073f2abf11c05d4952fd4ce"
+    },
+    {
+      "path": "Source/water_original190.h",
+      "bytes": 3897,
+      "sha256": "680e2f28655f06d9b2398baf03d8a40835820ff8f87e4d4e2d220c3e1d7d89c7"
+    },
+    {
+      "path": "Source/test_spell_world41.c",
+      "bytes": 2182,
+      "sha256": "b2a9220730e2b5a06a4ed58b33b33bb9d0b405696caf0ab1dec24937da474efb"
+    },
+    {
+      "path": "Source/refine_font23.py",
+      "bytes": 998,
+      "sha256": "5c0a48dfa1c42fff2ccac55cc41466804e354b517c62e9a25ed81efec68e7e60"
+    },
+    {
+      "path": "Source/test_minimap.c",
+      "bytes": 1043,
+      "sha256": "5e2fa327d24a8e78edb55322404c1c1a712c7363e302caf2ab2d77656947a7f0"
+    },
+    {
+      "path": "Source/test_art_render41.c",
+      "bytes": 4487,
+      "sha256": "88bfbefa9ded1d89bf154360ee18acc6d3415096b3abf3f1e68cf9191145eeb1"
+    },
+    {
+      "path": "Source/sprites.h",
+      "bytes": 6580,
+      "sha256": "cd511f8ab995502af058bd1204e26870b3e6c81ba95e7ac362a431cbb33cfffc"
+    },
+    {
+      "path": "Source/story_departure193.h",
+      "bytes": 984,
+      "sha256": "526a99be03b6e2fbbcd71bcc5086e6ea7141a88163a7f72d7dc7eb9a562425eb"
+    },
+    {
+      "path": "Source/save_v11.h",
+      "bytes": 7963,
+      "sha256": "9792acde690b93b935488248fc34e40ab6f95feba9285c231331dd9e193af9a7"
+    },
+    {
+      "path": "Source/import_stats48.py",
+      "bytes": 2972,
+      "sha256": "2f15706a2b70d035330fbabe83af575971d0fee42c7e420e3a3697aebec76d5f"
+    },
+    {
+      "path": "Source/actor_data.h",
+      "bytes": 10403,
+      "sha256": "82ba7272a97b85a6379850f44e470c0a9449c931b7e7bdf34e0be59670309cba"
+    },
+    {
+      "path": "Source/convert_payon43.py",
+      "bytes": 3734,
+      "sha256": "83e5dd15fea99de87c3116c2066db2c29b9c04c6fc75a37d5187a09b18aaf862"
+    },
+    {
+      "path": "Source/save_v7.h",
+      "bytes": 6387,
+      "sha256": "48f0dc347f3c1808f909c9588c1679c9de2cacfa15e2e0689da162a59915be94"
+    },
+    {
+      "path": "Source/developer.h",
+      "bytes": 15667,
+      "sha256": "04a4061ec6b6d6b970e173819469b07c8f185519407f269b5c83d3eebe7f8e9c"
+    },
+    {
+      "path": "Source/stylist58.h",
+      "bytes": 2212,
+      "sha256": "131b3b5a7accef15a713dec8c91bc6ee8ee7fb3d0cf2e27940a58deefbc0b76d"
+    },
+    {
+      "path": "Source/test_save41.c",
+      "bytes": 5728,
+      "sha256": "b39a2179714a89e0a621e7433fc19da481eea2357bc0a106190f4775cdac9fec"
+    },
+    {
+      "path": "Source/seasonal_bindings64.h",
+      "bytes": 462,
+      "sha256": "451173bb8ade170f582599f71dcd619ffb8086753b3f02b44ef35a279994946c"
+    },
+    {
+      "path": "Source/pending_warps.h",
+      "bytes": 224,
+      "sha256": "ead52845eb8cc6699c0fae5f1012034b356b40696cf8a33050c1b0fa33837330"
+    },
+    {
+      "path": "Source/update_palette43.py",
+      "bytes": 1523,
+      "sha256": "5c87d75a6b378d8330283ba185fb3712e0c965ab613e2fa6651830f50c8aa41d"
+    },
+    {
+      "path": "Source/test_safety_overlay32.c",
+      "bytes": 1212,
+      "sha256": "4c76e955ec8bbeee6c10c1e4e5906da30f454a3ea9c729f4cc6fce7035b4bb22"
+    },
+    {
+      "path": "Source/item_event_constants52.h",
+      "bytes": 411,
+      "sha256": "d6e8ec38346cfccf93ae4fd74e845b0684c678b34137a952d9a8e00d175ffcb6"
+    },
+    {
+      "path": "Source/test_spell_world43.c",
+      "bytes": 2706,
+      "sha256": "a184eae3f01111370482164352b9e568a7149f963a02f6815fa3ece286dd9cf1"
+    },
+    {
+      "path": "Source/ground_cursor.h",
+      "bytes": 568,
+      "sha256": "9857e839016e1a0d51397f0df99e0933ac37dddc7a93a0cc0d0a46d63cb0c2f8"
+    },
+    {
+      "path": "Source/map_limits43.h",
+      "bytes": 5078,
+      "sha256": "a83b084401efb71ae326456cafc9fb8feb00fd6c79bf596545497d06af6088d3"
+    },
+    {
+      "path": "Source/terrain.inl",
+      "bytes": 336,
+      "sha256": "f472bfd8f78ad1f1e4ac1f946cc79ccda1fa7a9bb16d5092b198ee942b51deb1"
+    },
+    {
+      "path": "Source/repair_atlas28.py",
+      "bytes": 2227,
+      "sha256": "770990389f30b6c9a683ec9521ed1f07485e6600460ec4879307b84340a4586b"
+    },
+    {
+      "path": "Source/stage_base_assets38.py",
+      "bytes": 1715,
+      "sha256": "22eadd42d6a050cb6911111ba8169a99e50295812ae3b79622d74a6e2caf5106"
+    },
+    {
+      "path": "Source/npc_format55.h",
+      "bytes": 1788,
+      "sha256": "4b4edd617d12ac74d6949c08105227e57b2fce25621e8d63b688d7e8e7a7a645"
+    },
+    {
+      "path": "Source/audit_class_skills50.py",
+      "bytes": 1950,
+      "sha256": "f3369fde0fed9e7eeee654c207fca288ea9840e54eb6952fd6bb61047288db87"
+    },
+    {
+      "path": "Source/convert_skin46.py",
+      "bytes": 2172,
+      "sha256": "d07155ad9a69e99d53ce2886fea258ecc47c0a11e7b9d0e9d2a970a767fd4233"
+    },
+    {
+      "path": "Source/prepare_icons50.py",
+      "bytes": 4640,
+      "sha256": "7a0f5eb851f9fe99b934178aee338e7f4ed7e4854279183fd63ebe7cd5a9be17"
+    },
+    {
+      "path": "Source/test_utility27.c",
+      "bytes": 5308,
+      "sha256": "1e1e22faa2fdb7b482e8010af796645010735cd7af9dbb822d02b677db62174a"
+    },
+    {
+      "path": "Source/expanded_profiles60.h",
+      "bytes": 2399,
+      "sha256": "2cc62cdb2e6ccf6038244197cf50c54579c205e5c31264aaa0e726dcc4e2c8e4"
+    },
+    {
+      "path": "Source/safety_geometry50.h",
+      "bytes": 683,
+      "sha256": "9c0ddd76ccbab25a9e2a64118531af83334451dc6f7e50a763753293ca6663b6"
+    },
+    {
+      "path": "Source/prepare_atlas29.py",
+      "bytes": 2284,
+      "sha256": "80763911cb9247636d6192272eb475c12b46e694964b72ba0f301111906cea7a"
+    },
+    {
+      "path": "Source/test_effect_bake50.py",
+      "bytes": 3415,
+      "sha256": "acabb4aa43b05002ec75385f28c464d3694992d73ec0b22c62a858ea7e815cd5"
+    },
+    {
+      "path": "Source/campaign_investigation200.h",
+      "bytes": 970,
+      "sha256": "5b4ab1fa71b7e0cc9ca26b4540e04e73e49aaea27e49d4b0341cc95ff8b064d6"
+    },
+    {
+      "path": "Source/npc_effect_draw172.h",
+      "bytes": 5106,
+      "sha256": "99f02d7b52280d3797aa5624775c57b146ad01686827c94c74532687b70039a4"
+    },
+    {
+      "path": "Source/boss_keys53.h",
+      "bytes": 20035,
+      "sha256": "b506520912cde16b0931571b5b6d9efd4fd2a267a6d8453928eb65d993be3289"
+    },
+    {
+      "path": "Source/trans_resources52.h",
+      "bytes": 2093,
+      "sha256": "ea26ccc50b98cb53c04429aa7c57d9981e07b1cfcb49fe5b07ceab7975216454"
+    },
+    {
+      "path": "Source/npc_world55.h",
+      "bytes": 4926,
+      "sha256": "f39365f4de77d8b0055d44661d471f3f7532380241ba0a9d145d7a597258de8c"
+    },
+    {
+      "path": "Source/test_ui_model47.c",
+      "bytes": 1902,
+      "sha256": "6e56d2b4c6ddf1ccabe6dbba2aaf44287d7e36228006bfd515a99fbdeae0ba59"
+    },
+    {
+      "path": "Source/player_contact.h",
+      "bytes": 6237,
+      "sha256": "8dceb0de412a9d769db19e1a41e9fd43af41a805e89c18d87a3f88bb1b392a2f"
+    },
+    {
+      "path": "Source/validate47a.py",
+      "bytes": 3956,
+      "sha256": "678569862e1e6d738f55eb6422482bb540cc692a30cc7d9827a7a23a3b256c27"
+    },
+    {
+      "path": "Source/spell_geometry41.h",
+      "bytes": 1536,
+      "sha256": "5d002b64c25b91e27343e2ea24b3df0e28c33d293b3f39fe6ceb7720d7482294"
+    },
+    {
+      "path": "Source/validate40.py",
+      "bytes": 5929,
+      "sha256": "e6f45c15e6b5c0ada796da1d584fd15d7fa9063c1e2d6706a90ecb8595738f58"
+    },
+    {
+      "path": "Source/expanded_state60.h",
+      "bytes": 255,
+      "sha256": "069939f362813367a9b5a38d839ed146c5a0d09ef0efad8d5f4928535803fecb"
+    },
+    {
+      "path": "Source/compass_art200.h",
+      "bytes": 2578,
+      "sha256": "056e31bd89ecbf79d40c0213bbfa50be6c79faf748e21133a03e32b44dd64e89"
+    },
+    {
+      "path": "Source/class_effect_ids50.h",
+      "bytes": 1375,
+      "sha256": "a9a6b637ea6dbded75c4071555936e6095a2c76345a41f01657ecfe99e2f4013"
+    },
+    {
+      "path": "Source/test_circle33.c",
+      "bytes": 1124,
+      "sha256": "48522fe25a6b353d3fc99e20dafa4270b23610b5c8351259c8a98ced4a21c397"
+    },
+    {
+      "path": "Source/cast_layout43.h",
+      "bytes": 581,
+      "sha256": "a9cd62494dee2739493905828580220ac14945c4352904b37d0dfb481abe11a8"
+    },
+    {
+      "path": "Source/bake_ice_texture48.py",
+      "bytes": 912,
+      "sha256": "adf1981a51002130f98cff4c2cd33c504a066ac30c138ba5b8904db7a5d7dbb6"
+    },
+    {
+      "path": "Source/test_audio_adapter.c",
+      "bytes": 4140,
+      "sha256": "4993bf94ecafb99dbff7b1dfe8cad702d6ec7e3bcceb00bf61046e34013148fe"
+    },
+    {
+      "path": "Source/world_collision45.h",
+      "bytes": 651,
+      "sha256": "582af79f415790b6042737798a27ef48f1733597b5afa8153a5182a586408f03"
+    },
+    {
+      "path": "Source/test_classes48.c",
+      "bytes": 3412,
+      "sha256": "4e3af7d426ee6a925b9c9644a3b5cbc59f9a91d40d5151503605c38b097f0278"
+    },
+    {
+      "path": "Source/mob_stun_traits.h",
+      "bytes": 2012,
+      "sha256": "38f67286c70865f2182475fff52bc1b6a77c23abca0d98d451cc25aee7aaf4e1"
+    },
+    {
+      "path": "Source/catalog51.py",
+      "bytes": 6718,
+      "sha256": "015889b3ef6cd6b102faddeb8d2877e378a54ed8a3a7fc3295723297306ffe49"
+    },
+    {
+      "path": "Source/option_triangle200.h",
+      "bytes": 258,
+      "sha256": "c7edd15bb54bd720a39e371a630b47a72253f543c93dca839eba942f87cd1f11"
+    },
+    {
+      "path": "Source/test_hud13.c",
+      "bytes": 5369,
+      "sha256": "d5958df6860378cb8c370ef69da261c7a2e9c4d263d01cbaa57584f15da8589d"
+    },
+    {
+      "path": "Source/merchant_draw.h",
+      "bytes": 2836,
+      "sha256": "f7a5068821c18465b172c176e334253511bbc251d66f681fa8a7db562447f57d"
+    },
+    {
+      "path": "Source/test_expedition43.c",
+      "bytes": 2489,
+      "sha256": "5979cb2c867b8fe2914a426931089801ea5fa96c37f2f8ac8b4efc17477df530"
+    },
+    {
+      "path": "Source/quest_draw65.h",
+      "bytes": 1849,
+      "sha256": "2b45f13f01b56de0918a8a3cdb08490d9bed6100228ecf1a4d0add13cce11fb7"
+    },
+    {
+      "path": "Source/mob_flame_traits.h",
+      "bytes": 5266,
+      "sha256": "98a0f8089d55a4b16156c115c534da071ad689ec6b79662d37eb7c26a969faba"
+    },
+    {
+      "path": "Source/item_script_words52.h",
+      "bytes": 114839,
+      "sha256": "d949b1a89eb7add4055d3328810cd3ada6e914bc6914f8e5225d93c55a925ebe"
+    },
+    {
+      "path": "Source/test_acolyte35.c",
+      "bytes": 4045,
+      "sha256": "4b805e94373c1155cfc4efa3021e8b557fae7352d777560b6e6775da77ae25c4"
+    },
+    {
+      "path": "Source/test_ui35.c",
+      "bytes": 1666,
+      "sha256": "008ebc29194854ce65a23776eeb2774e88b00d823d7419e061e9960276e7a221"
+    },
+    {
+      "path": "Source/test_music.c",
+      "bytes": 1030,
+      "sha256": "3a82da716ca9cfccea28328ced633c4b2c59eb2c46b5268bb0eedbc9f76bf886"
+    },
+    {
+      "path": "Source/enemy_packed_cache164.h",
+      "bytes": 2297,
+      "sha256": "809b09bd78ddc018da2085c369130c1fa028586a83352e4b601f4c59b4b7df80"
+    },
+    {
+      "path": "Source/terrain_unscaled55.inl",
+      "bytes": 240,
+      "sha256": "0fbb3ef9eb1436a4701979adcbbd565a66cf0f31c08d6f8368bd6be209ced379"
+    },
+    {
+      "path": "Source/stage_base_assets47.py",
+      "bytes": 1517,
+      "sha256": "7a4920feba8a38f4da340de6de06066234250f027e940b76bf0acb15fc797686"
+    },
+    {
+      "path": "Source/mob_accuracy_traits.h",
+      "bytes": 4235,
+      "sha256": "acaa6ea21aebce2974759d9401617876ddc07e1c58882338887e81fc2c2d2f65"
+    },
+    {
+      "path": "Source/item_use_data52.h",
+      "bytes": 99566,
+      "sha256": "18720dc2965cf8db71ea395e05ea8b491d01487db7b8676cef77962e4ed30abb"
+    },
+    {
+      "path": "Source/enemy_blobs.h",
+      "bytes": 7713,
+      "sha256": "f40aae52d9b3127a79c38667f4446c5d6308afc7dc56d8a5296589e11cd3c155"
+    },
+    {
+      "path": "Source/class_mob_traits.h",
+      "bytes": 2811,
+      "sha256": "81257e36b9fd8dd9e7ae76c18fc296cc67917fa5315b808750ef34b740c844d1"
+    },
+    {
+      "path": "Source/gear_cast_rows52.inc",
+      "bytes": 2070,
+      "sha256": "cc068f9022208df9de0698fe5b36ccbfd965e73f1ee723f0f3af0eb276e39905"
+    },
+    {
+      "path": "Source/game_rates164.h",
+      "bytes": 291,
+      "sha256": "1026f6143ae7910a08e2ce4382595d373ba32a6d8d87ed9c5b40859b24f813fe"
+    },
+    {
+      "path": "Source/npc_quest_data55.h",
+      "bytes": 151655,
+      "sha256": "dad7c31bfa740c43869245a83d9ae9cb1246afc728959f673fd4a402a6a812b8"
+    },
+    {
+      "path": "Source/test_shop.c",
+      "bytes": 1789,
+      "sha256": "6d3793bb49336bd521eec6200c3eeba1a0aca84c18dc9a843d95e44570dc98b6"
+    },
+    {
+      "path": "Source/hud_palette.h",
+      "bytes": 199,
+      "sha256": "193c8e5ac7c0adc82e0ee9dc725bf8168df3a0abf114a8f4a608113730431aa6"
+    },
+    {
+      "path": "Source/test_damage_render26.c",
+      "bytes": 4159,
+      "sha256": "a03d50850430aeaefb6f6a0c70134c49f01bf18b0299ac46aa8faba40af1167e"
+    },
+    {
+      "path": "Source/class_requirements50.h",
+      "bytes": 2233,
+      "sha256": "1ee16ed871a556d810cb8c91f2593f3cebd7d632c3d7f2c791dbf466f5cdb5f0"
+    },
+    {
+      "path": "Source/test_ui_controls42.c",
+      "bytes": 1876,
+      "sha256": "09c94596bc48d752b39c5bf70ba20164cd4e4ff0e56da0e7dce7ff6f892c73e3"
+    },
+    {
+      "path": "Source/npc_render55.h",
+      "bytes": 3455,
+      "sha256": "98e887a96f20b8838669a891b8e7be1a491d24c69b4e5f9a046ebe053040ac49"
+    },
+    {
+      "path": "Source/water_stream190.h",
+      "bytes": 2597,
+      "sha256": "6e3458bb9943c556e2752e288e31fad42e049e6b5701917a5cba491379be8bc2"
+    },
+    {
+      "path": "Source/inspect_effect_textures34.py",
+      "bytes": 514,
+      "sha256": "493ad71eff232817724e79bb83b6d79322c47985212c7dff72dd4e35d176837b"
+    },
+    {
+      "path": "Source/test_art40.c",
+      "bytes": 2960,
+      "sha256": "ccdc75e75e96e8d6880fa77fa814b0e5e00fa88cd51cffb02c66c5311fca266e"
+    },
+    {
+      "path": "Source/test_guild_regional194.c",
+      "bytes": 5456,
+      "sha256": "f90857a5b45d71628d027496ea84e7e98480ceb7f6aa6c5c9a9ef0d7528ff53a"
+    },
+    {
+      "path": "Source/convert_weapon_families46.py",
+      "bytes": 5005,
+      "sha256": "a26e44bf803c2ccfbc93357be20a2fa545f3fd71b2b5b49781953c31136c79ff"
+    },
+    {
+      "path": "Source/item_groups52.h",
+      "bytes": 1831,
+      "sha256": "253d863326dcd78ef5c2a4e76c7dfc199c3bfad02dd214c75df1afedae04d1ce"
+    },
+    {
+      "path": "Source/core_trader_state180.h",
+      "bytes": 796,
+      "sha256": "ffa3722ccaa3cd3cd563c32dc7f0a21a12937ea8aabf4875fd99144628aa83d5"
+    },
+    {
+      "path": "Source/campaign_companions200.h",
+      "bytes": 993,
+      "sha256": "1da57f893ba2325ae69a919c4519f9b14fae9faa4eac11d73ecd65add692fa1f"
+    },
+    {
+      "path": "Source/native_admission194.h",
+      "bytes": 2428,
+      "sha256": "caf457bc42efc21ae68121c5846afc4dad0d688e34bc3ce8c7ce2ecaf75b4af0"
+    },
+    {
+      "path": "Source/interior_rooms181.h",
+      "bytes": 5108,
+      "sha256": "08f9cea8c1ebb63109d97a51cc5a3a463441b7ea02d8a4ba47cb22093d3a947f"
+    },
+    {
+      "path": "Source/chapter1_data200.h",
+      "bytes": 578,
+      "sha256": "56a9aded753f01690ee398ee938761cd4d798e69b56c558d8c272e05ec5c9397"
+    },
+    {
+      "path": "Source/mercenary_combat180.h",
+      "bytes": 14013,
+      "sha256": "3ef7e8b0a0a6d73bb4e4b973724813777387c302c576556c6ead82e2d85f97c1"
+    },
+    {
+      "path": "Source/guild_world194.h",
+      "bytes": 651,
+      "sha256": "8f3e0b15b989445229a8f44e3ef04ab05126f4efcbe2b1a999eada71958e1ac3"
+    },
+    {
+      "path": "Source/campaign_objectives200.h",
+      "bytes": 1945,
+      "sha256": "d9a3c7ca62e35a9d3bc56dff0b9802c99d5e53d7a41d79e969f50046bcc2ccbf"
+    },
+    {
+      "path": "Source/performance_draw50b.h",
+      "bytes": 1688,
+      "sha256": "10625d4c88ee17cbdc5d8713926b541876332f8a9320282b02827eab1fc8f353"
+    },
+    {
+      "path": "Source/hud_state180.h",
+      "bytes": 752,
+      "sha256": "d92f2f9ed3a843f431c44cb3b213cec233f2767390c3d16fe4f019f5e25d79d4"
+    },
+    {
+      "path": "Source/npc_scene55.h",
+      "bytes": 6970,
+      "sha256": "0061f4ca8fffd1bbd98e114355e85e8694249299e1d142ce5d4af6cf71c4bf9a"
+    },
+    {
+      "path": "Source/save_format.h",
+      "bytes": 22152,
+      "sha256": "de7af338e3509c246c8f99c0d9291916b85c63dd52f26b1dcef2f39f43a7386a"
+    },
+    {
+      "path": "Source/cart_contact40.h",
+      "bytes": 717,
+      "sha256": "bc306fe1132e9a043ac387a26ba863ee324a7b3fed32d8d6a4085873f6d7d8f8"
+    },
+    {
+      "path": "Source/guardian_origin53.h",
+      "bytes": 175,
+      "sha256": "0317ff07b0e31c70e5fb004063c55e0ff4a14794e934be2e3094ada576eb778d"
+    },
+    {
+      "path": "Source/class_high_wizard52.h",
+      "bytes": 1887,
+      "sha256": "025837b46f8b988cb500a24cf0712af84ca2f3535577060d61458114c52f4ff0"
+    },
+    {
+      "path": "Source/test_atlas34.c",
+      "bytes": 1735,
+      "sha256": "c22ae46c97e8da105165d610197806fc8a37fdcb7050a2cc94efb8892e900e20"
+    },
+    {
+      "path": "Source/npc_job_change55.h",
+      "bytes": 1906,
+      "sha256": "3a4640ef53e940cae090cdc708e17c0393467b56fc7fc7ab13fa5699914e167c"
+    },
+    {
+      "path": "Source/preview_art191.h",
+      "bytes": 1052,
+      "sha256": "ec5a93114a13d764415e2050aeaace7d438c37b39b15a41b9925b30a5ccd1dc4"
+    },
+    {
+      "path": "Source/class_state48.h",
+      "bytes": 195,
+      "sha256": "82388d9732f880cc23a8e5a2fed0e2497d4972e732139b47a5174e264661f3cd"
+    },
+    {
+      "path": "Source/class_paladin52.h",
+      "bytes": 3527,
+      "sha256": "f85f0f531ebfdcdaebc883ea959dcd64d8bf557ca96892922b45d57e616dd044"
+    },
+    {
+      "path": "Source/elements48.h",
+      "bytes": 6549,
+      "sha256": "e354a00efa6614fcd9a2d90fe9eca228504f40bd1c7bda2a4b4952f646771058"
+    },
+    {
+      "path": "Source/core_npc_draw53.h",
+      "bytes": 10096,
+      "sha256": "d0920f4bbce2f92c93a887f38b363e6330cf7497aee50f6a086131c7f8ccd030"
+    },
+    {
+      "path": "Source/test_system_art50.c",
+      "bytes": 2080,
+      "sha256": "1c66a30ffe943fa743841be9ce53a555a9493612aa9a6955aa2822cd6272bef4"
+    },
+    {
+      "path": "Source/headgear_ui180.h",
+      "bytes": 3613,
+      "sha256": "825c44633f500875cc8b27a3cce668e41b7e553ee766823599f0e668e93b9239"
+    },
+    {
+      "path": "Source/npc_variable_commands55.h",
+      "bytes": 1987,
+      "sha256": "3de9eaccd7257790704451f938c39846d46b466a610ed466a0432cf61cd861f3"
+    },
+    {
+      "path": "Source/projection.h",
+      "bytes": 2246,
+      "sha256": "06ef15e4203cf25287d2c5741c55d3a442244b1a6a210ddfc64dea63d513fc3d"
+    },
+    {
+      "path": "Source/class_gunslinger60.h",
+      "bytes": 6627,
+      "sha256": "342a3fe67f6416dc0e462e8801f5325b2e50dae42e47a890e6cee5de7efff28f"
+    },
+    {
+      "path": "Source/art_visual39.h",
+      "bytes": 3086,
+      "sha256": "cf330cee93fa6fcfccfe141fb59e556a92db5f8c7a6213c53d9afa57e86e9748"
+    },
+    {
+      "path": "Source/damage_draw.h",
+      "bytes": 4138,
+      "sha256": "c40e1a2df66af591cf60c1ba98781668539871da30d0ea483338a370c38746d0"
+    },
+    {
+      "path": "Source/pack_world51.py",
+      "bytes": 6166,
+      "sha256": "5021613c35bbf912f71187c0f22efcee74e9c71f1b278aa80b6f7e79dd8449cb"
+    },
+    {
+      "path": "Source/appearance_render58.h",
+      "bytes": 4629,
+      "sha256": "3ee1579f1a7ac4d83af23886b13b74560f7114e98f033ccd582e9a43dd6bdd9c"
+    },
+    {
+      "path": "Source/test_inventory.c",
+      "bytes": 3398,
+      "sha256": "a3ab3c90880d94980e50ad2d2023e0806a359a35ae5eb86f950ce95b0bb21218"
+    },
+    {
+      "path": "Source/screen.vp",
+      "bytes": 80,
+      "sha256": "2b84659bac27c887becbd04239981dd7df17dd3a88dc1e9952760ec7d3b1ba62"
+    },
+    {
+      "path": "Source/minimap.h",
+      "bytes": 1178,
+      "sha256": "743e5c8c404b76e1d782ad0b40a58f6dd6d2471630c07a2d4be331caadea972f"
+    },
+    {
+      "path": "Source/asset_index49.py",
+      "bytes": 620,
+      "sha256": "d9518c6f01cd8058bede608b6fc69fd55d5ccb243dbb422ade6b1614f4a76bfa"
+    },
+    {
+      "path": "Source/npc_registry_data55.h",
+      "bytes": 1242935,
+      "sha256": "09ef2a596b9685aaeeae1405c2b2b36ad45f881e4f231b95ca8b04b834bd031f"
+    },
+    {
+      "path": "Source/patch_payon50.py",
+      "bytes": 2240,
+      "sha256": "56c1c0b3de2caf9afe793ce1d9a0c96d68e45f08673d69e51af3c5747d286121"
+    },
+    {
+      "path": "Source/sound_assets.c",
+      "bytes": 3663105,
+      "sha256": "82c99e649c0c088831d50c8f80f5891942afa6428642158b48afbfa43340d459"
+    },
+    {
+      "path": "Source/campaign_world200.h",
+      "bytes": 7950,
+      "sha256": "19e4dcee0b1a9fc521ecc1fb627f1e70e910a3294f497c515e027ac1c49d6572"
+    },
+    {
+      "path": "Source/class_skills50.h",
+      "bytes": 20015,
+      "sha256": "c82379f5fb866ff0e7dd9afd72e68a6d92844b3cbfbd362ffba41cff4889f2e2"
+    },
+    {
+      "path": "Source/utility_draw.h",
+      "bytes": 4467,
+      "sha256": "cb36225a8047693905b4cb7565127c87821e4531fcb2321c2e14c468268fa69e"
+    },
+    {
+      "path": "Source/portal_art61.h",
+      "bytes": 339877,
+      "sha256": "8fda606d2c8e9c95c5794e6131f072adcfbace2c90511124a41d606954b100cb"
+    },
+    {
+      "path": "Source/facing45.h",
+      "bytes": 577,
+      "sha256": "cd6db3b6966c2bba14467ca3016294b197de42b5dd8454f1f74b59d8814c1ee6"
+    },
+    {
+      "path": "Source/audit_class_skills48.py",
+      "bytes": 1685,
+      "sha256": "908abb1c3f4c353a8a9e13615f1ebf1373c69c4fc710fe79a1854bd7f0250149"
+    },
+    {
+      "path": "Source/item_bonus_types52.h",
+      "bytes": 2703,
+      "sha256": "b68f9681cd411190b664d63785210579b7b02ec90e0475c2c48b6f222087b672"
+    },
+    {
+      "path": "Source/test_job_identity52.c",
+      "bytes": 1061,
+      "sha256": "28f76cf3952f31d6409a2498a10d3b77658655323fe44c3b108e41ce3b6bcc1f"
+    },
+    {
+      "path": "Source/campaign_rescue200.h",
+      "bytes": 6609,
+      "sha256": "a32c5da44fad409c3f4373cc81ef5e0a1bda3b03b81fa8839088a5bbd66c9133"
+    },
+    {
+      "path": "Source/attack_sequence50c.h",
+      "bytes": 723,
+      "sha256": "076958bb36f4d234cf9eb1f15e19831c5ac28fa79f67cfb7c3fb42a609d65e13"
+    },
+    {
+      "path": "Source/test_art_render39.c",
+      "bytes": 2921,
+      "sha256": "62193afabbe5831d501536b21027d8004ceb01deb4ee39c97aae74af0448e932"
+    },
+    {
+      "path": "Source/campaign_access194.h",
+      "bytes": 4145,
+      "sha256": "1397dff047fcd1a0b8612ee1d98e106aa96765968bf1b5026dc6ca2bf46ed001"
+    },
+    {
+      "path": "Source/test_sprite_tint.c",
+      "bytes": 508,
+      "sha256": "55295f0a383138e465877bd6843678ab846174c055870f355ce862be29ab6d94"
+    },
+    {
+      "path": "Source/test_geometry50.c",
+      "bytes": 1405,
+      "sha256": "aaf198761c407a22129b645545a4ac297d61ad78ce3938f118c0a07174f55fbe"
+    },
+    {
+      "path": "Source/pack_music50.py",
+      "bytes": 2209,
+      "sha256": "eaa396ac1d7ee5109100ca3fc2b8a39b5ff5be730eef9186300a4a0185bd95c6"
+    },
+    {
+      "path": "Source/guild_room_geometry194.h",
+      "bytes": 4069,
+      "sha256": "fb1f0f8b41c0a1cdc3b5a857130a2a1ea76e454ae6d7cd0c1a28451c387e887e"
+    },
+    {
+      "path": "Source/test_autosave50b.c",
+      "bytes": 2754,
+      "sha256": "e0e75925c0bd54cb52e711179fe3525f97755e19cec45483bd61319ff117a94b"
+    },
+    {
+      "path": "Source/convert_music.py",
+      "bytes": 2767,
+      "sha256": "3c87eb157ec5f3ca4068ba9388ea4e92bcc40de4f806d00df6035ea830a1461f"
+    },
+    {
+      "path": "Source/world_assets51.py",
+      "bytes": 1145,
+      "sha256": "b4373c5edec004ed878c85a71d9db5d84ec67a102b19018838f2a108a1ce1bac"
+    },
+    {
+      "path": "Source/trans_burst52.h",
+      "bytes": 997,
+      "sha256": "ee277be9b64daec71bd3c2013826b9205caf9e86df42bdbb0bb88590a1221e9f"
+    },
+    {
+      "path": "Source/test_timing49.c",
+      "bytes": 1445,
+      "sha256": "56666a4b3fd2de76a05c5324f4e2b94e02d1a29ff7e5faa062b327ff7cd71657"
+    },
+    {
+      "path": "Source/developer_draw.h",
+      "bytes": 4818,
+      "sha256": "b37dad5c34c87d43a81ee93f35ff0e3ab34ed7559ae44286c0a99501d65fb8ad"
+    },
+    {
+      "path": "Source/guild194.h",
+      "bytes": 4542,
+      "sha256": "9e4dd28289212449ae7c3f397c92d707f7888afaadd40971fd7b574006bc704b"
+    },
+    {
+      "path": "Source/travel_admission194.h",
+      "bytes": 404,
+      "sha256": "2eb6f6948bc36a28ed517165925c67d4a7214c62d5629fe6501c5283e38a786e"
+    },
+    {
+      "path": "Source/stage_base_assets42.py",
+      "bytes": 1983,
+      "sha256": "c8111e00e14d4ffe90ffa8508efe843edb718bde38d813e64e020ba7fd49e917"
+    },
+    {
+      "path": "Source/recovery50.h",
+      "bytes": 3375,
+      "sha256": "a5e2c21453d516b6509b6afbd696ada69035a71cb8572562590a91f37d4f0134"
+    },
+    {
+      "path": "Source/test_equipment46.c",
+      "bytes": 2635,
+      "sha256": "fb24439174de593c5cfa8b0ae6c48362ca0ca37951669522b0c1761737bdd7ee"
+    },
+    {
+      "path": "Source/test_mechanics35.c",
+      "bytes": 7335,
+      "sha256": "9ad6cfc1062d675ed5986a2b91817bba3de06ffb90d3de9114f91836248159c4"
+    },
+    {
+      "path": "Source/save_v12.h",
+      "bytes": 8289,
+      "sha256": "dbe16c1899673a0bf915289a21516c12f994c94bcf649e11970a7708f9185b26"
+    },
+    {
+      "path": "Source/convert_encounters.py",
+      "bytes": 6389,
+      "sha256": "4c8b231b2b47bfaefca557fe00ae7cbf240973e50505052337d97171b13a441c"
+    },
+    {
+      "path": "Source/companion_draw_ui50.h",
+      "bytes": 1937,
+      "sha256": "54c1f03e3bdade1beda54d8ffb86878a02b526cc2900012ee586aac55d6e2e4a"
+    },
+    {
+      "path": "Source/test_audio_recovery50.c",
+      "bytes": 4766,
+      "sha256": "cebc49c424256df2f5806b415073b2bbc7ca98b1b4cc2881e51725014ff4f9ae"
+    },
+    {
+      "path": "Source/solo_tables53.h",
+      "bytes": 112028,
+      "sha256": "c20a12ce42c7ad9b8797bd87414cbee4c40bb945f18ace6c0c644f1a65840321"
+    },
+    {
+      "path": "Source/test_water23.c",
+      "bytes": 2518,
+      "sha256": "d4e26b7f08bfe6f082baf50bdd72ee7e18f5521dced881339c0a2add5ebf5583"
+    },
+    {
+      "path": "Source/test_window_render.c",
+      "bytes": 4493,
+      "sha256": "6338967e05f6a00b4c25176beb374cf01f3c5162136213d54fa76842b34980b4"
+    },
+    {
+      "path": "Source/test_spell_world33.c",
+      "bytes": 5876,
+      "sha256": "02d0932818ea655ae4f3539ab94c5d7e0836ecb592b54bb9168c61926890d264"
+    },
+    {
+      "path": "Source/test_staging50a.py",
+      "bytes": 1366,
+      "sha256": "2ff3fe124406c4492e8454d5248579b63f197b223bf4e5e1cc36fb22a1aa232d"
+    },
+    {
+      "path": "Source/guild_data194.h",
+      "bytes": 2127,
+      "sha256": "db29755c4e16dc82109145c04e9cf7e664490ec53d77b68c2069d65cbc462c0c"
+    },
+    {
+      "path": "Source/test_cart42.c",
+      "bytes": 2142,
+      "sha256": "99e11ac03900cda1de9b68c46f66c853bc308634736dc2fb499354f6bec91db1"
+    },
+    {
+      "path": "Source/class_professor52.h",
+      "bytes": 3285,
+      "sha256": "4653d061c8a0f6fbb9037a8dc537c040d4d466a980265e099afa2f70368b46f6"
+    },
+    {
+      "path": "Source/npc_equipment59.h",
+      "bytes": 4081,
+      "sha256": "da2786af2faeba0baef0ac39aaa275b3b7aa43860ce5fce78854ff2b34e33b86"
+    },
+    {
+      "path": "Source/convert_knight45.py",
+      "bytes": 3468,
+      "sha256": "5a3fa5c65708af35520be961cc838beeca32351a56f3afab60dd521717fcba43"
+    },
+    {
+      "path": "Source/bake_field_textures48.py",
+      "bytes": 1170,
+      "sha256": "aacb4d0fabf53d0a2e8704e5f42d27025bda1ce73abf63328ec5d0661699cc74"
+    },
+    {
+      "path": "Source/music_assets.c",
+      "bytes": 34901132,
+      "sha256": "93b9b2bb12a005d44ff09c3b7ef652e4037b5823e1555d3f0f87e4c7f3e83707"
+    },
+    {
+      "path": "Source/convert_skill_icons48.py",
+      "bytes": 3054,
+      "sha256": "bc32e168a3adcf36af3f635533b4f554140757a87f41273b6dae500792aeede1"
+    },
+    {
+      "path": "Source/convert_ui34.py",
+      "bytes": 2366,
+      "sha256": "e03548779c1f03061a0f6ff30be816cb4fa6f699054a5f0f4d96296b326dcee2"
+    },
+    {
+      "path": "Source/skin_assets.c",
+      "bytes": 2540045,
+      "sha256": "c5cd3fc9ec89a13af1b09423fd635229e58e6009cdcc8c332a3ade5535783fa7"
+    },
+    {
+      "path": "Source/mob_sand_traits.h",
+      "bytes": 2462,
+      "sha256": "10302f6de2bb6e269753b8b3be0374f255d457069bea8247a920dc37a7d90785"
+    },
+    {
+      "path": "Source/import_prereqs48.py",
+      "bytes": 1862,
+      "sha256": "5aecd847b57c62ce4643bcbbdcb28e0100907a50a3d83bffcde540968b3e675b"
+    },
+    {
+      "path": "Source/test_audio50b.c",
+      "bytes": 2448,
+      "sha256": "e7194999072c667fbb501b1ef588cf15087813ee519c429c0640130ed01b71a7"
+    },
+    {
+      "path": "Source/mob_control_traits.h",
+      "bytes": 8095,
+      "sha256": "afd7fa94188002340bda7f60d189fa198c1c30ff60b2e8060dc20fb67dd23709"
+    },
+    {
+      "path": "Source/preview_hint191.h",
+      "bytes": 608,
+      "sha256": "b5aed011f56825718a47c4c6a757f782f9080200b05b79e91146f13b05f91621"
+    },
+    {
+      "path": "Source/campaign_scene_ui200.h",
+      "bytes": 7353,
+      "sha256": "4ab3cfd895531b9ad953c0028059574aa7272fe96c1579d615d8b6d489cbde9e"
+    },
+    {
+      "path": "Source/expand_skill_defs48.py",
+      "bytes": 3939,
+      "sha256": "d6bc72d52d17a21707bfbcb8b9b38c9fc19443f571c0950344ddfbab14df54dc"
+    },
+    {
+      "path": "Source/classic_draw49.h",
+      "bytes": 3615,
+      "sha256": "142db39f5a85b9c9a2777e9e9dbf40dca20228827f1473502e9afbcd6e150438"
+    },
+    {
+      "path": "Source/npc_effect_data172.h",
+      "bytes": 225374,
+      "sha256": "f6b634b2f6d657652074f9e9a21d25310f11c9e7eec7f9270d923f3db2d68bad"
+    },
+    {
+      "path": "Source/appearance_picker112.h",
+      "bytes": 1602,
+      "sha256": "e49ec607652cbaf7cc06aad0c79b4e88819d551df993dbca77237e6bbc496674"
+    },
+    {
+      "path": "Source/campaign_stage200.h",
+      "bytes": 3443,
+      "sha256": "5bb38978f8919a87bf8e1d382cca23dce8a54dcf9120b9af242625aac0d221d0"
+    },
+    {
+      "path": "Source/test_cart41.c",
+      "bytes": 2154,
+      "sha256": "62135d0cbdfb7181d212959a76df3acfa0015e0cb9073cf6b19158ace7b98646"
+    },
+    {
+      "path": "Source/convert_contact48.py",
+      "bytes": 1167,
+      "sha256": "80ee763fbc82b519a90f4800d79e3e00baf61b5d244e3214a7ad9bc3bf96c168"
+    },
+    {
+      "path": "Source/mob_loot52.h",
+      "bytes": 55586,
+      "sha256": "fdd824eb9df34f8aed1b9bdf86cd372bbdd789b1d3e3b20d27746c1f782681c1"
+    },
+    {
+      "path": "Source/test_classes16.c",
+      "bytes": 4166,
+      "sha256": "bf371f70cf107347a80246c7dd0d20446f9c46251320651822e38269457b1af5"
+    },
+    {
+      "path": "Source/test_classes50.c",
+      "bytes": 4502,
+      "sha256": "dd687ad850c75f2fafbf88b641a5ad19ef7824e60f91d31e559454ee6d75b713"
+    },
+    {
+      "path": "Source/world_stream171.h",
+      "bytes": 1790,
+      "sha256": "2388f6fa112ebb6fb9a860be872b853f5eb915c41266f2a9a7194e2c3ba5678e"
+    },
+    {
+      "path": "Source/convert_art39.py",
+      "bytes": 7328,
+      "sha256": "c7e30d2c2a35441d039e377cbf8434da63e3cc38482893b837ec91c5d25044f5"
+    },
+    {
+      "path": "Source/view_controls54.h",
+      "bytes": 1859,
+      "sha256": "a646e19079e6103d5fbefc980eb545e6ce8fc1a81be29cb513965d6fbae17b47"
+    },
+    {
+      "path": "Source/patch_atlas49.py",
+      "bytes": 3508,
+      "sha256": "ce325867a8105461eb0a48fd0444ea018e02c958c14be8536363aaa2ebe3e074"
+    },
+    {
+      "path": "Source/npc_visibility180.h",
+      "bytes": 1462,
+      "sha256": "21c0b852797a9f3d6d33f58ad047c3a2dc53239292bcd9a3ae4fe1b1cfc9a3d2"
+    },
+    {
+      "path": "Source/npc_text_cues180.h",
+      "bytes": 8830,
+      "sha256": "d32d76640946f43600cda3229d7461ce4539b0a143ea6e37c71e351945be466d"
+    },
+    {
+      "path": "Source/water_query.h",
+      "bytes": 1157,
+      "sha256": "269ff11e8fdd3019cfc2b19cc4d548e17588f4c29b2d601b8083cd3512e074c0"
+    },
+    {
+      "path": "Source/npc_niflheim180.h",
+      "bytes": 1694,
+      "sha256": "942d414ad3f7cf43b288e130e5f8655fcdf048ad0bb21fb4eadd68698aef9929"
+    },
+    {
+      "path": "Source/class_priest50.h",
+      "bytes": 3236,
+      "sha256": "9fe851bd0c4185d062e01027130fc9f218f0a4c3da98f4a9cc0035c331a69102"
+    },
+    {
+      "path": "Source/convert_mobs43.py",
+      "bytes": 7098,
+      "sha256": "5cbf93eefc95e21a1d5601417aeb40606f6af417f5eabcd61d991a6140ec45ec"
+    },
+    {
+      "path": "Source/npc_item_detail64.h",
+      "bytes": 5070,
+      "sha256": "8e42855e81b4f81031169816960d5e6ab212a5bac13464822369d183c061af42"
+    },
+    {
+      "path": "Source/effect_disc45.h",
+      "bytes": 2269,
+      "sha256": "45ac35d93f27e0d2dcbc3dcf3f47e5c9324065906ade14abb999ef6b8c7a80a2"
+    },
+    {
+      "path": "Source/npc_monsters55.h",
+      "bytes": 3398,
+      "sha256": "bab0e19e9bcee25c320004da9b2036019888d6ca2c5bb61e54b7fba34d64c68e"
+    },
+    {
+      "path": "Source/validate46.py",
+      "bytes": 3839,
+      "sha256": "1f45f2d13268a0d7d32005dcf1763e7ee821087b92eb6743fff65f3c14cf8f6c"
+    },
+    {
+      "path": "Source/gpu_ground45a.h",
+      "bytes": 2470,
+      "sha256": "e938fb47de4b2ecf731dbe15f228d496b09e38f91115c9f7d19a76537e718aab"
+    },
+    {
+      "path": "Source/convert_world.py",
+      "bytes": 8753,
+      "sha256": "25dc752b7f98145e5177c81c4eec1f8470ae1e9d1ea7f29d39db806de092c47c"
+    },
+    {
+      "path": "Source/character_bank56.h",
+      "bytes": 4273,
+      "sha256": "0dffa23a93b326c0e755cfc4f53253084fd303adba13bd01e10a373111f193e9"
+    },
+    {
+      "path": "Source/trans_mechanics52.h",
+      "bytes": 878,
+      "sha256": "cd59314cb7fcbc47d6999ad7da1ba2f5696a9a8063be71c96546a67b1dee5fe3"
+    },
+    {
+      "path": "Source/skill_approach53.h",
+      "bytes": 2390,
+      "sha256": "7859a0636ef0acb074129c6a1f71d784604bc714a86ffc8e6675d6784791d5aa"
+    },
+    {
+      "path": "Source/test_save_disk.c",
+      "bytes": 17915,
+      "sha256": "0140f7a2aca80ec7013a1ef52c1afd6b594bc99fa2ac81d15faf18166d364bfd"
+    },
+    {
+      "path": "Source/owned_items52.h",
+      "bytes": 9143,
+      "sha256": "4ab1f220c0d2af66751d62413437b080a4161ebb3e81c292baa54dd3e0ed8d10"
+    },
+    {
+      "path": "Source/test_expansion34.c",
+      "bytes": 3857,
+      "sha256": "b9cb9408f40016d09a14f290f289615d165429be758045cd1ce611f1aa25daf4"
+    },
+    {
+      "path": "Source/cast_timing.h",
+      "bytes": 37224,
+      "sha256": "1481522492edcbdc6c12c17ed87ad948a45e9cdf467fe53b0d95e1fd00e2d00a"
+    },
+    {
+      "path": "Source/save_v10.h",
+      "bytes": 7843,
+      "sha256": "fe92bfab4fca4432dee3942087faa800ea1b017782c504a4c2effb97acdfb65d"
+    },
+    {
+      "path": "Source/VALIDATION50.txt",
+      "bytes": 17429,
+      "sha256": "95d8174ea7aed7f001ed4befb486852ca5f12617326e38b9a1836e8d2813345f"
+    },
+    {
+      "path": "Source/world_disc.h",
+      "bytes": 2863,
+      "sha256": "3e3205de41bb5b78bc8eb75b8c999a029aaa90803fa0ef242e9e2e1b3676abe0"
+    },
+    {
+      "path": "Source/npc_iteminfo_data64.h",
+      "bytes": 176906,
+      "sha256": "6acac68fe40b8fead147ea841052d08e930fe0f621ee27f902b406a94ef8cee4"
+    },
+    {
+      "path": "Source/test_cart40.c",
+      "bytes": 2142,
+      "sha256": "184f68907030f265835e8e0a89c0ad0bbbdc196d56e8ca73fbfc04eda6fdc618"
+    },
+    {
+      "path": "Source/test_contact34.c",
+      "bytes": 1446,
+      "sha256": "ecd92f5bb1a53df88991c0d599511192d36ba6f54f346ea8b7b09bd0cea09ac4"
+    },
+    {
+      "path": "Source/mercenary_data180.h",
+      "bytes": 14850,
+      "sha256": "970234d1d8752e538ed53274a3137873eff945d24f7a8e92e1fce04bfb262de5"
+    },
+    {
+      "path": "Source/world_data.h",
+      "bytes": 240115,
+      "sha256": "1bfde9d0543331d7edc10c42b0876eb1c62bc99a9dfd205899f7ef8c060c62d4"
+    },
+    {
+      "path": "Source/convert_classic49.py",
+      "bytes": 7128,
+      "sha256": "d7d7c0bfc5b7558f68664f3362a3acb570e3904388c6ce574a518b696adeeac3"
+    },
+    {
+      "path": "Source/cast_indicator.h",
+      "bytes": 776,
+      "sha256": "a800c5f4007462a9d0e081384927665e655f3461740d46faf9527f170f5c44bb"
+    },
+    {
+      "path": "Source/test_guardian_audio51.c",
+      "bytes": 1765,
+      "sha256": "ef203fb498e71460d9e6691902228bfb03685a8b71e0ac4119e0875759c46cd4"
+    },
+    {
+      "path": "Source/hud_theme.h",
+      "bytes": 326,
+      "sha256": "d090189925895576cb1bdf8525a05e3b997094ad81e75042b685f83742e3369c"
+    },
+    {
+      "path": "Source/class_performer50.h",
+      "bytes": 3519,
+      "sha256": "ff08af5f0e3cb8fdb2ec507eb518b5bc007634b26fd0cd843b85ad027a2ef091"
+    },
+    {
+      "path": "Source/test_ground45a.c",
+      "bytes": 2028,
+      "sha256": "158b84d87cad2ef94add71560367b7affa5b0b5af8e1e4ec093a27334cc8ded8"
+    },
+    {
+      "path": "Source/rebuild_transparency23.py",
+      "bytes": 2139,
+      "sha256": "ac328799d042066888cca82dd7b71161c37d2d6379af0d65e0e47e1b695a21b0"
+    },
+    {
+      "path": "Source/death_sound_data51.h",
+      "bytes": 18289,
+      "sha256": "70070a6464f0553cc497fad728569ba63adaaec24b38ef6ba22f74e6910270bf"
+    },
+    {
+      "path": "Source/frontend_layout58.h",
+      "bytes": 745,
+      "sha256": "f51d3f14c00370a828047aff8e0038edda4dc22455a3973670294ac913675042"
+    },
+    {
+      "path": "Source/npc_clock55.h",
+      "bytes": 2309,
+      "sha256": "59ba8596cfa5e087fe14b4522531cd260e9bb1a65fab943a5af84fd4019d5fa7"
+    },
+    {
+      "path": "Source/TEST-RESULTS.txt",
+      "bytes": 2308,
+      "sha256": "df5dac017910e2dd24c1c782816e5cb74dce24cdf5b3e62acad9caa8efc4a06d"
+    },
+    {
+      "path": "Source/stage_base_assets37.py",
+      "bytes": 1633,
+      "sha256": "873226145f69e56b9036157dfbed5df32d8c5879b361e98a80c6ddec44e7d620"
+    },
+    {
+      "path": "Source/campaign_state200.h",
+      "bytes": 4699,
+      "sha256": "9d28be0e1bb4a6e3303bc83ac6a57e684bf3331e6ad55cffeba76163eb23063d"
+    },
+    {
+      "path": "Source/test_enemy_sprites.c",
+      "bytes": 2288,
+      "sha256": "8ee9a868024b1a07318a5e5e8643c843060866f09555f9c0de8d845793d6e33f"
+    },
+    {
+      "path": "Source/test_art41.c",
+      "bytes": 2957,
+      "sha256": "198e91ad9335d549a076256e0c8b2c13d2e905ca918d4153b46e948f7dfe5284"
+    },
+    {
+      "path": "Source/art_stream_data183.h",
+      "bytes": 5487,
+      "sha256": "97e2fadd02507b17696e3f6ae5c84b9482de6b5ff885f5d40f835676eef1a4e0"
+    },
+    {
+      "path": "Source/water_data.h",
+      "bytes": 597181,
+      "sha256": "6c03b727d50cd5adbbe8220c69eec18531d7b623785738ab6b2bfd624a202314"
+    },
+    {
+      "path": "Source/integrate_items50.py",
+      "bytes": 6289,
+      "sha256": "4b34acbd6c32f69fc99513ca7da63e9597e1b96aaeb925b824f9ef8f73f99aea"
+    },
+    {
+      "path": "Source/item_proc52.h",
+      "bytes": 11464,
+      "sha256": "596a5f1848f6695577b497f2b0038e18a9b899252a1272cb4942eb62a27a15b6"
+    },
+    {
+      "path": "Source/owned_save50_adapter52.h",
+      "bytes": 1352,
+      "sha256": "e5f302c43680022504257859e1d44b6148ac160389bb7db7957107e9b8d4b675"
+    },
+    {
+      "path": "Source/world_gate_state64.h",
+      "bytes": 449,
+      "sha256": "b50b5273306afb240426b8fd67fd4ef0d0dcb9c7dc824e4d9720031cf11b4b49"
+    },
+    {
+      "path": "Source/convert_skills27.py",
+      "bytes": 4023,
+      "sha256": "a01a1c48a991df1135151b3830064b99c0267c27229b5e5e6b648de172cd2924"
+    },
+    {
+      "path": "Source/npc_game_xbox55.h",
+      "bytes": 3341,
+      "sha256": "253829c4d52396332ac7d6f56f8c1946bf0313e424bef98926e3f16c772ff06f"
+    },
+    {
+      "path": "Source/class_homunculus50.h",
+      "bytes": 13660,
+      "sha256": "60742d66a7e6a7835081081e253a963e3710424508cf3e25486f93076732b43c"
+    },
+    {
+      "path": "Source/water_actor54.h",
+      "bytes": 559,
+      "sha256": "e9a06299824d0203e224820bcc06830d94fa83f400f17a10481839eec9095a85"
+    },
+    {
+      "path": "Source/guild_ui194.h",
+      "bytes": 9119,
+      "sha256": "236297f0811f6f4c755d439aa8c933684624d9f2c499b1ed59794f3e118a231f"
+    },
+    {
+      "path": "Source/npc_string59.h",
+      "bytes": 2690,
+      "sha256": "1f37ffe47d09cb526228be3bfa488bb04eb2a88fe5e8d14cfeecdd32da760153"
+    },
+    {
+      "path": "Source/regions51.py",
+      "bytes": 3607,
+      "sha256": "50ac1673f96e34ebdcded98d7a42d7c1b0c38cfb50f727f13cd80af4b996ac83"
+    },
+    {
+      "path": "Source/music_disc50.h",
+      "bytes": 2417,
+      "sha256": "bbf819a454557292620364bf28e6d212fccad9c2f96c580405782dfd81035985"
+    },
+    {
+      "path": "Source/test_control24.c",
+      "bytes": 4483,
+      "sha256": "5866befd55c8dd83556774d5351b327866608f5275a5a3cdd888af0e74e9b1c1"
+    },
+    {
+      "path": "Source/npc_portrait_draw171.h",
+      "bytes": 2697,
+      "sha256": "1c58d2a5896b814cfbc1c864373c8e318fb7e2956d986b36c5e012727d07e08a"
+    },
+    {
+      "path": "Source/menu_groups48.h",
+      "bytes": 3517,
+      "sha256": "8653a3a116fe1cac29220661285f527fc38460e1361cb409bd99b1f29ea5bb1a"
+    },
+    {
+      "path": "Source/class_proc_bake50.py",
+      "bytes": 5058,
+      "sha256": "b9573ed19217540dc0204b8e6bb1edcad199787c920d849c0f95c4dba2a9924b"
+    },
+    {
+      "path": "Source/test_ui_controls38.c",
+      "bytes": 1859,
+      "sha256": "dd0817b979cdb53c00bb555fff54313ed44b63faef26d5dfcd0cda90b81ca7f2"
+    },
+    {
+      "path": "Source/screen_xbox55.h",
+      "bytes": 1945,
+      "sha256": "732c46a487149194292d74c303741b3f149cc467aef476bfc6b33875a7571e92"
+    },
+    {
+      "path": "Source/validate_terrain47.py",
+      "bytes": 759,
+      "sha256": "55d5271b6eed4ecc1d1ddef42ffe06dfff6ad5ca0c2382e7e008fb04ce9bd964"
+    },
+    {
+      "path": "Source/guardian_baked162.h",
+      "bytes": 465,
+      "sha256": "d176c55f786d010057f1de1e35a546c08e05fabb32ca031a25ffad56a4503f8c"
+    },
+    {
+      "path": "Source/mob_acolyte_traits.h",
+      "bytes": 6794,
+      "sha256": "303943333473b41b499b19f8ce3a64d840ab4205f17ac7ea05a87fb65969f1f0"
+    },
+    {
+      "path": "Source/cart_pose40.h",
+      "bytes": 963,
+      "sha256": "c1bb98840d29303e4ca2c758ce8286e9bff79f95c9efb93b5af2604e9a7bb513"
+    },
+    {
+      "path": "Source/npc_disc55.h",
+      "bytes": 3343,
+      "sha256": "5e1e55254e7019f21541a16971567ea7dd4ace31a866d5166bd3fa26112e24ef"
+    },
+    {
+      "path": "Source/test_art_render45.c",
+      "bytes": 4731,
+      "sha256": "af5dbe885555241597e2cdd5a981523731c58599dfbe5d5e9ec3707a513e21cc"
+    },
+    {
+      "path": "Source/gpu_inflate.h",
+      "bytes": 1417,
+      "sha256": "cd4904dcfe7df79a6c76bdf58a7d130474d6f6b0f0795b312d3b0890be6e4aff"
+    },
+    {
+      "path": "Source/expanded_requirements60.h",
+      "bytes": 10187,
+      "sha256": "d08aacfd94f3b5333539bcf618f4665cb6e0d78da1a6cd39098d719d809326e4"
+    },
+    {
+      "path": "Source/npc_vm55.h",
+      "bytes": 16519,
+      "sha256": "b211e0e33bd11bdb26bf41d6e3c0211f77be833aa28dfc6d2c202bfcb9e97a0c"
+    },
+    {
+      "path": "Source/combat.h",
+      "bytes": 82202,
+      "sha256": "dc141a908e883dd8b46c6af5146ba28aaed49687b3a70dd72598227e0bf61bfe"
+    },
+    {
+      "path": "Source/minimap_data200.h",
+      "bytes": 18148,
+      "sha256": "d04d70d2ca9bd90d2c387bf352e39d32b94377d144e7c55fffde6c4695329bf8"
+    },
+    {
+      "path": "Source/seasonal_dates64.h",
+      "bytes": 8844,
+      "sha256": "225b123daa0efa958719b7cab4806a58b371823f7aed680d4c237a12120d91ee"
+    },
+    {
+      "path": "Source/npc_particle_draw180.h",
+      "bytes": 4492,
+      "sha256": "c36cbd9b98845e381b1ff686981e802eecf1380afa3b9957d4d16a413eecb075"
+    },
+    {
+      "path": "Source/campaign_portrait_draw200.h",
+      "bytes": 3118,
+      "sha256": "b47849d9ce63b6384694890f04176f82de65f18abdcf8e05ca3079171c74c4d6"
+    },
+    {
+      "path": "Source/font_metrics65.h",
+      "bytes": 1821,
+      "sha256": "0bad0bbd69eb80068961e5709c70aa8f829b5a85d41569db18b0a76dab87f935"
+    },
+    {
+      "path": "Source/validate38.py",
+      "bytes": 6014,
+      "sha256": "5a20d3b6485c59ffd0716c92bcffaec1fa1abf1c8a32ef543a61c758b71d5c98"
+    },
+    {
+      "path": "Source/test_acolyte33.c",
+      "bytes": 4045,
+      "sha256": "656e6304070a93f68b42d8e3d9797a7724f6afbc8f6481fb6475c181527209a5"
+    },
+    {
+      "path": "Source/validate_atlas47.py",
+      "bytes": 1176,
+      "sha256": "37b73030867ba7bdd98058f6d50d1e21f31948b2b6d5ab0a211e64a097c5bfcf"
+    },
+    {
+      "path": "Source/test_audio_tracks50.c",
+      "bytes": 906,
+      "sha256": "dfa8bdc3984cd9946862b71cf835e14e72e02ac822fade56a189a9dbaa4bc86a"
+    },
+    {
+      "path": "Source/item_icon_cache52.h",
+      "bytes": 2988,
+      "sha256": "dcc1cc5b3fccc87a1c26bea44d81657413931263c99b30a18c6759eee3b281b6"
+    },
+    {
+      "path": "Source/convert_ui32.py",
+      "bytes": 1918,
+      "sha256": "25441c3185c23d9a7c65347594d182fed5459967aaa4456738ec117d67f66677"
+    },
+    {
+      "path": "Source/menu_sound58.h",
+      "bytes": 19697,
+      "sha256": "27086f24a272fae05844c146fe4a45766d97a7b8b918726a34741a0f893d1b64"
+    },
+    {
+      "path": "Source/stage_base_assets43.py",
+      "bytes": 1325,
+      "sha256": "5425c134f6e0e7bddd2cb2c1df9d5e1fee7119f02303b1e0f477553045e4bc22"
+    },
+    {
+      "path": "Source/boss_codec53.h",
+      "bytes": 1428,
+      "sha256": "b1e4cc098953e30bc78810a1f1aec90d50649f0e69d80fb32681a34b0701693d"
+    },
+    {
+      "path": "Source/class_craft50.h",
+      "bytes": 3346,
+      "sha256": "f41296def9abcd6b720d68007782b8d3db29b120d919ab1752535c9feac2be9f"
+    },
+    {
+      "path": "Source/stage_base_assets41.py",
+      "bytes": 1916,
+      "sha256": "81bc79134cb273ba29d6ff98cd54077fb5f62a2dde96bad8dd2ad6e085df2ac5"
+    },
+    {
+      "path": "Source/validate50.py",
+      "bytes": 6319,
+      "sha256": "98535aa08229d6672425b9fcc825959dc9d0672253115575436727a5695a3995"
+    },
+    {
+      "path": "Source/pack_enemies51.py",
+      "bytes": 4450,
+      "sha256": "87f393bae45ce4ceb96b2c812e4e789803653267bb27c7484dcfe9a38e86713e"
+    },
+    {
+      "path": "Source/test_safety32.c",
+      "bytes": 3537,
+      "sha256": "1808a01e630174ce7170e8ca393b361e57f44e56ab2261e8c291ce1cb4343d24"
+    },
+    {
+      "path": "Source/test_batch36.c",
+      "bytes": 4632,
+      "sha256": "f76111d914ea41ff7daf61138fb6781fa2a57bb7796dad0f15494156b58900d6"
+    },
+    {
+      "path": "Source/core_npc53.h",
+      "bytes": 9626,
+      "sha256": "b5ef0fda1e6b03639bc94b0b6f34f26bc157478b6f5cfe7d1071be7d37610dbb"
+    },
+    {
+      "path": "Source/convert_ui31.py",
+      "bytes": 1913,
+      "sha256": "1c320156d5e21924fe362634d22e3c0204ce4a5b271382b0aaa9d6468c27ddd4"
+    },
+    {
+      "path": "Source/npc_quest_commands55.h",
+      "bytes": 2140,
+      "sha256": "6561c66e9c6b669cb0d2b291690610617ebc686cc25655110e94ae65cd67024c"
+    },
+    {
+      "path": "Source/job_map_flags55.h",
+      "bytes": 645,
+      "sha256": "96f67818b95adf05526ddda89c38a0c15ca73575dc2bba7a6de367818b375a38"
+    },
+    {
+      "path": "Source/test_footprint46.c",
+      "bytes": 1093,
+      "sha256": "97ca5891e41d21e361e86b5c8d767dfe8a8722c2e884ee3ffb93b6056df9164f"
+    },
+    {
+      "path": "Source/gpu_program51.h",
+      "bytes": 1918,
+      "sha256": "21cd38548a049bf1812f830cf366549d1c8ce15c7a1660c638e6bcd26b74818d"
+    },
+    {
+      "path": "Source/walk_surface.h",
+      "bytes": 1290,
+      "sha256": "1abb0db7b0cd357b87a17b689954be25b03da63a5d070e104cd19a75dec3b9ea"
+    },
+    {
+      "path": "Source/taekwon_mission60.h",
+      "bytes": 1519,
+      "sha256": "9baf3cae39d47f778f0aa16ad82b01527ae60e56484ca85b8a3e9d5235a0c578"
+    },
+    {
+      "path": "Source/field_draw48.h",
+      "bytes": 4867,
+      "sha256": "52fa1b67806e870fa390973b5f7d40b252a726554507cdd5d4556d905fb1dc2b"
+    },
+    {
+      "path": "Source/test_world_memory50.c",
+      "bytes": 929,
+      "sha256": "cbb1b51c7d88d768245b6b6e6c537edc2463196891549d1a9eebe89f969ee33d"
+    },
+    {
+      "path": "Source/screen_unscaled55.inl",
+      "bytes": 96,
+      "sha256": "7e933a194add083ca15111c33b4b46032c7b6f52ccb31d244678cc42f5cea249"
+    },
+    {
+      "path": "Source/class_alchemist50.h",
+      "bytes": 3634,
+      "sha256": "5628d81ff33ec702a4e9a3e61d111073022a2a4dcb7445ac826f69d82b1617b0"
+    },
+    {
+      "path": "Source/convert_maps45.py",
+      "bytes": 4508,
+      "sha256": "67711eb1caf4e8ae1b1d3bf55ab069550ba08e2d1b8c6427f0710f2dbc70f41e"
+    },
+    {
+      "path": "Source/font_crop180.h",
+      "bytes": 10306,
+      "sha256": "9db925166b4416f9a50b0140251a0514bcf67221a0f6335a3c78ed8e2c9d96fc"
+    },
+    {
+      "path": "Validation/guild_ui194.log",
+      "bytes": 364,
+      "sha256": "a726ffbe83f5e1cf9d1c21083767f8de802736547c3aaaa1c7b065a81b8a8db9"
+    },
+    {
+      "path": "Validation/Integration-Checks194.json",
+      "bytes": 1608,
+      "sha256": "3b61901d298f1c41df7b34fff189c20e1ccb303ff76bee97a402147d060c810f"
+    },
+    {
+      "path": "Validation/world_integration194.log",
+      "bytes": 382,
+      "sha256": "7f72e1ee4b3819ac37eebf87dfd7eb069861eed05c1b81e03ddf46d36c79a4e4"
+    },
+    {
+      "path": "Validation/released_guild_fixture194.h",
+      "bytes": 248,
+      "sha256": "153e5ab0a11e238e2245fbd1f8b97f234b4b43465b332508246e41e00f7f9ef2"
+    },
+    {
+      "path": "Validation/native_lifecycle194.log",
+      "bytes": 318,
+      "sha256": "e849780ec4ce8d3ea6a76a5b6f87752048cb3ddddfe88dc8f1cbb14bd0c0a88c"
+    },
+    {
+      "path": "Validation/guild_regional194.log",
+      "bytes": 300,
+      "sha256": "3aee700f862ba834bd02134419c0310b9b9999e03ab96bb5bcb6f709d4bfd167"
+    },
+    {
+      "path": "Validation/actual_wrap194.inc",
+      "bytes": 1400,
+      "sha256": "026327e753b3f2cfe1ba438398932992997fd4017f77991844d718fdbba61df2"
+    },
+    {
+      "path": "Validation/travel_preflight194.log",
+      "bytes": 558,
+      "sha256": "abed46c7cf9fe7086902b2f9cd64e6836af567545ddecaa526d3d58fef07b192"
+    },
+    {
+      "path": "Validation/policy194.log",
+      "bytes": 256,
+      "sha256": "84852b9885060322779d977231812f3d69173ec2bf7be71c09478517aa1e0011"
+    }
+  ]
+}

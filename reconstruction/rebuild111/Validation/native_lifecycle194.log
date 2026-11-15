@@ -1,0 +1,2 @@
+HOST ONLY: address/undefined sanitizers. No native build or Xbox/Xemu playtest.
+PASS HOST actual NPC open/scheduler: blocked record 2 preserves pendingTalk, full character/context and quest revision; attached calls blocked, global/attached OnInit and unattached preparation preserved; unlocked native opening proceeds

@@ -1,0 +1,6 @@
+/* MIT. Two24-byte global preference files; never write character files here. */
+#include "autosave50b.h"
+static const char*autosavePaths50b[2]={"E:\\MyROStory200\\settings-a.dat","E:\\MyROStory200\\settings-b.dat"};
+static DWORD autosaveDiskError50b;
+static int autosave_disk_read50b(void*ctx,int slot,unsigned char*out){(void)ctx;DWORD previous=saveDiskError;saveDiskError=0;int r=save_disk_read_path(autosavePaths50b[slot],out,AUTOSAVE_BYTES50B);autosaveDiskError50b=saveDiskError;saveDiskError=previous;return r==SLOT_RAW?1:r==SLOT_MISSING?0:-1;}
+static int autosave_disk_write50b(void*ctx,int slot,const unsigned char*data){(void)ctx;HANDLE f=CreateFile(autosavePaths50b[slot],GENERIC_WRITE,0,NULL,CREATE_ALWAYS,FILE_ATTRIBUTE_NORMAL|FILE_FLAG_WRITE_THROUGH,NULL);if(f==INVALID_HANDLE_VALUE){autosaveDiskError50b=GetLastError();return 0;}DWORD wrote=0;BOOL ok=WriteFile(f,data,24,&wrote,NULL);DWORD error=GetLastError();if(ok&&wrote==24){IO_STATUS_BLOCK io;NTSTATUS status=NtFlushBuffersFile(f,&io);if(status==STATUS_PENDING){status=NtWaitForSingleObject(f,FALSE,NULL);if(status>=0)status=io.Status;}if(status<0){ok=FALSE;error=RtlNtStatusToDosError(status);}}else{if(ok)error=ERROR_WRITE_FAULT;ok=FALSE;}BOOL closed=CloseHandle(f);if(!ok||!closed){autosaveDiskError50b=ok?GetLastError():error;return 0;}return 1;}

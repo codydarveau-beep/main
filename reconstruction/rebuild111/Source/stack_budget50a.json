@@ -1,0 +1,36 @@
+{
+  "stackReserve": 131072,
+  "chains": [
+    {
+      "frames": {
+        "main": 51820,
+        "save_commit": 44,
+        "save_scan": 0,
+        "save_decode": 36,
+        "save_valid": 276
+      },
+      "bytes": 52176,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 51820,
+        "save_load": 16,
+        "save_scan": 0,
+        "save_decode": 36,
+        "save_valid": 276
+      },
+      "bytes": 52148,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 51820,
+        "mp3dec_decode_frame": 17008
+      },
+      "bytes": 68828,
+      "margin": 32768
+    }
+  ],
+  "scope": "Conservative known save/load/decode nesting plus32KiB margin; not a hardware high-water measurement"
+}

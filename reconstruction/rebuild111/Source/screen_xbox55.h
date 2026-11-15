@@ -1,0 +1,9 @@
+/* MIT. Independent alternating display preferences; character saves are untouched. */
+#ifndef MYRO_SCREEN_XBOX55_H
+#define MYRO_SCREEN_XBOX55_H
+static unsigned screenSequence55;static int screenNewest55=-1;
+static const char*screenPaths55[]={"E:\\MyROStory200\\screen-a.dat","E:\\MyROStory200\\screen-b.dat"};
+static int screen_read55(int slot,uint32_t raw[10],ScreenLayout55*out){HANDLE f=CreateFile(screenPaths55[slot],GENERIC_READ,FILE_SHARE_READ,NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,NULL);if(f==INVALID_HANDLE_VALUE)return 0;DWORD high=0,got=0;int valid=GetFileSize(f,&high)==40&&!high&&ReadFile(f,raw,40,&got,NULL)&&got==40;CloseHandle(f);if(!valid||raw[0]!=0x4f52594du||raw[1]!=0x35355654u||raw[2]!=1||!raw[3]||raw[8]||raw[9]!=crc32(0,(const unsigned char*)raw,36))return 0;*out=(ScreenLayout55){(int)raw[4],(int)raw[5],(int32_t)raw[6],(int32_t)raw[7]};return screen_layout_valid55(out);}
+static void screen_load55(void){for(int i=0;i<2;i++){uint32_t raw[10];ScreenLayout55 value;if(screen_read55(i,raw,&value)&&(screenNewest55<0||raw[3]>screenSequence55)){screenNewest55=i;screenSequence55=raw[3];screenLayout55=value;}}}
+static int screen_save55(void){if(!screen_layout_valid55(&screenLayout55)||screenSequence55==UINT32_MAX)return 0;uint32_t raw[10]={0x4f52594du,0x35355654u,1,screenSequence55+1,(uint32_t)screenLayout55.width,(uint32_t)screenLayout55.height,(uint32_t)screenLayout55.x,(uint32_t)screenLayout55.y,0,0};raw[9]=crc32(0,(const unsigned char*)raw,36);int slot=screenNewest55<0?0:1-screenNewest55;HANDLE f=CreateFile(screenPaths55[slot],GENERIC_WRITE,0,NULL,CREATE_ALWAYS,FILE_ATTRIBUTE_NORMAL|FILE_FLAG_WRITE_THROUGH,NULL);if(f==INVALID_HANDLE_VALUE)return 0;DWORD wrote=0;int ok=WriteFile(f,raw,40,&wrote,NULL)&&wrote==40;CloseHandle(f);uint32_t checked[10];ScreenLayout55 value;if(!ok||!screen_read55(slot,checked,&value)||memcmp(raw,checked,40))return 0;screenNewest55=slot;screenSequence55=raw[3];return 1;}
+#endif

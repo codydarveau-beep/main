@@ -1,0 +1,75 @@
+Test50a final verification
+57 ASan/UBSan C suites collectively passed (resumed runs); 1,629 HUD cases.
+An equipment test now supplies its shield explicitly instead of assuming a retained developer bag.
+Native PE/XBE128KiB stack reserve; known autosave frames59,852B plus32KiB guard margin.
+No emulator/hardware runtime FPS or freeze test performed.
+
+PASS50a21jobs/21000idle dirty checks, all catalog/rank/persistent mutations match canonical serialization, zero disk encodes in HUD, real disk CRC/save codec preserved and33280 cached-depth projections within one depth unit.
+PASS50a 400 real class-switch pairs: deterministic class-only supplies, no accumulated bag weight, every kit under50%, valid equipment/Save50, storage/cart preserved, Wizard casting and SP recovery enabled.
+PASS50 identical10 MP3s, disc pack 9676327 bytes; steady encoded residency <= 1644147
+PASS50a actual PE/XBE stack reserve 131072 bytes; conservative autosave nesting 59852 bytes + 32768 bytes margin fits.
+PASS reproduction: real nxdk lroundf aborts with assertion, matching Test47 first-frame diagnostics call.
+PASS47a 42 actual diagnostics/Status HUD cases with nxdk asserting math stub linked; no unsupported call reached.
+PASS47a bounded UI rounding: zero, positive/negative half values, ASPD tenths.
+PASS47a native main.obj has no lroundf symbol/reference.
+PASS50a actual PowerShell: exact Test50 reconstruction, verified rollback, idempotence, named baseline preservation, unrelated-output protection, missing/truncated/corrupt payloads, wrong baseline and invalid-range cleanup; ASCII CMD.
+PASS50a all six packs stage from50/50a; idempotence, prior-version rejection and conflicting-destination preservation.
+PASS50a clean matching source rebuild: all native code/data and six disc packs byte-identical; only allowed XBE header timestamps differ.128KiB stack retained.
+PASS50 nine presets/source parents and weapons, Save50 class round trips, original eight-hit Sonic/5-hit Falcon, weapon/ammo gates, Backstab/Raid, trap rooting, full-packet Lex, Priest Kyrie, Monk spheres/combos/Asura/SP penalty, songs/Amp/Encore and Dancer ammunition. Combat=97024 bytes.
+PASS50 all 79 original production recipes, tool/bowl/guide conservation and failed-attempt atomicity; smith buffs/drain/repair; Alchemist attacks, self pitching, coatings and summon limits; persistent Homunculus creation/rest/call/revival/feed/growth/learning/evolution and independent incoming damage.
+PASS50 recovery: all 21 jobs, original 6s/8s formulas, sitting, HP/SP passives, movement, retained clocks, weight, poison/hide/death/full, INT120, Magnificat, Fury/Asura/performances, overweight Spiritual Cadence and zoning.
+PASS50 Payon gateway 1536 unit steps in six columns/both directions with blocked posts; pursuit/idle roam far from spawn; three empty meteor impact sounds; class-only skill page; 4352 upright actor depth projections.
+PASS50 23 original companion actors (10516 actual ACT frames), maximum one-actor decode 617454 bytes; ten complete original trap meshes (729 vertices), cutout atlas and CRC-checked disc sections.
+PASS50 sixteen original Homunculus/Falcon/six summons, actual lazy GPU uploads, stable same-class reuse, ten cutout trap draw ranges,128DWORD guards and fenced complete retirement.
+PASS50 original class audio through21jobs/three cache cycles: 174 playable clips, 2888664-byte maximum current-class PCM, unlocked file/decode work, old60clips unchanged and no retired live voice.
+PASS50 dual-wield copy counts, nine original hand combinations, source left mastery damage, real off-hand hit, shield/two-hand transitions, class gates and Save50 corruption rejection.
+PASS50 all330 opacity variants+20 original target states+Ice Wall: 9732096 bytes reclaimed after GPU fence, four exact-pixel rebuilds, idempotent release, class changes reclaim and same-class reuse preserves caches.
+PASS50 90 Izlude/Prontera/Sograt loads: visual release precedes new allocations, stable per-map GPU residency and complete final teardown. Izlude world GPU bytes 15158288.
+PASS50 native WinAPI music reader:10 CRC-checked tracks, bounded32KiB requests (468), open/size/highword/seek/short-read/failure/CRC guards, all handles and buffers released.
+PASS50 original10 MP3 byte/sample equality,144 map visits,320 rapid requests, old playback fed during unlocked reads, missing/truncated/CRC recovery, two-buffer peak 2530011, Izlude encoded RAM saving8897356 bytes.
+PASS50 nine full source job profiles,252 unique stable rank slots including Kyrie,133 typed skill records, signed source ranges/hit counts,126 closed prerequisite edges, Dancer inheritance and mounted actor isolation.
+PASS50: 16-bit skill/item isolation, all usable item shortcuts, read-only twelve-class Save48 migration, 8192-byte round trips/checksums/semantic bounds, dirty tracking and expanded zoning cooldowns.
+PASS50 Ice Wall tips above grounded bases across480 horn faces; Safety Wall front/back encloses actors with each of60 faces exactly once for64 camera angles, preserves expiration/hit rules.
+PASS49 original128x128 cast graphic:20 actual integer-size GPU uploads, exact source RGB pulse/all alpha pixels retained, original+45deg copy, two finite quads,1.25MiB cache, moving-target/life/completion guards.
+PASS49 all12 classes share source timed-target lock; instant/completed/self-ground/missing/dead/new-life targets excluded; source250ms shrink,24-unit final width and20-state opaque colour pulse.
+PASS49 Water Ball1/9/9/25/25 actual cells, Deluge consumption/field holes, native water, Sage replacement/retained timer/free elemental swaps, LP reagents/reset and original sound IDs.
+PASS49 diagonal window focus, filtered modal equipment, cancellation, spear availability, two-hand/shield replacement, unequip and Wizard/HighWizard Ice Wall visibility.
+PASS49 actual200ms packet burst hits, Water Ball150/125ms, per-hit damage/sound/flinch, exact totals, target life guard and queue exhaustion resource preservation.
+PASS48 all supported source prerequisite edges and deferred Spirit gates, shared Heal class isolation, source elemental field bonus, Ice Wall line blocking/gaps, real incoming Magic Rod/Spell Breaker, mount save/toggle and equipped Book Study.
+PASS48 original class texture uploads, field/cross/shield geometry, finite vertices/UVs, bounded push buffers, Ice Wall horns and lazy texture residency.
+PASS48 Hocus: 4000 eligible weighted rolls, all 24 outcomes cast at zero extra SP, two gemstones once, failed target retains roll, discard, unchanged learned ranks and save isolation.
+PASS48 27 new active skill paths; class ownership, personal buff zoning, Free Cast, Cast Cancel, source Faith, reagents/crafting, shields, Ice Wall collision and expanded save integrity.
+PASS50 twenty-one class stat/HP/SP/budget/save models, source statcost boundaries, damage defense, Wizard/transcendent separation, grouped class controls and all18 map groups.
+PASS47 owned-only inventory, stable IDs for equipment/use/binding, depleted stacks, nearest/outward/inward targeting, no wrap, hidden and screen filtering.
+PASS45a actual native terrain front-face/cull commands and real flat triangles:18 maps,4608 camera configurations; corrected orientation retained.
+PASS46 1072 legal job/equipment combinations,255-item catalog,job guards,slot replacement,two-hand/shield exclusion,spear range,staffMATK,sale safety and8192-byte save roundtrips/corruption.
+PASS46 RT grid/list switch, list/grid navigation, selected skill preservation, White/Black cast ranks and close wrap.
+PASS46 blocked-cell interior/edge/rounded corner clearance, finite/bounds guards, one-cell passage preserved.
+PASS50 all21 class effect caches below4MiB; peak2968382 bytes.
+PASS45 actual CRC-checked effect disc reads, repeated class reuse, class eviction, one cart style and bounded current-class effect decode.
+PASS45 rank UI/cost/save/prerequisites, all18 random Teleports, source derived maxSP, target priority/wrap, delayed one-shot incoming hits, roam/octant hysteresis and stable entity GPU slots.
+PASS45 all18 maps: nonmirrored source-coordinate orientation, controller inverse, warp/minimap direction, streamed original minimap, source navigation; personal buffs and correct maxSP survive zoning.
+PASS45 originalKnight72twohandattackframes,4boundedfadingposebuffers/free,allthreecreatures4bitalphafades(450425 partial pixels)andstatuscomposition.
+PASS44 Izlude bridge: 512 real one-unit steps in both directions/four approach columns, source contact heights, invalid destination metadata rejection.
+PASS44 recovery prepares only safe camp, preserves character and original disk slots; unavailable map rejected.
+PASS44 disc-only player variants100, species50, maps18; same-class reuse, previous cache eviction, one optional test species; reads 100/900; invalid index rejected.
+PASS44 actual species disc reader rejects missing, truncated and corrupt data
+PASS minimap raster bounds, aspect ratios, clamped markers, north-up orientation
+PASS43 twelve classes:216 class/map save roundtrips, checksum rejection, all98 natural base-level transitions per class, class-specific job caps/curves, full table bounds, live Select/pausedSTART timers, equal full-width cast cells.
+PASS43 all19 new active second-job skills: source cost/rank cast completion, damage/buffs/field creation, inherited first-job access, sword/Sight/water resource gates and interrupted Meteor preserves SP.
+PASS42 actual ground geometry: 441676 quads, finite camera projections, palette UVs, world bounds and max46/128 DWORD submission blocks
+PASS eighteen real maps/scenery, every warp, peaceful towns, accessible merchant, saved map preparation, 70 repeated loads, exact resource release; peak simulated GPU bytes 17068208. Not Xbox RAM/FPS.
+PASS41 7674 actual enemy frame/zoom crops fit with three-pixel padding and breathing bounds
+PASS40 all five free stylist transactions/guards and11520 real projected wheel-contact/depth/idle/walk poses; source mechanics and carrying costs untouched
+PASS camera centre, rotation/tilt, overhead occlusion depth, shared instance composition and 24-bit range
+PASS 691200 real pixel/quad/world-contact checks across14 actors,8 directions,32 rotations,3 tilts,3 zooms,3 heights
+PASS HUD vertices, UV/quad winding, stable order, capacity/sentinel, zero-area guards and all GPU draw chunks within pbkit block bounds
+PASS: gear damage/defence, reversible equip, healing/no waste/KO, stack bounds, persistent empty stacks/loadout, semantic rejection, read-only v1 conversion
+PASS shop insufficient funds, quantities, absent stock, equipped sale, overflow/stack guards, atomic exchanges, Zeny save roundtrip and dirty detection
+PASS36 NPC: proximity/job/Pushcart/funds guards, confirmation/cancel, cart transfer/empty return, shop routing, recovery/no-waste, bind-home and Save20 dirty/codec
+PASS45 native artwork decoder:101 clips,1737 frames,2700495 opaque pixels,11356692 decoded bytes; variant, event bounds/reset, preview controls and half-second marks
+PASS50 actual artwork draw traversal: 6060 clip/frame uploads, sparse pixels/cache, culling/expiry,40-slot cap and saturated simultaneous fields/status/events
+PASS40 actual GPU upload function: Coat-on/off cached stance invalidation/reuse, steady tint, source/alpha preserved, hiding composition
+PASS40 quick taps/visible-hint-only holds and suppression, short/long START, deferred one-shot ranged damage/pause/travel/death guards, optional hint classification
+PASS50 actual disk adapter: read-only Save48 migration/newest choice/map preparation/recovery, isolated Save50 writes, 8192-byte read-back, short-write/flush/access failures and corrupt/future source preservation.
+PASS50 28 ASan/UBSan C suites; 1629 actual HUD cases; peak 719 /1536quads
