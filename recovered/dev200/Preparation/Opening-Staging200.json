@@ -1,0 +1,38 @@
+{
+  "mapID": 0,
+  "center": [
+    1460,
+    2804
+  ],
+  "hostStagingReviewed": true,
+  "referenceRender": "native packed ground/scenery + projection.h affine camera + genuine baked actor poses; not Xbox screenshots",
+  "cameraYawsReviewed": [
+    0,
+    45,
+    90,
+    135,
+    180,
+    225,
+    270,
+    315
+  ],
+  "collisionAndHeightsPassed": true,
+  "poseFramesValidated": 800,
+  "hardwareTested": false,
+  "controllerPlaythroughPending": true,
+  "sceneEnabledForDevelopment": true,
+  "actorPackSHA256": "5627cb3c01591f10a9b387d57ee1da889af7cf54d93676624c2bbadf9aac1d01",
+  "sourceAttackAndCastPosesReviewed": true,
+  "sourcePoseFrames": 1408,
+  "catalogActors": 7,
+  "chapter2WorldStagingReviewed": false,
+  "canonicalHairPalettesReviewed": {
+    "Roan": 7,
+    "Yuufa": 2,
+    "Driver": 7,
+    "Judia": 1,
+    "Maya": 1,
+    "Veyr": 7
+  },
+  "stagingCoordinatesUnchanged": true
+}

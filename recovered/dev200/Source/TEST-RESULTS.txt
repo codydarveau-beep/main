@@ -1,0 +1,37 @@
+TEST49 VERIFICATION
+
+Matching nxdk Checkpoint15, clang/lld18 native build succeeded.
+39 AddressSanitizer/UndefinedBehaviorSanitizer C suites passed.
+971 actual HUD cases passed; peak677/1536 batched quads.
+
+New tests exercise actual original128x128 lock-on uploads and all alpha pixels,
+20 source colour states, two original-texture layers, finite GPU vertices,
+integer dimensions/pitches,1.25MiB bounded cache and target lifetime guards.
+Class-independent timed-target rules reject completed/instant/ground casts.
+Original classic art decoder covers51 clips and737 frames. Full Sight Rasher
+uses32 rays inside a fixed40-slot cache. Class residency stays below4MiB.
+
+Hit-clock tests verify200ms bursts, Water Ball150/125ms, per-hit HP/sound/flinch,
+exact totals, target lifetime and resource preservation under queue exhaustion.
+Water Ball tests cover1/9/9/25/25 cells, Deluge consumption and natural water.
+Sage tests verify one active field, retained swap timer, gemstones and LP reset.
+UI tests cover diagonal focus, owned eligible gear modal/cancel, two-handed
+weapon/shield replacement, unequip and visible Wizard/HighWizard Ice Wall.
+
+The native audio adapter with the actual decoder passed256seconds continuous
+playback followed by140 repeated map changes, all18 source music assignments,
+same-theme continuity and invalid-map stop. Original sound clips were imported
+with source/PCM hashes. Existing sound mixer saturation/voice guards are retained.
+
+The actual nxdk asserting lroundf stub is linked into41 HUD cases; none reaches
+it. Native main.obj has no lroundf reference. No production float printf is used.
+The persistent save format is byte-identical to48. Original atlas rows retain
+all pixels except the six explicitly repaired First Aid hand pixels; equipped
+icons use the added rows. All18 map/orientation/navigation/minimap tests pass.
+
+Actual PowerShell updater tests pass: byte-exact48-to49 image reconstruction,
+all pack hashes, atomic replacement, unchanged rollback, receipt, already-current
+idempotence, and wrong-baseline/corrupt-payload rejection without changing input.
+Portable source staging from48 and49 images yields the exact same four packs.
+Actors/world/enemies are unchanged48; first36 effect clips are retained and
+the remaining effect tail is explicitly reconstructed.

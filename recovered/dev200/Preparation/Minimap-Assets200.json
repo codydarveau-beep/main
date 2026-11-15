@@ -1,0 +1,5015 @@
+{
+  "width": 144,
+  "height": 108,
+  "fileBytes": 3075787,
+  "fileSHA256": "33c452c0c0a63c68e8d8ae8044d62198f3a66b8de7b32bb51147aeb0e02cfc09",
+  "currentMapTextureBytes": 65536,
+  "nativeArtCount": 431,
+  "fallbackMaps": [
+    "nameless_in",
+    "ra_in01",
+    "ra_temin",
+    "ve_in",
+    "ve_in02",
+    "bra_in01",
+    "mosk_in",
+    "man_in01",
+    "mid_campin",
+    "spl_in01",
+    "spl_in02",
+    "que_sign01",
+    "airplane_01",
+    "himinn",
+    "lhz_airport",
+    "que_ba",
+    "que_dan02",
+    "que_san04",
+    "que_sign02",
+    "que_temsky",
+    "y_airport",
+    "z_agit",
+    "new_1-1",
+    "new_1-2",
+    "new_1-3",
+    "new_1-4",
+    "new_2-1",
+    "new_2-2",
+    "new_2-3",
+    "new_2-4",
+    "new_3-1",
+    "new_3-2",
+    "new_3-3",
+    "new_3-4",
+    "new_4-1",
+    "new_4-2",
+    "new_4-3",
+    "new_4-4",
+    "new_5-1",
+    "new_5-2",
+    "new_5-3",
+    "new_5-4",
+    "moc_fild04",
+    "moc_fild05",
+    "moc_fild06",
+    "moc_fild08",
+    "moc_fild09",
+    "moc_fild10",
+    "moc_fild14",
+    "moc_fild15",
+    "sec_in02",
+    "arena_room",
+    "prt_are_in",
+    "force_1-1",
+    "force_2-1",
+    "force_3-1",
+    "force_4-1",
+    "force_5-1",
+    "p_track01",
+    "p_track02",
+    "que_bingo",
+    "gef_fild13",
+    "gon_test"
+  ],
+  "maps": [
+    {
+      "id": 0,
+      "map": "prt_fild08",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_fild08.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14671
+    },
+    {
+      "id": 1,
+      "map": "prt_fild05",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_fild05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14942
+    },
+    {
+      "id": 2,
+      "map": "prontera",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prontera.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10353
+    },
+    {
+      "id": 3,
+      "map": "izlude",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/izlude.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12348
+    },
+    {
+      "id": 4,
+      "map": "prt_fild06",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_fild06.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13595
+    },
+    {
+      "id": 5,
+      "map": "prt_fild07",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_fild07.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14962
+    },
+    {
+      "id": 6,
+      "map": "prt_fild09",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_fild09.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13595
+    },
+    {
+      "id": 7,
+      "map": "moc_fild01",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11873
+    },
+    {
+      "id": 8,
+      "map": "moc_fild02",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15413
+    },
+    {
+      "id": 9,
+      "map": "moc_fild03",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12086
+    },
+    {
+      "id": 10,
+      "map": "pay_fild01",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15447
+    },
+    {
+      "id": 11,
+      "map": "payon",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/payon.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11675
+    },
+    {
+      "id": 12,
+      "map": "pay_arche",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_arche.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10785
+    },
+    {
+      "id": 13,
+      "map": "pay_dun00",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_dun00.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3399
+    },
+    {
+      "id": 14,
+      "map": "pay_dun01",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 5571
+    },
+    {
+      "id": 15,
+      "map": "pay_dun02",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 5052
+    },
+    {
+      "id": 16,
+      "map": "pay_dun03",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_dun03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2574
+    },
+    {
+      "id": 17,
+      "map": "pay_dun04",
+      "source": "/workspace/myro/asset-library/Test45-return/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_dun04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 1779
+    },
+    {
+      "id": 18,
+      "map": "gef_dun00",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_dun00.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3176
+    },
+    {
+      "id": 19,
+      "map": "gef_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3553
+    },
+    {
+      "id": 20,
+      "map": "gef_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3245
+    },
+    {
+      "id": 21,
+      "map": "gef_dun03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_dun03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2405
+    },
+    {
+      "id": 22,
+      "map": "gef_fild00",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild00.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13772
+    },
+    {
+      "id": 23,
+      "map": "gef_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 9873
+    },
+    {
+      "id": 24,
+      "map": "gef_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14850
+    },
+    {
+      "id": 25,
+      "map": "gef_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 17158
+    },
+    {
+      "id": 26,
+      "map": "gef_fild04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13588
+    },
+    {
+      "id": 27,
+      "map": "gef_fild05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild05.bmp",
+      "sourceSize": [
+        512,
+        511
+      ],
+      "packed": 13896
+    },
+    {
+      "id": 28,
+      "map": "gef_fild06",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild06.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15440
+    },
+    {
+      "id": 29,
+      "map": "gef_fild07",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild07.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13701
+    },
+    {
+      "id": 30,
+      "map": "gef_fild08",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild08.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15474
+    },
+    {
+      "id": 31,
+      "map": "gef_fild09",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild09.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 9537
+    },
+    {
+      "id": 32,
+      "map": "gef_fild10",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild10.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15460
+    },
+    {
+      "id": 33,
+      "map": "gef_fild11",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild11.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14876
+    },
+    {
+      "id": 34,
+      "map": "gef_fild12",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild12.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14161
+    },
+    {
+      "id": 35,
+      "map": "gef_fild14",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_fild14.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14753
+    },
+    {
+      "id": 36,
+      "map": "gef_tower",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gef_tower.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 37,
+      "map": "gefenia01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gefenia01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2615
+    },
+    {
+      "id": 38,
+      "map": "gefenia02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gefenia02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2778
+    },
+    {
+      "id": 39,
+      "map": "gefenia03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gefenia03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2410
+    },
+    {
+      "id": 40,
+      "map": "gefenia04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gefenia04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2472
+    },
+    {
+      "id": 41,
+      "map": "geffen",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/geffen.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14324
+    },
+    {
+      "id": 42,
+      "map": "geffen_in",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/geffen_in.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 43,
+      "map": "gl_cas01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_cas01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 5231
+    },
+    {
+      "id": 44,
+      "map": "gl_cas02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_cas02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4621
+    },
+    {
+      "id": 45,
+      "map": "gl_church",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_church.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4731
+    },
+    {
+      "id": 46,
+      "map": "gl_chyard",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_chyard.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3071
+    },
+    {
+      "id": 47,
+      "map": "gl_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3290
+    },
+    {
+      "id": 48,
+      "map": "gl_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3601
+    },
+    {
+      "id": 49,
+      "map": "gl_in01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_in01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3615
+    },
+    {
+      "id": 50,
+      "map": "gl_knt01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_knt01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 5096
+    },
+    {
+      "id": 51,
+      "map": "gl_knt02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_knt02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3916
+    },
+    {
+      "id": 52,
+      "map": "gl_prison",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_prison.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4534
+    },
+    {
+      "id": 53,
+      "map": "gl_prison1",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_prison1.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3904
+    },
+    {
+      "id": 54,
+      "map": "gl_sew01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_sew01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3866
+    },
+    {
+      "id": 55,
+      "map": "gl_sew02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_sew02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4379
+    },
+    {
+      "id": 56,
+      "map": "gl_sew03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_sew03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3300
+    },
+    {
+      "id": 57,
+      "map": "gl_sew04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_sew04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3909
+    },
+    {
+      "id": 58,
+      "map": "gl_step",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gl_step.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3656
+    },
+    {
+      "id": 59,
+      "map": "glast_01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/glast_01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15898
+    },
+    {
+      "id": 60,
+      "map": "in_orcs01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/in_orcs01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 61,
+      "map": "orcsdun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/orcsdun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2754
+    },
+    {
+      "id": 62,
+      "map": "orcsdun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/orcsdun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3106
+    },
+    {
+      "id": 63,
+      "map": "in_hunter",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/in_hunter.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 847
+    },
+    {
+      "id": 64,
+      "map": "izlude_in",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/izlude_in.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 65,
+      "map": "job_duncer",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/job_duncer.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 66,
+      "map": "monk_in",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/monk_in.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 67,
+      "map": "monk_test",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/monk_test.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 68,
+      "map": "pay_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 7532
+    },
+    {
+      "id": 69,
+      "map": "pay_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11063
+    },
+    {
+      "id": 70,
+      "map": "pay_fild04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_fild04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14934
+    },
+    {
+      "id": 71,
+      "map": "pay_fild05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_fild05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 6780
+    },
+    {
+      "id": 72,
+      "map": "pay_fild06",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_fild06.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10974
+    },
+    {
+      "id": 73,
+      "map": "pay_fild07",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_fild07.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13499
+    },
+    {
+      "id": 74,
+      "map": "pay_fild08",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_fild08.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 6829
+    },
+    {
+      "id": 75,
+      "map": "pay_fild09",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_fild09.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12893
+    },
+    {
+      "id": 76,
+      "map": "pay_fild10",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_fild10.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13689
+    },
+    {
+      "id": 77,
+      "map": "pay_fild11",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/pay_fild11.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 8586
+    },
+    {
+      "id": 78,
+      "map": "payon_in01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/payon_in01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 79,
+      "map": "payon_in02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/payon_in02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 80,
+      "map": "payon_in03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/payon_in03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 81,
+      "map": "prt_castle",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_castle.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 82,
+      "map": "prt_church",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_church.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 83,
+      "map": "prt_fild00",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_fild00.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13625
+    },
+    {
+      "id": 84,
+      "map": "prt_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 16167
+    },
+    {
+      "id": 85,
+      "map": "prt_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 17460
+    },
+    {
+      "id": 86,
+      "map": "prt_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15490
+    },
+    {
+      "id": 87,
+      "map": "prt_fild04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_fild04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10583
+    },
+    {
+      "id": 88,
+      "map": "prt_fild10",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_fild10.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 16092
+    },
+    {
+      "id": 89,
+      "map": "prt_fild11",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_fild11.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15132
+    },
+    {
+      "id": 90,
+      "map": "prt_in",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_in.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 91,
+      "map": "prt_maze01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_maze01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 6731
+    },
+    {
+      "id": 92,
+      "map": "prt_maze02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_maze02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3118
+    },
+    {
+      "id": 93,
+      "map": "prt_maze03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_maze03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 6770
+    },
+    {
+      "id": 94,
+      "map": "prt_monk",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_monk.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 9606
+    },
+    {
+      "id": 95,
+      "map": "prt_sewb1",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_sewb1.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3887
+    },
+    {
+      "id": 96,
+      "map": "prt_sewb2",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_sewb2.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 1170
+    },
+    {
+      "id": 97,
+      "map": "prt_sewb3",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_sewb3.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2328
+    },
+    {
+      "id": 98,
+      "map": "prt_sewb4",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_sewb4.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3787
+    },
+    {
+      "id": 99,
+      "map": "anthell01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/anthell01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4592
+    },
+    {
+      "id": 100,
+      "map": "anthell02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/anthell02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4764
+    },
+    {
+      "id": 101,
+      "map": "in_moc_16",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/in_moc_16.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 102,
+      "map": "in_sphinx1",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/in_sphinx1.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4023
+    },
+    {
+      "id": 103,
+      "map": "in_sphinx2",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/in_sphinx2.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3804
+    },
+    {
+      "id": 104,
+      "map": "in_sphinx3",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/in_sphinx3.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2819
+    },
+    {
+      "id": 105,
+      "map": "in_sphinx4",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/in_sphinx4.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2135
+    },
+    {
+      "id": 106,
+      "map": "in_sphinx5",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/in_sphinx5.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 1982
+    },
+    {
+      "id": 107,
+      "map": "job_thief1",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/job_thief1.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4609
+    },
+    {
+      "id": 108,
+      "map": "moc_fild07",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild07.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11210
+    },
+    {
+      "id": 109,
+      "map": "moc_fild11",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild11.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12287
+    },
+    {
+      "id": 110,
+      "map": "moc_fild12",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild12.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 9065
+    },
+    {
+      "id": 111,
+      "map": "moc_fild13",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild13.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 9900
+    },
+    {
+      "id": 112,
+      "map": "moc_fild16",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild16.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10123
+    },
+    {
+      "id": 113,
+      "map": "moc_fild17",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild17.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 9211
+    },
+    {
+      "id": 114,
+      "map": "moc_fild18",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild18.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11192
+    },
+    {
+      "id": 115,
+      "map": "moc_fild19",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild19.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12732
+    },
+    {
+      "id": 116,
+      "map": "moc_fild20",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild20.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13238
+    },
+    {
+      "id": 117,
+      "map": "moc_fild21",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild21.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11651
+    },
+    {
+      "id": 118,
+      "map": "moc_fild22",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild22.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 8820
+    },
+    {
+      "id": 119,
+      "map": "moc_pryd01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_pryd01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4429
+    },
+    {
+      "id": 120,
+      "map": "moc_pryd02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_pryd02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3063
+    },
+    {
+      "id": 121,
+      "map": "moc_pryd03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_pryd03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2837
+    },
+    {
+      "id": 122,
+      "map": "moc_pryd04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_pryd04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 699
+    },
+    {
+      "id": 123,
+      "map": "moc_pryd05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_pryd05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3009
+    },
+    {
+      "id": 124,
+      "map": "moc_pryd06",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_pryd06.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 1998
+    },
+    {
+      "id": 125,
+      "map": "moc_prydb1",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_prydb1.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 1133
+    },
+    {
+      "id": 126,
+      "map": "moc_ruins",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_ruins.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12087
+    },
+    {
+      "id": 127,
+      "map": "morocc",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/morocc.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11628
+    },
+    {
+      "id": 128,
+      "map": "morocc_in",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/morocc_in.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 129,
+      "map": "alb2trea",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/alb2trea.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10186
+    },
+    {
+      "id": 130,
+      "map": "alb_ship",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/alb_ship.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 131,
+      "map": "alberta",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/alberta.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11937
+    },
+    {
+      "id": 132,
+      "map": "alberta_in",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/alberta_in.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 133,
+      "map": "iz_dun00",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/iz_dun00.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4572
+    },
+    {
+      "id": 134,
+      "map": "iz_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/iz_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4644
+    },
+    {
+      "id": 135,
+      "map": "iz_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/iz_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 5772
+    },
+    {
+      "id": 136,
+      "map": "iz_dun03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/iz_dun03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4531
+    },
+    {
+      "id": 137,
+      "map": "iz_dun04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/iz_dun04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3602
+    },
+    {
+      "id": 138,
+      "map": "izlu2dun",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/izlu2dun.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 6959
+    },
+    {
+      "id": 139,
+      "map": "jawaii",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/jawaii.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10261
+    },
+    {
+      "id": 140,
+      "map": "jawaii_in",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/jawaii_in.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 141,
+      "map": "treasure01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/treasure01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2293
+    },
+    {
+      "id": 142,
+      "map": "treasure02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/treasure02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2177
+    },
+    {
+      "id": 143,
+      "map": "tur_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tur_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 6308
+    },
+    {
+      "id": 144,
+      "map": "tur_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tur_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3600
+    },
+    {
+      "id": 145,
+      "map": "tur_dun03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tur_dun03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3553
+    },
+    {
+      "id": 146,
+      "map": "tur_dun04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tur_dun04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4501
+    },
+    {
+      "id": 147,
+      "map": "tur_dun05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tur_dun05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 148,
+      "map": "alde_alche",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/alde_alche.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 149,
+      "map": "alde_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/alde_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3703
+    },
+    {
+      "id": 150,
+      "map": "alde_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/alde_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2589
+    },
+    {
+      "id": 151,
+      "map": "alde_dun03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/alde_dun03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4029
+    },
+    {
+      "id": 152,
+      "map": "alde_dun04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/alde_dun04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3259
+    },
+    {
+      "id": 153,
+      "map": "aldeba_in",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/aldeba_in.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 154,
+      "map": "aldebaran",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/aldebaran.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14652
+    },
+    {
+      "id": 155,
+      "map": "c_tower1",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/c_tower1.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4459
+    },
+    {
+      "id": 156,
+      "map": "c_tower2",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/c_tower2.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4442
+    },
+    {
+      "id": 157,
+      "map": "c_tower3",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/c_tower3.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4492
+    },
+    {
+      "id": 158,
+      "map": "c_tower4",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/c_tower4.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 5182
+    },
+    {
+      "id": 159,
+      "map": "mjo_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjo_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3963
+    },
+    {
+      "id": 160,
+      "map": "mjo_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjo_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2504
+    },
+    {
+      "id": 161,
+      "map": "mjo_dun03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjo_dun03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 5299
+    },
+    {
+      "id": 162,
+      "map": "mjolnir_01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjolnir_01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 16214
+    },
+    {
+      "id": 163,
+      "map": "mjolnir_02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjolnir_02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15727
+    },
+    {
+      "id": 164,
+      "map": "mjolnir_03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjolnir_03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15330
+    },
+    {
+      "id": 165,
+      "map": "mjolnir_04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjolnir_04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 16675
+    },
+    {
+      "id": 166,
+      "map": "mjolnir_05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjolnir_05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 16441
+    },
+    {
+      "id": 167,
+      "map": "mjolnir_06",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjolnir_06.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13000
+    },
+    {
+      "id": 168,
+      "map": "mjolnir_07",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjolnir_07.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13578
+    },
+    {
+      "id": 169,
+      "map": "mjolnir_08",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjolnir_08.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15540
+    },
+    {
+      "id": 170,
+      "map": "mjolnir_09",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjolnir_09.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15379
+    },
+    {
+      "id": 171,
+      "map": "mjolnir_10",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjolnir_10.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 16361
+    },
+    {
+      "id": 172,
+      "map": "mjolnir_11",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjolnir_11.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13837
+    },
+    {
+      "id": 173,
+      "map": "mjolnir_12",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mjolnir_12.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14129
+    },
+    {
+      "id": 174,
+      "map": "beach_dun",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/beach_dun.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3264
+    },
+    {
+      "id": 175,
+      "map": "beach_dun2",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/beach_dun2.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3349
+    },
+    {
+      "id": 176,
+      "map": "beach_dun3",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/beach_dun3.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3481
+    },
+    {
+      "id": 177,
+      "map": "cmd_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/cmd_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13614
+    },
+    {
+      "id": 178,
+      "map": "cmd_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/cmd_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12749
+    },
+    {
+      "id": 179,
+      "map": "cmd_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/cmd_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15295
+    },
+    {
+      "id": 180,
+      "map": "cmd_fild04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/cmd_fild04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11476
+    },
+    {
+      "id": 181,
+      "map": "cmd_fild05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/cmd_fild05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14755
+    },
+    {
+      "id": 182,
+      "map": "cmd_fild06",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/cmd_fild06.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14450
+    },
+    {
+      "id": 183,
+      "map": "cmd_fild07",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/cmd_fild07.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13172
+    },
+    {
+      "id": 184,
+      "map": "cmd_fild08",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/cmd_fild08.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15000
+    },
+    {
+      "id": 185,
+      "map": "cmd_fild09",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/cmd_fild09.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13019
+    },
+    {
+      "id": 186,
+      "map": "cmd_in01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/cmd_in01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 187,
+      "map": "cmd_in02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/cmd_in02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 188,
+      "map": "comodo",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/comodo.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12494
+    },
+    {
+      "id": 189,
+      "map": "in_rogue",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/in_rogue.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 190,
+      "map": "nif_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/nif_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 9552
+    },
+    {
+      "id": 191,
+      "map": "nif_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/nif_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 6911
+    },
+    {
+      "id": 192,
+      "map": "nif_in",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/nif_in.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 193,
+      "map": "niflheim",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/niflheim.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12201
+    },
+    {
+      "id": 194,
+      "map": "um_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/um_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3472
+    },
+    {
+      "id": 195,
+      "map": "um_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/um_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 5833
+    },
+    {
+      "id": 196,
+      "map": "um_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/um_fild01.bmp",
+      "sourceSize": [
+        512,
+        513
+      ],
+      "packed": 15220
+    },
+    {
+      "id": 197,
+      "map": "um_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/um_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14609
+    },
+    {
+      "id": 198,
+      "map": "um_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/um_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15779
+    },
+    {
+      "id": 199,
+      "map": "um_fild04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/um_fild04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13495
+    },
+    {
+      "id": 200,
+      "map": "um_in",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/um_in.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 201,
+      "map": "umbala",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/umbala.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 7876
+    },
+    {
+      "id": 202,
+      "map": "yggdrasil01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yggdrasil01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 203,
+      "map": "airplane",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/airplane.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 204,
+      "map": "airport",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/airport.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 205,
+      "map": "ein_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3795
+    },
+    {
+      "id": 206,
+      "map": "ein_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3381
+    },
+    {
+      "id": 207,
+      "map": "ein_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11369
+    },
+    {
+      "id": 208,
+      "map": "ein_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11483
+    },
+    {
+      "id": 209,
+      "map": "ein_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12562
+    },
+    {
+      "id": 210,
+      "map": "ein_fild04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_fild04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14746
+    },
+    {
+      "id": 211,
+      "map": "ein_fild05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_fild05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11301
+    },
+    {
+      "id": 212,
+      "map": "ein_fild06",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_fild06.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10771
+    },
+    {
+      "id": 213,
+      "map": "ein_fild07",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_fild07.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12665
+    },
+    {
+      "id": 214,
+      "map": "ein_fild08",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_fild08.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13024
+    },
+    {
+      "id": 215,
+      "map": "ein_fild09",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_fild09.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12400
+    },
+    {
+      "id": 216,
+      "map": "ein_fild10",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_fild10.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10214
+    },
+    {
+      "id": 217,
+      "map": "ein_in01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ein_in01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 218,
+      "map": "einbech",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/einbech.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13096
+    },
+    {
+      "id": 219,
+      "map": "einbroch",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/einbroch.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11423
+    },
+    {
+      "id": 220,
+      "map": "hu_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/hu_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11853
+    },
+    {
+      "id": 221,
+      "map": "hu_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/hu_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14860
+    },
+    {
+      "id": 222,
+      "map": "hu_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/hu_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15047
+    },
+    {
+      "id": 223,
+      "map": "hu_fild04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/hu_fild04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 17261
+    },
+    {
+      "id": 224,
+      "map": "hu_fild05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/hu_fild05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12333
+    },
+    {
+      "id": 225,
+      "map": "hu_fild06",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/hu_fild06.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12088
+    },
+    {
+      "id": 226,
+      "map": "hu_fild07",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/hu_fild07.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15710
+    },
+    {
+      "id": 227,
+      "map": "hu_in01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/hu_in01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 228,
+      "map": "hugel",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/hugel.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12131
+    },
+    {
+      "id": 229,
+      "map": "jupe_area1",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/jupe_area1.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 230,
+      "map": "jupe_area2",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/jupe_area2.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 231,
+      "map": "jupe_cave",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/jupe_cave.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 232,
+      "map": "jupe_core",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/jupe_core.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 233,
+      "map": "jupe_ele_r",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/jupe_ele_r.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 234,
+      "map": "jupe_gate",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/jupe_gate.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 235,
+      "map": "juperos_01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/juperos_01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3718
+    },
+    {
+      "id": 236,
+      "map": "juperos_02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/juperos_02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4783
+    },
+    {
+      "id": 237,
+      "map": "mag_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mag_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4297
+    },
+    {
+      "id": 238,
+      "map": "mag_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mag_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2354
+    },
+    {
+      "id": 239,
+      "map": "yuno",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13169
+    },
+    {
+      "id": 240,
+      "map": "yuno_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12098
+    },
+    {
+      "id": 241,
+      "map": "yuno_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14153
+    },
+    {
+      "id": 242,
+      "map": "yuno_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13784
+    },
+    {
+      "id": 243,
+      "map": "yuno_fild04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_fild04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12808
+    },
+    {
+      "id": 244,
+      "map": "yuno_fild05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_fild05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12993
+    },
+    {
+      "id": 245,
+      "map": "yuno_fild06",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_fild06.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11602
+    },
+    {
+      "id": 246,
+      "map": "yuno_fild07",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_fild07.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10873
+    },
+    {
+      "id": 247,
+      "map": "yuno_fild08",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_fild08.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14779
+    },
+    {
+      "id": 248,
+      "map": "yuno_fild09",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_fild09.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15636
+    },
+    {
+      "id": 249,
+      "map": "yuno_fild10",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_fild10.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13340
+    },
+    {
+      "id": 250,
+      "map": "yuno_fild11",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_fild11.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12891
+    },
+    {
+      "id": 251,
+      "map": "yuno_fild12",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_fild12.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10685
+    },
+    {
+      "id": 252,
+      "map": "yuno_in01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_in01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 253,
+      "map": "yuno_in02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_in02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 254,
+      "map": "yuno_in03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_in03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 255,
+      "map": "yuno_in04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_in04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 256,
+      "map": "yuno_in05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_in05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 257,
+      "map": "yuno_pre",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/yuno_pre.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 258,
+      "map": "kh_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/kh_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3704
+    },
+    {
+      "id": 259,
+      "map": "kh_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/kh_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4140
+    },
+    {
+      "id": 260,
+      "map": "kh_kiehl01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/kh_kiehl01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 261,
+      "map": "kh_kiehl02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/kh_kiehl02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 262,
+      "map": "kh_mansion",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/kh_mansion.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 263,
+      "map": "kh_rossi",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/kh_rossi.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 264,
+      "map": "kh_school",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/kh_school.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 265,
+      "map": "kh_vila",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/kh_vila.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 266,
+      "map": "lhz_cube",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lhz_cube.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 267,
+      "map": "lhz_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lhz_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 6507
+    },
+    {
+      "id": 268,
+      "map": "lhz_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lhz_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4920
+    },
+    {
+      "id": 269,
+      "map": "lhz_dun03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lhz_dun03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3964
+    },
+    {
+      "id": 270,
+      "map": "lhz_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lhz_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15750
+    },
+    {
+      "id": 271,
+      "map": "lhz_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lhz_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12687
+    },
+    {
+      "id": 272,
+      "map": "lhz_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lhz_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13183
+    },
+    {
+      "id": 273,
+      "map": "lhz_in01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lhz_in01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 274,
+      "map": "lhz_in02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lhz_in02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 275,
+      "map": "lhz_in03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lhz_in03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 276,
+      "map": "lhz_que01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lhz_que01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 277,
+      "map": "lighthalzen",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lighthalzen.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 16976
+    },
+    {
+      "id": 278,
+      "map": "abbey01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/abbey01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3371
+    },
+    {
+      "id": 279,
+      "map": "abbey02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/abbey02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3854
+    },
+    {
+      "id": 280,
+      "map": "abbey03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/abbey03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4051
+    },
+    {
+      "id": 281,
+      "map": "ice_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ice_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4185
+    },
+    {
+      "id": 282,
+      "map": "ice_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ice_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4492
+    },
+    {
+      "id": 283,
+      "map": "ice_dun03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ice_dun03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4564
+    },
+    {
+      "id": 284,
+      "map": "ice_dun04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ice_dun04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 285,
+      "map": "nameless_i",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/nameless_i.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11163
+    },
+    {
+      "id": 286,
+      "map": "nameless_in",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 946
+    },
+    {
+      "id": 287,
+      "map": "nameless_n",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/nameless_n.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11575
+    },
+    {
+      "id": 288,
+      "map": "ra_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12559
+    },
+    {
+      "id": 289,
+      "map": "ra_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10400
+    },
+    {
+      "id": 290,
+      "map": "ra_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11535
+    },
+    {
+      "id": 291,
+      "map": "ra_fild04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13205
+    },
+    {
+      "id": 292,
+      "map": "ra_fild05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13211
+    },
+    {
+      "id": 293,
+      "map": "ra_fild06",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild06.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14211
+    },
+    {
+      "id": 294,
+      "map": "ra_fild07",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild07.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12229
+    },
+    {
+      "id": 295,
+      "map": "ra_fild08",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild08.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15184
+    },
+    {
+      "id": 296,
+      "map": "ra_fild09",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild09.bmp",
+      "sourceSize": [
+        508,
+        508
+      ],
+      "packed": 13607
+    },
+    {
+      "id": 297,
+      "map": "ra_fild10",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild10.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11403
+    },
+    {
+      "id": 298,
+      "map": "ra_fild11",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild11.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14934
+    },
+    {
+      "id": 299,
+      "map": "ra_fild12",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild12.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14220
+    },
+    {
+      "id": 300,
+      "map": "ra_fild13",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_fild13.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11848
+    },
+    {
+      "id": 301,
+      "map": "ra_in01",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1974
+    },
+    {
+      "id": 302,
+      "map": "ra_san01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_san01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4119
+    },
+    {
+      "id": 303,
+      "map": "ra_san02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_san02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3967
+    },
+    {
+      "id": 304,
+      "map": "ra_san03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_san03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4229
+    },
+    {
+      "id": 305,
+      "map": "ra_san04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_san04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3230
+    },
+    {
+      "id": 306,
+      "map": "ra_san05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_san05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4013
+    },
+    {
+      "id": 307,
+      "map": "ra_temin",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 2744
+    },
+    {
+      "id": 308,
+      "map": "ra_temple",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_temple.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14644
+    },
+    {
+      "id": 309,
+      "map": "ra_temsky",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ra_temsky.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 310,
+      "map": "rachel",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/rachel.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14869
+    },
+    {
+      "id": 311,
+      "map": "thor_v01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/thor_v01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3614
+    },
+    {
+      "id": 312,
+      "map": "thor_v02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/thor_v02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3875
+    },
+    {
+      "id": 313,
+      "map": "thor_v03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/thor_v03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4362
+    },
+    {
+      "id": 314,
+      "map": "ve_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ve_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12933
+    },
+    {
+      "id": 315,
+      "map": "ve_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ve_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13627
+    },
+    {
+      "id": 316,
+      "map": "ve_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ve_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12358
+    },
+    {
+      "id": 317,
+      "map": "ve_fild04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ve_fild04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12847
+    },
+    {
+      "id": 318,
+      "map": "ve_fild05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ve_fild05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10839
+    },
+    {
+      "id": 319,
+      "map": "ve_fild06",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ve_fild06.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 320,
+      "map": "ve_fild07",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ve_fild07.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12314
+    },
+    {
+      "id": 321,
+      "map": "ve_in",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1549
+    },
+    {
+      "id": 322,
+      "map": "ve_in02",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1265
+    },
+    {
+      "id": 323,
+      "map": "veins",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/veins.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14650
+    },
+    {
+      "id": 324,
+      "map": "abyss_01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/abyss_01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3166
+    },
+    {
+      "id": 325,
+      "map": "abyss_02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/abyss_02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3473
+    },
+    {
+      "id": 326,
+      "map": "abyss_03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/abyss_03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2978
+    },
+    {
+      "id": 327,
+      "map": "odin_tem01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/odin_tem01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 8235
+    },
+    {
+      "id": 328,
+      "map": "odin_tem02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/odin_tem02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10890
+    },
+    {
+      "id": 329,
+      "map": "odin_tem03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/odin_tem03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 8697
+    },
+    {
+      "id": 330,
+      "map": "tha_scene01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_scene01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 331,
+      "map": "tha_t01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_t01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 5337
+    },
+    {
+      "id": 332,
+      "map": "tha_t02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_t02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4907
+    },
+    {
+      "id": 333,
+      "map": "tha_t03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_t03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4156
+    },
+    {
+      "id": 334,
+      "map": "tha_t04",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_t04.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3190
+    },
+    {
+      "id": 335,
+      "map": "tha_t05",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_t05.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 5468
+    },
+    {
+      "id": 336,
+      "map": "tha_t06",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_t06.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 5555
+    },
+    {
+      "id": 337,
+      "map": "tha_t07",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_t07.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 338,
+      "map": "tha_t08",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_t08.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 339,
+      "map": "tha_t09",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_t09.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 340,
+      "map": "tha_t10",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_t10.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 341,
+      "map": "tha_t11",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_t11.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 342,
+      "map": "tha_t12",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/tha_t12.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 343,
+      "map": "thana_boss",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/thana_boss.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 344,
+      "map": "thana_step",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/thana_step.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 345,
+      "map": "ama_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ama_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 346,
+      "map": "ama_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ama_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2099
+    },
+    {
+      "id": 347,
+      "map": "ama_dun03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ama_dun03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3369
+    },
+    {
+      "id": 348,
+      "map": "ama_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ama_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13466
+    },
+    {
+      "id": 349,
+      "map": "ama_in01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ama_in01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 350,
+      "map": "ama_in02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ama_in02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 351,
+      "map": "amatsu",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/amatsu.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15326
+    },
+    {
+      "id": 352,
+      "map": "ayo_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ayo_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 353,
+      "map": "ayo_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ayo_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4109
+    },
+    {
+      "id": 354,
+      "map": "ayo_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ayo_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14513
+    },
+    {
+      "id": 355,
+      "map": "ayo_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ayo_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 17557
+    },
+    {
+      "id": 356,
+      "map": "ayo_in01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ayo_in01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 357,
+      "map": "ayo_in02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ayo_in02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 358,
+      "map": "ayothaya",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ayothaya.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14496
+    },
+    {
+      "id": 359,
+      "map": "gon_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gon_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 1888
+    },
+    {
+      "id": 360,
+      "map": "gon_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gon_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 1669
+    },
+    {
+      "id": 361,
+      "map": "gon_dun03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gon_dun03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2099
+    },
+    {
+      "id": 362,
+      "map": "gon_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gon_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13598
+    },
+    {
+      "id": 363,
+      "map": "gon_in",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gon_in.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 364,
+      "map": "gonryun",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/gonryun.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10659
+    },
+    {
+      "id": 365,
+      "map": "lou_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lou_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3426
+    },
+    {
+      "id": 366,
+      "map": "lou_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lou_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4763
+    },
+    {
+      "id": 367,
+      "map": "lou_dun03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lou_dun03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3584
+    },
+    {
+      "id": 368,
+      "map": "lou_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lou_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10654
+    },
+    {
+      "id": 369,
+      "map": "lou_in01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lou_in01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 370,
+      "map": "lou_in02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/lou_in02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 371,
+      "map": "louyang",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/louyang.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15525
+    },
+    {
+      "id": 372,
+      "map": "bra_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/bra_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3320
+    },
+    {
+      "id": 373,
+      "map": "bra_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/bra_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4101
+    },
+    {
+      "id": 374,
+      "map": "bra_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/bra_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12960
+    },
+    {
+      "id": 375,
+      "map": "bra_in01",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 2049
+    },
+    {
+      "id": 376,
+      "map": "brasilis",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/brasilis.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14553
+    },
+    {
+      "id": 377,
+      "map": "moscovia",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moscovia.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 8221
+    },
+    {
+      "id": 378,
+      "map": "mosk_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mosk_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13928
+    },
+    {
+      "id": 379,
+      "map": "mosk_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mosk_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11199
+    },
+    {
+      "id": 380,
+      "map": "mosk_dun03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mosk_dun03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 11155
+    },
+    {
+      "id": 381,
+      "map": "mosk_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mosk_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 382,
+      "map": "mosk_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mosk_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13074
+    },
+    {
+      "id": 383,
+      "map": "mosk_in",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1455
+    },
+    {
+      "id": 384,
+      "map": "mosk_que",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mosk_que.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 385,
+      "map": "mosk_ship",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mosk_ship.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 386,
+      "map": "xmas",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/xmas.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10376
+    },
+    {
+      "id": 387,
+      "map": "xmas_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/xmas_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 7190
+    },
+    {
+      "id": 388,
+      "map": "xmas_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/xmas_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4599
+    },
+    {
+      "id": 389,
+      "map": "xmas_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/xmas_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12029
+    },
+    {
+      "id": 390,
+      "map": "xmas_in",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/xmas_in.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 391,
+      "map": "man_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/man_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12093
+    },
+    {
+      "id": 392,
+      "map": "man_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/man_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 12596
+    },
+    {
+      "id": 393,
+      "map": "man_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/man_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10449
+    },
+    {
+      "id": 394,
+      "map": "man_in01",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 2395
+    },
+    {
+      "id": 395,
+      "map": "manuk",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/manuk.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13764
+    },
+    {
+      "id": 396,
+      "map": "mid_camp",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/mid_camp.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 10872
+    },
+    {
+      "id": 397,
+      "map": "mid_campin",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1046
+    },
+    {
+      "id": 398,
+      "map": "nyd_dun01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/nyd_dun01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 7852
+    },
+    {
+      "id": 399,
+      "map": "nyd_dun02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/nyd_dun02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 1127
+    },
+    {
+      "id": 400,
+      "map": "spl_fild01",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/spl_fild01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 16432
+    },
+    {
+      "id": 401,
+      "map": "spl_fild02",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/spl_fild02.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 15431
+    },
+    {
+      "id": 402,
+      "map": "spl_fild03",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/spl_fild03.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 14321
+    },
+    {
+      "id": 403,
+      "map": "spl_in01",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1338
+    },
+    {
+      "id": 404,
+      "map": "spl_in02",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 547
+    },
+    {
+      "id": 405,
+      "map": "splendide",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/splendide.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 13390
+    },
+    {
+      "id": 406,
+      "map": "que_ng",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/que_ng.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 407,
+      "map": "que_rachel",
+      "source": "/workspace/myro/asset-library/Test51-world-maps/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/que_rachel.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 408,
+      "map": "que_sign01",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1362
+    },
+    {
+      "id": 409,
+      "map": "1@cata",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/1@cata.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 410,
+      "map": "1@nyd",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/1@nyd.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2918
+    },
+    {
+      "id": 411,
+      "map": "1@orcs",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/1@orcs.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 412,
+      "map": "1@tower",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/1@tower.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 413,
+      "map": "2@cata",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/2@cata.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 2036
+    },
+    {
+      "id": 414,
+      "map": "2@nyd",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/2@nyd.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 415,
+      "map": "2@orcs",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/2@orcs.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 416,
+      "map": "2@tower",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/2@tower.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 417,
+      "map": "3@tower",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/3@tower.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 418,
+      "map": "4@tower",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/4@tower.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 419,
+      "map": "5@tower",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/5@tower.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 420,
+      "map": "6@tower",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/6@tower.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 421,
+      "map": "airplane_01",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 422,
+      "map": "ama_test",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/ama_test.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 423,
+      "map": "cave",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/cave.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 3284
+    },
+    {
+      "id": 424,
+      "map": "e_tower",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/e_tower.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 425,
+      "map": "himinn",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 898
+    },
+    {
+      "id": 426,
+      "map": "job_cru",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/job_cru.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 427,
+      "map": "job_hunte",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/job_hunte.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 428,
+      "map": "job_knt",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/job_knt.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 429,
+      "map": "job_monk",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/job_monk.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 430,
+      "map": "job_prist",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/job_prist.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 431,
+      "map": "job_sage",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/job_sage.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 432,
+      "map": "job_soul",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/job_soul.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 433,
+      "map": "job_star",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/job_star.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 434,
+      "map": "job_sword1",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/job_sword1.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 4033
+    },
+    {
+      "id": 435,
+      "map": "job_wiz",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/job_wiz.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 436,
+      "map": "jupe_ele",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/jupe_ele.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 437,
+      "map": "lhz_airport",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 438,
+      "map": "moc_fild22b",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/moc_fild22b.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 9667
+    },
+    {
+      "id": 439,
+      "map": "que_ba",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1261
+    },
+    {
+      "id": 440,
+      "map": "que_dan01",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/que_dan01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 441,
+      "map": "que_dan02",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1539
+    },
+    {
+      "id": 442,
+      "map": "que_hugel",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/que_hugel.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 443,
+      "map": "que_job01",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/que_job01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 444,
+      "map": "que_san04",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 2740
+    },
+    {
+      "id": 445,
+      "map": "que_sign02",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 4245
+    },
+    {
+      "id": 446,
+      "map": "que_temsky",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 447,
+      "map": "que_thor",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/que_thor.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 448,
+      "map": "thor_camp",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/thor_camp.bmp",
+      "sourceSize": [
+        427,
+        512
+      ],
+      "packed": 10083
+    },
+    {
+      "id": 449,
+      "map": "valkyrie",
+      "source": "/workspace/myro/asset-library/Test55-npc-systems/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/valkyrie.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 450,
+      "map": "y_airport",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 451,
+      "map": "z_agit",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1316
+    },
+    {
+      "id": 452,
+      "map": "new_1-1",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 6754
+    },
+    {
+      "id": 453,
+      "map": "new_1-2",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 454,
+      "map": "new_1-3",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 5969
+    },
+    {
+      "id": 455,
+      "map": "new_1-4",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 456,
+      "map": "new_2-1",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 6754
+    },
+    {
+      "id": 457,
+      "map": "new_2-2",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 458,
+      "map": "new_2-3",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 5969
+    },
+    {
+      "id": 459,
+      "map": "new_2-4",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 460,
+      "map": "new_3-1",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 6754
+    },
+    {
+      "id": 461,
+      "map": "new_3-2",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 462,
+      "map": "new_3-3",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 5969
+    },
+    {
+      "id": 463,
+      "map": "new_3-4",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 464,
+      "map": "new_4-1",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 6754
+    },
+    {
+      "id": 465,
+      "map": "new_4-2",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 466,
+      "map": "new_4-3",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 5969
+    },
+    {
+      "id": 467,
+      "map": "new_4-4",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 468,
+      "map": "new_5-1",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 6754
+    },
+    {
+      "id": 469,
+      "map": "new_5-2",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 470,
+      "map": "new_5-3",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 5969
+    },
+    {
+      "id": 471,
+      "map": "new_5-4",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 56
+    },
+    {
+      "id": 472,
+      "map": "moc_fild04",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 3970
+    },
+    {
+      "id": 473,
+      "map": "moc_fild05",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 3392
+    },
+    {
+      "id": 474,
+      "map": "moc_fild06",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 3221
+    },
+    {
+      "id": 475,
+      "map": "moc_fild08",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 3496
+    },
+    {
+      "id": 476,
+      "map": "moc_fild09",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 3395
+    },
+    {
+      "id": 477,
+      "map": "moc_fild10",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 4417
+    },
+    {
+      "id": 478,
+      "map": "moc_fild14",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 2551
+    },
+    {
+      "id": 479,
+      "map": "moc_fild15",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 2880
+    },
+    {
+      "id": 480,
+      "map": "sec_in02",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 2228
+    },
+    {
+      "id": 481,
+      "map": "arena_room",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1336
+    },
+    {
+      "id": 482,
+      "map": "prt_are_in",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1714
+    },
+    {
+      "id": 483,
+      "map": "prt_are01",
+      "source": "/workspace/myro/asset-library/Test56-training-grounds/data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/map/prt_are01.bmp",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "packed": 56
+    },
+    {
+      "id": 484,
+      "map": "force_1-1",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1815
+    },
+    {
+      "id": 485,
+      "map": "force_2-1",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1815
+    },
+    {
+      "id": 486,
+      "map": "force_3-1",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1815
+    },
+    {
+      "id": 487,
+      "map": "force_4-1",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1815
+    },
+    {
+      "id": 488,
+      "map": "force_5-1",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 1815
+    },
+    {
+      "id": 489,
+      "map": "p_track01",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 784
+    },
+    {
+      "id": 490,
+      "map": "p_track02",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 784
+    },
+    {
+      "id": 491,
+      "map": "que_bingo",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 854
+    },
+    {
+      "id": 492,
+      "map": "gef_fild13",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 2715
+    },
+    {
+      "id": 493,
+      "map": "gon_test",
+      "source": "existing 96x72 fallback",
+      "sourceSize": [
+        96,
+        72
+      ],
+      "packed": 827
+    }
+  ]
+}

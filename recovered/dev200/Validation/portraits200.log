@@ -1,0 +1,1 @@
+PASS all24 expression textures through bounded disc/decode/draw cache: exact BGRA CRCs, one256KiB texture reused across characters/expressions, original NPC cutin released, neutral fallback, unknown speaker/choice/low-memory hide safely, map/close cleanup and corruption rejection without wrong portrait.

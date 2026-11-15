@@ -1,0 +1,93 @@
+{
+  "milestone": "First-pair battle and persistent controller settings, development only",
+  "actors": {
+    "Roan": [
+      "normal Sword attack",
+      "Bash"
+    ],
+    "Yuufa": [
+      "Heal",
+      "Holy Light"
+    ]
+  },
+  "playerSupport": [
+    "Heal on selected active living companion, through the normal skill pipeline",
+    "Resurrection on selected defeated active companion; original ranks1-4, source cast/delay,60SP and one Blue Gemstone unless exempt.",
+    "Blessing: selected rank, STR/INT/DEX and dynamic SP maximum",
+    "Increase AGI: selected rank, AGI and25% movement-speed bonus",
+    "Kyrie Eleison: selected rank, physical-only shield HP/hit limits and source2-second cast/aftercast delay"
+  ],
+  "controls": {
+    "Companions": "Pause \u2192 Game \u2192 Companions; utility503 (Select window integration pending)",
+    "roster": {
+      "A": "member settings",
+      "X": "active/reserve (three-slot cap)",
+      "Y": "focus current living enemy within24cells for10seconds",
+      "B": "close"
+    },
+    "settings": {
+      "A": "edit / save",
+      "leftRight": "bounded value while editing",
+      "B": "cancel edit / roster",
+      "Y": "Heal a living member or cast learned Resurrection on a defeated member, when not editing; success/start returns to gameplay.",
+      "X": "Open support-skill list; A casts the selected learned skill, B returns to member settings."
+    }
+  },
+  "persistence": {
+    "configKey": "0xeca20000f219bc62",
+    "configRawBytes": 80,
+    "vitalsKey": "0xeca20000f219bc63",
+    "vitalsRawBytes": 256,
+    "encodedBytes": 672,
+    "crcChecked": true,
+    "damagedRecordsPreserved": true,
+    "allActiveHealerRecoverySingleCommit": true,
+    "customDungeonHealerChargesAfterCommit": true,
+    "ordinaryNpcPercentHealHook": true,
+    "mapsDoNotRefillHPorSP": true,
+    "deadMembersPersistUntilRevival": true,
+    "reserveVitalsPersist": true
+  },
+  "limits": {
+    "activeMax": 3,
+    "sourcePreparedRecruits": 2,
+    "sourceActorCatalog": 4,
+    "visiblePoseSlots": 4,
+    "GPUActorBytesMaximum": 262144,
+    "pendingEnemyHits": 16,
+    "partyVisualEffects": 8,
+    "simulationAndSettingsBytes": "under4096, excludes shared sprite/effect caches",
+    "additionalPartyHUDTextureBytes": 0
+  },
+  "sourceTiming": {
+    "HolyLight": "Source2000ms base, own DEX reduction; cast interrupted by actual incoming hit; SP charged once at valid completion. Existing begin-spell cue reused.",
+    "Heal": "Instant, native player formula for player casts; own INT/level formula for companion casts; sourceSP/cooldown.",
+    "RoanAttack": "Source sword motion duration, delayed impact and facing/movement locks.",
+    "Resurrection": "Source server skill.c HP10/30/50/80%, native6/4/2/0-second base casts and0/1/2/3-second delays, DEX cast reduction,60SP, one Blue Gemstone. SP/gem spent only on valid completion; stale/revived/absent/range/LOS/failed-persistence targets keep resources.",
+    "Kyrie": "Fixed missing retained runtime7/sourcePR_KYRIE73 timing row:2000ms cast,2000ms aftercast,120seconds shield. Updated original integration generator too."
+  },
+  "hostValidation": [
+    "all800 genuine poses via runtime sparse reader",
+    "source combat timings, target-life rejection, enemy callback routing and bounded movement",
+    "actual native player Heal rank/SP/cooldown/bonus pipeline; friendly target, self-Heal unchanged",
+    "atomic OOM recovery with no fee/SP on rejection",
+    "actual controller UI edit/save/cancel/reserve and friendly Heal",
+    "exact source party widget pixels and preservation of baseline atlas outside reserved region",
+    "Source Resurrection all four ranks, interrupted/stale/already-revived/unreachable/unlearned/OOM targets, gemstone exemption, actual controller action, ordinary offensive Resurrection against Undead unchanged.",
+    "Blessing/AGI/Kyrie selected ranks1/5/10, real stat/speed/SP effects/expiry, physical-only shield and partial absorb/OOM atomicity, interrupted/stale targets and DEX>=150 cast safety."
+  ],
+  "notYet": [
+    "Full enemy spell/AoE/status routing to all party members",
+    "Additional party/status skills beyond Heal/Resurrection/Blessing/Increase AGI/Kyrie",
+    "All19 companion source appearances, promotions, gear and kits",
+    "Separate source-actor catalog from four visible cache slots before expanding roster",
+    "Companions access as a Select window",
+    "Later chapter executable scenes and native quest anchors",
+    "Approved comedic developer conversion confirmations / quest sandbox integration",
+    "Original Xbox and Xemu campaign playthrough; no hardware acceptance claimed"
+  ],
+  "outstandingCollector": null,
+  "nativeBuildPassed": true,
+  "hardwareTested": false,
+  "packaged": false
+}

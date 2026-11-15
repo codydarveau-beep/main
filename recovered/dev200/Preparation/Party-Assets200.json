@@ -1,0 +1,4306 @@
+[
+  {
+    "virtual": "data\\texture\\유저인터페이스\\basic_interface\\party1.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/basic_interface/party1.bmp",
+    "size": [
+      54,
+      18
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\basic_interface\\party2.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/basic_interface/party2.bmp",
+    "size": [
+      54,
+      18
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\basic_interface\\party3.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/basic_interface/party3.bmp",
+    "size": [
+      54,
+      18
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_1.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_1.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_10.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_10.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_11.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_11.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_12.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_12.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_13.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_13.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_14.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_14.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_15.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_15.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_16.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_16.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_17.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_17.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_18.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_18.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_19.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_19.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_2.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_2.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_20.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_20.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_27.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_27.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_3.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_3.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_4.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_4.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_5.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_5.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_6.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_6.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_7.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_7.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_8.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_8.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\group\\group_9.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/group/group_9.bmp",
+    "size": [
+      24,
+      24
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\bg_partymember.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/bg_partymember.bmp",
+    "size": [
+      38,
+      15
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\btn_resize2.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/btn_resize2.bmp",
+    "size": [
+      7,
+      7
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\btn_titlebar_maximum_out.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/btn_titlebar_maximum_out.bmp",
+    "size": [
+      10,
+      10
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\btn_titlebar_maximum_over.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/btn_titlebar_maximum_over.bmp",
+    "size": [
+      10,
+      10
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\btn_titlebar_maximum_press.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/btn_titlebar_maximum_press.bmp",
+    "size": [
+      10,
+      10
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\ico_partycrown.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/ico_partycrown.bmp",
+    "size": [
+      21,
+      10
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs23_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs23_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_0.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_0.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_0_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_0_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_1.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_1.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_10.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_10.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_10_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_10_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_11.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_11.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_11_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_11_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_12.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_12.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_12_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_12_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_13.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_13.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_13_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_13_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_14.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_14.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_14_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_14_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_15.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_15.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_15_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_15_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_16.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_16.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_16_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_16_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_17.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_17.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_17_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_17_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_18.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_18.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_18_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_18_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_19.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_19.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_19_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_19_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_1_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_1_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_2.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_2.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_20.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_20.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_20_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_20_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_21.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_21.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_21_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_21_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_23.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_23.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_23_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_23_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_24.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_24.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_2426.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_2426.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_2426_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_2426_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_2442.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_2442.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_2442_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_2442_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_24_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_24_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_25.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_25.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_25_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_25_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_26.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_26.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_26_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_26_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_27.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_27.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_27_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_27_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_28.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_28.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_28_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_28_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_29.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_29.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_29_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_29_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_2_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_2_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_3.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_3.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_30.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_30.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_30_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_30_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_3_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_3_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4001.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4001.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4001_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4001_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4002.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4002.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4002_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4002_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4003.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4003.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4003_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4003_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4004.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4004.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4004_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4004_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4005.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4005.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4005_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4005_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4006.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4006.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4006_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4006_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4007.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4007.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4007_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4007_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4008.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4008.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4008_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4008_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4009.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4009.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4009_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4009_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4010.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4010.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4010_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4010_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4011.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4011.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4011_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4011_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4012.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4012.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4012_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4012_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4013.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4013.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4013_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4013_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4014.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4014.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4014_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4014_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4015.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4015.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4015_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4015_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4016.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4016.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4016_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4016_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4017.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4017.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4017_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4017_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4018.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4018.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4018_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4018_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4019.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4019.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4019_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4019_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4020.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4020.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4020_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4020_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4021.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4021.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4021_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4021_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4022.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4022.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4022_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4022_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4023.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4023.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4023_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4023_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4024.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4024.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4024_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4024_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4025.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4025.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4025_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4025_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4026.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4026.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4026_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4026_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4027.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4027.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4027_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4027_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4028.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4028.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4028_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4028_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4029.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4029.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4029_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4029_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4030.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4030.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4030_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4030_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4031.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4031.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4031_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4031_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4032.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4032.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4032_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4032_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4033.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4033.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4033_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4033_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4034.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4034.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4034_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4034_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4035.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4035.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4035_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4035_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4036.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4036.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4036_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4036_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4037.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4037.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4037_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4037_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4038.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4038.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4038_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4038_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4039.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4039.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4039_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4039_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4040.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4040.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4040_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4040_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4041.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4041.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4041_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4041_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4042.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4042.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4042_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4042_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4043.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4043.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4043_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4043_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4044.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4044.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4044_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4044_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4045.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4045.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4045_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4045_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4046.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4046.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4046_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4046_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4047.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4047.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4047_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4047_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4048.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4048.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4048_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4048_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4049.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4049.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4049_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4049_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4054.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4054.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4054_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4054_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4055.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4055.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4055_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4055_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4056.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4056.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4056_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4056_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4057.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4057.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4057_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4057_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4058.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4058.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4058_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4058_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4059.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4059.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4059_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4059_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4060.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4060.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4060_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4060_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4061.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4061.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4061_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4061_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4062.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4062.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4062_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4062_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4063.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4063.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4063_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4063_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4064.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4064.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4064_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4064_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4065.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4065.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4065_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4065_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4066.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4066.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4066_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4066_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4067.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4067.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4067_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4067_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4068.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4068.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4068_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4068_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4069.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4069.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4069_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4069_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4070.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4070.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4070_die - 복사본.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4070_die - 복사본.bmp",
+    "size": [
+      40,
+      40
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4070_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4070_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4071.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4071.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4071_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4071_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4072.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4072.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4072_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4072_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4073.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4073.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4073_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4073_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4074.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4074.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4074_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4074_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4075.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4075.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4075_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4075_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4076.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4076.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4076_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4076_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4077.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4077.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4077_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4077_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4078.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4078.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4078_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4078_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4079.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4079.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4079_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4079_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4080.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4080.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4080_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4080_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4081.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4081.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4081_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4081_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4082.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4082.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4082_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4082_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4083.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4083.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4083_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4083_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4084.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4084.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4084_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4084_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4085.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4085.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4085_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4085_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4086.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4086.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4086_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4086_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4087.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4087.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4087_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4087_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4088.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4088.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4088_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4088_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4089.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4089.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4089_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4089_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4090.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4090.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4090_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4090_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4091.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4091.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4091_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4091_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4092.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4092.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4092_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4092_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4093.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4093.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4093_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4093_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4094.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4094.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4094_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4094_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4095.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4095.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4095_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4095_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4096.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4096.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4096_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4096_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4097.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4097.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4097_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4097_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4098.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4098.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4098_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4098_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4099.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4099.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4099_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4099_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4100.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4100.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4100_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4100_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4101.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4101.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4101_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4101_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4102.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4102.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4102_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4102_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4103.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4103.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4103_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4103_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4104.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4104.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4104_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4104_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4105.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4105.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4105_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4105_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4106.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4106.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4106_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4106_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4107.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4107.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4107_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4107_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4108.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4108.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4108_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4108_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4109.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4109.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4109_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4109_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4110.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4110.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4110_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4110_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4111.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4111.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4111_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4111_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4112.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4112.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4112_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4112_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4114.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4114.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4114_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4114_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4115.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4115.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4115_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4115_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4116.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4116.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4116_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4116_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4117.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4117.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4117_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4117_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4118.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4118.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4118_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4118_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4119.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4119.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4119_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4119_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4120.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4120.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4120_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4120_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4121.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4121.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4121_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4121_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4122.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4122.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4122_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4122_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4123.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4123.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4123_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4123_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4124.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4124.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4124_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4124_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4125.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4125.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4125_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4125_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4126.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4126.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4126_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4126_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4127.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4127.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4127_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4127_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4128.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4128.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4128_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4128_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4129.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4129.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4129_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4129_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4130.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4130.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4130_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4130_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4131.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4131.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4131_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4131_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4132.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4132.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4132_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4132_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4133.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4133.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4133_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4133_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4134.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4134.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4134_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4134_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4135.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4135.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4135_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4135_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4136.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4136.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4136_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4136_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4137.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4137.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4137_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4137_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4138.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4138.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4138_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4138_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4139.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4139.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4139_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4139_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4140.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4140.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4140_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4140_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4141.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4141.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4141_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4141_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4142.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4142.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4142_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4142_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4143.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4143.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4143_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4143_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4144.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4144.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4144_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4144_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4145.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4145.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4145_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4145_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4146.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4146.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4146_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4146_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4147.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4147.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4147_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4147_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4148.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4148.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4148_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4148_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4149.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4149.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4149_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4149_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4150.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4150.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4150_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4150_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4151.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4151.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4151_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4151_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4152.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4152.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4152_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4152_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4153.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4153.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4153_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4153_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4154.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4154.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4154_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4154_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4155.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4155.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4155_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4155_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4156.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4156.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4156_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4156_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4157.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4157.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4157_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4157_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4158.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4158.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4158_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4158_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4159.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4159.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4159_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4159_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4160.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4160.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4160_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4160_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4161.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4161.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4161_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4161_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4162.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4162.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4162_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4162_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4163.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4163.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4163_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4163_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4164.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4164.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4164_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4164_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4165.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4165.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4165_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4165_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4166.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4166.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4166_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4166_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4167.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4167.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4167_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4167_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4168.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4168.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4168_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4168_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4169.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4169.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4169_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4169_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4170.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4170.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4170_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4170_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4171.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4171.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4171_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4171_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4172.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4172.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4172_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4172_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4173.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4173.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4173_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4173_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4174.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4174.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4174_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4174_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4175.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4175.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4175_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4175_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4176.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4176.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4176_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4176_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4177.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4177.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4177_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4177_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4178.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4178.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4178_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4178_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4179.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4179.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4179_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4179_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4180.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4180.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4180_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4180_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4181.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4181.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4181_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4181_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4182.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4182.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4182_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4182_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4183.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4183.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4183_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4183_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4184.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4184.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4184_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4184_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4185.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4185.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4185_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4185_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4186.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4186.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4186_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4186_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4187.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4187.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4187_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4187_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4188.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4188.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4188_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4188_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4189.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4189.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4189_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4189_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4190.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4190.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4190_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4190_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4191.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4191.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4191_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4191_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4192.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4192.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4192_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4192_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4193.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4193.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4193_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4193_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4194.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4194.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4194_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4194_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4195.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4195.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4195_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4195_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4196.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4196.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4196_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4196_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4197.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4197.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4197_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4197_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4198.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4198.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4198_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4198_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4199.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4199.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4199_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4199_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4200.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4200.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4200_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4200_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4201.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4201.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4201_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4201_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4202.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4202.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4202_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4202_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4203.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4203.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4203_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4203_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4204.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4204.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4204_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4204_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4205.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4205.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4205_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4205_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4206.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4206.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4206_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4206_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4207.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4207.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4207_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4207_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4208.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4208.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4208_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4208_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4209.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4209.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4209_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4209_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4210.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4210.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4210_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4210_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4211 - 복사본.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4211 - 복사본.bmp",
+    "size": [
+      40,
+      40
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4211.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4211.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4211_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4211_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4212.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4212.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4212_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4212_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4213.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4213.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4213_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4213_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4214.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4214.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4214_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4214_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4215.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4215.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4215_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4215_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4216.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4216.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4216_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4216_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4217.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4217.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4217_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4217_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4218.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4218.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4218_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4218_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4219.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4219.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4219_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4219_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4220.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4220.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4220_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4220_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4221.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4221.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4221_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4221_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4222.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4222.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4222_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4222_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4223.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4223.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4223_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4223_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4224.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4224.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4224_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4224_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4225.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4225.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4225_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4225_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4226.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4226.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4226_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4226_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4227.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4227.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4227_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4227_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4228.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4228.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4228_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4228_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4229.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4229.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4229_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4229_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4230.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4230.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4230_die.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4230_die.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_jobs_4231.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4231.bmp",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "virtual": "data\\texture\\유저인터페이스\\renewalparty\\icon_party_me.bmp",
+    "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_party_me.bmp",
+    "size": [
+      26,
+      11
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "characters": [
+    "Roan",
+    "Yuufa",
+    "Judia",
+    "Maya"
+  ],
+  "expressions": [
+    "neutral",
+    "happy",
+    "angry",
+    "sad",
+    "worried",
+    "surprised"
+  ],
+  "art": "New expression illustrations based on official TV Tokyo model-sheet slices, not original official expression sets.",
+  "sources": "/workspace/myro/dev200/Preparation/Campaign-Portraits200/Portrait-Sources200.json",
+  "encodedDiscBytes": 2064299,
+  "maximumDisplayedTextureBytes": 262144,
+  "all24DecodeCacheTestsPassed": true,
+  "simultaneousNativeAndCampaignPortraitTextures": false,
+  "missingSpeakerPolicy": "No portrait; never borrow another character.",
+  "missingExpressionPolicy": "Use that character's neutral portrait.",
+  "lineCue": "Typed scene node expression0..5, follows existing saved checkpoint without extra character fields.",
+  "gpuIO": "Prepare at existing GPU frame fence; raw/packed CRC and exact disc length checked. Low-memory or bad-image failure hides art but preserves dialogue.",
+  "nativeBuild": "Currently running after integration; check native-dev200.log before claiming final success.",
+  "remainingArt": [
+    "Nera",
+    "Hald",
+    "Driver",
+    "Veyr",
+    "Later companions and story NPCs"
+  ],
+  "hardwareTested": false
+}

@@ -1,0 +1,190 @@
+[
+  {
+    "name": "Roan",
+    "style": 2,
+    "sex": "\ub0a8",
+    "options": [
+      {
+        "colour": -1,
+        "palette": null
+      },
+      {
+        "colour": 0,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac2_\ub0a8_0.pal"
+      },
+      {
+        "colour": 1,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac2_\ub0a8_1.pal"
+      },
+      {
+        "colour": 2,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac2_\ub0a8_2.pal"
+      },
+      {
+        "colour": 3,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac2_\ub0a8_3.pal"
+      },
+      {
+        "colour": 4,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac2_\ub0a8_4.pal"
+      },
+      {
+        "colour": 5,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac2_\ub0a8_5.pal"
+      },
+      {
+        "colour": 6,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac2_\ub0a8_6.pal"
+      },
+      {
+        "colour": 7,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac2_\ub0a8_7.pal"
+      },
+      {
+        "colour": 8,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac2_\ub0a8_8.pal"
+      }
+    ]
+  },
+  {
+    "name": "Yuufa",
+    "style": 1,
+    "sex": "\uc5ec",
+    "options": [
+      {
+        "colour": -1,
+        "palette": null
+      },
+      {
+        "colour": 0,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac1_\uc5ec_0.pal"
+      },
+      {
+        "colour": 1,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac1_\uc5ec_1.pal"
+      },
+      {
+        "colour": 2,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac1_\uc5ec_2.pal"
+      },
+      {
+        "colour": 3,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac1_\uc5ec_3.pal"
+      },
+      {
+        "colour": 4,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac1_\uc5ec_4.pal"
+      },
+      {
+        "colour": 5,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac1_\uc5ec_5.pal"
+      },
+      {
+        "colour": 6,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac1_\uc5ec_6.pal"
+      },
+      {
+        "colour": 7,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac1_\uc5ec_7.pal"
+      },
+      {
+        "colour": 8,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac1_\uc5ec_8.pal"
+      }
+    ]
+  },
+  {
+    "name": "Judia",
+    "style": 4,
+    "sex": "\uc5ec",
+    "options": [
+      {
+        "colour": -1,
+        "palette": null
+      },
+      {
+        "colour": 0,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac4_\uc5ec_0.pal"
+      },
+      {
+        "colour": 1,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac4_\uc5ec_1.pal"
+      },
+      {
+        "colour": 2,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac4_\uc5ec_2.pal"
+      },
+      {
+        "colour": 3,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac4_\uc5ec_3.pal"
+      },
+      {
+        "colour": 4,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac4_\uc5ec_4.pal"
+      },
+      {
+        "colour": 5,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac4_\uc5ec_5.pal"
+      },
+      {
+        "colour": 6,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac4_\uc5ec_6.pal"
+      },
+      {
+        "colour": 7,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac4_\uc5ec_7.pal"
+      },
+      {
+        "colour": 8,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac4_\uc5ec_8.pal"
+      }
+    ]
+  },
+  {
+    "name": "Maya",
+    "style": 6,
+    "sex": "\uc5ec",
+    "options": [
+      {
+        "colour": -1,
+        "palette": null
+      },
+      {
+        "colour": 0,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac6_\uc5ec_0.pal"
+      },
+      {
+        "colour": 1,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac6_\uc5ec_1.pal"
+      },
+      {
+        "colour": 2,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac6_\uc5ec_2.pal"
+      },
+      {
+        "colour": 3,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac6_\uc5ec_3.pal"
+      },
+      {
+        "colour": 4,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac6_\uc5ec_4.pal"
+      },
+      {
+        "colour": 5,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac6_\uc5ec_5.pal"
+      },
+      {
+        "colour": 6,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac6_\uc5ec_6.pal"
+      },
+      {
+        "colour": 7,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac6_\uc5ec_7.pal"
+      },
+      {
+        "colour": 8,
+        "palette": "/workspace/myro/asset-library/Test54-visuals/data/palette/\uba38\ub9ac/\uba38\ub9ac6_\uc5ec_8.pal"
+      }
+    ]
+  }
+]

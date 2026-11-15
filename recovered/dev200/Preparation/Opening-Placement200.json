@@ -1,0 +1,24 @@
+{
+  "map": "prt_fild08",
+  "mapID": 0,
+  "reference": "Existing Prontera gate",
+  "gate": [
+    1364,
+    3028
+  ],
+  "candidateCenter": [
+    1460,
+    2804
+  ],
+  "clearAreaCells": [
+    7,
+    7
+  ],
+  "reachableOnCollisionGrid": true,
+  "avoidsSolidPropRecords": true,
+  "validationRemaining": [
+    "original Xbox/Xemu controller playthrough"
+  ],
+  "activated": true,
+  "hostReferenceRenderCheckedAllEightYaws": true
+}

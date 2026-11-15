@@ -1,0 +1,12 @@
+/* MIT. Transient source FUNC presentation; no gameplay RNG or saved state. */
+#ifndef MYRO_NPC_PROCEDURAL180_H
+#define MYRO_NPC_PROCEDURAL180_H
+#include "npc_text_cues180.h"
+static unsigned npc_proc_hash180(unsigned x){x^=x>>16;x*=0x7feb352du;x^=x>>15;x*=0x846ca68bu;return x^(x>>16);}
+static int npc_proc_active180(const NpcGame55*n,const NpcVisual172*v,unsigned id,unsigned entity,unsigned life,unsigned from,unsigned until){return v->kind==NPC_VISUAL_EFFECT172&&v->id==id&&v->map==n->player.game->mapId&&v->entity==entity&&v->life==life&&n->ms>=v->created&&n->ms-v->created>=from&&n->ms-v->created<until;}
+static int npc_proc_has180(const NpcGame55*n,unsigned id,unsigned entity,unsigned life,unsigned from,unsigned until){for(unsigned i=0;i<NPC_VISUAL_CAP172;i++)if(npc_proc_active180(n,n->presentation172.events+i,id,entity,life,from,until))return 1;return 0;}
+static unsigned npc_proc_direction180(const NpcGame55*n,unsigned entity,unsigned life,unsigned direction){return(direction+(npc_proc_has180(n,122,entity,life,0,400)?2:0))%8;}
+static unsigned npc_proc_flash180(const NpcGame55*n,unsigned entity,unsigned life){return npc_proc_has180(n,377,entity,life,50,351)?0xff6464u:0;}
+static void npc_proc_tick180(NpcGame55*n){for(unsigned i=0;i<NPC_VISUAL_CAP172;i++){NpcVisual172*v=n->presentation172.events+i;if(!v->kind||v->processed180||v->map!=n->player.game->mapId)continue;v->processed180=1;if(v->kind!=NPC_VISUAL_EFFECT172||v->entity!=1||(v->id!=295&&v->id!=296))continue;unsigned seed=npc_proc_hash180((unsigned)v->created^v->id);const char*text=v->id==295?npcJokes180[seed%(sizeof(npcJokes180)/sizeof(*npcJokes180))]:npcScreams180[seed%(sizeof(npcScreams180)/sizeof(*npcScreams180))];combat_notice(n->player.game,POP_SKILLS,"%s",text);}}
+static void npc_proc_camera180(const NpcGame55*n,float*m){float dx=0,dy=0;for(unsigned i=0;i<NPC_VISUAL_CAP172;i++){const NpcVisual172*v=n->presentation172.events+i;if(v->kind!=NPC_VISUAL_EFFECT172||v->map!=n->player.game->mapId||n->ms<v->created)continue;unsigned delay=v->id==92?600:v->id==102?350:0,duration=v->id==183||v->id==563?200:650;if(v->id!=92&&v->id!=102&&v->id!=183&&v->id!=563)continue;uint64_t age=n->ms-v->created;if(age<delay||age>=delay+duration)continue;float gain=1-(float)(age-delay)/duration;unsigned seed=npc_proc_hash180((unsigned)v->created+(unsigned)(age/16));dx+=((int)(seed&255)-127)*gain/127.f;dy+=((int)((seed>>8)&255)-127)*gain/254.f;}m[3]+=fmaxf(-3,fminf(3,dx));m[7]+=fmaxf(-1.5f,fminf(1.5f,dy));}
+#endif

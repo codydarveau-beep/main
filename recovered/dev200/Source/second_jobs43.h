@@ -1,0 +1,32 @@
+/* Source Water Ball consumes actual water cells in rank-dependent1x1/3x3/5x5.
+ * Natural water remains; consumed Deluge cells leave holes until field replacement. */
+static int water_cells49(Combat*g,int rank,int consume){int extent=rank/2,hits=0;float cx=floorf(g->x/8)*8+4,cy=floorf(g->y/8)*8+4;
+ for(int yy=-extent;yy<=extent;yy++)for(int xx=-extent;xx<=extent;xx++){float x=cx+xx*8,y=cy+yy*8;if(class_field_at48(g,104,x,y))continue;int deluge=class_field_at48(g,102,x,y),natural=g->inWater&&g->inWater(g->world,x,y,x,y);if(!deluge&&!natural)continue;hits++;if(consume&&deluge)for(int i=0;i<3;i++){ClassArea48*a=&g->classAreas48[i];if(a->id!=102||a->until<=g->time||a->map!=g->mapId)continue;int dx=(int)floorf((x-a->x+28)/8),dy=(int)floorf((y-a->y+28)/8);if(dx>=0&&dx<7&&dy>=0&&dy<7){int cell=dy*7+dx;a->waterUsed49[cell/32]|=1u<<(cell%32);}}}return hits;}
+/* MIT. First second-job prototypes. Source costs/ranks/cast timings; simplified combat areas. */
+static int jupitel_slot45(const Combat*g){for(int i=0;i<8;i++)if(!g->jupitel45[i].active)return i;return -1;}
+static int second_ready43(Combat*g,unsigned id){
+ if(id==76&&jupitel_slot45(g)<0){combat_notice(g,POP_SKILLS,"Wait for the active lightning hits.");return 0;}
+ if((id==69||id==70||id==71)&&!(g->equipment&32)){combat_notice(g,POP_SKILLS,"Equip the two-handed sword first; SP kept.");return 0;}
+ if(id==74&&g->sightLeft<=0){combat_notice(g,POP_SKILLS,"Use Sight first; SP kept.");return 0;}
+ if(id==78&&!water_cells49(g,skill_rank(g,id),0)){combat_notice(g,POP_SKILLS,"Water Ball requires shallow water; SP kept.");return 0;}
+ if(id==73&&skill_rank(g,id)>=6&&!inventory_count(g,ITEM_BLUE_GEM)){combat_notice(g,POP_SKILLS,"Fire Pillar6+ needs one Blue Gemstone; resources kept.");return 0;}return 1;
+}
+static int second_power43(Combat*g){int p=combat_magic_power48(g);if(g->magicAmpLeft>0){p=p*(100+5*g->magicAmpRank)/100;g->magicAmpLeft=0;}return p;}
+static int second_rate43(const Combat*g,unsigned id,const CombatMob*m){if(id==73||id==74||id==75||id==84)return class_attack_rate48(g,m,3);if(id==76||id==77)return class_attack_rate48(g,m,4);if(id==78||id==79||id==80)return class_attack_rate48(g,m,1);if(id==81)return class_attack_rate48(g,m,2);return 100;}
+static void second_execute43(Combat*g,unsigned id,int rank,int target,float x,float y){
+ if(id==69){g->quickenLeft=30.f*rank;combat_notice(g,POP_SKILLS,"Two-Hand Quicken: %ds.",30*rank);return;}
+ if(id==70){g->counterLeft=.4f*rank;combat_notice(g,POP_SKILLS,"Auto Counter: brief guard ready.");return;}
+ if(id==87){g->magicAmpLeft=30;g->magicAmpRank=rank;combat_notice(g,POP_SKILLS,"Amplification: next damaging spell +%d%%.",5*rank);return;}
+ if(id==84){g->sightblasterLeft=120;combat_notice(g,POP_SKILLS,"Sight Blaster: one close-range retaliation armed.");return;}
+ if(id==83){const MobSpec*s=&mobSpecs[g->mobs[target].kind];combat_notice(g,POP_SYSTEM,"%s: HP %d/%d, DEF %d, MDEF %d.",s->name,g->mobs[target].hp,combat_mob_max(&g->mobs[target]),s->defense,mobFreezeMdef[g->mobs[target].kind]);return;}
+ if(id==71||id==72){if(id==72){CombatMob*m=&g->mobs[target];for(int n=0;n<64&&combat_dist(g->x,g->y,m->x,m->y)>14;n++){float d=combat_dist(g->x,g->y,m->x,m->y),nx=g->x+(m->x-g->x)*2/d,ny=g->y+(m->y-g->y)*2/d;if(!combat_move(g,&g->x,&g->y,nx,ny))break;}}int power=combat_physical(g)*(100+40*rank)/100;for(int i=0;i<MOB_COUNT;i++){CombatMob*m=&g->mobs[i];if(!m->enabled||m->hp<=0||(id==72?i!=target:combat_dist(x,y,m->x,m->y)>24))continue;int d=power*(100-combat_enemy_defense(m))/100;if(d<1)d=1;skill_hit_ex(g,i,d*(id==71?2:1),0,id==71?2:1);combat_knockback(g,i,m->x-g->x,m->y-g->y,id==71?8:0);}if(id==72)combat_sound(g,0);return;}
+ int power=second_power43(g);
+ if(id==73||id==75||id==77||id==80||id==82){int k=combat_field_slot(g);if(k<0)return;CombatField*f=&g->fields[k];memset(f,0,sizeof(*f));f->x=x;f->y=y;f->createdAt45=g->time;f->secondId=id;f->rank=rank;f->radius=skillDefs[id].radius;f->remaining=f->expected=id==82?10+2*rank:id==80?10:id==73?3+rank:id==77?4:2+rank/2;f->power=power*(id==80?100+40*rank:id==75?100:80+20*rank)/100;f->nextAt=g->time;if(id==75){f->nextAt=g->time+1;for(int n=0;n<f->expected;n++){f->meteorX49[n]=x+((int)(combat_random(g)%7)-3)*8;f->meteorY49[n]=y+((int)(combat_random(g)%7)-3)*8;}}if(id==73&&rank>=6)--*inventory_stack(g,ITEM_BLUE_GEM);if(id==80)combat_sound(g,SOUND_STORM_WIND180);combat_fields_tick(g);return;}
+ if(id==74||id==79){for(int i=0;i<MOB_COUNT;i++){CombatMob*m=&g->mobs[i];if(!m->enabled||m->hp<=0||(id==79&&m->frozenLeft>0)||combat_dist(g->x,g->y,m->x,m->y)>40||(g->canAim&&!g->canAim(g->world,g->x,g->y,m->x,m->y)))continue;int damage=power*(100+10*rank)/100*second_rate43(g,id,m)/100;if(damage>0)skill_magic_hit48(g,i,damage,0);if(id==79&&damage>0)skill_freeze164(g,m,35+3*rank,1500*rank);}if(id==74)g->sightLeft=0;combat_sound(g,0);return;}
+ if(target<0||target>=MOB_COUNT)return;
+ CombatMob*m=&g->mobs[target];if(id==86)m->flashAt49=g->time;if(id==76){int slot=jupitel_slot45(g);if(slot>=0)g->jupitel45[slot]=(Jupitel45){1,target,2+rank,2+rank,power,g->mapId,m->life,g->time+.25f,(rank/2+1)*8.f/(2+rank)};return;}int hits=id==76?2+rank:id==78?water_cells49(g,rank,1):id==81?rank:id==88?rank:1;if(hits<1)hits=1;int damage=power*hits*second_rate43(g,id,m)/100;if(id==86)damage=power*(100-combat_enemy_defense(m))/100;if(id==88)damage=damage*(100+10*rank)/100;
+ if(id==88){int count=0;for(int i=0;i<MOB_COUNT;i++)if(g->mobs[i].enabled&&g->mobs[i].hp>0&&fabsf(x-g->mobs[i].x)<=12&&fabsf(y-g->mobs[i].y)<=12)count++;if(count)damage/=count;for(int i=0;i<MOB_COUNT;i++)if(g->mobs[i].enabled&&g->mobs[i].hp>0&&fabsf(x-g->mobs[i].x)<=12&&fabsf(y-g->mobs[i].y)<=12)skill_magic_hit_ex48(g,i,damage,0,hits);}else if(damage>0){if(id==86)skill_hit_ex(g,target,damage,0,hits);else skill_magic_hit_ex48(g,target,damage,0,hits);}
+ if(id==76)combat_knockback(g,target,m->x-g->x,m->y-g->y,(rank/2+1)*8);if(hits==1)skill_sound49(g,id);
+}
+
+static void combat_jupitel_tick45(Combat*g){for(int i=0;i<8;i++){Jupitel45*p=&g->jupitel45[i];if(!p->active)continue;if(g->hp<=0||p->map!=g->mapId||p->target<0||p->target>=MOB_COUNT){p->active=0;continue;}CombatMob*m=&g->mobs[p->target];if(!m->enabled||m->hp<=0||m->life!=p->life){p->active=0;continue;}if(g->time+.0001f<p->nextAt)continue;int damage=p->power*second_rate43(g,76,m)/100;if(p->left==p->hits)combat_sound(g,SOUND_JUPITEL180);combat_knockback(g,p->target,m->x-g->x,m->y-g->y,p->push);if(damage>0)skill_magic_hit48(g,p->target,damage,0);p->left--;p->nextAt+=.2f;if(!p->left)p->active=0;}}

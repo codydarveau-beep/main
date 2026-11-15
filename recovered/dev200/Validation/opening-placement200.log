@@ -1,0 +1,26 @@
+{
+  "map": "prt_fild08",
+  "mapID": 0,
+  "reference": "Existing Prontera gate",
+  "gate": [
+    1364,
+    3028
+  ],
+  "candidateCenter": [
+    1460,
+    2804
+  ],
+  "clearAreaCells": [
+    7,
+    7
+  ],
+  "reachableOnCollisionGrid": true,
+  "avoidsSolidPropRecords": true,
+  "validationRemaining": [
+    "Rendered scenery/camera review",
+    "Height/slope and exact actor radius checks",
+    "NPC and gate interaction clearance",
+    "Real controller playthrough"
+  ],
+  "activated": false
+}

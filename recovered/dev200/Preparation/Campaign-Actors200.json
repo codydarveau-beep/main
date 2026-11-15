@@ -1,0 +1,108 @@
+{
+  "bytes": 2044614,
+  "frames": 1408,
+  "maxPoseRaw": 10886,
+  "actors": [
+    {
+      "name": "Nera",
+      "body": "data\\sprite\\인간족\\몸통\\여\\초보자_여",
+      "head": "data\\sprite\\인간족\\머리통\\여\\3_여",
+      "hairColour": null,
+      "sourceAttackGroup": 5,
+      "sources": {
+        "/workspace/myro/asset-library/campaign-actors200/payload/000000.spr": "20d96810b2e8ba393a188526d97d7a573da40f83d4ac7bd28656a313e5a1ed93",
+        "/workspace/myro/asset-library/campaign-actors200/payload/000001.act": "090d06edefb3ceb2cb8e6968eec768b4d1afb08da36c5278af317d83e6d59517",
+        "/workspace/myro/asset-library/Test55-npc-systems/data/sprite/인간족/머리통/여/3_여.spr": "ee6b33232ebe3d53f9806855088b58fb7553a5c69e1aefe17816439bbc830003",
+        "/workspace/myro/asset-library/Test55-npc-systems/data/sprite/인간족/머리통/여/3_여.act": "ec707ec3d01389a91bbdc18d88cf2377bf7ddd91fd9c84360119431ca670fb8d"
+      }
+    },
+    {
+      "name": "Roan",
+      "body": "data\\sprite\\인간족\\몸통\\남\\검사_남",
+      "head": "data\\sprite\\인간족\\머리통\\남\\2_남",
+      "hairColour": 7,
+      "sourceAttackGroup": 10,
+      "sources": {
+        "/workspace/myro/asset-library/Next-Assets-Test37/payload/0000.spr": "a7835d5a2052c3271810016591af578e8455006b4abbc93e7f748856f35b0df9",
+        "/workspace/myro/asset-library/Next-Assets-Test37/payload/0001.act": "12afea28bc2e114adda7c20d7cd8541ff4824d0bf9ad6119d8a67558a6c3bb52",
+        "/workspace/myro/asset-library/Test68-mercenary-layers/payload/000001.spr": "02d968e6b889f565b68c66dbec7f6290da8982cdb44a12febe47ef8361e3a18d",
+        "/workspace/myro/asset-library/Test68-mercenary-layers/payload/000000.act": "904afd5ddac10b756362f2e86c6cb9a80f71d53d7006a306b625ba102d38cdcb",
+        "/workspace/myro/asset-library/Test54-visuals/data/palette/머리/머리2_남_7.pal": "3c40f24dc99cbf44cb0b907544c4a455d9d32fa495cd5fcffa8eeb43cac48773",
+        "/workspace/myro/asset-library/Test46-equipment-art/data/sprite/인간족/검사/검사_남_검.spr": "ac921c643b1e526864cf118e7d3986be2c940763085d6ed639c3757a005f709c",
+        "/workspace/myro/asset-library/Test46-equipment-art/data/sprite/인간족/검사/검사_남_검.act": "039a03d5f474b4a511c22fce87c0bb0a29389932efc498258d6f006b0810f854"
+      }
+    },
+    {
+      "name": "Yuufa",
+      "body": "data\\sprite\\인간족\\몸통\\여\\성직자_여",
+      "head": "data\\sprite\\인간족\\머리통\\여\\1_여",
+      "hairColour": 2,
+      "sourceAttackGroup": 5,
+      "sources": {
+        "/workspace/myro/asset-library/campaign-actors200/payload/000006.spr": "1a8207288f30217cc37252764b4d8cf3e001e48f9eaa31fb4886a3925c8d7d3d",
+        "/workspace/myro/asset-library/campaign-actors200/payload/000007.act": "1aeb122ac82e20c93e5d8fe66d710e9cefb0babea7bdfb483dfa0befaeaec370",
+        "/workspace/myro/asset-library/Test50-second-classes/data/sprite/인간족/머리통/여/1_여.spr": "f44fe17b6527feccadc20a5f44659b8fbb5953bc1f2f988af25994b26fe21ca6",
+        "/workspace/myro/asset-library/Test50-second-classes/data/sprite/인간족/머리통/여/1_여.act": "781abd10543411a9ce0dcbb0d0ea2a9c2a118f05d29fc3427b222067a2519ddb",
+        "/workspace/myro/asset-library/Test54-visuals/data/palette/머리/머리1_여_2.pal": "57ff85a62ef813ec4453c86c9cf2d77c4f9780857693441f7f07d94cd6a51553"
+      }
+    },
+    {
+      "name": "Driver",
+      "body": "data\\sprite\\인간족\\몸통\\남\\상인_남",
+      "head": "data\\sprite\\인간족\\머리통\\남\\2_남",
+      "hairColour": 7,
+      "sourceAttackGroup": 5,
+      "sources": {
+        "/workspace/myro/asset-library/Test55-npc-systems/data/sprite/인간족/몸통/남/상인_남.spr": "b9ca0c8ee239c1acd88cccb316247ee9d27b18ae973fcee6a7246d01d42e286a",
+        "/workspace/myro/asset-library/Test54-head-anchors/payload/000011.act": "ed47797d05bc95e6abbb9952c7de99b21ea51e357a56314c4918a584e0a86073",
+        "/workspace/myro/asset-library/Test68-mercenary-layers/payload/000001.spr": "02d968e6b889f565b68c66dbec7f6290da8982cdb44a12febe47ef8361e3a18d",
+        "/workspace/myro/asset-library/Test68-mercenary-layers/payload/000000.act": "904afd5ddac10b756362f2e86c6cb9a80f71d53d7006a306b625ba102d38cdcb",
+        "/workspace/myro/asset-library/Test54-visuals/data/palette/머리/머리2_남_7.pal": "3c40f24dc99cbf44cb0b907544c4a455d9d32fa495cd5fcffa8eeb43cac48773"
+      }
+    },
+    {
+      "name": "Judia",
+      "body": "data\\sprite\\인간족\\몸통\\여\\헌터_여",
+      "head": "data\\sprite\\인간족\\머리통\\여\\4_여",
+      "hairColour": 1,
+      "sourceAttackGroup": 10,
+      "sources": {
+        "/workspace/myro/asset-library/Test50-second-classes/data/sprite/인간족/몸통/여/헌터_여.spr": "107b7b2241d5d04cc7b2b51f45082fa701e45a935fe992def524ceddd066faea",
+        "/workspace/myro/asset-library/Test50-second-classes/data/sprite/인간족/몸통/여/헌터_여.act": "634ae8541a5d03c3401512691ac145f48316f4f028a6c1afa579f111121bbfda",
+        "/workspace/myro/asset-library/Test55-npc-systems/data/sprite/인간족/머리통/여/4_여.spr": "d3b8f0db48d77257b9a9c3dd96219e23442b92e5790f7c5b81d4cf0aafe0f6d9",
+        "/workspace/myro/asset-library/Test55-npc-systems/data/sprite/인간족/머리통/여/4_여.act": "7d49f2cfa360b41d07d6ebe5f04aa1bab9141d208e5103a5e44c7ced7ec647a4",
+        "/workspace/myro/asset-library/Test54-visuals/data/palette/머리/머리4_여_1.pal": "3dd99d4376cc41a8b90c4a9d00ad3750ec7244ca5963df7a9a148cbf48c6b19d",
+        "/workspace/myro/asset-library/Test50-second-classes/data/sprite/인간족/헌터/헌터_여_활.spr": "359ce33c428e91e3dcd908524f4dbc78a0bfc05272b2bbe63cf23ed97dcfe71d",
+        "/workspace/myro/asset-library/Test50-second-classes/data/sprite/인간족/헌터/헌터_여_활.act": "c89f6590a05f2fe7c44ce379009cfa1e4ab32f0847646d867f9001b2d5e2962b"
+      }
+    },
+    {
+      "name": "Maya",
+      "body": "data\\sprite\\인간족\\몸통\\여\\연금술사_여",
+      "head": "data\\sprite\\인간족\\머리통\\여\\6_여",
+      "hairColour": 1,
+      "sourceAttackGroup": 5,
+      "sources": {
+        "/workspace/myro/asset-library/Test50-second-classes/data/sprite/인간족/몸통/여/연금술사_여.spr": "644098eeea9b4605f3e34f7bc97c1352c94d06cf394e1d1c0d4666b3d8d8acf8",
+        "/workspace/myro/asset-library/Test50-second-classes/data/sprite/인간족/몸통/여/연금술사_여.act": "df98b563606ba618297ce00577fd7e6a4f46f2992e1e617013d054de0eb4cf00",
+        "/workspace/myro/asset-library/Test55-npc-systems/data/sprite/인간족/머리통/여/6_여.spr": "0de3260e58c81375ed32216cb8d219278fd06d9f5bad16689f2693a63cc2bb8b",
+        "/workspace/myro/asset-library/Test55-npc-systems/data/sprite/인간족/머리통/여/6_여.act": "7a0d46c74883cec730345456ba8918261051e3d76a2d697d2e97dc4f15ef7a7b",
+        "/workspace/myro/asset-library/Test54-visuals/data/palette/머리/머리6_여_1.pal": "5697bb1dc559bcd0ae5927dcb1d46a4462c2db030f0617cc2860eec798081db0"
+      }
+    },
+    {
+      "name": "Veyr",
+      "body": "data\\sprite\\인간족\\몸통\\남\\세이지_남",
+      "head": "data\\sprite\\인간족\\머리통\\남\\7_남",
+      "hairColour": 7,
+      "sourceAttackGroup": 5,
+      "sources": {
+        "/workspace/myro/asset-library/Test48-followup/data/sprite/인간족/몸통/남/세이지_남.spr": "de0753a6e1744543dbe0c31a6d3f478355fc7d697df9c55796222866c9318c76",
+        "/workspace/myro/asset-library/Test48-followup/data/sprite/인간족/몸통/남/세이지_남.act": "a520cd29f4b497ef14c3d7c52190bcd40afaca7d02086b60f551ead111b84d7b",
+        "/workspace/myro/asset-library/Test55-npc-systems/data/sprite/인간족/머리통/남/7_남.spr": "4f2710ff3bba783095aa294de54de366884391f769f947c58d9fdf48509a91c8",
+        "/workspace/myro/asset-library/Test55-npc-systems/data/sprite/인간족/머리통/남/7_남.act": "249c63729fb2310a66e7dd63329488bfab8ac473bcf01e8b7de1fde7fdcc35f4",
+        "/workspace/myro/asset-library/Test54-visuals/data/palette/머리/머리7_남_7.pal": "5bb0d26e536820efb6d83818b38908e9abd6b422d9b6a23bed6493f37d3793c8"
+      }
+    }
+  ]
+}

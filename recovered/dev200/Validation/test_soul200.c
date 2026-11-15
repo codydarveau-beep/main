@@ -1,0 +1,13 @@
+#define MYRO_HOST 1
+#define main previous_class_test
+#include "test_classes48.c"
+#undef main
+#include "art_visual39.h"
+#include "sound_mix.h"
+static unsigned art39Gain200=255,drawCount;static float xmin,xmax,ymin,ymax;static unsigned gainMin,gainMax;
+static void art39_world_z45(unsigned clip,float elapsed,const float*m,float x,float y,float zoom,int loop,float lift){(void)elapsed;(void)m;(void)zoom;(void)loop;(void)lift;if(clip!=43)return;assert(isfinite(x)&&isfinite(y));if(x<xmin)xmin=x;if(x>xmax)xmax=x;if(y<ymin)ymin=y;if(y>ymax)ymax=y;gainMin=art39Gain200<gainMin?art39Gain200:gainMin;gainMax=art39Gain200>gainMax?art39Gain200:gainMax;drawCount++;}
+static void art39_world(unsigned clip,float elapsed,const float*m,float x,float y,float zoom,int loop){art39_world_z45(clip,elapsed,m,x,y,zoom,loop,0);}
+#include "classic_draw49.h"
+int main(void){static Combat g;prepare48(&g,9);g.fxSkill=23;g.fxRank48=10;unsigned target=MOB_COUNT-1;int hp=g.mobs[target].hp;skill_hit_ex(&g,target,500,0,5);for(unsigned i=0;i<100;i++)combat_tick(&g,.01f,0,0);assert(g.mobs[target].hp==hp-500);unsigned id,count=0;while(combat_next_sound(&g,&id))if(id==52)count++;assert(count==5);
+ prepare48(&g,9);g.time=3;g.fxAt=2;g.fxSkill=23;g.fxRank48=10;g.fxX=1600;g.fxY=1500;g.fxFromX200=1500;g.fxFromY200=1500;g.fxTarget200=MOB_COUNT-1;g.fxLife200=g.mobs[target].life;g.mobs[target].x=1600;g.mobs[target].y=1500;g.mobs[0].enabled=1;g.mobs[0].life=91;g.mobs[0].x=100;g.mobs[0].y=100;g.target=0;Art39State state={.initialized=1,.lastCast=1,.map=0,.lastTime=1};art39_observe(&state,&g,0);Art39Event e=state.events[0];assert(e.target45==(int)target&&e.life45==g.mobs[target].life&&e.startX==1500);xmin=ymin=1e9f;xmax=ymax=-1e9f;gainMin=255;gainMax=0;float m[16]={0};for(int t=-25;t<120;t++){classic_event49(&e,&g,m,1,t*.01f);assert(art39Gain200==255);}assert(drawCount&&xmin>=1483&&xmax<=1601&&ymin>=1483&&ymax<=1517&&gainMax==128&&gainMin<gainMax);g.mobs[target].life++;g.mobs[target].x=-10000;for(int t=-25;t<30;t++)classic_event49(&e,&g,m,1,t*.01f);assert(xmin>=1483);
+ short soul[]={30000},other[]={1000};const short*data[56]={0};unsigned lengths[56]={0};data[52]=soul;data[55]=other;lengths[52]=lengths[55]=1;SoundVoice voices[2]={{.id=52,.active=1},{.id=55,.active=1}};assert(sound_sample_buses61(voices,2,data,lengths,56,100,0)==10000);assert(sound_clip_gain200(52,-30000)==-9000&&sound_clip_gain200(55,1000)==1000);puts("PASS Soul Strike: all5damage hits preserved/five per-hit spell cues, actual visual observer retains original target after retarget/death/slot reuse, bounded flight, tapered additive gain/reset, isolated30% sound gain and other cues unchanged.");}

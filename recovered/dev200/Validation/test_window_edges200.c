@@ -1,0 +1,4 @@
+#include <stdio.h>
+#include <assert.h>
+#include "window_layout161.h"
+int main(void){NpcState55 state={0};window_position_load161(&state);assert(windowX[0]==windowDefaultX161[0]);window_position_set161(0,0,0);window_position_load161(&state);assert(!windowX[0]&&!windowY[0]);for(unsigned i=0;i<5;i++)for(int y=-600;y<=900;y+=37)for(int x=-800;x<=1000;x+=41){window_position_set161(i,x,y);assert(window_position_valid161(i,windowX[i],windowY[i]));int xx=windowX[i],yy=windowY[i];window_position_load161(&state);assert(windowX[i]==xx&&windowY[i]==yy);}window_position_set161(0,-150,-60);assert(windowX[0]<0&&windowY[0]<0);int area=window_visible_area200(0,windowX[0],windowY[0]);assert(area>=(270*118+3)/4);npc_state_clear55(&state);puts("PASS 25%actual visible AREA on every edge/corner, signed offscreen coordinate reload and normal on-screen positions.");}

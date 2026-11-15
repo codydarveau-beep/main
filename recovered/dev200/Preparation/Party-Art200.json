@@ -1,0 +1,54 @@
+{
+  "atlasBytes": 4194304,
+  "extraGPUBytes": 0,
+  "sources": [
+    {
+      "name": "icon_jobs_1.bmp",
+      "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_1.bmp",
+      "sha256": "fa056bf93eb78fd077e5653aea12bbedb6ea56317bf393d62b05d56918e164a6",
+      "rect": [
+        416,
+        2016,
+        25,
+        25
+      ]
+    },
+    {
+      "name": "icon_jobs_4.bmp",
+      "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/icon_jobs_4.bmp",
+      "sha256": "f5ed900c4996808a8ba761492c369a82dc6129e24c1a696f10f37c50fa5438a0",
+      "rect": [
+        442,
+        2016,
+        25,
+        25
+      ]
+    },
+    {
+      "name": "ico_partycrown.bmp",
+      "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/ico_partycrown.bmp",
+      "sha256": "15c2bb65871b8e6192d688632088e00d9cbbd9b6eee9a9e7166f8758e283f273",
+      "rect": [
+        469,
+        2016,
+        21,
+        10
+      ]
+    },
+    {
+      "name": "bg_partymember.bmp",
+      "path": "/workspace/myro/asset-library/Test46-return/data/texture/유저인터페이스/renewalparty/bg_partymember.bmp",
+      "sha256": "7c88616900a28cedcb1dff420f5096269a1675a8831faa6e8fe1821c0758f86e",
+      "rect": [
+        469,
+        2028,
+        38,
+        15
+      ]
+    }
+  ],
+  "changedPixels": 1843,
+  "pixelOrder": "BGRA",
+  "baseline191PixelsUnchangedOutsidePatch": true,
+  "exactSourcePixelsValidated": true
+}

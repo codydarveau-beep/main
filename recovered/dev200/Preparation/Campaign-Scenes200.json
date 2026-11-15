@@ -1,0 +1,2587 @@
+{
+  "format": 1,
+  "scenes": [
+    {
+      "id": "1.1",
+      "cursor": 0,
+      "chapter": 1,
+      "title": "The broken cart",
+      "chapterTitle": "A Name on a Parcel",
+      "staging": "Training Grounds exit approach; Nera, Roan, Yuufa, player. A cart tilts beside the road. Rescue tutorial uses ordinary weak monsters; no lethal timed failure.",
+      "dialogue": [
+        {
+          "speaker": "Nera",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Please tell me you are the rescue party."
+          ]
+        },
+        {
+          "speaker": "Roan",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "We are a party. The rescue part is new."
+          ]
+        },
+        {
+          "speaker": "Yuufa",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Then we should start before the cart notices."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Who is still missing?",
+            "Tell me where to help."
+          ]
+        },
+        {
+          "speaker": "Nera",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "The driver. And a parcel with a blue cord. Driver first. Please."
+          ]
+        },
+        {
+          "speaker": "After rescue, Driver",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I thought you would take the parcel and leave."
+          ]
+        },
+        {
+          "speaker": "Yuufa",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "You were considerably louder than the parcel."
+          ]
+        },
+        {
+          "speaker": "Nera",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "It contains missing-person reports. Someone has been collecting the originals."
+          ]
+        }
+      ],
+      "fullSceneText": "Nera: 'Please tell me you are the rescue party.'\nRoan: 'We are a party. The rescue part is new.'\nYuufa: 'Then we should start before the cart notices.'\nPlayer choices: 'Who is still missing?' / 'Tell me where to help.'\nNera: 'The driver. And a parcel with a blue cord. Driver first. Please.'\nAfter rescue, Driver: 'I thought you would take the parcel and leave.'\nYuufa: 'You were considerably louder than the parcel.'\nNera: 'It contains missing-person reports. Someone has been collecting the originals.'\n\nObjective: rescue the driver, recover the parcel, speak to Nera. Completion requires both people and parcel; no reward for choosing property over a life.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "1.2",
+      "cursor": 1,
+      "chapter": 1,
+      "title": "What you choose to become",
+      "chapterTitle": "A Name on a Parcel",
+      "staging": "Prontera guild-office anteroom; Hald, player, early companions. Complete the authentic first-job quest before this scene closes.",
+      "dialogue": [
+        {
+          "speaker": "Hald",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "A job is not a costume. You will learn its discipline, advance within it, and live with its limits."
+          ]
+        },
+        {
+          "speaker": "Yuufa",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "And discover which limits are yours to change."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "I understand. This is my path.",
+            "I need more time."
+          ]
+        },
+        {
+          "speaker": "If more time, Hald",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Good. A considered answer is cheaper than a lifelong mistake."
+          ]
+        },
+        {
+          "speaker": "Roan",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "Then I will trust you to choose where we stand."
+          ]
+        },
+        {
+          "speaker": "Roan",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "Then show me what I cannot see from behind a shield."
+          ]
+        },
+        {
+          "speaker": "Roan",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "Then I will listen when you tell me we cannot keep pushing."
+          ]
+        },
+        {
+          "speaker": "Hald",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "The reports lead to Payon. You are not commissioned to solve a kingdom's problems. You are commissioned to deliver a parcel."
+          ]
+        },
+        {
+          "speaker": "Nera",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "And perhaps ask why every copy has a different name."
+          ]
+        },
+        {
+          "speaker": "UI before confirmation",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Your job lineage and story role become permanent in normal play. Promotions and rebirth remain available within that lineage."
+          ]
+        }
+      ],
+      "fullSceneText": "Hald: 'A job is not a costume. You will learn its discipline, advance within it, and live with its limits.'\nYuufa: 'And discover which limits are yours to change.'\nPlayer choices: 'I understand. This is my path.' / 'I need more time.'\nIf more time, Hald: 'Good. A considered answer is cheaper than a lifelong mistake.'\nV \u2014 Roan: 'Then I will trust you to choose where we stand.'\nP \u2014 Roan: 'Then show me what I cannot see from behind a shield.'\nK \u2014 Roan: 'Then I will listen when you tell me we cannot keep pushing.'\nHald: 'The reports lead to Payon. You are not commissioned to solve a kingdom's problems. You are commissioned to deliver a parcel.'\nNera: 'And perhaps ask why every copy has a different name.'\n\nUI before confirmation: 'Your job lineage and story role become permanent in normal play. Promotions and rebirth remain available within that lineage.' A second clear confirmation applies to the job, not an accidental dialogue click.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "1.3",
+      "cursor": 2,
+      "chapter": 1,
+      "title": "The first watch",
+      "chapterTitle": "A Name on a Parcel",
+      "staging": "South-field camp; Roan, Yuufa, player.",
+      "dialogue": [
+        {
+          "speaker": "Roan",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Do you think a real adventurer knows when they have started?"
+          ]
+        },
+        {
+          "speaker": "Yuufa",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Usually when the bill arrives."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "We started when we went back for the driver.",
+            "Ask me after Payon."
+          ]
+        },
+        {
+          "speaker": "Roan",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Then let us make one rule. If someone falls behind, we notice."
+          ]
+        },
+        {
+          "speaker": "Yuufa",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "And if noticing is inconvenient?"
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "We go back."
+          ]
+        }
+      ],
+      "fullSceneText": "Roan: 'Do you think a real adventurer knows when they have started?'\nYuufa: 'Usually when the bill arrives.'\nPlayer choices: 'We started when we went back for the driver.' / 'Ask me after Payon.'\nRoan: 'Then let us make one rule. If someone falls behind, we notice.'\nYuufa: 'And if noticing is inconvenient?'\nPlayer: 'We go back.'\n\nRoan and Yuufa offer to accompany the player. Their combat coverage complements the selected route. End chapter with a visible journal destination, not a forced unexplained warp.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "2.1",
+      "cursor": 3,
+      "chapter": 2,
+      "title": "Two names for one grave",
+      "chapterTitle": "Things That Go Missing",
+      "staging": "Payon outskirts; Judia, Nera, player. Regional anchor: accessible Payon haunting/ancestral quest material following dependency audit.",
+      "dialogue": [
+        {
+          "speaker": "Judia",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "That marker said something else yesterday."
+          ]
+        },
+        {
+          "speaker": "Nera",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Weather can take paint off wood. It cannot rewrite the receipt in my pocket."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Who remembers the person?",
+            "Let us compare the records."
+          ]
+        },
+        {
+          "speaker": "Judia",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "His daughter does. Today. That is why I would prefer we hurry."
+          ]
+        },
+        {
+          "speaker": "Judia",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "You keep the search road open. I will follow the tracks."
+          ]
+        },
+        {
+          "speaker": "Judia",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "Two sets of eyes. Let us see which one the liar forgot."
+          ]
+        },
+        {
+          "speaker": "Judia",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "Stay with the family while we work. Tell them what we know, not what we hope."
+          ]
+        }
+      ],
+      "fullSceneText": "Judia: 'That marker said something else yesterday.'\nNera: 'Weather can take paint off wood. It cannot rewrite the receipt in my pocket.'\nPlayer choices: 'Who remembers the person?' / 'Let us compare the records.'\nJudia: 'His daughter does. Today. That is why I would prefer we hurry.'\nV \u2014 Judia: 'You keep the search road open. I will follow the tracks.'\nP \u2014 Judia: 'Two sets of eyes. Let us see which one the liar forgot.'\nK \u2014 Judia: 'Stay with the family while we work. Tell them what we know, not what we hope.'\n\nObjective: complete the selected local investigation and preserve two independent testimonies. The daughter is not erased on a real-world timer.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "2.2",
+      "cursor": 4,
+      "chapter": 2,
+      "title": "An excellent charitable investment",
+      "chapterTitle": "Things That Go Missing",
+      "staging": "Alberta warehouse; Maya, Veyr, player.",
+      "dialogue": [
+        {
+          "speaker": "Maya",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Relief supplies do not generally need armed guards facing inward."
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "The guards protect the records from theft. Their contents are irreplaceable."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "People are irreplaceable too.",
+            "Who authorized these shipments?"
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Of course. Records are how we find people when the world loses them."
+          ]
+        },
+        {
+          "speaker": "Maya",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Then your invoices should help us find the missing driver."
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "You may examine them. I would rather have suspicious helpers than incurious ones."
+          ]
+        }
+      ],
+      "fullSceneText": "Maya: 'Relief supplies do not generally need armed guards facing inward.'\nVeyr: 'The guards protect the records from theft. Their contents are irreplaceable.'\nPlayer choices: 'People are irreplaceable too.' / 'Who authorized these shipments?'\nVeyr: 'Of course. Records are how we find people when the world loses them.'\nMaya: 'Then your invoices should help us find the missing driver.'\nVeyr: 'You may examine them. I would rather have suspicious helpers than incurious ones.'\n\nHe genuinely supplies useful information. Do not use villain music or a secret-camera smirk: his philosophy should become dangerous through choices, not an obvious introduction.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "2.3",
+      "cursor": 5,
+      "chapter": 2,
+      "title": "A name of our own",
+      "chapterTitle": "Things That Go Missing",
+      "staging": "Alberta inn table; Roan, Yuufa, Judia, Maya, player.",
+      "dialogue": [
+        {
+          "speaker": "Maya",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "If we keep sharing expenses, I require a name for the ledger."
+          ]
+        },
+        {
+          "speaker": "Roan",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Something heroic."
+          ]
+        },
+        {
+          "speaker": "Judia",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Something short enough to shout while running."
+          ]
+        },
+        {
+          "speaker": "Yuufa",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Something the missing might recognize when we come looking."
+          ]
+        },
+        {
+          "speaker": "Maya, after confirmation",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "{GUILD}. Good. Now it exists in two ledgers and one exceptionally untidy heart."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "We make room for people who need us.",
+            "We finish what we begin."
+          ]
+        },
+        {
+          "speaker": "Judia",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Then I am staying. Someone should make sure you notice the tracks."
+          ]
+        }
+      ],
+      "fullSceneText": "Maya: 'If we keep sharing expenses, I require a name for the ledger.'\nRoan: 'Something heroic.'\nJudia: 'Something short enough to shout while running.'\nYuufa: 'Something the missing might recognize when we come looking.'\nPlayer enters guild name or chooses 'I need to think.'\nMaya, after confirmation: '{GUILD}. Good. Now it exists in two ledgers and one exceptionally untidy heart.'\nPlayer choices: 'We make room for people who need us.' / 'We finish what we begin.'\nJudia: 'Then I am staying. Someone should make sure you notice the tracks.'\n\nGuild is a solo narrative organization, not implementation of WoE or multiplayer guild infrastructure. Naming never consumes a rare normal-game guild item unless explicitly decided later.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "3.1",
+      "cursor": 6,
+      "chapter": 3,
+      "title": "The theorem and the witness",
+      "chapterTitle": "A Door Held Open",
+      "staging": "Geffen library; Takius, Pip, player.",
+      "dialogue": [
+        {
+          "speaker": "Takius",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "A memory cannot simply be stolen. It must be displaced, suppressed, or destroyed."
+          ]
+        },
+        {
+          "speaker": "Pip",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Mine was in the parcel. I forgot the address while I was carrying it."
+          ]
+        },
+        {
+          "speaker": "Takius",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "That is not quite what I\u2014"
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Listen to what happened.",
+            "Can we test it without hurting anyone?"
+          ]
+        },
+        {
+          "speaker": "Takius",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Yes. And I owe our witness a better first question."
+          ]
+        },
+        {
+          "speaker": "Takius",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "Keep the chamber clear while I measure the interference."
+          ]
+        },
+        {
+          "speaker": "Takius",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "Find the changing symbol before I tell you which one I expect."
+          ]
+        },
+        {
+          "speaker": "Takius",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "Watch the witness, not the apparatus. Stop me if the experiment costs them anything."
+          ]
+        }
+      ],
+      "fullSceneText": "Takius: 'A memory cannot simply be stolen. It must be displaced, suppressed, or destroyed.'\nPip: 'Mine was in the parcel. I forgot the address while I was carrying it.'\nTakius: 'That is not quite what I\u2014'\nPlayer choices: 'Listen to what happened.' / 'Can we test it without hurting anyone?'\nTakius: 'Yes. And I owe our witness a better first question.'\nV \u2014 Takius: 'Keep the chamber clear while I measure the interference.'\nP \u2014 Takius: 'Find the changing symbol before I tell you which one I expect.'\nK \u2014 Takius: 'Watch the witness, not the apparatus. Stop me if the experiment costs them anything.'\n\nA bounded observation puzzle and local quest lead reveal the first anchor signature. No mandatory blind guess or external reference.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "3.2",
+      "cursor": 7,
+      "chapter": 3,
+      "title": "Harbor orders",
+      "chapterTitle": "A Door Held Open",
+      "staging": "Izlude quay; Brann, Hald, player. Defend evacuation paths during a shipment attack.",
+      "dialogue": [
+        {
+          "speaker": "Brann",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "My orders say keep the cargo on the pier."
+          ]
+        },
+        {
+          "speaker": "Maya",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "The cargo is on fire."
+          ]
+        },
+        {
+          "speaker": "Brann",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I am revising my interpretation."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "I will hold the gangway. Move them behind me."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "The signalers are directing the attack. Cover me while I stop them."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "Bring the injured to the shelter. We leave nobody on that pier."
+          ]
+        },
+        {
+          "speaker": "Hald, afterward",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Your report will mention the supplies lost."
+          ]
+        },
+        {
+          "speaker": "Brann",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Then make room for the names of everyone who lived."
+          ]
+        },
+        {
+          "speaker": "Hald",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I have."
+          ]
+        }
+      ],
+      "fullSceneText": "Brann: 'My orders say keep the cargo on the pier.'\nMaya: 'The cargo is on fire.'\nBrann: 'I am revising my interpretation.'\nV \u2014 Player: 'I will hold the gangway. Move them behind me.'\nP \u2014 Player: 'The signalers are directing the attack. Cover me while I stop them.'\nK \u2014 Player: 'Bring the injured to the shelter. We leave nobody on that pier.'\nHald, afterward: 'Your report will mention the supplies lost.'\nBrann: 'Then make room for the names of everyone who lived.'\nHald: 'I have.'",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "3.3",
+      "cursor": 8,
+      "chapter": 3,
+      "title": "The door stays open",
+      "chapterTitle": "A Door Held Open",
+      "staging": "Guild's provisional room; core four and player.",
+      "dialogue": [
+        {
+          "speaker": "Roan",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "We cannot invite everyone in danger to come with us."
+          ]
+        },
+        {
+          "speaker": "Yuufa",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "No. But we can stop pretending that leaving them somewhere is the same as making them safe."
+          ]
+        },
+        {
+          "speaker": "Maya",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I found a landlord willing to accept repairs instead of the first payment."
+          ]
+        },
+        {
+          "speaker": "Judia",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "What is wrong with the roof?"
+          ]
+        },
+        {
+          "speaker": "Maya",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Its most affordable feature is the absence of one."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Then we start with the roof.",
+            "And a door that opens from the inside."
+          ]
+        }
+      ],
+      "fullSceneText": "Roan: 'We cannot invite everyone in danger to come with us.'\nYuufa: 'No. But we can stop pretending that leaving them somewhere is the same as making them safe.'\nMaya: 'I found a landlord willing to accept repairs instead of the first payment.'\nJudia: 'What is wrong with the roof?'\nMaya: 'Its most affordable feature is the absence of one.'\nPlayer choices: 'Then we start with the roof.' / 'And a door that opens from the inside.'\n\nUnlock a simple guild-hall scene location, not an expensive construction simulator. Brann, Takius and Pip can now join through their roster conversations.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "4.1",
+      "cursor": 9,
+      "chapter": 4,
+      "title": "A transaction without a seller",
+      "chapterTitle": "The Desert Keeps Its Dead",
+      "staging": "Morroc market; Iruga, Kest, player.",
+      "dialogue": [
+        {
+          "speaker": "Kest",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I stole a manifest. Before anyone becomes moral, somebody had already stolen the people on it."
+          ]
+        },
+        {
+          "speaker": "Iruga",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "They were listed as volunteers."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Where are they now?",
+            "Who recorded their consent?"
+          ]
+        },
+        {
+          "speaker": "Iruga",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "That is the question the guards were ordered not to ask."
+          ]
+        },
+        {
+          "speaker": "Iruga",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "We need a visible escort. Let them see whom they are following."
+          ]
+        },
+        {
+          "speaker": "Iruga",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "Find the transport route. The empty wagons return by another road."
+          ]
+        },
+        {
+          "speaker": "Iruga",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "Some will not trust a rescue. Give them a choice that remains a choice."
+          ]
+        }
+      ],
+      "fullSceneText": "Kest: 'I stole a manifest. Before anyone becomes moral, somebody had already stolen the people on it.'\nIruga: 'They were listed as volunteers.'\nPlayer choices: 'Where are they now?' / 'Who recorded their consent?'\nIruga: 'That is the question the guards were ordered not to ask.'\nV \u2014 Iruga: 'We need a visible escort. Let them see whom they are following.'\nP \u2014 Iruga: 'Find the transport route. The empty wagons return by another road.'\nK \u2014 Iruga: 'Some will not trust a rescue. Give them a choice that remains a choice.'\n\nPlayable anchor: audited Morroc/Pyramid/Sphinx investigations. Ordinary dungeon access remains available outside the campaign.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "4.2",
+      "cursor": 10,
+      "chapter": 4,
+      "title": "The name below the stone",
+      "chapterTitle": "The Desert Keeps Its Dead",
+      "staging": "Pyramid chamber; player, Iruga, Takius, Witness fragment.",
+      "dialogue": [
+        {
+          "speaker": "Witness",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I was promised that my children would remember me."
+          ]
+        },
+        {
+          "speaker": "Takius",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Who are you?"
+          ]
+        },
+        {
+          "speaker": "Witness",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "That was the price."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "You do not have to remember to deserve help.",
+            "Tell us what you can."
+          ]
+        },
+        {
+          "speaker": "Witness",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "A white room. A northern train. A man who would not call it a prison."
+          ]
+        },
+        {
+          "speaker": "Iruga",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Then we have a direction."
+          ]
+        }
+      ],
+      "fullSceneText": "Witness: 'I was promised that my children would remember me.'\nTakius: 'Who are you?'\nWitness: 'That was the price.'\nPlayer choices: 'You do not have to remember to deserve help.' / 'Tell us what you can.'\nWitness: 'A white room. A northern train. A man who would not call it a prison.'\nIruga: 'Then we have a direction.'\n\nDisable an anchor through combat and a readable interaction sequence. The fragment survives as a carried story state, not a permanently loaded effect or follower.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "4.3",
+      "cursor": 11,
+      "chapter": 4,
+      "title": "The thing an apology cannot do",
+      "chapterTitle": "The Desert Keeps Its Dead",
+      "staging": "Desert camp; Iruga, player.",
+      "dialogue": [
+        {
+          "speaker": "Iruga",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I guarded a road like that once. I did not ask where it ended."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Then ask now, and act on the answer.",
+            "An apology does not bring them back."
+          ]
+        },
+        {
+          "speaker": "Iruga",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "No. It does not."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Will you help the people still there?"
+          ]
+        },
+        {
+          "speaker": "Iruga",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Yes. Whether you let me stay or not."
+          ]
+        }
+      ],
+      "fullSceneText": "Iruga: 'I guarded a road like that once. I did not ask where it ended.'\nPlayer choices: 'Then ask now, and act on the answer.' / 'An apology does not bring them back.'\nIruga: 'No. It does not.'\nPlayer: 'Will you help the people still there?'\nIruga: 'Yes. Whether you let me stay or not.'\n\nThe player may recruit or decline him without losing the campaign. His accountability continues in later rescue work; forgiveness is not awarded by a single menu response.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "5.1",
+      "cursor": 12,
+      "chapter": 5,
+      "title": "A road paid twice",
+      "chapterTitle": "The Price of a Safe Road",
+      "staging": "Al De Baran relief depot; Hald, Maya, Oren, player.",
+      "dialogue": [
+        {
+          "speaker": "Maya",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "The same bridge has been repaired in three different budgets."
+          ]
+        },
+        {
+          "speaker": "Hald",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "It has only been repaired once."
+          ]
+        },
+        {
+          "speaker": "Oren",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I have sung about it twice. I appear to be the middle offender."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Follow the money.",
+            "First make sure the next convoy gets through."
+          ]
+        },
+        {
+          "speaker": "Hald",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "Escort the workers through. We need a road, not another heroic ruin."
+          ]
+        },
+        {
+          "speaker": "Hald",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "Identify the ambush points before the convoy leaves."
+          ]
+        },
+        {
+          "speaker": "Hald",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "Organize supplies and a fallback shelter. We can survive a delay; they cannot survive wishful thinking."
+          ]
+        }
+      ],
+      "fullSceneText": "Maya: 'The same bridge has been repaired in three different budgets.'\nHald: 'It has only been repaired once.'\nOren: 'I have sung about it twice. I appear to be the middle offender.'\nPlayer choices: 'Follow the money.' / 'First make sure the next convoy gets through.'\nV \u2014 Hald: 'Escort the workers through. We need a road, not another heroic ruin.'\nP \u2014 Hald: 'Identify the ambush points before the convoy leaves.'\nK \u2014 Hald: 'Organize supplies and a fallback shelter. We can survive a delay; they cannot survive wishful thinking.'\n\nClock Tower and relief-road quest anchors connect funding irregularities to the northern network. No arbitrary demand to complete unrelated regional quests.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "5.2",
+      "cursor": 13,
+      "chapter": 5,
+      "title": "A song with someone missing",
+      "chapterTitle": "The Price of a Safe Road",
+      "staging": "Comodo gathering; Oren, Lale, Daro, player.",
+      "dialogue": [
+        {
+          "speaker": "Lale",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Your song says the town was saved by one man."
+          ]
+        },
+        {
+          "speaker": "Oren",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "That is the version people request."
+          ]
+        },
+        {
+          "speaker": "Daro",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Was it saved by one man?"
+          ]
+        },
+        {
+          "speaker": "Oren",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "No."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Then sing the other names.",
+            "Let them tell their part first."
+          ]
+        },
+        {
+          "speaker": "Lale",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I can dance to a true story. It need not be a tidy one."
+          ]
+        }
+      ],
+      "fullSceneText": "Lale: 'Your song says the town was saved by one man.'\nOren: 'That is the version people request.'\nDaro: 'Was it saved by one man?'\nOren: 'No.'\nPlayer choices: 'Then sing the other names.' / 'Let them tell their part first.'\nLale: 'I can dance to a true story. It need not be a tidy one.'\n\nA short performance scene establishes cultural memory without making these original characters secretly responsible for every existing festival quest.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "5.3",
+      "cursor": 14,
+      "chapter": 5,
+      "title": "Orders amended",
+      "chapterTitle": "The Price of a Safe Road",
+      "staging": "Guild room; Hald, player.",
+      "dialogue": [
+        {
+          "speaker": "Hald",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I told you to deliver a parcel because that was a problem small enough for my desk."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "It was never that small.",
+            "What will you do now?"
+          ]
+        },
+        {
+          "speaker": "Hald",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Authorize protection for the witnesses. Release the impounded supplies. Put my name on the order."
+          ]
+        },
+        {
+          "speaker": "Maya",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "An apology with an inventory. My favorite kind."
+          ]
+        },
+        {
+          "speaker": "Hald",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Do not make me regret including the good canvas."
+          ]
+        }
+      ],
+      "fullSceneText": "Hald: 'I told you to deliver a parcel because that was a problem small enough for my desk.'\nPlayer choices: 'It was never that small.' / 'What will you do now?'\nHald: 'Authorize protection for the witnesses. Release the impounded supplies. Put my name on the order.'\nMaya: 'An apology with an inventory. My favorite kind.'\nHald: 'Do not make me regret including the good canvas.'\n\nThe coalition becomes tangible: relief NPCs and scene dialogue acknowledge completed aid. Suri, Oren, Lale and Daro have recruitment opportunities; no four-AI requirement.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "6.1",
+      "cursor": 15,
+      "chapter": 6,
+      "title": "A clean shelf",
+      "chapterTitle": "People Without Entries",
+      "staging": "Juno archive; Edda, Veyr, player.",
+      "dialogue": [
+        {
+          "speaker": "Edda",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "There should be six volumes here."
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "There were transcription errors."
+          ]
+        },
+        {
+          "speaker": "Edda",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "In six volumes?"
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "People deserve an accurate history."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Who decides what counts as an error?",
+            "Show us the originals."
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "You are asking to see wounds we have only just learned to close."
+          ]
+        }
+      ],
+      "fullSceneText": "Edda: 'There should be six volumes here.'\nVeyr: 'There were transcription errors.'\nEdda: 'In six volumes?'\nVeyr: 'People deserve an accurate history.'\nPlayer choices: 'Who decides what counts as an error?' / 'Show us the originals.'\nVeyr: 'You are asking to see wounds we have only just learned to close.'\n\nHe refuses access. Edda provides a lawful surviving index leading to Einbech, rather than immediately revealing every secret in an exposition dump.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "6.2",
+      "cursor": 16,
+      "chapter": 6,
+      "title": "The person in the margin",
+      "chapterTitle": "People Without Entries",
+      "staging": "Lighthalzen shelter after an audited investigation/Biolabs approach; Sella, Corin, Dagna, player.",
+      "dialogue": [
+        {
+          "speaker": "Sella",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "If you write down my name, can they find me?"
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "We can leave it blank.",
+            "You decide who receives it."
+          ]
+        },
+        {
+          "speaker": "Sella",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Then write it for the people I choose. I am tired of being a number."
+          ]
+        },
+        {
+          "speaker": "Dagna",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I made restraints for a company that called them medical fittings."
+          ]
+        },
+        {
+          "speaker": "Corin",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I delivered crates. I did not look inside."
+          ]
+        },
+        {
+          "speaker": "Sella",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Look now. And do something useful with what you see."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "We will get the others out before we pursue him."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "We will find every exit and open them together."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "We will let the survivors decide where they go."
+          ]
+        }
+      ],
+      "fullSceneText": "Sella: 'If you write down my name, can they find me?'\nPlayer choices: 'We can leave it blank.' / 'You decide who receives it.'\nSella: 'Then write it for the people I choose. I am tired of being a number.'\nDagna: 'I made restraints for a company that called them medical fittings.'\nCorin: 'I delivered crates. I did not look inside.'\nSella: 'Look now. And do something useful with what you see.'\nV \u2014 Player: 'We will get the others out before we pursue him.'\nP \u2014 Player: 'We will find every exit and open them together.'\nK \u2014 Player: 'We will let the survivors decide where they go.'\n\nBiolabs combat remains difficulty-tested; reaching a plot clue must not require an unbalanced endgame room at an early milestone. Use the appropriate entrance/interior and existing quest progression.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "6.3",
+      "cursor": 17,
+      "chapter": 6,
+      "title": "Preservation",
+      "chapterTitle": "People Without Entries",
+      "staging": "Remote projection in an abandoned lab; Veyr, Takius, player.",
+      "dialogue": [
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Every village loses people and calls it inevitable. Every war burns records and calls it history. I can end that."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "By taking their choices?",
+            "You cannot restore people by imprisoning what remains."
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Freedom is a small comfort to someone nobody remembers."
+          ]
+        },
+        {
+          "speaker": "Takius",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "So you made certain they could not refuse your comfort."
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I made certain the next disaster would not have the final word."
+          ]
+        }
+      ],
+      "fullSceneText": "Veyr: 'Every village loses people and calls it inevitable. Every war burns records and calls it history. I can end that.'\nPlayer choices: 'By taking their choices?' / 'You cannot restore people by imprisoning what remains.'\nVeyr: 'Freedom is a small comfort to someone nobody remembers.'\nTakius: 'So you made certain they could not refuse your comfort.'\nVeyr: 'I made certain the next disaster would not have the final word.'\n\nReveal the network and antagonist, not the full final mechanism. Survivors leave under their own names or chosen anonymity. Sella declines the party and chooses relief work; that is a successful outcome.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "7.1",
+      "cursor": 18,
+      "chapter": 7,
+      "title": "Knowledge without an owner",
+      "chapterTitle": "The Far Shore",
+      "staging": "Regional dispatch meeting, Amatsu; Kaede, Edda, player.",
+      "dialogue": [
+        {
+          "speaker": "Kaede",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Our records remember a similar binding. They also remember why we stopped using it."
+          ]
+        },
+        {
+          "speaker": "Edda",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Will your elders let us read them?"
+          ]
+        },
+        {
+          "speaker": "Kaede",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I will ask. Secret does not mean mine to sell."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "We will explain what we need.",
+            "And accept what they cannot share."
+          ]
+        },
+        {
+          "speaker": "Kaede",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "Help protect the archive road; people listen better when their messengers return."
+          ]
+        },
+        {
+          "speaker": "Kaede",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "Compare the inscriptions. Agreement matters more than a convenient translation."
+          ]
+        },
+        {
+          "speaker": "Kaede",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "Speak with the families whose ancestors appear in those records. The formula is not the only thing we came for."
+          ]
+        }
+      ],
+      "fullSceneText": "Kaede: 'Our records remember a similar binding. They also remember why we stopped using it.'\nEdda: 'Will your elders let us read them?'\nKaede: 'I will ask. Secret does not mean mine to sell.'\nPlayer choices: 'We will explain what we need.' / 'And accept what they cannot share.'\nV \u2014 Kaede: 'Help protect the archive road; people listen better when their messengers return.'\nP \u2014 Kaede: 'Compare the inscriptions. Agreement matters more than a convenient translation.'\nK \u2014 Kaede: 'Speak with the families whose ancestors appear in those records. The formula is not the only thing we came for.'\n\nRegional circuit: audited Amatsu, Gonryun, Louyang and Ayothaya quest anchors each contribute a distinct finding or relationship. Moscovia/Brasilis and other available regions receive optional substantial side arcs, not forced token visits. Select three findings from four sources to avoid one broken side chain blocking the whole game; the journal names alternatives explicitly.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "7.2",
+      "cursor": 19,
+      "chapter": 7,
+      "title": "Not a key",
+      "chapterTitle": "The Far Shore",
+      "staging": "Gonryun observation terrace; Fenris, player, Takius.",
+      "dialogue": [
+        {
+          "speaker": "Fenris",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Someone has mistaken a fragment of Ymir for a lock that opens every door."
+          ]
+        },
+        {
+          "speaker": "Takius",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Can it?"
+          ]
+        },
+        {
+          "speaker": "Fenris",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "It opens some doors by breaking the house."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Then we stop him.",
+            "What happens to the people already inside?"
+          ]
+        },
+        {
+          "speaker": "Fenris",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "That is the question that makes stopping him difficult."
+          ]
+        }
+      ],
+      "fullSceneText": "Fenris: 'Someone has mistaken a fragment of Ymir for a lock that opens every door.'\nTakius: 'Can it?'\nFenris: 'It opens some doors by breaking the house.'\nPlayer choices: 'Then we stop him.' / 'What happens to the people already inside?'\nFenris: 'That is the question that makes stopping him difficult.'\n\nThe three findings establish consent, identity and a severance method. No collectible is a universal magical cure by itself.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "7.3",
+      "cursor": 20,
+      "chapter": 7,
+      "title": "An argument worth keeping",
+      "chapterTitle": "The Far Shore",
+      "staging": "Guild dispatch room; Edda, Kaede, player.",
+      "dialogue": [
+        {
+          "speaker": "Edda",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I could publish the entire method. Nobody could bury it again."
+          ]
+        },
+        {
+          "speaker": "Kaede",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "And the next Veyr would not need to begin his research."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Publish the evidence and safeguards. Restrict the dangerous procedure.",
+            "Let the communities decide with us."
+          ]
+        },
+        {
+          "speaker": "Edda",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Then the final page cannot be mine alone."
+          ]
+        }
+      ],
+      "fullSceneText": "Edda: 'I could publish the entire method. Nobody could bury it again.'\nKaede: 'And the next Veyr would not need to begin his research.'\nPlayer choices: 'Publish the evidence and safeguards. Restrict the dangerous procedure.' / 'Let the communities decide with us.'\nEdda: 'Then the final page cannot be mine alone.'\n\nBoth choices lead to consultation, with different immediate dispatch text. This is not a binary good/evil meter. Edda and Kaede's personal resolutions become available.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "8.1",
+      "cursor": 21,
+      "chapter": 8,
+      "title": "Names at the threshold",
+      "chapterTitle": "Those Who Answer",
+      "staging": "Umbala passage toward Niflheim; Miri, Haneul, player.",
+      "dialogue": [
+        {
+          "speaker": "Miri",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "If you hear a voice you miss, do not promise to follow it anywhere."
+          ]
+        },
+        {
+          "speaker": "Haneul",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "And if the stars point down?"
+          ]
+        },
+        {
+          "speaker": "Miri",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Then we remember that we possess feet and judgment."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "We came to listen, not to collect anyone.",
+            "How do we return?"
+          ]
+        },
+        {
+          "speaker": "Miri",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Together, with permission where permission is possible, and without pretending that every door should stay open."
+          ]
+        }
+      ],
+      "fullSceneText": "Miri: 'If you hear a voice you miss, do not promise to follow it anywhere.'\nHaneul: 'And if the stars point down?'\nMiri: 'Then we remember that we possess feet and judgment.'\nPlayer choices: 'We came to listen, not to collect anyone.' / 'How do we return?'\nMiri: 'Together, with permission where permission is possible, and without pretending that every door should stay open.'\n\nUse the existing access progression and safe-return rules. No real-world disappearance timer or surprise loss of a beloved save character.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "8.2",
+      "cursor": 22,
+      "chapter": 8,
+      "title": "The Witness speaks",
+      "chapterTitle": "Those Who Answer",
+      "staging": "Quiet Niflheim room; Witness, Yuufa, player.",
+      "dialogue": [
+        {
+          "speaker": "Witness",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "We remember being wanted. We remember being afraid. He tells us these are the same memory."
+          ]
+        },
+        {
+          "speaker": "Yuufa",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "They are not."
+          ]
+        },
+        {
+          "speaker": "Witness",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "If you free us, some of us will stop speaking."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "That choice should be yours.",
+            "Tell us what you want before we act."
+          ]
+        },
+        {
+          "speaker": "Witness",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "We want him to hear us say no."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "Then I will keep the way open while you say it."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "Then I will find the channel he cannot silence."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "Then I will help you speak without holding you here."
+          ]
+        }
+      ],
+      "fullSceneText": "Witness: 'We remember being wanted. We remember being afraid. He tells us these are the same memory.'\nYuufa: 'They are not.'\nWitness: 'If you free us, some of us will stop speaking.'\nPlayer choices: 'That choice should be yours.' / 'Tell us what you want before we act.'\nWitness: 'We want him to hear us say no.'\nV \u2014 Player: 'Then I will keep the way open while you say it.'\nP \u2014 Player: 'Then I will find the channel he cannot silence.'\nK \u2014 Player: 'Then I will help you speak without holding you here.'\n\nThe Witness consents to one final transmission. This is the emotional and mechanical basis of the final rescue, not a quest item treated as property.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "8.3",
+      "cursor": 23,
+      "chapter": 8,
+      "title": "An empty chair",
+      "chapterTitle": "Those Who Answer",
+      "staging": "Guild hall reunion; Yuufa, Roan, player.",
+      "dialogue": [
+        {
+          "speaker": "Yuufa",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I kept thinking there must be one more prayer."
+          ]
+        },
+        {
+          "speaker": "Roan",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Was there?"
+          ]
+        },
+        {
+          "speaker": "Yuufa",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "There was a person who needed me to listen instead."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "We do not have to call that failure.",
+            "We can remember them without keeping them here."
+          ]
+        },
+        {
+          "speaker": "Roan",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Then the chair stays empty tonight. Nobody has to explain it."
+          ]
+        }
+      ],
+      "fullSceneText": "Yuufa: 'I kept thinking there must be one more prayer.'\nRoan: 'Was there?'\nYuufa: 'There was a person who needed me to listen instead.'\nPlayer choices: 'We do not have to call that failure.' / 'We can remember them without keeping them here.'\nRoan: 'Then the chair stays empty tonight. Nobody has to explain it.'\n\nA quiet beat after death imagery. Miri and Haneul can join; the reserve roster sends short personal check-ins.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "9.1",
+      "cursor": 24,
+      "chapter": 9,
+      "title": "Begin again",
+      "chapterTitle": "The Weight of a New Name",
+      "staging": "Rebirth institution or equivalent guild preparation for non-rebirthing classes; player, Fenris, companion appropriate to route.",
+      "dialogue": [
+        {
+          "speaker": "Fenris",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "A new beginning is not a receipt that cancels the old one."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "I want to carry it better.",
+            "I will continue as I am."
+          ]
+        },
+        {
+          "speaker": "Fenris",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Both answers require work."
+          ]
+        },
+        {
+          "speaker": "Roan",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "You do not need a grander title for me to trust your back."
+          ]
+        },
+        {
+          "speaker": "Takius",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "Changing what we know does not make the earlier questions worthless."
+          ]
+        },
+        {
+          "speaker": "Yuufa",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "You are allowed to grow without becoming less kind to who you were."
+          ]
+        }
+      ],
+      "fullSceneText": "Fenris: 'A new beginning is not a receipt that cancels the old one.'\nPlayer choices: 'I want to carry it better.' / 'I will continue as I am.'\nFenris: 'Both answers require work.'\nV \u2014 Roan: 'You do not need a grander title for me to trust your back.'\nP \u2014 Takius: 'Changing what we know does not make the earlier questions worthless.'\nK \u2014 Yuufa: 'You are allowed to grow without becoming less kind to who you were.'\n\nRebirth is optional where class rules require it to be optional. Expanded/Super Novice characters receive an equal narrative preparation milestone, not an impossible transcendent requirement. Existing job quests retain their authentic progression.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "9.2",
+      "cursor": 25,
+      "chapter": 9,
+      "title": "A room prepared for someone else",
+      "chapterTitle": "The Weight of a New Name",
+      "staging": "Rachel/Veins investigation; Iris, player, local quest contact.",
+      "dialogue": [
+        {
+          "speaker": "Iris",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "They asked me whether a person would return if every memory of them were restored."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "What did you tell them?",
+            "Who were they hoping to bring back?"
+          ]
+        },
+        {
+          "speaker": "Iris",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "That a remembered answer cannot consent for a living person."
+          ]
+        },
+        {
+          "speaker": "Local contact",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Veyr has moved the final equipment south. The temples were never his destination."
+          ]
+        }
+      ],
+      "fullSceneText": "Iris: 'They asked me whether a person would return if every memory of them were restored.'\nPlayer choices: 'What did you tell them?' / 'Who were they hoping to bring back?'\nIris: 'That a remembered answer cannot consent for a living person.'\nLocal contact: 'Veyr has moved the final equipment south. The temples were never his destination.'\n\nRachel/Veins/Ice Dungeon quest anchors reveal that Veyr is trying to restore a family first and a civilization second. Religious NPCs are not flattened into one uniformly corrupt faction.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "9.3",
+      "cursor": 26,
+      "chapter": 9,
+      "title": "The letter he never sent",
+      "chapterTitle": "The Weight of a New Name",
+      "staging": "Safe camp; Nera, player. Find Veyr's unsent letter through investigation rather than stealing private grief as a reward.",
+      "dialogue": [
+        {
+          "speaker": "Nera",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "He wrote it before the first shipment."
+          ]
+        },
+        {
+          "speaker": "Letter, read by Nera",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I cannot bear that the world continues to contain so little of you. I am afraid that if I stop, I will have agreed to lose you."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "That grief was real. So were his victims.",
+            "We can understand him and still stop him."
+          ]
+        },
+        {
+          "speaker": "Nera",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I will keep both facts in the record."
+          ]
+        }
+      ],
+      "fullSceneText": "Nera: 'He wrote it before the first shipment.'\nLetter, read by Nera: 'I cannot bear that the world continues to contain so little of you. I am afraid that if I stop, I will have agreed to lose you.'\nPlayer choices: 'That grief was real. So were his victims.' / 'We can understand him and still stop him.'\nNera: 'I will keep both facts in the record.'",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "10.1",
+      "cursor": 27,
+      "chapter": 10,
+      "title": "The first anchor burns",
+      "chapterTitle": "What the Fire Reveals",
+      "staging": "Thor approach; Dagna, Corin, player.",
+      "dialogue": [
+        {
+          "speaker": "Dagna",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Those couplings were designed to survive a furnace. They were not designed to survive someone who knows where I cut corners."
+          ]
+        },
+        {
+          "speaker": "Corin",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "For once, your professional shame is excellent news."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "I will keep the Guardians away from the work."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "Mark the exposed couplings. I will break them in sequence."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "Tell me when you need protection. We stop before this becomes another sacrifice."
+          ]
+        },
+        {
+          "speaker": "Dagna",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Gladly. I am developing standards."
+          ]
+        }
+      ],
+      "fullSceneText": "Dagna: 'Those couplings were designed to survive a furnace. They were not designed to survive someone who knows where I cut corners.'\nCorin: 'For once, your professional shame is excellent news.'\nV \u2014 Player: 'I will keep the Guardians away from the work.'\nP \u2014 Player: 'Mark the exposed couplings. I will break them in sequence.'\nK \u2014 Player: 'Tell me when you need protection. We stop before this becomes another sacrifice.'\nDagna: 'Gladly. I am developing standards.'\n\nBoss and Guardian balance must be tested with the chosen route; engineering interactions have non-skill-specific equivalents.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "10.2",
+      "cursor": 28,
+      "chapter": 10,
+      "title": "A history that fights back",
+      "chapterTitle": "What the Fire Reveals",
+      "staging": "Abbey/Thanatos arc conclusion; Fenris, Chaos, player, Witness.",
+      "dialogue": [
+        {
+          "speaker": "Chaos",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "People keep telling me what someone with my name must do."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "What do you choose?",
+            "Then help us give these people a different question."
+          ]
+        },
+        {
+          "speaker": "Chaos",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I can hold the evacuation route. You should finish what you started."
+          ]
+        },
+        {
+          "speaker": "Witness",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "He is listening now. He is angry that we are not grateful."
+          ]
+        },
+        {
+          "speaker": "Fenris",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Then he has finally heard a voice he did not write."
+          ]
+        }
+      ],
+      "fullSceneText": "Chaos: 'People keep telling me what someone with my name must do.'\nPlayer choices: 'What do you choose?' / 'Then help us give these people a different question.'\nChaos: 'I can hold the evacuation route. You should finish what you started.'\nWitness: 'He is listening now. He is angry that we are not grateful.'\nFenris: 'Then he has finally heard a voice he did not write.'\n\nAbbey and Thanatos are separate sources of danger and history; do not retcon their native antagonists into Veyr's employees. Their completed discoveries expose the network's last anchor and its disastrous contact with Morroc.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "10.3",
+      "cursor": 29,
+      "chapter": 10,
+      "title": "The council with too many chairs",
+      "chapterTitle": "What the Fire Reveals",
+      "staging": "Guild hall; Hald, Nera, Maya, player; selected roster representatives.",
+      "dialogue": [
+        {
+          "speaker": "Hald",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "We can guard the roads. We cannot put an army through that breach."
+          ]
+        },
+        {
+          "speaker": "Maya",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Then stop calling the small party inadequate and start keeping its return road open."
+          ]
+        },
+        {
+          "speaker": "Nera",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I have a list of everyone still missing."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Read it before we leave.",
+            "Give each rescue team its names."
+          ]
+        },
+        {
+          "speaker": "Hald",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Both. We have enough people to do both."
+          ]
+        }
+      ],
+      "fullSceneText": "Hald: 'We can guard the roads. We cannot put an army through that breach.'\nMaya: 'Then stop calling the small party inadequate and start keeping its return road open.'\nNera: 'I have a list of everyone still missing.'\nPlayer choices: 'Read it before we leave.' / 'Give each rescue team its names.'\nHald: 'Both. We have enough people to do both.'\n\nReserve companions take explicit evacuation, supply and protection assignments. Nobody is narratively discarded because the Xbox can simulate only a small active party.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "11.1",
+      "cursor": 30,
+      "chapter": 11,
+      "title": "The offer",
+      "chapterTitle": "No One's Last Page",
+      "staging": "Morroc perimeter projection; Veyr, player.",
+      "dialogue": [
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Come alone, and I will return the people you have lost."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "You do not know what they would choose.",
+            "I am not trading the living for a promise."
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "You will let them disappear because you are afraid of the price."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I am looking at the people you made pay it."
+          ]
+        }
+      ],
+      "fullSceneText": "Veyr: 'Come alone, and I will return the people you have lost.'\nPlayer choices: 'You do not know what they would choose.' / 'I am not trading the living for a promise.'\nVeyr: 'You will let them disappear because you are afraid of the price.'\nPlayer: 'I am looking at the people you made pay it.'\n\nThe offer is emotionally tempting without inventing a dead parent or tragic backstory for the player. It refers to witnessed losses; no companion is kidnapped merely to remove a support class's essential party member.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "11.2",
+      "cursor": 31,
+      "chapter": 11,
+      "title": "Three tasks, one return",
+      "chapterTitle": "No One's Last Page",
+      "staging": "Breach staging room; active party, Witness, player.",
+      "dialogue": [
+        {
+          "speaker": "Yuufa",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "You reach the gate. We will keep you standing long enough to open it."
+          ]
+        },
+        {
+          "speaker": "Roan",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "I will bring them into the opening. Tell me when it is yours."
+          ]
+        },
+        {
+          "speaker": "Takius",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "We will strike when you give the signal. Keep their names clear of the mechanism."
+          ]
+        },
+        {
+          "speaker": "Witness",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "If we cannot all return, do not make that decision before we have tried."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "We try together.",
+            "Nobody becomes the price of our victory."
+          ]
+        }
+      ],
+      "fullSceneText": "V \u2014 Yuufa: 'You reach the gate. We will keep you standing long enough to open it.'\nP \u2014 Roan: 'I will bring them into the opening. Tell me when it is yours.'\nK \u2014 Takius: 'We will strike when you give the signal. Keep their names clear of the mechanism.'\nWitness: 'If we cannot all return, do not make that decision before we have tried.'\nPlayer choices: 'We try together.' / 'Nobody becomes the price of our victory.'\n\nPlayable sequence rescues captives, breaks a relay and secures an exit. Failure restarts the encounter checkpoint, not the entire campaign. Completion order varies by route; all objectives receive explicit feedback.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "11.3",
+      "cursor": 32,
+      "chapter": 11,
+      "title": "Before the last door",
+      "chapterTitle": "No One's Last Page",
+      "staging": "Safe antechamber; route counterpart, player.",
+      "dialogue": [
+        {
+          "speaker": "Roan",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "I used to think being brave meant arriving first. You made me notice who was still outside."
+          ]
+        },
+        {
+          "speaker": "Takius",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "I used to think certainty would keep us safe. You taught me to keep asking when certainty became convenient."
+          ]
+        },
+        {
+          "speaker": "Yuufa",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "I used to think care meant never letting go. You helped me hear the difference between holding someone and holding them here."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "You helped me too.",
+            "Then let us finish this without forgetting it."
+          ]
+        },
+        {
+          "speaker": "Counterpart",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Together."
+          ]
+        }
+      ],
+      "fullSceneText": "V \u2014 Roan: 'I used to think being brave meant arriving first. You made me notice who was still outside.'\nP \u2014 Takius: 'I used to think certainty would keep us safe. You taught me to keep asking when certainty became convenient.'\nK \u2014 Yuufa: 'I used to think care meant never letting go. You helped me hear the difference between holding someone and holding them here.'\nPlayer choices: 'You helped me too.' / 'Then let us finish this without forgetting it.'\nCounterpart: 'Together.'\n\nOffer save, rest, party adjustment and return to the world before the final commitment. Explain checkpoint/escape rules clearly.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "12.1",
+      "cursor": 33,
+      "chapter": 12,
+      "title": "The perfect archive",
+      "chapterTitle": "The Names We Keep",
+      "staging": "Final anchor chamber; Veyr, Witness, player, active party.",
+      "dialogue": [
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Look. Nothing lost. No forgotten graves. No children growing up without a face to remember."
+          ]
+        },
+        {
+          "speaker": "Witness",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "And no door that opens from the inside."
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "You are alive because I refused to surrender you."
+          ]
+        },
+        {
+          "speaker": "Witness",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "You have not asked whether this is the life we want."
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "Open the archive.",
+            "Let them answer you."
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "They are frightened. They do not understand what waits outside."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "That does not make their answer yours."
+          ]
+        }
+      ],
+      "fullSceneText": "Veyr: 'Look. Nothing lost. No forgotten graves. No children growing up without a face to remember.'\nWitness: 'And no door that opens from the inside.'\nVeyr: 'You are alive because I refused to surrender you.'\nWitness: 'You have not asked whether this is the life we want.'\nPlayer choices: 'Open the archive.' / 'Let them answer you.'\nVeyr: 'They are frightened. They do not understand what waits outside.'\nPlayer: 'That does not make their answer yours.'",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "12.2",
+      "cursor": 34,
+      "chapter": 12,
+      "title": "A voice he cannot overwrite",
+      "chapterTitle": "The Names We Keep",
+      "staging": "Final encounter in three phases. Exact monster/model selection follows asset and solo-balance audit. Use an appropriate existing endgame threat for the ruptured Morroc manifestation rather than pretending a custom enemy already exists.",
+      "dialogue": [
+        {
+          "speaker": "Phase 1, Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I will not lose them again!"
+          ]
+        },
+        {
+          "speaker": "Party cue",
+          "role": "Vanguard",
+          "kind": "line",
+          "text": [
+            "Hold the manifestation away from the release gate!"
+          ]
+        },
+        {
+          "speaker": "Party cue",
+          "role": "Pathfinder",
+          "kind": "line",
+          "text": [
+            "The relay is exposed\u2014break its channel!"
+          ]
+        },
+        {
+          "speaker": "Party cue",
+          "role": "Keeper",
+          "kind": "line",
+          "text": [
+            "The bindings are failing\u2014guide the release while we cover you!"
+          ]
+        },
+        {
+          "speaker": "Phase 2, Witness",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Listen. These are our names. They are not your instructions."
+          ]
+        },
+        {
+          "speaker": "Phase 3, Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "If I let go, what will remain?"
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "What they gave you. What you choose next.",
+            "Enough to begin making amends. Never enough to undo this."
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "I do not know how."
+          ]
+        },
+        {
+          "speaker": "Player",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Start by opening the door."
+          ]
+        },
+        {
+          "speaker": "After victory, Witness",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Thank you for asking."
+          ]
+        }
+      ],
+      "fullSceneText": "Phase 1, Veyr: 'I will not lose them again!'\nV \u2014 Party cue: 'Hold the manifestation away from the release gate!'\nP \u2014 Party cue: 'The relay is exposed\u2014break its channel!'\nK \u2014 Party cue: 'The bindings are failing\u2014guide the release while we cover you!'\nPhase 2, Witness: 'Listen. These are our names. They are not your instructions.'\nPhase 3, Veyr: 'If I let go, what will remain?'\nPlayer choices: 'What they gave you. What you choose next.' / 'Enough to begin making amends. Never enough to undo this.'\nVeyr: 'I do not know how.'\nPlayer: 'Start by opening the door.'\nVeyr releases the emergency lock. The party still must defeat the manifestation; his one useful act does not erase his crimes.\nAfter victory, Witness: 'Thank you for asking.'\n\nAll three routes participate in real combat. Support objectives use universal interactions plus ordinary support play, not mandatory Heal, Dispel or a class-specific spell. No route can win by waiting through an identical timer while NPCs do everything.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    },
+    {
+      "id": "12.3",
+      "cursor": 35,
+      "chapter": 12,
+      "title": "The ledger and the roof",
+      "chapterTitle": "The Names We Keep",
+      "staging": "Prontera then guild hall; Nera, Hald, Veyr under guard, guild companions, player.",
+      "dialogue": [
+        {
+          "speaker": "Hald",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "The hearing will be public. The missing will have advocates. The records will have copies."
+          ]
+        },
+        {
+          "speaker": "Veyr",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "May I hear their names?"
+          ]
+        },
+        {
+          "speaker": "Nera",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "When they choose to speak to you."
+          ]
+        },
+        {
+          "speaker": "At the hall, Maya",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "The roof survived. I dislike being surprised by competent workmanship."
+          ]
+        },
+        {
+          "speaker": "Judia",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "You paid for it."
+          ]
+        },
+        {
+          "speaker": "Maya",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "Yes. The rarest kind of competence."
+          ]
+        },
+        {
+          "speaker": "Yuufa",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "What will we call this in the record?"
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "The names we kept.",
+            "The people who came home."
+          ]
+        },
+        {
+          "speaker": "Roan",
+          "role": "all",
+          "kind": "line",
+          "text": [
+            "And tomorrow?"
+          ]
+        },
+        {
+          "speaker": "Player choices",
+          "role": "all",
+          "kind": "choice",
+          "text": [
+            "We see who needs us.",
+            "We take a day off. Then we see who needs us."
+          ]
+        }
+      ],
+      "fullSceneText": "Hald: 'The hearing will be public. The missing will have advocates. The records will have copies.'\nVeyr: 'May I hear their names?'\nNera: 'When they choose to speak to you.'\nAt the hall, Maya: 'The roof survived. I dislike being surprised by competent workmanship.'\nJudia: 'You paid for it.'\nMaya: 'Yes. The rarest kind of competence.'\nYuufa: 'What will we call this in the record?'\nPlayer choices: 'The names we kept.' / 'The people who came home.'\nRoan: 'And tomorrow?'\nPlayer choices: 'We see who needs us.' / 'We take a day off. Then we see who needs us.'\n\nThe final image is the open guild door and ordinary people arriving, not a declaration that all suffering has ended. Credits may run over quiet hall activity. Resume at a documented postgame point with travel, uncompleted side quests and optional endgame challenges available.",
+      "placement": "requires-map-and-trigger-audit",
+      "playable": false
+    }
+  ],
+  "discIndex": [
+    {
+      "id": "1.1",
+      "offset": 0,
+      "packed": 708,
+      "raw": 1927,
+      "crc32": 1107723145
+    },
+    {
+      "id": "1.2",
+      "offset": 708,
+      "packed": 899,
+      "raw": 2666,
+      "crc32": 2024765196
+    },
+    {
+      "id": "1.3",
+      "offset": 1607,
+      "packed": 572,
+      "raw": 1384,
+      "crc32": 790729994
+    },
+    {
+      "id": "2.1",
+      "offset": 2179,
+      "packed": 742,
+      "raw": 1893,
+      "crc32": 1705709460
+    },
+    {
+      "id": "2.2",
+      "offset": 2921,
+      "packed": 653,
+      "raw": 1698,
+      "crc32": 1893955332
+    },
+    {
+      "id": "2.3",
+      "offset": 3574,
+      "packed": 709,
+      "raw": 1835,
+      "crc32": 3671270599
+    },
+    {
+      "id": "3.1",
+      "offset": 4283,
+      "packed": 727,
+      "raw": 2012,
+      "crc32": 735380294
+    },
+    {
+      "id": "3.2",
+      "offset": 5010,
+      "packed": 605,
+      "raw": 1715,
+      "crc32": 578314652
+    },
+    {
+      "id": "3.3",
+      "offset": 5615,
+      "packed": 620,
+      "raw": 1573,
+      "crc32": 2606194542
+    },
+    {
+      "id": "4.1",
+      "offset": 6235,
+      "packed": 682,
+      "raw": 1801,
+      "crc32": 3065464198
+    },
+    {
+      "id": "4.2",
+      "offset": 6917,
+      "packed": 569,
+      "raw": 1384,
+      "crc32": 970944752
+    },
+    {
+      "id": "4.3",
+      "offset": 7486,
+      "packed": 525,
+      "raw": 1253,
+      "crc32": 2173286980
+    },
+    {
+      "id": "5.1",
+      "offset": 8011,
+      "packed": 707,
+      "raw": 1850,
+      "crc32": 4075191791
+    },
+    {
+      "id": "5.2",
+      "offset": 8718,
+      "packed": 542,
+      "raw": 1294,
+      "crc32": 3450966735
+    },
+    {
+      "id": "5.3",
+      "offset": 9260,
+      "packed": 592,
+      "raw": 1418,
+      "crc32": 389461623
+    },
+    {
+      "id": "6.1",
+      "offset": 9852,
+      "packed": 538,
+      "raw": 1301,
+      "crc32": 3735198921
+    },
+    {
+      "id": "6.2",
+      "offset": 10390,
+      "packed": 802,
+      "raw": 2148,
+      "crc32": 2784660133
+    },
+    {
+      "id": "6.3",
+      "offset": 11192,
+      "packed": 624,
+      "raw": 1573,
+      "crc32": 4283983296
+    },
+    {
+      "id": "7.1",
+      "offset": 11816,
+      "packed": 876,
+      "raw": 2199,
+      "crc32": 3337331399
+    },
+    {
+      "id": "7.2",
+      "offset": 12692,
+      "packed": 523,
+      "raw": 1230,
+      "crc32": 353196454
+    },
+    {
+      "id": "7.3",
+      "offset": 13215,
+      "packed": 548,
+      "raw": 1251,
+      "crc32": 3412906666
+    },
+    {
+      "id": "8.1",
+      "offset": 13763,
+      "packed": 583,
+      "raw": 1409,
+      "crc32": 2821820695
+    },
+    {
+      "id": "8.2",
+      "offset": 14346,
+      "packed": 641,
+      "raw": 1827,
+      "crc32": 2462258232
+    },
+    {
+      "id": "8.3",
+      "offset": 14987,
+      "packed": 513,
+      "raw": 1230,
+      "crc32": 68497458
+    },
+    {
+      "id": "9.1",
+      "offset": 15500,
+      "packed": 732,
+      "raw": 1731,
+      "crc32": 3771529389
+    },
+    {
+      "id": "9.2",
+      "offset": 16232,
+      "packed": 597,
+      "raw": 1361,
+      "crc32": 553614810
+    },
+    {
+      "id": "9.3",
+      "offset": 16829,
+      "packed": 520,
+      "raw": 1240,
+      "crc32": 1928493117
+    },
+    {
+      "id": "10.1",
+      "offset": 17349,
+      "packed": 631,
+      "raw": 1634,
+      "crc32": 208648432
+    },
+    {
+      "id": "10.2",
+      "offset": 17980,
+      "packed": 643,
+      "raw": 1504,
+      "crc32": 2032615832
+    },
+    {
+      "id": "10.3",
+      "offset": 18623,
+      "packed": 609,
+      "raw": 1407,
+      "crc32": 3720672316
+    },
+    {
+      "id": "11.1",
+      "offset": 19232,
+      "packed": 548,
+      "raw": 1254,
+      "crc32": 3095193296
+    },
+    {
+      "id": "11.2",
+      "offset": 19780,
+      "packed": 680,
+      "raw": 1585,
+      "crc32": 1220600353
+    },
+    {
+      "id": "11.3",
+      "offset": 20460,
+      "packed": 642,
+      "raw": 1612,
+      "crc32": 779472114
+    },
+    {
+      "id": "12.1",
+      "offset": 21102,
+      "packed": 547,
+      "raw": 1526,
+      "crc32": 2510751479
+    },
+    {
+      "id": "12.2",
+      "offset": 21649,
+      "packed": 999,
+      "raw": 2600,
+      "crc32": 941644613
+    },
+    {
+      "id": "12.3",
+      "offset": 22648,
+      "packed": 800,
+      "raw": 2191,
+      "crc32": 3942328609
+    }
+  ],
+  "scope": "Authored scene text; trigger/map/encounter integration pending. Not playable scenes yet."
+}

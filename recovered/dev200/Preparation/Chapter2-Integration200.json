@@ -1,0 +1,53 @@
+{
+  "chapter": 2,
+  "typedSceneCount": 3,
+  "typedPackTotalBytes": 3680,
+  "graphsHostTested": true,
+  "guildKeyboardHostTested": true,
+  "nativeWitnessScriptsHostTested": true,
+  "worldStagingEnabled": false,
+  "actorSourcesPresent": true,
+  "sourceNPCs": {
+    "Monster Scholar#02": {
+      "record": 542,
+      "map": 11,
+      "position": [
+        1060,
+        1884
+      ],
+      "requiredTopic": "Undead Monsters?",
+      "acknowledgedTextContains": "citizens of Payon!",
+      "proofBit": 0
+    },
+    "Young Man#2payon": {
+      "record": 537,
+      "map": 11,
+      "position": [
+        1412,
+        684
+      ],
+      "acknowledgedTextContains": "dearly departed grandfather",
+      "proofBit": 1
+    }
+  },
+  "sourceScript": {
+    "path": "/workspace/myro/asset-library/Test53-npc-inventory/server/npc/cities/payon.txt",
+    "sha256": "952d1e71888b573ff762ae34671e65370edf2c4223f4aa8c46cf20db8b8da576"
+  },
+  "receiptGates": "Only cursor3 and the assigned investigation checkpoint. Acknowledging a relevant native next/close page counts; B/other choices/repeat/other scene does not. Failed persistence keeps page available for retry.",
+  "physicalReceiptsNotYetActivated": [
+    "Burial-register comparison at the Payon staging point, bit2",
+    "Alberta dispatch ledger inspection, cursor4 bit0"
+  ],
+  "guildName": "Existing24-character campaign field, controller keyboard and explicit review/confirmation; no item cost or multiplayer guild dependency.",
+  "joins": "Explicit Judia/Maya offer after naming; decline/reopen safe. Combat kits/world recruitment remain unactivated until actor and scene staging are reviewed.",
+  "storyAdaptation": "The existing early Payon scripts have relevant ancestor/Undead dialogue; no mandatory high-level Sohee material/headgear exchange is imposed as the chapter investigation. Native conversations remain unchanged.",
+  "next": [
+    "Bake/review Judia/Maya/Veyr source poses",
+    "Render all proposed staging points and audit interaction radii",
+    "Connect physical register/ledger and scene interactions",
+    "Prepare Judia/Maya combat kits before allowing them into the active formation",
+    "Prevent pending investigation dialogue from auto-opening over native NPC conversations; reopen at the scene contact"
+  ],
+  "lineExpressionsImplemented": true
+}

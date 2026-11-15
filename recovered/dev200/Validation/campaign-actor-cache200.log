@@ -1,0 +1,1 @@
+PASS actual campaign pose reader:4 actors/8 camera directions, stable reuse,driver walk action,all actor slots bounded,offscreen CPU/GPU release and corrupt compressed pose rejection.

@@ -1,0 +1,1 @@
+test_rescue_native200: /workspace/myro/dev200/Validation/test_rescue_native200.c:9: main: Assertion `combat_change_job(&game,1)' failed.

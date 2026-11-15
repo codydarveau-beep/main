@@ -1,0 +1,29 @@
+{
+  "nativeBuildPassed": true,
+  "campaignPackMatchesStaged": true,
+  "sourceFilesHashed": 918,
+  "hardwareTested": false,
+  "packaged": false,
+  "tests": {
+    "party-battle200.log": "PASS own-stat companion core: delayed attacks, reused-target rejection, paid Heal without player SP, persisted defeat/no map refill, healer recovery, source enemy retarget and bounded delayed hits, preference roundtrip.",
+    "party-motion200.log": "PASS source Holy Light timing/DEX and target lifetime, instant Heal with single-speed approach, attack-facing/movement lock, actual engine enemy routing, blocked-target retry and unique revive identity; simulation state under4KiB.",
+    "party-support200.log": "PASS actual player Heal pipeline: learned rank/bonuses, SP/cooldown, friendly effect/number position, unchanged player HP/enemy/auto attack, persisted ally HP; full/dead/range/LOS/silence/unlearned/OOM reject without SP; subsequent self Heal unchanged.",
+    "party-revive200.log": "PASS source Resurrection ranks1-4: HP10/30/50/80%, native casts/delays/60SP/Blue Gem and exemption; interrupted/stale/revived/range/LOS/unlearned/OOM targets keep resources, persisted HP, unique revival life, unchanged player target/auto attack.",
+    "party-ui200.log": "PASS actual companion controller UI: member selection, A edit/commit, B cancel, bounded left/right arrows, reserve toggle, settings save/reload, text/icons within window.",
+    "campaign-actor-sources200.log": "PASS all800 genuine source actor poses through runtime sparse reader: CRC/size, complete crop margins, head/body pixels, per-actor action bounds and release."
+  },
+  "artifacts": {
+    "default.xbe": {
+      "bytes": 11993088,
+      "sha256": "ce1f22a443f901ecfcab5b5887cbe1a1d2e0a1f4753d52edfeeb95342f8d10b0"
+    },
+    "campaign.bin": {
+      "bytes": 1135920,
+      "sha256": "f8225b12539cc98201ca6ab918168f8d59f36c8ed1414eb462821cf3a02ac373"
+    },
+    "chapter1.bin": {
+      "bytes": 1401,
+      "sha256": "7ca0e245182e6a000d76cba8689fd3ebfbeebf3379015dd16cd5c3ea4b2218fb"
+    }
+  }
+}

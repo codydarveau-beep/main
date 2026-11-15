@@ -1,0 +1,6 @@
+#ifndef MYRO_SKILL_AUDIO180_H
+#define MYRO_SKILL_AUDIO180_H
+#include "npc_sound_names64.h"
+#define SOUND_JUPITEL180 (SOUND_NPC_FIRST64+100u)
+#define SOUND_STORM_WIND180 (SOUND_NPC_FIRST64+101u)
+#endif

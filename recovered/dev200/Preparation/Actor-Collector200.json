@@ -1,0 +1,27 @@
+{
+  "requests": [
+    "data\\sprite\\인간족\\몸통\\여\\초보자_여.spr",
+    "data\\sprite\\인간족\\몸통\\여\\초보자_여.act",
+    "data\\sprite\\인간족\\몸통\\여\\검사_여.spr",
+    "data\\sprite\\인간족\\몸통\\여\\검사_여.act",
+    "data\\sprite\\인간족\\몸통\\여\\마법사_여.spr",
+    "data\\sprite\\인간족\\몸통\\여\\마법사_여.act",
+    "data\\sprite\\인간족\\몸통\\여\\성직자_여.spr",
+    "data\\sprite\\인간족\\몸통\\여\\성직자_여.act",
+    "data\\sprite\\인간족\\몸통\\여\\도둑_여.spr",
+    "data\\sprite\\인간족\\몸통\\여\\도둑_여.act",
+    "data\\sprite\\인간족\\몸통\\여\\궁수_여.spr",
+    "data\\sprite\\인간족\\몸통\\여\\궁수_여.act",
+    "data\\sprite\\인간족\\몸통\\여\\상인_여.spr",
+    "data\\sprite\\인간족\\몸통\\여\\상인_여.act"
+  ],
+  "bytes": 26434,
+  "sha256": "565b1818c007b78b2d4f3f1340abef0e0262fd1bbb42ade1ca2190a39f86b2ff",
+  "path": "/workspace/myro/asset-request200/MyRO-2.0.0-Campaign-Actors-Collector.zip",
+  "url": "https://raw.githubusercontent.com/codydarveau-beep/main/5613a9845bcf039db308b0045fbd0c9e5d7f165c/downloads/MyRO-2.0.0-Campaign-Actors-Collector.zip",
+  "publicGETVerified": true,
+  "returned": true,
+  "verifiedFiles": 14,
+  "importedDirectory": "/workspace/myro/asset-library/campaign-actors200",
+  "returnedArchive": "RO-2.0.0-Assets-Campaign-Actors-All-Regions-20261106-103341-37ffc6-part001.zip"
+}

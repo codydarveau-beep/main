@@ -1,0 +1,134 @@
+{
+  "map": "prt_fild08",
+  "mapID": 0,
+  "positions": {
+    "Nera": {
+      "x": 1452,
+      "y": 2820,
+      "height": 0.0
+    },
+    "Roan": {
+      "x": 1436,
+      "y": 2788,
+      "height": -4.400000125169754
+    },
+    "Yuufa": {
+      "x": 1476,
+      "y": 2820,
+      "height": 0.0
+    },
+    "Driver": {
+      "x": 1468,
+      "y": 2780,
+      "height": -2.0
+    },
+    "Safe driver": {
+      "x": 1468,
+      "y": 2812,
+      "height": 0.0
+    },
+    "Parcel": {
+      "x": 1484,
+      "y": 2788,
+      "height": 0.0
+    },
+    "Poring1": {
+      "x": 1436,
+      "y": 2780,
+      "height": -6.000000238418579
+    },
+    "Poring2": {
+      "x": 1484,
+      "y": 2780,
+      "height": -0.4000000059604645
+    },
+    "Stalled cart": {
+      "x": 1460,
+      "y": 2772,
+      "height": -6.0
+    }
+  },
+  "escortPath": [
+    [
+      1468,
+      2780
+    ],
+    [
+      1468,
+      2782
+    ],
+    [
+      1468,
+      2784
+    ],
+    [
+      1468,
+      2786
+    ],
+    [
+      1468,
+      2788
+    ],
+    [
+      1468,
+      2790
+    ],
+    [
+      1468,
+      2792
+    ],
+    [
+      1468,
+      2794
+    ],
+    [
+      1468,
+      2796
+    ],
+    [
+      1468,
+      2798
+    ],
+    [
+      1468,
+      2800
+    ],
+    [
+      1468,
+      2802
+    ],
+    [
+      1468,
+      2804
+    ],
+    [
+      1468,
+      2806
+    ],
+    [
+      1468,
+      2808
+    ],
+    [
+      1468,
+      2810
+    ],
+    [
+      1468,
+      2812
+    ]
+  ],
+  "escortHeightRange": [
+    -2.0,
+    0.0
+  ],
+  "maxStepOver2Units": 0.5999999940395355,
+  "nearbyNativeNPCsWithin80Units": [],
+  "sourceCollisionAndGroundValidated": true,
+  "activated": false,
+  "remaining": [
+    "rendered scenery/prop clearance",
+    "actual scene actor silhouettes",
+    "controller encounter playthrough"
+  ]
+}

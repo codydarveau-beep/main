@@ -1,0 +1,5 @@
+!!VP1.0
+MUL R1, v[OPOS], c[4];
+ADD o[HPOS], R1, c[5];
+MOV o[TEX0], v[TEX0];
+END

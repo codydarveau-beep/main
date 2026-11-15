@@ -1,0 +1,729 @@
+[
+  {
+    "scene": "1.1",
+    "cursor": 0,
+    "nodes": [
+      {
+        "label": "start",
+        "kind": 1,
+        "speaker": "Nera",
+        "text": "Please tell me you are the rescue party.",
+        "next": "roan",
+        "role": 0,
+        "expression": 4
+      },
+      {
+        "label": "roan",
+        "kind": 1,
+        "speaker": "Roan",
+        "text": "We are a party. The rescue part is new.",
+        "next": "yuufa",
+        "role": 0,
+        "expression": 4
+      },
+      {
+        "label": "yuufa",
+        "kind": 1,
+        "speaker": "Yuufa",
+        "text": "Then we should start before the cart notices.",
+        "next": "ask",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "ask",
+        "kind": 2,
+        "speaker": "Player",
+        "options": [
+          "Who is still missing?",
+          "Tell me where to help."
+        ],
+        "targets": [
+          "driver_first",
+          "driver_first"
+        ]
+      },
+      {
+        "label": "driver_first",
+        "kind": 1,
+        "speaker": "Nera",
+        "text": "The driver. And a parcel with a blue cord. Driver first. Please.",
+        "next": "rescue",
+        "role": 0,
+        "expression": 4
+      },
+      {
+        "label": "rescue",
+        "kind": 3,
+        "required": 3,
+        "next": "rescued"
+      },
+      {
+        "label": "rescued",
+        "kind": 1,
+        "speaker": "Driver",
+        "text": "I thought you would take the parcel and leave.",
+        "next": "louder",
+        "role": 0,
+        "expression": 3
+      },
+      {
+        "label": "louder",
+        "kind": 1,
+        "speaker": "Yuufa",
+        "text": "You were considerably louder than the parcel.",
+        "next": "reports",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "reports",
+        "kind": 1,
+        "speaker": "Nera",
+        "text": "It contains missing-person reports. Someone has been collecting the originals.",
+        "next": "finish",
+        "role": 0,
+        "expression": 4
+      },
+      {
+        "label": "finish",
+        "kind": 4,
+        "required": 3
+      }
+    ]
+  },
+  {
+    "scene": "1.2",
+    "cursor": 1,
+    "nodes": [
+      {
+        "label": "start",
+        "kind": 1,
+        "speaker": "Hald",
+        "text": "Your first job fixes your career in normal play. You can promote and be reborn within that path, but cannot change to another.",
+        "next": "limits",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "limits",
+        "kind": 1,
+        "speaker": "Yuufa",
+        "text": "And discover which limits are yours to change.",
+        "next": "consent",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "consent",
+        "kind": 2,
+        "speaker": "Player",
+        "options": [
+          "I understand. This is my path.",
+          "I need more time."
+        ],
+        "targets": [
+          "job_proof",
+          "more_time"
+        ]
+      },
+      {
+        "label": "more_time",
+        "kind": 1,
+        "speaker": "Hald",
+        "text": "Good. A considered answer is cheaper than a lifelong mistake.",
+        "next": "close",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "close",
+        "kind": 6
+      },
+      {
+        "label": "job_proof",
+        "kind": 3,
+        "required": 1,
+        "next": "role"
+      },
+      {
+        "label": "role",
+        "kind": 5,
+        "next": "vanguard"
+      },
+      {
+        "label": "vanguard",
+        "kind": 1,
+        "speaker": "Roan",
+        "text": "Then I will trust you to choose where we stand.",
+        "next": "pathfinder",
+        "role": 1,
+        "expression": 0
+      },
+      {
+        "label": "pathfinder",
+        "kind": 1,
+        "speaker": "Roan",
+        "text": "Then show me what I cannot see from behind a shield.",
+        "next": "keeper",
+        "role": 2,
+        "expression": 0
+      },
+      {
+        "label": "keeper",
+        "kind": 1,
+        "speaker": "Roan",
+        "text": "Then I will listen when you tell me we cannot keep pushing.",
+        "next": "commission",
+        "role": 4,
+        "expression": 0
+      },
+      {
+        "label": "commission",
+        "kind": 1,
+        "speaker": "Hald",
+        "text": "The reports lead to Payon. You are not commissioned to solve a kingdom's problems. You are commissioned to deliver a parcel.",
+        "next": "names",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "names",
+        "kind": 1,
+        "speaker": "Nera",
+        "text": "And perhaps ask why every copy has a different name.",
+        "next": "finish",
+        "role": 0,
+        "expression": 4
+      },
+      {
+        "label": "finish",
+        "kind": 4,
+        "required": 1
+      }
+    ]
+  },
+  {
+    "scene": "1.3",
+    "cursor": 2,
+    "nodes": [
+      {
+        "label": "start",
+        "kind": 1,
+        "speaker": "Roan",
+        "text": "Do you think a real adventurer knows when they have started?",
+        "next": "bill",
+        "role": 0,
+        "expression": 4
+      },
+      {
+        "label": "bill",
+        "kind": 1,
+        "speaker": "Yuufa",
+        "text": "Usually when the bill arrives.",
+        "next": "answer",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "answer",
+        "kind": 2,
+        "speaker": "Player",
+        "options": [
+          "We started when we went back for the driver.",
+          "Ask me after Payon."
+        ],
+        "targets": [
+          "rule",
+          "rule"
+        ]
+      },
+      {
+        "label": "rule",
+        "kind": 1,
+        "speaker": "Roan",
+        "text": "Then let us make one rule. If someone falls behind, we notice.",
+        "next": "inconvenient",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "inconvenient",
+        "kind": 1,
+        "speaker": "Yuufa",
+        "text": "And if noticing is inconvenient?",
+        "next": "return",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "return",
+        "kind": 1,
+        "speaker": "Player",
+        "text": "We go back.",
+        "next": "offer",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "offer",
+        "kind": 1,
+        "speaker": "Yuufa",
+        "text": "Then would you like us to travel with you? Roan can hold a road. I can help keep you both on it.",
+        "next": "consent",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "consent",
+        "kind": 2,
+        "speaker": "Player",
+        "options": [
+          "Come with me. We go together.",
+          "I need a little more time."
+        ],
+        "targets": [
+          "joined",
+          "later"
+        ]
+      },
+      {
+        "label": "later",
+        "kind": 1,
+        "speaker": "Roan",
+        "text": "We will be here. No one gets left behind because they needed a moment.",
+        "next": "close",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "close",
+        "kind": 6
+      },
+      {
+        "label": "joined",
+        "kind": 7,
+        "required": 18,
+        "next": "welcome"
+      },
+      {
+        "label": "welcome",
+        "kind": 1,
+        "speaker": "Yuufa",
+        "text": "Then it is settled. Try not to make our first rule necessary before lunch.",
+        "next": "finish",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "finish",
+        "kind": 4,
+        "required": 1
+      }
+    ]
+  },
+  {
+    "scene": "2.1",
+    "cursor": 3,
+    "nodes": [
+      {
+        "label": "start",
+        "kind": 1,
+        "speaker": "Judia",
+        "text": "That marker said something else yesterday.",
+        "next": "weather",
+        "role": 0,
+        "expression": 4
+      },
+      {
+        "label": "weather",
+        "kind": 1,
+        "speaker": "Nera",
+        "text": "Weather can take paint off wood. It cannot rewrite the receipt in my pocket.",
+        "next": "ask",
+        "role": 0,
+        "expression": 4
+      },
+      {
+        "label": "ask",
+        "kind": 2,
+        "speaker": "Player",
+        "options": [
+          "Who remembers the person?",
+          "Let us compare the records."
+        ],
+        "targets": [
+          "daughter",
+          "daughter"
+        ]
+      },
+      {
+        "label": "daughter",
+        "kind": 1,
+        "speaker": "Judia",
+        "text": "His daughter does. Today. That is why I would prefer we hurry. She is safe with her family; this is not a race against a clock.",
+        "next": "vanguard",
+        "role": 0,
+        "expression": 4
+      },
+      {
+        "label": "vanguard",
+        "kind": 1,
+        "speaker": "Judia",
+        "text": "You keep the search road open. I will follow the tracks.",
+        "next": "pathfinder",
+        "role": 1,
+        "expression": 0
+      },
+      {
+        "label": "pathfinder",
+        "kind": 1,
+        "speaker": "Judia",
+        "text": "Two sets of eyes. Let us see which one the liar forgot.",
+        "next": "keeper",
+        "role": 2,
+        "expression": 0
+      },
+      {
+        "label": "keeper",
+        "kind": 1,
+        "speaker": "Judia",
+        "text": "Stay with the family while we work. Tell them what we know, not what we hope.",
+        "next": "directions",
+        "role": 4,
+        "expression": 0
+      },
+      {
+        "label": "directions",
+        "kind": 1,
+        "speaker": "Nera",
+        "text": "A young man in southern Payon remembers his grandfather. Monster Scholar Vuicokk, on the northern road, studies the cave's dead. Ask him about Undead Monsters.",
+        "next": "rubbing",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "rubbing",
+        "kind": 1,
+        "speaker": "Judia",
+        "text": "Hear both accounts. Then compare the old burial register at the cave entrance. A name is easier to steal when only one copy remains.",
+        "next": "investigate",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "investigate",
+        "kind": 3,
+        "required": 7,
+        "next": "evidence"
+      },
+      {
+        "label": "evidence",
+        "kind": 1,
+        "speaker": "Nera",
+        "text": "The family remembers Henrik. The altered receipt says Henrich. The old record agrees with the family. Same dates. Same house. Different name.",
+        "next": "distinction",
+        "role": 0,
+        "expression": 3
+      },
+      {
+        "label": "distinction",
+        "kind": 1,
+        "speaker": "Judia",
+        "text": "The dead here already have enough trouble resting. This change was made by someone living.",
+        "next": "alberta",
+        "role": 0,
+        "expression": 2
+      },
+      {
+        "label": "alberta",
+        "kind": 1,
+        "speaker": "Nera",
+        "text": "The paper carries an Alberta warehouse seal. I will bring these accounts to the family. Meet Maya at the warehouse; she knows the shipping ledgers.",
+        "next": "finish",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "finish",
+        "kind": 4,
+        "required": 7
+      }
+    ]
+  },
+  {
+    "scene": "2.2",
+    "cursor": 4,
+    "nodes": [
+      {
+        "label": "start",
+        "kind": 1,
+        "speaker": "Maya",
+        "text": "Relief supplies do not generally need armed guards facing inward.",
+        "next": "veyr",
+        "role": 0,
+        "expression": 4
+      },
+      {
+        "label": "veyr",
+        "kind": 1,
+        "speaker": "Veyr",
+        "text": "The guards protect the records from theft. Their contents are irreplaceable.",
+        "next": "ask",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "ask",
+        "kind": 2,
+        "speaker": "Player",
+        "options": [
+          "People are irreplaceable too.",
+          "Who authorized these shipments?"
+        ],
+        "targets": [
+          "people",
+          "people"
+        ]
+      },
+      {
+        "label": "people",
+        "kind": 1,
+        "speaker": "Veyr",
+        "text": "Of course. Records are how we find people when the world loses them.",
+        "next": "driver",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "driver",
+        "kind": 1,
+        "speaker": "Maya",
+        "text": "Then your invoices should help us find the missing driver.",
+        "next": "permission",
+        "role": 0,
+        "expression": 4
+      },
+      {
+        "label": "permission",
+        "kind": 1,
+        "speaker": "Veyr",
+        "text": "You may examine them. I would rather have suspicious helpers than incurious ones.",
+        "next": "instructions",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "instructions",
+        "kind": 1,
+        "speaker": "Maya",
+        "text": "The open dispatch ledger is beside the warehouse entrance. Compare its destination and date with the blue-cord receipt. We keep our copy; no one needs to steal the book.",
+        "next": "ledger",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "ledger",
+        "kind": 3,
+        "required": 1,
+        "next": "route"
+      },
+      {
+        "label": "route",
+        "kind": 1,
+        "speaker": "Maya",
+        "text": "Alberta to Geffen. Ink, medicine, and a second list of names that never appears on the freight manifest.",
+        "next": "help",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "help",
+        "kind": 1,
+        "speaker": "Veyr",
+        "text": "Then I shall have the duplicate sent to the Geffen relief office. Ask for the clerk who keeps the older files. They deserve care too.",
+        "next": "thanks",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "thanks",
+        "kind": 1,
+        "speaker": "Player",
+        "text": "Thank you. We will compare both copies.",
+        "next": "inn",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "inn",
+        "kind": 1,
+        "speaker": "Maya",
+        "text": "And before we collect another bill, come to the inn. We should decide who is paying which share.",
+        "next": "finish",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "finish",
+        "kind": 4,
+        "required": 1
+      }
+    ]
+  },
+  {
+    "scene": "2.3",
+    "cursor": 5,
+    "nodes": [
+      {
+        "label": "start",
+        "kind": 1,
+        "speaker": "Maya",
+        "text": "If we keep sharing expenses, I require a name for the ledger.",
+        "next": "heroic",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "heroic",
+        "kind": 1,
+        "speaker": "Roan",
+        "text": "Something heroic.",
+        "next": "short",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "short",
+        "kind": 1,
+        "speaker": "Judia",
+        "text": "Something short enough to shout while running.",
+        "next": "recognize",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "recognize",
+        "kind": 1,
+        "speaker": "Yuufa",
+        "text": "Something the missing might recognize when we come looking.",
+        "next": "name_choice",
+        "role": 0,
+        "expression": 4
+      },
+      {
+        "label": "name_choice",
+        "kind": 2,
+        "speaker": "Player",
+        "options": [
+          "Let us give it a name.",
+          "I need to think."
+        ],
+        "targets": [
+          "guild",
+          "later"
+        ]
+      },
+      {
+        "label": "later",
+        "kind": 1,
+        "speaker": "Maya",
+        "text": "The ledger can wait. The bill has shown considerably less patience.",
+        "next": "close",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "close",
+        "kind": 6
+      },
+      {
+        "label": "guild",
+        "kind": 8,
+        "next": "named"
+      },
+      {
+        "label": "named",
+        "kind": 1,
+        "speaker": "Maya",
+        "text": "{GUILD}. Good. Now it exists in two ledgers and one exceptionally untidy heart.",
+        "next": "principle",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "principle",
+        "kind": 2,
+        "speaker": "Player",
+        "options": [
+          "We make room for people who need us.",
+          "We finish what we begin."
+        ],
+        "targets": [
+          "staying",
+          "staying"
+        ]
+      },
+      {
+        "label": "staying",
+        "kind": 1,
+        "speaker": "Judia",
+        "text": "Then I am staying. Someone should make sure you notice the tracks.",
+        "next": "maya",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "maya",
+        "kind": 1,
+        "speaker": "Maya",
+        "text": "And someone should make sure your heroic organization survives its first grocery bill. May we travel with you?",
+        "next": "consent",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "consent",
+        "kind": 2,
+        "speaker": "Player",
+        "options": [
+          "Welcome to the guild, both of you.",
+          "Let me settle a few things first."
+        ],
+        "targets": [
+          "joined",
+          "later"
+        ]
+      },
+      {
+        "label": "joined",
+        "kind": 7,
+        "required": 4352,
+        "next": "welcome"
+      },
+      {
+        "label": "welcome",
+        "kind": 1,
+        "speaker": "Yuufa",
+        "text": "A guild with a promise, a name, and an accountant. We may be dangerously close to respectable.",
+        "next": "next",
+        "role": 0,
+        "expression": 1
+      },
+      {
+        "label": "next",
+        "kind": 1,
+        "speaker": "Maya",
+        "text": "Geffen is next. Its relief office has the older records. We follow the shipment, not every rumour in the kingdom.",
+        "next": "finish",
+        "role": 0,
+        "expression": 0
+      },
+      {
+        "label": "finish",
+        "kind": 4,
+        "required": 1
+      }
+    ]
+  }
+]

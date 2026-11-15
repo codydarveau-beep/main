@@ -1,0 +1,5 @@
+#define main prior_world_fixture200
+#include "test_world43.c"
+#undef main
+#include "campaign_follow200.h"
+int main(void){world_blob_init();assert(world_activate(0));static Combat g;combat_init(&g,1468,2780,world_can_move,NULL);g.mapId=0;CampaignFollow200 f={0};unsigned ids[]={COMP200_ROAN,COMP200_YUUFA};assert(campaign_follow_select200(&f,18,ids,2));campaign_follow_tick200(&f,&g,.05f,0);for(unsigned step=0;step<160;step++){float ny=g.y+(step<80?.4f:-.4f);assert(combat_move(&g,&g.x,&g.y,g.x,ny));campaign_follow_tick200(&f,&g,.05f,0);for(unsigned k=0;k<f.count;k++){CampaignFollower200*m=f.members+k;assert(m->map==g.mapId&&allowed(m->x,m->y)&&isfinite(height_at(m->x,m->y)));}}assert(world_activate(2));g.mapId=2;g.x=spawnx;g.y=spawny;campaign_follow_tick200(&f,&g,.05f,0);for(unsigned k=0;k<f.count;k++)assert(f.members[k].map==2&&allowed(f.members[k].x,f.members[k].y)&&combat_dist(g.x,g.y,f.members[k].x,f.members[k].y)<=21);world_release();assert(allocated==0);puts("PASS follow prototype on actual packed South Field collision/heights: 160 native player/follower steps, walkable footprints, safe Prontera map re-placement, complete map GPU cleanup.");}

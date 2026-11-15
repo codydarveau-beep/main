@@ -1,0 +1,109 @@
+{
+  "Payon investigation": {
+    "map": "pay_arche",
+    "mapID": 12,
+    "entry": [
+      652,
+      180
+    ],
+    "centre": [
+      364,
+      1004
+    ],
+    "positions": [
+      {
+        "x": 348,
+        "y": 1004,
+        "height": 22.083571434020996
+      },
+      {
+        "x": 380,
+        "y": 1004,
+        "height": 20.681429386138916
+      },
+      {
+        "x": 364,
+        "y": 1028,
+        "height": 24.494626998901367
+      }
+    ],
+    "reachableWithoutWarp": true,
+    "avoidsPropRecords": true,
+    "nativeNpcAndDoorClearance": 40,
+    "rendered": false,
+    "enabled": false
+  },
+  "Alberta warehouse": {
+    "map": "alberta_in",
+    "mapID": 132,
+    "entry": [
+      596,
+      356
+    ],
+    "centre": [
+      564,
+      340
+    ],
+    "positions": [
+      {
+        "x": 548,
+        "y": 340,
+        "height": 16.0
+      },
+      {
+        "x": 580,
+        "y": 340,
+        "height": 16.0
+      },
+      {
+        "x": 564,
+        "y": 364,
+        "height": 16.0
+      }
+    ],
+    "reachableWithoutWarp": true,
+    "avoidsPropRecords": true,
+    "nativeNpcAndDoorClearance": 40,
+    "rendered": false,
+    "enabled": false
+  },
+  "Alberta inn": {
+    "map": "alberta_in",
+    "mapID": 132,
+    "entry": [
+      148,
+      1132
+    ],
+    "centre": [
+      188,
+      1116
+    ],
+    "positions": [
+      {
+        "x": 172,
+        "y": 1100,
+        "height": 16.0
+      },
+      {
+        "x": 204,
+        "y": 1100,
+        "height": 16.0
+      },
+      {
+        "x": 172,
+        "y": 1132,
+        "height": 16.0
+      },
+      {
+        "x": 204,
+        "y": 1132,
+        "height": 16.0
+      }
+    ],
+    "reachableWithoutWarp": true,
+    "avoidsPropRecords": true,
+    "nativeNpcAndDoorClearance": 40,
+    "rendered": false,
+    "enabled": false
+  }
+}

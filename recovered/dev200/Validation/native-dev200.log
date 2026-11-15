@@ -1,0 +1,13 @@
+make: Entering directory '/workspace/myro/dev200/Source'
+[ CC       ] /workspace/myro/dev200/Source/main.obj
+cp "/workspace/myro/dev200/Source/../Campaign/actors.bin" "../XboxFiles/campaign.bin"
+cp "/workspace/myro/dev200/Source/../Campaign/chapter1-scenes.bin" "../XboxFiles/chapter1.bin"
+cp "/workspace/myro/dev200/Source/../Campaign/portraits.bin" "../XboxFiles/storyportraits.bin"
+In file included from /workspace/myro/dev200/Source/main.c:85:
+In file included from /workspace/myro/dev200/Source/core_npc53.h:3:
+/workspace/myro/dev200/Source/core_npc_data53.h:560:64808: warning: trigraph ignored [-Wtrigraphs]
+1 warning generated.
+[ LD       ] main.exe
+lld: warning: .edata=.rdata: already merged into .edataxb
+[ CXBE     ] ../XboxFiles/default.xbe
+make: Leaving directory '/workspace/myro/dev200/Source'

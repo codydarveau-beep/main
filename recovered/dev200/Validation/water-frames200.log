@@ -1,0 +1,10 @@
+Full Frames: 32 source-frame reads per cycle
+7/8 Frames: 28 source-frame reads per cycle
+6/8 Frames: 24 source-frame reads per cycle
+5/8 Frames: 20 source-frame reads per cycle
+4/8 Frames: 16 source-frame reads per cycle
+3/8 Frames: 12 source-frame reads per cycle
+2/8 Frames: 8 source-frame reads per cycle
+1/8 Frames: 4 source-frame reads per cycle
+Single Frame: 1 source-frame reads per cycle
+PASS all 494 maps/all 9 frame selectors, unchanged cycle duration, streaming skips held frames, frozen single-frame waves and CURRENT buffer release.

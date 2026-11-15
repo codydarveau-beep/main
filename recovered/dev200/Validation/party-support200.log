@@ -1,0 +1,1 @@
+PASS actual player Heal pipeline: learned rank/bonuses, SP/cooldown, friendly effect/number position, unchanged player HP/enemy/auto attack, persisted ally HP; full/dead/range/LOS/silence/unlearned/OOM reject without SP; subsequent self Heal unchanged.

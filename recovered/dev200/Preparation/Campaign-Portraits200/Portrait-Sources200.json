@@ -1,0 +1,85 @@
+[
+  {
+    "character": "roan",
+    "file": "roan-expressions.png",
+    "sha256": "fb9855aa0cd7a6afdacd04448c0ca81e72eb0f22f3ac1ddbbf2b8f0d09bf8137",
+    "provenance": "New expression artwork generated using official TV Tokyo model-sheet references; not an original official expression set.",
+    "expressions": [
+      "neutral",
+      "happy",
+      "angry",
+      "sad",
+      "worried",
+      "surprised"
+    ],
+    "officialReferencePage": "https://www.tv-tokyo.co.jp/anime/ragnarok/character.html",
+    "referenceImages": [
+      "https://www.tv-tokyo.co.jp/anime/ragnarok/images/character_01.gif",
+      "https://www.tv-tokyo.co.jp/anime/ragnarok/images/character_04.gif"
+    ],
+    "bodyLanguageRevisedPerUserFeedback": true
+  },
+  {
+    "character": "yuufa",
+    "file": "yuufa-expressions.png",
+    "sha256": "482d4c72f7e716fdecb4db3459e15a8799f0144beef36b592c2a5016200cff66",
+    "provenance": "New expression artwork generated using official TV Tokyo model-sheet references; not an original official expression set.",
+    "expressions": [
+      "neutral",
+      "happy",
+      "angry",
+      "sad",
+      "worried",
+      "surprised"
+    ],
+    "backgroundRemoval": "Image generation edit; opaque ivory clothing retained.",
+    "officialReferencePage": "https://www.tv-tokyo.co.jp/anime/ragnarok/character.html",
+    "referenceImages": [
+      "https://www.tv-tokyo.co.jp/anime/ragnarok/images/character_06.gif",
+      "https://www.tv-tokyo.co.jp/anime/ragnarok/images/character_09.gif"
+    ],
+    "bodyLanguageRevisedPerUserFeedback": true,
+    "angryPose": "Both hands rest clearly at waist/hips; no crossed or hanging/clipped hands.",
+    "alphaCleanup": "Image generation removed residual translucent backdrop; white clothing stays opaque."
+  },
+  {
+    "character": "maya",
+    "file": "maya-expressions.png",
+    "sha256": "81a350e3a76774282e56eb5f549b0cf2b5761823a1456420ba59c02cf87cbc89",
+    "provenance": "New expression artwork generated using official TV Tokyo model-sheet references; not an original official expression set.",
+    "expressions": [
+      "neutral",
+      "happy",
+      "angry",
+      "sad",
+      "worried",
+      "surprised"
+    ],
+    "officialReferencePage": "https://www.tv-tokyo.co.jp/anime/ragnarok/character.html",
+    "referenceImages": [
+      "https://www.tv-tokyo.co.jp/anime/ragnarok/images/character_12.gif",
+      "https://www.tv-tokyo.co.jp/anime/ragnarok/images/character_15.gif"
+    ],
+    "bodyLanguageRevisedPerUserFeedback": true
+  },
+  {
+    "character": "judia",
+    "file": "judia-expressions.png",
+    "sha256": "19c8eabe7a989a8b84249c55f4fe4289885f2e2bab7346c7ba0a386a8245d952",
+    "provenance": "New expression artwork generated using official TV Tokyo model-sheet references; not an original official expression set.",
+    "expressions": [
+      "neutral",
+      "happy",
+      "angry",
+      "sad",
+      "worried",
+      "surprised"
+    ],
+    "officialReferencePage": "https://www.tv-tokyo.co.jp/anime/ragnarok/character.html",
+    "referenceImages": [
+      "https://www.tv-tokyo.co.jp/anime/ragnarok/images/character_13.gif",
+      "https://www.tv-tokyo.co.jp/anime/ragnarok/images/character_16.gif"
+    ],
+    "bodyLanguageRevisedPerUserFeedback": true
+  }
+]

@@ -1,0 +1,1 @@
+PASS all494 native-large map loads: size/decompression/CRC, opaque 144x108 pixels, pitch/padding, exactly one reusable64KiB GPU allocation.

@@ -1,0 +1,256 @@
+{
+  "bytes": 1905853,
+  "rawBytesPerDisplayedTexture": 262144,
+  "expressions": [
+    "neutral",
+    "happy",
+    "angry",
+    "sad",
+    "worried",
+    "surprised"
+  ],
+  "rows": [
+    {
+      "name": "Roan",
+      "expression": 0,
+      "emotion": "neutral",
+      "offset": 0,
+      "packed": 67664,
+      "crc": 4271532243,
+      "rawCRC": 2915340495,
+      "sourceSHA256": "fb9855aa0cd7a6afdacd04448c0ca81e72eb0f22f3ac1ddbbf2b8f0d09bf8137"
+    },
+    {
+      "name": "Roan",
+      "expression": 1,
+      "emotion": "happy",
+      "offset": 67664,
+      "packed": 71633,
+      "crc": 3367807768,
+      "rawCRC": 2551222208,
+      "sourceSHA256": "fb9855aa0cd7a6afdacd04448c0ca81e72eb0f22f3ac1ddbbf2b8f0d09bf8137"
+    },
+    {
+      "name": "Roan",
+      "expression": 2,
+      "emotion": "angry",
+      "offset": 139297,
+      "packed": 72083,
+      "crc": 3874198828,
+      "rawCRC": 2550240017,
+      "sourceSHA256": "fb9855aa0cd7a6afdacd04448c0ca81e72eb0f22f3ac1ddbbf2b8f0d09bf8137"
+    },
+    {
+      "name": "Roan",
+      "expression": 3,
+      "emotion": "sad",
+      "offset": 211380,
+      "packed": 68882,
+      "crc": 3546009901,
+      "rawCRC": 454381947,
+      "sourceSHA256": "fb9855aa0cd7a6afdacd04448c0ca81e72eb0f22f3ac1ddbbf2b8f0d09bf8137"
+    },
+    {
+      "name": "Roan",
+      "expression": 4,
+      "emotion": "worried",
+      "offset": 280262,
+      "packed": 69783,
+      "crc": 1229305586,
+      "rawCRC": 1743529165,
+      "sourceSHA256": "fb9855aa0cd7a6afdacd04448c0ca81e72eb0f22f3ac1ddbbf2b8f0d09bf8137"
+    },
+    {
+      "name": "Roan",
+      "expression": 5,
+      "emotion": "surprised",
+      "offset": 350045,
+      "packed": 72886,
+      "crc": 681255070,
+      "rawCRC": 1209494603,
+      "sourceSHA256": "fb9855aa0cd7a6afdacd04448c0ca81e72eb0f22f3ac1ddbbf2b8f0d09bf8137"
+    },
+    {
+      "name": "Yuufa",
+      "expression": 0,
+      "emotion": "neutral",
+      "offset": 422931,
+      "packed": 77961,
+      "crc": 2264582626,
+      "rawCRC": 1023672812,
+      "sourceSHA256": "482d4c72f7e716fdecb4db3459e15a8799f0144beef36b592c2a5016200cff66"
+    },
+    {
+      "name": "Yuufa",
+      "expression": 1,
+      "emotion": "happy",
+      "offset": 500892,
+      "packed": 83719,
+      "crc": 3940230347,
+      "rawCRC": 2737624875,
+      "sourceSHA256": "482d4c72f7e716fdecb4db3459e15a8799f0144beef36b592c2a5016200cff66"
+    },
+    {
+      "name": "Yuufa",
+      "expression": 2,
+      "emotion": "angry",
+      "offset": 584611,
+      "packed": 84464,
+      "crc": 4284416853,
+      "rawCRC": 1386369600,
+      "sourceSHA256": "482d4c72f7e716fdecb4db3459e15a8799f0144beef36b592c2a5016200cff66"
+    },
+    {
+      "name": "Yuufa",
+      "expression": 3,
+      "emotion": "sad",
+      "offset": 669075,
+      "packed": 75993,
+      "crc": 3467712526,
+      "rawCRC": 2676857102,
+      "sourceSHA256": "482d4c72f7e716fdecb4db3459e15a8799f0144beef36b592c2a5016200cff66"
+    },
+    {
+      "name": "Yuufa",
+      "expression": 4,
+      "emotion": "worried",
+      "offset": 745068,
+      "packed": 78696,
+      "crc": 3102443598,
+      "rawCRC": 4239575145,
+      "sourceSHA256": "482d4c72f7e716fdecb4db3459e15a8799f0144beef36b592c2a5016200cff66"
+    },
+    {
+      "name": "Yuufa",
+      "expression": 5,
+      "emotion": "surprised",
+      "offset": 823764,
+      "packed": 77995,
+      "crc": 2559883395,
+      "rawCRC": 3495807213,
+      "sourceSHA256": "482d4c72f7e716fdecb4db3459e15a8799f0144beef36b592c2a5016200cff66"
+    },
+    {
+      "name": "Judia",
+      "expression": 0,
+      "emotion": "neutral",
+      "offset": 901759,
+      "packed": 72022,
+      "crc": 4051079553,
+      "rawCRC": 3847667238,
+      "sourceSHA256": "19c8eabe7a989a8b84249c55f4fe4289885f2e2bab7346c7ba0a386a8245d952"
+    },
+    {
+      "name": "Judia",
+      "expression": 1,
+      "emotion": "happy",
+      "offset": 973781,
+      "packed": 78926,
+      "crc": 3143768926,
+      "rawCRC": 781420031,
+      "sourceSHA256": "19c8eabe7a989a8b84249c55f4fe4289885f2e2bab7346c7ba0a386a8245d952"
+    },
+    {
+      "name": "Judia",
+      "expression": 2,
+      "emotion": "angry",
+      "offset": 1052707,
+      "packed": 69258,
+      "crc": 1719802076,
+      "rawCRC": 3509040062,
+      "sourceSHA256": "19c8eabe7a989a8b84249c55f4fe4289885f2e2bab7346c7ba0a386a8245d952"
+    },
+    {
+      "name": "Judia",
+      "expression": 3,
+      "emotion": "sad",
+      "offset": 1121965,
+      "packed": 70177,
+      "crc": 1252153101,
+      "rawCRC": 475117643,
+      "sourceSHA256": "19c8eabe7a989a8b84249c55f4fe4289885f2e2bab7346c7ba0a386a8245d952"
+    },
+    {
+      "name": "Judia",
+      "expression": 4,
+      "emotion": "worried",
+      "offset": 1192142,
+      "packed": 73513,
+      "crc": 3052247171,
+      "rawCRC": 4080287508,
+      "sourceSHA256": "19c8eabe7a989a8b84249c55f4fe4289885f2e2bab7346c7ba0a386a8245d952"
+    },
+    {
+      "name": "Judia",
+      "expression": 5,
+      "emotion": "surprised",
+      "offset": 1265655,
+      "packed": 73044,
+      "crc": 512582645,
+      "rawCRC": 4234253753,
+      "sourceSHA256": "19c8eabe7a989a8b84249c55f4fe4289885f2e2bab7346c7ba0a386a8245d952"
+    },
+    {
+      "name": "Maya",
+      "expression": 0,
+      "emotion": "neutral",
+      "offset": 1338699,
+      "packed": 95112,
+      "crc": 2149636153,
+      "rawCRC": 1070854412,
+      "sourceSHA256": "81a350e3a76774282e56eb5f549b0cf2b5761823a1456420ba59c02cf87cbc89"
+    },
+    {
+      "name": "Maya",
+      "expression": 1,
+      "emotion": "happy",
+      "offset": 1433811,
+      "packed": 97609,
+      "crc": 1507007417,
+      "rawCRC": 530057931,
+      "sourceSHA256": "81a350e3a76774282e56eb5f549b0cf2b5761823a1456420ba59c02cf87cbc89"
+    },
+    {
+      "name": "Maya",
+      "expression": 2,
+      "emotion": "angry",
+      "offset": 1531420,
+      "packed": 92766,
+      "crc": 2707637174,
+      "rawCRC": 4140533010,
+      "sourceSHA256": "81a350e3a76774282e56eb5f549b0cf2b5761823a1456420ba59c02cf87cbc89"
+    },
+    {
+      "name": "Maya",
+      "expression": 3,
+      "emotion": "sad",
+      "offset": 1624186,
+      "packed": 93443,
+      "crc": 1868483762,
+      "rawCRC": 905126470,
+      "sourceSHA256": "81a350e3a76774282e56eb5f549b0cf2b5761823a1456420ba59c02cf87cbc89"
+    },
+    {
+      "name": "Maya",
+      "expression": 4,
+      "emotion": "worried",
+      "offset": 1717629,
+      "packed": 94364,
+      "crc": 2927822864,
+      "rawCRC": 876824947,
+      "sourceSHA256": "81a350e3a76774282e56eb5f549b0cf2b5761823a1456420ba59c02cf87cbc89"
+    },
+    {
+      "name": "Maya",
+      "expression": 5,
+      "emotion": "surprised",
+      "offset": 1811993,
+      "packed": 93860,
+      "crc": 4030767917,
+      "rawCRC": 367587239,
+      "sourceSHA256": "81a350e3a76774282e56eb5f549b0cf2b5761823a1456420ba59c02cf87cbc89"
+    }
+  ],
+  "generatedArt": true,
+  "originalOfficialExpressionSets": false
+}

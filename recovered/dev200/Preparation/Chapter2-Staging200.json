@@ -1,0 +1,514 @@
+{
+  "Payon investigation": {
+    "map": "pay_arche",
+    "mapID": 12,
+    "angles": [
+      {
+        "yaw": 0,
+        "actors": [
+          {
+            "name": "Nera",
+            "pixels": 1188,
+            "total": 1188
+          },
+          {
+            "name": "Judia",
+            "pixels": 1277,
+            "total": 1277
+          }
+        ],
+        "image": "payon-investigation-0.png",
+        "sha256": "b2b5b904c44ab24be7f400ee8d2a11fb8e76ec1f0732be896eb742936f3f1008"
+      },
+      {
+        "yaw": 45,
+        "actors": [
+          {
+            "name": "Nera",
+            "pixels": 1305,
+            "total": 1305
+          },
+          {
+            "name": "Judia",
+            "pixels": 1475,
+            "total": 1475
+          }
+        ],
+        "image": "payon-investigation-1.png",
+        "sha256": "7e0e24cd7d8b2d68c12d67bf58416030e5bcd9f3acc194f9df541b7948ab081c"
+      },
+      {
+        "yaw": 90,
+        "actors": [
+          {
+            "name": "Nera",
+            "pixels": 1478,
+            "total": 1502
+          },
+          {
+            "name": "Judia",
+            "pixels": 1494,
+            "total": 1494
+          }
+        ],
+        "image": "payon-investigation-2.png",
+        "sha256": "5bacec468be49e746161f70f2594286beecdce3916ae9076069c09e5804ae3d4"
+      },
+      {
+        "yaw": 135,
+        "actors": [
+          {
+            "name": "Nera",
+            "pixels": 1299,
+            "total": 1299
+          },
+          {
+            "name": "Judia",
+            "pixels": 1460,
+            "total": 1460
+          }
+        ],
+        "image": "payon-investigation-3.png",
+        "sha256": "4c6800ac8c4d1b81601f764681efe0a44a0169390dd39e973693332914a1c553"
+      },
+      {
+        "yaw": 180,
+        "actors": [
+          {
+            "name": "Nera",
+            "pixels": 1076,
+            "total": 1181
+          },
+          {
+            "name": "Judia",
+            "pixels": 1075,
+            "total": 1282
+          }
+        ],
+        "image": "payon-investigation-4.png",
+        "sha256": "323d33a02da7adb586f377fb6b479f3d112d38aed3b0f363dbb7463ecc86be76"
+      },
+      {
+        "yaw": 225,
+        "actors": [
+          {
+            "name": "Nera",
+            "pixels": 1272,
+            "total": 1272
+          },
+          {
+            "name": "Judia",
+            "pixels": 1421,
+            "total": 1421
+          }
+        ],
+        "image": "payon-investigation-5.png",
+        "sha256": "b7391fe165e7154493dba4e2d5d0ffc576cd45cc03292d682b99d9a440f07689"
+      },
+      {
+        "yaw": 270,
+        "actors": [
+          {
+            "name": "Nera",
+            "pixels": 1448,
+            "total": 1465
+          },
+          {
+            "name": "Judia",
+            "pixels": 1576,
+            "total": 1581
+          }
+        ],
+        "image": "payon-investigation-6.png",
+        "sha256": "220a16b46ed378c3afe93cac4c1550953de00f6a94fbe2254a2796667276aaff"
+      },
+      {
+        "yaw": 315,
+        "actors": [
+          {
+            "name": "Nera",
+            "pixels": 1280,
+            "total": 1280
+          },
+          {
+            "name": "Judia",
+            "pixels": 1416,
+            "total": 1416
+          }
+        ],
+        "image": "payon-investigation-7.png",
+        "sha256": "21624c6bb90b3aeef7474b0b47c57d142594a895e62e2ead2af61617a01db5aa"
+      }
+    ],
+    "allActorsVisibleAtLeast80Pixels": true,
+    "hardwareTested": false
+  },
+  "Alberta warehouse": {
+    "map": "alberta_in",
+    "mapID": 132,
+    "angles": [
+      {
+        "yaw": 0,
+        "actors": [
+          {
+            "name": "Maya",
+            "pixels": 1431,
+            "total": 1436
+          },
+          {
+            "name": "Veyr",
+            "pixels": 1309,
+            "total": 1317
+          }
+        ],
+        "image": "alberta-warehouse-0.png",
+        "sha256": "411b80bc7a8178338ebb4a039199391e425cafba29ddb30eba0bba3daf01faf6"
+      },
+      {
+        "yaw": 45,
+        "actors": [
+          {
+            "name": "Maya",
+            "pixels": 1597,
+            "total": 1603
+          },
+          {
+            "name": "Veyr",
+            "pixels": 1038,
+            "total": 1558
+          }
+        ],
+        "image": "alberta-warehouse-1.png",
+        "sha256": "a6a04f5b6ca53c449c921aab9757a1e53392f185915c5a83f176016c6d007281"
+      },
+      {
+        "yaw": 90,
+        "actors": [
+          {
+            "name": "Maya",
+            "pixels": 1552,
+            "total": 1558
+          },
+          {
+            "name": "Veyr",
+            "pixels": 1637,
+            "total": 1660
+          }
+        ],
+        "image": "alberta-warehouse-2.png",
+        "sha256": "24b5dfcef7ed46d4ada2cdf15e122f019bc2d5ff36a8d11923abe157a2688b0f"
+      },
+      {
+        "yaw": 135,
+        "actors": [
+          {
+            "name": "Maya",
+            "pixels": 1595,
+            "total": 1601
+          },
+          {
+            "name": "Veyr",
+            "pixels": 1556,
+            "total": 1565
+          }
+        ],
+        "image": "alberta-warehouse-3.png",
+        "sha256": "1bccb0e4fd19c7d049a0a0aab6355f2d401b88e34809441e72692781197e16ef"
+      },
+      {
+        "yaw": 180,
+        "actors": [
+          {
+            "name": "Maya",
+            "pixels": 1441,
+            "total": 1446
+          },
+          {
+            "name": "Veyr",
+            "pixels": 1331,
+            "total": 1339
+          }
+        ],
+        "image": "alberta-warehouse-4.png",
+        "sha256": "37348e993225b64a6cebd041c3d8dddf8bffce627027fcfaeb89b6577b4bd671"
+      },
+      {
+        "yaw": 225,
+        "actors": [
+          {
+            "name": "Maya",
+            "pixels": 1367,
+            "total": 1373
+          },
+          {
+            "name": "Veyr",
+            "pixels": 1706,
+            "total": 1711
+          }
+        ],
+        "image": "alberta-warehouse-5.png",
+        "sha256": "da871f048d6008051f3ddc2a41080840214b3a34c9d84cdf002ab23c1b785f30"
+      },
+      {
+        "yaw": 270,
+        "actors": [
+          {
+            "name": "Maya",
+            "pixels": 1510,
+            "total": 1535
+          },
+          {
+            "name": "Veyr",
+            "pixels": 1795,
+            "total": 1816
+          }
+        ],
+        "image": "alberta-warehouse-6.png",
+        "sha256": "c79e4e09c850cf210768be4d844eb65cfd7ccdb46f41cf875265324a0381e560"
+      },
+      {
+        "yaw": 315,
+        "actors": [
+          {
+            "name": "Maya",
+            "pixels": 1373,
+            "total": 1379
+          },
+          {
+            "name": "Veyr",
+            "pixels": 1694,
+            "total": 1699
+          }
+        ],
+        "image": "alberta-warehouse-7.png",
+        "sha256": "d8c7414d1cf3a9b6f61ceac9091af0d39aaa36c1c8e479022b2ce61795bce0fb"
+      }
+    ],
+    "allActorsVisibleAtLeast80Pixels": true,
+    "hardwareTested": false
+  },
+  "Alberta inn": {
+    "map": "alberta_in",
+    "mapID": 132,
+    "angles": [
+      {
+        "yaw": 0,
+        "actors": [
+          {
+            "name": "Roan",
+            "pixels": 1546,
+            "total": 1573
+          },
+          {
+            "name": "Yuufa",
+            "pixels": 1327,
+            "total": 1327
+          },
+          {
+            "name": "Judia",
+            "pixels": 1421,
+            "total": 1421
+          },
+          {
+            "name": "Maya",
+            "pixels": 1595,
+            "total": 1601
+          }
+        ],
+        "image": "alberta-inn-0.png",
+        "sha256": "c35f4330d14b4db5dddebbaf2b32edeb59594dd0e292e1475bdcb22cec66e422"
+      },
+      {
+        "yaw": 45,
+        "actors": [
+          {
+            "name": "Roan",
+            "pixels": 1269,
+            "total": 1278
+          },
+          {
+            "name": "Yuufa",
+            "pixels": 1456,
+            "total": 1456
+          },
+          {
+            "name": "Judia",
+            "pixels": 1568,
+            "total": 1581
+          },
+          {
+            "name": "Maya",
+            "pixels": 1441,
+            "total": 1446
+          }
+        ],
+        "image": "alberta-inn-1.png",
+        "sha256": "f2b6d5569da8a1a486c4590060f7f46f764b48223ccd6f64fd1982d2967b4d03"
+      },
+      {
+        "yaw": 90,
+        "actors": [
+          {
+            "name": "Roan",
+            "pixels": 1200,
+            "total": 1207
+          },
+          {
+            "name": "Yuufa",
+            "pixels": 1321,
+            "total": 1321
+          },
+          {
+            "name": "Judia",
+            "pixels": 1416,
+            "total": 1416
+          },
+          {
+            "name": "Maya",
+            "pixels": 1367,
+            "total": 1373
+          }
+        ],
+        "image": "alberta-inn-2.png",
+        "sha256": "c6ce06d14ad77263fa0b50aa67d1f0f72a4be5d7e075a2b5255894b7fc900d5b"
+      },
+      {
+        "yaw": 135,
+        "actors": [
+          {
+            "name": "Roan",
+            "pixels": 1401,
+            "total": 1444
+          },
+          {
+            "name": "Yuufa",
+            "pixels": 1241,
+            "total": 1241
+          },
+          {
+            "name": "Judia",
+            "pixels": 1277,
+            "total": 1277
+          },
+          {
+            "name": "Maya",
+            "pixels": 1510,
+            "total": 1535
+          }
+        ],
+        "image": "alberta-inn-3.png",
+        "sha256": "01c6e248470e1f9e866ea9e958c9a72ed5d0d10997553869773b50e3abaaa936"
+      },
+      {
+        "yaw": 180,
+        "actors": [
+          {
+            "name": "Roan",
+            "pixels": 1208,
+            "total": 1214
+          },
+          {
+            "name": "Yuufa",
+            "pixels": 1432,
+            "total": 1432
+          },
+          {
+            "name": "Judia",
+            "pixels": 1470,
+            "total": 1475
+          },
+          {
+            "name": "Maya",
+            "pixels": 1373,
+            "total": 1379
+          }
+        ],
+        "image": "alberta-inn-4.png",
+        "sha256": "92e91e14615d1f6e15028e85812eb91beacdf0ef909e8bb053b830bef593c201"
+      },
+      {
+        "yaw": 225,
+        "actors": [
+          {
+            "name": "Roan",
+            "pixels": 1298,
+            "total": 1308
+          },
+          {
+            "name": "Yuufa",
+            "pixels": 1493,
+            "total": 1493
+          },
+          {
+            "name": "Judia",
+            "pixels": 1494,
+            "total": 1494
+          },
+          {
+            "name": "Maya",
+            "pixels": 1431,
+            "total": 1436
+          }
+        ],
+        "image": "alberta-inn-5.png",
+        "sha256": "52c987b2f7d5ae38545f1c770a8333dc72ed69af31900c66595d659ddb7ec98d"
+      },
+      {
+        "yaw": 270,
+        "actors": [
+          {
+            "name": "Roan",
+            "pixels": 1542,
+            "total": 1569
+          },
+          {
+            "name": "Yuufa",
+            "pixels": 1435,
+            "total": 1435
+          },
+          {
+            "name": "Judia",
+            "pixels": 1455,
+            "total": 1460
+          },
+          {
+            "name": "Maya",
+            "pixels": 1597,
+            "total": 1603
+          }
+        ],
+        "image": "alberta-inn-6.png",
+        "sha256": "100263ca9eef116f88e9635c188e199939be277a409c9fce688e543a49d56f44"
+      },
+      {
+        "yaw": 315,
+        "actors": [
+          {
+            "name": "Roan",
+            "pixels": 1408,
+            "total": 1408
+          },
+          {
+            "name": "Yuufa",
+            "pixels": 1248,
+            "total": 1248
+          },
+          {
+            "name": "Judia",
+            "pixels": 1282,
+            "total": 1282
+          },
+          {
+            "name": "Maya",
+            "pixels": 1558,
+            "total": 1558
+          }
+        ],
+        "image": "alberta-inn-7.png",
+        "sha256": "9c7d7e6c10edd7211fcedf96ebc6f1418435c7f585e118ec82601b084d0050b2"
+      }
+    ],
+    "allActorsVisibleAtLeast80Pixels": true,
+    "hardwareTested": false
+  }
+}

@@ -1,0 +1,21 @@
+TEST48 SOURCE REFERENCES
+
+Hercules pre-renewal gameplay DB/source supplied by the user, with public matching
+reference v2021.12.01 commit21b27966cfc2e7df0bf8151cd717a1105d047ba9:
+https://github.com/HerculesWS/Hercules/tree/21b27966cfc2e7df0bf8151cd717a1105d047ba9
+Source DB hashes and source-derived rows are recorded in stats_sources48.json,
+class_skill_audit48.json, new_class_skills48.json, elements48.h and hocus_pool48.json.
+Hocus weights: db/abra_db.txt. Element rates: db/pre-re/attr_fix.conf.
+
+roBrowserLegacy commit2dc0d1538edbb2a35f06b184552d8579d27b6639, GPLv3:
+https://github.com/MrAntares/roBrowserLegacy/tree/2dc0d1538edbb2a35f06b184552d8579d27b6639
+Effect references: src/DB/Effects/EffectTable.js and source renderers/shaders
+QuadHorn, Cylinder, PropertyGround and LPEffect. Original renderer attribution
+includes Vincent Thibault / RO Browser contributors. Native geometry is marked
+GPL-3.0-or-later. The matching GPL license is included with this release.
+Weapon actions: src/DB/Jobs/WeaponAction.js (male Wizard dagger variant2;
+Sage rod/book variant2; Crusader spear variant2).
+
+Original game artwork retains its original ownership. Imported texture/source
+hashes are recorded in class_art48.json, ice_source48.json and field_textures48.json.
+The asset collector reports are integrity evidence, not development instructions.

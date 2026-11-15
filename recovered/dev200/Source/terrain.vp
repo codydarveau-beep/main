@@ -1,0 +1,9 @@
+!!VP1.0
+DP4 R0.x, v[OPOS], c[0];
+DP4 R0.y, v[OPOS], c[1];
+DP4 R0.z, v[OPOS], c[2];
+MOV R0.w, c[3].x;
+MUL R1, R0, c[4];
+ADD o[HPOS], R1, c[5];
+MOV o[TEX0], v[TEX0];
+END

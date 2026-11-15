@@ -1,0 +1,3 @@
+#include "stair_seams52.h"
+/* MIT. Walkable source stair/bridge seams override the prototype ground-slope limit. */
+static int world_can_move(void*unused,float x,float y,float nx,float ny){(void)unused;float d=combat_dist(x,y,nx,ny);int steps=(int)(d/3)+1;float lastZ=height_at(x,y),lastX=x,lastY=y;for(int i=1;i<=steps;i++){float xx=x+(nx-x)*i/steps,yy=y+(ny-y)*i/steps;if(!allowed(xx,yy))return 0;float z=height_at(xx,yy);if(surfaceMap!=434&&fabsf(z-lastZ)>8&&!stair_seam52(surfaceMap,gw,gh,lastX,lastY,xx,yy)&&!(surfaceMap!=3&&(surface_contains45(gw,gh,lastX,lastY)||surface_contains45(gw,gh,xx,yy))))return 0;lastZ=z;lastX=xx;lastY=yy;}return 1;}
