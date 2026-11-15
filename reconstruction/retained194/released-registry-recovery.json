@@ -1,0 +1,20 @@
+{
+  "status": "Reconstructed metadata, not runtime-integrated",
+  "xbeSHA256": "9e2c14d9fda478453790093c685e2b012951c34966a0d164a3408d672d9f0809",
+  "scriptsSHA256": "a101e501cbc97b73b7268e0ba3a3f7361c2f3624416be51c6b5f6b1fe1fea93e",
+  "npcTableXbeOffset": 1787208,
+  "functionTableXbeOffset": 5264548,
+  "mapNamesXbeOffset": 12362108,
+  "records": 10181,
+  "programs": 3948,
+  "maps": 495,
+  "functionsMatchedToXbe": 85,
+  "timerLabelsValidated": 1506,
+  "changedRecords": [],
+  "headerSHA256": "0663b76f6d1889aa6b6b3a57097fc0d5d2df52f51e034e8214864e764343d5db",
+  "remainingPrivateMapsUnavailable": [
+    "story_thana194",
+    "story_moc194"
+  ],
+  "unresolvedRuntimeMacro": "NPC_RELEASE_JOBS_ONLY55"
+}

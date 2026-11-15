@@ -1,3 +1,5 @@
+Retained-code update: the supplied recovery packet and six headers are now preserved, and released NPC/script metadata has been reconciled. See [the packet reconciliation checkpoint](reconstruction/retained194/STATUS.md). This remains a partial-source recovery, not an integrated 1.11.0 build.
+
 # Ragnarok Offline recovery inventory
 
 The original environment was not accessed or modified. All inspection used the new environment and read-only access to the published repository. Original workspace files were preserved. No gameplay implementation, compilation, emulator playtest or Xbox playtest was performed.

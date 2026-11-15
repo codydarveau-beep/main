@@ -1,0 +1,92 @@
+[
+  {
+    "path": "released-registry-recovery.json",
+    "bytes": 705,
+    "sha256": "07efd2eb338a49ada6909b25156b388821ba606e11970c1201048ab488e6c65d"
+  },
+  {
+    "path": "policy_evidence.py",
+    "bytes": 2260,
+    "sha256": "61dde2fd7ab30b900719bf99d36e67813878037e56214b08bcdeb4c1709dd0dc"
+  },
+  {
+    "path": "remaining-art-local-matches.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "map-policy-evidence.json",
+    "bytes": 66219,
+    "sha256": "1982b24adf4189342d4351504d60feb4670345d9d1f3d0a06876cacedd2c8dd1"
+  },
+  {
+    "path": "reconciliation.json",
+    "bytes": 4282,
+    "sha256": "df06b328d54b896b5fe86be710327882b62ff1f78fc51e6818e39fe6b37e9e77"
+  },
+  {
+    "path": "reconcile.py",
+    "bytes": 8443,
+    "sha256": "145bb91b1512e22a2f71d2e787cbcb396b8191e52421d51813220e5e729f2c1f"
+  },
+  {
+    "path": "released-program-index.json",
+    "bytes": 2777177,
+    "sha256": "7299d37e796cfee6039840af68a3cf42bbe141ed5eba94e62669a0d44dd87f9c"
+  },
+  {
+    "path": "recovery-packet-original.txt",
+    "bytes": 36234,
+    "sha256": "a992c05dacb0912bacb99b8572fc9a0867ef380e3c5fbbf863b4fb6a039c744c"
+  },
+  {
+    "path": "recover_registry.py",
+    "bytes": 7765,
+    "sha256": "2379d5ef156448102f21886e628b955ed2112cf4df1721268bdd11edc9c05149"
+  },
+  {
+    "path": "STATUS.md",
+    "bytes": 7252,
+    "sha256": "85f00ec010160b72e49cc8d1b1e492cffc8e68f98a98465891062287617f9615"
+  },
+  {
+    "path": "Source/career_access194.h",
+    "bytes": 786,
+    "sha256": "e58930b0f9d1859a21de423ef6e177f0f10b016e8ff00c92851274541f76006c"
+  },
+  {
+    "path": "Source/career_warp194.h",
+    "bytes": 2044,
+    "sha256": "3c60724a0a82f3b993826e7d2a80c22bba2f1d65c2e19dab080949b99337e18d"
+  },
+  {
+    "path": "Source/regional_world194.h",
+    "bytes": 1018,
+    "sha256": "32d00af76db52758cb8889f8d1e5f485ddd605a2925e8f75b6febb2d1599e639"
+  },
+  {
+    "path": "Source/regional194.h",
+    "bytes": 9335,
+    "sha256": "14705adb1bbde5da80c3ed676f7b1600d599540d962fef9e2781a3501b8540a4"
+  },
+  {
+    "path": "Source/native_admission194.h",
+    "bytes": 2370,
+    "sha256": "a31e78101b7b990ca8d52d4e38e7c60cef034330ff38df436d2398c39dd6038b"
+  },
+  {
+    "path": "Source/campaign_access194.h",
+    "bytes": 4005,
+    "sha256": "e079485544c94819f98f5f97370bec8a4fff06d824a71baab5d81d0dace50eb0"
+  },
+  {
+    "path": "RecoveredMetadata/released-map-names.json",
+    "bytes": 7342,
+    "sha256": "f2a8194c8ce65d5ac9c9644c66df76b22556bac13ec4d26ea1934ab10215461c"
+  },
+  {
+    "path": "RecoveredMetadata/npc_registry_data55.h",
+    "bytes": 1243324,
+    "sha256": "0663b76f6d1889aa6b6b3a57097fc0d5d2df52f51e034e8214864e764343d5db"
+  }
+]

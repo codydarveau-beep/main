@@ -1,0 +1,1087 @@
+I can supply the code retained in this conversation. **I cannot retrieve a development archive from the failed environment.** The excerpts below are recovered from recorded edits and tool output; they are **not a complete, independently verified 1.11.0 source tree**.
+
+The last successful checks covered native NPC lifecycle behavior, career travel, nine regional dispatches, and the guild UI **before its final paragraph-wrapping edit**. The final regional integration was not Xbox-compiled. Neither additional review pass happened.
+
+Please pass this entire recovery packet to the recovery task. Existing headers and generated metadata must be reconciled with the recovered source before compiling.
+
+**1. Native career access receipt — `Source/career_access194.h`**
+
+This preserves access to Mother Mathilda’s field after the native Priest quest clears its temporary variable.
+
+```c
+/* MIT. Access receipts come from the original career quests, not story grants. */
+#ifndef MYRO_CAREER_ACCESS194_H
+#define MYRO_CAREER_ACCESS194_H
+#include "npc_variables55.h"
+
+#define CAREER_PILGRIMAGE_KEY194 UINT64_C(0xeca1940070696c67)
+
+static int career_pilgrimage194(const NpcState55*s){
+ if(!s)return 0;
+
+ const NpcVariable55*permit=
+  npc_state_get55(s,CAREER_PILGRIMAGE_KEY194,0);
+
+ if(permit&&permit->kind==NPC_STATE_NUMBER55&&permit->number==1)
+  return 1;
+
+ const NpcVariable55*v=
+  npc_state_get55(s,npc_variable_key55("job_acolyte_q",0),0);
+
+ if(v&&v->kind==NPC_STATE_NUMBER55&&
+    (v->number==3||v->number==7))
+  return 1;
+
+ v=npc_state_get55(s,npc_variable_key55("PRIEST_Q",0),0);
+
+ return v&&v->kind==NPC_STATE_NUMBER55&&
+        (v->number==2||v->number==3);
+}
+#endif
+```
+
+**2. Career warp/savepoint adapter — `Source/career_warp194.h`**
+
+Original scripts still perform their own level, consent, material, fee and promotion checks. This changes only reviewed destinations and records a real pilgrimage visit.
+
+```c
+/* MIT. Existing Ninja quest travel uses its classroom while regions are locked.
+ * The original script has already checked level/consent/materials. Only its
+ * destination changes; no item, quest, promotion or reward is fabricated. */
+#ifndef MYRO_CAREER_WARP194_H
+#define MYRO_CAREER_WARP194_H
+#include "npc_world55.h"
+#include "career_access194.h"
+
+static int npc_career_world194(
+ NpcWorld55*w,NpcMachine55*m,int attached,unsigned program,
+ NpcState55*state,const char*command,const NpcValue55*args,
+ uint32_t count,NpcValue55*out
+){
+ if(attached&&program==3821&&!strcmp(command,"savepoint")&&count==3){
+  NpcValue55 destination;
+  int64_t x,y;
+
+  if(!npc_world_args55(m,args,&destination,&x,&y))
+   return N55_ERROR;
+
+  if(!strcmp(destination.text,"moc_fild07")){
+   if(!career_pilgrimage194(state))
+    return N55_ERROR;
+
+   WorldPosition home=w->game->home;
+   int status=
+    npc_world_command55(w,m,attached,command,args,count,out);
+
+   if(status==N55_READY&&
+      !npc_state_set_number55(state,CAREER_PILGRIMAGE_KEY194,0,1)){
+    w->game->home=home;
+    return N55_ERROR;
+   }
+
+   return status;
+  }
+ }
+
+ int ninja=program==3884||program==3885||program==3886;
+ int valkyrie=program==3604;
+
+ if(attached&&
+    ((ninja&&!strcmp(command,"warp"))||
+     (valkyrie&&
+      (!strcmp(command,"warp")||!strcmp(command,"savepoint"))))&&
+    count>=3&&count<=4){
+
+  NpcValue55 destination;
+  int64_t sourceX,sourceY;
+
+  if(!npc_world_args55(m,args,&destination,&sourceX,&sourceY))
+   return N55_ERROR;
+
+  if(destination.kind==N55_STRING_KIND&&
+     ((ninja&&!strcmp(destination.text,"amatsu"))||
+      (valkyrie&&!strcmp(destination.text,"morocc")))){
+
+   NpcValue55 adjusted[4];
+   memcpy(adjusted,args,count*sizeof(*args));
+
+   adjusted[0]=npc_vm_string55(ninja?"que_ng":"moc_ruins");
+   adjusted[1]=npc_vm_number55(ninja?37:150);
+   adjusted[2]=npc_vm_number55(ninja?68:117);
+
+   return npc_world_command55(
+    w,m,attached,command,adjusted,count,out);
+  }
+ }
+
+ return npc_world_command55(
+  w,m,attached,command,args,count,out);
+}
+#endif
+```
+
+The native command dispatcher passed the **root NPC program**, attachment status and actual character-domain state into this adapter. Do not substitute the currently executing shared helper’s program for the root NPC program.
+
+**3. Campaign admission and regional ledger — `Source/campaign_access194.h`**
+
+This requires regenerated `campaign_access_data194.h`; its missing arrays must not be replaced with permissive placeholders.
+
+```c
+/* MIT. Shared, side-effect-free campaign admission and atomic regional receipts.
+ * All travel adapters must preflight BEFORE charging or changing native quests.
+ * This module does not itself activate world or NPC restrictions. */
+#ifndef MYRO_CAMPAIGN_ACCESS194_H
+#define MYRO_CAMPAIGN_ACCESS194_H
+#include "campaign_state200.h"
+#include "campaign_access_data194.h"
+#include "career_access194.h"
+
+#define CAMPAIGN_REGION_KEY194 UINT64_C(0xeca194007265676e)
+#define CAMPAIGN_REGION_MASK194 ((1u<<CAMPAIGN_REGIONS194)-1u)
+
+typedef struct{
+ unsigned unlocked,accepted,completed;
+}CampaignRegions194;
+
+enum{
+ ACCESS_OPEN194,
+ ACCESS_STORY194,
+ ACCESS_REGION194,
+ ACCESS_RECORD194,
+ ACCESS_DESTINATION194
+};
+
+static int campaign_regions_load194(
+ const NpcState55*s,CampaignRegions194*out
+){
+ if(!s||!out)return 0;
+ memset(out,0,sizeof(*out));
+
+ const NpcVariable55*v=
+  npc_state_get55(s,CAMPAIGN_REGION_KEY194,0);
+
+ if(!v)return 1;
+
+ if(v->kind!=NPC_STATE_NUMBER55||
+    v->number<0||
+    (uint64_t)v->number>=(UINT64_C(1)<<51))
+  return 0;
+
+ uint64_t bits=(uint64_t)v->number;
+
+ out->unlocked=(unsigned)bits&CAMPAIGN_REGION_MASK194;
+
+ out->accepted=
+  ((unsigned)(bits>>17)&CAMPAIGN_REGION_MASK194)|
+  out->unlocked;
+
+ out->completed=
+  (unsigned)(bits>>34)&CAMPAIGN_REGION_MASK194;
+
+ return !(out->completed&~out->unlocked);
+}
+
+static int campaign_regions_store194(
+ NpcState55*s,const CampaignRegions194*r
+){
+ if(!s||!r||
+    ((r->unlocked|r->accepted|r->completed)&
+     ~CAMPAIGN_REGION_MASK194)||
+    (r->unlocked&~r->accepted)||
+    (r->completed&~r->unlocked))
+  return 0;
+
+ uint64_t bits=
+  r->unlocked|
+  ((uint64_t)r->accepted<<17)|
+  ((uint64_t)r->completed<<34);
+
+ return npc_state_set_number55(
+  s,CAMPAIGN_REGION_KEY194,0,(int64_t)bits);
+}
+
+static int campaign_regions_read194(
+ const NpcState55*s,unsigned*out
+){
+ CampaignRegions194 r;
+ if(!out||!campaign_regions_load194(s,&r))return 0;
+ *out=r.unlocked;
+ return 1;
+}
+
+static unsigned campaign_access_decide194(
+ const Campaign200*c,unsigned regions,
+ unsigned destination,int sandbox
+){
+ if(destination>=CAMPAIGN_ACCESS_MAPS194)
+  return ACCESS_DESTINATION194;
+
+ if(sandbox)return ACCESS_OPEN194;
+
+ if(!campaign_valid200(c)||regions>CAMPAIGN_REGION_MASK194)
+  return ACCESS_RECORD194;
+
+ if(c->cursor<campaignMapMinimum194[destination])
+  return ACCESS_STORY194;
+
+ unsigned region=campaignMapRegion194[destination];
+
+ return region&&!(regions&(1u<<(region-1)))?
+  ACCESS_REGION194:ACCESS_OPEN194;
+}
+
+static unsigned campaign_access194(
+ const NpcState55*s,unsigned destination,int sandbox
+){
+ if(destination>=CAMPAIGN_ACCESS_MAPS194)
+  return ACCESS_DESTINATION194;
+
+ if(sandbox)return ACCESS_OPEN194;
+
+ Campaign200 c;
+ unsigned regions;
+
+ if(campaign_load200(s,&c)!=1||
+    !campaign_regions_read194(s,&regions))
+  return ACCESS_RECORD194;
+
+ /* The native Sister visit and its saved return point remain usable.
+    This admits only her field, never Morroc or the breach. */
+ if(destination==108&&c.cursor>=1&&career_pilgrimage194(s))
+  return ACCESS_OPEN194;
+
+ return campaign_access_decide194(&c,regions,destination,0);
+}
+
+static int campaign_region_commit194(
+ NpcState55*s,unsigned region
+){
+ Campaign200 c;
+ CampaignRegions194 r;
+
+ if(!region||region>CAMPAIGN_REGIONS194||
+    campaign_load200(s,&c)!=1||
+    !campaign_regions_load194(s,&r)||
+    c.cursor<campaignRegionMinimum194[region-1])
+  return 0;
+
+ unsigned bit=1u<<(region-1);
+
+ if(r.unlocked&bit)return 1;
+
+ r.accepted|=bit;
+ r.unlocked|=bit;
+ return campaign_regions_store194(s,&r);
+}
+
+static const char*campaign_access_message194(unsigned result){
+ switch(result){
+ case ACCESS_STORY194:
+  return "Follow your current main quest before taking this road.";
+ case ACCESS_REGION194:
+  return "This passage needs a local introduction. Check the regional noticeboard.";
+ case ACCESS_RECORD194:
+  return "Your story record could not be read. Travel was not applied.";
+ case ACCESS_DESTINATION194:
+  return "This destination is unavailable.";
+ default:
+  return "";
+ }
+}
+#endif
+```
+
+The last ledger stores three 17-bit masks in one signed-64-bit numeric NPC variable. Corruption tests must reject `INT64_C(1)<<51`; the earlier `1<<17` rejection became obsolete when accepted/completed masks were introduced.
+
+**4. Native NPC chronology cache — `Source/native_admission194.h`**
+
+This requires the missing generated `npc_access_data194.h` and the original training-departure predicate.
+
+```c
+/* MIT. Cached native NPC chronology/dependency checks. No allocations, script
+ * execution or inventory changes. Initialization remains a separate lifecycle. */
+#ifndef MYRO_NATIVE_ADMISSION194_H
+#define MYRO_NATIVE_ADMISSION194_H
+#include "campaign_access194.h"
+#include "npc_access_data194.h"
+#include "story_departure193.h"
+
+typedef struct{
+ const NpcState55*state;
+ unsigned revision,valid,sandbox,opening;
+ unsigned char map[CAMPAIGN_ACCESS_MAPS194];
+}NativeAdmissionCache194;
+
+typedef char NativeAdmissionProgramCount194[
+ NPC_ACCESS_PROGRAMS194==NPC_PROGRAM_COUNT55?1:-1
+];
+
+static void native_admission_refresh194(
+ NativeAdmissionCache194*c,const NpcState55*s,int sandbox
+){
+ memset(c,0,sizeof(*c));
+ c->state=s;
+ c->revision=s?s->revision:0;
+ c->valid=1;
+ c->sandbox=!!sandbox;
+
+ Campaign200 story;
+ unsigned regions=0;
+
+ int readable=
+  campaign_load200(s,&story)==1&&
+  campaign_regions_read194(s,&regions);
+
+ c->opening=
+  readable&&!story.cursor&&!story.checkpoint&&!story.route;
+
+ for(unsigned map=0;map<CAMPAIGN_ACCESS_MAPS194;map++)
+  c->map[map]=(unsigned char)(
+   sandbox?ACCESS_OPEN194:
+   !readable?ACCESS_RECORD194:
+   campaign_access_decide194(&story,regions,map,0)
+  );
+
+ if(!sandbox&&readable&&story.cursor>=1&&career_pilgrimage194(s))
+  c->map[108]=ACCESS_OPEN194;
+}
+
+static const char*native_admission_reason194(
+ const NativeAdmissionCache194*c,unsigned npc
+){
+ if(!c||!c->valid||npc>=NPC_RECORD_COUNT55)
+  return "This character's travel record is unavailable.";
+
+ const NpcRecord55*n=npcRecords55+npc;
+
+ if(n->map<CAMPAIGN_ACCESS_MAPS194&&c->map[n->map])
+  return campaign_access_message194(c->map[n->map]);
+
+ unsigned program=n->program;
+
+ if(!program)return NULL;
+
+ if(program>NPC_ACCESS_PROGRAMS194)
+  return "This NPC's travel service is unavailable.";
+
+ /* These menus preflight the selected route before fees/savepoints.
+    Checking all possible cities would disable the entire service. */
+ if(program==696||program==3604||program==3866)
+  return NULL;
+
+ for(unsigned i=npcAccessOffsets194[program-1];
+     i<npcAccessOffsets194[program];i++){
+
+  unsigned map=npcAccessMaps194[i];
+
+  if(map>=CAMPAIGN_ACCESS_MAPS194)
+   return "This NPC's destination is unavailable.";
+
+  if(c->opening&&story_departure_maps193(n->map,map))
+   map=0;
+
+  if(c->map[map])
+   return campaign_access_message194(c->map[map]);
+ }
+
+ return NULL;
+}
+#endif
+```
+
+The runtime callback and travel callbacks were:
+
+```c
+static NativeAdmissionCache194 campaignNativeAccess194;
+
+static const char*campaign_native_admission194(unsigned npc){
+ if(!campaignNativeAccess194.valid||
+    campaignNativeAccess194.state!=questPins65||
+    campaignNativeAccess194.revision!=
+     (questPins65?questPins65->revision:0)){
+
+  native_admission_refresh194(
+   &campaignNativeAccess194,
+   questPins65,
+   questPins65&&campaign_sandbox193(questPins65));
+ }
+
+ return native_admission_reason194(
+  &campaignNativeAccess194,npc);
+}
+
+static const char*campaign_npc_admission194(
+ Combat*g,unsigned destination
+){
+ (void)g;
+
+ unsigned result=campaign_access194(
+  questPins65,destination,campaign_sandbox193(questPins65));
+
+ return result==ACCESS_OPEN194?
+  NULL:campaign_access_message194(result);
+}
+
+static const char*campaign_npc_choice_admission194(
+ Combat*g,unsigned destination
+){
+ if(g&&story_departure193(questPins65,g->mapId,destination))
+  destination=0;
+
+ return campaign_npc_admission194(g,destination);
+}
+```
+
+`campaign_reset200()` cleared `campaignNativeAccess194`.
+
+The registrations in `main()` were:
+
+```c
+npcTravelAdmission194=campaign_npc_choice_admission194;
+npcNativeAdmission194=campaign_native_admission194;
+combatTravelAdmission194=campaign_npc_admission194;
+```
+
+**5. Chronology/dependency reconstruction facts**
+
+The actual generated dependency arrays and the complete abstract-interpreter source are **not retained here**. Regenerate them from the recovered registry and deployed scripts, rather than guessing.
+
+The completed audit had:
+
+- 3,948 compiled programs.
+- 10,181 NPC records.
+- 1,564 warp sites.
+- 86 dynamic warp sites.
+- No abstract-analysis stack-limit failures.
+- Only four dynamic-destination programs reachable from enabled NPC roots: **112, 696, 3604, 3866**.
+- Final filtered dependency table: **2,175 map members**, **12,248 static bytes**, including offsets.
+- Bare map-name references alone did not imply transport. The final generator retained dependencies only for programs with a transitive world operation, including `savepoint`.
+
+These 22 programs received an additional dependency on post-catastrophe Morroc, map 127:
+
+```python
+post_morroc = {
+    498, 504, 506, 1894, 1901, 1942, 1953, 1954,
+    1955, 1956, 2011, 2738, 2739, 2740, 2742, 2744,
+    2745, 2746, 2783, 3152, 3241, 3941
+}
+```
+
+Important integration rules:
+
+- **Do not apply chronology to `npc_scene_available64()`.** That predicate also controls source initialization.
+- Add a separate interaction/render predicate:
+
+```c
+static const char*(*npcNativeAdmission194)(unsigned);
+
+static int npc_scene_interactive194(unsigned index){
+ return !npcNativeAdmission194||!npcNativeAdmission194(index);
+}
+```
+
+- Use that predicate for visible/interactable native NPCs, nearest interaction and touch events.
+- Reject `npc_game_open55()` **before** setting `pendingTalk`, interrupting movement/casting, or starting the VM.
+- Attached event scheduling rejects inaccessible NPCs, **except initialization**:
+
+```c
+if((kind&N55_EVENT_ATTACHED)&&
+   ((kind&255)!=N55_EVENT_INIT)&&
+   !npc_scene_interactive194(index))
+ return 0;
+```
+
+- Global initialization and unattached preparation events remain functional.
+- Training-ground graduation checks the effective destination produced by the existing opening-story redirect. Otherwise Hanson can become inaccessible because his original menu mentions later towns.
+
+**6. Fee-safe transport reconstruction**
+
+The complete `npc_travel_preflight194.h` is **not retained verbatim**. Its tested contract is retained:
+
+| Program | Original service | Preflight |
+|---|---|---|
+| 844 | `F_KafTele` | Resolve the selected original ordinal using `@wrpC$` and `@wrpD$`, before resuming the VM |
+| 696 | Airship Representative | Resolve the selected original city option before its 1,800-Zeny debit |
+| 3604 | Valkyrie Teleporter | Resolve selected city; Morroc becomes the outpost destination, map 126 |
+| 3866 | Training Kafra | Preserve original first-departure redirection into the campaign opening |
+
+The input hook was:
+
+```c
+else if((buttons&2)&&npc_travel_choice194(g,r,g->choice))
+ npc_runtime_answer55(r,g->choice,0);
+```
+
+A denied selection:
+
+- Keeps the VM in SELECT.
+- Preserves option count, original ordinals and Cancel.
+- Does not write `@menu`.
+- Does not change PC, Zeny, tickets, savepoint or character-state revision.
+- Shows a bounded, deduplicated reason rather than repeatedly appending text.
+
+Actual compiled-script tests had verified:
+
+- Kafra: ten denied confirmations preserved 5,000 Zeny and one free ticket.
+- Once permitted, the original script charged its original 1,000-Zeny fare and queued map 127.
+- Airship: denied Morroc preserved money; unlocked selection charged 1,800 Zeny.
+- Valkyrie: High Novice’s Morroc selection queued **126**, with home **126, 1204, 940**, unchanged Zeny.
+
+Other travel boundaries:
+
+- Road admission runs before random-arrival RNG and map loading.
+- Skill admission runs before SP, gemstones, cooldown or portal creation.
+- Portal use admission runs before decrementing remaining uses.
+- Native script warp admission runs **after** story-departure redirection, but before capture/loading.
+- Custom Warp Girl admission runs before fees.
+- Developer sandbox travel intentionally bypasses story restrictions.
+
+A world-loader rejection alone is insufficient: an original NPC script may already have charged the player.
+
+**7. Career locations and added transport**
+
+These were verified against the actual packed-world collision and native room warps. Preserve NPC IDs and programs; rebuild map membership lists after relocation.
+
+| NPC | Record / program | New position |
+|---|---|---|
+| Merchant `Student#mer` | 7351 / 3829 | `moc_ruins` 126, **1244,1028** |
+| Ninja `Suspicious Man#nq` / Joe | 7588 / 3886 | `que_ng` 406, **340,548** |
+
+Added coach passages, visible/open from cursor 1:
+
+| Departure | Arrival | Condition |
+|---|---|---|
+| Prontera 2, **1148,1380** | Outpost 126, **1204,940** | Ordinary |
+| Outpost 126, **1204,940** | Prontera 2, **1148,1380** | Ordinary |
+| Prontera 2, **1204,1380** | Ninja room 406, **300,548** | Ordinary |
+| Ninja room 406, **300,548** | Prontera 2, **1204,1380** | Ordinary |
+| Prontera 2, **1260,1380** | Gunslinger room 406, **1108,1340** | Ordinary |
+| Gunslinger room 406, **1108,1340** | Prontera 2, **1260,1380** | Ordinary |
+| Outpost 126, **1324,940** | Sister’s field 108, **284,2844** | `career_pilgrimage194()` |
+| Sister’s field 108, **284,2844** | Outpost 126, **1300,940** | `career_pilgrimage194()` |
+
+Earlier proposed Prontera coordinates **880,580 / 824,580 / 768,580** were rejected by collision testing. The earlier Gunslinger arrival **1184,1292** was also rejected. Do not restore them.
+
+Thief Guild access uses `moc_ruins → moc_pryd01 → moc_prydb1`, including the original same-map room warps. A plain continuous-walking flood fill incorrectly reports that route as blocked.
+
+Scoped dialogue corrections covered Merchant 3827/3828, Acolyte 3819, Priest 3418/3419, Ninja 3885/3886 and Valkyrie 3604. **The entire deployed `scripts.bin` remained byte-identical to released 1.10.0:**
+
+```text
+a101e501cbc97b73b7268e0ba3a3f7361c2f3624416be51c6b5f6b1fe1fea93e
+```
+
+**8. Nine regional dispatches — `Source/regional194.h`**
+
+This is the retained implementation, incorporating the last change that keeps completed notices available for return travel.
+
+```c
+/* MIT. Optional guild dispatches introduce existing solo regions. The source
+ * NPC quests, equipment checks and dungeon entry conditions remain intact. */
+#ifndef MYRO_REGIONAL194_H
+#define MYRO_REGIONAL194_H
+#include "campaign_access194.h"
+#include "guild194.h"
+
+#define REGIONAL_QUEST194 2000000200u
+#define REGIONAL_COUNT194 9u
+
+typedef struct{
+ unsigned region,map;
+ float x,y,noteX,noteY;
+ unsigned item[2],amount[2],fare;
+ const char*title,*pitch,*letter;
+}RegionalJourney194;
+
+static const RegionalJourney194 regionalJourneys194[REGIONAL_COUNT194]={
+ {
+  1,386,1196,1436,1196,1484,{1019,914},{12,8},1000,
+  "Winter mail road",
+  "Nera: The northern post is waiting for dry packing cloth and a replacement sled runner. Snow is charming until it gets into somebody else's letters.",
+  "[The northern post]\nThe runner arrived in one piece. The postmaster insists this is a new record. Lutie and the Toy Factory have their own troubles; ask the residents what needs doing. There is room beside the stove for travellers who intend to help.\n\nA parcel has been left for the guild: one Old Blue Box."
+ },
+ {
+  2,377,1596,1604,1596,1652,{1019,909},{16,12},3000,
+  "Moscovia passage",
+  "Maya: Our harbour contact needs timber and sealing paste before the next shipment. We can carry supplies without pretending to understand every story told about the sea.",
+  "[A harbour receipt]\nThe crate is dry. The dock is loud. Someone has already told three different stories about the same whale. Speak to the people of Moscovia and decide which account deserves a voyage. The guild's courier passage does not settle any local quest for you.\n\nOur thanks: one Old Blue Box."
+ },
+ {
+  3,376,1596,1596,1596,1644,{914,511},{12,8},3000,
+  "Brasilis dispatch",
+  "Yuufa: Bandages and herbs travel better when somebody packs them carefully. The people at Brasilis asked for both. No, a box marked 'probably medicine' will not do.",
+  "[A clinic's note]\nThe herbs were labelled correctly. Please tell your healer that this was noticed and appreciated. The town's ordinary errands are a good place to start; the forest's stories are best heard from people who live beside it.\n\nA small contribution to your travels: one Old Blue Box."
+ },
+ {
+  8,405,1636,1540,1684,1540,{914,1019},{16,12},9000,
+  "Splendide frontier",
+  "Nera: With the expedition's first report safely filed, we can send a letter instead of a rumour. The Splendide contact asked for cloth and timber, not another armed delegation.",
+  "[A carefully copied reply]\nYour supplies have been received. Your introduction is a beginning, not permission to speak for us. Listen to the residents of Splendide before drawing conclusions about this frontier. Their requests and customs remain their own.\n\nThe courier's return parcel contains one Old Blue Box."
+ },
+ {
+  9,395,1532,1548,1484,1548,{999,1019},{10,16},9000,
+  "Manuk frontier",
+  "Dagna: Tools do not improve because we argue about borders. Iron and timber will make this shipment useful. The expedition contact has agreed to introduce our courier.",
+  "[A workshop's acknowledgement]\nThe materials are sound. The people who sent them may yet prove equally dependable. Ask what work is needed in Manuk; do not assume a stamped introduction replaces anybody's trust.\n\nPayment for the delivery: one Old Blue Box."
+ },
+ {
+  11,396,1660,1676,1700,1708,{914,511},{20,12},9000,
+  "Expedition road",
+  "Nera: The road beyond the dimensional wound needs a record of its own. Take medical supplies to the expedition. We will begin with names, needs, and an honest first report.",
+  "[The expedition register]\nCourier arrived. Supplies counted. Nobody listed as 'expendable'. It is a modest beginning, but a useful one. Speak to the expedition staff about the frontier before visiting either neighbouring settlement. Their original investigations still need doing.\n\nA courier's allowance: one Old Blue Box."
+ },
+ {
+  12,143,1196,1196,1196,1244,{1019,909},{18,10},3000,
+  "Turtle Island passage",
+  "Maya: A boat with sound boards is preferable to a boat with optimistic passengers. Bring timber and sealing paste; our courier can then arrange the island passage.",
+  "[An island landing note]\nBoat intact. Cargo intact. Courier only mildly offended by the sand. The island's inhabitants are less interested in paperwork. Prepare for the dungeons before heading deeper; this introduction has not made them tame.\n\nOne Old Blue Box has been set aside for the guild."
+ },
+ {
+  13,139,1380,1388,1428,1388,{914,511},{10,6},3000,
+  "An overdue holiday",
+  "Yuufa: A seaside first-aid parcel is still useful work. Taking a quiet afternoon afterwards is allowed. I have checked with the guild leader. That would be you.",
+  "[A seaside thank-you]\nThe parcel reached Jawaii safely. Please accept a little hospitality without producing an invoice for every pleasant minute. Travelling here does not require a wedding, and resting does not require an excuse.\n\nThere is one Old Blue Box for the courier. Try opening it somewhere dry."
+ },
+ {
+  14,247,1596,1596,1636,1564,{1019,914},{14,10},3000,
+  "Kiel Hyre inquiry",
+  "Nera: The academy's outer road requested repair supplies. Deliver them first, then ask about the academy's own affairs. An introduction is not a key to somebody else's locked rooms.",
+  "[An academy delivery docket]\nTimber and cloth received on the road outside the academy. Further enquiries should begin with the academy staff and the residents nearby. Their original tasks, keys and investigations remain necessary; this delivery opens no private laboratory.\n\nThe guild's parcel contains one Old Blue Box."
+ }
+};
+
+static int regional_index194(unsigned region){
+ for(unsigned i=0;i<REGIONAL_COUNT194;i++)
+  if(regionalJourneys194[i].region==region)return(int)i;
+ return-1;
+}
+
+static int regional_quest194(uint32_t id){
+ return id>=REGIONAL_QUEST194&&id<REGIONAL_QUEST194+17?
+  regional_index194(id-REGIONAL_QUEST194+1):-1;
+}
+
+static unsigned regional_bit194(unsigned index){
+ return 1u<<(regionalJourneys194[index].region-1);
+}
+
+static int regional_available194(
+ const NpcState55*s,unsigned index
+){
+ Campaign200 c;
+ CampaignRegions194 r;
+
+ if(index>=REGIONAL_COUNT194||
+    !guild_open194(s)||
+    campaign_load200(s,&c)!=1||
+    !campaign_regions_load194(s,&r))
+  return 0;
+
+ unsigned region=regionalJourneys194[index].region;
+
+ return c.cursor>=campaignRegionMinimum194[region-1]&&
+  ((region!=8&&region!=9)||(r.completed&(1u<<10)));
+}
+
+static int regional_accept194(
+ NpcState55*s,unsigned index
+){
+ CampaignRegions194 r;
+
+ if(!regional_available194(s,index)||
+    !campaign_regions_load194(s,&r))
+  return 0;
+
+ unsigned bit=regional_bit194(index);
+
+ if(r.accepted&bit)return 1;
+
+ r.accepted|=bit;
+ return campaign_regions_store194(s,&r);
+}
+
+/* Stage the inventory before committing the sparse ledger.
+ * No yield/save/callback/native quest operation occurs between commits. */
+static int regional_deliver194(
+ NpcState55*s,Combat*g,unsigned index
+){
+ CampaignRegions194 r;
+
+ if(!g||
+    !regional_available194(s,index)||
+    !campaign_regions_load194(s,&r))
+  return 0;
+
+ unsigned bit=regional_bit194(index);
+
+ if(!(r.accepted&bit)||(r.unlocked&bit))
+  return 0;
+
+ const RegionalJourney194*p=regionalJourneys194+index;
+
+ OwnedItems52*bag=malloc(sizeof(*bag));
+ if(!bag)return 0;
+ *bag=g->owned52;
+
+ for(unsigned k=0;k<2;k++){
+  unsigned left=p->amount[k];
+
+  for(unsigned i=0;i<bag->count[0]&&left;){
+   OwnedItem52*o=bag->items+i;
+
+   if(o->sourceID!=p->item[k]||o->equipped||o->bound){
+    i++;
+    continue;
+   }
+
+   unsigned amount=o->quantity<left?o->quantity:left;
+   unsigned uid=o->uid;
+   int erased=amount==o->quantity;
+
+   if(owned_remove52(bag,0,uid,amount)!=OWNED_OK52){
+    free(bag);
+    return 0;
+   }
+
+   left-=amount;
+   if(!erased)i++;
+  }
+
+  if(left){
+   free(bag);
+   return 0;
+  }
+ }
+
+ r.unlocked|=bit;
+
+ if(!campaign_regions_store194(s,&r)){
+  free(bag);
+  return 0;
+ }
+
+ g->owned52=*bag;
+ free(bag);
+ return 1;
+}
+
+static int regional_collect194(
+ NpcState55*s,Combat*g,unsigned index
+){
+ CampaignRegions194 r;
+
+ if(!g||index>=REGIONAL_COUNT194||
+    !campaign_regions_load194(s,&r))
+  return 0;
+
+ const RegionalJourney194*p=regionalJourneys194+index;
+ unsigned bit=regional_bit194(index);
+
+ if(!(r.unlocked&bit)||(r.completed&bit)||
+    g->mapId!=p->map||
+    combat_dist(g->x,g->y,p->noteX,p->noteY)>24)
+  return 0;
+
+ const OwnedRule52*reward=item_rule52(603);
+
+ if(!reward||
+    inventory_weight(g)+reward->weight>inventory_weight_max(g))
+  return 0;
+
+ OwnedItems52*bag=malloc(sizeof(*bag));
+ if(!bag)return 0;
+
+ *bag=g->owned52;
+ inventory_compact52(bag);
+
+ if(owned_add52(bag,0,603,1,item_rule52)!=OWNED_OK52){
+  free(bag);
+  return 0;
+ }
+
+ r.completed|=bit;
+
+ if(!campaign_regions_store194(s,&r)){
+  free(bag);
+  return 0;
+ }
+
+ g->owned52=*bag;
+ free(bag);
+ return 1;
+}
+
+static int regional_near194(
+ const NpcState55*s,const Combat*g
+){
+ CampaignRegions194 r;
+
+ if(!g||g->hp<=0||!campaign_regions_load194(s,&r))
+  return-1;
+
+ for(unsigned i=0;i<REGIONAL_COUNT194;i++){
+  const RegionalJourney194*p=regionalJourneys194+i;
+  unsigned bit=regional_bit194(i);
+
+  if((r.unlocked&bit)&&g->mapId==p->map&&
+     combat_dist(g->x,g->y,p->noteX,p->noteY)<=24&&
+     (!g->canMove||
+      g->canMove(g->world,g->x,g->y,p->noteX,p->noteY)))
+   return(int)i;
+ }
+
+ return-1;
+}
+#endif
+```
+
+**9. Regional travel — `Source/regional_world194.h`**
+
+```c
+/* MIT. A guild courier is an alternative journey, never a native quest grant. */
+#ifndef MYRO_REGIONAL_WORLD194_H
+#define MYRO_REGIONAL_WORLD194_H
+#include "regional194.h"
+
+static int regional_world_visit194(
+ Combat*g,unsigned index
+){
+ CampaignRegions194 r;
+
+ if(!g||index>=REGIONAL_COUNT194||
+    !guild_near194(g)||
+    !campaign_regions_load194(questPins65,&r)||
+    !(r.unlocked&regional_bit194(index)))
+  return 0;
+
+ const RegionalJourney194*p=regionalJourneys194+index;
+
+ if(g->zeny<(int)p->fare||
+    campaign_access194(questPins65,p->map,0)!=ACCESS_OPEN194)
+  return 0;
+
+ if(!world_script_warp55(
+     NULL,g,p->map,p->x,p->y,0,1))
+  return 0;
+
+ g->zeny-=(int)p->fare;
+
+ combat_message(
+  g,"Courier passage: %u Zeny. Look for the notice near your arrival.",
+  p->fare);
+
+ return 1;
+}
+
+static int regional_world_return194(
+ Combat*g,unsigned index
+){
+ if(index>=REGIONAL_COUNT194||
+    regional_near194(questPins65,g)!=(int)index)
+  return 0;
+
+ return world_script_warp55(NULL,g,132,188,1116,0,1);
+}
+#endif
+```
+
+The courier return is free and remains available after claiming the parcel, avoiding a one-way trip that strands the player.
+
+**10. Regional UI and journal integration**
+
+The exact final complete guild UI file is not retained as one block, but its additions are recorded:
+
+```c
+/* Additional GuildUI194 field: unsigned journey; */
+
+static int(*regionalVisit194)(Combat*,unsigned);
+static int(*regionalReturn194)(Combat*,unsigned);
+
+static void regional_ui_open194(Combat*g,unsigned journey){
+ if(journey>=REGIONAL_COUNT194)return;
+
+ memset(&guildUI194,0,sizeof(guildUI194));
+ guildUI194.page=7;
+ guildUI194.journey=journey;
+
+ g->utilityMenu=504;
+ g->autoAttack=g->floorGather60=g->approachSkill53=0;
+ g->route53.state=0;
+}
+
+/* Last edit before workspace failure.
+ * Requires renewed compilation/render checking. */
+static int regional_ui_lines194(
+ const char*text,char lines[24][96]
+){
+ int count=0;
+
+ while(*text&&count<14){
+  const char*end=strchr(text,'\n');
+  size_t length=end?(size_t)(end-text):strlen(text);
+
+  char paragraph[768];
+  if(length>=sizeof paragraph)length=sizeof paragraph-1;
+
+  memcpy(paragraph,text,length);
+  paragraph[length]=0;
+
+  if(length){
+   char wrapped[8][96];
+   int rows=ui_wrap(paragraph,wrapped,454,1);
+
+   for(int i=0;i<rows&&count<14;i++)
+    memcpy(lines[count++],wrapped[i],96);
+  }else{
+   lines[count++][0]=0;
+  }
+
+  if(!end)break;
+  text=end+1;
+ }
+
+ return count;
+}
+```
+
+Guild menu additions:
+
+- Root row **16**, “Regional journeys”; root count becomes **17**.
+- Page **5**: nine-journey list, seven visible rows, status `Later / Open / Supplies / Passage / Received`.
+- Page **6**: dispatch details, two material rows, fare.
+- Page **7**: physical courier notice.
+- Page 6 A: accept → deliver → travel, according to ledger state.
+- Page 7 A: claim one-time parcel.
+- Page 7 X: free return to guild noticeboard.
+- Page 7 B: close.
+- Page 6 B returns to page 5; page 5 B restores root row 16.
+- Letter paragraphs use `regional_ui_lines194()`, not ordinary eight-row `ui_wrap()`.
+
+Callbacks:
+
+```c
+regionalVisit194=regional_world_visit194;
+regionalReturn194=regional_world_return194;
+```
+
+World interaction, after guild-board interaction and before native NPC interaction:
+
+```c
+else if(regional_near194(questPins65,&game)>=0){
+ regional_ui_open194(
+  &game,(unsigned)regional_near194(questPins65,&game));
+ aiming=0;
+}
+```
+
+Context prompt:
+
+```c
+else if(!game.tooltipsDisabled&&
+        regional_near194(questPins65,&game)>=0)
+ snprintf(context,sizeof(context),"A: read courier notice");
+```
+
+The ground notice reuses `campaign_document_one193()` and existing book artwork. It is drawn for unlocked dispatches on their current map, **including completed dispatches**, so their return service stays discoverable. No new actor or texture cache was added.
+
+Journal rules:
+
+- ID: `REGIONAL_QUEST194 + region - 1`.
+- Side Quest category.
+- Include accepted dispatches in journal enumeration/count.
+- Before delivery: two concise material counters, with genuine incremental progress.
+- After delivery: “Read the courier notice at arrival”; no invented progress bar.
+- After receipt: completed checkmark.
+- Default tracker visibility stops after completion; an explicit tracking selection can show completed dispatches.
+- Tracker pin values: `0` default, `1` explicitly show, `2` hide.
+- Minimap marker: existing black/gold marker, only while the unlocked, unfinished dispatch is tracked.
+
+**11. Map-policy corrections retained**
+
+The generated policy covered **497 maps**. Critical exceptions:
+
+- `moc_fild01`, `moc_fild02`, `moc_fild03`: available from cursor 0 to preserve starter-town connectivity.
+- `moc_ruins`, `moc_pryd01`, `moc_prydb1`: early Thief/merchant approach.
+- `que_ng`: early class-room access.
+- Destroyed `morocc` / `morocc_in`: cursor **35**.
+- Original `moc_fild22`: cursor **35**, preventing the native Satan Morroc encounter before the authored finale.
+- Original `moc_fild20/21`: cursor **31**.
+- Private `story_thana194`, map **495**: cursor **28**.
+- Private `story_moc194`, map **496**: cursor **33**.
+- Guild interior `guild_in194`, map **494**: cursor **9**.
+
+Regional minimum cursors:
+
+```text
+1  Winter/Lutie       12
+2  Moscovia           18
+3  Brasilis           18
+8  Splendide          35
+9  Manuk              35
+11 Expedition        35
+12 Turtle Island     15
+13 Jawaii            20
+14 Kiel Hyre         16
+```
+
+Splendide and Manuk additionally require **completed Expedition dispatch**, not merely its travel permit.
+
+The other ledger positions were reserved. Five proposed countries lacked loaded maps: Dewata, Port Malaya, Malangdo, Eclage and El Dicastes. Three loaded groups were excluded party-instance content: Sealed Shrine, Orc Memory and Endless Tower. **Do not silently activate those eight as part of these nine dispatches.**
+
+**12. Remaining recovery dependencies and validation**
+
+The outstanding art request was:
+
+[Story References collector](https://raw.githubusercontent.com/codydarveau-beep/main/f7b37feec11d6706b2fd030690f235b57fe87b8a/downloads/MyRO-1.10.0-Story-References-Collector.zip)
+
+It requested 15 Fenris/Chaos/Iris/Loki portrait references and the female Wizard body SPR/ACT. No returned output is recorded here. The collector archive’s recorded SHA-256 was:
+
+```text
+c35c6c38851d38a42eadfdc8cbf7e456c850c4c0a0239325c193c12e4c1d85bf
+```
+
+Other important private-build facts:
+
+- Source directory was `/workspace/myro/dev200`.
+- It still used private **MyRO v2.0.0 DEV** naming and `E:\MyROStory200`; those were development identifiers, not the intended public version.
+- `CAMPAIGN_RELEASE_SCENES193` was still **12**.
+- `CAMPAIGN_OPENING_READY200` was still **0**.
+- Full-story activation was therefore **not complete** merely because later graphs/assets existed.
+- Released 1.10.0 remained the sole intended updater baseline.
+
+Recorded successful checks, which must be rerun on reconstructed source:
+
+```text
+native-admission194:
+366,516 monotonic NPC/milestone cases;
+actual first-career givers; pilgrimage; chronology; sandbox.
+
+native-lifecycle194:
+blocked open/attached events/touch preserve state;
+global and attached OnInit remain active;
+unlocked source dialogue starts normally.
+
+campaign-access194:
+36,778 map/milestone decisions;
+regional receipts; reload; corruption; allocation failure.
+
+campaign-routes194-policy:
+1,036 route/proof/policy cases with actual map loading.
+
+regional194:
+all nine dispatches;
+milestones and Expedition prerequisite;
+tracking/material tasks;
+allocation failure;
+actual arrival-to-notice collision paths;
+one-time parcel;
+return access;
+saved reload.
+
+guild-draw194:
+updated 17-row root and regional pages rendered;
+controller navigation passed before final paragraph-wrapper edit.
+```
+
+**Not established:** final integrated native Xbox build after the regional additions, full campaign playthrough, hardware RAM/FPS acceptance, final updater package, or either extra review pass.
+
+This is the recoverable code and implementation evidence I can substantiate from the conversation. Anything absent from this packet or the recovered repositories needs reconstruction rather than being treated as recovered source.

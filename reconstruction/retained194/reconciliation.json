@@ -1,0 +1,165 @@
+{
+  "packetSHA256": "a992c05dacb0912bacb99b8572fc9a0867ef380e3c5fbbf863b4fb6a039c744c",
+  "packetBytes": 36234,
+  "headers": [
+    {
+      "name": "career_access194.h",
+      "section": 1,
+      "bytes": 786,
+      "sha256": "e58930b0f9d1859a21de423ef6e177f0f10b016e8ff00c92851274541f76006c",
+      "status": "verbatim excerpt; not integrated"
+    },
+    {
+      "name": "career_warp194.h",
+      "section": 2,
+      "bytes": 2044,
+      "sha256": "3c60724a0a82f3b993826e7d2a80c22bba2f1d65c2e19dab080949b99337e18d",
+      "status": "verbatim excerpt; not integrated"
+    },
+    {
+      "name": "campaign_access194.h",
+      "section": 3,
+      "bytes": 4005,
+      "sha256": "e079485544c94819f98f5f97370bec8a4fff06d824a71baab5d81d0dace50eb0",
+      "status": "verbatim excerpt; not integrated"
+    },
+    {
+      "name": "native_admission194.h",
+      "section": 4,
+      "bytes": 2370,
+      "sha256": "a31e78101b7b990ca8d52d4e38e7c60cef034330ff38df436d2398c39dd6038b",
+      "status": "verbatim excerpt; not integrated"
+    },
+    {
+      "name": "regional194.h",
+      "section": 8,
+      "bytes": 9335,
+      "sha256": "14705adb1bbde5da80c3ed676f7b1600d599540d962fef9e2781a3501b8540a4",
+      "status": "verbatim excerpt; not integrated"
+    },
+    {
+      "name": "regional_world194.h",
+      "section": 9,
+      "bytes": 1018,
+      "sha256": "32d00af76db52758cb8889f8d1e5f485ddd605a2925e8f75b6febb2d1599e639",
+      "status": "verbatim excerpt; not integrated"
+    }
+  ],
+  "includes": [
+    {
+      "header": "career_access194.h",
+      "include": "npc_variables55.h",
+      "location": "earlier snapshot"
+    },
+    {
+      "header": "career_warp194.h",
+      "include": "npc_world55.h",
+      "location": "earlier snapshot"
+    },
+    {
+      "header": "career_warp194.h",
+      "include": "career_access194.h",
+      "location": "packet"
+    },
+    {
+      "header": "campaign_access194.h",
+      "include": "campaign_state200.h",
+      "location": "earlier snapshot"
+    },
+    {
+      "header": "campaign_access194.h",
+      "include": "campaign_access_data194.h",
+      "location": "missing"
+    },
+    {
+      "header": "campaign_access194.h",
+      "include": "career_access194.h",
+      "location": "packet"
+    },
+    {
+      "header": "native_admission194.h",
+      "include": "campaign_access194.h",
+      "location": "packet"
+    },
+    {
+      "header": "native_admission194.h",
+      "include": "npc_access_data194.h",
+      "location": "missing"
+    },
+    {
+      "header": "native_admission194.h",
+      "include": "story_departure193.h",
+      "location": "missing"
+    },
+    {
+      "header": "regional194.h",
+      "include": "campaign_access194.h",
+      "location": "packet"
+    },
+    {
+      "header": "regional194.h",
+      "include": "guild194.h",
+      "location": "missing"
+    },
+    {
+      "header": "regional_world194.h",
+      "include": "regional194.h",
+      "location": "packet"
+    }
+  ],
+  "releasedScriptsSHA256": "a101e501cbc97b73b7268e0ba3a3f7361c2f3624416be51c6b5f6b1fe1fea93e",
+  "releasedProgramTableXbeOffset": 5138212,
+  "programSelection": "Exact deployed XBE lookup table; unique validated table candidate",
+  "releasedScriptsBytes": 17353591,
+  "snapshotScriptsBytes": 16778501,
+  "programs": 3948,
+  "sameProgramOwners": 3948,
+  "changedProgramOffsetsOrLengths": 31,
+  "npcRecords": 10181,
+  "careerRecordIdsAreOneBased": true,
+  "originalCareerRecords": [
+    {
+      "id": 7351,
+      "program": 3829,
+      "map": 128,
+      "x": 1124,
+      "y": 820,
+      "direction": 4,
+      "model": 40,
+      "view": 86,
+      "rx": 0,
+      "ry": 0,
+      "kind": 0,
+      "flags": 0,
+      "name": "Student#mer"
+    },
+    {
+      "id": 7588,
+      "program": 3886,
+      "map": 219,
+      "x": 1476,
+      "y": 1556,
+      "direction": 3,
+      "model": 285,
+      "view": 881,
+      "rx": 0,
+      "ry": 0,
+      "kind": 0,
+      "flags": 0,
+      "name": "Suspicious Man#nq"
+    }
+  ],
+  "snapshotMaps": 494,
+  "packetPolicyMaps": 497,
+  "absentPacketMaps": [
+    "guild_in194",
+    "story_thana194",
+    "story_moc194"
+  ],
+  "transitiveDependenciesRegenerated": false,
+  "runtimeIntegrated": false,
+  "nativeCompiled": false,
+  "hostSuitesRerun": false,
+  "xboxPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}
