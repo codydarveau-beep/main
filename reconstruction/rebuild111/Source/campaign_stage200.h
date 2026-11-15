@@ -5,12 +5,8 @@
 #include "campaign_actor_data200.h"
 #include "chapter2_gates200.h"
 typedef struct{unsigned source;float x,y;const char*name;}CampaignStageActor200;
-typedef struct{unsigned cursor,map,count;float x,y,docX,docY;CampaignStageActor200 actor[4];}CampaignStageDefinition200;
-static const CampaignStageDefinition200 campaignStages200[]={
- {3,12,2,364,1004,364,1028,{{0,348,1004,"Nera"},{4,380,1004,"Judia"}}},
- {4,132,2,564,340,564,364,{{5,548,340,"Maya"},{6,580,340,"Veyr"}}},
- {5,132,4,188,1116,0,0,{{1,172,1100,"Roan"},{2,204,1100,"Yuufa"},{4,172,1132,"Judia"},{5,204,1132,"Maya"}}}
-};
+typedef struct{unsigned cursor,map,count;float x,y,docX,docY;CampaignStageActor200 actor[4];unsigned recoveredFields197[9];}CampaignStageDefinition200;
+#include "campaign_stage_data197.h"
 typedef struct{Combat*player;NpcState55*state;const CampaignStageDefinition200*definition;unsigned active;}CampaignStage200;
 static CampaignStage200 campaignStage200;
 static int campaignStageModal200;
