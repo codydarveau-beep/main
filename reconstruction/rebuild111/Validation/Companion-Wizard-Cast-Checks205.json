@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "nativeComparisons": 360,
+  "fieldBytes": 6160,
+  "scope": "Original complete field record, own power RNG, single SP debit, failed allocation, blocked/range/target/capacity preflight. Native target-validity and line hooks are explicit fixture inputs; cosmetic audio is muted.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

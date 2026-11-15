@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "nativeComparisons": 480,
+  "scope": "Actual original companion-owned wizard callback, final native damage, resistances, Lex, blind/freeze counters and durations, ownership/aggro and RNG versus live C. Native sound dispatch is muted in the oracle; target playtesting remains separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

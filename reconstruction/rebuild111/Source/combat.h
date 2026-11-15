@@ -59,7 +59,7 @@ typedef struct {
 } CombatMob;
 #include "class_state48.h"
 #define COMBAT_FIELDS 3
-typedef struct {float meteorX49[7],meteorY49[7];float createdAt45,triggeredAt45;int triggered45;float x,y,nextAt,fadeUntil;int remaining,power,expected,secondId,rank;float radius;unsigned totalEvent[MOB_COUNT];int total[MOB_COUNT];unsigned char hits[MOB_COUNT],shown[MOB_COUNT];float lastX[MOB_COUNT],lastY[MOB_COUNT];} CombatField;
+typedef struct {float meteorX49[7],meteorY49[7];float createdAt45,triggeredAt45;int triggered45;float x,y,nextAt,fadeUntil;int remaining,power,expected,secondId,rank;float radius;unsigned companionOwner194;unsigned totalEvent[MOB_COUNT];int total[MOB_COUNT];unsigned char hits[MOB_COUNT],shown[MOB_COUNT];float lastX[MOB_COUNT],lastY[MOB_COUNT];} CombatField;
 #define COMBAT_BARRIERS 3
 typedef struct {float x,y,axisX,axisY,awayX,awayY,expires,nextAt;int hits[3],power;int total[MOB_COUNT];unsigned totalEvent[MOB_COUNT];} CombatBarrier;
 #define SAFETY_RADIUS 6.f
@@ -104,6 +104,7 @@ static int mercenary_devotion180(Combat*g,int damage);
 static void mercenary_tick180(Combat*g,float dt);
 static int mercenary_enemy180(Combat*g,int i,float dt);
 static int(*combat_campaign_enemy200)(Combat*,int,float);
+static int(*combat_companion_field194)(Combat*,CombatField*,int);
 /* Scoped friendly command; delayed casts capture member identity separately. */
 static unsigned combat_friendly_target200,combat_friendly_life200;
 static int(*combat_friendly_heal200)(Combat*,int,float*,float*);

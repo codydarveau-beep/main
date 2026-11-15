@@ -37,6 +37,21 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original companion field damage, own-level status resistance and effects",
+      "status": "passed",
+      "evidence": "Companion-Wizard-Checks205.json"
+    },
+    {
+      "name": "original complete shared-field records and resource preflight",
+      "status": "passed",
+      "evidence": "Companion-Wizard-Cast-Checks205.json"
+    },
+    {
+      "name": "actual promoted mage choice, fields, resources and player-field regression",
+      "status": "passed",
+      "evidence": "Companion-Wizard-Integration-Checks205.json"
+    },
+    {
       "name": "original elemental bolt selection and resource preflight",
       "status": "passed",
       "evidence": "Companion-Bolt-Choice-Checks204.json"
