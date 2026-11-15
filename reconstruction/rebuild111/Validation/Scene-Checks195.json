@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "packedSceneRecords": 36,
+  "runtimeSceneCeiling": 12,
+  "worldActivation": false,
+  "nodes": 458,
+  "roles": 3,
+  "checks": [
+    "actual scene validation/inflate",
+    "every node expression and preserved cue",
+    "checkpoint and scene reopen",
+    "malformed cue rejection",
+    "inactive scene ceiling retained"
+  ],
+  "scope": "Production scene wire/checkpoint host checks only; no world objectives, scene staging or full campaign completion claim"
+}

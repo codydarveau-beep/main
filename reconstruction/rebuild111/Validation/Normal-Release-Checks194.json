@@ -32,9 +32,19 @@
     {
       "name": "private vs released input reconciliation",
       "status": "assessed",
-      "matchingFiles": 13,
+      "matchingFiles": 18,
       "totalFiles": 19,
       "evidence": "Release-Inputs194.json"
+    },
+    {
+      "name": "complete restored art catalogs through production readers",
+      "status": "passed",
+      "evidence": "Content-Checks195.json"
+    },
+    {
+      "name": "released scene wire and checkpoint compatibility",
+      "status": "passed",
+      "evidence": "Scene-Checks195.json"
     }
   ],
   "normalReleaseWideChecksComplete": false,

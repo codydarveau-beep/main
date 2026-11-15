@@ -124,5 +124,7 @@
   "retainedReleaseSceneCeiling": 12,
   "publicBaseline": "1.10.0",
   "nextTarget": "1.11.0",
-  "noISOOrPatchPackaged": true
+  "noISOOrPatchPackaged": true,
+  "historicalSnapshot": true,
+  "supersededBy": "Current-Inputs195.json"
 }

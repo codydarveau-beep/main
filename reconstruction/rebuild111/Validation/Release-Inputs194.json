@@ -19,26 +19,26 @@
       "releasedBytes": 14738055,
       "releasedSHA256": "1dcafb171c4ecbad160b3358b1339a2c86f87451722db25c493d8b9df64aa0a0",
       "releasedAssetRecoverable": true,
-      "privateBytes": 2044614,
-      "privateSHA256": "5627cb3c01591f10a9b387d57ee1da889af7cf54d93676624c2bbadf9aac1d01",
-      "matchesReleased": false
+      "privateBytes": 14738055,
+      "privateSHA256": "1dcafb171c4ecbad160b3358b1339a2c86f87451722db25c493d8b9df64aa0a0",
+      "matchesReleased": true
     },
     {
       "name": "chapter1.bin",
       "releasedBytes": 23717,
       "releasedSHA256": "33814c0e591aa40928591cef8c44bc2ce63ddb74a79d21d3eee06a39f610915a",
       "releasedAssetRecoverable": true,
-      "privateBytes": 3694,
-      "privateSHA256": "1c3228448e996564ef178d1eeb5b345f3f3611e93776b2a62582bdd230224e3b",
-      "matchesReleased": false
+      "privateBytes": 23717,
+      "privateSHA256": "33814c0e591aa40928591cef8c44bc2ce63ddb74a79d21d3eee06a39f610915a",
+      "matchesReleased": true
     },
     {
       "name": "default.xbe",
       "releasedBytes": 12386304,
       "releasedSHA256": "9e2c14d9fda478453790093c685e2b012951c34966a0d164a3408d672d9f0809",
       "releasedAssetRecoverable": true,
-      "privateBytes": 12066816,
-      "privateSHA256": "f19bcf6c8b08d583923f3ba1e7d434c569595913823f296df57eede0a9a5c615",
+      "privateBytes": 12197888,
+      "privateSHA256": "e6c0cc80262a1a5e3f9ba42e47aa8c71cea6ac6fc73a0c4c8d2e1f8c0200104e",
       "matchesReleased": false
     },
     {
@@ -109,9 +109,9 @@
       "releasedBytes": 7075895,
       "releasedSHA256": "1b16a7b49fe1932291abb43bbe1fadb28e8ce7035a00d4a5a1b9fa0a583ff8fb",
       "releasedAssetRecoverable": true,
-      "privateBytes": 6934298,
-      "privateSHA256": "ca649f122b0864752b9531fea8e6966abaf26126fc13e7055769c98e54fb41ef",
-      "matchesReleased": false
+      "privateBytes": 7075895,
+      "privateSHA256": "1b16a7b49fe1932291abb43bbe1fadb28e8ce7035a00d4a5a1b9fa0a583ff8fb",
+      "matchesReleased": true
     },
     {
       "name": "npcs.bin",
@@ -127,9 +127,9 @@
       "releasedBytes": 28098643,
       "releasedSHA256": "51aeddd50a18016cc0da6e9ae7a240b820bf7881c308b6819e6fdad6f332c9db",
       "releasedAssetRecoverable": true,
-      "privateBytes": 27460634,
-      "privateSHA256": "a81358e822738ef403242a42df3dbb0d2741e63146d0a5f623e5bf626a6b1cd7",
-      "matchesReleased": false
+      "privateBytes": 28098643,
+      "privateSHA256": "51aeddd50a18016cc0da6e9ae7a240b820bf7881c308b6819e6fdad6f332c9db",
+      "matchesReleased": true
     },
     {
       "name": "scripts.bin",
@@ -145,9 +145,9 @@
       "releasedBytes": 7839013,
       "releasedSHA256": "7c715b4fb36a839391085252a97c931a00b0d3398e46c4620b277a2d8372c58f",
       "releasedAssetRecoverable": true,
-      "privateBytes": 1905853,
-      "privateSHA256": "3b18daf98ec4ef930854b366dca90401ab4551e3d45b873cfd8bde8087b593f0",
-      "matchesReleased": false
+      "privateBytes": 7839013,
+      "privateSHA256": "7c715b4fb36a839391085252a97c931a00b0d3398e46c4620b277a2d8372c58f",
+      "matchesReleased": true
     },
     {
       "name": "systems.bin",
@@ -179,11 +179,11 @@
   ],
   "sourceEvidence": {
     "openingReady": 0,
-    "typedScenes": 6,
+    "typedScenes": 12,
     "campaignStages": 36,
     "placeholderDirections": 33,
     "rosterEntries": 19,
-    "rosterSceneActorsPrepared": 2,
+    "rosterSceneActorsPrepared": 19,
     "worldMapCount": 495,
     "policyMapCount": 497,
     "privateLaterMapsLoadable": false

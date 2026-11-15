@@ -13,8 +13,8 @@
     },
     {
       "path": "Source/Makefile",
-      "bytes": 3161,
-      "sha256": "8c076d2baa0e7ea04358cad8c423262641c3ae8088aadd20971f8eca2e87f88b"
+      "bytes": 3193,
+      "sha256": "718556043e4091076bc443765e7dff3c1367816407260c986f655a8745d01f2e"
     },
     {
       "path": "Source/SOURCE-REFERENCES48.txt",
@@ -258,8 +258,8 @@
     },
     {
       "path": "Source/campaign_actor_data200.h",
-      "bytes": 54669,
-      "sha256": "f511117228dba1c231d52d21e95611009559336f4052cfa7b2de09c1ae8cc55f"
+      "bytes": 379491,
+      "sha256": "31664b6b2a342ce838061a8d337eeba08fb9b62a954fdefdf723d5c10c055547"
     },
     {
       "path": "Source/campaign_actor_render200.h",
@@ -283,8 +283,8 @@
     },
     {
       "path": "Source/campaign_companions200.h",
-      "bytes": 993,
-      "sha256": "1da57f893ba2325ae69a919c4519f9b14fae9faa4eac11d73ecd65add692fa1f"
+      "bytes": 909,
+      "sha256": "236c1e9e113ec9f1edc9e3572b3aefc7f543587e89ce3269c9decd43e5a85ca1"
     },
     {
       "path": "Source/campaign_data200.h",
@@ -323,8 +323,8 @@
     },
     {
       "path": "Source/campaign_portrait_data200.h",
-      "bytes": 1638,
-      "sha256": "0c85463c8af649c535054f9506c12f17c2c90472a752afb53282f8fd5a7275a0"
+      "bytes": 5103,
+      "sha256": "d2d02e6ffbe3aa6f93b86c22e617c70b0641afe9629ac19437175a49b7deef9f"
     },
     {
       "path": "Source/campaign_portrait_draw200.h",
@@ -338,8 +338,8 @@
     },
     {
       "path": "Source/campaign_scene200.h",
-      "bytes": 6375,
-      "sha256": "ea0e643a4030198c262e3d145f06ab19b86d044900716cf8a3204bed3f5bbd8c"
+      "bytes": 6739,
+      "sha256": "ee38d4fb30bea99c9788500ea1c006ee4ca00a9fc1fda4985e75d27db3f1f0dc"
     },
     {
       "path": "Source/campaign_scene_ui200.h",
@@ -408,8 +408,8 @@
     },
     {
       "path": "Source/chapter1_data200.h",
-      "bytes": 578,
-      "sha256": "56a9aded753f01690ee398ee938761cd4d798e69b56c558d8c272e05ec5c9397"
+      "bytes": 1559,
+      "sha256": "ab31ded5c1478c588a5cc1336d7c4523af51641e28615dda8ae9250acd4b8b45"
     },
     {
       "path": "Source/chapter2_gates200.h",
@@ -2203,8 +2203,8 @@
     },
     {
       "path": "Source/npc_effect_data172.h",
-      "bytes": 225374,
-      "sha256": "f6b634b2f6d657652074f9e9a21d25310f11c9e7eec7f9270d923f3db2d68bad"
+      "bytes": 235381,
+      "sha256": "8b919d9d7d7959c015514fb0068b9c421e7d59b58f0da24968c2d27dae4a166c"
     },
     {
       "path": "Source/npc_effect_draw172.h",
@@ -2348,8 +2348,8 @@
     },
     {
       "path": "Source/npc_portrait_data171.h",
-      "bytes": 13665,
-      "sha256": "e9e30db420888246f157b90577b468f8a26e78c5eb35871621c066ab1a0e91ce"
+      "bytes": 15159,
+      "sha256": "ff47316b92364e6a366f61452a89406e933774a96caa64833d435bcec7a743b5"
     },
     {
       "path": "Source/npc_portrait_draw171.h",
@@ -3602,6 +3602,11 @@
       "sha256": "ecd92f5bb1a53df88991c0d599511192d36ba6f54f346ea8b7b09bd0cea09ac4"
     },
     {
+      "path": "Source/test_content195.c",
+      "bytes": 3424,
+      "sha256": "ae445d23cf3436d7ac2b1681c1cfb6dbb9dadeeed94e90df8a90da6d40a4a128"
+    },
+    {
       "path": "Source/test_control24.c",
       "bytes": 4483,
       "sha256": "5866befd55c8dd83556774d5351b327866608f5275a5a3cdd888af0e74e9b1c1"
@@ -3995,6 +4000,11 @@
       "path": "Source/test_save_disk50.c",
       "bytes": 6857,
       "sha256": "b213fc866e00aa0737f399e4a1e65423d5ef6b864216bf1d5fcd47141c1dbd48"
+    },
+    {
+      "path": "Source/test_scenes195.c",
+      "bytes": 2099,
+      "sha256": "cd64b169f1c09231a4c55d78008600bbc105eb3cde7df0854d390cf7ecb6a0c3"
     },
     {
       "path": "Source/test_second_jobs43.c",
@@ -4682,6 +4692,11 @@
       "sha256": "69c01898b0066ba3a46ab4cf04f2c4000f1be240bf5746548d74316c2a455a8a"
     },
     {
+      "path": "Preparation/Current-Inputs195.json",
+      "bytes": 2703,
+      "sha256": "67b5e8a6ed277541474f5a34e2be2b3791aafe2bd3c394b4a63381b3c2adab4f"
+    },
+    {
       "path": "Preparation/Guild-Recovery194.json",
       "bytes": 4298,
       "sha256": "4c86bc40e8a45bd2e7ebd5de7d63a5390f60048b0ce9db5ed274b37c519e205e"
@@ -4703,8 +4718,8 @@
     },
     {
       "path": "Preparation/Private-Inputs194.json",
-      "bytes": 3330,
-      "sha256": "644f269cd737e6f2384fa21f779c1002a0cb5bc47e98128f6a364f153532777e"
+      "bytes": 3404,
+      "sha256": "ae7d5d704ebb917c065b0478a73a814319c3e73ca5ba777fa04e21a578b9d9d3"
     },
     {
       "path": "Preparation/Vendor-Recovery194.json",
@@ -4737,6 +4752,11 @@
       "sha256": "35287d98bed5a67fda77f8fc050d6ab95edce45acd630e5805d4a1e881b84011"
     },
     {
+      "path": "Preparation/check_content195.py",
+      "bytes": 1985,
+      "sha256": "1e3841e3d58aa25c57df25226df889114797c44cb0a9d7de66668c96d0f8295e"
+    },
+    {
       "path": "Preparation/check_hud194.py",
       "bytes": 2262,
       "sha256": "61baf36b2a6f4b7531748420ada4e1f41bfa25cc00575b0955c82a93ac61cad8"
@@ -4747,14 +4767,24 @@
       "sha256": "bdc330b6e1688bc5149ad886f2aebd57aec14db2291ed7c9a33a5d179e6cdd03"
     },
     {
+      "path": "Preparation/check_scenes195.py",
+      "bytes": 1098,
+      "sha256": "9a116abee5415094807bec44f84eae9af53345ae7cc766cc27b19597410a6b1a"
+    },
+    {
       "path": "Preparation/checkpoint_source194.py",
-      "bytes": 1333,
-      "sha256": "77bdfeb5c1a11902531ad0e2195ea49ab96b8aaa6afdd174120d34dfe0f36864"
+      "bytes": 1442,
+      "sha256": "6a5ac0771fa4b3293ed8121b99ccba0859143a74cdfb119a37a99c92831db350"
     },
     {
       "path": "Preparation/integrate_admission194.py",
       "bytes": 4800,
       "sha256": "11df479f87bb47ba080b2b0d9151ce38dbb30f48454d1a93fb63420dd60836a5"
+    },
+    {
+      "path": "Preparation/integrate_content195.py",
+      "bytes": 3921,
+      "sha256": "e376bae214923c81b906f69d231e248f55325ea87aeee5c35de695ba4008a2d6"
     },
     {
       "path": "Preparation/integrate_guild_ui194.py",
@@ -4772,6 +4802,11 @@
       "sha256": "918c3c3bcbeb9db1403f16093e52e73b273f28a0d6e0936e93bc4c3775050afe"
     },
     {
+      "path": "Preparation/recover_content195.py",
+      "bytes": 9062,
+      "sha256": "c0d45d664de6dce01b60eec1d2c8b6b4e3519bb68948dd0c4274dcab2a244a9d"
+    },
+    {
       "path": "Preparation/recover_guild_data194.py",
       "bytes": 2360,
       "sha256": "2b300d8a1164fcfca5efee475f79751f2268979665c9e9ffc2b15dfe82ecbd78"
@@ -4783,8 +4818,13 @@
     },
     {
       "path": "Preparation/summarize_normal_checks194.py",
-      "bytes": 2766,
-      "sha256": "25fa523b40292f246077bbee572752a2a9a18bd244d4c9f2d3074228e4ee59cc"
+      "bytes": 3055,
+      "sha256": "7237df60d2d66f03c3b0b2c3fc0d791fd347b403d9f459ee9f57ebe3ecfc7d6f"
+    },
+    {
+      "path": "Validation/Content-Checks195.json",
+      "bytes": 527,
+      "sha256": "502efddee05c15993f5fe583ba6f7c840da317b4fdffd4ca6a2759a82678c201"
     },
     {
       "path": "Validation/HUD-Checks194.json",
@@ -4799,17 +4839,17 @@
     {
       "path": "Validation/Native-Checks194.json",
       "bytes": 2054,
-      "sha256": "aaaecc8d4c6cab2771de422458354bfcfb48dcf41df3e4252a6f34b4d2bdb9d9"
+      "sha256": "9111ba5abfc545e5727dddff36c6da8e2be7df6c122220d3f0b65da752d2060c"
     },
     {
       "path": "Validation/Normal-Release-Checks194.json",
-      "bytes": 1880,
-      "sha256": "59f905ec7a884a66cbefe1dcceef226b2c137d4ff06e33a1e16f1e9b8d9887a7"
+      "bytes": 2183,
+      "sha256": "07436a9b479f26db0705368c1b596e43386a7585f156d156204a5d533d980b28"
     },
     {
       "path": "Validation/Release-Inputs194.json",
-      "bytes": 7508,
-      "sha256": "2e9859c140de343bcacdd628dd1f20eedeb37caaf3d48ec32be6bcc62316123c"
+      "bytes": 7507,
+      "sha256": "c20bb442d4c2031557eab3adfe24a9ab4775e75896134cab433c88bc41b07b4b"
     },
     {
       "path": "Validation/SDK-Checks194.json",
@@ -4817,9 +4857,29 @@
       "sha256": "76af9de13f87f8c05f77336879413cbce3014e8fdca3ac04927f98c7f35cc5e0"
     },
     {
+      "path": "Validation/Scene-Checks195.json",
+      "bytes": 479,
+      "sha256": "5d35682863d8d4cd57dcfcbe18f793b7766f0865b493f4510ae81780d7e54bea"
+    },
+    {
+      "path": "Validation/actual_sprite195.inc",
+      "bytes": 2477,
+      "sha256": "1a2f97a5069ee621caa79af7aa5c0f06c0794d93c2c690a5ef161e713ab7326a"
+    },
+    {
       "path": "Validation/actual_wrap194.inc",
       "bytes": 1400,
       "sha256": "026327e753b3f2cfe1ba438398932992997fd4017f77991844d718fdbba61df2"
+    },
+    {
+      "path": "Validation/content-checks195.log",
+      "bytes": 678,
+      "sha256": "88e3d94a1adf5c7973b8baa6598ed05fbe08097bab7d5640e504133b59658611"
+    },
+    {
+      "path": "Validation/content-recovery195.log",
+      "bytes": 364,
+      "sha256": "b157e4391c5eeff2cd034db11e171c0861a135cbc4e1da82fe62e82fdb060f5a"
     },
     {
       "path": "Validation/formats194.log",
@@ -4852,12 +4912,27 @@
       "sha256": "7712c520f7c95adab4e670c57a779e6528c734552683e1f03411a7497db9152a"
     },
     {
+      "path": "Validation/integration-run195.log",
+      "bytes": 1102,
+      "sha256": "7712c520f7c95adab4e670c57a779e6528c734552683e1f03411a7497db9152a"
+    },
+    {
       "path": "Validation/native-guards194.log",
       "bytes": 2054,
       "sha256": "aaaecc8d4c6cab2771de422458354bfcfb48dcf41df3e4252a6f34b4d2bdb9d9"
     },
     {
+      "path": "Validation/native-guards195.log",
+      "bytes": 2054,
+      "sha256": "9111ba5abfc545e5727dddff36c6da8e2be7df6c122220d3f0b65da752d2060c"
+    },
+    {
       "path": "Validation/native-recovery194.log",
+      "bytes": 612,
+      "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
+    },
+    {
+      "path": "Validation/native-recovery195.log",
       "bytes": 612,
       "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
     },
@@ -4872,14 +4947,29 @@
       "sha256": "84852b9885060322779d977231812f3d69173ec2bf7be71c09478517aa1e0011"
     },
     {
+      "path": "Validation/portrait_crc195.h",
+      "bytes": 3124,
+      "sha256": "7cae327701d83130588b4f5ae8513d7b7b4710dc46be4023c8b44c19a6542171"
+    },
+    {
       "path": "Validation/release-inputs194.log",
       "bytes": 447,
       "sha256": "a90fbcde3642143c8b148b8022913147dd6d3bb22c48591597b315d1f65b01c7"
     },
     {
+      "path": "Validation/release-inputs195.log",
+      "bytes": 345,
+      "sha256": "2ac7a9415e07c407b43c1a4bb09baf9d923a6460cb1693a48c2c38f380f09ecc"
+    },
+    {
       "path": "Validation/released_guild_fixture194.h",
       "bytes": 248,
       "sha256": "153e5ab0a11e238e2245fbd1f8b97f234b4b43465b332508246e41e00f7f9ef2"
+    },
+    {
+      "path": "Validation/scenes195.log",
+      "bytes": 158,
+      "sha256": "31a71c2368a2bcd69fb93158711ed7aa19757b3215385f956fff31ace9cc4ec0"
     },
     {
       "path": "Validation/sdk194.log",
@@ -4897,14 +4987,29 @@
       "sha256": "7f72e1ee4b3819ac37eebf87dfd7eb069861eed05c1b81e03ddf46d36c79a4e4"
     },
     {
+      "path": "Recovered195/chapter1_data200.h",
+      "bytes": 1559,
+      "sha256": "ab31ded5c1478c588a5cc1336d7c4523af51641e28615dda8ae9250acd4b8b45"
+    },
+    {
+      "path": "Recovered195/content-recovery195.json",
+      "bytes": 3276766,
+      "sha256": "3ca4106e2ee91e63aaf42592830b4b1b5f219c8a75b5586c1983bbb226b83740"
+    },
+    {
       "path": "STATUS.md",
-      "bytes": 8611,
-      "sha256": "9bd228b8d92dcddf9e38746e27bb0125f56e71e37efc487044ebaa8c22e6f1af"
+      "bytes": 10575,
+      "sha256": "5dbe9c452c716db76aec095ece6facb993198c89e1f0702841f3bc7ec2462e54"
     },
     {
       "path": "RELEASE-GATES.md",
-      "bytes": 7841,
-      "sha256": "f174cf6aa0c20e6181bb66e772cba501835dd0c3e12e29f4d4778c66abbd454f"
+      "bytes": 8218,
+      "sha256": "d8420b18b66caa3b03b8d4d88a2a7448bbf3729badc3c45aaa27f55684fecf01"
+    },
+    {
+      "path": "WORK-REMAINING.md",
+      "bytes": 7140,
+      "sha256": "ad099e0e47b982cae45bd238b5ae12e6a296660e034422a3d4ae2e3df62eee36"
     }
   ]
 }

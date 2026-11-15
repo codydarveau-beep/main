@@ -1,0 +1,17 @@
+{
+  "matches": 18,
+  "different": [
+    "default.xbe"
+  ],
+  "sourceEvidence": {
+    "openingReady": 0,
+    "typedScenes": 12,
+    "campaignStages": 36,
+    "placeholderDirections": 33,
+    "rosterEntries": 19,
+    "rosterSceneActorsPrepared": 19,
+    "worldMapCount": 495,
+    "policyMapCount": 497,
+    "privateLaterMapsLoadable": false
+  }
+}

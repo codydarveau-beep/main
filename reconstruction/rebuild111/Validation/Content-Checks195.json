@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "actorSources": 45,
+  "actorPoses": 9352,
+  "npcEffectFrames": 4505,
+  "npcEffectClips": 168,
+  "npcPortraits": 262,
+  "storyExpressions": 90,
+  "rosterMappings": 19,
+  "sourceSpriteReaderSHA256": "1a2f97a5069ee621caa79af7aa5c0f06c0794d93c2c690a5ef161e713ab7326a",
+  "scope": "Actual production readers, complete restored catalogs, CRC/bounds and failed-read/corruption checks under ASan/UBSan/leak checks. No native/Xbox/Xemu execution. Four visible sprite slots retained.",
+  "storyActivation": false
+}

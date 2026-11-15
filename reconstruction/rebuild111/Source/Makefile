@@ -49,18 +49,18 @@ $(GEN_XISO): $(OUTPUT_DIR)/itemicons.bin
 all: $(OUTPUT_DIR)/npcs.bin $(OUTPUT_DIR)/scripts.bin
 $(OUTPUT_DIR)/npcs.bin: $(CURDIR)/../NPCs/npcs.bin
 	cp "$<" "$@"
-$(OUTPUT_DIR)/scripts.bin: $(CURDIR)/../Scripts/scripts.bin
+$(OUTPUT_DIR)/scripts.bin: $(CURDIR)/../../packet194/released-scripts.bin
 	cp "$<" "$@"
 
 $(GEN_XISO): $(OUTPUT_DIR)/npcs.bin $(OUTPUT_DIR)/scripts.bin
 
 all: $(OUTPUT_DIR)/portraits.bin
-$(OUTPUT_DIR)/portraits.bin: $(CURDIR)/../Presentation/portraits.bin
+$(OUTPUT_DIR)/portraits.bin: $(CURDIR)/../Recovered195/portraits.bin
 	cp "$<" "$@"
 $(GEN_XISO): $(OUTPUT_DIR)/portraits.bin
 
 all: $(OUTPUT_DIR)/npcfx.bin
-$(OUTPUT_DIR)/npcfx.bin: $(CURDIR)/../Presentation/npcfx.bin
+$(OUTPUT_DIR)/npcfx.bin: $(CURDIR)/../Recovered195/npcfx.bin
 	cp "$<" "$@"
 $(GEN_XISO): $(OUTPUT_DIR)/npcfx.bin
 
@@ -75,7 +75,7 @@ $(OUTPUT_DIR)/water.bin: $(CURDIR)/../Water/water.bin
 $(GEN_XISO): $(OUTPUT_DIR)/water.bin
 
 all: $(OUTPUT_DIR)/chapter1.bin
-$(OUTPUT_DIR)/chapter1.bin: $(CURDIR)/../Campaign/chapter1-scenes.bin
+$(OUTPUT_DIR)/chapter1.bin: $(CURDIR)/../Recovered195/chapter1.bin
 	cp "$<" "$@"
 $(GEN_XISO): $(OUTPUT_DIR)/chapter1.bin
 
@@ -84,15 +84,15 @@ $(OUTPUT_DIR)/minimaps.bin: $(CURDIR)/../Interface/minimaps.bin
 	cp "$<" "$@"
 $(GEN_XISO): $(OUTPUT_DIR)/minimaps.bin
 
-ifneq ($(wildcard $(CURDIR)/../Campaign/actors.bin),)
+ifneq ($(wildcard $(CURDIR)/../Recovered195/campaign.bin),)
 all: $(OUTPUT_DIR)/campaign.bin
-$(OUTPUT_DIR)/campaign.bin: $(CURDIR)/../Campaign/actors.bin
+$(OUTPUT_DIR)/campaign.bin: $(CURDIR)/../Recovered195/campaign.bin
 	cp "$<" "$@"
 $(GEN_XISO): $(OUTPUT_DIR)/campaign.bin
 endif
 
 # One disc-loaded campaign portrait at a time; no complete expression bank in RAM.
 all: $(OUTPUT_DIR)/storyportraits.bin
-$(OUTPUT_DIR)/storyportraits.bin: $(CURDIR)/../Campaign/portraits.bin
+$(OUTPUT_DIR)/storyportraits.bin: $(CURDIR)/../Recovered195/storyportraits.bin
 	cp "$<" "$@"
 $(GEN_XISO): $(OUTPUT_DIR)/storyportraits.bin
