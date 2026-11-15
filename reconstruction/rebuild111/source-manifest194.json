@@ -5268,8 +5268,8 @@
     },
     {
       "path": "Validation/Companion-Runtime-Checks200.json",
-      "bytes": 1206,
-      "sha256": "3dd5063fce26aa6334f3b171a0cec46ee558b0849796189e2a4183b2e852bcba"
+      "bytes": 1209,
+      "sha256": "ab8be7cfec2dbb04befa5613390687b437633fb8a278a40c868a5b838543e0f1"
     },
     {
       "path": "Validation/Companion-Skill-Checks201.json",
