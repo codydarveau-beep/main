@@ -1,0 +1,84 @@
+{
+  "nativeCompiled": true,
+  "title": "MyRO v1.11.0 RECOVERY",
+  "xbeBytes": 12066816,
+  "xbeSHA256": "288247fb9f8ad652004b945233f6e151722cc0af56ffc8519ef160c10789a628",
+  "stackReserve": 163840,
+  "knownChains": [
+    {
+      "frames": {
+        "main": 54844,
+        "save_commit": 48,
+        "save_scan": 4,
+        "save_decode": 36,
+        "save_valid": 92
+      },
+      "bytes": 55024,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 54844,
+        "mp3dec_decode_frame": 17008
+      },
+      "bytes": 71852,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 54844,
+        "npc_player_command55": 2148,
+        "npc_runtime_call55": 4508,
+        "world_script_warp55": 47836
+      },
+      "bytes": 109336,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 54844,
+        "guild_world_visit194": 132,
+        "world_script_warp55": 47836
+      },
+      "bytes": 102812,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 54844,
+        "regional_world_visit194": 132,
+        "world_script_warp55": 47836
+      },
+      "bytes": 102812,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 54844,
+        "world_test_warp": 47788
+      },
+      "bytes": 102632,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 54844,
+        "frontend_run56": 2956,
+        "frontend_fade56": 16412
+      },
+      "bytes": 74212,
+      "margin": 32768
+    }
+  ],
+  "unsupportedLroundReference": false,
+  "boundedRoundingPassed": true,
+  "legacySDKHarness": "Could not compile: stale fixture interfaces; see sdk194.log. No full legacy HUD pass claimed.",
+  "warnings": [
+    "Ignored trigraph in inherited NPC text",
+    "Linker .edata merge warning"
+  ],
+  "scope": "Private native compile/link and conservative known stack nesting plus 32KiB margin; not exhaustive stack analysis, hardware RAM measurement or Xbox/Xemu playtest",
+  "additionalReviewPassesCompleted": 0,
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false
+}

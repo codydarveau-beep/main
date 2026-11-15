@@ -29,7 +29,9 @@ These are host checks, not native execution, Xbox RAM/FPS measurements, or Xemu 
 
 ## Current gates
 
-Native compilation has not yet been completed. Both additional review passes remain pending and are not counted by the host tests above. No ISO/ZIP patch has been produced.
+The private Xbox target compiled and linked successfully with nxdk (`Validation/native-recovery194.log`). Its certificate title is `MyRO v1.11.0 RECOVERY`. Native artifact guards verify the PE/XBE 160 KiB stack reserve, conservative known save/decode/travel/UI nesting plus a 32 KiB margin, bounded UI rounding with the actual SDK stub, and no `lroundf` reference in native main.obj (`Validation/Native-Checks194.json`). These guards are not exhaustive stack analysis or 64 MB hardware residency proof. The build recovered the original symlinked vendor headers and added an empty water entry for the new dry guild room; all original water rows remain unchanged.
+
+The older broad SDK/HUD harness cannot compile against current interfaces; its failed attempt is retained in `Validation/sdk194.log`. No full legacy HUD pass is claimed. Both additional review passes remain **pending (0/2)**. Normal release-wide integration remains incomplete because of the recovery/parity limits below and the stale broad harness; neither review pass has begun. No ISO/ZIP patch has been produced. The private executable is a local build artifact and has not been published as a playable release.
 
 The retained opening-ready gate remains **0**. The earlier source has six typed scenes; the packet's twelve-scene release ceiling is not permission to enable missing scenes or claim the full campaign. Private source-matching content inputs are recorded in `Preparation/Private-Inputs194.json`; they are not represented as the complete released 1.10.0 runtime. Public 1.11.0 packaging must accept only the exact released 1.10.0 baseline.
 

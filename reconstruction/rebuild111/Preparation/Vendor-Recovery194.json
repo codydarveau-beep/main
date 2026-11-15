@@ -1,0 +1,10 @@
+{
+  "source": "Dereferenced preserved vendor symlink from the earlier source tree",
+  "files": [
+    {
+      "file": "vendor/minimp3.h",
+      "source": "/workspace/myro/hotfix183/Source/vendor/minimp3.h",
+      "sha256": "57e437c5c1f0e8b243885d3929c8973b5e6c778451e0100ab4251d19915cb3ad"
+    }
+  ]
+}
