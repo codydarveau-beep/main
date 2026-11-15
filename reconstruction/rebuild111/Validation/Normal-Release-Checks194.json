@@ -37,6 +37,16 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original targeted specialist impacts, costs and repeats",
+      "status": "passed",
+      "evidence": "Companion-Specialist-Impact-Checks209.json"
+    },
+    {
+      "name": "actual specialist impact and durable payment integration",
+      "status": "passed",
+      "evidence": "Companion-Specialist-Integration-Checks209.json"
+    },
+    {
       "name": "original basic/Bash impacts and learned attack/evasion passives",
       "status": "passed",
       "evidence": "Companion-Basic-Impact-Checks208.json"

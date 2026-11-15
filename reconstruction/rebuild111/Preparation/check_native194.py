@@ -14,6 +14,7 @@ chains += [['main','party_gain_award200','party_progress_load200'],['main','part
 chains += [['main','party_resolve200','party_save_vital200','party_vital_store200','party_progress_commit200']]
 chains += [['main','combat_fields_tick','party_wizard_hit194','party_apply_damage205','combat_reward','campaign_killed200','party_gain_award200','party_progress_commit200']]
 chains += [['main','party_resolve200','party_basic_step208','party_hit200','party_apply_damage205','combat_reward','campaign_killed200','party_gain_award200','party_progress_commit200']]
+chains += [['main','party_resolve200','party_specialist_step209','party_hit200','party_apply_damage205','combat_reward','campaign_killed200','party_gain_award200','party_progress_commit200'],['main','party_resolve200','party_specialist_step209','party_specialist_after209','combat_knockback']]
 checks=[]
 for chain in chains:
  frames={n:u[n] for n in chain};total=sum(frames.values());assert total+32768<=reserve,(frames,total,reserve);checks.append(dict(frames=frames,bytes=total,margin=32768))
