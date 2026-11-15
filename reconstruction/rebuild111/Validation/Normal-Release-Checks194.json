@@ -37,6 +37,11 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original first-pair caller fees and starting-technique rank across promotions",
+      "status": "passed",
+      "evidence": "Companion-Legacy-Cast-Checks206.json"
+    },
+    {
       "name": "original companion field damage, own-level status resistance and effects",
       "status": "passed",
       "evidence": "Companion-Wizard-Checks205.json"

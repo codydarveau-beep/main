@@ -283,8 +283,8 @@
     },
     {
       "path": "Source/campaign_battle200.h",
-      "bytes": 24061,
-      "sha256": "6d9ce350499664c194a0cb981cc7e6cf3025b207e1fc3bc9fe357cc79ad52041"
+      "bytes": 24172,
+      "sha256": "cb91d6d22594bae566cbe21952c94b1929d28e0dc67fe3ece2d0a51cfdbf1bda"
     },
     {
       "path": "Source/campaign_career200.h",
@@ -3823,8 +3823,8 @@
     },
     {
       "path": "Source/test_companion_skills201.c",
-      "bytes": 4393,
-      "sha256": "5ebbdd69467e9c5e52d302e97a9ac4e648a583608bdb6ff1cc982f6ca196b6f5"
+      "bytes": 4702,
+      "sha256": "f7402233f20b7b0b6d916b54cac9e93a3dcd4725217f9548c550bf856b6e93d8"
     },
     {
       "path": "Source/test_companion_wizard205.c",
@@ -5103,8 +5103,8 @@
     },
     {
       "path": "Preparation/check_companion_cast201.py",
-      "bytes": 1379,
-      "sha256": "7db7b58c673e5753c9dd5bc30143e6a6cfd43214c5c94f1e34cacb60ee8c55e2"
+      "bytes": 1420,
+      "sha256": "b6ede7b4d7e84f0bd7d6bf995a337fddfc2b80b4242b77868d613dbce3d581f2"
     },
     {
       "path": "Preparation/check_companion_element204.py",
@@ -5115,6 +5115,11 @@
       "path": "Preparation/check_companion_experience200.py",
       "bytes": 4664,
       "sha256": "dfb00ce4fc5da06988c9a4e98b88fa94692c083d44890ef53c9b46a65db68253"
+    },
+    {
+      "path": "Preparation/check_companion_legacy_cast206.py",
+      "bytes": 4422,
+      "sha256": "e916957f5df4e6c4a615e40ccca65160e14adb7b711a8deb366620138e898f95"
     },
     {
       "path": "Preparation/check_companion_mage204.py",
@@ -5322,6 +5327,11 @@
       "sha256": "1349ba5ece792dd8aed6a87bb7465331dbaee92898f93aa8bb85c70b99d051f6"
     },
     {
+      "path": "Preparation/recover_native_document207.py",
+      "bytes": 1573,
+      "sha256": "c7379305161fddb7da1d56a00ae429262c2ce8c8c0d344eb0689902a6a965d78"
+    },
+    {
       "path": "Preparation/recover_stage_proof_data198.py",
       "bytes": 1792,
       "sha256": "1833eb6e36f26f8f5f651c46aff58ee5b0cdedff18d4b29bf393e7bf38a07a48"
@@ -5353,8 +5363,8 @@
     },
     {
       "path": "Preparation/summarize_normal_checks194.py",
-      "bytes": 5878,
-      "sha256": "df6ed953303941da0097cd709f31b29d4a10be65d4b5f177ac13249eead964c2"
+      "bytes": 5999,
+      "sha256": "c8bf05bbb1be6652d9683cbaf9cdf968c3a1be1d599f5e2a57897ae9aff7bc96"
     },
     {
       "path": "Validation/Arcade-Logic-Checks197.json",
@@ -5388,8 +5398,8 @@
     },
     {
       "path": "Validation/Companion-Cast-Checks201.json",
-      "bytes": 515,
-      "sha256": "2216cb9c38022c8f1747fe8a0ae02fc566f6fac14fb5cf57aa41c2ada3082900"
+      "bytes": 556,
+      "sha256": "d028ea2ddb5e4cf1307fa898d4097b0a3190bc31c1b1f0cb0a8ea71f5fa807d5"
     },
     {
       "path": "Validation/Companion-Cost-Checks201.json",
@@ -5405,6 +5415,11 @@
       "path": "Validation/Companion-Experience-Checks200.json",
       "bytes": 530,
       "sha256": "c738bc31dd21030fbec80b81783dfa2ef539b9cee815acab57bee1766010e763"
+    },
+    {
+      "path": "Validation/Companion-Legacy-Cast-Checks206.json",
+      "bytes": 439,
+      "sha256": "7da7553be256be4f58c4233276686bb21e0301afc28e2f8e1c2c144bccda246c"
     },
     {
       "path": "Validation/Companion-Mage-Checks204.json",
@@ -5504,7 +5519,7 @@
     {
       "path": "Validation/Native-Checks194.json",
       "bytes": 4136,
-      "sha256": "a6575843631d35a0548808687ae9b9f0ca060c72c2d55442a8e0020e3e2d21aa"
+      "sha256": "47e35548fe3d78bd2615e66e0cb40790a3d020ac1fa0582ba20bb6d4b7c2c236"
     },
     {
       "path": "Validation/Native-Decompile203/callback-668c0.c",
@@ -5637,6 +5652,11 @@
       "sha256": "65958f4f001e1be6ed806ae3e306b0969b5faf579075817f7faf14963f35c24b"
     },
     {
+      "path": "Validation/Native-Decompile203/document207.log",
+      "bytes": 4918,
+      "sha256": "35976276de0bdfe07585ecea0fd20a0384d97fc2ffff2d9cde882307b4973371"
+    },
+    {
       "path": "Validation/Native-Decompile203/native-111490.c",
       "bytes": 36709,
       "sha256": "70699dde3c961a1bf4ac740180c4e32994dddf312da7ca40b56d468e47a8ae6e"
@@ -5693,8 +5713,8 @@
     },
     {
       "path": "Validation/Normal-Release-Checks194.json",
-      "bytes": 6788,
-      "sha256": "7fd5534e13af1f7bd01f56077b401c424913262e69f3fac37e629347a23dadc2"
+      "bytes": 6979,
+      "sha256": "8e6760ac754619e7705ec69469f7effccc8cce3fcf9b3a07694efc803bc1471d"
     },
     {
       "path": "Validation/Release-Inputs194.json",
@@ -5852,6 +5872,11 @@
       "sha256": "5dedc61750eb04e3f0d2bf3ab6cb2c380cc3859918b4c61f53a0e67d33ee446b"
     },
     {
+      "path": "Validation/companion-cast-regression206.log",
+      "bytes": 81,
+      "sha256": "5dedc61750eb04e3f0d2bf3ab6cb2c380cc3859918b4c61f53a0e67d33ee446b"
+    },
+    {
       "path": "Validation/companion-cast-run201.log",
       "bytes": 81,
       "sha256": "5dedc61750eb04e3f0d2bf3ab6cb2c380cc3859918b4c61f53a0e67d33ee446b"
@@ -5880,6 +5905,16 @@
       "path": "Validation/companion-experience200.log",
       "bytes": 810,
       "sha256": "6c89411828fbcce9a17599c79a776cd2b5e003160a4dba3319b2ddeb279fbe9d"
+    },
+    {
+      "path": "Validation/companion-legacy-cast-failure206.log",
+      "bytes": 1642,
+      "sha256": "8f5f0218161962f944056d5401cfb83e0650abb06a8bb3d7307b6d1c7257c49b"
+    },
+    {
+      "path": "Validation/companion-legacy-cast206.log",
+      "bytes": 72,
+      "sha256": "b0a3e5ba6c0e8576b1e0f4aa5331bfe22170351468a7877103d4700dcb1d8e9a"
     },
     {
       "path": "Validation/companion-mage-regression205.log",
@@ -6000,6 +6035,11 @@
       "path": "Validation/companion_exp_adapter200.c",
       "bytes": 340,
       "sha256": "70a68eb597365a1001db0d3f17542257f7e6337d061a33b124c6fc360212095d"
+    },
+    {
+      "path": "Validation/companion_legacy_cast_adapter206.c",
+      "bytes": 1174,
+      "sha256": "9efef49ea3ac5f1e7d60f684076a3f8fe13863b449d115ab4366e825fb2768e8"
     },
     {
       "path": "Validation/companion_multipliers_adapter203.c",
@@ -6215,6 +6255,16 @@
       "path": "Validation/later-stage-discovery197.json",
       "bytes": 17533,
       "sha256": "8e0b6a657fb44f232c5f7ba96049cc2625bbd76ecebde213c01c9873b4ad9c7e"
+    },
+    {
+      "path": "Validation/native-caller-guards206.log",
+      "bytes": 4136,
+      "sha256": "47e35548fe3d78bd2615e66e0cb40790a3d020ac1fa0582ba20bb6d4b7c2c236"
+    },
+    {
+      "path": "Validation/native-caller206.log",
+      "bytes": 612,
+      "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
     },
     {
       "path": "Validation/native-element-guards204.log",
@@ -6738,8 +6788,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 35131,
-      "sha256": "cd6c394626af8aad49aa9230ba51d716de5d17f48611129e77a03addf5542070"
+      "bytes": 36283,
+      "sha256": "79bbd1a7fd5dc4fe2e7fd16b66576393bf2d5b8bcb35b8e8ca74499c1fc04bd9"
     },
     {
       "path": "RELEASE-GATES.md",
