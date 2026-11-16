@@ -6102,6 +6102,11 @@
       "sha256": "1041fe271b024ae97afcd6c9e1519b083ff5cfa70749025f4a8457f10023598d"
     },
     {
+      "path": "Validation/Commit-Cleanup249.json",
+      "bytes": 3745,
+      "sha256": "42cc729d5c93ed6337e0d39fe622103157cece7323489a0484301850f63aaeb8"
+    },
+    {
       "path": "Validation/Companion-Archer-Cast-Checks212.json",
       "bytes": 679,
       "sha256": "b6aad47dc29a7f84dcdaa5a96fed17cb5f4a1c168826044158f86e2ee7a0e370"
@@ -7040,6 +7045,11 @@
       "path": "Validation/campaign_save_adapter228.c",
       "bytes": 1985,
       "sha256": "d56008768ccd639d12c8e335b7f57e5bfbafbf71a372b054c2fa4fb41d6a91b0"
+    },
+    {
+      "path": "Validation/checkpoint-cleanup249.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "path": "Validation/companion-archer-cast-regression213.log",

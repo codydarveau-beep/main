@@ -1,0 +1,168 @@
+{
+  "completedUTC": "2026-11-16T18:45:18.724845+00:00",
+  "removedReproducibleHostFiles": [
+    {
+      "path": "Validation/companion_power202.so",
+      "bytes": 1960936
+    },
+    {
+      "path": "Validation/companion_paths200.so",
+      "bytes": 109968
+    },
+    {
+      "path": "Validation/campaign-upload246_asan",
+      "bytes": 1941912
+    },
+    {
+      "path": "Validation/companion_bolt204.so",
+      "bytes": 90384
+    },
+    {
+      "path": "Validation/encounter198.so",
+      "bytes": 19416
+    },
+    {
+      "path": "Validation/companion_blacksmith217.so",
+      "bytes": 2279848
+    },
+    {
+      "path": "Validation/companion_specialist209.so",
+      "bytes": 287720
+    },
+    {
+      "path": "Validation/companion_spell_class204.so",
+      "bytes": 15040
+    },
+    {
+      "path": "Validation/companion_basic208.so",
+      "bytes": 1978552
+    },
+    {
+      "path": "Validation/companion_monk220.so",
+      "bytes": 2287824
+    },
+    {
+      "path": "Validation/companion_multipliers203.so",
+      "bytes": 15144
+    },
+    {
+      "path": "Validation/session-review245_asan",
+      "bytes": 22288272
+    },
+    {
+      "path": "Validation/companion_legacy_cast206.so",
+      "bytes": 2954784
+    },
+    {
+      "path": "Validation/campaign_reach236.so",
+      "bytes": 1663320
+    },
+    {
+      "path": "Validation/companion_archer212.so",
+      "bytes": 2062032
+    },
+    {
+      "path": "Validation/scene_emote225.so",
+      "bytes": 3794128
+    },
+    {
+      "path": "Validation/scene_poll200.so",
+      "bytes": 16112
+    },
+    {
+      "path": "Validation/companion_wizard205.so",
+      "bytes": 2915744
+    },
+    {
+      "path": "Validation/companion_skills201.so",
+      "bytes": 199928
+    },
+    {
+      "path": "Validation/stage_rules198.so",
+      "bytes": 28712
+    },
+    {
+      "path": "Validation/companion_art200.so",
+      "bytes": 15144
+    },
+    {
+      "path": "Validation/companion_potion215.so",
+      "bytes": 2180160
+    },
+    {
+      "path": "Validation/companion_gunner219.so",
+      "bytes": 2283728
+    },
+    {
+      "path": "Validation/companion_heal_target214.so",
+      "bytes": 15608
+    },
+    {
+      "path": "Validation/companion_bolt_choice204.so",
+      "bytes": 183240
+    },
+    {
+      "path": "Validation/companion_taekwon221.so",
+      "bytes": 2283776
+    },
+    {
+      "path": "Validation/companion_performer216.so",
+      "bytes": 2234280
+    },
+    {
+      "path": "Validation/arcade_recovered197.o",
+      "bytes": 18076
+    },
+    {
+      "path": "Validation/companion_element204.so",
+      "bytes": 15040
+    },
+    {
+      "path": "Validation/companion_pip214.so",
+      "bytes": 37336
+    },
+    {
+      "path": "Validation/companion_rogue218.so",
+      "bytes": 2283728
+    },
+    {
+      "path": "Validation/campaign_document207.so",
+      "bytes": 29192
+    },
+    {
+      "path": "Validation/companion_wire200.so",
+      "bytes": 15368
+    },
+    {
+      "path": "Validation/companion_wizard_cast205.so",
+      "bytes": 176512
+    },
+    {
+      "path": "Validation/companion_melee213.so",
+      "bytes": 2062072
+    },
+    {
+      "path": "Validation/campaign_save228.so",
+      "bytes": 3772368
+    },
+    {
+      "path": "Validation/companion_envenom213.so",
+      "bytes": 2088936
+    },
+    {
+      "path": "Validation/companion_exp200.so",
+      "bytes": 114744
+    }
+  ],
+  "freedBytes": 66719084,
+  "freeBytesAfter": 2902044672,
+  "preserved": [
+    "all source and assets",
+    "all validation source/logs/reports",
+    "current native Xbox executable, PE and stack metadata",
+    "all registered Git objects and references",
+    "released baseline ISO",
+    "immutable developer archives and published downloads"
+  ],
+  "packagingPaused": true
+}
