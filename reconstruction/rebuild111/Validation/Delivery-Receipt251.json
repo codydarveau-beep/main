@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "url": "https://github.com/codydarveau-beep/main/raw/refs/heads/ragnarok-1.11.0-download/MyRO-1.11.0-Update.zip",
+  "bytes": 6847916,
+  "sha256": "b2ac49ea55fdc240235dca8ecfcbfe7f20b61715cfa11990e0f2e910cb1095fa",
+  "independentRemoteDownloadVerified": true,
+  "sourceBranch": "recovery/ragnarok-1.11.0-inventory",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false
+}
