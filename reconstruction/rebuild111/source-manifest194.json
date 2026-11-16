@@ -5107,6 +5107,11 @@
       "sha256": "06a688697a440bbe212d174a23cc6f274745d099a4cbdd40e545e975b4fb2ef4"
     },
     {
+      "path": "Preparation/Developer-Benchmark217.md",
+      "bytes": 4372,
+      "sha256": "2d164dd5be76c7bb94f8b34bba0950593c05e0739a5efe4a0ef968f9d16f737d"
+    },
+    {
       "path": "Preparation/Development-Resume215.md",
       "bytes": 3144,
       "sha256": "73db8042a108d7424bc67a817d853e133955dbb6b327a4744f9c97ebb0ef6611"
@@ -5202,6 +5207,11 @@
       "sha256": "2807c0315d0387b953134415f6fdd822f6a9d4c6907f94e75332ac1b4efd6cc1"
     },
     {
+      "path": "Preparation/build_developer_savepoint217.py",
+      "bytes": 7532,
+      "sha256": "d9b3c366983262fb8b98adce504615198d6842c30cada0ae8e4dab9634076134"
+    },
+    {
       "path": "Preparation/build_policy194.py",
       "bytes": 6254,
       "sha256": "e49c7b298e37f85469838e016393a556e1ff1c8ade69f61831ea414e91681148"
@@ -5263,8 +5273,8 @@
     },
     {
       "path": "Preparation/check_companion_blacksmith_impact217.py",
-      "bytes": 4854,
-      "sha256": "94feb493fdcd0b4a7fa017571fc7f71b949f1df9cac30493ad73297319ddaf08"
+      "bytes": 5087,
+      "sha256": "1d15b663bf3489e27d8887f27e49e479fcfb059f4f833df5c601bda1b93f0e45"
     },
     {
       "path": "Preparation/check_companion_blacksmith_integration217.py",
@@ -5657,6 +5667,11 @@
       "sha256": "600a91e7a6d493180ec7fd4f141acb54de5af993c9c1ed04ac241628e8092bf9"
     },
     {
+      "path": "Preparation/run_developer_benchmark217.py",
+      "bytes": 4505,
+      "sha256": "84ade7ec7e5fc283151dbe45807d34cdecee1b694e9b0a3037b8b6906381a7ae"
+    },
+    {
       "path": "Preparation/summarize_normal_checks194.py",
       "bytes": 9036,
       "sha256": "f77826ee57b8e3f1ffe7b56d1d5abe1bcafd9be193c4e36fc0096df5be6af309"
@@ -5718,8 +5733,8 @@
     },
     {
       "path": "Validation/Companion-Blacksmith-Impact-Checks217.json",
-      "bytes": 626,
-      "sha256": "490118d35f69f85592c9402ddf6a85abf2be16a396e26eb042abc530f683a051"
+      "bytes": 753,
+      "sha256": "984cdcfd8c25ff4e4f198e94d42703633e8038cd82f09bf5391422fcd9c2e5e9"
     },
     {
       "path": "Validation/Companion-Blacksmith-Integration-Checks217.json",
@@ -5942,6 +5957,11 @@
       "sha256": "1e8a98b72a0a96a0ac7e1cf1341f1d113874045ddd84ee2163be40ebd68aac9f"
     },
     {
+      "path": "Validation/Developer-Benchmark217.json",
+      "bytes": 134375,
+      "sha256": "d446bbe2ce6a043288f6f807ba17347934158c687983f130f01aef309a0b4860"
+    },
+    {
       "path": "Validation/Developer-Savepoint-Receipt214.json",
       "bytes": 8696,
       "sha256": "a14ebabd10a14bc1cc623706125c57ba535aa3f2bb7122c1ec48246bce31e5c8"
@@ -5973,8 +5993,8 @@
     },
     {
       "path": "Validation/Integration-Checks194.json",
-      "bytes": 1608,
-      "sha256": "c4b6a062003f524f13460a8225752d09d2437c875d263209c664c6fea48c8a2f"
+      "bytes": 1707,
+      "sha256": "31262ef1731936896c15104caefbd383803b663993540e9007f8b6e354986efe"
     },
     {
       "path": "Validation/Native-Checks194.json",
@@ -6987,12 +7007,27 @@
       "sha256": "9e149b0a351dde1daa781a50c3099d560a48b13ed753e93abc734a9a61f186d5"
     },
     {
+      "path": "Validation/developer-benchmark-native217.log",
+      "bytes": 6801,
+      "sha256": "2a14aa04870f2241bb01f40005186530ff8f7ff043bbcf87da511017690b861e"
+    },
+    {
       "path": "Validation/developer-benchmark-refresh214.log",
       "bytes": 1677,
       "sha256": "1d017c652f872cff51c07be59dd20bfc2acefb449c5219b164e073b7d22dbf08"
     },
     {
+      "path": "Validation/developer-benchmark-refresh217.log",
+      "bytes": 2609,
+      "sha256": "ba15d6c849653f8ffd441caf91970054ea459f9cff9ac142468f8aac89bcc154"
+    },
+    {
       "path": "Validation/developer-benchmark-result214.log",
+      "bytes": 207,
+      "sha256": "ac4e1ebd3646a5b71696456deaa8122a0fc231b8809cd78128296b99a3d1eaa0"
+    },
+    {
+      "path": "Validation/developer-benchmark-result217.log",
       "bytes": 207,
       "sha256": "ac4e1ebd3646a5b71696456deaa8122a0fc231b8809cd78128296b99a3d1eaa0"
     },
@@ -7833,8 +7868,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 54725,
-      "sha256": "df95e179a8dffc6c3a3a2291055b07b7f3861a0e4da385455c5e23ab200cf43e"
+      "bytes": 55325,
+      "sha256": "97f06f74e4bb0d15d019eb058430ef5dcd645a201e0cfb362fb617cb56c26e9c"
     },
     {
       "path": "RELEASE-GATES.md",

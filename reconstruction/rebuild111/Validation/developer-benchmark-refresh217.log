@@ -1,0 +1,28 @@
+{"name": "travel_preflight", "passed": true, "phase": "host execution", "log": "travel_preflight194.log", "sourceSHA256": "62102ce1f9f2aca5f059e190a9f4c9197ab4115e9989a9653cf477e8f9263aa2"}
+{"name": "policy", "passed": true, "phase": "host execution", "log": "policy194.log", "sourceSHA256": "237e1b7a9147762bd25989d419ddd7cdcf145879f5c2a27fd5e085eb81a049c6"}
+{"name": "native_lifecycle", "passed": true, "phase": "host execution", "log": "native_lifecycle194.log", "sourceSHA256": "2f843f57b05737b10653e03ba34283f12e57fad3498d88be96926bd80366fc10"}
+{"name": "guild_regional", "passed": true, "phase": "host execution", "log": "guild_regional194.log", "sourceSHA256": "f90857a5b45d71628d027496ea84e7e98480ceb7f6aa6c5c9a9ef0d7528ff53a"}
+{"name": "guild_ui", "passed": true, "phase": "host execution", "log": "guild_ui194.log", "sourceSHA256": "017d104a136a27a28542bd1d0d8019f3c18f40ac0028e933317672225f8b7c02"}
+{"name": "world_integration", "passed": true, "phase": "host execution", "log": "world_integration194.log", "sourceSHA256": "d8378b2484d5a5796ff8a4577aef0e398e458197963f4409d74181154a6776d2"}
+PASS actual companion learning, support and cast payment integration; host only.
+PASS actual initial mage candidate integration; full roster activation remains guarded; host only.
+PASS actual promoted mage candidate shared-field integration; host only.
+PASS actual Edda and Kaede candidate integration; host only.
+PASS actual Soul Linker candidate integration; host only.
+PASS actual Judia candidate and native effect integration; host only.
+PASS actual Brann and Iruga candidate integration; host only.
+PASS actual Pip support and physical candidate integration; host only.
+PASS original Maya support transactions and complete durable records; host only.
+PASS actual Maya support and physical candidate integration; host only.
+PASS original Maya basic impacts; host only.
+PASS original Judia ranged impacts; host only.
+PASS original Maya physical choice, payment and attack records; host only.
+PASS original Judia ranged impacts; host only.
+PASS original Oren/Lale physical choice, payment and attack records; host only.
+PASS original Oren/Lale physical impacts and deferred own-SP payment; host only.
+PASS actual Oren/Lale ranged candidate integration; host only.
+PASS original Judia ranged impacts; host only.
+PASS original Dagna physical choice, payment and attack records; host only.
+PASS original Dagna area stun, statuses and deferred payment; host only.
+PASS original Dagna basic impacts and deferred own-SP payment; host only.
+PASS actual Dagna area-stun/physical candidate integration; host only.
