@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "nativeComparisons": 1200,
+  "choiceCoverage": {
+    "439": 101,
+    "0": 909,
+    "438": 146,
+    "440": 44
+  },
+  "scope": "Original inline Miri decision branch with real native learning/cost data: prepared follow-up priority, size preference and alternate, own level and Kaina/job-learning/SP boundaries. Candidate movement/casting integration remains separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

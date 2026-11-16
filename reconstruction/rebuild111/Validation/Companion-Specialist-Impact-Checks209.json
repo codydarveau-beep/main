@@ -1,6 +1,10 @@
 {
   "passed": true,
   "nativeComparisons": 1800,
+  "successfulPaymentsByAuthoredJob": {
+    "41": 83,
+    "45": 62
+  },
   "scope": "Actual native Ninja/Soul Linker impact compared to production targeted step: learned caster costs/passives, one debit, own INT/level, size ratios, Esma priming/consumption, RNG and repeated-hit scheduling, rejected save/line/range/stale/invalid targets. Final hit, status/knockback requests and sound are explicit recording boundaries; actual battle choices and status acceptance remain separate.",
   "originalXboxPlaytested": false,
   "xemuPlaytested": false,
