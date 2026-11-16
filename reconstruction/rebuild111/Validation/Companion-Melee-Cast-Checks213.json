@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "nativeComparisons": 1200,
+  "choiceCoverage": {
+    "1": 1118,
+    "2": 41,
+    "13": 41
+  },
+  "scope": "Original Brann/Iruga inline choice/payment/initialization branch versus production candidate tick across all four careers: learned Bash/Envenom and original basic fallback, own job/weapon motion and AGI/DEX/buffs, exact timing/cost/serial fields, original native Bash effect request and absence of invented arrows. Native payment persistence and effects use recorded callbacks; actual statuses, failure injection and real battle ticks are separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

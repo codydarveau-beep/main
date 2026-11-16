@@ -2,146 +2,146 @@
   "nativeCompiled": true,
   "title": "MyRO v1.11.0 RECOVERY",
   "xbeBytes": 12271616,
-  "xbeSHA256": "850738a06b522266b37f8a4ac80b680acf9c23f23e91fb6db62f1589ff682519",
+  "xbeSHA256": "bd27e2b59517a5668ab0654ae1e38cdc7e8668f72cbb3bea4ab98bdb92c16306",
   "stackReserve": 163840,
   "knownChains": [
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "save_commit": 48,
         "save_scan": 4,
         "save_decode": 36,
         "save_valid": 92
       },
-      "bytes": 55312,
+      "bytes": 55280,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "mp3dec_decode_frame": 17008
       },
-      "bytes": 72140,
+      "bytes": 72108,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "npc_player_command55": 2148,
         "npc_runtime_call55": 4508,
         "world_script_warp55": 47836
       },
-      "bytes": 109624,
+      "bytes": 109592,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "guild_world_visit194": 84,
         "world_script_warp55": 47836
       },
-      "bytes": 103052,
+      "bytes": 103020,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "regional_world_visit194": 100,
         "world_script_warp55": 47836
       },
-      "bytes": 103068,
+      "bytes": 103036,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "world_test_warp": 47788
       },
-      "bytes": 102920,
+      "bytes": 102888,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "frontend_run56": 2956,
         "frontend_fade56": 16412
       },
-      "bytes": 74500,
+      "bytes": 74468,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "campaign_encounter_tick198": 252,
         "npc_monster_attach55": 32,
         "npc_monster_place55": 140
       },
-      "bytes": 55556,
+      "bytes": 55524,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "combat_reward": 200,
         "campaign_killed200": 28,
         "campaign_encounter_flush198": 56,
         "campaign_store200": 212,
         "npc_state_set55": 48
       },
-      "bytes": 55676,
+      "bytes": 55644,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "party_gain_award200": 804,
         "party_progress_load200": 696
       },
-      "bytes": 56632,
+      "bytes": 56600,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 57872,
+      "bytes": 57840,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "campaign_party_bind200": 968,
         "party_seed_recruits200": 692,
         "party_progress_commit200": 1936
       },
-      "bytes": 58728,
+      "bytes": 58696,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "party_vital_store200": 684,
         "party_progress_commit200": 1936
       },
-      "bytes": 57752,
+      "bytes": 57720,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "party_resolve200": 100,
         "party_save_vital200": 12,
         "party_vital_store200": 684,
         "party_progress_commit200": 1936
       },
-      "bytes": 57864,
+      "bytes": 57832,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "combat_fields_tick": 192,
         "party_wizard_hit194": 44,
         "party_apply_damage205": 48,
@@ -150,14 +150,14 @@
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 58384,
+      "bytes": 58352,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "party_resolve200": 100,
-        "party_basic_step208": 72,
+        "party_basic_step208": 76,
         "party_hit200": 44,
         "party_apply_damage205": 48,
         "combat_reward": 200,
@@ -165,12 +165,12 @@
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 58364,
+      "bytes": 58336,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "party_resolve200": 100,
         "party_specialist_step209": 92,
         "party_hit200": 44,
@@ -180,23 +180,23 @@
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 58384,
+      "bytes": 58352,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "party_resolve200": 100,
         "party_specialist_step209": 92,
         "party_specialist_after209": 44,
         "combat_knockback": 60
       },
-      "bytes": 55428,
+      "bytes": 55396,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
         "party_resolve200": 100,
         "party_archer_step212": 64,
         "party_hit200": 44,
@@ -206,16 +206,31 @@
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 58356,
+      "bytes": 58324,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55132,
+        "main": 55100,
+        "party_resolve200": 100,
+        "party_envenom_step213": 60,
+        "party_hit200": 44,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58320,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55100,
         "assemblyWrapper": 6176,
         "nestedHelpers": 512
       },
-      "bytes": 61820,
+      "bytes": 61788,
       "margin": 32768,
       "assemblyExplicit": true
     }

@@ -15,6 +15,6 @@ static void party_basic_step208(Combat*g,CampaignFollower200*m,PartyBoltHit204 h
  if(skill==SKILL_BASH)damage=damage*(100+30*(int)m->pendingRank)/100;
  if(combat_random(g)%100>=(unsigned)combat_hit_rate((int)m->level+party_stat200(m,4,g->time),combat_mob_flee(enemy))){combat_miss(g,enemy->x,enemy->y);return;}
  hit(g,m,target,m->pendingLife,damage,0);
- if(skill!=1)cue(g,skill,enemy->x,enemy->y);
+ if(skill!=1&&cue)cue(g,skill,enemy->x,enemy->y);
 }
 #endif

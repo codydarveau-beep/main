@@ -37,6 +37,26 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original Brann and Iruga basic impacts",
+      "status": "passed",
+      "evidence": "Companion-Melee-Basic-Checks213.json"
+    },
+    {
+      "name": "original Brann and Iruga choice/payment/attack records",
+      "status": "passed",
+      "evidence": "Companion-Melee-Cast-Checks213.json"
+    },
+    {
+      "name": "original Iruga Envenom and real poison status helper",
+      "status": "passed",
+      "evidence": "Companion-Envenom-Checks213.json"
+    },
+    {
+      "name": "actual Brann and Iruga candidate careers",
+      "status": "passed",
+      "evidence": "Companion-Melee-Integration-Checks213.json"
+    },
+    {
       "name": "original Judia ranged impacts and learned accuracy",
       "status": "passed",
       "evidence": "Companion-Archer-Impact-Checks212.json"

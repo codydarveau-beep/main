@@ -22,23 +22,13 @@ static unsigned party_archer_rank212(const CampaignFollower200*m,float now){
  if(!campaignConfig200.skills[m->id]||campaignConfig200.priority[m->id]==PARTY_SUPPORT200||now<m->skillAt)return 0;
  unsigned rank=party_skill_rank193(m,17);return rank&&m->sp>=party_skill_cost200(17,rank)?rank:0;
 }
+#include "companion_physical_begin213.h"
 static void party_archer_tick212(Combat*g,CampaignFollower200*m,float dt,unsigned slot){
  if(g->peaceful)return;
  if(!party_target_ok200(g,m->target)||g->mobs[m->target].life!=m->targetLife||g->time>=m->thinkAt){m->target=party_choose_target200(g,m);m->targetLife=m->target>=0?g->mobs[m->target].life:0;m->thinkAt=g->time+.15f;}
  if(m->target<0)return;CombatMob*e=g->mobs+m->target;m->ownsMove=1;combat_face(&m->faceX,&m->faceY,e->x-m->x,e->y-m->y);float distance=combat_dist(m->x,m->y,e->x,e->y);
  if(distance>72){party_walk_to200(g,m,e->x,e->y,72,dt,slot,m->target);return;}
  m->moving=0;if(g->time<m->nextAttack||!party_line200(g,m->x,m->y,e->x,e->y))return;
- unsigned rank=party_archer_rank212(m,g->time),cost=rank?party_skill_cost200(17,rank):0;
- if(!party_save_vital200(m,m->hp,m->sp-cost))return;
- int item=inventory_catalog52(partyWeapons202[m->id]),weapon=item>=0?itemDefs[item].wtype:0;
- if(weapon<0||weapon>22)weapon=0;
- int motion=m->job>=21?jobMotion52[m->job][weapon]:m->job>=12?classMotion50[m->job-12][weapon]:baseMotion48[m->job][weapon>12?0:weapon];
- motion-=motion*(4*party_stat200(m,1,g->time)+party_stat200(m,4,g->time))/1000;if(motion<30)motion=30;
- float period=motion*.002f,duration=fminf(.75f,period),launch=g->time+duration*.6f,arrival=launch+distance/360.f;
- m->attackAt=g->time;m->attackUntil=g->time+duration;m->nextAttack=g->time+period;m->pendingSkill=m->lastSkill=17;m->pendingRank=rank;m->remainingHits204=rank?2:1;m->pendingTarget=m->target;m->pendingLife=e->life;m->castUntil=0;m->impactAt=arrival;
- campaignArrows212[campaignArrowNext212++%8]=(CampaignArrow212){g->mapId,m->x,m->y,e->x,e->y,launch,arrival};
- if(rank){campaignArrows212[campaignArrowNext212++%8]=(CampaignArrow212){g->mapId,m->x,m->y,e->x,e->y,launch+.1f,arrival+.1f};arrival+=.1f;}
- m->attackUntil=fmaxf(m->attackUntil,arrival);m->nextAttack=fmaxf(m->nextAttack,m->attackUntil);
- if(rank){m->skillAt=g->time+(campaignConfig200.priority[m->id]==PARTY_OFFENSE200?1.f:3.f);party_native_effect212(g,m,16);}
+ unsigned rank=party_archer_rank212(m,g->time);party_physical_begin213(g,m,e,17,rank);
 }
 #endif

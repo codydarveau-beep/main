@@ -283,8 +283,8 @@
     },
     {
       "path": "Source/campaign_battle200.h",
-      "bytes": 25022,
-      "sha256": "577c62663c36179480cb17e8b362372747e6261b9ff5f59fb3e46def235dd7b9"
+      "bytes": 25423,
+      "sha256": "004d4809f1f0f1c754fc61f6fa4f85f0c8b5646fdd240a0df994f3ceb230e1fe"
     },
     {
       "path": "Source/campaign_career200.h",
@@ -798,8 +798,8 @@
     },
     {
       "path": "Source/companion_archer212.h",
-      "bytes": 4096,
-      "sha256": "4a044c46f53d6583badfb5d347c8371cc2deca619b0dd13d9c6c5f7e6ddfae41"
+      "bytes": 2880,
+      "sha256": "3d47bf4b7d66e39ef806a04f16fc301d95e73af8f3250a87b6d49d809f30daa3"
     },
     {
       "path": "Source/companion_art200.h",
@@ -808,8 +808,8 @@
     },
     {
       "path": "Source/companion_basic_impact208.h",
-      "bytes": 1295,
-      "sha256": "546b2a18ac76012fd63c6ccb088786f9fe749dc2ca6f49395b0279e7c14f9c34"
+      "bytes": 1300,
+      "sha256": "7f9727227ce2a159485e3b27919cbfc9c82bbbd9d6fcf6008fa301c64b0db689"
     },
     {
       "path": "Source/companion_bolt_choice204.h",
@@ -852,6 +852,11 @@
       "sha256": "d3faafbc8b6c887377d17d9e072995c08135e644d327a7b8e6c9a94b114ed721"
     },
     {
+      "path": "Source/companion_melee_tick213.h",
+      "bytes": 2342,
+      "sha256": "69d2ebf5110c32887d9fa491f441a468127e18f4c2188cdb6384590bbdd45db5"
+    },
+    {
       "path": "Source/companion_multipliers203.h",
       "bytes": 540,
       "sha256": "3f24600f683db549e394f751b823f5b0829fedb02b27693de22654218d824b39"
@@ -865,6 +870,11 @@
       "path": "Source/companion_paths_data200.h",
       "bytes": 877,
       "sha256": "8c9da211591fe2ebd2c42dae05739cc60b14aed054bdebda73396369ae95db58"
+    },
+    {
+      "path": "Source/companion_physical_begin213.h",
+      "bytes": 1832,
+      "sha256": "1ab75fabe64b627cfe08002c52add7105cba5a643b2ef8ebb3a8f880bf13a1e2"
     },
     {
       "path": "Source/companion_power202.h",
@@ -3862,6 +3872,11 @@
       "sha256": "6f4cd2ef1c54f290d23bf3b93014bb3bf0543346c0812cff8b705b3c3a9b6c05"
     },
     {
+      "path": "Source/test_companion_melee213.c",
+      "bytes": 3077,
+      "sha256": "71be4d88d36d8dfddfbb1312df0a2476a169884ac302ebad988e41191233f5c5"
+    },
+    {
       "path": "Source/test_companion_progress200.c",
       "bytes": 3562,
       "sha256": "5b89d554cf4b1159ba6b0893a9ea4cbd92fe8653532efc7606364ce011069d11"
@@ -5207,6 +5222,11 @@
       "sha256": "13562675351e357422cec9533b7c93c21f50ede95b6a96affc74cd451e287f64"
     },
     {
+      "path": "Preparation/check_companion_envenom213.py",
+      "bytes": 4354,
+      "sha256": "4e5560c7703ee230e7608617935b1a75272ae2d6c05075a83e9132e7be741175"
+    },
+    {
       "path": "Preparation/check_companion_experience200.py",
       "bytes": 4664,
       "sha256": "dfb00ce4fc5da06988c9a4e98b88fa94692c083d44890ef53c9b46a65db68253"
@@ -5220,6 +5240,21 @@
       "path": "Preparation/check_companion_mage204.py",
       "bytes": 1316,
       "sha256": "a05aa803feaebfc3151bc95b32e21b6a147207fb315ae94956fbad9920b1ef9f"
+    },
+    {
+      "path": "Preparation/check_companion_melee_basic213.py",
+      "bytes": 4141,
+      "sha256": "f9b37593e94d10d256d4dff53aad6f52524ac84efb1ee1cd35717554fc25050d"
+    },
+    {
+      "path": "Preparation/check_companion_melee_cast213.py",
+      "bytes": 4399,
+      "sha256": "f596baa50a82a5a4b04cf8098bbc158c129088c00f42ac5de465d14e3d76bea0"
+    },
+    {
+      "path": "Preparation/check_companion_melee_integration213.py",
+      "bytes": 1418,
+      "sha256": "e83ea4484b1068e47491e3e3fe173e669f9f34c0b42a18f873aff6a43e709023"
     },
     {
       "path": "Preparation/check_companion_persistence200.py",
@@ -5303,8 +5338,8 @@
     },
     {
       "path": "Preparation/check_native194.py",
-      "bytes": 5093,
-      "sha256": "0af10182f35be527415a87aee8862c58f347446c218dc8f3c2c824c3ec0476aa"
+      "bytes": 5282,
+      "sha256": "85f43ec142b5826de2fc31f003c0a5d0bd46779307e7c22b06d2842a232e3648"
     },
     {
       "path": "Preparation/check_retained196.py",
@@ -5478,8 +5513,8 @@
     },
     {
       "path": "Preparation/summarize_normal_checks194.py",
-      "bytes": 7157,
-      "sha256": "f6703eaa4affe47de346bd1b856cf0490265c6515378d89c2d6db916bb32768d"
+      "bytes": 7518,
+      "sha256": "d7936f1a9c5320b436b794044b01796c18e56dafff5cf126310be90a8d00a461"
     },
     {
       "path": "Validation/Arcade-Logic-Checks197.json",
@@ -5562,6 +5597,11 @@
       "sha256": "b5c01dc95c94dbcf556f5259bdfdec117d7b9e5fed0aab0a5dfac630368f38d1"
     },
     {
+      "path": "Validation/Companion-Envenom-Checks213.json",
+      "bytes": 627,
+      "sha256": "8acb02705901bb08c20f9d4f37f2e268ecd7d291544369300fea55aca3906dec"
+    },
+    {
       "path": "Validation/Companion-Experience-Checks200.json",
       "bytes": 530,
       "sha256": "c738bc31dd21030fbec80b81783dfa2ef539b9cee815acab57bee1766010e763"
@@ -5575,6 +5615,21 @@
       "path": "Validation/Companion-Mage-Checks204.json",
       "bytes": 427,
       "sha256": "9682f03d8938a8cf318bfea34522eb20729c1a26105004ef192afa61964a1c46"
+    },
+    {
+      "path": "Validation/Companion-Melee-Basic-Checks213.json",
+      "bytes": 453,
+      "sha256": "e0bf2df312d8269d3b156d61f02b9b9303aa47efe021bebcb4ee09566bceccc6"
+    },
+    {
+      "path": "Validation/Companion-Melee-Cast-Checks213.json",
+      "bytes": 683,
+      "sha256": "3e50902dab4081bab79a1239eb9642ec4772049fc3b1e59fb1ca6b85ae100069"
+    },
+    {
+      "path": "Validation/Companion-Melee-Integration-Checks213.json",
+      "bytes": 542,
+      "sha256": "8d7e3cb39a4732a8b364ff60fcbbfcf849e9b0e90f9d580851524eff41776468"
     },
     {
       "path": "Validation/Companion-Multiplier-Checks203.json",
@@ -5688,8 +5743,8 @@
     },
     {
       "path": "Validation/Native-Checks194.json",
-      "bytes": 5538,
-      "sha256": "4da57e32d6f887864f272250b15572a567c29ec107d78538f979c2e6cadf3a1f"
+      "bytes": 5921,
+      "sha256": "c629481f245090b4f381c0c36ef059b9adf4801e912a4a370d9ae3c18b0545d7"
     },
     {
       "path": "Validation/Native-Decompile203/callback-117850.c",
@@ -5888,8 +5943,8 @@
     },
     {
       "path": "Validation/Normal-Release-Checks194.json",
-      "bytes": 8907,
-      "sha256": "c7f08fa4af24896356288deea525e65b4ad9a92ce38185bd783ad1f1d837405e"
+      "bytes": 9548,
+      "sha256": "17f8b6bacbdab914789ae465a151dd8e73eaa2e7fb5fac0fda3850e5bb1b118b"
     },
     {
       "path": "Validation/Release-Inputs194.json",
@@ -6052,6 +6107,11 @@
       "sha256": "0142e70177d0cea00b7e12ad4157d9269d25d5d1ac9e08866cbd5fba2eb135c3"
     },
     {
+      "path": "Validation/companion-archer-cast-regression213.log",
+      "bytes": 128,
+      "sha256": "066418d8f79257a8b95c5b6a74002e2c85baf6a25f9ef6e744d2fccdeed65498"
+    },
+    {
       "path": "Validation/companion-archer-cast212.log",
       "bytes": 128,
       "sha256": "066418d8f79257a8b95c5b6a74002e2c85baf6a25f9ef6e744d2fccdeed65498"
@@ -6065,6 +6125,11 @@
       "path": "Validation/companion-archer-integration212.log",
       "bytes": 211,
       "sha256": "e5a7559cef906e1cdeaeb76a0bec6387a556edcc67686fd20b7fa019e9552c94"
+    },
+    {
+      "path": "Validation/companion-archer-regression213.log",
+      "bytes": 70,
+      "sha256": "d27a722ede4e000e3368c8b678d314bc80c59bdddcb8806c3dc4b9d2e58e7832"
     },
     {
       "path": "Validation/companion-archer212.log",
@@ -6122,6 +6187,11 @@
       "sha256": "5dedc61750eb04e3f0d2bf3ab6cb2c380cc3859918b4c61f53a0e67d33ee446b"
     },
     {
+      "path": "Validation/companion-cast-regression213.log",
+      "bytes": 81,
+      "sha256": "5dedc61750eb04e3f0d2bf3ab6cb2c380cc3859918b4c61f53a0e67d33ee446b"
+    },
+    {
       "path": "Validation/companion-cast-run201.log",
       "bytes": 81,
       "sha256": "5dedc61750eb04e3f0d2bf3ab6cb2c380cc3859918b4c61f53a0e67d33ee446b"
@@ -6165,6 +6235,16 @@
       "path": "Validation/companion-elemental-regression212.log",
       "bytes": 61,
       "sha256": "b660455d04fc76aa14c28bf24de79aac56d5d8f107a7fa6105e7493927b565e0"
+    },
+    {
+      "path": "Validation/companion-elemental-regression213.log",
+      "bytes": 61,
+      "sha256": "b660455d04fc76aa14c28bf24de79aac56d5d8f107a7fa6105e7493927b565e0"
+    },
+    {
+      "path": "Validation/companion-envenom213.log",
+      "bytes": 72,
+      "sha256": "d70f6336606e7144b5dd53e46247e9a4665a14232522f17d4159f1c08de9442c"
     },
     {
       "path": "Validation/companion-experience200.log",
@@ -6220,6 +6300,26 @@
       "path": "Validation/companion-mage204.log",
       "bytes": 236,
       "sha256": "dceab6f15f9d6dd1b88e7431b2184be2ccbd77f139128025e85cac675f5690c6"
+    },
+    {
+      "path": "Validation/companion-melee-basic213.log",
+      "bytes": 52,
+      "sha256": "c8eba34cacd162cd3f4876ed5e939c2962e69bf9df3f61f747aee92299315518"
+    },
+    {
+      "path": "Validation/companion-melee-cast213.log",
+      "bytes": 129,
+      "sha256": "58225fdaca91fce95d5481447208776e57340d2d36581fd6d5616cb29adfbc80"
+    },
+    {
+      "path": "Validation/companion-melee-integration-result213.log",
+      "bytes": 62,
+      "sha256": "2e2c0e4beb2143b01b1c1ff1a817228d4a1fc6b851cc1a7c73b4372bbf1cfa6f"
+    },
+    {
+      "path": "Validation/companion-melee-integration213.log",
+      "bytes": 229,
+      "sha256": "d024e3a8c2133b8e389c94455c06335534c46ff80631e97927ef39f41dce6c07"
     },
     {
       "path": "Validation/companion-paths200.log",
@@ -6297,6 +6397,11 @@
       "sha256": "d3d29257f481c0dc8d3af8136c9c881492ccc0b218ce0c214ca9e055af754d01"
     },
     {
+      "path": "Validation/companion-soullinker-regression213.log",
+      "bytes": 58,
+      "sha256": "d3d29257f481c0dc8d3af8136c9c881492ccc0b218ce0c214ca9e055af754d01"
+    },
+    {
       "path": "Validation/companion-specialist-integration-result209.log",
       "bytes": 79,
       "sha256": "c593c234ba11f09f6575796c5a449ed7361fa8acef538368c07725da1f4f221f"
@@ -6362,6 +6467,11 @@
       "sha256": "b69a0795524746be6633f97e9ebf60ff519995d1a7cfda4ac86a59bb6976c802"
     },
     {
+      "path": "Validation/companion-wizard-regression213.log",
+      "bytes": 73,
+      "sha256": "b69a0795524746be6633f97e9ebf60ff519995d1a7cfda4ac86a59bb6976c802"
+    },
+    {
       "path": "Validation/companion-wizard205.log",
       "bytes": 89,
       "sha256": "0d374e0408af634d7b8bbd9362b15fd0932e7dd1a7edf6b6a8764fbea35ee74c"
@@ -6378,8 +6488,8 @@
     },
     {
       "path": "Validation/companion_basic_adapter208.c",
-      "bytes": 1815,
-      "sha256": "7ec2cc0284b26bf34d199f6bdf27d19a52a9e6f32d5f3146bae2cc09cbbdb2c6"
+      "bytes": 2197,
+      "sha256": "c9c761ef7b7e823c243d0967ff0399580b976df70eddef3d6e3b0e17d8e82b05"
     },
     {
       "path": "Validation/companion_bolt_adapter204.c",
@@ -6397,6 +6507,11 @@
       "sha256": "8f9eb23f0261af1c268ed715a3ea1faeafffa0a15372d5f97cda3464f9a25475"
     },
     {
+      "path": "Validation/companion_envenom_adapter213.c",
+      "bytes": 1675,
+      "sha256": "af6207ed9f15d860459f1bf669cf9182c31cf59659e2ade08981ced4e152f048"
+    },
+    {
       "path": "Validation/companion_exp_adapter200.c",
       "bytes": 340,
       "sha256": "70a68eb597365a1001db0d3f17542257f7e6337d061a33b124c6fc360212095d"
@@ -6405,6 +6520,11 @@
       "path": "Validation/companion_legacy_cast_adapter206.c",
       "bytes": 1174,
       "sha256": "9efef49ea3ac5f1e7d60f684076a3f8fe13863b449d115ab4366e825fb2768e8"
+    },
+    {
+      "path": "Validation/companion_melee_adapter213.c",
+      "bytes": 3591,
+      "sha256": "43792bedab910462dfe24ddf3679683c5a9eaa222961cb8be2ddb48bdff4275c"
     },
     {
       "path": "Validation/companion_multipliers_adapter203.c",
@@ -6768,6 +6888,16 @@
     },
     {
       "path": "Validation/native-mage204.log",
+      "bytes": 612,
+      "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
+    },
+    {
+      "path": "Validation/native-melee-guards213.log",
+      "bytes": 5921,
+      "sha256": "c629481f245090b4f381c0c36ef059b9adf4801e912a4a370d9ae3c18b0545d7"
+    },
+    {
+      "path": "Validation/native-melee213.log",
       "bytes": 612,
       "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
     },
@@ -7228,8 +7358,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 44502,
-      "sha256": "7f84982936c3a14e8e377a0751b421c63d656210b387b6108a6902780b02158b"
+      "bytes": 46127,
+      "sha256": "b68afe892573c3bafb7deb2c35ac3a49767082ba1f7367a27bfa03e0255b7f8f"
     },
     {
       "path": "RELEASE-GATES.md",
@@ -7238,8 +7368,8 @@
     },
     {
       "path": "WORK-REMAINING.md",
-      "bytes": 10798,
-      "sha256": "2c507152622c3507f7e74162d8d82dabe227d294c5c8a0295c1714d87e8dcb12"
+      "bytes": 10812,
+      "sha256": "fa85283c6e7bd480dcc589b0f9f9c0d831f67e68771a827f2b99077432bd8561"
     }
   ]
 }
