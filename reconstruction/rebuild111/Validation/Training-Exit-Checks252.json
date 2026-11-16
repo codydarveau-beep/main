@@ -1,13 +1,15 @@
 {
   "passed": true,
-  "confirmedCause": "Hanson is hidden by whole-script later-destination dependencies at opening state",
-  "nativeScriptUnchanged": true,
-  "fixProvenance": "Targeted reconstructed opening admission and exact native graduation warp/savepoint destination redirect",
-  "actualNativeVMGraduationVerified": true,
-  "earlyJobGranted": false,
+  "confirmedCause": "Whole-script destination closure hides Hanson at initial campaign state",
+  "fixProvenance": "Reconstructed targeted opening admission and exact native graduation destination redirect; native script unchanged",
+  "checks": [
+    "Actual Hanson npc_game_open and full native VM/dispatcher",
+    "Native graduation reaches campaign map0",
+    "Player remains Novice"
+  ],
   "limitations": [
-    "Completed course flags, capacity and completed OnInit are fixtures",
-    "Other graduation choices, natural training journey, actor reachability and Xbox visual acceptance still require checking"
+    "Completed course flags, carrying capacity and OnInit completion are explicit fixtures",
+    "No full natural training journey, initialization/reachability or Xbox visual test in this fixture"
   ],
   "additionalRestorationReviewPassesCompleted": 0
 }

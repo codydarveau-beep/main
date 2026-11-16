@@ -1,0 +1,8 @@
+#define main baseline_world_fixture183
+#include "test_world43.c"
+#undef main
+static unsigned heapHooks183;static void heap_hook183(void){assert(!allocated&&!bytesNow&&!gpuTerrain&&!gpuMesh&&!sceneTexture&&!sceneMesh&&!walk&&!cellStarts&&!groundHeights&&!interiorRooms181.owner&&!sceneRoomBits181);heapHooks183++;}
+int main(void){world_blob_init();worldHeapTrim183=heap_hook183;FILE*f=fopen("/workspace/work/recovery/rebuild111/Validation/map-buffers253.csv","w");assert(f);fprintf(f,"id,map,graphics_bytes,ground_cpu_bytes,scenery_metadata_bytes,room_bytes\n");unsigned visited=0,expected[WORLD_MAP_COUNT]={0},knt=~0u,lh=~0u;
+for(unsigned map=0;map<WORLD_MAP_COUNT;map++){if(!world_destination_ready44(map))continue;assert(world_activate(map));expected[map]=bytesNow;unsigned room=(interiorRooms181.owner?gw*gh:0)+sceneRoomStride181*scene.count[0];fprintf(f,"%u,%s,%u,%u,%u,%u\n",map,mapNames[map],bytesNow,(mw*mh+1)*4+mw*mh*16+gw*gh+8,worldBlobs[map][6].raw,room);if(!strcmp(mapNames[map],"gl_knt01"))knt=map;if(!strcmp(mapNames[map],"lighthalzen"))lh=map;visited++;}
+assert(knt!=~0u&&lh!=~0u);for(unsigned i=0;i<20;i++){unsigned id=i&1?lh:knt;assert(world_activate(id));assert(bytesNow==expected[id]);}
+world_release();assert(heapHooks183>=visited+20);assert(!allocated&&!bytesNow&&!gpuTerrain&&!gpuMesh&&!sceneTexture&&!sceneMesh&&!walk&&!cellStarts&&!groundHeights&&!interiorRooms181.owner&&!sceneRoomBits181);fclose(f);printf("PASS %u available maps actual asset-buffer audit;20 KNT01/Lighthalzen transitions retain identical per-map buffers and completely release terrain/scenery/room resources before the heap-trim callback. Host logical-buffer accounting,not a console free-RAM measurement.\n",visited);}

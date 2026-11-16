@@ -1,0 +1,1 @@
+PASS actual UI controls: highlighted windows do not allocate, A enters, X allocates, B exits; front bank/cursor/quick-slot mapping remains consistent for either hotbar.

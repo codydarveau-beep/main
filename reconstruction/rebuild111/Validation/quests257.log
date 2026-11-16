@@ -1,0 +1,1 @@
+PASS actual quest UI: A opens details without tracking or changing quest/player state; X toggles pin in journal/modal; scrolling/back; genuine counters retain progress, dialogue-only objectives have no bar.

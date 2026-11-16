@@ -1,0 +1,1 @@
+PASS 8288 live original map/frame loads; all497 wave/triangle surfaces; same-frame zero-read reuse;100 toggle/map cycles; default/dry/off zero buffers; peak persistent CPU+GPU 713102 bytes.

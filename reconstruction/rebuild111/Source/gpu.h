@@ -85,7 +85,8 @@ static void gpu_sprite_plane50(void*texture,SparseSprite*s,float x,float y,float
 static void gpu_sprite(void*t,SparseSprite*s,float x,float y,float depth,float scale){gpu_sprite_plane50(t,s,x,y,depth,scale,depth,depth);}
 static void gpu_actor_sprite50(void*t,SparseSprite*s,float x,float y,float depth,float scale,float footY,float slope){float r[4];sprite_screen_rect(x,y,scale,s->anchorX,s->anchorY,s->h,r);gpu_sprite_plane50(t,s,x,y,depth,scale,sprite_upright_cached50(depth,r[1],footY,slope),sprite_upright_cached50(depth,r[1]+r[3],footY,slope));}
 
-static void gpu_actor_sprite50c(void*t,SparseSprite*s,float x,float y,float depth,float scale,float footY,float slope,int sourceFade){float r[4],corners[2];sprite_screen_rect(x,y,scale,s->anchorX,s->anchorY,s->h,r);sprite_depth_corners50c(depth,r[1],r[1]+r[3],footY,slope,sourceFade,corners);gpu_sprite_plane50(t,s,x,y,depth,scale,corners[0],corners[1]);}
+#include "willow_death259.h"
+static void gpu_actor_sprite50c(void*t,SparseSprite*s,float x,float y,float depth,float scale,float footY,float slope,int sourceFade){if(sourceFade>=2&&(s==sprites+20||s==sprites+28)){willow_draw259(s==sprites+28,(unsigned)sourceFade-2,x,y,depth,scale);return;}float r[4],corners[2];sprite_screen_rect(x,y,scale,s->anchorX,s->anchorY,s->h,r);sprite_depth_corners50c(depth,r[1],r[1]+r[3],footY,slope,sourceFade,corners);gpu_sprite_plane50(t,s,x,y,depth,scale,corners[0],corners[1]);}
 
 #include "gpu_sprite_upload45.h"
 

@@ -17,7 +17,7 @@ static void scenery_release(void);
 static void world_release(void){
  while(pb_busy()){}if(worldSceneRelease200)worldSceneRelease200();if(worldWaterRelease190)worldWaterRelease190();rooms_clear181(&interiorRooms181);if(visualCacheRelease50)visualCacheRelease50();scenery_release();
 #ifndef MYRO_HOST
- sprite_release_enemies();gpu_stream_reset51();guardian_reset51();
+ sprite_release_enemies();gpu_stream_reset51();guardian_reset51();willow_release259();
 #endif
  if(gpuTerrain)MmFreeContiguousMemory(gpuTerrain);if(gpuMesh)MmFreeContiguousMemory(gpuMesh);gpuTerrain=gpuMesh=NULL;
  guild_floor_release197();if(walk)free(walk-8);if(cellStarts)free(cellStarts);if(groundHeights)free(groundHeights);walk=NULL;cellStarts=NULL;groundHeights=NULL;surfaceCells45=NULL;surfaceCount45=0;propCells46=NULL;propCount46=0;if(worldHeapTrim183)worldHeapTrim183();

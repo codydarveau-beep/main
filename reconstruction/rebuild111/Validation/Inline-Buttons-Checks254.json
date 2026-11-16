@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "recoveredReferenceVA": "0x12c8b7",
+  "referenceSHA256": "6d4f8ab2e2b0fa2be9cd2dfb7606d80cf78c0636c663c603ac0624ff7065043d",
+  "source": "released1.10.0 executable",
+  "actualGPUCommandsRecorded": true,
+  "scope": "Original native instruction branch sets final combiner8 for icons; restored production callback emits same mode and restores black/colored text tint after icons. Actual shader/raster remains Xbox validation."
+}

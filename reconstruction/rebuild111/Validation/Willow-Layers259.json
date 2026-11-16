@@ -1,0 +1,37 @@
+{
+  "reconstructed": true,
+  "source": "original retained SPR/ACT",
+  "species": [
+    {
+      "species": 0,
+      "name": "wilow",
+      "atlasHeight": 480,
+      "atlasGPUBytes": 491520,
+      "packedBytes": 49487,
+      "sourceFrames": 22,
+      "milliseconds": 25,
+      "layers": 1152,
+      "cells": 47,
+      "sourceSPR_SHA256": "4c2a79762abab6642caa570ad03d8878f19e01ebd48df731520a400732d5d9bc",
+      "sourceACT_SHA256": "c98683c25dce4d0592b8a6b0b444363fd7389b21e4807730accf23a2c227d34e"
+    },
+    {
+      "species": 1,
+      "name": "elder_wilow",
+      "atlasHeight": 480,
+      "atlasGPUBytes": 491520,
+      "packedBytes": 49634,
+      "sourceFrames": 21,
+      "milliseconds": 25,
+      "layers": 1096,
+      "cells": 47,
+      "sourceSPR_SHA256": "e98e4e1b82e079f8504de945ea17a54a4593149243165938659717b87e3f0a29",
+      "sourceACT_SHA256": "2bc3d94b5d4d6410b17f21bcbdb17100412d8ddeba07190e0ee03f14c2db067b"
+    }
+  ],
+  "totalGPUBytes": 983040,
+  "allocationIndependentOfEnemyCount": true,
+  "neitherClippedNorResizedSourceArt": true,
+  "normalSpritePackUnchanged": true,
+  "XboxVisualAnd64MBStressPending": true
+}

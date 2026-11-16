@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "scope": "Exact production HUD arena lifecycle and skill-cap helper under sanitizers. Existing submitted vertices survive modal/adjacent batches; overflow rejected; Basic Skill remains /9 across all learned ranks; copied skill and nonlearnable bounds preserved.",
+  "XboxVisualAcceptance": false,
+  "additionalRestorationReviewsCompleted": 0
+}

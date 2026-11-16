@@ -58,9 +58,9 @@ static int frontend_run56(Combat*game,SaveStore*saves,SDL_GameController**contro
  if(!f.fade){
  if(f.page==F56_HOME&&(pressed&(2|8192))&&f.row==0)devMode=(int)f.unlocked;
  if(f.page==F56_SETTINGS){
-  if(!screen.editing61)screen.value61=pause_value61(NULL,autosave,screen.tab,screen.row);
+  if(!screen.editing61)screen.value61=pause_value61(NULL,autosave,pause_setting_tab255(&screen),pause_setting_row255(&screen));
   int action=pause_input(&screen,pressed);
-  if(action==PA_OPTION_PREVIEW61||action==PA_OPTION_CANCEL61){pause_set61(NULL,autosave,screen.tab,screen.row,screen.value61);if(action==PA_OPTION_PREVIEW61&&screen.tab==P53_AUDIO&&screen.row>=6)sound_menu58();}
+  if(action==PA_OPTION_PREVIEW61||action==PA_OPTION_CANCEL61){pause_set61(NULL,autosave,pause_setting_tab255(&screen),pause_setting_row255(&screen),screen.value61);if(action==PA_OPTION_PREVIEW61&&screen.tab==P53_AUDIO&&screen.row>=6)sound_menu58();}
   if(action==PA_PREFS_SAVE58){if(screen.tab==P53_MESSAGES)prefsHaveMessages61=1;if(screen.tab==P53_GAMEPLAY&&screen.row==4&&disk)autosave_commit50b(autosave);snprintf(status,sizeof(status),disk&&prefs_save56()?"Preferences saved.":"Preferences apply for this session.");}
   if(action==PA_SCREEN_SAVE55)snprintf(status,sizeof(status),disk&&screen_save55()?"Screen adjustment saved.":"Screen adjustment is session-only.");
   if(action==PA_RESUME)frontend_goto56(&f,F56_HOME,F56_NONE);
@@ -77,7 +77,7 @@ static int frontend_run56(Combat*game,SaveStore*saves,SDL_GameController**contro
  }
  unsigned afterCursor58=f.row+f.slot*16+(f.page==F56_SETTINGS?(unsigned)(screen.tab*16+screen.row):settingsRow)*256+createRow*4096+(keyboard?editor.choice*65536u:0)+picker112.cursor*16777619u+picker112.mode*67108864u;if((pressed&(1024|2048|4096|8192|32|512))&&beforeCursor58!=afterCursor58)sound_menu58();
  if(f.page==F56_CHARACTERS)character_pages_tick62(&characterPages62,f.slot/3,ms);unsigned action=frontend_tick56(&f,ms);developerUnlocked56=(int)f.unlocked;
- pb_wait_for_vbl();pb_target_back_buffer();pb_reset();while(pb_busy()){}gpu_program_frame51();pb_fill(0,0,640,480,0xff181818);frontend_background56(f.page);
+ pb_wait_for_vbl();pb_target_back_buffer();pb_reset();while(pb_busy()){}hud_frame_begin253();gpu_program_frame51();pb_fill(0,0,640,480,0xff181818);frontend_background56(f.page);
  if(f.page==F56_CHARACTERS){unsigned first=f.slot/3*3;for(unsigned c=first;c<first+3;c++){int record=bank_latest56(c);if(record>=0)frontend_preview56(characterRecords56[c][record].job,(float)front_slot_shadow58(c),213,(unsigned)(c-first),characterRecords56[c][record].appearance58,characterRecords56[c][record].sex58,characterRecords56[c][record].headSources180,0);}}
  else if(f.page==F56_CREATE){pb_fill(60,96,152,196,0xffeaf0f5);frontend_preview56(0,137,244,0,creationAppearance58,(unsigned)creationSex,NULL,creationTurn191.direction);}
  hud_batch_begin();

@@ -1,0 +1,5 @@
+KIND 19 w128 h256 frames82 stream1
+KIND 27 w128 h256 frames81 stream1
+KIND 448 w384 h768 frames3624 stream1
+KIND 449 w384 h768 frames3760 stream1
+PASS actual Willow/Elder Willow/guardian sprite upload and cleanup: 7547 frames; GPU boundary recorded, target raster not tested.

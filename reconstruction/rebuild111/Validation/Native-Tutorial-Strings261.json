@@ -1,0 +1,130 @@
+[
+  {
+    "offset": "0xa0cebc",
+    "text": "Right stick: move  L3: reset  A: enter  R3: close  B: play"
+  },
+  {
+    "offset": "0xa31c1c",
+    "text": "Minimap dimensions/bounds"
+  },
+  {
+    "offset": "0xa4a42f",
+    "text": "%s - preparing minimap"
+  },
+  {
+    "offset": "0xa4a446",
+    "text": "native-large minimap"
+  },
+  {
+    "offset": "0xa4ec72",
+    "text": "Bounty Board Cecil Damon"
+  },
+  {
+    "offset": "0xa55e26",
+    "text": "Hunt 150 Cecil Damon monsters and return to the Bounty Board at Lighthalzen"
+  },
+  {
+    "offset": "0xa82d69",
+    "text": "Right stick: aim   A: cast   B: cancel"
+  },
+  {
+    "offset": "0xa8746d",
+    "text": "A thick book that contains basic skills for the clergy."
+  },
+  {
+    "offset": "0xa8a5be",
+    "text": "Minimap checksum mismatch"
+  },
+  {
+    "offset": "0xa8a61d",
+    "text": "Minimaps file size/seek mismatch"
+  },
+  {
+    "offset": "0xa8a72a",
+    "text": "Minimap must precede shared HUD batch"
+  },
+  {
+    "offset": "0xa8c521",
+    "text": "Cecil and Eremes Hunting"
+  },
+  {
+    "offset": "0xa8c97d",
+    "text": "Cecil Damon Hunting"
+  },
+  {
+    "offset": "0xa8d5ed",
+    "text": "Minimaps file missing"
+  },
+  {
+    "offset": "0xa9fbc6",
+    "text": "Right stick tolerance"
+  },
+  {
+    "offset": "0xa9fbdc",
+    "text": "Left stick tolerance"
+  },
+  {
+    "offset": "0xab72a1",
+    "text": "Minimap read allocation failed"
+  },
+  {
+    "offset": "0xab7484",
+    "text": "Minimap read failed"
+  },
+  {
+    "offset": "0xb41881",
+    "text": "Something is weird about him. Report to Cecilia first."
+  },
+  {
+    "offset": "0xb418b8",
+    "text": "Learn Basic Skill 9 and reach Novice Job 10 first."
+  },
+  {
+    "offset": "0xb47b9a",
+    "text": "Learn Basic Skill level 3 to sit."
+  },
+  {
+    "offset": "0xb486e6",
+    "text": "A: track/untrack quest. Right stick moves the highlighted frame; L3 resets it."
+  },
+  {
+    "offset": "0xb58582",
+    "text": "Search the old Swordman training grounds at the southeastern area of Prontera for any clues."
+  },
+  {
+    "offset": "0xb78e45",
+    "text": "Right stick: aim. A or quick button: cast. B: cancel."
+  },
+  {
+    "offset": "0xb90fc4",
+    "text": "Learn Basic Skill level 6 to use storage."
+  },
+  {
+    "offset": "0xb932e7",
+    "text": "Finish Training Grounds. Meet Nera beside the crossroads south of Prontera, on its eastern side."
+  },
+  {
+    "offset": "0xb96b09",
+    "text": "Hunt 400 Cecil and Eremes and return to Gramps at the Eden Group to get your reward."
+  },
+  {
+    "offset": "0xb98d11",
+    "text": "Hunt 400 Cecil Damon at Somatology Laboratory 3 and return to Gramps at the Eden Group to get your reward."
+  },
+  {
+    "offset": "0xb99851",
+    "text": "Hunt 400 Cecil Damon at the third level of the Somatology Laboratory. Return to Gramps at the Eden Group to get your reward."
+  },
+  {
+    "offset": "0xba6bcc",
+    "text": "You've completed the Spiritual Training! Go see the Sister Cecilia."
+  },
+  {
+    "offset": "0xbbb3a5",
+    "text": "\"I'll talk about the Mammonite skill, just a basic skill as Item Appraisal. For now, let me take a little bit of a break from all of this arduous lecture.\""
+  },
+  {
+    "offset": "0xbc64d8",
+    "text": "Stop the Sniper Cecile!!"
+  }
+]

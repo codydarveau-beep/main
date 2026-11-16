@@ -8,8 +8,8 @@ static int ui_button_token64(const char*begin,const char*s,unsigned*length){
  for(unsigned i=0;i<sizeof(names)/sizeof(*names);i++){
   unsigned n=(unsigned)strlen(names[i].name);unsigned matched=0;while(matched<n){unsigned a=(unsigned char)s[matched],b=(unsigned char)names[i].name[matched];if(a>='a'&&a<='z')a-=32;if(b>='a'&&b<='z')b-=32;if(a!=b)break;matched++;}if(matched!=n)continue;
   const char*p=s+n;if((*p>='A'&&*p<='Z')||(*p>='a'&&*p<='z')||(*p>='0'&&*p<='9')||*p=='_')continue;
-  while(*p==' ')p++;int explicit64=*p==':'||*p=='/'||!strcmp(names[i].name,"L3")||!strcmp(names[i].name,"R3")||((names[i].icon>=4&&names[i].icon<=7)||names[i].icon>=12||strchr(names[i].name,'/')||strstr(names[i].name,"pad")||strstr(names[i].name,"PAD"))||!strncmp(p,"to ",3)||!strncmp(p,"again",5)||!strncmp(p,"button",6);
-  if(!explicit64){static const char*verbs[]={"PRESS ","HOLD ","TAP ","Press ","press ","Hold ","hold ","Tap ","tap ","Release ","release ","with ","using "};
+  while(*p==' ')p++;int explicit64=*p==':'||*p=='/'||!strcmp(names[i].name,"L3")||!strcmp(names[i].name,"R3")||((names[i].icon>=4&&names[i].icon<=7)||names[i].icon>=12||strchr(names[i].name,'/')||strstr(names[i].name,"pad")||strstr(names[i].name,"PAD"))||((names[i].icon>=4||*s<'a'||*s>'z')&&(!strncmp(p,"to ",3)||!strncmp(p,"again",5)||!strncmp(p,"button",6)));
+  if(!explicit64){static const char*verbs[]={"PRESS ","HOLD ","TAP ","Press ","press ","Hold ","hold ","Tap ","tap ","Release ","release "};
    for(unsigned k=0;k<sizeof(verbs)/sizeof(*verbs);k++){size_t v=strlen(verbs[k]);if((size_t)(s-begin)>=v&&!strncmp(s-v,verbs[k],v)){explicit64=1;break;}}
    /* End of a slash-separated controller group, including A/B and LB / RB. */
    const char*q=s;while(q>begin&&q[-1]==' ')q--;if(q>begin&&q[-1]=='/'&&(!*p||*p==')'||*p==','||*p=='.'))explicit64=1;

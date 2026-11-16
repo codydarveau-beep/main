@@ -126,8 +126,9 @@ static void campaign_minimap200(const Combat*);
 #include "headgear54.h"
 #include "headgear_ui180.h"
 #include "stylist_preview191.h"
+#include "equipment_preview260.h"
 typedef struct{unsigned frame;HeadPose54 pose;}PaperContext200;
-static void paper_draw200(void*context,int x,int y){PaperContext200*c=context;unsigned used200=(unsigned)(hudBatch.vertices-hudSkinVertices54b)/HUD_QUAD_FLOATS+hudBatch.count;hud_batch_end();head_paper_doll180(&sprites[0],c->frame,c->pose,x,y,52,104);hud_batch_begin();hudBatch.vertices=hudSkinVertices54b+used200*HUD_QUAD_FLOATS;}
+static void paper_draw200(void*context,int x,int y){(void)context;hud_batch_end();equipment_draw260(x,y,52,210);hud_batch_begin();}
 static void npc_render_release171(void);
 static void core_npc_render_release183(void);
 static void mercenary_render_release180(void);
@@ -243,7 +244,7 @@ int main(void){boss_wallclock53();FILE*hardwareTrace54=fopen("D:\\gpu-trace.on",
   if(paused&&devOpen&&!devUI.confirm&&((devUI.tab<2&&devUI.row<2)||(devUI.tab==0&&(devUI.row==6||devUI.row==7)))){repeatMask=4096|8192;repeatContext=100+devUI.tab*10+devUI.row;}
   else if(paused&&!devOpen&&!testWarpOpen&&!confirmLoad&&pause_adjustable53(&pauseUI)){repeatMask=4096|8192;repeatContext=200+pauseUI.row;}
   else if(jobOpen&&!jobConfirm&&(jobChoice==7||jobChoice==8)){repeatMask=2;repeatContext=300+jobChoice;}
-  else if(!paused&&ui.active&&ui.inside&&!ui.placing&&ui.focus==5&&ui.choice[0]>=0){repeatMask=2;repeatContext=400+ui.choice[0];}
+  else if(!paused&&ui.active&&ui.inside&&!ui.placing&&ui.focus==5&&ui.choice[0]>=0){repeatMask=8;repeatContext=400+ui.choice[0];}
   else if(!paused&&ui.active&&ui.inside&&!ui.placing&&ui.focus==8&&ui.skillPage&&ui.choice[3]>=0){repeatMask=8;repeatContext=500+ui.choice[3]+game.jobId*32;}
   pressed|=input_repeat(&numberRepeat,buttons,repeatMask,repeatContext,dt);
   unsigned navContext=game.utilityMenu?90:paused?(devOpen?(devUI.confirm?0:10+devUI.tab):testWarpOpen?20:confirmLoad?21:30+pauseUI.tab):shopOpen?40:jobOpen?(jobConfirm?0:50):ui.active?(60+ui.focus+ui.inside*10+ui.placing*20):0;
@@ -258,7 +259,7 @@ int main(void){boss_wallclock53();FILE*hardwareTrace54=fopen("D:\\gpu-trace.on",
   if(quickActions&4){ui_open(&ui,UI_STATUS,1);}
   if(quickActions&8){ui_open(&ui,UI_SKILLS,1);ui.skillPage=1;}
   int utilityWasOpen=game.utilityMenu!=0;int menuInput=utilityWasOpen||scene_ui_modal200()||paused||ui.active||shopOpen||jobOpen||(pressed&(1|256));
-  if(pressed&1){if(pauseUI.editing61)pause_set61(&game,&autosave50b,pauseUI.tab,pauseUI.row,pauseUI.before61);pause_screen_cancel55(&pauseUI);sceneryEnabled=(int)sceneryEnabled61;game.utilityMenu=0;utilityChoice=0;devOpen=0;testWarpOpen=0;shopOpen=0;jobOpen=0;ui.active=0;ui.inside=0;ui.placing=0;paused=!paused;confirmLoad=0;if(paused){pauseUI.tab=0;pauseUI.row=pauseUI.detail=pauseUI.inside=0;}}
+  if(pressed&1){if(pauseUI.editing61)pause_set61(&game,&autosave50b,pause_setting_tab255(&pauseUI),pause_setting_row255(&pauseUI),pauseUI.before61);pause_screen_cancel55(&pauseUI);sceneryEnabled=(int)sceneryEnabled61;game.utilityMenu=0;utilityChoice=0;devOpen=0;testWarpOpen=0;shopOpen=0;jobOpen=0;ui.active=0;ui.inside=0;ui.placing=0;paused=!paused;confirmLoad=0;if(paused){pauseUI.tab=0;pauseUI.row=pauseUI.detail=pauseUI.inside=0;}}
   else if(!paused&&scene_ui_modal200())scene_ui_input200(pressed,game.jobId);
   else if(!paused&&!shopOpen&&!jobOpen&&!game.utilityMenu&&(pressed&256)){ui.active=!ui.active;ui.inside=0;ui.placing=0;}
 
@@ -302,9 +303,9 @@ int main(void){boss_wallclock53();FILE*hardwareTrace54=fopen("D:\\gpu-trace.on",
     if(result==1){confirmLoad=0;saveNotice=now;noticeActive=1;lastAuto=now;aiming=0;}
     else if(result==2){titleFadeOut56=1;confirmLoad=0;}
    }else {
-    if(!pauseUI.editing61)pauseUI.value61=pause_value61(&game,&autosave50b,pauseUI.tab,pauseUI.row);
+    if(!pauseUI.editing61)pauseUI.value61=pause_value61(&game,&autosave50b,pause_setting_tab255(&pauseUI),pause_setting_row255(&pauseUI));
     int action=pause_input(&pauseUI,pressed);
-    if(action==PA_OPTION_PREVIEW61||action==PA_OPTION_CANCEL61){pause_set61(&game,&autosave50b,pauseUI.tab,pauseUI.row,pauseUI.value61);if(action==PA_OPTION_PREVIEW61&&pauseUI.tab==P53_AUDIO&&pauseUI.row>=6)sound_menu58();sceneryEnabled=(int)sceneryEnabled61;}
+    if(action==PA_OPTION_PREVIEW61||action==PA_OPTION_CANCEL61){pause_set61(&game,&autosave50b,pause_setting_tab255(&pauseUI),pause_setting_row255(&pauseUI),pauseUI.value61);if(action==PA_OPTION_PREVIEW61&&pauseUI.tab==P53_AUDIO&&pauseUI.row>=6)sound_menu58();sceneryEnabled=(int)sceneryEnabled61;}
     if(action==PA_PREFS_SAVE58){if(pauseUI.tab==P53_GAMEPLAY&&pauseUI.row==4){autosave50b.pending=1;autosave50b.changedAt=now;lastAuto=now;}sceneryEnabled=(int)sceneryEnabled61;}
 if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56();}
    if(action==PA_MENU_SOUND58){sound_menu_enabled58(!menuSoundEnabled58);if(diskReady)prefs_save56();}
@@ -391,7 +392,7 @@ if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56
    zoom=view_zoom_clamp54(zoom);cameraCurrent163=(unsigned)(1.f+(zoom-.85f)*99.f/5.15f+.5f);
   }
   if(observedCamera65!=cameraRevision65){zoom=camera_zoom65(cameraCurrent163);observedCamera65=cameraRevision65;}zoom=view_zoom_clamp54(zoom);cameraCurrent163=(unsigned)(1.f+(zoom-.85f)*99.f/5.15f+.5f);
-  if(observedGuardians162!=guardianSprites162){while(pb_busy()){}sprite_release_enemies();gpu_stream_reset51();guardian_reset51();game.creatureAssetsChanged52=1;renderer_species_sync52(&game);memset(guardianMotion53,0,sizeof(guardianMotion53));observedGuardians162=guardianSprites162;}
+  if(observedGuardians162!=guardianSprites162){while(pb_busy()){}sprite_release_enemies();gpu_stream_reset51();willow_release259();guardian_reset51();game.creatureAssetsChanged52=1;renderer_species_sync52(&game);memset(guardianMotion53,0,sizeof(guardianMotion53));observedGuardians162=guardianSprites162;}
   float co=cosf(yaw),si=sinf(yaw),ct=cosf(tilt),sn=sinf(tilt);
   float dx=axis(pad,SDL_CONTROLLER_AXIS_LEFTX),dy=axis(pad,SDL_CONTROLLER_AXIS_LEFTY),length=sqrtf(dx*dx+dy*dy);if(length>1){dx/=length;dy/=length;}
   float oldX=game.x,oldY=game.y;int ownsInput=ui.active||shopOpen||jobOpen||game.utilityMenu||menuInput||!pad;
@@ -458,6 +459,7 @@ if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56
    dir=facing_stable45(&mobFacing45[i],activeMap,m->life,m->faceX,m->faceY,co,si);
    dir=npc_proc_direction180(&npcGame55,NPC_MOB_ENTITY172+i+1,m->life,dir);unsigned guardianBank162=guardian_bank162(m->kind);if(guardianBank162){GuardianPose53 pose=guardian_motion_rate162(&guardianMotion53[i],&game,m,guardianBank162,guardian_attack_rate164(&game,m,guardianBank162));if(guardianSprites162){group=pose.group;elapsed=pose.elapsed;duration=0;repeat=pose.repeat;}else guardianDraw51[visibleSlots45[vi]]=(GuardianDraw51){guardianBank162,pose.group,pose.elapsed,0,m->x,m->y,zz,pose.fx,pose.fy,pose.repeat};}
    actors[actorCount++]=(DrawActor){visibleSlots45[vi],m->kind+1,sprite_frame(&sprites[m->kind+1],group,dir,elapsed,duration,repeat),px,py,depth,0,m->hp<=0&&sprites[m->kind+1].alpha4444};
+   if(m->hp<=0&&(m->kind==19||m->kind==27))actors[actorCount-1].sourceFade50c=willow_death_code259(m->kind,dir,game.time-m->deadAt);
    actors[actorCount-1].scale60=m->hp>0&&m->class50.swooUntil60>game.time?.5f:1;if(guardianBank162&&guardianSprites162)actors[actorCount-1].scale60*=guardianSpriteScale162[guardianBank162-7];
    if(sprites[m->kind+1].guardian51)guardianDraw51[visibleSlots45[vi]].scale60=actors[actorCount-1].scale60;
    water_actor_mark54(&actors[actorCount-1],matrix,m->x,m->y,zz);
@@ -470,8 +472,8 @@ if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56
   if(saves.operationResult58>0)saveError=0;else if(saves.operationResult58<0)saveError=1;
   sound_drain(&game);
   frame_span50b(&frameProfile50b,FRAME_PREPARE50B,frame_clock50b(),&frameAt50b);
-  pb_wait_for_vbl();pb_target_back_buffer();pb_reset();while(pb_busy()){}unsigned char usedGpu183[SPRITE_SLOT_COUNT]={1};for(int i=0;i<actorCount;i++)usedGpu183[actors[i].slot]=1;gpu_entity_frame183(now,usedGpu183);effect_cache_frame183(now);art_cache_frame183(now);enemy_cache_frame183(now);death_sound_frame183(now);heap_frame183(now);campaign_portrait_prepare200(&npcGame55);water_prepare_view190(matrix,activeMap);gpu_program_frame51();campaign_actor_prepare200();
-  if(titleFadeOut56>=180){npc_portrait_release171();npc_game_clear55(&npcGame55);npc_variables_clear55(&npcVariables55);npc_state_clear55(&npcQuests55);npcSaveBridge55.canSave=NULL;npcSaveBridge55.saveContext=NULL;npcSaveBridge55.hasClean=0;bank_cache_clear56();world_release();activeMap=~0u;game.autoAttack=0;goto frontRestart56;}
+  pb_wait_for_vbl();pb_target_back_buffer();pb_reset();while(pb_busy()){}hud_frame_begin253();unsigned char usedGpu183[SPRITE_SLOT_COUNT]={1};for(int i=0;i<actorCount;i++)usedGpu183[actors[i].slot]=1;gpu_entity_frame183(now,usedGpu183);effect_cache_frame183(now);art_cache_frame183(now);enemy_cache_frame183(now);death_sound_frame183(now);heap_frame183(now);unsigned willowNeeded259=0;for(int i=0;i<actorCount;i++)if(actors[i].sourceFade50c>=2)willowNeeded259|=actors[i].kind==20?1u:actors[i].kind==28?2u:0;willow_prepare259(willowNeeded259,now);campaign_portrait_prepare200(&npcGame55);water_prepare_view190(matrix,activeMap);gpu_program_frame51();campaign_actor_prepare200();
+  if(titleFadeOut56>=180){equipment_release260();npc_portrait_release171();npc_game_clear55(&npcGame55);npc_variables_clear55(&npcVariables55);npc_state_clear55(&npcQuests55);npcSaveBridge55.canSave=NULL;npcSaveBridge55.saveContext=NULL;npcSaveBridge55.hasClean=0;bank_cache_clear56();world_release();activeMap=~0u;game.autoAttack=0;goto frontRestart56;}
   frame_span50b(&frameProfile50b,FRAME_WAIT50B,frame_clock50b(),&frameAt50b);
   /* Match the black backside tiles: unpainted map space must not reveal guide markings. */
   pb_fill(0,0,640,480,0xff000000);gpu_depth_state(1);pb_erase_depth_stencil_buffer(0,0,640,480);
@@ -479,8 +481,8 @@ if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56
   spriteQuickenPlayer45=game.quickenLeft>0&&game.hp>0;spriteBerserkPlayer45=combat_berserk_active(&game);spriteHiddenPlayer=(game.hideLeft>0||class_active50(&game,130)||class_active50(&game,SK52_ST_CHASEWALK))&&game.hp>0;spriteCoatedPlayer=game.energyCoatLeft>0&&game.hp>0;memset(spriteFlash49,0,sizeof(spriteFlash49));spriteFlash49[0]=trans_flash52(game.fxSkill,game.time-game.fxAt);for(int vi=0;vi<visibleCount;vi++){const CombatMob*t=&game.mobs[visible[vi]];float age=game.time-t->flashAt49;if(t->flashAt49>0&&age>=.5f&&age<1){unsigned seed=(unsigned)(age*20)*0x9e3779b9u+t->life;spriteFlash49[visibleSlots45[vi]]=0x808080u|(seed&0x7f7f7fu);}}memset(spriteFrozen,0,sizeof(spriteFrozen));for(int vi=0;vi<visibleCount;vi++)spriteFrozen[visibleSlots45[vi]]=game.mobs[visible[vi]].frozenLeft>0;memset(spriteStone,0,sizeof(spriteStone));for(int vi=0;vi<visibleCount;vi++)spriteStone[visibleSlots45[vi]]=game.mobs[visible[vi]].stoneLeft>0;memset(spritePoison,0,sizeof(spritePoison));spritePoison[0]=game.poisonLeft>0&&game.hp>0;for(int vi=0;vi<visibleCount;vi++)spritePoison[visibleSlots45[vi]]=game.mobs[visible[vi]].poisonLeft>0&&game.mobs[visible[vi]].hp>0;
   unsigned visualEntities180[SPRITE_SLOT_COUNT]={0},visualLives180[SPRITE_SLOT_COUNT]={0};visualEntities180[0]=1;
   for(int vi=0;vi<visibleCount;vi++){unsigned slot=visibleSlots45[vi],mob=visible[vi];visualEntities180[slot]=NPC_MOB_ENTITY172+mob+1;visualLives180[slot]=game.mobs[mob].life;}
-  for(int i=0;i<actorCount;i++){DrawActor*a=&actors[i];if(a->kind>=SCRIPT_NPC_KIND55&&a->kind<SCRIPT_NPC_KIND55+SCRIPT_NPC_SLOTS55)visualEntities180[a->slot]=NPC_ENTITY_BASE55+scriptNpcRecords55[a->kind-SCRIPT_NPC_KIND55]+1;unsigned flash=npc_proc_flash180(&npcGame55,visualEntities180[a->slot],visualLives180[a->slot]);if(flash)spriteFlash49[a->slot]=flash;sprite_upload(actor_shape50(a->kind),a->frame,a->slot);}
-  guild_furnish_prepare197(&game);guild_cabinet_prepare197(&game,yaw);head_upload54();stylist_prepare191(stylingPreview191);guardian_prepare51();npcHaloQuads180=0;
+  for(int i=0;i<actorCount;i++){DrawActor*a=&actors[i];if(a->kind>=SCRIPT_NPC_KIND55&&a->kind<SCRIPT_NPC_KIND55+SCRIPT_NPC_SLOTS55)visualEntities180[a->slot]=NPC_ENTITY_BASE55+scriptNpcRecords55[a->kind-SCRIPT_NPC_KIND55]+1;unsigned flash=npc_proc_flash180(&npcGame55,visualEntities180[a->slot],visualLives180[a->slot]);if(flash)spriteFlash49[a->slot]=flash;if(a->sourceFade50c<2)sprite_upload(actor_shape50(a->kind),a->frame,a->slot);}
+  guild_furnish_prepare197(&game);guild_cabinet_prepare197(&game,yaw);head_upload54();equipment_prepare260(!paused&&(ui.open&(1u<<UI_EQUIP))&&!jobOpen&&!shopOpen&&!game.utilityMenu&&!ui.equipPicker49);stylist_prepare191(stylingPreview191);guardian_prepare51();npcHaloQuads180=0;
   quicken_record45(&game,&quickenPlayer45,cartDir);
   frame_draw_span51(&frameProfile50b,DRAW_UPLOAD51,frame_clock50b(),&drawAt51);
   gpu_ground(matrix,(int)(x/16),(int)(y/16),1);
@@ -584,7 +586,7 @@ if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56
   if(titleFadeOut56){unsigned elapsed=(unsigned)(frameSeconds*1000);if(!elapsed)elapsed=1;titleFadeOut56+=elapsed;if(titleFadeOut56>180)titleFadeOut56=180;frontend_fade56(titleFadeOut56*255/180);}
   if(frontendFadeIn56){frontend_fade56(frontendFadeIn56*255/180);unsigned elapsed=(unsigned)(frameSeconds*1000);frontendFadeIn56=elapsed>=frontendFadeIn56?0:frontendFadeIn56-elapsed;}
   while(pb_busy()){}while(pb_finished()){}
-  if(titleFadeOut56>=180){npc_portrait_release171();npc_game_clear55(&npcGame55);npc_variables_clear55(&npcVariables55);npc_state_clear55(&npcQuests55);npcSaveBridge55.canSave=NULL;npcSaveBridge55.saveContext=NULL;npcSaveBridge55.hasClean=0;bank_cache_clear56();world_release();activeMap=~0u;game.autoAttack=0;goto frontRestart56;}
+  if(titleFadeOut56>=180){equipment_release260();npc_portrait_release171();npc_game_clear55(&npcGame55);npc_variables_clear55(&npcVariables55);npc_state_clear55(&npcQuests55);npcSaveBridge55.canSave=NULL;npcSaveBridge55.saveContext=NULL;npcSaveBridge55.hasClean=0;bank_cache_clear56();world_release();activeMap=~0u;game.autoAttack=0;goto frontRestart56;}
   frame_span50b(&frameProfile50b,FRAME_WAIT50B,frame_clock50b(),&frameAt50b);
   frame_finish50b(&frameProfile50b,frameFrequency50b,frameAudioTicks50b,!paused);
  }

@@ -1,0 +1,11 @@
+{
+  "candidates": [
+    {
+      "offset": 9422024,
+      "packed": 698641,
+      "rawSHA256": "c4bf419995f935df8a63a69ec84ee8bb56893038e8dbabe8a0bdc09f8d451354",
+      "matchesSource": false,
+      "buttonStripMatches": true
+    }
+  ]
+}

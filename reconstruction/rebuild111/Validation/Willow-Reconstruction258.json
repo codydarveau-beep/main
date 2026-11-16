@@ -1,0 +1,80 @@
+{
+  "reconstructed": true,
+  "source": "retained original SPR/ACT, not an identified historical fix",
+  "species": [
+    {
+      "kind": 19,
+      "name": "wilow",
+      "sourceSPR_SHA256": "4c2a79762abab6642caa570ad03d8878f19e01ebd48df731520a400732d5d9bc",
+      "sourceACT_SHA256": "c98683c25dce4d0592b8a6b0b444363fd7389b21e4807730accf23a2c227d34e",
+      "canvas": [
+        771,
+        552
+      ],
+      "deathFramesByDirection": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "sourceDeathMilliseconds": [
+        550,
+        550,
+        550,
+        550,
+        550,
+        550,
+        550,
+        550
+      ],
+      "maximumGPUCropBytes": 705600,
+      "nonDeathPackedPixelsAndTimingPreserved": true,
+      "packedBytes": 2341484,
+      "reconstructed": true
+    },
+    {
+      "kind": 27,
+      "name": "elder_wilow",
+      "sourceSPR_SHA256": "e98e4e1b82e079f8504de945ea17a54a4593149243165938659717b87e3f0a29",
+      "sourceACT_SHA256": "2bc3d94b5d4d6410b17f21bcbdb17100412d8ddeba07190e0ee03f14c2db067b",
+      "canvas": [
+        771,
+        552
+      ],
+      "deathFramesByDirection": [
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      "sourceDeathMilliseconds": [
+        525,
+        525,
+        525,
+        525,
+        525,
+        525,
+        525,
+        525
+      ],
+      "maximumGPUCropBytes": 705600,
+      "nonDeathPackedPixelsAndTimingPreserved": true,
+      "packedBytes": 2699470,
+      "reconstructed": true
+    }
+  ],
+  "appendBytes": 5040954,
+  "appendSHA256": "70de03b9682b7093d69b4005552ce991e44041632052c813ded97562bd777677",
+  "sourcePackPreserved": "/workspace/myro/hotfix171/Enemies/enemies.bin",
+  "XboxVisualAnd64MBStressPending": true,
+  "supersededBy": "Willow-Layers259.json",
+  "candidateRejectedForMemoryCost": true
+}

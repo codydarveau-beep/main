@@ -1,0 +1,1 @@
+PASS 497 available maps actual asset-buffer audit;20 KNT01/Lighthalzen transitions retain identical per-map buffers and completely release terrain/scenery/room resources before the heap-trim callback. Host logical-buffer accounting,not a console free-RAM measurement.

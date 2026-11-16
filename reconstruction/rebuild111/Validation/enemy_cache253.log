@@ -1,0 +1,2 @@
+Requests768 large744 frame disc reads86 packed hits682 rawbytes2077532 packedbytes503564
+PASS approved Guardian poses retain CRC/decompression with bounded raw/packed LRUs, repeated disc seeks avoided and map cleanup complete.

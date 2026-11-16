@@ -1,0 +1,46 @@
+[
+  {
+    "y": 1744,
+    "old": {
+      "nontransparent": 6172,
+      "dark": 4051
+    },
+    "released": {
+      "nontransparent": 2745,
+      "dark": 0
+    }
+  },
+  {
+    "y": 1792,
+    "old": {
+      "nontransparent": 6172,
+      "dark": 4025
+    },
+    "released": {
+      "nontransparent": 2745,
+      "dark": 0
+    }
+  },
+  {
+    "y": 1856,
+    "old": {
+      "nontransparent": 6172,
+      "dark": 3945
+    },
+    "released": {
+      "nontransparent": 2745,
+      "dark": 0
+    }
+  },
+  {
+    "y": 2016,
+    "old": {
+      "nontransparent": 3808,
+      "dark": 780
+    },
+    "released": {
+      "nontransparent": 3808,
+      "dark": 780
+    }
+  }
+]

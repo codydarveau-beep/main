@@ -7,6 +7,7 @@ static void*skinTexture;
 #include "skin_colors.h"
 #include "hud_palette.h"
 static HudBatch hudBatch;
+static unsigned hudSkinUsed253,hudDamageUsed253;
 static float *hudSkinVertices54b,*hudDamageVertices54b;
 static void*hudBatchTexture53;static unsigned hudBatchWidth53,hudBatchHeight53,hudBatchPitch53,hudBatchFormat53;
 static void*loadingTexture;static int loadingArtError;
@@ -27,10 +28,13 @@ static void hud_setup(void*texture,unsigned width,unsigned height,unsigned pitch
  hud_setup_direct(texture,width,height,pitch,format,blend);
 }
 static void item_icon_begin52(void);
-static void hud_batch_begin_texture53(void*texture,unsigned width,unsigned height,unsigned pitch,unsigned format){hudBatch.vertices=texture==skinTexture?hudSkinVertices54b:hudDamageVertices54b;hudBatchTexture53=texture;hudBatchWidth53=width;hudBatchHeight53=height;hudBatchPitch53=pitch;hudBatchFormat53=format;hudBatch.count=0;hudBatch.active=1;}
+/* Previous GPU frame must be idle before resetting either vertex arena. */
+static void hud_frame_begin253(void){if(hudBatch.active)fail("HUD frame reset inside a batch");hudSkinUsed253=hudDamageUsed253=0;hudBatch.count=0;hudBatch.vertices=hudSkinVertices54b;}
+static void hud_batch_begin_texture53(void*texture,unsigned width,unsigned height,unsigned pitch,unsigned format){if(hudBatch.active)fail("Nested HUD batch");unsigned used253=texture==skinTexture?hudSkinUsed253:hudDamageUsed253;if(used253>HUD_BATCH_QUADS)fail("HUD arena bounds invalid");hudBatch.vertices=(texture==skinTexture?hudSkinVertices54b:hudDamageVertices54b)+used253*HUD_QUAD_FLOATS;hudBatchTexture53=texture;hudBatchWidth53=width;hudBatchHeight53=height;hudBatchPitch53=pitch;hudBatchFormat53=format;hudBatch.count=0;hudBatch.active=1;}
 static void hud_batch_begin(void){item_icon_begin52();hud_batch_begin_texture53(skinTexture,512,SKIN_H,2048,0x0001122a);}
 static void hud_batch_end(void){
  hudBatch.active=0;if(!hudBatch.count)return;
+ float*arena253=hudBatchTexture53==skinTexture?hudSkinVertices54b:hudDamageVertices54b;unsigned used253=(unsigned)(hudBatch.vertices-arena253)/HUD_QUAD_FLOATS+hudBatch.count;if(used253>HUD_BATCH_QUADS)fail("HUD arena capacity exceeded");if(hudBatchTexture53==skinTexture)hudSkinUsed253=used253;else hudDamageUsed253=used253;
  __sync_synchronize(); /* publish write-combined vertices before GPU submission */
  hud_setup_direct(hudBatchTexture53,hudBatchWidth53,hudBatchHeight53,hudBatchPitch53,hudBatchFormat53,1);
  uint32_t*p=pb_begin();
@@ -73,7 +77,7 @@ static void world_loading(const char*stage){
   }
  }
 
- pb_wait_for_vbl();pb_target_back_buffer();pb_reset();while(pb_busy()){}pb_fill(0,0,640,480,0xff17251f);
+ pb_wait_for_vbl();pb_target_back_buffer();pb_reset();while(pb_busy()){}hud_frame_begin253();pb_fill(0,0,640,480,0xff17251f);
  if(loadingTexture){hud_setup(loadingTexture,640,480,1280,0x0001112a,0);hud_quad(0,0,640,480,0,0,640,480);}
  hud_panel(20,414,600,42);hud_text(32,421,"%s",stage);while(pb_busy()){}while(pb_finished()){}
 }
