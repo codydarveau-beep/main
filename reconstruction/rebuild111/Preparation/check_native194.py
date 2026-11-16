@@ -23,6 +23,7 @@ assert 'campaign_battle_tick200' not in u and 'party_maya_support215' not in u
 chains += [['main','party_progress_load200'],['main','party_progress_commit200']]
 # Oren/Lale deferred impact calls the shared growth-aware saved-vitals path.
 chains += [['main','party_resolve200','party_performer_step216','party_save_vital200','party_vital_store200','party_progress_commit200']]
+chains += [['main','party_resolve200','party_blacksmith_step217','party_save_vital200','party_vital_store200','party_progress_commit200']]
 for chain in chains:
  frames={n:u[n] for n in chain};total=sum(frames.values());assert total+32768<=reserve,(frames,total,reserve);checks.append(dict(frames=frames,bytes=total,margin=32768))
 # Assembly wrappers reserve 6144 bytes plus alignment/saved registers; the

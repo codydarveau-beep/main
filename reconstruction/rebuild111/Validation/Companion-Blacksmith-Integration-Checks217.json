@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "scope": "Actual Dagna ticks in both careers: learned Hammer Fall, native area boundary and real statuses, deferred durable own-SP fee, unchanged enemy HP for stun, preserved career EXP/job/vitals/player resources. Lost/dead/out-of-range/blocked targets, exhausted SP, corrupt record and failed write preserve exact records and resources. Real basic fallback preserves original support/disabled/cooldown/boss/already-stunned behavior. Full world activation and target playtests remain separate",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

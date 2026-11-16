@@ -37,6 +37,26 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original Dagna attack choice and initiation",
+      "status": "passed",
+      "evidence": "Companion-Blacksmith-Cast-Checks217.json"
+    },
+    {
+      "name": "original Dagna area stun and real status resolution",
+      "status": "passed",
+      "evidence": "Companion-Blacksmith-Impact-Checks217.json"
+    },
+    {
+      "name": "original Dagna basic impacts and deferred payment",
+      "status": "passed",
+      "evidence": "Companion-Blacksmith-Basic-Checks217.json"
+    },
+    {
+      "name": "actual Dagna stun and physical candidate careers",
+      "status": "passed",
+      "evidence": "Companion-Blacksmith-Integration-Checks217.json"
+    },
+    {
       "name": "original Oren/Lale physical choices and projectile initialization",
       "status": "passed",
       "evidence": "Companion-Performer-Cast-Checks216.json"

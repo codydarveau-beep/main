@@ -45,10 +45,8 @@
     }
   ],
   "allPassed": true,
-  "nativeCompiled": true,
+  "nativeCompiled": false,
   "originalXboxPlaytested": false,
   "xemuPlaytested": false,
-  "additionalReviewPassesCompleted": 0,
-  "nativeArtifactReport": "Native-Checks194.json",
-  "normalReleaseWideIntegrationComplete": false
+  "additionalReviewPassesCompleted": 0
 }

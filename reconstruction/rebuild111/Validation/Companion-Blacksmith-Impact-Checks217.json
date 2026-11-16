@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "nativeComparisons": 1200,
+  "stunCases": 137,
+  "scope": "Original complete Dagna Hammer Fall impact and real native stun resistance/RNG/duration compared to production real status helper, both careers and three-enemy clusters at native 20-unit boundary, boss/training/frozen/stone/pre-existing stun cases, deferred own-SP payment and serial/range/line/time/resource rejection. Native persistence and validity/line are explicit fixtures; actual battle/durable failure integration remains separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

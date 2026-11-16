@@ -283,8 +283,8 @@
     },
     {
       "path": "Source/campaign_battle200.h",
-      "bytes": 26028,
-      "sha256": "e3ecbccd24ee036d3e588ef4350555203f8ead3f754e72faa6d1b8fca9b9549d"
+      "bytes": 26223,
+      "sha256": "64da67c96a7ac30855c7347d6e25d5c2061cd3f80667a4ead36b0209365016a1"
     },
     {
       "path": "Source/campaign_career200.h",
@@ -812,6 +812,11 @@
       "sha256": "7f9727227ce2a159485e3b27919cbfc9c82bbbd9d6fcf6008fa301c64b0db689"
     },
     {
+      "path": "Source/companion_blacksmith217.h",
+      "bytes": 2455,
+      "sha256": "1a12da0e06e2566fe1681c80713bba2df4926e65915709ef568e0525fcb42cc9"
+    },
+    {
       "path": "Source/companion_bolt_choice204.h",
       "bytes": 663,
       "sha256": "8d4895e10bbc9ccc2c0185797f977b9e431df1da385cddc197e4cf781529f2ee"
@@ -820,6 +825,11 @@
       "path": "Source/companion_bolt_impact204.h",
       "bytes": 1419,
       "sha256": "a43c4a109c7f037e7a36c197dacbc9ff83cc8d08d7ec89103f9cf518a249fba6"
+    },
+    {
+      "path": "Source/companion_career_begin217.h",
+      "bytes": 1357,
+      "sha256": "b56425f06e9510a3b303e4041e2dca2c4fd6299e79db18a89dddd970da797e77"
     },
     {
       "path": "Source/companion_data50.h",
@@ -873,8 +883,8 @@
     },
     {
       "path": "Source/companion_performer216.h",
-      "bytes": 3605,
-      "sha256": "c55b1ea22ea50e900d1728b9182ab66417922cc614e857e1d71c5c4ad6ebd5fd"
+      "bytes": 2515,
+      "sha256": "0648da7296bad4c989ee72061212ec5020dc3598aff062422497135e6a220401"
     },
     {
       "path": "Source/companion_physical_begin213.h",
@@ -3872,6 +3882,11 @@
       "sha256": "33a8e3420a25807756edeb7f7eb6c00cbaa65a69f3d686a33a99a2f0ea70ca53"
     },
     {
+      "path": "Source/test_companion_blacksmith217.c",
+      "bytes": 3891,
+      "sha256": "4e146824b0abde67ed4d10dc664be0ab049fdaad5a5874e152070164aaba0ba5"
+    },
+    {
       "path": "Source/test_companion_elemental211.c",
       "bytes": 2750,
       "sha256": "630920786dac513883e9a68b8481bfcbb07f28aa2db145acad41eddc117c0c5f"
@@ -5093,8 +5108,8 @@
     },
     {
       "path": "Preparation/Development-Resume215.md",
-      "bytes": 2889,
-      "sha256": "e9fa86f6f58e8bcd384e829afcc3ddadfe68d3d738c7ee5bc409e0566c9769eb"
+      "bytes": 3144,
+      "sha256": "73db8042a108d7424bc67a817d853e133955dbb6b327a4744f9c97ebb0ef6611"
     },
     {
       "path": "Preparation/Guild-Map-Recovery197.json",
@@ -5235,6 +5250,26 @@
       "path": "Preparation/check_companion_basic208.py",
       "bytes": 5263,
       "sha256": "2215a44bbe2ea7d8b8bc97d2b3df1ffea9c585a0a7a4d43e78cecf7c688da617"
+    },
+    {
+      "path": "Preparation/check_companion_blacksmith_basic217.py",
+      "bytes": 4803,
+      "sha256": "127c15aeff7455225036285b10162ccdd3c75d645d48ec7b06bc208527acafd1"
+    },
+    {
+      "path": "Preparation/check_companion_blacksmith_cast217.py",
+      "bytes": 4904,
+      "sha256": "90a8ccb5d9defea2401fa64afa783380ae6d1f4b2a6e31ae67e1c696ce9d7452"
+    },
+    {
+      "path": "Preparation/check_companion_blacksmith_impact217.py",
+      "bytes": 4854,
+      "sha256": "94feb493fdcd0b4a7fa017571fc7f71b949f1df9cac30493ad73297319ddaf08"
+    },
+    {
+      "path": "Preparation/check_companion_blacksmith_integration217.py",
+      "bytes": 1531,
+      "sha256": "4065c84316a9ef52db6fc77042e9a448517073ea797bd485e8b0591bbb19d728"
     },
     {
       "path": "Preparation/check_companion_bolt_choice204.py",
@@ -5443,8 +5478,8 @@
     },
     {
       "path": "Preparation/check_native194.py",
-      "bytes": 5774,
-      "sha256": "dab10a9e126dd63dcff0f4e2292aff090cf13329ca17c7d04facd1f24c812753"
+      "bytes": 5913,
+      "sha256": "7818405eac9c15b750954ce0f4d88c315e64b7da8edf09218f380ad34689a181"
     },
     {
       "path": "Preparation/check_retained196.py",
@@ -5623,8 +5658,8 @@
     },
     {
       "path": "Preparation/summarize_normal_checks194.py",
-      "bytes": 8643,
-      "sha256": "6975ebeb2c787b155adfc0f3920c95b941855dbf586a7fc73cd9bb87e2ad278e"
+      "bytes": 9036,
+      "sha256": "f77826ee57b8e3f1ffe7b56d1d5abe1bcafd9be193c4e36fc0096df5be6af309"
     },
     {
       "path": "Validation/Arcade-Logic-Checks197.json",
@@ -5670,6 +5705,26 @@
       "path": "Validation/Companion-Basic-Impact-Checks208.json",
       "bytes": 690,
       "sha256": "13b034d8e90c0b276ffef3e2f03f3fe214ae914df438d51e45b5b36b75221ffa"
+    },
+    {
+      "path": "Validation/Companion-Blacksmith-Basic-Checks217.json",
+      "bytes": 647,
+      "sha256": "478cf8b51fd77b5f8af0aa5cfa51407060b7c670e16704be4b264512e33a1182"
+    },
+    {
+      "path": "Validation/Companion-Blacksmith-Cast-Checks217.json",
+      "bytes": 600,
+      "sha256": "3216cc605e689eed7fe343f50ca5a051ae9007f7184750003feff21e03223b3f"
+    },
+    {
+      "path": "Validation/Companion-Blacksmith-Impact-Checks217.json",
+      "bytes": 626,
+      "sha256": "490118d35f69f85592c9402ddf6a85abf2be16a396e26eb042abc530f683a051"
+    },
+    {
+      "path": "Validation/Companion-Blacksmith-Integration-Checks217.json",
+      "bytes": 621,
+      "sha256": "7acef7954b0718db7e044808bfac8689f06071a8beea34ce770087441e5cf9f3"
     },
     {
       "path": "Validation/Companion-Bolt-Choice-Checks204.json",
@@ -5918,13 +5973,13 @@
     },
     {
       "path": "Validation/Integration-Checks194.json",
-      "bytes": 1707,
-      "sha256": "31262ef1731936896c15104caefbd383803b663993540e9007f8b6e354986efe"
+      "bytes": 1608,
+      "sha256": "c4b6a062003f524f13460a8225752d09d2437c875d263209c664c6fea48c8a2f"
     },
     {
       "path": "Validation/Native-Checks194.json",
-      "bytes": 6508,
-      "sha256": "6cb525703786b2a4c3c900666f3509e62603308fe779a55104cd203a6f7644f4"
+      "bytes": 6801,
+      "sha256": "2a14aa04870f2241bb01f40005186530ff8f7ff043bbcf87da511017690b861e"
     },
     {
       "path": "Validation/Native-Decompile203/callback-117850.c",
@@ -6123,8 +6178,8 @@
     },
     {
       "path": "Validation/Normal-Release-Checks194.json",
-      "bytes": 11513,
-      "sha256": "52a12fa3786a915bb757cac0af7924f8e7d31ac7a5e124b2b1714cdd60a21d01"
+      "bytes": 12186,
+      "sha256": "e490a51debd9c6de272c924f3bcddf475d7c464bd3a5554a4737d1fdadacd283"
     },
     {
       "path": "Validation/Release-Inputs194.json",
@@ -6325,6 +6380,31 @@
       "path": "Validation/companion-basic208.log",
       "bytes": 64,
       "sha256": "cce48bd73530a7b95c27ff2437aa548a42653fb0784d9fa46c7665363bc6c39a"
+    },
+    {
+      "path": "Validation/companion-blacksmith-basic217.log",
+      "bytes": 74,
+      "sha256": "587e48e725098f7d886f356724fb3c0be40da61b5a2f80d1e2844d0e6ee1c39c"
+    },
+    {
+      "path": "Validation/companion-blacksmith-cast217.log",
+      "bytes": 123,
+      "sha256": "bf600c1ffc27d8d8d6194f349120e56dc115f4e5f7b67ef187ae498b5f1abba2"
+    },
+    {
+      "path": "Validation/companion-blacksmith-impact217.log",
+      "bytes": 73,
+      "sha256": "5e7fe6a4517ab03e8090dc291f67bc7dfaf0e06b8c7171e1668a4aa4a7d93a2d"
+    },
+    {
+      "path": "Validation/companion-blacksmith-integration-result217.log",
+      "bytes": 71,
+      "sha256": "64e31820acb1b57565006cb6810f7385912a3e49b08e022f515c9d0b4b09e620"
+    },
+    {
+      "path": "Validation/companion-blacksmith-integration217.log",
+      "bytes": 134,
+      "sha256": "5a2c162ee6711aa43ec2a3b4fd191e0eade23ac83387bcd8a07f332216c752dc"
     },
     {
       "path": "Validation/companion-bolt-choice204.log",
@@ -6542,6 +6622,11 @@
       "sha256": "589eb15773f0b7fcefd3bbe9a20984a7475121e856b6540b58557ad3425bf638"
     },
     {
+      "path": "Validation/companion-performer-cast-regression217.log",
+      "bytes": 127,
+      "sha256": "a736acdf2b0b3fc7a0435e4b69ec8adb361d4d30c3d79aee0f949bb54a7f747e"
+    },
+    {
       "path": "Validation/companion-performer-cast216.log",
       "bytes": 127,
       "sha256": "a736acdf2b0b3fc7a0435e4b69ec8adb361d4d30c3d79aee0f949bb54a7f747e"
@@ -6550,6 +6635,11 @@
       "path": "Validation/companion-performer-impact216.log",
       "bytes": 81,
       "sha256": "af298d7b45bed3997e0ca3a5c4bd113b5ffdc46eb8acbcf4ed2373035f27dffd"
+    },
+    {
+      "path": "Validation/companion-performer-integration-regression217.log",
+      "bytes": 63,
+      "sha256": "d7f9a5d3df1e8bb0aad20971fd98c0dab1151eb0e1fe618c1864da8ea5e07855"
     },
     {
       "path": "Validation/companion-performer-integration-result216.log",
@@ -6775,6 +6865,11 @@
       "path": "Validation/companion_basic_adapter208.c",
       "bytes": 2197,
       "sha256": "c9c761ef7b7e823c243d0967ff0399580b976df70eddef3d6e3b0e17d8e82b05"
+    },
+    {
+      "path": "Validation/companion_blacksmith_adapter217.c",
+      "bytes": 5773,
+      "sha256": "a2d08c0763488f3d5eed4aa28430cb73e7cb97920fae2408dca3dcc3dd948fa2"
     },
     {
       "path": "Validation/companion_bolt_adapter204.c",
@@ -7047,6 +7142,11 @@
       "sha256": "ce7ffbd9c7f8ed238b1b32e16c79ccc440dd0f49625b0cc7742ad337647c4aba"
     },
     {
+      "path": "Validation/integration-regression217.log",
+      "bytes": 1102,
+      "sha256": "ce7ffbd9c7f8ed238b1b32e16c79ccc440dd0f49625b0cc7742ad337647c4aba"
+    },
+    {
       "path": "Validation/integration-run194.log",
       "bytes": 1102,
       "sha256": "7712c520f7c95adab4e670c57a779e6528c734552683e1f03411a7497db9152a"
@@ -7108,6 +7208,16 @@
     },
     {
       "path": "Validation/native-basic208.log",
+      "bytes": 612,
+      "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
+    },
+    {
+      "path": "Validation/native-blacksmith-guards217.log",
+      "bytes": 6801,
+      "sha256": "2a14aa04870f2241bb01f40005186530ff8f7ff043bbcf87da511017690b861e"
+    },
+    {
+      "path": "Validation/native-blacksmith217.log",
       "bytes": 612,
       "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
     },
@@ -7723,8 +7833,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 52673,
-      "sha256": "dcfc0df2d1f6dfc3a463d3f9607fa7c81a63493dfba30213b228fe008d279adc"
+      "bytes": 54725,
+      "sha256": "df95e179a8dffc6c3a3a2291055b07b7f3861a0e4da385455c5e23ab200cf43e"
     },
     {
       "path": "RELEASE-GATES.md",
