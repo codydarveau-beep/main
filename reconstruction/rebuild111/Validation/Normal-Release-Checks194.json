@@ -37,6 +37,21 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original Oren/Lale physical choices and projectile initialization",
+      "status": "passed",
+      "evidence": "Companion-Performer-Cast-Checks216.json"
+    },
+    {
+      "name": "original Oren/Lale impacts and deferred payment",
+      "status": "passed",
+      "evidence": "Companion-Performer-Impact-Checks216.json"
+    },
+    {
+      "name": "actual Oren/Lale ranged candidate careers",
+      "status": "passed",
+      "evidence": "Companion-Performer-Integration-Checks216.json"
+    },
+    {
       "name": "original Maya potion support and complete durable transactions",
       "status": "passed",
       "evidence": "Companion-Potion-Checks215.json"

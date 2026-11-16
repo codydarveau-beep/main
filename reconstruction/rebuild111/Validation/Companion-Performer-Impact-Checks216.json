@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "nativeComparisons": 1600,
+  "damageCoverage": {
+    "180": 75,
+    "1": 306,
+    "173": 66
+  },
+  "scope": "Original complete Oren/Lale physical impact family in both careers, own weapon/stats/power/rank ratios, exact own-SP impact payment and hit RNG/miss, cue request and range/line/serial/time/resource rejection. Native persistence is a callback fixture here; native element/defense are identity fixtures to compare pre-defense power against production hit callback. Real defense/durable actual candidate ticks are separate; no target playtest.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

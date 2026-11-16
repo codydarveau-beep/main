@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "nativeComparisons": 1200,
+  "choiceCoverage": {
+    "1": 1101,
+    "173": 55,
+    "180": 44
+  },
+  "scope": "Original Oren/Lale inline physical choice/initialization across both careers each: learned ranged skills and exact basic fallback, deferred own-SP fee, own weapon/job motion and AGI/DEX/buffs, original minimum/maximum attack duration, delay/preference cooldown and all eight native projectile records including ring wrap. Target validity and line are recording fixtures; actual real candidate ticks and impact payment are checked separately",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "scope": "Actual Oren/Lale ticks in all four authored careers: original learned ranged skills and basic fallback, native projectiles, real physical damage with actual enemy defenses, deferred one-time durable own-SP payment and preserved career EXP/job/vitals/player resources. Lost/dead/out-of-range targets, exhausted SP, corrupt record and rejected write preserve resources and exact durable bytes; pause/peaceful modes preserve attacks. Native caller/impact references are separate; full roster activation and target playtests remain separate",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}
