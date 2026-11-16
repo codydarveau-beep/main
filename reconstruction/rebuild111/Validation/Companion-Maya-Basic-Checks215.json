@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "nativeComparisons": 1600,
+  "scope": "Actual native Maya basic impact across both authored careers: original own weapon/STR/DEX/LUK/Blessing and Sword Mastery, fixed rank, hit chance/RNG and range/line/serial/time rejection. Final hit and enemy flee are explicit fixtures; initiation and potion support remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

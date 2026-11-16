@@ -2,7 +2,7 @@
   "nativeCompiled": true,
   "title": "MyRO v1.11.0 RECOVERY",
   "xbeBytes": 12275712,
-  "xbeSHA256": "13d22c7c8c0e2c13696bbfa3a0a542fec37671bd99003fba050f0da2f6ee9ea5",
+  "xbeSHA256": "2799928b2ab40f1ee7106f010fc03adc306cb6ae04559c594a0659056aa7af63",
   "stackReserve": 163840,
   "knownChains": [
     {
@@ -222,6 +222,22 @@
         "party_progress_commit200": 1936
       },
       "bytes": 58344,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55116,
+        "party_progress_load200": 696
+      },
+      "bytes": 55812,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55116,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57052,
       "margin": 32768
     },
     {

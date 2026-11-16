@@ -2,6 +2,7 @@
 #ifndef MYRO_COMPANION_MELEE_TICK213_H
 #define MYRO_COMPANION_MELEE_TICK213_H
 static unsigned party_melee_choice213(const CampaignFollower200*m,float now,unsigned*rank){
+ if(m->id==COMP200_MAYA){*rank=1;return 1;}
  unsigned skill=m->id==COMP200_IRUGA?13:2;*rank=party_skill_rank193(m,skill);
  if(!*rank||!campaignConfig200.skills[m->id]||campaignConfig200.priority[m->id]==PARTY_SUPPORT200||now<m->skillAt)return 1;
  if(m->sp<party_skill_cost200(skill,*rank)){*rank=0;return 1;}

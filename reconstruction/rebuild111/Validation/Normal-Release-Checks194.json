@@ -37,6 +37,26 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original Maya potion support and complete durable transactions",
+      "status": "passed",
+      "evidence": "Companion-Potion-Checks215.json"
+    },
+    {
+      "name": "original Maya physical impacts",
+      "status": "passed",
+      "evidence": "Companion-Maya-Basic-Checks215.json"
+    },
+    {
+      "name": "original Maya basic attack initialization",
+      "status": "passed",
+      "evidence": "Companion-Maya-Physical-Cast-Checks215.json"
+    },
+    {
+      "name": "actual Maya support and physical candidate integration",
+      "status": "passed",
+      "evidence": "Companion-Potion-Integration-Checks215.json"
+    },
+    {
       "name": "original shared companion healing target priorities",
       "status": "passed",
       "evidence": "Companion-Heal-Target-Checks214.json"

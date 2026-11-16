@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "nativeComparisons": 1236,
+  "caseCoverage": {
+    "committed-career-20": 10,
+    "committed-recipient-0": 11,
+    "committed": 34,
+    "committed-recipient-1": 10,
+    "committed-recipient-2": 13,
+    "denied": 1187,
+    "committed-career-32": 24,
+    "walking": 15
+  },
+  "scope": "Original complete Maya support branch versus production helper: both careers and real native learning, target selection, raw red-potion SP fee, exact research/recipient-VIT healing, actual native inventory removal and durable RPV3 put/CRC/commit payload. Every durable byte, live caster/recipient resources, potion count, cooldown and cue/number request agree. Commit rejection/corrupt record/missing items/range/line/learning/cooldown preserve resources; original approach request is recorded. Native NPC storage/player VIT and visual callbacks are explicit fixtures; actual complete battle integration and target playtests remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

@@ -283,8 +283,8 @@
     },
     {
       "path": "Source/campaign_battle200.h",
-      "bytes": 25597,
-      "sha256": "e38abf74729449515e3b57d6b89cc35aafe2b5ac9961751f2d1abe413a135728"
+      "bytes": 25805,
+      "sha256": "8761b635046ce20782c431a124b34b0b5824359a589603b2cb460657c1e1ef16"
     },
     {
       "path": "Source/campaign_career200.h",
@@ -853,8 +853,8 @@
     },
     {
       "path": "Source/companion_melee_tick213.h",
-      "bytes": 2342,
-      "sha256": "69d2ebf5110c32887d9fa491f441a468127e18f4c2188cdb6384590bbdd45db5"
+      "bytes": 2386,
+      "sha256": "0be2badaa1b261efc6c4424f9c333205e2b6c17da4100d39ce2809b0991e8bca"
     },
     {
       "path": "Source/companion_multipliers203.h",
@@ -880,6 +880,11 @@
       "path": "Source/companion_pip_support214.h",
       "bytes": 1141,
       "sha256": "5f65c44de5f4c3c2e41f13da20cadd68525e96d4dc6a3afe29daed4585509523"
+    },
+    {
+      "path": "Source/companion_potion215.h",
+      "bytes": 2446,
+      "sha256": "1104005efd71998a99508c82641f819549a7208a010bf9d6a58f5bece6610087"
     },
     {
       "path": "Source/companion_power202.h",
@@ -3887,6 +3892,11 @@
       "sha256": "6968c642fa1b5eeb2fd2106a28d026d73a146a7712a0e6714f4bb4a5240f8931"
     },
     {
+      "path": "Source/test_companion_potion215.c",
+      "bytes": 4488,
+      "sha256": "53bac03e7c2b10c7b13f1681af3f8f767315d27590cdf79c37fb50fdcd5db264"
+    },
+    {
       "path": "Source/test_companion_progress200.c",
       "bytes": 3562,
       "sha256": "5b89d554cf4b1159ba6b0893a9ea4cbd92fe8653532efc7606364ce011069d11"
@@ -5072,6 +5082,11 @@
       "sha256": "06a688697a440bbe212d174a23cc6f274745d099a4cbdd40e545e975b4fb2ef4"
     },
     {
+      "path": "Preparation/Development-Resume215.md",
+      "bytes": 2556,
+      "sha256": "8bdedde0be3b1d2f5307073ad2af5e76f57ad410a247d283c779dc12e998b7e0"
+    },
+    {
       "path": "Preparation/Guild-Map-Recovery197.json",
       "bytes": 358,
       "sha256": "74c359f1aef812cf53f78ebead2f1646c1da55d078dd1b1e7cb05b19d3e91821"
@@ -5267,6 +5282,16 @@
       "sha256": "a05aa803feaebfc3151bc95b32e21b6a147207fb315ae94956fbad9920b1ef9f"
     },
     {
+      "path": "Preparation/check_companion_maya_basic215.py",
+      "bytes": 4058,
+      "sha256": "1cf15273587a1852658a247d240cf965389bec9bf365e98b1b5571f245a3c238"
+    },
+    {
+      "path": "Preparation/check_companion_maya_physical215.py",
+      "bytes": 4363,
+      "sha256": "a84a28100830f889db1be85eb615b7551a195b591b0f13ad4faf75ebf80af5ea"
+    },
+    {
       "path": "Preparation/check_companion_melee_basic213.py",
       "bytes": 4141,
       "sha256": "f9b37593e94d10d256d4dff53aad6f52524ac84efb1ee1cd35717554fc25050d"
@@ -5305,6 +5330,16 @@
       "path": "Preparation/check_companion_pip_physical214.py",
       "bytes": 4334,
       "sha256": "2adde23faf48ba48f4253c8455feee8f9abd070e4c7accecde165b8154cfd758"
+    },
+    {
+      "path": "Preparation/check_companion_potion215.py",
+      "bytes": 8082,
+      "sha256": "4dde0adaf59d5666c542d03a854c45803d92e96c8ebeba32a422b6b7e10fa826"
+    },
+    {
+      "path": "Preparation/check_companion_potion_integration215.py",
+      "bytes": 1452,
+      "sha256": "540014048ea37ed7e9f0c3d3590293b10c7037bcde22c0a611e6f11dd7b12766"
     },
     {
       "path": "Preparation/check_companion_runtime200.py",
@@ -5383,8 +5418,8 @@
     },
     {
       "path": "Preparation/check_native194.py",
-      "bytes": 5282,
-      "sha256": "85f43ec142b5826de2fc31f003c0a5d0bd46779307e7c22b06d2842a232e3648"
+      "bytes": 5559,
+      "sha256": "fcfc50ab7b8b5d1c3af339dcb620a0f6ccc0ee27495e0c09ac60b186ec57a556"
     },
     {
       "path": "Preparation/check_retained196.py",
@@ -5563,8 +5598,8 @@
     },
     {
       "path": "Preparation/summarize_normal_checks194.py",
-      "bytes": 7969,
-      "sha256": "411376f35b6ab0edf683913f7be1d9963f9285f1a9ee3e12b3d40a5b3b4f8075"
+      "bytes": 8340,
+      "sha256": "4108afe3ed657192e3bb232772ba8ea4e9aede53cc88a926e122147c8603edb5"
     },
     {
       "path": "Validation/Arcade-Logic-Checks197.json",
@@ -5672,6 +5707,16 @@
       "sha256": "9682f03d8938a8cf318bfea34522eb20729c1a26105004ef192afa61964a1c46"
     },
     {
+      "path": "Validation/Companion-Maya-Basic-Checks215.json",
+      "bytes": 448,
+      "sha256": "fd8a75596b4b04de0d8dd4d9ffa674e04393e0b160f961053e78846e67798ee9"
+    },
+    {
+      "path": "Validation/Companion-Maya-Physical-Cast-Checks215.json",
+      "bytes": 632,
+      "sha256": "324a232c774a4ddaaead6b10726ebaf3d9531377a3f65ecfaf7aa30a707fa9c2"
+    },
+    {
       "path": "Validation/Companion-Melee-Basic-Checks213.json",
       "bytes": 453,
       "sha256": "e0bf2df312d8269d3b156d61f02b9b9303aa47efe021bebcb4ee09566bceccc6"
@@ -5720,6 +5765,16 @@
       "path": "Validation/Companion-Pip-Physical-Cast-Checks214.json",
       "bytes": 661,
       "sha256": "3c45ae710f615964bf507bebef8314b3d1a5e074e4705a45c2197013dd83c673"
+    },
+    {
+      "path": "Validation/Companion-Potion-Checks215.json",
+      "bytes": 1053,
+      "sha256": "5ee36cdb8579e1dcd9feab3a6ddff385ff84c66c9fc77c6e045927285f301917"
+    },
+    {
+      "path": "Validation/Companion-Potion-Integration-Checks215.json",
+      "bytes": 561,
+      "sha256": "7b035086eed216b9446ff5fa1af5901d5b6d5918ecb58e32150c5db787088172"
     },
     {
       "path": "Validation/Companion-Power-Checks202.json",
@@ -5828,8 +5883,8 @@
     },
     {
       "path": "Validation/Native-Checks194.json",
-      "bytes": 5923,
-      "sha256": "9e149b0a351dde1daa781a50c3099d560a48b13ed753e93abc734a9a61f186d5"
+      "bytes": 6216,
+      "sha256": "7b4674e17ae9ea7f85361eb730cea482b538258348198583f773be49da3f7c5a"
     },
     {
       "path": "Validation/Native-Decompile203/callback-117850.c",
@@ -6028,8 +6083,8 @@
     },
     {
       "path": "Validation/Normal-Release-Checks194.json",
-      "bytes": 10349,
-      "sha256": "c370083f323c7b36b4762f3d46a801b19d9e493bb978891ebdb7418db5443d1a"
+      "bytes": 11000,
+      "sha256": "942e1071fa82e80cef1db144c9e2f379a32ae5c62b766f55d300a90d63d7d1ed"
     },
     {
       "path": "Validation/Release-Inputs194.json",
@@ -6407,6 +6462,16 @@
       "sha256": "dceab6f15f9d6dd1b88e7431b2184be2ccbd77f139128025e85cac675f5690c6"
     },
     {
+      "path": "Validation/companion-maya-basic215.log",
+      "bytes": 45,
+      "sha256": "72b26cdbe3c486ac139a18c7270a2366ac48ac92b93a06288066dccfe5366383"
+    },
+    {
+      "path": "Validation/companion-maya-physical215.log",
+      "bytes": 122,
+      "sha256": "16f30b504624cfa3afca598516dbc525d1a1de9fcb1490075f7ed05584ea8bb9"
+    },
+    {
       "path": "Validation/companion-melee-basic213.log",
       "bytes": 52,
       "sha256": "c8eba34cacd162cd3f4876ed5e939c2962e69bf9df3f61f747aee92299315518"
@@ -6470,6 +6535,21 @@
       "path": "Validation/companion-pip-physical214.log",
       "bytes": 121,
       "sha256": "3be81ec687ac20c99c08ec814b67e284535f20d6836d046c19949cf0a4bb53f1"
+    },
+    {
+      "path": "Validation/companion-potion-integration-result215.log",
+      "bytes": 72,
+      "sha256": "2612d7ebb9609678988da0d5f19a0fc9ff7c242315290182ab06a948759c0dc9"
+    },
+    {
+      "path": "Validation/companion-potion-integration215.log",
+      "bytes": 150,
+      "sha256": "14e56a39350707636d72ef1a392949d5e09cdbe12835baae4af66a25d5ff88d1"
+    },
+    {
+      "path": "Validation/companion-potion215.log",
+      "bytes": 81,
+      "sha256": "ca5708ea13f47dd27ce5c82b984382c284d3787e7dbc01070412779f9098b65e"
     },
     {
       "path": "Validation/companion-power202.log",
@@ -6692,6 +6772,11 @@
       "sha256": "f6450be45b6d1a39eed53bd453210a168ee03f8dafd3dc8d1410e8337d004dfd"
     },
     {
+      "path": "Validation/companion_potion_adapter215.c",
+      "bytes": 3088,
+      "sha256": "c60218035e491b1f309fc7a5213f757d3aee7b7a5261c184627e19681a24503e"
+    },
+    {
       "path": "Validation/companion_power_adapter202.c",
       "bytes": 137,
       "sha256": "2e1e51f9ba760208c4a64030a194be4f92ba0d0ffc0e1ee6690008fa77d2cc9c"
@@ -6883,6 +6968,11 @@
     },
     {
       "path": "Validation/integration-regression212.log",
+      "bytes": 1102,
+      "sha256": "ce7ffbd9c7f8ed238b1b32e16c79ccc440dd0f49625b0cc7742ad337647c4aba"
+    },
+    {
+      "path": "Validation/integration-regression215.log",
       "bytes": 1102,
       "sha256": "ce7ffbd9c7f8ed238b1b32e16c79ccc440dd0f49625b0cc7742ad337647c4aba"
     },
@@ -7088,6 +7178,16 @@
     },
     {
       "path": "Validation/native-pip214.log",
+      "bytes": 612,
+      "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
+    },
+    {
+      "path": "Validation/native-potion-guards215.log",
+      "bytes": 6216,
+      "sha256": "7b4674e17ae9ea7f85361eb730cea482b538258348198583f773be49da3f7c5a"
+    },
+    {
+      "path": "Validation/native-potion215.log",
       "bytes": 612,
       "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
     },
@@ -7543,8 +7643,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 48459,
-      "sha256": "f15c3fd2b5bf987d476d0feaa121cc7acf852f652ee11b54f262210dcf9e1fcb"
+      "bytes": 50803,
+      "sha256": "40126cbc330754c749795adb0ce355a1d517cf5e4fa82e97a38cef2629f40cd8"
     },
     {
       "path": "RELEASE-GATES.md",
@@ -7553,8 +7653,8 @@
     },
     {
       "path": "WORK-REMAINING.md",
-      "bytes": 10817,
-      "sha256": "3ef35d2f75403e05f5176ee4db4517b2553974fe00a66807e6900fb39c05a2df"
+      "bytes": 10823,
+      "sha256": "e87cd9de6e770014d9b3f8c33a91f970a3a9ab9e377db82ce758d60306787aba"
     }
   ]
 }

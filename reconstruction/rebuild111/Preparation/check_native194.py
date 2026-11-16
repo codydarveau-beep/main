@@ -18,6 +18,9 @@ chains += [['main','party_resolve200','party_specialist_step209','party_hit200',
 chains += [['main','party_resolve200','party_archer_step212','party_hit200','party_apply_damage205','combat_reward','campaign_killed200','party_gain_award200','party_progress_commit200']]
 chains += [['main','party_resolve200','party_envenom_step213','party_hit200','party_apply_damage205','combat_reward','campaign_killed200','party_gain_award200','party_progress_commit200']]
 checks=[]
+# Maya support and candidate tick are inlined into main; its emitted frame includes their local transaction buffer.
+assert 'campaign_battle_tick200' not in u and 'party_maya_support215' not in u
+chains += [['main','party_progress_load200'],['main','party_progress_commit200']]
 for chain in chains:
  frames={n:u[n] for n in chain};total=sum(frames.values());assert total+32768<=reserve,(frames,total,reserve);checks.append(dict(frames=frames,bytes=total,margin=32768))
 # Assembly wrappers reserve 6144 bytes plus alignment/saved registers; the
