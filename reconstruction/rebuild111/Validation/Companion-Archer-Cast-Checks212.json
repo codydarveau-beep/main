@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "nativeComparisons": 800,
+  "choiceCoverage": {
+    "false": 754,
+    "true": 46
+  },
+  "scope": "Original inline Judia choice/payment/attack initialization versus actual production tick: both careers, disabled/support/cooldown/SP fallback to native rank-zero shot, own AGI/DEX/buffs and weapon motion, exact complete eight-arrow queue bytes including travel/repeat timing, one SP debit and original effect16/owner request. Native payment persistence and effects use recorded callbacks; failure injection and real shared-world impacts remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

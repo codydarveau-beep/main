@@ -37,6 +37,21 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original Judia ranged impacts and learned accuracy",
+      "status": "passed",
+      "evidence": "Companion-Archer-Impact-Checks212.json"
+    },
+    {
+      "name": "original Judia choices, payment and exact arrow records",
+      "status": "passed",
+      "evidence": "Companion-Archer-Cast-Checks212.json"
+    },
+    {
+      "name": "actual Judia careers, projectiles and native effect lifecycle",
+      "status": "passed",
+      "evidence": "Companion-Archer-Integration-Checks212.json"
+    },
+    {
       "name": "original Edda and Kaede career spell choices",
       "status": "passed",
       "evidence": "Companion-Elemental-Choice-Checks211.json"

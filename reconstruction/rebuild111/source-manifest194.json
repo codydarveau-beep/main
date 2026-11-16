@@ -283,8 +283,8 @@
     },
     {
       "path": "Source/campaign_battle200.h",
-      "bytes": 24817,
-      "sha256": "1443d40094aceea5bf5fc27bcd6d8dcba7dd908f8e3dc9a1d143ab0957c97352"
+      "bytes": 25022,
+      "sha256": "577c62663c36179480cb17e8b362372747e6261b9ff5f59fb3e46def235dd7b9"
     },
     {
       "path": "Source/campaign_career200.h",
@@ -325,6 +325,11 @@
       "path": "Source/campaign_minimap200.h",
       "bytes": 1557,
       "sha256": "1131543b561627498cce8ef43b5de14889828fa9d9510b6d9972ee4a2c7c7dcc"
+    },
+    {
+      "path": "Source/campaign_native_fx212.h",
+      "bytes": 2067,
+      "sha256": "0e1f4a60cfffb5f88f58288d5e8144e32e79566f87b6d0a8a2f46ca27d123889"
     },
     {
       "path": "Source/campaign_objectives200.h",
@@ -408,8 +413,8 @@
     },
     {
       "path": "Source/campaign_world200.h",
-      "bytes": 7315,
-      "sha256": "ef61d411aa94d1461172af91b411981e4cc63d9402b01735deb677aa86ab704b"
+      "bytes": 7677,
+      "sha256": "74683b949b51d32b7374f2f67cca6ff8af0a2d7e24326f10cb305afe8a66b878"
     },
     {
       "path": "Source/career_access194.h",
@@ -790,6 +795,11 @@
       "path": "Source/compact_font.h",
       "bytes": 632,
       "sha256": "b3de37da0ee022011b32051db1a8bb6368ba995a31fac88c5400433a1356d670"
+    },
+    {
+      "path": "Source/companion_archer212.h",
+      "bytes": 4096,
+      "sha256": "4a044c46f53d6583badfb5d347c8371cc2deca619b0dd13d9c6c5f7e6ddfae41"
     },
     {
       "path": "Source/companion_art200.h",
@@ -2073,8 +2083,8 @@
     },
     {
       "path": "Source/main.c",
-      "bytes": 64827,
-      "sha256": "1c4da478e774c5a26465e64ed4fb4888e22762c9cad21dfa0c2f878dbc3adbdd"
+      "bytes": 64918,
+      "sha256": "37f035c5d15db8cb70b5457c3b997c3f2e9120075a452f09844ea0cb0d4c2745"
     },
     {
       "path": "Source/map_limits43.h",
@@ -3832,6 +3842,11 @@
       "sha256": "c8def365aefbd56a65c33cb5bbb194c779bceaa00c9c5f6156a66273994e31a3"
     },
     {
+      "path": "Source/test_companion_archer212.c",
+      "bytes": 5643,
+      "sha256": "33a8e3420a25807756edeb7f7eb6c00cbaa65a69f3d686a33a99a2f0ea70ca53"
+    },
+    {
       "path": "Source/test_companion_elemental211.c",
       "bytes": 2750,
       "sha256": "630920786dac513883e9a68b8481bfcbb07f28aa2db145acad41eddc117c0c5f"
@@ -5142,6 +5157,21 @@
       "sha256": "314bba34eeaf6350312b692d9e9faa89007785271780051bf2e4daa75f226fbf"
     },
     {
+      "path": "Preparation/check_companion_archer212.py",
+      "bytes": 4292,
+      "sha256": "c816128ca6543a4038e4119ca5cb730a55f413b5a5e4cc85063d61252cd7958e"
+    },
+    {
+      "path": "Preparation/check_companion_archer_cast212.py",
+      "bytes": 4015,
+      "sha256": "d6e2c95890989aa08aa61990bdd5c9379fe0fd54fe1977b25ce8f2d416c97326"
+    },
+    {
+      "path": "Preparation/check_companion_archer_integration212.py",
+      "bytes": 1473,
+      "sha256": "901a342b4b9e9ecb5d2da9fed20af71916a5c7de04da3d3c5d147429169a7e9f"
+    },
+    {
       "path": "Preparation/check_companion_basic208.py",
       "bytes": 5263,
       "sha256": "2215a44bbe2ea7d8b8bc97d2b3df1ffea9c585a0a7a4d43e78cecf7c688da617"
@@ -5273,8 +5303,8 @@
     },
     {
       "path": "Preparation/check_native194.py",
-      "bytes": 4905,
-      "sha256": "968f66bb476c9dc0fabb72bda962460f2e4400562eb951b24c9b6c389d7bce0d"
+      "bytes": 5093,
+      "sha256": "0af10182f35be527415a87aee8862c58f347446c218dc8f3c2c824c3ec0476aa"
     },
     {
       "path": "Preparation/check_retained196.py",
@@ -5448,8 +5478,8 @@
     },
     {
       "path": "Preparation/summarize_normal_checks194.py",
-      "bytes": 6850,
-      "sha256": "879e6c4fd00c6ed034ca9411610deff9630fe1824cabd46b1551b990f46b62ef"
+      "bytes": 7157,
+      "sha256": "f6703eaa4affe47de346bd1b856cf0490265c6515378d89c2d6db916bb32768d"
     },
     {
       "path": "Validation/Arcade-Logic-Checks197.json",
@@ -5470,6 +5500,21 @@
       "path": "Validation/Campaign-Sequence-Checks200.json",
       "bytes": 951,
       "sha256": "23454292ac38780e36b4ca25e24422f295ebb5d5d56ef7066cf39a250b90f9bc"
+    },
+    {
+      "path": "Validation/Companion-Archer-Cast-Checks212.json",
+      "bytes": 679,
+      "sha256": "b6aad47dc29a7f84dcdaa5a96fed17cb5f4a1c168826044158f86e2ee7a0e370"
+    },
+    {
+      "path": "Validation/Companion-Archer-Impact-Checks212.json",
+      "bytes": 553,
+      "sha256": "cfb57c8effa144c419e9a7690922c41c1f6a5ea62c1db76b38631b82713989fa"
+    },
+    {
+      "path": "Validation/Companion-Archer-Integration-Checks212.json",
+      "bytes": 584,
+      "sha256": "ffd0c2de25077d7fdb3a9d95c8249b9b7ddaaaf4a612f3066eb71d4cce676cf0"
     },
     {
       "path": "Validation/Companion-Art-Checks200.json",
@@ -5643,8 +5688,8 @@
     },
     {
       "path": "Validation/Native-Checks194.json",
-      "bytes": 5156,
-      "sha256": "165a5c95a374c3856ae6402831d23132094814066eaedccd4bf40f1f27739aa9"
+      "bytes": 5538,
+      "sha256": "4da57e32d6f887864f272250b15572a567c29ec107d78538f979c2e6cadf3a1f"
     },
     {
       "path": "Validation/Native-Decompile203/callback-117850.c",
@@ -5843,8 +5888,8 @@
     },
     {
       "path": "Validation/Normal-Release-Checks194.json",
-      "bytes": 8390,
-      "sha256": "4b3821638907d0a2302d6b3b27570ed892e87baf30ba1b5e9dd09c5cfed00bab"
+      "bytes": 8907,
+      "sha256": "c7f08fa4af24896356288deea525e65b4ad9a92ce38185bd783ad1f1d837405e"
     },
     {
       "path": "Validation/Release-Inputs194.json",
@@ -6007,6 +6052,26 @@
       "sha256": "0142e70177d0cea00b7e12ad4157d9269d25d5d1ac9e08866cbd5fba2eb135c3"
     },
     {
+      "path": "Validation/companion-archer-cast212.log",
+      "bytes": 128,
+      "sha256": "066418d8f79257a8b95c5b6a74002e2c85baf6a25f9ef6e744d2fccdeed65498"
+    },
+    {
+      "path": "Validation/companion-archer-integration-result212.log",
+      "bytes": 70,
+      "sha256": "d27a722ede4e000e3368c8b678d314bc80c59bdddcb8806c3dc4b9d2e58e7832"
+    },
+    {
+      "path": "Validation/companion-archer-integration212.log",
+      "bytes": 211,
+      "sha256": "e5a7559cef906e1cdeaeb76a0bec6387a556edcc67686fd20b7fa019e9552c94"
+    },
+    {
+      "path": "Validation/companion-archer212.log",
+      "bytes": 47,
+      "sha256": "285eea89b9faff5feb45fb1d252f949ba244517f8e520ee3dfb6e618780bac3e"
+    },
+    {
       "path": "Validation/companion-basic208.log",
       "bytes": 64,
       "sha256": "cce48bd73530a7b95c27ff2437aa548a42653fb0784d9fa46c7665363bc6c39a"
@@ -6052,6 +6117,11 @@
       "sha256": "5dedc61750eb04e3f0d2bf3ab6cb2c380cc3859918b4c61f53a0e67d33ee446b"
     },
     {
+      "path": "Validation/companion-cast-regression212.log",
+      "bytes": 81,
+      "sha256": "5dedc61750eb04e3f0d2bf3ab6cb2c380cc3859918b4c61f53a0e67d33ee446b"
+    },
+    {
       "path": "Validation/companion-cast-run201.log",
       "bytes": 81,
       "sha256": "5dedc61750eb04e3f0d2bf3ab6cb2c380cc3859918b4c61f53a0e67d33ee446b"
@@ -6090,6 +6160,11 @@
       "path": "Validation/companion-elemental-integration211.log",
       "bytes": 208,
       "sha256": "7e0f1bf516d64da5191e9d8167a2f66a5f62e629c7eab846c5ceb29c8626bd8d"
+    },
+    {
+      "path": "Validation/companion-elemental-regression212.log",
+      "bytes": 61,
+      "sha256": "b660455d04fc76aa14c28bf24de79aac56d5d8f107a7fa6105e7493927b565e0"
     },
     {
       "path": "Validation/companion-experience200.log",
@@ -6217,6 +6292,11 @@
       "sha256": "d3d29257f481c0dc8d3af8136c9c881492ccc0b218ce0c214ca9e055af754d01"
     },
     {
+      "path": "Validation/companion-soullinker-regression212.log",
+      "bytes": 58,
+      "sha256": "d3d29257f481c0dc8d3af8136c9c881492ccc0b218ce0c214ca9e055af754d01"
+    },
+    {
       "path": "Validation/companion-specialist-integration-result209.log",
       "bytes": 79,
       "sha256": "c593c234ba11f09f6575796c5a449ed7361fa8acef538368c07725da1f4f221f"
@@ -6277,9 +6357,19 @@
       "sha256": "b69a0795524746be6633f97e9ebf60ff519995d1a7cfda4ac86a59bb6976c802"
     },
     {
+      "path": "Validation/companion-wizard-regression212.log",
+      "bytes": 73,
+      "sha256": "b69a0795524746be6633f97e9ebf60ff519995d1a7cfda4ac86a59bb6976c802"
+    },
+    {
       "path": "Validation/companion-wizard205.log",
       "bytes": 89,
       "sha256": "0d374e0408af634d7b8bbd9362b15fd0932e7dd1a7edf6b6a8764fbea35ee74c"
+    },
+    {
+      "path": "Validation/companion_archer_adapter212.c",
+      "bytes": 3546,
+      "sha256": "52ce3f8795ff6f39bbe0abcc5430b7b67a7cce9685d5d5977ec32e24b5f116ee"
     },
     {
       "path": "Validation/companion_art_adapter200.c",
@@ -6497,6 +6587,11 @@
       "sha256": "ce7ffbd9c7f8ed238b1b32e16c79ccc440dd0f49625b0cc7742ad337647c4aba"
     },
     {
+      "path": "Validation/integration-regression212.log",
+      "bytes": 1102,
+      "sha256": "ce7ffbd9c7f8ed238b1b32e16c79ccc440dd0f49625b0cc7742ad337647c4aba"
+    },
+    {
       "path": "Validation/integration-run194.log",
       "bytes": 1102,
       "sha256": "7712c520f7c95adab4e670c57a779e6528c734552683e1f03411a7497db9152a"
@@ -6540,6 +6635,16 @@
       "path": "Validation/later-stage-discovery197.json",
       "bytes": 17533,
       "sha256": "8e0b6a657fb44f232c5f7ba96049cc2625bbd76ecebde213c01c9873b4ad9c7e"
+    },
+    {
+      "path": "Validation/native-archer-guards212.log",
+      "bytes": 5538,
+      "sha256": "4da57e32d6f887864f272250b15572a567c29ec107d78538f979c2e6cadf3a1f"
+    },
+    {
+      "path": "Validation/native-archer212.log",
+      "bytes": 612,
+      "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
     },
     {
       "path": "Validation/native-basic-guards208.log",
@@ -7123,8 +7228,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 42678,
-      "sha256": "8d5bcabfcf7878aefa83cb711a1e73d1e92b76ec27bc0310cfeaa9a3057c4ceb"
+      "bytes": 44502,
+      "sha256": "7f84982936c3a14e8e377a0751b421c63d656210b387b6108a6902780b02158b"
     },
     {
       "path": "RELEASE-GATES.md",
@@ -7133,8 +7238,8 @@
     },
     {
       "path": "WORK-REMAINING.md",
-      "bytes": 10791,
-      "sha256": "983585edcc37bf477fcaa096726d64503b27d1fef3586afa28ee8dafe217b34b"
+      "bytes": 10798,
+      "sha256": "2c507152622c3507f7e74162d8d82dabe227d294c5c8a0295c1714d87e8dcb12"
     }
   ]
 }
