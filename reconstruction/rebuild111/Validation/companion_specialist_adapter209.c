@@ -24,3 +24,4 @@ void step209(unsigned skill,unsigned rank,unsigned remaining,unsigned paid,unsig
 }
 
 unsigned choice210(unsigned jl,unsigned level,unsigned points,unsigned kind,unsigned primed,unsigned*out){CampaignFollower200 m={0};CombatMob e={0};m.id=18;m.job=45;m.jobLevel=jl;m.level=level;m.sp=points;m.esmaUntil209=primed?11:0;e.kind=kind;return party_soullinker_choice210(&m,&e,10,out);}
+unsigned choice211(unsigned identity,unsigned job,unsigned jl,unsigned level,unsigned points,unsigned kind,unsigned preference,unsigned element,unsigned frozen,unsigned stone,unsigned*out){CampaignFollower200 m={0};CombatMob e={0};m.id=identity;m.job=job;m.jobLevel=jl;m.level=level;m.sp=points;e.kind=kind;e.element48=element;e.frozenLeft=frozen?1:0;e.stoneLeft=stone?1:0;campaignConfig200.priority[identity]=(unsigned char)preference;return party_elemental_choice211(&m,&e,out);}

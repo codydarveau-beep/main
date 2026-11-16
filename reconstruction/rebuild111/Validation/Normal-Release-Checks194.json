@@ -37,6 +37,16 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original Edda and Kaede career spell choices",
+      "status": "passed",
+      "evidence": "Companion-Elemental-Choice-Checks211.json"
+    },
+    {
+      "name": "actual Edda and Kaede career cast/impact integration",
+      "status": "passed",
+      "evidence": "Companion-Elemental-Integration-Checks211.json"
+    },
+    {
       "name": "original Soul Linker spell choices and own-resource boundaries",
       "status": "passed",
       "evidence": "Companion-Soullinker-Choice-Checks210.json"

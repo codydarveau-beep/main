@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "nativeComparisons": 3000,
+  "choiceCoverage": {
+    "0": 2038,
+    "3": 489,
+    "21": 178,
+    "9": 30,
+    "352": 151,
+    "355": 27,
+    "358": 87
+  },
+  "scope": "Actual original Edda and Kaede decision branch: all three original career rows, own learning/SP, element overrides/freeze/stone, original hit-count and power scoring, support cost efficiency and strict tie priority. Candidate movement/casting integration remains separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}
