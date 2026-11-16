@@ -1,0 +1,17 @@
+make: Entering directory '/workspace/work/recovery/release111/Source'
+[ CC       ] /workspace/work/recovery/release111/Source/main.obj
+[ CC       ] /workspace/work/recovery/release111/Source/ui_assets.obj
+[ CC       ] /workspace/work/recovery/release111/Source/loading_assets.obj
+[ CC       ] /workspace/work/recovery/release111/Source/sound_assets.obj
+[ CC       ] /workspace/work/recovery/release111/Source/skin_assets.obj
+[ CC       ] /workspace/work/recovery/release111/Source/pbkit_hardware54.obj
+In file included from /workspace/work/recovery/release111/Source/main.c:85:
+In file included from /workspace/work/recovery/release111/Source/core_npc53.h:3:
+/workspace/work/recovery/release111/Source/core_npc_data53.h:560:64808: warning: trigraph ignored [-Wtrigraphs]
+[ CC       ] /workspace/work/recovery/release111/Source/frontend_assets56.obj
+[ AS       ] /workspace/work/recovery/release111/Source/arcade_recovered197.obj
+1 warning generated.
+[ LD       ] main.exe
+lld: warning: .edata=.rdata: already merged into .edataxb
+[ CXBE     ] ../XboxFiles/default.xbe
+make: Leaving directory '/workspace/work/recovery/release111/Source'

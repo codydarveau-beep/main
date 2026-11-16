@@ -18,3 +18,5 @@ The executable remains a private RECOVERY development build. All 36 campaign sce
 WORK-REMAINING.md distinguishes missing functionality, completed-but-unverified behavior and target-only testing. Detailed evidence and hashes belong in repository reports. No release status is inferred from dialogue records, a build success, or a host resource estimate alone.
 
 Current: corrected full normal checks and both additional reviews passed; packaging validation and target playtesting remain. Designer requested a commit/cleanup pause before packaging.
+
+Current completion251: corrected normal checks, both additional reviews, release-labelled native build and actual shipped patch/updater validation passed. The ZIP is ready for delivery. Target Xbox/Xemu playtesting and full64MB residency remain unclaimed. Prior packaging-pause/pending statements above are historical.

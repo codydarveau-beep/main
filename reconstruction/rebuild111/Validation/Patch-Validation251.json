@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "sourceDigest": "0eb63954f3f34171dbb022f88063686953be547408a47b28e608de00b26cd85c",
+  "baselineVersion": "1.10.0",
+  "targetVersion": "1.11.0",
+  "targetSHA256": "831142e3e91ff184c09c9a59037fbadbf6d7643f985ba91d98405f5e4c6b04d0",
+  "targetBytes": 1889206272,
+  "checks": [
+    "Actual ZIP extraction and actual PowerShell full reconstruction",
+    "Exact ISO hash and all twenty target file hashes",
+    "Atomic replacement retains exact baseline rollback image and correct receipt",
+    "Idempotent rerun on completed target",
+    "Conflicting existing output is preserved",
+    "Corrupt payload rejection before output creation",
+    "Missing payload rejection",
+    "Wrong baseline rejection",
+    "Same-size altered/unreleased image rejection by full SHA-256",
+    "Partial-build invalid-range failure cleans temporary file and preserves input",
+    "Full write followed by failed target verification cleans output and preserves rollback/input",
+    "Original released ISO remains byte-identical throughout"
+  ],
+  "powerShellVersion": "7.4.6 Linux executing the shipped script with explicit -BaseIso",
+  "limitations": [
+    "Windows file picker/batch GUI not executed on Linux",
+    "Host update validation is not an Xbox/Xemu playtest or FATX/64MB acceptance"
+  ],
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 2
+}

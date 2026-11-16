@@ -28,3 +28,5 @@ No additional assets or designer decisions are currently needed. Earlier recover
 Current detailed evidence lives in Validation, especially Full-Candidate-Checks240.json (normal runner result), Campaign-Runtime-Checks239.json, Campaign-Companions-Checks226.json, Companion-Promotions-Checks227.json, Campaign-Combat-Checks232.json, Campaign-Save-Bundle-Checks229.json, Native-First-Jobs-Checks231.json, Native-Expanded-Jobs-Checks233.json, Native-Supernovice-Checks235.json and Alias-NPC-Checks242.json. Read each report's declared fixture/target limitations.
 
 Packaging is paused at the designer’s request for an immediate GitHub commit and cleanup. See Preparation/CURRENT-HANDOFF249.md.
+
+Current completion251: corrected normal checks, both additional reviews, release-labelled native build and actual shipped patch/updater validation passed. The ZIP is ready for delivery. Target Xbox/Xemu playtesting and full64MB residency remain unclaimed. Prior packaging-pause/pending statements above are historical.

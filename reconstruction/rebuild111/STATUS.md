@@ -349,3 +349,10 @@ The earlier first-review report is marked historical/not counted for the correct
 ## Final current-source normal/review completion and designer pause249
 
 Corrected-source full normal candidate and full companion refresh passed. Both additional reviews were then confirmed on that unchanged Source; source-bound reports245/247 record completion2/2. Packaging has NOT begun and no target playtest is claimed. The designer now requests committing the current work and cleaning old files because chat became unstable. Packaging is paused. Preparation/CURRENT-HANDOFF249.md is the concise current entry point; historical pending-review notes above are superseded by this completion.
+
+
+## 1.11.0 delivery completion251
+
+Normal corrected-source checks and both subsequent additional reviews passed. The separate release-labelled native build changes only the pause version text and certificate title; reviewed private Source and native artifacts remain intact. Release-native known stack guards pass. The established format-2 ZIP accepts only exact released1.10.0. The actual shipped PowerShell updater rebuilt and verified the ISO/all20files and passed idempotence, wrong/same-size altered baseline, missing/corrupt payload, conflicting output, partial invalid-range/full target-hash failure cleanup, rollback/receipt and original-input preservation. See Patch-Validation251.json and Release-Native-Checks250.json.
+
+Final ZIP: /workspace/work/recovery/release111/MyRO-1.11.0-Update.zip. Target ISO was removed after packaging to keep disk use bounded; validation rebuilt it independently and removed the generated test image after verification. All original source/assets/baseline/developer archives remain preserved. No Xbox/Xemu playtest or complete64MB runtime residency claim. Natural playthrough/balance, target performance/controller/CRT/FATX testing remain. Delivery branch: ragnarok-1.11.0-download; direct raw link will be verified before the user receives it. Packaging pause249 was superseded by the designer’s instruction to finish the build.

@@ -1,0 +1,14 @@
+{
+  "sourceDigest": "0eb63954f3f34171dbb022f88063686953be547408a47b28e608de00b26cd85c",
+  "changes": {
+    "pause_draw.h": {
+      "original": "00dfb5003bb81aa8705a1bb337233e580bbe9405a2037640e48fff917fcaf8f3",
+      "release": "0d3b5f4649a8b93068baf7c55d451c43f737a475a8f0b6b1c0b374cdb80e4da4"
+    },
+    "Makefile": {
+      "original": "6f86923abaaeab02c7d0b7bb4b2e08f4cc88b361e971e2647df0a388b53ef803",
+      "release": "54991c86b066067be49ad59077b0ecf321adc7f587a0b3c5f35e00af30f4d001"
+    }
+  },
+  "scope": "Separate native release build; only certificate title and pause version label change. Reviewed private source/artifacts remain preserved."
+}

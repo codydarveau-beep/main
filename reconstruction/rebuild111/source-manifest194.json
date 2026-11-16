@@ -5218,8 +5218,8 @@
     },
     {
       "path": "Preparation/CURRENT-HANDOFF249.md",
-      "bytes": 3449,
-      "sha256": "b79bd5c19e6a1e5e1037d16ac55e84cf1ebb4e66098373fd7ee26616f88c4310"
+      "bytes": 4822,
+      "sha256": "95667b9a889e54f2f61796d80ae7fbe9959fbec01b6b469cb466c2c5d91151cb"
     },
     {
       "path": "Preparation/Campaign-Journal-Recovery200.json",
@@ -5268,8 +5268,8 @@
     },
     {
       "path": "Preparation/Development-Resume215.md",
-      "bytes": 15185,
-      "sha256": "dde3e79be6a9e095dcc1cf8007336b98d1e6df54000a189115520735a0e15a83"
+      "bytes": 16558,
+      "sha256": "24d6180bc1ad94d6ec4d0b423a9f54807417e6c0945d5d5e51abe315ea6944e6"
     },
     {
       "path": "Preparation/Guild-Map-Recovery197.json",
@@ -5370,6 +5370,11 @@
       "path": "Preparation/build_policy194.py",
       "bytes": 6589,
       "sha256": "54acabd85b58b75e23b338d3bdb5a7560d78c7f15a553acce8221dedc8a59a36"
+    },
+    {
+      "path": "Preparation/build_release250.py",
+      "bytes": 1599,
+      "sha256": "2e31cf8e201915f3c7289d474918c38c5c1e486896f88b90f0f3a1446bd9a565"
     },
     {
       "path": "Preparation/build_travel_routes194.py",
@@ -5877,6 +5882,11 @@
       "sha256": "60819e954c3a7742294f877743d0370562410c93e02df8b2536bbc6dbccac0ca"
     },
     {
+      "path": "Preparation/package_release250.py",
+      "bytes": 5747,
+      "sha256": "a83b2f528a4d2a12d87a645e4759d464328bb04d934e2a021f89a5cb7605e18e"
+    },
+    {
       "path": "Preparation/record_review1_245.py",
       "bytes": 4403,
       "sha256": "79d2e644144605271b210b0c7c880907caafbc0f5cf17e81b94596b6e81dc8cd"
@@ -6018,8 +6028,13 @@
     },
     {
       "path": "Preparation/summarize_normal_checks194.py",
-      "bytes": 14245,
-      "sha256": "538915eaf4bc413c9c7e6484a2a2e40716c971034d64abd3095a6efadefb6e55"
+      "bytes": 14542,
+      "sha256": "01bd54ba778ffcfc52ba8342971fc0fe4547a2fd154a2fcc7be3da34e841e3f8"
+    },
+    {
+      "path": "Preparation/validate_patch251.py",
+      "bytes": 6807,
+      "sha256": "5924d481e5c85a05476e0daa6119a3973fb5b6e22d47e3893f46c0946f655218"
     },
     {
       "path": "Validation/Additional-Review-Pass1-245.json",
@@ -6733,8 +6748,13 @@
     },
     {
       "path": "Validation/Normal-Release-Checks194.json",
-      "bytes": 18220,
-      "sha256": "a2188d59d29a135527347d671f70f0d3f704531edcd30fc18a1726a6705cde97"
+      "bytes": 18134,
+      "sha256": "15461ea54f03a9268dee2166505540a3b325affa6451f483befb05563f995cf2"
+    },
+    {
+      "path": "Validation/Patch-Validation251.json",
+      "bytes": 1397,
+      "sha256": "3b2336ff6a71394505336d6f9d3aa3840299d854fe7ee1c4914e4b6adc998b46"
     },
     {
       "path": "Validation/Post-Review-Cleanup248.json",
@@ -6745,6 +6765,16 @@
       "path": "Validation/Release-Inputs194.json",
       "bytes": 7536,
       "sha256": "b891339901e4fe92bd05cabb150e1eb9860dfe8a6e02e297dd1d60dfb09ea37b"
+    },
+    {
+      "path": "Validation/Release-Native-Checks250.json",
+      "bytes": 6772,
+      "sha256": "4109b7e8314141d494e46c212a1820a0917f177c0ce2580b18fa8914d47084e0"
+    },
+    {
+      "path": "Validation/Release-Source-Labels250.json",
+      "bytes": 654,
+      "sha256": "8c804c213c8e8e77efd4438bc49f91e9113468cdef7adfe99a0672101cdc7713"
     },
     {
       "path": "Validation/Retained-Checks196.json",
@@ -6800,6 +6830,11 @@
       "path": "Validation/World-Residency-Checks234.json",
       "bytes": 10763,
       "sha256": "2024817c99489bdedd1e974e905127193bc3c330ec1bc6ea1e105452b3a4543b"
+    },
+    {
+      "path": "Validation/actual-updater251.log",
+      "bytes": 1851,
+      "sha256": "63f891b21da9b09e6d63dc6ea08d2c3a124041700808c6165dfcbae421edbf46"
     },
     {
       "path": "Validation/actual_campaign_killed226.inc",
@@ -7048,6 +7083,11 @@
     },
     {
       "path": "Validation/checkpoint-cleanup249.log",
+      "bytes": 62,
+      "sha256": "d50bfb34ef3329fbbf166826326bf72df0a1cb2cea087a1201cfc8ead8603fbb"
+    },
+    {
+      "path": "Validation/checkpoint-delivery251.log",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
@@ -7937,6 +7977,11 @@
       "sha256": "4bd2fa77bbd2217ab5badf7725161d36492ef8e9d6bdb0c72b020cd92f180030"
     },
     {
+      "path": "Validation/final-summary251.log",
+      "bytes": 185,
+      "sha256": "8f12e6e0dd18286bfd5a3688a7e2450c57bd5b469aa05804f2608ec0aa8eb6a2"
+    },
+    {
       "path": "Validation/formats194.log",
       "bytes": 112,
       "sha256": "220a54acf9216fa5c367e735eb6edf8101070a246acaf5835c1f858121fda3d4"
@@ -8442,6 +8487,11 @@
       "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
     },
     {
+      "path": "Validation/native-release250.log",
+      "bytes": 1137,
+      "sha256": "be019bf09e2c4a8354cf4d3911b79c6554244b3adf27f1cf0454ebfca70370d4"
+    },
+    {
       "path": "Validation/native-rogue-guards218.log",
       "bytes": 7442,
       "sha256": "6a08be5b6b35e532d811ae7d9c6381204c5c2ee8f55f14c9580c53537ea399df"
@@ -8620,6 +8670,16 @@
       "path": "Validation/normal-summary-wizard205.log",
       "bytes": 108,
       "sha256": "0056bf11f8c40301632590620934bf130f400e3944ea66be9a3b8bf50c34889a"
+    },
+    {
+      "path": "Validation/package-release250.log",
+      "bytes": 128,
+      "sha256": "a0f3a626818926f007ea238c9106b044ee2e080e1ce173c6da7e68cc64dc92ea"
+    },
+    {
+      "path": "Validation/patch-validation251.log",
+      "bytes": 169,
+      "sha256": "0c4bf45b1431999eff91c0a2e7e09091c4e76da41a5660daa622c4b2995e98ae"
     },
     {
       "path": "Validation/policy194.log",
@@ -9013,18 +9073,18 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 76684,
-      "sha256": "5763243c345f9c8f21e60b978e95964b7b96f0fa7398268674c9ea41bc0b3f77"
+      "bytes": 78057,
+      "sha256": "c39d865d18a9fe965202e11c59fd77029dca48af0fef7941a8ca4ffc11a92f68"
     },
     {
       "path": "RELEASE-GATES.md",
-      "bytes": 4035,
-      "sha256": "ebbe66b06959e29b13cb7992a4b1a996645a624d5083e42fbd9bbe9691d627a5"
+      "bytes": 4355,
+      "sha256": "e11fe00a0a8133a1606a6ae5fbfe93d92c31c5394b0a6932b02bd0a218e53101"
     },
     {
       "path": "WORK-REMAINING.md",
-      "bytes": 6010,
-      "sha256": "0f770bf2dd824b0f8f440a0e45b9469214467004dce085e6a12a36eabdfc9d73"
+      "bytes": 6330,
+      "sha256": "6293ec5a78b5ed57bff3dd84f89c30eb683a21907120049a3dbf49e0f584d9d0"
     }
   ]
 }

@@ -505,14 +505,12 @@
   "normalReleaseWideChecksComplete": true,
   "releaseReady": false,
   "blockedGates": [
-    "Exact-1.10.0 patch packaging and updater validation",
     "Xemu execution when a usable emulator environment is available",
     "Original 64 MB residency/stack high-water and frame/audio timing",
     "Controller/CRT/raster and current-format FATX/restart acceptance"
   ],
   "missingOrDisabledFunctionality": [],
   "presentAwaitingVerification": [
-    "Exact-1.10.0 patch packaging and updater validation",
     "Xemu execution when a usable emulator environment is available"
   ],
   "requiresUserXboxTesting": [
@@ -528,7 +526,8 @@
   "closureCriteria": "RELEASE-GATES.md",
   "additionalReviewPassesCompleted": 2,
   "additionalReviewPassesStarted": true,
-  "packagingValidated": false,
+  "packagingValidated": true,
+  "readyForPatchDelivery": true,
   "postReviewPackagingGate": "Exact-1.10.0 ZIP reconstruction/rejection/rollback validation, after both additional reviews",
   "privateExecutable": "development build only",
   "originalXboxPlaytested": false,
