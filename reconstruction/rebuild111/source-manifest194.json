@@ -5967,6 +5967,11 @@
       "sha256": "a14ebabd10a14bc1cc623706125c57ba535aa3f2bb7122c1ec48246bce31e5c8"
     },
     {
+      "path": "Validation/Developer-Savepoint-Receipt217.json",
+      "bytes": 8582,
+      "sha256": "c959aca6f657c70de6af67461f5a6adfe3c3009a5a5c3b13c574d90f236c16f9"
+    },
+    {
       "path": "Validation/Encounter-Integration-Checks198.json",
       "bytes": 937,
       "sha256": "a63d928f67cfaf349c307b420e496324d3a627e591b59b7cf9224b4886385cd6"
@@ -7037,6 +7042,11 @@
       "sha256": "254a0aca05a205ea88406920e02fd2bdbd8ceea17fb28205cdc322e5f8bbd6d1"
     },
     {
+      "path": "Validation/developer-savepoint-build217.log",
+      "bytes": 422,
+      "sha256": "94f3f827b24488447cfadbb50f26b10c56d5a0139ee371e35e42cca6cd3f6250"
+    },
+    {
       "path": "Validation/encounter-integration-run198.log",
       "bytes": 155,
       "sha256": "d1c9b3a8f0898d94139f6304c703e5cc367905022225bbc706f8c202e33d61e2"
@@ -7868,8 +7878,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 55325,
-      "sha256": "97f06f74e4bb0d15d019eb058430ef5dcd645a201e0cfb362fb617cb56c26e9c"
+      "bytes": 55946,
+      "sha256": "47b5b2d10235214d9071c8608caaf3e1144e34035ccfc7d9c36553959d081b5e"
     },
     {
       "path": "RELEASE-GATES.md",
