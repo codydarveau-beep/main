@@ -1,0 +1,76 @@
+NPC 7575 Hanson#nv program 3875 checkpoint 0 reason Follow your current main quest before taking this road.
+  target 0 prt_fild08 access 0 redirected 0
+  target 2 prontera access 0 redirected 1
+  target 3 izlude access 0 redirected 0
+  target 10 pay_fild01 access 0 redirected 0
+  target 11 payon access 0 redirected 1
+  target 29 gef_fild07 access 0 redirected 0
+  target 41 geffen access 0 redirected 1
+  target 42 geffen_in access 0 redirected 0
+  target 64 izlude_in access 0 redirected 0
+  target 69 pay_fild03 access 0 redirected 0
+  target 79 payon_in02 access 0 redirected 0
+  target 82 prt_church access 0 redirected 0
+  target 108 moc_fild07 access 1 redirected 0
+  target 126 moc_ruins access 1 redirected 0
+  target 127 morocc access 1 redirected 1
+  target 131 alberta access 0 redirected 1
+  target 132 alberta_in access 0 redirected 0
+NPC 7576 Bruce#nv program 3876 checkpoint 0 reason (null)
+NPC 7575 Hanson#nv program 3875 checkpoint 1 reason Follow your current main quest before taking this road.
+  target 0 prt_fild08 access 0 redirected 0
+  target 2 prontera access 0 redirected 1
+  target 3 izlude access 0 redirected 0
+  target 10 pay_fild01 access 0 redirected 0
+  target 11 payon access 0 redirected 1
+  target 29 gef_fild07 access 0 redirected 0
+  target 41 geffen access 0 redirected 1
+  target 42 geffen_in access 0 redirected 0
+  target 64 izlude_in access 0 redirected 0
+  target 69 pay_fild03 access 0 redirected 0
+  target 79 payon_in02 access 0 redirected 0
+  target 82 prt_church access 0 redirected 0
+  target 108 moc_fild07 access 1 redirected 0
+  target 126 moc_ruins access 1 redirected 0
+  target 127 morocc access 1 redirected 1
+  target 131 alberta access 0 redirected 1
+  target 132 alberta_in access 0 redirected 0
+NPC 7576 Bruce#nv program 3876 checkpoint 1 reason (null)
+NPC 7575 Hanson#nv program 3875 checkpoint 2 reason Follow your current main quest before taking this road.
+  target 0 prt_fild08 access 0 redirected 0
+  target 2 prontera access 0 redirected 1
+  target 3 izlude access 0 redirected 0
+  target 10 pay_fild01 access 0 redirected 0
+  target 11 payon access 0 redirected 1
+  target 29 gef_fild07 access 0 redirected 0
+  target 41 geffen access 0 redirected 1
+  target 42 geffen_in access 0 redirected 0
+  target 64 izlude_in access 0 redirected 0
+  target 69 pay_fild03 access 0 redirected 0
+  target 79 payon_in02 access 0 redirected 0
+  target 82 prt_church access 0 redirected 0
+  target 108 moc_fild07 access 1 redirected 0
+  target 126 moc_ruins access 1 redirected 0
+  target 127 morocc access 1 redirected 1
+  target 131 alberta access 0 redirected 1
+  target 132 alberta_in access 0 redirected 0
+NPC 7576 Bruce#nv program 3876 checkpoint 2 reason (null)
+NPC 7575 Hanson#nv program 3875 checkpoint 3 reason Follow your current main quest before taking this road.
+  target 0 prt_fild08 access 0 redirected 0
+  target 2 prontera access 0 redirected 1
+  target 3 izlude access 0 redirected 0
+  target 10 pay_fild01 access 0 redirected 0
+  target 11 payon access 0 redirected 1
+  target 29 gef_fild07 access 0 redirected 0
+  target 41 geffen access 0 redirected 1
+  target 42 geffen_in access 0 redirected 0
+  target 64 izlude_in access 0 redirected 0
+  target 69 pay_fild03 access 0 redirected 0
+  target 79 payon_in02 access 0 redirected 0
+  target 82 prt_church access 0 redirected 0
+  target 108 moc_fild07 access 1 redirected 0
+  target 126 moc_ruins access 1 redirected 0
+  target 127 morocc access 1 redirected 1
+  target 131 alberta access 0 redirected 1
+  target 132 alberta_in access 0 redirected 0
+NPC 7576 Bruce#nv program 3876 checkpoint 3 reason (null)

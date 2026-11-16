@@ -67,6 +67,11 @@ static const char*native_admission_reason194(
 
  /* These menus preflight the selected route before fees/savepoints.
     Checking all possible cities would disable the entire service. */
+ /* Hanson has multiple career recommendation destinations. During the
+    opening every graduation route resolves to the campaign opening;
+    unrelated later career dependencies must not hide the exit NPC. */
+ if(c->opening&&program==3875)return NULL;
+
  if(program==696||program==3604||program==3866)
   return NULL;
 

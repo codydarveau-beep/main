@@ -1,0 +1,7 @@
+# Active restoration batch252
+
+Designer reported broad1.9.x regressions in delivered1.11.0. The complete issue/decision/history ledger is REGRESSION-LEDGER252.md. Preserve campaign/companion/guild/arcade work. Start with training graduation and sprite/memory hazards, then controls/readability/presentation. Old candidate's normal/review/package passes are historical and do not close this batch. Additional reviews for restoration:0/2, not started.
+
+Current source changes: targeted opening Hanson admission/expanded existing graduation destination redirect in native_admission194.h/story_departure193.h, and lossless exact released1.10.0 title artwork in frontend_assets56.c. No new patch built or published. Training probe reproduced original denial, full nativeVM test in Validation/test_training_exit252.c compiles/runs separately; completed courses and carrying capacity are explicit fixtures. Final behavior must be verified before treating graduation as closed. Title requires native compile/visual check.
+
+Original water exists but defaults off; draw-range defaults remain old numeric settings. UI assets/helpers match older1.9.1 in several places. Matching eighteen disc packs did NOT prove embedded UI or rendering-helper preservation. Baseline released executable remains available for later artwork/native behavior recovery; no additional files currently needed. Do not invent historical patch numbers/root causes absent from retained notes. All glyph/warning-color/shared-HUD paths require nearby regression checks.

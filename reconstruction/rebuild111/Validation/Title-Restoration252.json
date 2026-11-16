@@ -1,0 +1,10 @@
+{
+  "recovered": true,
+  "source": "released 1.10.0 executable",
+  "offset": 10120872,
+  "packedSHA256": "d0e5f1bc421301bc0da790d047de873d632dda7ceeecea94fc5f1e7cf7b9d5b2",
+  "rawSHA256": "2c9b45d81bfee08d7eb6300c6a52bf3397063e6fd67740a750726dcb53552c68",
+  "approvedDescription": "OFFLINE subtitle, no Korean rating/URL/bottom logos; exact released pixels reused",
+  "newlyAuthoredImage": false,
+  "XboxVerificationPending": true
+}

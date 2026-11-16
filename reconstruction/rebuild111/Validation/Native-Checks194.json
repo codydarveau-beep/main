@@ -1,8 +1,8 @@
 {
   "nativeCompiled": true,
   "title": "MyRO v1.11.0 RECOVERY",
-  "xbeBytes": 12333056,
-  "xbeSHA256": "4e4132e256b2808e5eba476b952540e2f96068237420b6bd9c4b72d8f80ac142",
+  "xbeBytes": 12365824,
+  "xbeSHA256": "d43f3eac41745371f38a730c95bb005e51407b36aa6aba20500273a3b4134d2e",
   "stackReserve": 163840,
   "knownChains": [
     {

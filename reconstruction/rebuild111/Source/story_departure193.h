@@ -11,8 +11,10 @@ static int story_departure_maps193(unsigned from,unsigned destination){
  if(from>=MYRO_MAP_COUNT43||strncmp(mapNames[from],"new_",4))return 0;
  if(destination>=MYRO_MAP_COUNT43)return 0;
  const char*n=mapNames[destination];
- return !strcmp(n,"prontera")||!strcmp(n,"morocc")||!strcmp(n,"payon")||
-  !strcmp(n,"alberta")||!strcmp(n,"geffen");
+ /* Exact graduation warp/savepoint destinations from native program3875. */
+ static const char*const exits[]={"prt_fild08","prontera","izlude","pay_fild01","payon","gef_fild07","geffen","geffen_in","izlude_in","pay_fild03","payon_in02","prt_church","moc_fild07","moc_ruins","morocc","alberta","alberta_in"};
+ for(unsigned i=0;i<sizeof(exits)/sizeof(*exits);i++)if(!strcmp(n,exits[i]))return 1;
+ return 0;
 }
 static int story_departure193(const NpcState55*s,unsigned from,unsigned destination){
  Campaign200 c;

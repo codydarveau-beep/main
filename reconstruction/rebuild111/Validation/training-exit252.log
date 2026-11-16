@@ -1,0 +1,246 @@
+STATE 2 text [Hanson]
+Good day,
+^A62A2ANovice'^000000.
+You've made quite
+an effort to come here.
+
+STATE 2 text [Hanson]
+This final test in the Training Grounds is a personality test,
+but it's not a mandatory course.
+
+STATE 2 text [Hanson]
+However, there are some benefits
+to taking this test. When you take this test, you'll receive many health items which will help you when you join the Ragnarok Online commu
+STATE 2 text [Hanson]
+Secondly, after you finish the course we will suggest the job class that seems best suited to your personality and teleport you to a town where you can change into the job
+STATE 2 text [Hanson]
+Now...
+What would
+you like to do?
+
+STATE 2 text [Hanson]
+Do you wish to start Ragnarok Online immediately, or take this personality test course first?
+
+STATE 2 text 
+MENU 0 pc 97 I'll take the course.
+STATE 2 text [Hanson]
+Excellent choice!
+You're supposed to take every training course if you really want to be a well-prepared player!
+
+STATE 2 text [Hanson]
+Alright, let me start the 1st personality test. Please relax
+and take it easy.
+
+STATE 2 text [Hanson]
+Remember, this test is only to check your personality, there is no set standard for right and wrong. Now! Let's begin the test!
+
+STATE 2 text [Hanson]
+Please choose the word
+that best matches you from
+among the following.
+
+STATE 2 text 
+MENU 1 pc 160 Study
+STATE 2 text 
+MENU 2 pc 208 Change
+STATE 2 text 
+MENU 3 pc 234 Consumer
+STATE 2 text 
+MENU 4 pc 275 Celebrity
+STATE 2 text 
+MENU 5 pc 300 Theory
+STATE 2 text 
+MENU 6 pc 326 The Past
+STATE 2 text [Hanson]
+Please answer
+'Yes' or 'No' to
+the following questions.
+
+STATE 2 text [Hanson]
+I'd rather die
+than live submissively.
+
+STATE 2 text 
+MENU 7 pc 389 Yes.
+STATE 2 text [Hanson]
+You are often upset
+to see someone better
+than you.
+
+STATE 2 text 
+MENU 8 pc 431 Yes.
+STATE 2 text [Hanson]
+You don't mind
+exploring dangerous
+places.
+
+STATE 2 text 
+MENU 9 pc 470 Yes.
+STATE 2 text [Hanson]
+You are
+a leader-type
+person.
+
+STATE 2 text 
+MENU 10 pc 509 Yes.
+STATE 2 text [Hanson]
+While exploring
+a dungeon, you run
+into a dead end.
+
+STATE 2 text [Hanson]
+However, there is a sign that reads 'Do Not Push' next to a stone that looks strangely like a button on the wall next to you.
+
+STATE 2 text [Hanson]
+Do you give in
+to the urge to push
+this button?
+
+STATE 2 text 
+MENU 11 pc 570 Yes.
+STATE 2 text [Hanson]
+You often see
+things that don't exist.
+
+STATE 2 text 
+MENU 12 pc 606 Yes.
+STATE 2 text [Hanson]
+If you fell off
+a cliff, you'd feel
+like you were flying.
+
+STATE 2 text 
+MENU 13 pc 645 Yes.
+STATE 2 text [Hanson]
+Money talks.
+
+STATE 2 text 
+MENU 14 pc 678 Yes.
+STATE 2 text [Hanson]
+Now, let me give you some different questions. Please relax and take it easy, and choose the answer that suits you best.
+
+STATE 2 text [Hanson]
+As you check
+your tight schedule....
+
+STATE 2 text 
+MENU 15 pc 723 You feel like a robot.
+STATE 2 text [Hanson]
+As you go window shopping,
+you find a really interesting item in a store, debating whether or not to buy it. Before making
+a purchase, the first thing
+you do is...
+
+STATE 2 text 
+MENU 16 pc 785 Consider if you need it.
+STATE 2 text [Hanson]
+Fill in the blank: You _____ challenging a difficult monster...
+
+STATE 2 text 
+MENU 17 pc 829 don't mind...
+STATE 2 text [Hanson]
+You're responsible for a task that requires you to cooperate with many people. If you handle it alone, it will take a lot of effort and time.
+
+STATE 2 text [Hanson]
+But if you cooperate with others, it will be simple and an enjoyable task. You would... 
+
+STATE 2 text 
+MENU 18 pc 883 Handle it myself, even if it's hard.
+STATE 2 text [Hanson]
+You happen to
+find a girl who
+fainted on the street.
+What would you do?
+
+STATE 2 text 
+MENU 19 pc 926 Carry her to a hospital.
+STATE 2 text [Hanson]
+You happen to
+pick up 'Clothing.'
+What would you do?
+
+STATE 2 text 
+MENU 20 pc 986 Check the brand.
+STATE 2 text [Hanson]
+You happened to accidentally slip your tongue in the middle of a conversation. How do you cope with this situation?
+
+STATE 2 text 
+MENU 21 pc 1044 Pretend it's a joke.
+STATE 2 text [Hanson]
+You're on a trip with your beloved. Your significant other then asks you to buy a souvenir that's not particularly good. What do you do?
+
+STATE 2 text 
+MENU 22 pc 1098 Buy the item for her/him.
+STATE 2 text [Hanson]
+Okay~! That's all for the test. You've finished all the Training Grounds courses. Congratulations!
+
+STATE 2 text [Hanson]
+I've prepared some items for you since you passed the personality test. Please take them, you've earned it.
+
+STATE 2 text 
+STATE 2 text [Hanson]
+Now, we will recommend a suitable job for you after analyzing the results of your personality test. Please wait a moment.
+
+STATE 2 text [Hanson]
+...
+
+STATE 2 text [Hanson]
+...
+......
+
+STATE 2 text [Hanson]
+Here's the
+final result
+of your test.
+
+STATE 2 text [Hanson]
+Although you're very straight forward and simple minded, you
+have a strong will and want to be an important person for this world.
+
+STATE 2 text [Hanson]
+You're also always
+trying to protect the weak.
+
+STATE 2 text [Hanson]
+For you, who has your own will, ^696969Swordman^000000 class is the most suitable job.
+
+STATE 2 text [Hanson]
+So would you like to accept our recommendation, or would you like to choose a job on your own?
+
+STATE 2 text 
+MENU 23 pc 1596 Swordman!
+STATE 2 text [Hanson]
+That's a great choice!
+After you receive all the supplies, I will teleport you to the Swordman Association.
+
+STATE 2 text ^660000List of Supplies^000000
+^0000335 Free Ticket for Kafra Storage^000000
+^0000335 Free Ticket for Kafra Transportation^000000
+^0000331 Falchion^000000
+^0000337 Phracon^000000
+
+STATE 2 text [Hanson]
+Please check your inventory to see if you have received all the supplies listed. Let me briefly inform you about the items you've received.
+
+STATE 2 text [Hanson]
+Free tickets for Kafra storage and transportation can be used for Kafra storage and teleport services.
+
+STATE 2 text [Hanson]
+'Zeny' is the currency of Rune-Midgard. 'Falchion' is a weapon that will be very useful once you become a Swordman.
+
+STATE 2 text [Hanson]
+'Phracon' is an ore which can be used to upgrade lvl 1 weapons. To strengthen your Falchion with this Phracon, please visit a forge in one of the towns.
+
+STATE 2 text [Hanson]
+The town you will be sent to is called Izlude which is a satellite of Prontera. The Swordman Association is located in the West of town. Please remember this.
+
+STATE 2 text [Hanson]
+You will now
+be teleported.
+Good luck,
+^A62A2ANovice^000000
+and farewell.
+
+STATE 2 text 
+PENDING 1 map 0 menus 24
+PASS actual Hanson NPC open/unchanged native VM graduation routes to campaign opening; no early job grant. Host only.

@@ -1623,8 +1623,8 @@
     },
     {
       "path": "Source/frontend_assets56.c",
-      "bytes": 1168067,
-      "sha256": "8ecd5e968caa80c7877358b8352c9ad0dd4c511d68d7db07c9a089e3f65c5a80"
+      "bytes": 1286526,
+      "sha256": "c258ab1db4408323613123a7734d9c5bf2929bf04c23cbd7a7592cd36fe3b35d"
     },
     {
       "path": "Source/frontend_choices112.h",
@@ -2373,8 +2373,8 @@
     },
     {
       "path": "Source/native_admission194.h",
-      "bytes": 2428,
-      "sha256": "caf457bc42efc21ae68121c5846afc4dad0d688e34bc3ce8c7ce2ecaf75b4af0"
+      "bytes": 2683,
+      "sha256": "40fc816291d6bb8cef24803ea01d0f5c1fa4d33dff9da172b14d51d8cb63452f"
     },
     {
       "path": "Source/normal_towns52.h",
@@ -3548,8 +3548,8 @@
     },
     {
       "path": "Source/story_departure193.h",
-      "bytes": 1088,
-      "sha256": "ce28418cd9b392b39ba8e82c568d180b52116361affacb798bbd06ccda1729c8"
+      "bytes": 1376,
+      "sha256": "cdcfd7ca76b3df43070d88c97eca4e8df57f7ddd33c7cffbd5477af3bf1b9cbd"
     },
     {
       "path": "Source/story_routes199.h",
@@ -5218,8 +5218,8 @@
     },
     {
       "path": "Preparation/CURRENT-HANDOFF249.md",
-      "bytes": 4822,
-      "sha256": "95667b9a889e54f2f61796d80ae7fbe9959fbec01b6b469cb466c2c5d91151cb"
+      "bytes": 5790,
+      "sha256": "07ca74ca0066d70642cbd0e0d093295944bca7e463acc9e1f5068f98bc4d400b"
     },
     {
       "path": "Preparation/Campaign-Journal-Recovery200.json",
@@ -5268,8 +5268,8 @@
     },
     {
       "path": "Preparation/Development-Resume215.md",
-      "bytes": 16558,
-      "sha256": "24d6180bc1ad94d6ec4d0b423a9f54807417e6c0945d5d5e51abe315ea6944e6"
+      "bytes": 17526,
+      "sha256": "39f1c71a36524e6491d70f417c0249e78a5c0f5354253627dcbcaa9389895495"
     },
     {
       "path": "Preparation/Guild-Map-Recovery197.json",
@@ -5315,6 +5315,16 @@
       "path": "Preparation/Private-Inputs194.json",
       "bytes": 3404,
       "sha256": "ae7d5d704ebb917c065b0478a73a814319c3e73ca5ba777fa04e21a578b9d9d3"
+    },
+    {
+      "path": "Preparation/REGRESSION-LEDGER252.md",
+      "bytes": 16801,
+      "sha256": "e41566c6535b7c265aa131cf65ac7a4e3f5828da1225fcab5ab58c7ca178305f"
+    },
+    {
+      "path": "Preparation/RESTORATION-CURRENT252.md",
+      "bytes": 1530,
+      "sha256": "4a6b6ea89ac51be8a4d4b95e6adefc764f44c8bc40f06789a749a3a35e7ac9f2"
     },
     {
       "path": "Preparation/Story-Aliases-Recovery199.json",
@@ -5827,6 +5837,11 @@
       "sha256": "86ec4bc385b0895afa7ff21624f2581a5d126314cf69f6d3282ff46838b26662"
     },
     {
+      "path": "Preparation/check_training_exit252.py",
+      "bytes": 1485,
+      "sha256": "6a7834ff60fbabaacd558d510bd7f1b39a69e350465f7ba80f702ff34b491776"
+    },
+    {
       "path": "Preparation/check_world_residency234.py",
       "bytes": 1773,
       "sha256": "a82c27dd1b56f2c2cc6195ea42d6cbab02fc63a9f37ae76b96bec97af92bc6d5"
@@ -5845,6 +5860,11 @@
       "path": "Preparation/extend_alias_npc_registry242.py",
       "bytes": 1864,
       "sha256": "d418bc1f0ea6c9a099cb68fbe03746c721941d31b4e5d17f9755aa6c7fac2814"
+    },
+    {
+      "path": "Preparation/inspect_training252.py",
+      "bytes": 381,
+      "sha256": "c3156be1cc829c492df17ff9c3f1f6e13614a18e9484710a873d25c2b991e72b"
     },
     {
       "path": "Preparation/integrate_admission194.py",
@@ -5875,6 +5895,11 @@
       "path": "Preparation/integrate_journal194.py",
       "bytes": 4772,
       "sha256": "918c3c3bcbeb9db1403f16093e52e73b273f28a0d6e0936e93bc4c3775050afe"
+    },
+    {
+      "path": "Preparation/inventory_embedded_ui252.py",
+      "bytes": 1005,
+      "sha256": "c7344da370b5d1cf7f67a511a1cf3e3a304e0ea2b677adb57e0b06899f2033f3"
     },
     {
       "path": "Preparation/lift_arcade197.py",
@@ -6457,6 +6482,11 @@
       "sha256": "502efddee05c15993f5fe583ba6f7c840da317b4fdffd4ca6a2759a82678c201"
     },
     {
+      "path": "Validation/Delivery-Receipt251.json",
+      "bytes": 400,
+      "sha256": "4fe54bd4cbd28db77c1c0a0bdcf3113aa2e99b8056c286fb7e8e819b8969da2e"
+    },
+    {
       "path": "Validation/Developer-Benchmark214.json",
       "bytes": 130010,
       "sha256": "1e8a98b72a0a96a0ac7e1cf1341f1d113874045ddd84ee2163be40ebd68aac9f"
@@ -6480,6 +6510,11 @@
       "path": "Validation/Disk-Cleanup243.json",
       "bytes": 891,
       "sha256": "56971491ea7a3ec7a167df9c67099af80c0d03e63594a7327279831df23b19a2"
+    },
+    {
+      "path": "Validation/Embedded-UI-Inventory252.json",
+      "bytes": 635,
+      "sha256": "a8f05822b9606ac4b0b27ed2a5558fc93f5ba53e4f542820fe3b5343ea0e9f5d"
     },
     {
       "path": "Validation/Encounter-Integration-Checks198.json",
@@ -6513,13 +6548,13 @@
     },
     {
       "path": "Validation/Integration-Checks194.json",
-      "bytes": 1706,
-      "sha256": "9d8775fa40f66514dfb9fd08200a63e6697c5e51c4f5f50b27c8a08d8bf5b26e"
+      "bytes": 1707,
+      "sha256": "31262ef1731936896c15104caefbd383803b663993540e9007f8b6e354986efe"
     },
     {
       "path": "Validation/Native-Checks194.json",
       "bytes": 8012,
-      "sha256": "83b2335515cfd4ca137e5a22aa45c5dccfa5a82eb76bccf9956915cceb1611f3"
+      "sha256": "cf0363b693df4912fc2bed1ac73c311e2fbcced59942254a13dd3c72eb1627db"
     },
     {
       "path": "Validation/Native-Decompile203/callback-117850.c",
@@ -6748,8 +6783,8 @@
     },
     {
       "path": "Validation/Normal-Release-Checks194.json",
-      "bytes": 18134,
-      "sha256": "15461ea54f03a9268dee2166505540a3b325affa6451f483befb05563f995cf2"
+      "bytes": 18454,
+      "sha256": "57b74a69466b469dcfcf13bf8e4472ee336ff54b10de235d17bef9b28647d0c3"
     },
     {
       "path": "Validation/Patch-Validation251.json",
@@ -6760,6 +6795,11 @@
       "path": "Validation/Post-Review-Cleanup248.json",
       "bytes": 5291,
       "sha256": "c8553824769790b024f1f0d4b3d53dd0dd12f2dfa01e318bc892d53ebb1921f9"
+    },
+    {
+      "path": "Validation/Preservation-Audit252.json",
+      "bytes": 2391,
+      "sha256": "42f000d12f1af3c1c0ffc7a88bf7ff6ea664a372ecbde6a451e1737e02f672da"
     },
     {
       "path": "Validation/Release-Inputs194.json",
@@ -6825,6 +6865,16 @@
       "path": "Validation/Temporary-Tool-Cleanup241.json",
       "bytes": 1193,
       "sha256": "329d1dd67a33e2be0a7e47287a977a39439737c146e972ebbcdec382d6a5b50a"
+    },
+    {
+      "path": "Validation/Title-Restoration252.json",
+      "bytes": 433,
+      "sha256": "430c13debe3207f829813ac301d0638fd5e7f0d4aff11de1e120b951f46cdacf"
+    },
+    {
+      "path": "Validation/Training-Exit-Checks252.json",
+      "bytes": 633,
+      "sha256": "7907586f7fc46894a7039560abd1de8893553b1f5562a49d4acd4ff9ee4bc4a9"
     },
     {
       "path": "Validation/World-Residency-Checks234.json",
@@ -7088,6 +7138,11 @@
     },
     {
       "path": "Validation/checkpoint-delivery251.log",
+      "bytes": 62,
+      "sha256": "f5b9b00af2524cc58174030c2d0c340059e80915d468575386554cf075427790"
+    },
+    {
+      "path": "Validation/checkpoint-restoration252.log",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
@@ -8492,6 +8547,16 @@
       "sha256": "be019bf09e2c4a8354cf4d3911b79c6554244b3adf27f1cf0454ebfca70370d4"
     },
     {
+      "path": "Validation/native-restoration252-guards.log",
+      "bytes": 8012,
+      "sha256": "cf0363b693df4912fc2bed1ac73c311e2fbcced59942254a13dd3c72eb1627db"
+    },
+    {
+      "path": "Validation/native-restoration252.log",
+      "bytes": 612,
+      "sha256": "bda39f4c71d14eeffff26c455beaf6fe7668d0c31a8591c591eaacd576dce1fb"
+    },
+    {
       "path": "Validation/native-rogue-guards218.log",
       "bytes": 7442,
       "sha256": "6a08be5b6b35e532d811ae7d9c6381204c5c2ee8f55f14c9580c53537ea399df"
@@ -8692,6 +8757,11 @@
       "sha256": "7cae327701d83130588b4f5ae8513d7b7b4710dc46be4023c8b44c19a6542171"
     },
     {
+      "path": "Validation/probe_training252.c",
+      "bytes": 913,
+      "sha256": "d3ff9b0d3a5a6a68c339faabae67cf02228c29c7c2cd22315fc7222d5d963f81"
+    },
+    {
       "path": "Validation/puzzle196.log",
       "bytes": 144,
       "sha256": "a567b5f5e4276cc33174c6900bf6c91796be6eab63dc5a644485ce7c3e33b8ef"
@@ -8725,6 +8795,11 @@
       "path": "Validation/released_guild_fixture194.h",
       "bytes": 248,
       "sha256": "153e5ab0a11e238e2245fbd1f8b97f234b4b43465b332508246e41e00f7f9ef2"
+    },
+    {
+      "path": "Validation/restoration-summary252.log",
+      "bytes": 185,
+      "sha256": "8f12e6e0dd18286bfd5a3688a7e2450c57bd5b469aa05804f2608ec0aa8eb6a2"
     },
     {
       "path": "Validation/retained-checks196.log",
@@ -8860,6 +8935,21 @@
       "path": "Validation/test_session_review245.c",
       "bytes": 3005,
       "sha256": "3a8d97158950bb2c109ad44471c452fdd3a1e7b807fe40057b0272d21336c4d8"
+    },
+    {
+      "path": "Validation/test_training_exit252.c",
+      "bytes": 1758,
+      "sha256": "431543512b496b0fd526c8433cb646a3f65997abdbcc03f56577eb55e9202245"
+    },
+    {
+      "path": "Validation/training-exit252.log",
+      "bytes": 6642,
+      "sha256": "9c0e9016829acc54dd1ce8b228a2ee419ffc8204bd78d244efdd200dfefa2c19"
+    },
+    {
+      "path": "Validation/training-probe252.log",
+      "bytes": 3632,
+      "sha256": "f69c3aad4dfd9bb18ffa86ae83b94c564d5cb2bfaebfc672961f68d61d6aa0f7"
     },
     {
       "path": "Validation/travel_preflight194.log",
@@ -9073,8 +9163,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 78057,
-      "sha256": "c39d865d18a9fe965202e11c59fd77029dca48af0fef7941a8ca4ffc11a92f68"
+      "bytes": 79025,
+      "sha256": "9b6b0f02fc39aaf7db712286e53a3f213a74ab7ea177822eff03919e74a925fe"
     },
     {
       "path": "RELEASE-GATES.md",

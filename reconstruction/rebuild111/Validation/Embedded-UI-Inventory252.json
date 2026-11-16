@@ -1,0 +1,20 @@
+{
+  "source": "exact released 1.10.0 executable",
+  "candidates": [
+    {
+      "offset": 7595960,
+      "packed": 321544,
+      "raw": 614400,
+      "rawSHA256": "2c9b45d81bfee08d7eb6300c6a52bf3397063e6fd67740a750726dcb53552c68",
+      "path": "Restoration252/released-ui-0073e7b8.zlib"
+    },
+    {
+      "offset": 10120872,
+      "packed": 321544,
+      "raw": 614400,
+      "rawSHA256": "2c9b45d81bfee08d7eb6300c6a52bf3397063e6fd67740a750726dcb53552c68",
+      "path": "Restoration252/released-ui-009a6ea8.zlib"
+    }
+  ],
+  "scope": "Lossless embedded640x480 RGB565 screen inventory; screen identity not assumed from byte size"
+}

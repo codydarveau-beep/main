@@ -1,0 +1,60 @@
+{
+  "phase": "restoration inventory; not release acceptance",
+  "comparisons": [
+    {
+      "file": "frontend_assets56.c",
+      "currentSHA256": "8ecd5e968caa80c7877358b8352c9ad0dd4c511d68d7db07c9a089e3f65c5a80",
+      "retained191SHA256": "8ecd5e968caa80c7877358b8352c9ad0dd4c511d68d7db07c9a089e3f65c5a80",
+      "matches191": true
+    },
+    {
+      "file": "frontend_xbox56.h",
+      "currentSHA256": "4faf48cd39895747aac08ec750aa93f7decb42a54bf085a56142d5fc3dc93fef",
+      "retained191SHA256": "4faf48cd39895747aac08ec750aa93f7decb42a54bf085a56142d5fc3dc93fef",
+      "matches191": true
+    },
+    {
+      "file": "options61.h",
+      "currentSHA256": "63f2946ec0269dcfe7ce592df29c97f0c7594879e2950de40f64c0765d1862bd",
+      "retained191SHA256": "63f2946ec0269dcfe7ce592df29c97f0c7594879e2950de40f64c0765d1862bd",
+      "matches191": true
+    },
+    {
+      "file": "gpu_sprite_upload45.h",
+      "currentSHA256": "88861c66b68f84ec9c75e167de01d17dadef0caff2ca1e49f5ad092944e5d537",
+      "retained191SHA256": "88861c66b68f84ec9c75e167de01d17dadef0caff2ca1e49f5ad092944e5d537",
+      "matches191": true
+    },
+    {
+      "file": "enemy_packed_cache164.h",
+      "currentSHA256": "809b09bd78ddc018da2085c369130c1fa028586a83352e4b601f4c59b4b7df80",
+      "retained191SHA256": "809b09bd78ddc018da2085c369130c1fa028586a83352e4b601f4c59b4b7df80",
+      "matches191": true
+    },
+    {
+      "file": "guardian_pose_cache65.h",
+      "currentSHA256": "d0506c175372a96945151d359cfc28da8c11b092ea42301f79e0d28c89f0be84",
+      "retained191SHA256": "d0506c175372a96945151d359cfc28da8c11b092ea42301f79e0d28c89f0be84",
+      "matches191": true
+    },
+    {
+      "file": "water_wave190.h",
+      "currentSHA256": "a15d5c01c1e920732cf3d6d5ffa7f794b6ecf46a5c743d834c7e942a9a433416",
+      "retained191SHA256": "a15d5c01c1e920732cf3d6d5ffa7f794b6ecf46a5c743d834c7e942a9a433416",
+      "matches191": true
+    }
+  ],
+  "confirmed": [
+    "Hanson blocked by static later-destination dependency closure at initial state",
+    "Old embedded frontend source retained",
+    "Old draw defaults retained",
+    "Original water code exists but initializes off"
+  ],
+  "unknown": [
+    "Exact old Willow fix/patch",
+    "Full later Guardian/timing/memory-fix parity",
+    "Actual shared-rendering cause of each visual artifact"
+  ],
+  "extraRestorationReviewsCompleted": 0,
+  "originalXboxPlaytested": false
+}
