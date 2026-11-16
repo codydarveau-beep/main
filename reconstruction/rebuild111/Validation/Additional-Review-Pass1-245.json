@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "phase": "additional review pass 1 of 2",
+  "completedUTC": "2026-11-16T14:49:17.412156+00:00",
+  "normalCompletedBeforeReview": true,
+  "normalEvidence": "Normal-Complete-Checks244.json",
+  "sourceDigest": "0eb63954f3f34171dbb022f88063686953be547408a47b28e608de00b26cd85c",
+  "sourceUnchanged": true,
+  "reviewedFiles": {
+    "campaign_world200.h": "b868098ac6d323f10ff517ef56acfd00f56ee9eaa03eb88266181491771f0168",
+    "quest_journal65.h": "abb27b0f668c9d5dc92bfedbd18e4adf186ccb5e6e220fae990ebb7252d09f5c",
+    "npc_game_xbox55.h": "253829c4d52396332ac7d6f56f8c1946bf0313e424bef98926e3f16c772ff06f",
+    "npc_game55.h": "6589a95f303077294b8e91372e675ae8028841b8832f2a24c17739f73a0bdd37",
+    "npc_save_bridge55.h": "cabd5380103dcb88c6438232be2a15e8c89e31c8ebeac257af6cbc46dd9e0079",
+    "save_store.h": "9a423659ad1af9e9f840d3babe0cb04cce5870432be758fa915b56bb15773e22",
+    "character_bank56.h": "0dffa23a93b326c0e755cfc4f53253084fd303adba13bd01e10a373111f193e9",
+    "campaign_party_growth200.h": "92e3681cf8721b5f5139accaed997cdd11a7c22b760b329687cd94deae0ae18b",
+    "campaign_battle200.h": "19bed9d5727c7b525801d3f83a0d59caa5d54c70e68f5916b01a563afff9c9af",
+    "campaign_state200.h": "a1fdf39e6f7766f27cb489f282baa708cff0ef62032a25a6cb31d5a2b7c8f7e3",
+    "campaign_scene_ui200.h": "cb9fee27de43a6c5c30b182eddaac12b8da719916ca57ebe858d72ef2693a20f",
+    "npc_travel_preflight194.h": "f65439a7ca95347843fbb3f522fb0de4ea3574655c9ac1d130a4a01e076fdf87",
+    "campaign_admission_runtime194.h": "cf45a31a4d65a1e96e1cc1fc4d1fe4d71e7701326ca81ca4c0cd918c9c8a9382",
+    "world_maps.h": "555849f4870a62a8793767aedcc59282ca79788bcc6201412fa9632845b3372c",
+    "acolyte_skills.h": "9902cb2b9e8f25aab87eb3a6808ef528dc5eb0dec7f0b01cb99a935b1e48e70c",
+    "story_routes199.h": "0a194c9d7f9a195c0e60c9e1c2312c33a4c21d0b31521971d69b23069d054091",
+    "guild194.h": "acdb64f3c697e1c2f8a4bce1c6402833bbd5a54eea9fe11c8c9145e2ed353068",
+    "guild_world194.h": "1645d54d8a9ee2916734873acaa61ea9d9a347775a2e34c725c9178d23fd093f",
+    "regional194.h": "14705adb1bbde5da80c3ed676f7b1600d599540d962fef9e2781a3501b8540a4",
+    "regional_world194.h": "7375e6e8b47483a4260f059161a57df7eb7e3a2b66de2a6e4b0b7734c2dc53a0",
+    "main.c": "29cd671ca0fbcb60a1aaa024fb58b728b0061ea9c94a8d25c37d0ef581e09f81"
+  },
+  "findings": [
+    {
+      "area": "Session/character ownership",
+      "result": "Actual journal binding calls the production session reset before binding new state. Focused sanitizer probe reuses the character state address and switches back and forth: active companion identity, own EXP/vitals/settings remain distinct; temporary commands/shots/emotes/access cache/staging and CPU/GPU actor resources clear.",
+      "evidence": [
+        "test_session_review245.c",
+        "actual_session_reset245.inc",
+        "session-review245.log"
+      ]
+    },
+    {
+      "area": "Travel/resource order",
+      "result": "Road/script gates check admission before world activation; native managed menu choice preflight runs before VM answer; utility travel checks destination before SP/gem consumption; entering an existing portal checks before decrementing uses. Courier fare follows successful warp. Review found no new fee/state-loss defect.",
+      "evidence": [
+        "Integration-Checks194.json",
+        "Native-Ferry-Checks237.json",
+        "Story-Alias-Checks199.json"
+      ]
+    },
+    {
+      "area": "Growth/rewards/construction",
+      "result": "Own growth is read from per-character records; missing recruits are seeded once, formation binding reloads config, promotions require authored job/story gates, chapter award marker commits before player award. Guild/dispatch stage inventory copies before durable ledger commit and expose no intervening yield/callback. Existing native scripts, materials and rewards are preserved.",
+      "evidence": [
+        "Companion-Release-Checks224.json",
+        "Campaign-Save-Bundle-Checks229.json",
+        "Campaign-Companions-Checks226.json",
+        "Companion-Promotions-Checks227.json",
+        "Native-First-Jobs-Checks231.json",
+        "Native-Expanded-Jobs-Checks233.json",
+        "Native-Supernovice-Checks235.json"
+      ]
+    },
+    {
+      "area": "Scene lifecycle",
+      "result": "Ordinary scene entry/staging uses complete runtime guards; modal control locks and scene replacement retain original architecture. Encounter kills require owned serial/map/cursor, pending proofs retry their transaction, and scene/world resets release owned resources. No invented camera tracks introduced.",
+      "evidence": [
+        "Campaign-Runtime-Checks239.json",
+        "Campaign-Sequence-Checks200.json",
+        "Campaign-Combat-Checks232.json",
+        "Encounter-Integration-Checks198.json"
+      ]
+    }
+  ],
+  "productionChangesRequired": false,
+  "additionalReviewPassesCompleted": 1,
+  "secondReviewStarted": false,
+  "packagingValidated": false,
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "limitations": [
+    "Source inspection and host sanitizer/GPU-recorded boundary execution; not native device execution",
+    "Natural progression/balance/controller/FATX and original 64 MB residency require target acceptance",
+    "Obsolete development/test save preservation is intentionally outside scope"
+  ]
+}

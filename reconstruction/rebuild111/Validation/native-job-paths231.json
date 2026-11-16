@@ -1,0 +1,449 @@
+{
+  "programs": [
+    4,
+    3359,
+    3383,
+    3393,
+    3404,
+    3418,
+    3444,
+    3457,
+    3458,
+    3459,
+    3460,
+    3461,
+    3462,
+    3467,
+    3469,
+    3470,
+    3493,
+    3507,
+    3542,
+    3576,
+    3590,
+    3591,
+    3592,
+    3593,
+    3594,
+    3595,
+    3596,
+    3597,
+    3600,
+    3819,
+    3823,
+    3824,
+    3827,
+    3833,
+    3855,
+    3856,
+    3883,
+    3885,
+    3887,
+    3890,
+    3895
+  ],
+  "npcs": [
+    {
+      "npc": 6320,
+      "name": "Guildsman#asn",
+      "program": 3359,
+      "map": 101,
+      "mapName": "in_moc_16",
+      "mapMinimum": 0,
+      "dependencies": [
+        101,
+        112
+      ]
+    },
+    {
+      "npc": 6434,
+      "name": "Guildsman#BLS",
+      "program": 3383,
+      "map": 217,
+      "mapName": "ein_in01",
+      "mapMinimum": 15,
+      "dependencies": []
+    },
+    {
+      "npc": 6445,
+      "name": "Hunter Guildsman#hnt",
+      "program": 3393,
+      "map": 227,
+      "mapName": "hu_in01",
+      "mapMinimum": 15,
+      "dependencies": []
+    },
+    {
+      "npc": 6839,
+      "name": "Chivalry Captain#knt",
+      "program": 3404,
+      "map": 90,
+      "mapName": "prt_in",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 6853,
+      "name": "High Bishop#prst",
+      "program": 3418,
+      "map": 82,
+      "mapName": "prt_church",
+      "mapMinimum": 0,
+      "dependencies": [
+        430
+      ]
+    },
+    {
+      "npc": 6876,
+      "name": "Wizard Guildsman",
+      "program": 3444,
+      "map": 36,
+      "mapName": "gef_tower",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 6889,
+      "name": "Assassin Cross#Valkyrie",
+      "program": 3457,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 6890,
+      "name": "High Priest#Valkyrie",
+      "program": 3458,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 6891,
+      "name": "High Wizard#Valkyrie",
+      "program": 3459,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 6892,
+      "name": "Lord Knight#Valkyrie",
+      "program": 3460,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 6893,
+      "name": "Sniper#Valkyrie",
+      "program": 3461,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 6894,
+      "name": "MasterSmith#Valkyrie",
+      "program": 3462,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 6899,
+      "name": "Master Alchemist#am",
+      "program": 3467,
+      "map": 148,
+      "mapName": "alde_alche",
+      "mapMinimum": 12,
+      "dependencies": []
+    },
+    {
+      "npc": 6901,
+      "name": "Wandering Bard",
+      "program": 3469,
+      "map": 188,
+      "mapName": "comodo",
+      "mapMinimum": 13,
+      "dependencies": []
+    },
+    {
+      "npc": 6902,
+      "name": "Senior Crusader",
+      "program": 3470,
+      "map": 81,
+      "mapName": "prt_castle",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 6925,
+      "name": "Bijou#da",
+      "program": 3493,
+      "map": 65,
+      "mapName": "job_duncer",
+      "mapMinimum": 0,
+      "dependencies": [
+        65
+      ]
+    },
+    {
+      "npc": 6944,
+      "name": "Sensei Moohae#mk",
+      "program": 3507,
+      "map": 66,
+      "mapName": "monk_in",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7004,
+      "name": "Rogue Guildsman#rg",
+      "program": 3542,
+      "map": 189,
+      "mapName": "in_rogue",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7038,
+      "name": "Dean of the Academy#sa",
+      "program": 3576,
+      "map": 253,
+      "mapName": "yuno_in02",
+      "mapMinimum": 15,
+      "dependencies": []
+    },
+    {
+      "npc": 7052,
+      "name": "Champion#Valkyrie",
+      "program": 3590,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7053,
+      "name": "Minstrel#Valkyrie",
+      "program": 3591,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7054,
+      "name": "Biochemist#Valkyrie",
+      "program": 3592,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7055,
+      "name": "Gypsy#Valkyrie",
+      "program": 3593,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7056,
+      "name": "Paladin#Valkyrie",
+      "program": 3594,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7057,
+      "name": "Scholar#Valkyrie",
+      "program": 3595,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7058,
+      "name": "Stalker#Valkyrie",
+      "program": 3596,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7059,
+      "name": "Tzerero#sn",
+      "program": 3597,
+      "map": 153,
+      "mapName": "aldeba_in",
+      "mapMinimum": 12,
+      "dependencies": []
+    },
+    {
+      "npc": 7062,
+      "name": "Valkyrie#",
+      "program": 3600,
+      "map": 449,
+      "mapName": "valkyrie",
+      "mapMinimum": 0,
+      "dependencies": [
+        2,
+        3,
+        11,
+        41,
+        127,
+        131,
+        253
+      ]
+    },
+    {
+      "npc": 7340,
+      "name": "Cleric#aco",
+      "program": 3819,
+      "map": 82,
+      "mapName": "prt_church",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7344,
+      "name": "Archer Guildsman#archer",
+      "program": 3823,
+      "map": 79,
+      "mapName": "payon_in02",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7345,
+      "name": "Mage Guildsman",
+      "program": 3824,
+      "map": 42,
+      "mapName": "geffen_in",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7348,
+      "name": "Merchant#mer",
+      "program": 3827,
+      "map": 132,
+      "mapName": "alberta_in",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7353,
+      "name": "Swordman#swd_1",
+      "program": 3833,
+      "map": 64,
+      "mapName": "izlude_in",
+      "mapMinimum": 0,
+      "dependencies": [
+        64
+      ]
+    },
+    {
+      "npc": 7546,
+      "name": "Thief Guide",
+      "program": 3855,
+      "map": 125,
+      "mapName": "moc_prydb1",
+      "mapMinimum": 1,
+      "dependencies": []
+    },
+    {
+      "npc": 7547,
+      "name": "Comrade",
+      "program": 3856,
+      "map": 125,
+      "mapName": "moc_prydb1",
+      "mapMinimum": 1,
+      "dependencies": []
+    },
+    {
+      "npc": 7583,
+      "name": "Phoenix",
+      "program": 3883,
+      "map": 65535,
+      "mapName": "helper",
+      "mapMinimum": null,
+      "dependencies": []
+    },
+    {
+      "npc": 7584,
+      "name": "Phoenix#TKJobChangePRE",
+      "program": 3883,
+      "map": 11,
+      "mapName": "payon",
+      "mapMinimum": 0,
+      "dependencies": []
+    },
+    {
+      "npc": 7586,
+      "name": "Kuuga Gai#nq",
+      "program": 3885,
+      "map": 406,
+      "mapName": "que_ng",
+      "mapMinimum": 1,
+      "dependencies": []
+    },
+    {
+      "npc": 7588,
+      "name": "Master Miller",
+      "program": 3887,
+      "map": 406,
+      "mapName": "que_ng",
+      "mapMinimum": 1,
+      "dependencies": []
+    },
+    {
+      "npc": 7591,
+      "name": "Wandering Master#job_sta",
+      "program": 3890,
+      "map": 188,
+      "mapName": "comodo",
+      "mapMinimum": 13,
+      "dependencies": [
+        433
+      ]
+    },
+    {
+      "npc": 7596,
+      "name": "Maia#link2",
+      "program": 3895,
+      "map": 432,
+      "mapName": "job_soul",
+      "mapMinimum": 0,
+      "dependencies": [
+        127
+      ]
+    },
+    {
+      "npc": 7597,
+      "name": "Maia#link6",
+      "program": 3895,
+      "map": 432,
+      "mapName": "job_soul",
+      "mapMinimum": 0,
+      "dependencies": [
+        127
+      ]
+    }
+  ],
+  "scope": "Discovery for actual NPC/path integration, not a quest playthrough acceptance"
+}

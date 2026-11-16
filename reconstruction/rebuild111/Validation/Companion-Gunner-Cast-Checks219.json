@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "nativeComparisons": 1200,
+  "choiceCoverage": {
+    "1": 1176,
+    "378": 24
+  },
+  "scope": "Original Corin complete inline ranged choices and initialization: own learned Rapid Shower, basic and Chain Action fallback, learned passive probability under disabled/support/cooldown/resource settings, own RNG/weapon/job motion/buffs and exact attack/serial/timing records, deferred fee and original absence of arrow-ring entries. Native target validity/line remain explicit fixtures; impacts and actual durable battle ticks are separate",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

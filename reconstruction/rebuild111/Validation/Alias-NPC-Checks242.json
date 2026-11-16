@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "scope": "Actual native NPC map bind, ordinary-map return, near/touch/creature-touch and sprite selection for both empty campaign aliases; correct reset of prior presentation, touch occupancy and minimap markers. Existing 495 map spans, including previously recovered career-safe relocations, remain unchanged and two empty alias spans add no native NPC/script copies. World geometry/scene placements are unchanged and validated separately. Host only.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

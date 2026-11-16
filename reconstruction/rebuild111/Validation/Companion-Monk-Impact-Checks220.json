@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "nativeComparisons": 2400,
+  "damageCoverage": {
+    "202": 387,
+    "211": 216,
+    "1": 319
+  },
+  "scope": "Original Suri full physical resolver in both careers: own Iron Fists/power/ratios, native target eligibility and real element/defense reduction, exact cached split/remainder damage for three/four hits, deferred once-only SP/RNG, no extra Trifecta cue and original 1.2-second same-target follow-up window. Every cache/repeat/timing/combo field agrees. Native persistence/line/enemy flee/final HP application are recording boundaries; live integration and failed storage remain separate",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

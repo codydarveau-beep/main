@@ -1,0 +1,28 @@
+{
+  "inspection": {
+    "path": "/workspace/work/recovery/checkpoint/.git/objects/pack/tmp_pack_SDeK3O",
+    "bytes": 840720383,
+    "header": [
+      2,
+      380
+    ],
+    "headerMagic": "PACK",
+    "packTrailerValid": false,
+    "activeGitProcess": false,
+    "registeredPack": false,
+    "indexed": false
+  },
+  "action": "Removed abandoned, incomplete, unindexed Git transfer temporary file; no registered objects or project files removed",
+  "freedBytes": 840720383,
+  "freeBytesAfter": 2688274432,
+  "preserved": [
+    "all registered Git objects and references",
+    "all source and assets",
+    "released 1.10.0 ISO",
+    "developer backup archives and published download"
+  ],
+  "redundantValidatorDownloadRemoved": {
+    "bytes": 184863392,
+    "reason": "Existing original workspace PowerShell 7.4.6 executable verified usable; newly downloaded portable tool unnecessary"
+  }
+}

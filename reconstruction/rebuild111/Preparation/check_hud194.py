@@ -14,6 +14,7 @@ for front in [0,1]:
 cases += [['windows194',str(w)]for w in range(5)]+[['storage',str(i)]for i in [0,10,254]]
 env=os.environ.copy();env['ASAN_OPTIONS']='detect_leaks=1:halt_on_error=1';env['UBSAN_OPTIONS']='halt_on_error=1:print_stacktrace=1'
 peak=0
+cases.extend([['storyminimap242',str(row),str(large)]for row in range(42)for large in range(2)])
 for index,args in enumerate(cases):
  run=subprocess.run([str(exe),*args],capture_output=True,text=True,env=env)
  if run.returncode:

@@ -14,4 +14,4 @@ int main(int argc,char**argv){assert(argc==2);FILE*f=fopen(argv[1],"rb");assert(
   }
   free(out);free(p);
  }
- fclose(f);printf("PASS released scene wire, %u node cue/checkpoint reads across three roles, corruption rejection and retained activation ceiling. No world/playthrough claim.\n",nodes);return 0;}
+ fclose(f);printf("PASS released scene wire, %u node cue/checkpoint reads across three roles, corruption rejection and complete configured runtime scene scope. No world/playthrough claim.\n",nodes);return 0;}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "nativeComparisons": 2400,
+  "damageCoverage": {
+    "388": 126,
+    "1": 476,
+    "392": 133,
+    "390": 119,
+    "386": 139
+  },
+  "stanceArmCases": 45,
+  "knockbackCases": 119,
+  "scope": "Original Daro/Haneul complete physical/stance resolver, actual native target eligibility, learning/proc/window and native element/defense/statuses; all original kick-family ratios and three-mob area boundaries, primary exclusion and exact secondary knockback requests. Exact cache, one-time own-SP payment, RNG, preparation, pending life and timing agree. Native persistence/line/flee/final HP and collision/knockback are explicit recording boundaries; actual battle and real movement/durable failure tests remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

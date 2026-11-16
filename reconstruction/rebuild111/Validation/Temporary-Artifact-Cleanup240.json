@@ -1,0 +1,206 @@
+{
+  "reason": "Make space for normal full-candidate validation and later packaging. All removed files are reproducible sanitizer host executables; source, adapters, evidence reports, native binaries, released builds, immutable backups and toolchains are preserved.",
+  "removed": [
+    {
+      "path": "Validation/campaign-combat232_asan",
+      "bytes": 22907520
+    },
+    {
+      "path": "Validation/campaign-companions226_asan",
+      "bytes": 22268864
+    },
+    {
+      "path": "Validation/campaign-encounter198_asan",
+      "bytes": 1861936
+    },
+    {
+      "path": "Validation/campaign-minimap200_asan",
+      "bytes": 2915488
+    },
+    {
+      "path": "Validation/campaign-runtime239_asan",
+      "bytes": 20571848
+    },
+    {
+      "path": "Validation/campaign-save-bundle229_asan",
+      "bytes": 7558768
+    },
+    {
+      "path": "Validation/campaign-sequence200_asan",
+      "bytes": 20543280
+    },
+    {
+      "path": "Validation/campaign-stage198_asan",
+      "bytes": 2885720
+    },
+    {
+      "path": "Validation/companion-archer212_asan",
+      "bytes": 9149624
+    },
+    {
+      "path": "Validation/companion-blacksmith217_asan",
+      "bytes": 8912312
+    },
+    {
+      "path": "Validation/companion-cast201_asan",
+      "bytes": 8843080
+    },
+    {
+      "path": "Validation/companion-elemental211_asan",
+      "bytes": 8901040
+    },
+    {
+      "path": "Validation/companion-gunner219_asan",
+      "bytes": 8914104
+    },
+    {
+      "path": "Validation/companion-mage204_asan",
+      "bytes": 8852032
+    },
+    {
+      "path": "Validation/companion-melee213_asan",
+      "bytes": 8864112
+    },
+    {
+      "path": "Validation/companion-monk220_asan",
+      "bytes": 8915264
+    },
+    {
+      "path": "Validation/companion-performer216_asan",
+      "bytes": 8913344
+    },
+    {
+      "path": "Validation/companion-persistence200_asan",
+      "bytes": 230496
+    },
+    {
+      "path": "Validation/companion-pip214_asan",
+      "bytes": 8909648
+    },
+    {
+      "path": "Validation/companion-potion215_asan",
+      "bytes": 8922144
+    },
+    {
+      "path": "Validation/companion-promotions227_asan",
+      "bytes": 6241000
+    },
+    {
+      "path": "Validation/companion-rogue218_asan",
+      "bytes": 8914216
+    },
+    {
+      "path": "Validation/companion-roster222_asan",
+      "bytes": 9138376
+    },
+    {
+      "path": "Validation/companion-runtime200_asan",
+      "bytes": 6142344
+    },
+    {
+      "path": "Validation/companion-soullinker210_asan",
+      "bytes": 8893632
+    },
+    {
+      "path": "Validation/companion-specialist209_asan",
+      "bytes": 7919112
+    },
+    {
+      "path": "Validation/companion-taekwon221_asan",
+      "bytes": 8921008
+    },
+    {
+      "path": "Validation/companion-wizard205_asan",
+      "bytes": 9158704
+    },
+    {
+      "path": "Validation/companion-world223_asan",
+      "bytes": 12415264
+    },
+    {
+      "path": "Validation/content195_asan",
+      "bytes": 584568
+    },
+    {
+      "path": "Validation/guild-interactions197_asan",
+      "bytes": 6720232
+    },
+    {
+      "path": "Validation/guild-room197_asan",
+      "bytes": 19095760
+    },
+    {
+      "path": "Validation/guild-ui-recovered197_asan",
+      "bytes": 6596016
+    },
+    {
+      "path": "Validation/guild-ui196_asan",
+      "bytes": 6596200
+    },
+    {
+      "path": "Validation/hud194_asan",
+      "bytes": 13296016
+    },
+    {
+      "path": "Validation/native-expanded-jobs233_asan",
+      "bytes": 15558480
+    },
+    {
+      "path": "Validation/native-ferry237_asan",
+      "bytes": 23575912
+    },
+    {
+      "path": "Validation/native-first-jobs231_asan",
+      "bytes": 15525904
+    },
+    {
+      "path": "Validation/native-supernovice235_asan",
+      "bytes": 15548848
+    },
+    {
+      "path": "Validation/puzzle196_asan",
+      "bytes": 88592
+    },
+    {
+      "path": "Validation/retained-guild196_asan",
+      "bytes": 5507400
+    },
+    {
+      "path": "Validation/scenes195_asan",
+      "bytes": 165824
+    },
+    {
+      "path": "Validation/story-alias199_asan",
+      "bytes": 19200512
+    },
+    {
+      "path": "Validation/test_guild_regional194_asan",
+      "bytes": 6009008
+    },
+    {
+      "path": "Validation/test_guild_ui194_asan",
+      "bytes": 6598640
+    },
+    {
+      "path": "Validation/test_native_lifecycle194_asan",
+      "bytes": 12191536
+    },
+    {
+      "path": "Validation/test_policy194_asan",
+      "bytes": 5744768
+    },
+    {
+      "path": "Validation/test_travel_preflight194_asan",
+      "bytes": 13808008
+    },
+    {
+      "path": "Validation/test_world_integration194_asan",
+      "bytes": 17843784
+    },
+    {
+      "path": "Validation/world197_asan",
+      "bytes": 19070424
+    }
+  ],
+  "totalBytes": 506910712
+}

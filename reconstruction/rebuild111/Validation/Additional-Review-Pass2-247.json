@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "phase": "additional review pass 2 of 2",
+  "completedUTC": "2026-11-16T14:49:17.641025+00:00",
+  "normalCompletedBeforeFinalReview": true,
+  "normalEvidence": "Normal-Complete-Checks244.json",
+  "sourceDigest": "0eb63954f3f34171dbb022f88063686953be547408a47b28e608de00b26cd85c",
+  "sourceUnchangedSinceCorrectedNormal": true,
+  "reviewedFiles": {
+    "main.c": "29cd671ca0fbcb60a1aaa024fb58b728b0061ea9c94a8d25c37d0ef581e09f81",
+    "campaign_actor_render200.h": "9dec3b5be55fb3420f7b34579630cb55f85ccc4f9a165f6c47660ff86e6fc68a",
+    "gpu_sprite_upload45.h": "88861c66b68f84ec9c75e167de01d17dadef0caff2ca1e49f5ad092944e5d537",
+    "gpu_stream51.h": "6b13802dcce7008bd975aef4c00f03c132305465c6a1530dc3e87e7091d06f9b",
+    "gpu_program51.h": "21cd38548a049bf1812f830cf366549d1c8ce15c7a1660c638e6bcd26b74818d",
+    "world_maps.h": "555849f4870a62a8793767aedcc59282ca79788bcc6201412fa9632845b3372c",
+    "map_loader.h": "926042925cafbf2ad36d348f7368ab005c006036c79d0bf73ee31ca9f8cfc395",
+    "scenery.h": "b9225dd39136b7bc0bb69e24db883ff73bac4214a818c08a10256ad1977bab12",
+    "campaign_scene200.h": "874dd54a881972983c3aa8caf90ee8acd329de8b045c30cf5adc20cff61e6036",
+    "campaign_portrait200.h": "d55351969d2c9795c657789dedaa2a8fc3e5630aeffb42e830c6c243fc773e73",
+    "campaign_portrait_draw200.h": "b47849d9ce63b6384694890f04176f82de65f18abdcf8e05ca3079171c74c4d6",
+    "guild_furnish_draw197.h": "e33e540a58e6cb2c26535b92e03deb852b24136e7f713098abde24615d7ee498",
+    "guild_cabinet_draw197.h": "73de11fde2df34aaf924796080c5bb666d707b8bfc89c881e01804b2f41b620c",
+    "guild_view197.h": "13a16066d1367ee319c2878d3f4da67a0a31ad64c5504be2b8fa8f38ec01e72c",
+    "arcade_recovered197.s": "1de2528a59baae7b64f01d045612ebeba8b1fa5610711bd9192612504d3ed840",
+    "Makefile": "6f86923abaaeab02c7d0b7bb4b2e08f4cc88b361e971e2647df0a388b53ef803"
+  },
+  "findings": [
+    {
+      "area": "Actual actor upload order",
+      "problem": "Review found campaign pose preparation after generic sprite upload; cold actors would hit fatal upload bounds checks.",
+      "resolution": "Move the single pose preparation call to the GPU frame fence before generic actor uploads; no actor/story/art changes. Repeat the entire normal candidate and all companion kits on corrected Source before counting final reviews.",
+      "evidence": [
+        "main-upload-order-before246.json",
+        "Campaign-Upload-Checks246.json",
+        "Full-Candidate-Checks240.json",
+        "Companion-Release-Checks224.json"
+      ]
+    },
+    {
+      "area": "Resource lifetime and bounds",
+      "result": "Pose preparation and replacement occur after the frame fence; world release waits for the GPU and clears actors, guild resources and previous map. Pose bank remains four visible slots, one scene at a time, one campaign portrait replacing native cutin, one current-view cabinet atlas. Original furniture mesh/floor rules and bounded arcade wrapper stack remain intact.",
+      "partialInventory": {
+        "actorRawBytes": 72116,
+        "actorGPUBytes": 262144,
+        "worldGPUBytes": 22897228,
+        "nativeImageBytes": 14950400,
+        "cabinetAtlasBytes": 131072
+      },
+      "evidence": [
+        "World-Residency-Checks234.json",
+        "Guild-Checks197.json",
+        "Native-Checks194.json",
+        "Campaign-Upload-Checks246.json"
+      ]
+    },
+    {
+      "area": "Native content/platform evidence",
+      "result": "Exact released data inputs and script bytes remain; two alias worlds have separate empty native NPC spans and reuse source geometry. Native compilation/known stack guards pass. Original Xbox and Xemu execution, full 64 MB residency and natural playthrough balance remain unclaimed.",
+      "evidence": [
+        "Release-Inputs194.json",
+        "Alias-NPC-Checks242.json",
+        "Native-Checks194.json"
+      ]
+    },
+    {
+      "area": "Delivery preconditions",
+      "result": "All twenty target inputs resolve, including original guildhall and new directional cabinet pack. Use established format-2 ZIP with exactly released 1.10.0 baseline and validate actual PowerShell reconstruction/rejection/rollback before delivery. Private source/executable remain developmental until package validation; this review does not count packaging validation.",
+      "targetFiles": [
+        "actors.bin",
+        "campaign.bin",
+        "chapter1.bin",
+        "default.xbe",
+        "effects.bin",
+        "enemies.bin",
+        "guildhall.bin",
+        "guildviews.bin",
+        "itemicons.bin",
+        "mercenary.bin",
+        "minimaps.bin",
+        "music.bin",
+        "npcfx.bin",
+        "npcs.bin",
+        "portraits.bin",
+        "scripts.bin",
+        "storyportraits.bin",
+        "systems.bin",
+        "water.bin",
+        "world.bin"
+      ],
+      "evidence": [
+        "../Preparation/Delivery-Plan244.md"
+      ]
+    }
+  ],
+  "additionalReviewPassesCompleted": 2,
+  "packagingValidated": false,
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "limitations": [
+    "Host GPU recording/source inspection/native compilation are not Xbox or Xemu playtests",
+    "Partial resource inventories exclude full runtime heap, framebuffer/audio costs and device high-water/timing",
+    "Actual final ZIP/updater validation must follow these reviews"
+  ]
+}

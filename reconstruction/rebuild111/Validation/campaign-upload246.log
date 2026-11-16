@@ -1,0 +1,1 @@
+PASS actual campaign pose/upload: 9352 real poses, cold upload-before-prepare failure reproduced, exact GPU-recorded pixels after preparation, cache hits and offscreen cleanup. Peak four-pose raw 72116 GPU 262144. Host only.

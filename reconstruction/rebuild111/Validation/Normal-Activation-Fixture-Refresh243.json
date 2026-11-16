@@ -1,0 +1,16 @@
+{
+  "priorNormalRunPassed": false,
+  "failedCommand": {
+    "command": "check_stage_integration198.py",
+    "passed": false
+  },
+  "cause": "Stage integration fixture retained intentional four-chapter checkpoint expectation after runtime activation; ordinary later binding now correctly active.",
+  "productionBehaviorChanged": false,
+  "changes": [
+    "Expect normal later-stage bind at cursor 12",
+    "Retain unavailable-art and completed-campaign inactivity guards",
+    "Update stale module report descriptions"
+  ],
+  "targetPlaytest": false,
+  "additionalReviewsStarted": false
+}

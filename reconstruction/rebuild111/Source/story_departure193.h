@@ -3,8 +3,9 @@
 #define MYRO_STORY_DEPARTURE193_H
 #include "campaign_state200.h"
 static int campaign_sandbox193(const NpcState55*s){
- /* Reconstructed key. Never infer conversion from an unlocked developer menu. */
- return s&&npc_state_number55(s,UINT64_C(0xeca1930073616e64),0)==1;
+ /* Preserve the released record flag and the earlier private recovery key.
+  * Reading either form never rewrites a native quest or character record. */
+ return campaign_sandbox_state228(s)||(s&&npc_state_number55(s,UINT64_C(0xeca1930073616e64),0)==1);
 }
 static int story_departure_maps193(unsigned from,unsigned destination){
  if(from>=MYRO_MAP_COUNT43||strncmp(mapNames[from],"new_",4))return 0;

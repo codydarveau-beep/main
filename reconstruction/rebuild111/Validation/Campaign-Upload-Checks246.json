@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "poses": 9352,
+  "peakResidentFourPoseRawBytes": 72116,
+  "peakFourPoseGPUBytes": 262144,
+  "mainPrepareBeforeUpload": true,
+  "prepareAfterGPUFence": true,
+  "coldFormerOrderFailureReproduced": true,
+  "actualProductionPoseReaderAndUploader": true,
+  "exactPixelsAndCacheReuse": true,
+  "offscreenCleanup": true,
+  "mainSHA256": "29cd671ca0fbcb60a1aaa024fb58b728b0061ea9c94a8d25c37d0ef581e09f81",
+  "fixtureSHA256": "d226fe37f4caa1879d85e0a2554086cd0a105b4f022d9f85955ac0fbc724c36e",
+  "scope": "Actual released pose data through production sprite_load and sprite_upload, host-backed GPU memory with exact pixel comparison, sanitizer/cache/cleanup checks; cold former order reproduces native fatal bounds guard in a child. Current main call ordering checked. Partial pose resource inventory, not complete runtime residency or hardware rasterization.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false
+}

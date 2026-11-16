@@ -1,8 +1,8 @@
 {
   "passed": true,
-  "cases": 1806,
+  "cases": 1890,
   "legacyCases": 1642,
-  "currentSettingsAndWindowCases": 164,
+  "currentSettingsAndWindowCases": 248,
   "peakRecordedQuads": 762,
   "capacity": 4096,
   "sanitizers": [

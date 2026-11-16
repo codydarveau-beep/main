@@ -5,7 +5,7 @@
 #define CHAPTER2_INVESTIGATION_GATE200 9u
 #define CAMPAIGN_PACKED_SCENES195 36u
 #define CAMPAIGN_TYPED_SCENES200 36u
-#define CAMPAIGN_RELEASE_SCENES193 12u /* Four-chapter checkpoint; 1.11 target is all 36 after integration. */
+#include "campaign_release238.h"
 #define CHAPTER1_FILE_BYTES200 23717u
 static const struct{unsigned offset,packed,raw,crc;}chapter1Index200[]={
 {0u,391u,776u,756288585u},

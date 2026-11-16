@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "nativeComparisons": 2400,
+  "damageCoverage": {
+    "142": 126,
+    "1": 353,
+    "13": 115
+  },
+  "scope": "Original complete Kest impact resolver across three careers with native target validity, own skill/cost/power/rank, actual native neutral element and defense reductions, cached multi-hit damage/one payment/RNG, exact poison resistance/duration/tick and rear-attack facing. Every pending/cache/repeat/timing field agrees. Native persistence, enemy flee and final HP application/line are explicit recording fixtures; real battle/durable failure tests are separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

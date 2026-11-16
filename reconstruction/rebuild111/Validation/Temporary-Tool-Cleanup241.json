@@ -1,0 +1,26 @@
+{
+  "reason": "User authorized cleanup of old files to make room for remaining normal checks and final patch validation.",
+  "removed": [
+    {
+      "path": "/workspace/work/recovery/decompiler203/ghidra_12.2_PUBLIC",
+      "bytes": 908573269
+    },
+    {
+      "path": "/workspace/work/recovery/decompiler203/jdk-25.0.5+8",
+      "bytes": 316636509
+    },
+    {
+      "path": "/workspace/work/recovery/developer-download217/.git",
+      "bytes": 57367879
+    }
+  ],
+  "preserved": [
+    "All recovered source and assets",
+    "All released input files and exact 1.10.0 baseline ISO",
+    "Both immutable developer savepoint archives and tags, including the received 217 download",
+    "All native decompilation outputs, native-flat reference, original XBE and CPU replay libraries",
+    "Active Xbox toolchain and private native build",
+    "Checkpoint repository and all validation source/reports"
+  ],
+  "note": "Removed task-installed decompiler/JDK distributions are reinstallable; no decompiler process is running. The temporary delivery Git database is redundant: its immutable archive remains locally and the independently verified direct GitHub download branch remains published."
+}

@@ -47,6 +47,8 @@ for cursor, region, reason, words in groups:
         families[word] = (cursor, region, reason)
 
 exceptions = {
+ 'gonryun': (18, 0, 'Authored cursor-18 optional archive visit; dungeons retain cursor 19'),
+ 'gon_fild01': (18, 0, 'Native ferry arrival/approach for the authored cursor-18 optional visit'),
  'moc_fild01': (0, 0, 'Retained starter-town connectivity'),
  'moc_fild02': (0, 0, 'Retained starter-town connectivity'),
  'moc_fild03': (0, 0, 'Retained starter-town connectivity'),
@@ -108,3 +110,7 @@ text += '#endif\n'
 (ROOT/'Source/campaign_access_data194.h').write_text(text)
 (ROOT/'Preparation/Map-Policy194.json').write_text(json.dumps({'status':'Reconstructed, not recovered original policy', 'maps':rows},indent=2)+'\n')
 print('Explicit policy:',len(rows),'maps;',sum(r['excluded'] for r in rows),'excluded; no unmatched/default-open maps')
+
+# Policy introduces the two scene aliases; native map access needs empty ranges too.
+from extend_alias_npc_registry242 import extend
+extend()

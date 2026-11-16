@@ -1,0 +1,527 @@
+
+NORMAL CANDIDATE: audit_release_inputs194.py
+{
+  "matches": 18,
+  "different": [
+    "default.xbe"
+  ],
+  "sourceEvidence": {
+    "openingReady": 1,
+    "typedScenes": 36,
+    "runtimeSceneCeiling": 36,
+    "campaignStages": 36,
+    "placeholderDirections": 0,
+    "rosterEntries": 19,
+    "rosterSceneActorsPrepared": 19,
+    "worldMapCount": 497,
+    "policyMapCount": 497,
+    "privateLaterMapsLoadable": true
+  }
+}
+
+NORMAL CANDIDATE: run_checks194.py
+{"name": "travel_preflight", "passed": true, "phase": "host execution", "log": "travel_preflight194.log", "sourceSHA256": "62102ce1f9f2aca5f059e190a9f4c9197ab4115e9989a9653cf477e8f9263aa2"}
+{"name": "policy", "passed": true, "phase": "host execution", "log": "policy194.log", "sourceSHA256": "237e1b7a9147762bd25989d419ddd7cdcf145879f5c2a27fd5e085eb81a049c6"}
+{"name": "native_lifecycle", "passed": true, "phase": "host execution", "log": "native_lifecycle194.log", "sourceSHA256": "2f843f57b05737b10653e03ba34283f12e57fad3498d88be96926bd80366fc10"}
+{"name": "guild_regional", "passed": true, "phase": "host execution", "log": "guild_regional194.log", "sourceSHA256": "f90857a5b45d71628d027496ea84e7e98480ceb7f6aa6c5c9a9ef0d7528ff53a"}
+{"name": "guild_ui", "passed": true, "phase": "host execution", "log": "guild_ui194.log", "sourceSHA256": "017d104a136a27a28542bd1d0d8019f3c18f40ac0028e933317672225f8b7c02"}
+{"name": "world_integration", "passed": true, "phase": "host execution", "log": "world_integration194.log", "sourceSHA256": "d8378b2484d5a5796ff8a4577aef0e398e458197963f4409d74181154a6776d2"}
+
+NORMAL CANDIDATE: check_content195.py
+PASS released actor poses, all roster art mappings, effect frames, NPC portraits, speaker expressions and failed-read/corruption guards through production readers. HOST ONLY.
+{"passed": true, "actorSources": 45, "actorPoses": 9352, "npcEffectFrames": 4505, "npcEffectClips": 168, "npcPortraits": 262, "storyExpressions": 90, "rosterMappings": 19, "sourceSpriteReaderSHA256": "1a2f97a5069ee621caa79af7aa5c0f06c0794d93c2c690a5ef161e713ab7326a", "scope": "Actual production readers, complete restored catalogs, CRC/bounds and failed-read/corruption checks under ASan/UBSan/leak checks. No native/Xbox/Xemu execution. Four visible sprite slots retained.", "storyActivation": false}
+
+NORMAL CANDIDATE: check_scenes195.py
+PASS released scene wire, 458 node cue/checkpoint reads across three roles, corruption rejection and complete configured runtime scene scope. No world/playthrough claim.
+
+NORMAL CANDIDATE: check_hud194.py
+HOST HUD cases 0 / 1890
+HOST HUD cases 250 / 1890
+HOST HUD cases 500 / 1890
+HOST HUD cases 750 / 1890
+HOST HUD cases 1000 / 1890
+HOST HUD cases 1250 / 1890
+HOST HUD cases 1500 / 1890
+HOST HUD cases 1750 / 1890
+{"passed": true, "cases": 1890, "legacyCases": 1642, "currentSettingsAndWindowCases": 248, "peakRecordedQuads": 762, "capacity": 4096, "sanitizers": ["address", "undefined", "leaks"], "actualSDKAssertingMathStub": true, "scope": "Actual UI draw recorder and host platform adapters; not GPU rendering, Xbox/Xemu playtest or hardware RAM proof"}
+
+NORMAL CANDIDATE: check_campaign_minimap200.py
+PASS restored retained story minimap markers; host only.
+
+NORMAL CANDIDATE: check_alias_npc242.py
+PASS empty-alias native NPC transition/selection safety; host only.
+
+NORMAL CANDIDATE: check_guild197.py
+PASS restored original guild layouts/floors/models, directional cabinets, actual controls and packed-world integration. Host only.
+
+NORMAL CANDIDATE: check_arcade_lift197.py
+Exact six-game native restoration: game 0 passed
+Exact six-game native restoration: game 1 passed
+Exact six-game native restoration: game 2 passed
+Exact six-game native restoration: game 3 passed
+Exact six-game native restoration: game 4 passed
+Exact six-game native restoration: game 5 passed
+{"passed": true, "games": 6, "resetSeeds": 7, "events": 30240, "stateBytes": 1804, "completeByteForByteStateMatch": true, "redzonesIntact": true, "assemblySHA256": "1de2528a59baae7b64f01d045612ebeba8b1fa5610711bd9192612504d3ed840", "scope": "Host CPU differential replay of original and relocated native logic; no Xbox/Xemu execution or display/controller acceptance", "additionalReviewPassesCompleted": 0}
+
+NORMAL CANDIDATE: check_stage_rules198.py
+Stage rule records compared 1 / 42
+Stage rule records compared 2 / 42
+Stage rule records compared 3 / 42
+Stage rule records compared 4 / 42
+Stage rule records compared 5 / 42
+Stage rule records compared 6 / 42
+Stage rule records compared 7 / 42
+Stage rule records compared 8 / 42
+Stage rule records compared 9 / 42
+Stage rule records compared 10 / 42
+Stage rule records compared 11 / 42
+Stage rule records compared 12 / 42
+Stage rule records compared 13 / 42
+Stage rule records compared 14 / 42
+Stage rule records compared 15 / 42
+Stage rule records compared 16 / 42
+Stage rule records compared 17 / 42
+Stage rule records compared 18 / 42
+Stage rule records compared 19 / 42
+Stage rule records compared 20 / 42
+Stage rule records compared 21 / 42
+Stage rule records compared 22 / 42
+Stage rule records compared 23 / 42
+Stage rule records compared 24 / 42
+Stage rule records compared 25 / 42
+Stage rule records compared 26 / 42
+Stage rule records compared 27 / 42
+Stage rule records compared 28 / 42
+Stage rule records compared 29 / 42
+Stage rule records compared 30 / 42
+Stage rule records compared 31 / 42
+Stage rule records compared 32 / 42
+Stage rule records compared 33 / 42
+Stage rule records compared 34 / 42
+Stage rule records compared 35 / 42
+Stage rule records compared 36 / 42
+Stage rule records compared 37 / 42
+Stage rule records compared 38 / 42
+Stage rule records compared 39 / 42
+Stage rule records compared 40 / 42
+Stage rule records compared 41 / 42
+Stage rule records compared 42 / 42
+PASS authored stage proof rules and independent original feedback/state/nearest decisions; host only.
+
+NORMAL CANDIDATE: check_encounter_reference198.py
+Compared encounter row 4
+Compared encounter row 7
+Compared encounter row 12
+Compared encounter row 16
+Compared encounter row 17
+Compared encounter row 31
+Compared encounter row 32
+Compared encounter row 33
+Compared encounter row 36
+Compared encounter row 39
+PASS authored encounter eligibility, monster IDs, tags and exact positions against independent original CPU replay.
+
+NORMAL CANDIDATE: check_stage_integration198.py
+PASS authored stage interaction rules, physical adapters and failed-write preservation. Complete runtime binding and art/completion guards checked; host only.
+
+NORMAL CANDIDATE: check_encounter_integration198.py
+PASS original encounter plans and actual NPC/combat lifecycle, failed-save retry, pause/range/capacity and cleanup. Host only; current complete-runtime configuration.
+
+NORMAL CANDIDATE: check_companion_runtime200.py
+PASS actual companion own growth, reserve vitals, save atomicity, story/job promotion gates and once-only campaign rewards. Full career AI and promoted art have separate checks; host only.
+
+NORMAL CANDIDATE: check_companion_roster222.py
+PASS mixed full-roster backend candidate integration; host only.
+
+NORMAL CANDIDATE: check_companion_world223.py
+PASS actual full-roster world/menu candidate integration; host only.
+
+NORMAL CANDIDATE: check_companion_promotions227.py
+PASS complete career promotion world transactions; host only.
+
+NORMAL CANDIDATE: check_scene_emote225.py
+PASS original scene-emote queue and speaker context against production; host only.
+
+NORMAL CANDIDATE: check_campaign_upload246.py
+PASS actual complete campaign pose upload, exact recorded pixels and corrected native call order; host only.
+
+NORMAL CANDIDATE: check_campaign_sequence200.py
+PASS candidate scene integration with production modules; actual complete runtime scope, host only.
+
+NORMAL CANDIDATE: check_campaign_companions226.py
+PASS complete candidate chapter/companion reward bridge; host only.
+
+NORMAL CANDIDATE: check_campaign_combat232.py
+PASS complete candidate chapter/companion reward bridge; host only.
+
+NORMAL CANDIDATE: check_native_first_jobs231.py
+PASS native first-job quest finalization and campaign proof; host only.
+
+NORMAL CANDIDATE: check_native_expanded_jobs233.py
+PASS native first-job quest finalization and campaign proof; host only.
+
+NORMAL CANDIDATE: check_native_supernovice235.py
+PASS native first-job quest finalization and campaign proof; host only.
+
+NORMAL CANDIDATE: check_campaign_save228.py
+PASS original campaign save reader, native job guard and legacy sandbox preservation; host CPU only.
+
+NORMAL CANDIDATE: check_campaign_save_bundle229.py
+PASS complete persistent game-state bundle and alternating-save failures; host only.
+
+NORMAL CANDIDATE: check_world_residency234.py
+PASS all-map streaming and tracked world allocations; full Xbox64 residency remains separate.
+
+NORMAL CANDIDATE: check_campaign_reach236.py
+PASS necessary authored-stage connectivity under current chronology; native quest/fee/controller journeys remain separately tested.
+
+NORMAL CANDIDATE: check_native_ferry237.py
+PASS native first-job quest finalization and campaign proof; host only.
+
+NORMAL CANDIDATE: check_campaign_runtime239.py
+PASS complete candidate chapter/companion reward bridge; host only.
+
+NORMAL CANDIDATE: check_native194.py
+{
+  "nativeCompiled": true,
+  "title": "MyRO v1.11.0 RECOVERY",
+  "xbeBytes": 12333056,
+  "xbeSHA256": "4e4132e256b2808e5eba476b952540e2f96068237420b6bd9c4b72d8f80ac142",
+  "stackReserve": 163840,
+  "knownChains": [
+    {
+      "frames": {
+        "main": 55164,
+        "save_commit": 48,
+        "save_scan": 4,
+        "save_decode": 36,
+        "save_valid": 92
+      },
+      "bytes": 55344,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "mp3dec_decode_frame": 17008
+      },
+      "bytes": 72172,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "npc_player_command55": 2148,
+        "npc_runtime_call55": 4508,
+        "world_script_warp55": 47836
+      },
+      "bytes": 109656,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "guild_world_visit194": 84,
+        "world_script_warp55": 47836
+      },
+      "bytes": 103084,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "regional_world_visit194": 100,
+        "world_script_warp55": 47836
+      },
+      "bytes": 103100,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "world_test_warp": 47788
+      },
+      "bytes": 102952,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "frontend_run56": 2956,
+        "frontend_fade56": 16412
+      },
+      "bytes": 74532,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "campaign_encounter_tick198": 252,
+        "npc_monster_attach55": 32,
+        "npc_monster_place55": 140
+      },
+      "bytes": 55588,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "campaign_encounter_flush198": 56,
+        "campaign_store200": 212,
+        "npc_state_set55": 48
+      },
+      "bytes": 55708,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_gain_award200": 804,
+        "party_progress_load200": 696
+      },
+      "bytes": 56664,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57904,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "campaign_party_bind200": 1032,
+        "party_seed_recruits200": 692,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58824,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_vital_store200": 684,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57784,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_resolve200": 104,
+        "party_save_vital200": 12,
+        "party_vital_store200": 684,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57900,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "combat_fields_tick": 192,
+        "party_wizard_hit194": 44,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58416,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_resolve200": 104,
+        "party_basic_step208": 80,
+        "party_hit200": 44,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58408,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_resolve200": 104,
+        "party_specialist_step209": 100,
+        "party_hit200": 44,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58428,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_resolve200": 104,
+        "party_specialist_step209": 100,
+        "party_specialist_after209": 44,
+        "combat_knockback": 60
+      },
+      "bytes": 55472,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_resolve200": 104,
+        "party_archer_step212": 80,
+        "party_hit200": 44,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58408,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_resolve200": 104,
+        "party_envenom_step213": 64,
+        "party_hit200": 44,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58392,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "npc_fx_one172": 200
+      },
+      "bytes": 55364,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_progress_load200": 696
+      },
+      "bytes": 55860,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57100,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_resolve200": 104,
+        "party_performer_step216": 76,
+        "party_save_vital200": 12,
+        "party_vital_store200": 684,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57976,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_resolve200": 104,
+        "party_blacksmith_step217": 92,
+        "party_save_vital200": 12,
+        "party_vital_store200": 684,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57992,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_resolve200": 104,
+        "party_cached_physical219": 188,
+        "party_save_vital200": 12,
+        "party_vital_store200": 684,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58088,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_resolve200": 104,
+        "party_cached_physical219": 188,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58472,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_resolve200": 104,
+        "party_cached_physical219": 188,
+        "party_kick_ready221": 24
+      },
+      "bytes": 55480,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "party_resolve200": 104,
+        "party_cached_physical219": 188,
+        "class_stun50": 28
+      },
+      "bytes": 55484,
+      "margin": 32768
+    },
+    {
+      "frames": {
+        "main": 55164,
+        "assemblyWrapper": 6176,
+        "nestedHelpers": 512
+      },
+      "bytes": 61852,
+      "margin": 32768,
+      "assemblyExplicit": true
+    }
+  ],
+  "unsupportedLroundReference": false,
+  "boundedRoundingPassed": true,
+  "legacySDKHarness": "Repaired; current SDK/HUD sanitizer results are recorded in SDK-Checks194.json and HUD-Checks194.json",
+  "warnings": [
+    "Ignored trigraph in inherited NPC text",
+    "Linker .edata merge warning"
+  ],
+  "scope": "Private native compile/link and conservative known stack nesting plus 32KiB margin; not exhaustive stack analysis, hardware RAM measurement or Xbox/Xemu playtest",
+  "additionalReviewPassesCompleted": 0,
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false
+}

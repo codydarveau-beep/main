@@ -1,0 +1,9 @@
+HOST HUD cases 0 / 1890
+HOST HUD cases 250 / 1890
+HOST HUD cases 500 / 1890
+HOST HUD cases 750 / 1890
+HOST HUD cases 1000 / 1890
+HOST HUD cases 1250 / 1890
+HOST HUD cases 1500 / 1890
+HOST HUD cases 1750 / 1890
+{"passed": true, "cases": 1890, "legacyCases": 1642, "currentSettingsAndWindowCases": 248, "peakRecordedQuads": 762, "capacity": 4096, "sanitizers": ["address", "undefined", "leaks"], "actualSDKAssertingMathStub": true, "scope": "Actual UI draw recorder and host platform adapters; not GPU rendering, Xbox/Xemu playtest or hardware RAM proof"}

@@ -1,0 +1,26 @@
+# Current handoff — packaging paused at designer request
+
+The designer requested an immediate GitHub commit and removal of old reproducible files after unstable chat behavior. Do not resume packaging in this turn.
+
+## Completed
+
+- Complete twelve-chapter/36-scene runtime enabled; all nineteen original companion kits, independent growth/promotions/settings/vitals, guild construction, six original arcade engines, eight-direction cabinets, nine dispatches, native quests/costs/rewards and campaign-aware access preserved.
+- Corrected normal release-wide checks passed on the current unchanged Source: `Normal-Complete-Checks244.json`, `Full-Candidate-Checks240.json`, `Companion-Release-Checks224.json`.
+- Both additional reviews completed AFTER corrected normal checks: `Additional-Review-Pass1-245.json`, `Additional-Review-Pass2-247.json`.
+- A genuine upload-order bug found during review was fixed BEFORE repeating all normal checks and confirming both final reviews. Campaign poses are now prepared after the GPU fence and before generic actor upload. All 9,352 real poses pass the actual production uploader/pixel/cache/cleanup probe (`Campaign-Upload-Checks246.json`).
+- Actual character/session reset probe passes; no cross-character transient actor/effect/access/companion state survives rebinding.
+- Obsolete test-character preservation/migration is deliberately not required. Keep current-format durability and interrupted-write recovery.
+
+## Remaining
+
+No final ISO or ZIP has been built. Package and validate the established format-2 ZIP accepting ONLY exact released 1.10.0. Native executable remains the private RECOVERY build. Do not claim Xbox/Xemu playtesting or complete 64 MB residency; those remain unverified on target.
+
+Existing PowerShell `/workspace/myro/pwsh/bin/pwsh` 7.4.6 works. Extract-xiso follows symbolic links via stat, so stage large original data packs with symlinks; hardlinking lower-layer assets can consume overlay space. Keep only one newly generated full ISO at a time. Original baseline ISO is in the recovery root and MUST be preserved. Delivery-Plan244.md and the released 1.10.0 ZIP/updater provide the delivery reference.
+
+Potential final packaging presentation task: private pause label is `MyRO 1.11.0 DEV` and certificate title is `MyRO v1.11.0 RECOVERY`. Preserve the checked private Source/artifact. If producing a release-labelled artifact, use a separate staging/build directory, record only the label/title changes, and validate its native stack/artifact metadata. No such release transformation has been performed.
+
+## Preserved
+
+Active source: `/workspace/work/recovery/rebuild111`. Git source checkpoint: `/workspace/work/recovery/checkpoint`, branch `recovery/ragnarok-1.11.0-inventory`. Original `/workspace/myro`, all released data/source archives and immutable developer archives remain untouched. The designer received the direct developer backup217 download; do not delete/replace that published branch/archive.
+
+Storage cleanup removed an abandoned incomplete/unindexed Git transfer (~802 MiB), a redundant reinstallable PowerShell download, and ~493 MiB of reproducible host executables after final checks. Detailed manifests are Disk-Cleanup243.json and Post-Review-Cleanup248.json. Further cleanup for this request is recorded in Commit-Cleanup249.json. Do not remove recovered inputs, current Xbox binaries, reports, registered Git objects or developer archives to save space.

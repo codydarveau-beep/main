@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "existingSpansPreserved": 495,
+  "existingSpanSHA256": "6cedd3ed8ced73090ee1f0e1acca246844ea8587a8632b8b62fdaa3b185f112e",
+  "preexistingRelocationSpanDifferences": 191,
+  "aliasSpans": [
+    {
+      "map": 495,
+      "start": 7563,
+      "count": 0
+    },
+    {
+      "map": 496,
+      "start": 7563,
+      "count": 0
+    }
+  ],
+  "scope": "Append two empty spans only. No records/programs/spawn scripts are copied from source environment maps; existing career-safe relocation registry prefix stays exact.",
+  "sourceSHA256": "6e9b5a0fee1644d667f7f0daf90f41fd7ffa8b8067ddd1c2a75e5b858d927ba2"
+}

@@ -159,6 +159,8 @@ static int facing(float fx,float fy,float co,float si){float sx=co*fx+si*fy,sy=s
 #include "npc_dialogue_draw55.h"
 #include "mercenary_draw180.h"
 #include "campaign_actor_render200.h"
+#include "campaign_emote_world225.h"
+#include "campaign_emote_draw225.h"
 #include "companion_render50.h"
 #include "campaign_world200.h"
 #include "campaign_minimap200.h"
@@ -397,6 +399,7 @@ if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56
   if(game.fxSkill==131&&game.attackAt<=game.lastCast){unsigned frames=sprites[0].meta[(16+facing(game.faceX,game.faceY,co,si))*3+1];float remaining=game.lastCast+.45f+7*frames*.030f-game.time;if(remaining>game.moveLock45)game.moveLock45=remaining;}
   game.attackPaused52=aiming||shopOpen||jobOpen||game.utilityMenu;session_world_tick43(&game,dt,paused||scene_ui_modal200(),ownsInput,co*dx+si*dy,si*dx-co*dy);
   rescue_tick200(&campaignRescue200,dt,paused||scene_ui_modal200());campaign_encounter_tick198(&game,&npcGame55.monsters,questPins65,paused||scene_ui_modal200());campaign_party_bind200(&game);campaign_battle_tick200(&game,dt,paused||scene_ui_modal200());campaign_follow_tick200(&campaignParty200,&game,dt,paused||scene_ui_modal200());if(!paused&&!scene_ui_modal200())campaign_progress_reward200(&game);
+  if(!paused)campaign_emote_tick225(&game,dt,scene_ui_tick200(),questPins65,&campaignUI200.scene);
   renderer_species_sync52(&game);
   if(!paused&&!ownsInput){if(aiming)ground_cursor_follow(&aimX,&aimY,oldX,oldY,game.x,game.y,skill_ground_range(&game,aimedSkill),gw,gh);walkDistance+=combat_dist(oldX,oldY,game.x,game.y);walkSeconds+=frameSeconds;if(walkSeconds>=.5f){walkMeasured=walkDistance/walkSeconds;walkDistance=walkSeconds=0;}}else{walkMeasured=walkDistance=walkSeconds=0;}
   ranged_test_tick(&rangedTest,&game,dt,!paused&&!scene_ui_modal200());
@@ -467,7 +470,7 @@ if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56
   if(saves.operationResult58>0)saveError=0;else if(saves.operationResult58<0)saveError=1;
   sound_drain(&game);
   frame_span50b(&frameProfile50b,FRAME_PREPARE50B,frame_clock50b(),&frameAt50b);
-  pb_wait_for_vbl();pb_target_back_buffer();pb_reset();while(pb_busy()){}unsigned char usedGpu183[SPRITE_SLOT_COUNT]={1};for(int i=0;i<actorCount;i++)usedGpu183[actors[i].slot]=1;gpu_entity_frame183(now,usedGpu183);effect_cache_frame183(now);art_cache_frame183(now);enemy_cache_frame183(now);death_sound_frame183(now);heap_frame183(now);campaign_portrait_prepare200(&npcGame55);water_prepare_view190(matrix,activeMap);gpu_program_frame51();
+  pb_wait_for_vbl();pb_target_back_buffer();pb_reset();while(pb_busy()){}unsigned char usedGpu183[SPRITE_SLOT_COUNT]={1};for(int i=0;i<actorCount;i++)usedGpu183[actors[i].slot]=1;gpu_entity_frame183(now,usedGpu183);effect_cache_frame183(now);art_cache_frame183(now);enemy_cache_frame183(now);death_sound_frame183(now);heap_frame183(now);campaign_portrait_prepare200(&npcGame55);water_prepare_view190(matrix,activeMap);gpu_program_frame51();campaign_actor_prepare200();
   if(titleFadeOut56>=180){npc_portrait_release171();npc_game_clear55(&npcGame55);npc_variables_clear55(&npcVariables55);npc_state_clear55(&npcQuests55);npcSaveBridge55.canSave=NULL;npcSaveBridge55.saveContext=NULL;npcSaveBridge55.hasClean=0;bank_cache_clear56();world_release();activeMap=~0u;game.autoAttack=0;goto frontRestart56;}
   frame_span50b(&frameProfile50b,FRAME_WAIT50B,frame_clock50b(),&frameAt50b);
   /* Match the black backside tiles: unpainted map space must not reveal guide markings. */
@@ -477,7 +480,7 @@ if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56
   unsigned visualEntities180[SPRITE_SLOT_COUNT]={0},visualLives180[SPRITE_SLOT_COUNT]={0};visualEntities180[0]=1;
   for(int vi=0;vi<visibleCount;vi++){unsigned slot=visibleSlots45[vi],mob=visible[vi];visualEntities180[slot]=NPC_MOB_ENTITY172+mob+1;visualLives180[slot]=game.mobs[mob].life;}
   for(int i=0;i<actorCount;i++){DrawActor*a=&actors[i];if(a->kind>=SCRIPT_NPC_KIND55&&a->kind<SCRIPT_NPC_KIND55+SCRIPT_NPC_SLOTS55)visualEntities180[a->slot]=NPC_ENTITY_BASE55+scriptNpcRecords55[a->kind-SCRIPT_NPC_KIND55]+1;unsigned flash=npc_proc_flash180(&npcGame55,visualEntities180[a->slot],visualLives180[a->slot]);if(flash)spriteFlash49[a->slot]=flash;sprite_upload(actor_shape50(a->kind),a->frame,a->slot);}
-  campaign_actor_prepare200();guild_furnish_prepare197(&game);guild_cabinet_prepare197(&game,yaw);head_upload54();stylist_prepare191(stylingPreview191);guardian_prepare51();npcHaloQuads180=0;
+  guild_furnish_prepare197(&game);guild_cabinet_prepare197(&game,yaw);head_upload54();stylist_prepare191(stylingPreview191);guardian_prepare51();npcHaloQuads180=0;
   quicken_record45(&game,&quickenPlayer45,cartDir);
   frame_draw_span51(&frameProfile50b,DRAW_UPLOAD51,frame_clock50b(),&drawAt51);
   gpu_ground(matrix,(int)(x/16),(int)(y/16),1);
@@ -499,7 +502,7 @@ if(action==PA_AUTOLOOT58){autoLootOff58=!autoLootOff58;if(diskReady)prefs_save56
   if(storyCartReady)art39_one(10,0,storyCartPose.sx,storyCartPose.sy,storyCartPose.depth,zoom/3,1,0,storyCartPose.dir);
   if(cartReady)art39_one(10+cartPose.style,cartPose.elapsed,cartPose.sx,cartPose.sy,cartPose.depth,zoom/3,1,game.moving?1:0,cartPose.dir);
   frame_draw_span51(&frameProfile50b,DRAW_ACTORS51,frame_clock50b(),&drawAt51);
-  art39_draw(&artState,&game,matrix,zoom);campaign_party_fx_draw200(&game,matrix,zoom);npc_fx_draw172(&npcGame55,matrix,zoom);campaign_native_fx_draw212(&game,matrix,zoom);safety_draw50(&game,matrix,1);trans_burst_draw52(&game,&artState,matrix);enemy_projectiles45(&game,matrix,zoom);mercenary_arrow180(&game,matrix,zoom);
+  art39_draw(&artState,&game,matrix,zoom);campaign_party_fx_draw200(&game,matrix,zoom);npc_fx_draw172(&npcGame55,matrix,zoom);campaign_native_fx_draw212(&game,matrix,zoom);campaign_emote_draw225(&game,matrix,zoom);safety_draw50(&game,matrix,1);trans_burst_draw52(&game,&artState,matrix);enemy_projectiles45(&game,matrix,zoom);mercenary_arrow180(&game,matrix,zoom);
 
   frame_draw_span51(&frameProfile50b,DRAW_EFFECTS51,frame_clock50b(),&drawAt51);
   if(overlay)for(int gy=(int)y/8-20;gy<=(int)y/8+20;gy++)for(int gx=(int)x/8-20;gx<=(int)x/8+20;gx++)if(gx>=0&&gy>=0&&gx<(int)gw&&gy<(int)gh&&!walk[gy*gw+gx]){

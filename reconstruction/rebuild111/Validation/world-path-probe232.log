@@ -1,0 +1,11 @@
+Map 313 grid 300x300. Player point allowed 1 height -82.04; enemy allowed 1 height -154.21
+Offset -1 -1: center 284 2140 allowed 1 move 1; exact shift allowed 1 move 1
+Offset 0 -1: center 292 2140 allowed 1 move 1; exact shift allowed 1 move 1
+Offset 1 -1: center 300 2140 allowed 1 move 1; exact shift allowed 1 move 1
+Offset -1 0: center 284 2148 allowed 1 move 1; exact shift allowed 1 move 1
+Offset 1 0: center 300 2148 allowed 1 move 1; exact shift allowed 1 move 1
+Offset -1 1: center 284 2156 allowed 1 move 1; exact shift allowed 1 move 1
+Offset 0 1: center 292 2156 allowed 1 move 1; exact shift allowed 1 move 1
+Offset 1 1: center 300 2156 allowed 1 move 1; exact shift allowed 1 move 1
+BFS visited 2147 of 90000 goal 80437 player allowed 1
+BFS axes 0.95 0.32

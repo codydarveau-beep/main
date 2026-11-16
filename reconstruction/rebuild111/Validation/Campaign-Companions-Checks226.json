@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "scenes": 36,
+  "roles": 3,
+  "replyVariants": 2,
+  "scope": "Actual scene traversal with production per-frame party binding, modal locks, all recruited companions and own independent EXP from real AI combat/damage/reward callback, chapter rewards and idempotency. Between-scene ordinary native-spec enemy arenas explicitly synthesized. Native first-job completion and scene-specific enemy-death proofs remain base-suite fixtures. GPU/raster/allocations host-recorded. Promotion boundary checks remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

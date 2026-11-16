@@ -1,0 +1,228 @@
+{
+  "phase": "post-normal and post-review storage cleanup",
+  "removed": [
+    {
+      "path": "Validation/campaign-runtime239_asan",
+      "bytes": 20571864
+    },
+    {
+      "path": "Validation/test_world_integration194_asan",
+      "bytes": 17843800
+    },
+    {
+      "path": "Validation/guild-room197_asan",
+      "bytes": 19098624
+    },
+    {
+      "path": "Validation/companion-soullinker210_asan",
+      "bytes": 8894408
+    },
+    {
+      "path": "Validation/companion-taekwon221_asan",
+      "bytes": 8921792
+    },
+    {
+      "path": "Validation/test_policy194",
+      "bytes": 3147104
+    },
+    {
+      "path": "Validation/test_native_lifecycle194",
+      "bytes": 5916064
+    },
+    {
+      "path": "Validation/campaign-save-bundle229_asan",
+      "bytes": 7558768
+    },
+    {
+      "path": "Validation/companion-cast201_asan",
+      "bytes": 8843856
+    },
+    {
+      "path": "Validation/companion-specialist209_asan",
+      "bytes": 7919888
+    },
+    {
+      "path": "Validation/companion-monk220_asan",
+      "bytes": 8916040
+    },
+    {
+      "path": "Validation/companion-runtime200_asan",
+      "bytes": 6142344
+    },
+    {
+      "path": "Validation/companion-pip214_asan",
+      "bytes": 8910424
+    },
+    {
+      "path": "Validation/native-expanded-jobs233_asan",
+      "bytes": 15558488
+    },
+    {
+      "path": "Validation/campaign-sequence200_asan",
+      "bytes": 20543296
+    },
+    {
+      "path": "Validation/companion-world223_asan",
+      "bytes": 12415264
+    },
+    {
+      "path": "Validation/native-first-jobs231_asan",
+      "bytes": 15525912
+    },
+    {
+      "path": "Validation/native-ferry237_asan",
+      "bytes": 23580008
+    },
+    {
+      "path": "Validation/test_guild_ui194_asan",
+      "bytes": 6598640
+    },
+    {
+      "path": "Validation/world-path-probe232",
+      "bytes": 4178056
+    },
+    {
+      "path": "Validation/guild-interactions197_asan",
+      "bytes": 6720352
+    },
+    {
+      "path": "Validation/test_guild_ui194",
+      "bytes": 3320848
+    },
+    {
+      "path": "Validation/companion-wizard205_asan",
+      "bytes": 9159480
+    },
+    {
+      "path": "Validation/scenes195_asan",
+      "bytes": 166576
+    },
+    {
+      "path": "Validation/companion-rogue218_asan",
+      "bytes": 8914992
+    },
+    {
+      "path": "Validation/hud194_asan",
+      "bytes": 13620472
+    },
+    {
+      "path": "Validation/native-supernovice235_asan",
+      "bytes": 15548864
+    },
+    {
+      "path": "Validation/campaign-companions226_asan",
+      "bytes": 22271848
+    },
+    {
+      "path": "Validation/companion-elemental211_asan",
+      "bytes": 8901824
+    },
+    {
+      "path": "Validation/arcade_recovered197.elf",
+      "bytes": 18072
+    },
+    {
+      "path": "Validation/test_native_lifecycle194_asan",
+      "bytes": 12191536
+    },
+    {
+      "path": "Validation/companion-archer212_asan",
+      "bytes": 9150400
+    },
+    {
+      "path": "Validation/companion-potion215_asan",
+      "bytes": 8922928
+    },
+    {
+      "path": "Validation/companion-gunner219_asan",
+      "bytes": 8914880
+    },
+    {
+      "path": "Validation/world197_asan",
+      "bytes": 19077424
+    },
+    {
+      "path": "Validation/alias-npc242_asan",
+      "bytes": 15678640
+    },
+    {
+      "path": "Validation/companion-promotions227_asan",
+      "bytes": 6241000
+    },
+    {
+      "path": "Validation/test_travel_preflight194",
+      "bytes": 4393520
+    },
+    {
+      "path": "Validation/test_travel_preflight194_asan",
+      "bytes": 13808024
+    },
+    {
+      "path": "Validation/test_world_integration194",
+      "bytes": 4292760
+    },
+    {
+      "path": "Validation/companion-performer216_asan",
+      "bytes": 8914128
+    },
+    {
+      "path": "Validation/test_policy194_asan",
+      "bytes": 5744768
+    },
+    {
+      "path": "Validation/companion-mage204_asan",
+      "bytes": 8852808
+    },
+    {
+      "path": "Validation/content195_asan",
+      "bytes": 584568
+    },
+    {
+      "path": "Validation/companion-persistence200_asan",
+      "bytes": 230496
+    },
+    {
+      "path": "Validation/world-residency234",
+      "bytes": 3747192
+    },
+    {
+      "path": "Validation/campaign-minimap200_asan",
+      "bytes": 2920712
+    },
+    {
+      "path": "Validation/test_guild_regional194_asan",
+      "bytes": 6009008
+    },
+    {
+      "path": "Validation/companion-roster222_asan",
+      "bytes": 9139160
+    },
+    {
+      "path": "Validation/campaign-encounter198_asan",
+      "bytes": 1862760
+    },
+    {
+      "path": "Validation/companion-melee213_asan",
+      "bytes": 8868984
+    },
+    {
+      "path": "Validation/campaign-stage198_asan",
+      "bytes": 2887056
+    },
+    {
+      "path": "Validation/campaign-combat232_asan",
+      "bytes": 22909272
+    },
+    {
+      "path": "Validation/companion-blacksmith217_asan",
+      "bytes": 8913096
+    },
+    {
+      "path": "Validation/test_guild_regional194",
+      "bytes": 3003480
+    }
+  ],
+  "freedBytes": 516986568,
+  "freeBytesAfter": 2838802432,
+  "scope": "Reproducible executable ELF host test outputs in Validation only. All source, input data, shared native-reference adapters, logs/reports, private Xbox executable, original baseline and developer archives preserved. Two focused review executables retained for final confirmation."
+}

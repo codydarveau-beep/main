@@ -1,0 +1,11 @@
+PASS run_checks194.py
+PASS check_companion_runtime200.py
+PASS check_companion_world223.py
+PASS check_companion_promotions227.py
+PASS check_scene_emote225.py
+PASS check_campaign_sequence200.py
+PASS check_campaign_companions226.py
+PASS check_campaign_save228.py
+PASS check_campaign_save_bundle229.py
+PASS check_native194.py
+PASS available normal checks; remaining functionality, verification and Xbox acceptance are listed separately; extra reviews 0/2; no packaging.

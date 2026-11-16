@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "nativeComparisons": 2400,
+  "damageCoverage": {
+    "1": 520,
+    "378": 350
+  },
+  "scope": "Original complete Corin impact resolver: native target eligibility, own weapon/DEX/power, learned Single Action accuracy, Rapid Shower ratio and SP fee, actual neutral element/defense reduction, cached series damage, exact repeats and one payment/RNG/cue, range/line/serial/time/resource rejection and no invented poison/facing changes. Native persistence, enemy flee, line and final HP application are explicit recording fixtures; real battle/durable failure integration remains separate",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

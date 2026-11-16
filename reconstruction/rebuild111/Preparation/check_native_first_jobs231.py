@@ -1,0 +1,9 @@
+"""Execute released first-job final branches with real production VM/adapters."""
+from pathlib import Path
+import os,json,subprocess
+R=Path(__file__).resolve().parent.parent;S=R/'Source';V=R/'Validation';env=os.environ.copy();env.update(ASAN_OPTIONS='detect_leaks=1:halt_on_error=1',UBSAN_OPTIONS='halt_on_error=1:print_stacktrace=1')
+world=(S/'campaign_world200.h').read_text();(V/'actual_job_guard228.inc').write_text('/* Exact production guard. */\n'+next(l for l in world.splitlines()if l.startswith('static int campaign_job_guard200('))+'\n')
+with (V/'native-first-jobs231.log').open('w')as out:
+ subprocess.run(['cc','-O1','-g','-fsanitize=address,undefined','-fno-omit-frame-pointer','-I'+str(S),str(S/'test_native_first_jobs231.c'),'-lm','-lz','-o',str(V/'native-first-jobs231_asan')],stdout=out,stderr=subprocess.STDOUT,check=True)
+ subprocess.run([str(V/'native-first-jobs231_asan'),str(R.parent/'packet194/released-scripts.bin')],stdout=out,stderr=subprocess.STDOUT,env=env,check=True)
+(V/'Native-First-Jobs-Checks231.json').write_text(json.dumps(dict(passed=True,scope='Actual unmodified released bytecode from native NPC entry and production VM/player/job/world/career guard adapters: six classical first-job final quest branches through actual NPC open, chronology admission, full dispatcher, VM and production career guard, plus reachable missing-skill/material/funds conditions, Merchant cancellation and repeat turn-ins. Original native material consumption, Mage bonus, Merchant remaining fee, Thief score-based subsidy, Archer bow reward and earned campaign job proof remain unchanged. Earlier quest milestones/collected items are explicit prerequisites fixtures. Expanded careers and full native quest journeys remain separate; not an Xbox/Xemu playtest.',originalXboxPlaytested=False,xemuPlaytested=False,additionalReviewPassesCompleted=0),indent=2)+'\n');print('PASS native first-job quest finalization and campaign proof; host only.')

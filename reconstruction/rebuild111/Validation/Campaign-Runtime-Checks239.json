@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "scenes": 36,
+  "roles": 3,
+  "replyVariants": 2,
+  "scope": "Complete 1.11 runtime activation: all 36 production world-near/interact entry points, ordinary scene opening/stage/rescue/art-readiness APIs, actual modal actor/portrait/emote frame and cleanup. Per-scene quest/state and completed world initialization are explicit fixtures. Host GPU recorder, not a complete quest journey or target playtest.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

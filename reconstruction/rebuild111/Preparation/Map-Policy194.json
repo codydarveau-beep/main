@@ -3262,10 +3262,10 @@
     {
       "id": 362,
       "name": "gon_fild01",
-      "minimumCursor": 19,
+      "minimumCursor": 18,
       "region": 0,
       "excluded": false,
-      "reason": "Gonryun chapter",
+      "reason": "Native ferry arrival/approach for the authored cursor-18 optional visit",
       "provenance": "retained packet + explicit reconstructed chapter-family rules"
     },
     {
@@ -3280,10 +3280,10 @@
     {
       "id": 364,
       "name": "gonryun",
-      "minimumCursor": 19,
+      "minimumCursor": 18,
       "region": 0,
       "excluded": false,
-      "reason": "Gonryun chapter",
+      "reason": "Authored cursor-18 optional archive visit; dungeons retain cursor 19",
       "provenance": "retained packet + explicit reconstructed chapter-family rules"
     },
     {
@@ -4463,8 +4463,7 @@
       "region": 0,
       "excluded": false,
       "reason": "Retained story threshold; environment alias confirmed by designer",
-      "provenance": "Retained policy plus designer alias clarification 199",
-      "environmentSource": 343
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
     },
     {
       "id": 496,
@@ -4473,8 +4472,7 @@
       "region": 0,
       "excluded": false,
       "reason": "Retained story threshold; environment alias confirmed by designer",
-      "provenance": "Retained policy plus designer alias clarification 199",
-      "environmentSource": 118
+      "provenance": "retained packet + explicit reconstructed chapter-family rules"
     }
   ]
 }

@@ -1,0 +1,17 @@
+"""Normal full-scope development candidate checks; extra reviews are later."""
+from pathlib import Path
+import hashlib,json,subprocess,sys
+R=Path(__file__).resolve().parent.parent;V=R/'Validation'
+def sources():return {str(p.relative_to(R)):hashlib.sha256(p.read_bytes()).hexdigest()for p in sorted((R/'Source').rglob('*'))if p.is_file()and(p.suffix in ['.c','.h','.s','.inc']or p.name=='Makefile')}
+start=sources();commands=['audit_release_inputs194.py','run_checks194.py','check_content195.py','check_scenes195.py','check_hud194.py','check_campaign_minimap200.py','check_alias_npc242.py','check_guild197.py','check_arcade_lift197.py','check_stage_rules198.py','check_encounter_reference198.py','check_stage_integration198.py','check_encounter_integration198.py','check_companion_runtime200.py','check_companion_roster222.py','check_companion_world223.py','check_companion_promotions227.py','check_scene_emote225.py','check_campaign_upload246.py','check_campaign_sequence200.py','check_campaign_companions226.py','check_campaign_combat232.py','check_native_first_jobs231.py','check_native_expanded_jobs233.py','check_native_supernovice235.py','check_campaign_save228.py','check_campaign_save_bundle229.py','check_world_residency234.py','check_campaign_reach236.py','check_native_ferry237.py','check_campaign_runtime239.py','check_native194.py'];results=[]
+with(V/'full-candidate240.log').open('w')as out:
+ for command in commands:
+  out.write('\nNORMAL CANDIDATE: '+command+'\n');out.flush();r=subprocess.run([sys.executable,str(R/'Preparation'/command)],cwd=R,stdout=out,stderr=subprocess.STDOUT);results.append(dict(command=command,passed=r.returncode==0));print(('PASS 'if not r.returncode else'FAIL ')+command,flush=True)
+  if r.returncode:break
+assert start==sources(),'Source changed during normal candidate checks; mixed-source result is not accepted'
+passed=len(results)==len(commands)and all(r['passed']for r in results)
+report=dict(passed=passed,phase='normal complete-campaign candidate integration',runtimeScenes=36,openingReady=True,commands=results,sourceFiles=start,sourceDigest=hashlib.sha256(json.dumps(start,sort_keys=True).encode()).hexdigest(),scope='Current complete-runtime configuration: recovered content, actual GPU-recorded HUD/guild/scene frames, all original arcade differential engines, authored stage/encounter behavior, independent companion growth/promotions/roster, real native job finalization and optional ferry travel, complete scene sequences, calibrated authored combat, current-format persistent bundles, chronology/connectivity and native build/known stack guards.',limitations=['Host GPU/disk boundaries; no original Xbox/Xemu execution or full 64MB residency claim','Scene proofs/native quest prerequisites are declared fixtures where stated; calibrated combat replenishes qualified test-player HP/SP and is not balance acceptance','Obsolete test-character compatibility is intentionally outside release requirements'],normalReleaseWideChecksComplete=passed,additionalReviewPassesStarted=False,additionalReviewPassesCompleted=0,packagingValidated=False,originalXboxPlaytested=False,xemuPlaytested=False)
+(V/'Full-Candidate-Checks240.json').write_text(json.dumps(report,indent=2)+'\n')
+if not passed:raise SystemExit(1)
+subprocess.run([sys.executable,str(R/'Preparation/summarize_normal_checks194.py')],cwd=R,check=True)
+print('PASS normal full-scope candidate checks. Both additional review passes remain unstarted; no package or Xbox/Xemu claim.')

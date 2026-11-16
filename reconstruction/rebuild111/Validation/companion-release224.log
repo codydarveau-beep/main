@@ -1,0 +1,288 @@
+
+NORMAL HOST CHECK: run_checks194.py
+{"name": "travel_preflight", "passed": true, "phase": "host execution", "log": "travel_preflight194.log", "sourceSHA256": "62102ce1f9f2aca5f059e190a9f4c9197ab4115e9989a9653cf477e8f9263aa2"}
+{"name": "policy", "passed": true, "phase": "host execution", "log": "policy194.log", "sourceSHA256": "237e1b7a9147762bd25989d419ddd7cdcf145879f5c2a27fd5e085eb81a049c6"}
+{"name": "native_lifecycle", "passed": true, "phase": "host execution", "log": "native_lifecycle194.log", "sourceSHA256": "2f843f57b05737b10653e03ba34283f12e57fad3498d88be96926bd80366fc10"}
+{"name": "guild_regional", "passed": true, "phase": "host execution", "log": "guild_regional194.log", "sourceSHA256": "f90857a5b45d71628d027496ea84e7e98480ceb7f6aa6c5c9a9ef0d7528ff53a"}
+{"name": "guild_ui", "passed": true, "phase": "host execution", "log": "guild_ui194.log", "sourceSHA256": "017d104a136a27a28542bd1d0d8019f3c18f40ac0028e933317672225f8b7c02"}
+{"name": "world_integration", "passed": true, "phase": "host execution", "log": "world_integration194.log", "sourceSHA256": "d8378b2484d5a5796ff8a4577aef0e398e458197963f4409d74181154a6776d2"}
+
+NORMAL HOST CHECK: check_companion_archer212.py
+PASS original Judia ranged impacts; host only.
+
+NORMAL HOST CHECK: check_companion_archer_cast212.py
+PASS original Judia ranged impacts; host only.
+PASS original Judia choices, payment and complete projectile records; host only.
+
+NORMAL HOST CHECK: check_companion_archer_integration212.py
+PASS actual Judia candidate and native effect integration; host only.
+
+NORMAL HOST CHECK: check_companion_basic208.py
+PASS original basic/Bash impact and learned passive; host only.
+
+NORMAL HOST CHECK: check_companion_blacksmith_basic217.py
+PASS original Dagna basic impacts and deferred own-SP payment; host only.
+
+NORMAL HOST CHECK: check_companion_blacksmith_cast217.py
+PASS original Judia ranged impacts; host only.
+PASS original Dagna physical choice, payment and attack records; host only.
+
+NORMAL HOST CHECK: check_companion_blacksmith_impact217.py
+PASS original Dagna area stun, statuses and deferred payment; host only.
+
+NORMAL HOST CHECK: check_companion_blacksmith_integration217.py
+PASS actual Dagna area-stun/physical candidate integration; host only.
+
+NORMAL HOST CHECK: check_companion_bolt_choice204.py
+PASS original elemental caster choices; host native-code comparison only.
+
+NORMAL HOST CHECK: check_companion_bolt_impact204.py
+PASS original ordinary bolt impacts and repeat timing; host only.
+
+NORMAL HOST CHECK: check_companion_cast201.py
+PASS actual companion learning, support and cast payment integration; host only.
+
+NORMAL HOST CHECK: check_companion_element204.py
+PASS original companion impact elements; host native-code comparison only.
+
+NORMAL HOST CHECK: check_companion_elemental_choice211.py
+PASS original targeted specialist impacts; host only.
+PASS original Edda and Kaede spell choices; host only.
+
+NORMAL HOST CHECK: check_companion_elemental_integration211.py
+PASS actual Edda and Kaede candidate integration; host only.
+
+NORMAL HOST CHECK: check_companion_envenom213.py
+PASS original Iruga Envenom damage and real poison statuses; host only.
+
+NORMAL HOST CHECK: check_companion_experience200.py
+Independent EXP growth checked 1 /19
+Independent EXP growth checked 2 /19
+Independent EXP growth checked 3 /19
+Independent EXP growth checked 4 /19
+Independent EXP growth checked 5 /19
+Independent EXP growth checked 6 /19
+Independent EXP growth checked 7 /19
+Independent EXP growth checked 8 /19
+Independent EXP growth checked 9 /19
+Independent EXP growth checked 10 /19
+Independent EXP growth checked 11 /19
+Independent EXP growth checked 12 /19
+Independent EXP growth checked 13 /19
+Independent EXP growth checked 14 /19
+Independent EXP growth checked 15 /19
+Independent EXP growth checked 16 /19
+Independent EXP growth checked 17 /19
+Independent EXP growth checked 18 /19
+Independent EXP growth checked 19 /19
+PASS original independent companion base/job EXP and level progression; host CPU reference only.
+
+NORMAL HOST CHECK: check_companion_gunner_cast219.py
+PASS original Judia ranged impacts; host only.
+PASS original Corin physical choice, payment and attack records; host only.
+
+NORMAL HOST CHECK: check_companion_gunner_impact219.py
+PASS original Corin complete physical impacts, native defenses/statuses and repeat cache; host only.
+
+NORMAL HOST CHECK: check_companion_gunner_integration219.py
+PASS actual Corin ranged candidate integration; host only.
+
+NORMAL HOST CHECK: check_companion_heal_target214.py
+PASS original companion healing target priorities; host only.
+
+NORMAL HOST CHECK: check_companion_legacy_cast206.py
+PASS original first-pair cast caller fees across promotions; host only.
+
+NORMAL HOST CHECK: check_companion_mage204.py
+PASS actual initial mage candidate integration; full roster activation remains guarded; host only.
+
+NORMAL HOST CHECK: check_companion_maya_basic215.py
+PASS original Maya basic impacts; host only.
+
+NORMAL HOST CHECK: check_companion_maya_physical215.py
+PASS original Judia ranged impacts; host only.
+PASS original Maya physical choice, payment and attack records; host only.
+
+NORMAL HOST CHECK: check_companion_melee_basic213.py
+PASS original Brann/Iruga basic impacts; host only.
+
+NORMAL HOST CHECK: check_companion_melee_cast213.py
+PASS original Judia ranged impacts; host only.
+PASS original Brann/Iruga choice, payment and complete attack records; host only.
+
+NORMAL HOST CHECK: check_companion_melee_integration213.py
+PASS actual Brann and Iruga candidate integration; host only.
+
+NORMAL HOST CHECK: check_companion_monk_cast220.py
+PASS original Judia ranged impacts; host only.
+PASS original Suri combo choice, payment and attack records; host only.
+
+NORMAL HOST CHECK: check_companion_monk_impact220.py
+PASS original Suri complete combo impacts, native defenses/statuses and repeat cache; host only.
+
+NORMAL HOST CHECK: check_companion_monk_integration220.py
+PASS actual Suri combo candidate integration; host only.
+
+NORMAL HOST CHECK: check_companion_performer_cast216.py
+PASS original Judia ranged impacts; host only.
+PASS original Oren/Lale physical choice, payment and attack records; host only.
+
+NORMAL HOST CHECK: check_companion_performer_impact216.py
+PASS original Oren/Lale physical impacts and deferred own-SP payment; host only.
+
+NORMAL HOST CHECK: check_companion_performer_integration216.py
+PASS actual Oren/Lale ranged candidate integration; host only.
+
+NORMAL HOST CHECK: check_companion_persistence200.py
+PASS restored companion record and durable per-character persistence; live growth/formation checks are reported separately.
+
+NORMAL HOST CHECK: check_companion_pip_basic214.py
+PASS original Pip basic/Bash impacts; host only.
+
+NORMAL HOST CHECK: check_companion_pip_cast214.py
+PASS original Pip support choice/payment/initiation; host only.
+
+NORMAL HOST CHECK: check_companion_pip_integration214.py
+PASS actual Pip support and physical candidate integration; host only.
+
+NORMAL HOST CHECK: check_companion_pip_physical214.py
+PASS original Judia ranged impacts; host only.
+PASS original Pip physical choice, payment and attack records; host only.
+
+NORMAL HOST CHECK: check_companion_potion215.py
+PASS original Maya support transactions and complete durable records; host only.
+
+NORMAL HOST CHECK: check_companion_potion_integration215.py
+PASS actual Maya support and physical candidate integration; host only.
+
+NORMAL HOST CHECK: check_companion_promotions227.py
+PASS complete career promotion world transactions; host only.
+
+NORMAL HOST CHECK: check_companion_rogue_cast218.py
+PASS original Judia ranged impacts; host only.
+PASS original Kest physical choice, payment and attack records; host only.
+
+NORMAL HOST CHECK: check_companion_rogue_impact218.py
+PASS original Kest complete physical impacts, native defenses/statuses and repeat cache; host only.
+
+NORMAL HOST CHECK: check_companion_rogue_integration218.py
+PASS actual Kest physical candidate integration; host only.
+
+NORMAL HOST CHECK: check_companion_roster222.py
+PASS mixed full-roster backend candidate integration; host only.
+
+NORMAL HOST CHECK: check_companion_runtime200.py
+PASS actual companion own growth, reserve vitals, save atomicity, story/job promotion gates and once-only campaign rewards. Full career AI and promoted art have separate checks; host only.
+
+NORMAL HOST CHECK: check_companion_skills201.py
+Authored companion career skill path 0 7 passed
+Authored companion career skill path 0 21 passed
+Authored companion career skill path 1 1 passed
+Authored companion career skill path 1 11 passed
+Authored companion career skill path 1 22 passed
+Authored companion career skill path 2 2 passed
+Authored companion career skill path 2 9 passed
+Authored companion career skill path 2 8 passed
+Authored companion career skill path 3 10 passed
+Authored companion career skill path 3 23 passed
+Authored companion career skill path 4 3 passed
+Authored companion career skill path 4 17 passed
+Authored companion career skill path 4 24 passed
+Authored companion career skill path 5 18 passed
+Authored companion career skill path 5 25 passed
+Authored companion career skill path 6 12 passed
+Authored companion career skill path 6 26 passed
+Authored companion career skill path 7 4 passed
+Authored companion career skill path 7 13 passed
+Authored companion career skill path 7 27 passed
+Authored companion career skill path 8 14 passed
+Authored companion career skill path 8 28 passed
+Authored companion career skill path 9 15 passed
+Authored companion career skill path 9 29 passed
+Authored companion career skill path 10 16 passed
+Authored companion career skill path 10 30 passed
+Authored companion career skill path 11 19 passed
+Authored companion career skill path 11 31 passed
+Authored companion career skill path 12 20 passed
+Authored companion career skill path 12 32 passed
+Authored companion career skill path 13 40 passed
+Authored companion career skill path 14 41 passed
+Authored companion career skill path 15 42 passed
+Authored companion career skill path 16 43 passed
+Authored companion career skill path 17 44 passed
+Authored companion career skill path 18 45 passed
+Companion career SP costs 0 7 passed
+Companion career SP costs 0 21 passed
+Companion career SP costs 1 1 passed
+Companion career SP costs 1 11 passed
+Companion career SP costs 1 22 passed
+Companion career SP costs 2 2 passed
+Companion career SP costs 2 9 passed
+Companion career SP costs 2 8 passed
+Companion career SP costs 3 10 passed
+Companion career SP costs 3 23 passed
+Companion career SP costs 4 3 passed
+Companion career SP costs 4 17 passed
+Companion career SP costs 4 24 passed
+Companion career SP costs 5 18 passed
+Companion career SP costs 5 25 passed
+Companion career SP costs 6 12 passed
+Companion career SP costs 6 26 passed
+Companion career SP costs 7 4 passed
+Companion career SP costs 7 13 passed
+Companion career SP costs 7 27 passed
+Companion career SP costs 8 14 passed
+Companion career SP costs 8 28 passed
+Companion career SP costs 9 15 passed
+Companion career SP costs 9 29 passed
+Companion career SP costs 10 16 passed
+Companion career SP costs 10 30 passed
+Companion career SP costs 11 19 passed
+Companion career SP costs 11 31 passed
+Companion career SP costs 12 20 passed
+Companion career SP costs 12 32 passed
+Companion career SP costs 13 40 passed
+Companion career SP costs 14 41 passed
+Companion career SP costs 15 42 passed
+Companion career SP costs 16 43 passed
+Companion career SP costs 17 44 passed
+Companion career SP costs 18 45 passed
+PASS original companion skill learning and SP costs; independent native CPU comparison only.
+
+NORMAL HOST CHECK: check_companion_soullinker_choice210.py
+PASS original targeted specialist impacts; host only.
+PASS original Soul Linker choices and own-resource boundaries; host only.
+
+NORMAL HOST CHECK: check_companion_soullinker_integration210.py
+PASS actual Soul Linker candidate integration; host only.
+
+NORMAL HOST CHECK: check_companion_specialist209.py
+PASS original targeted specialist impacts; host only.
+
+NORMAL HOST CHECK: check_companion_specialist_integration209.py
+PASS actual specialist impact integration; choices remain separate; host only.
+
+NORMAL HOST CHECK: check_companion_taekwon_cast221.py
+PASS original Judia ranged impacts; host only.
+PASS original Daro/Haneul kick choice, payment and attack records; host only.
+
+NORMAL HOST CHECK: check_companion_taekwon_impact221.py
+PASS original Daro/Haneul native stance preparation, kick areas/statuses and knockback requests; host only.
+
+NORMAL HOST CHECK: check_companion_taekwon_integration221.py
+PASS actual Daro/Haneul stance/kick candidate integration; host only.
+
+NORMAL HOST CHECK: check_companion_wire200.py
+PASS exact original companion growth-record decoding and legacy migration; host CPU reference only.
+
+NORMAL HOST CHECK: check_companion_wizard205.py
+PASS original companion field damage and statuses; native CPU reference and host C only.
+
+NORMAL HOST CHECK: check_companion_wizard_cast205.py
+PASS original companion wizard area creation and resource preflight; host only.
+
+NORMAL HOST CHECK: check_companion_wizard_integration205.py
+PASS actual promoted mage candidate shared-field integration; host only.
+
+NORMAL HOST CHECK: check_companion_world223.py
+PASS actual full-roster world/menu candidate integration; host only.

@@ -1,12 +1,12 @@
 """Install exact recovered art tables; retain story activation/scene wire gates."""
 from pathlib import Path
-import json,os,struct
+import json,os,struct,re
 R=Path(__file__).resolve().parent.parent;D=R/'Recovered195';d=json.loads((D/'content-recovery195.json').read_text());S=R/'Source'
 uints=lambda row:','.join(str(v)+'u'for v in row)
 quote=lambda s:json.dumps(s,ensure_ascii=True)
 a=d['campaign.bin'];n=a['actorCount']
 h='/* Released 1.10.0 actor catalog recovered from verified executable and pack. */\n#ifndef MYRO_CAMPAIGN_ACTOR_DATA200_H\n#define MYRO_CAMPAIGN_ACTOR_DATA200_H\n'
-h+='#define CAMPAIGN_ACTOR_COUNT200 %du\n#define CAMPAIGN_ACTIONS_PER_ACTOR200 48u\n#define CAMPAIGN_OPENING_READY200 0u /* Runtime restoration still being integrated. */\n#define CAMPAIGN_FRAME_COUNT200 %du\n#define CAMPAIGN_ACTOR_BYTES200 %du\n'%(n,len(a['streams']),a['bytes'])
+h+='#define CAMPAIGN_ACTOR_COUNT200 %du\n#define CAMPAIGN_ACTIONS_PER_ACTOR200 48u\n#include "campaign_release238.h"\n#define CAMPAIGN_FRAME_COUNT200 %du\n#define CAMPAIGN_ACTOR_BYTES200 %du\n'%(n,len(a['streams']),a['bytes'])
 h+='static const struct{unsigned offset,packed,raw,crc;}campaignFrames200[]={\n'+''.join('{'+uints([t[k]for k in ['offset','packed','raw','crc']])+'},\n'for t in a['streams'])+'};\n'
 h+='static const struct{unsigned first,count,ms;}campaignActions200[]={\n'+''.join('{'+uints(t)+'},\n'for t in a['actions'])+'};\n'
 h+='static const float campaignContact200[%d][8][2]={\n'%n
@@ -19,7 +19,7 @@ a=d['storyportraits.bin'];h='#ifndef MYRO_CAMPAIGN_PORTRAIT_DATA200_H\n#define M
 # Scene header/reader compatibility is integrated separately with verified cue semantics.
 for name in ['campaign.bin','npcfx.bin','portraits.bin','storyportraits.bin']:
  p=R/'XboxFiles'/name;assert p.is_symlink();p.unlink();p.symlink_to(D/name)
-print('Installed released actor/roster/effect/portrait catalogs and four exact released packs. Activation and newer scene semantics remain gated.')
+print('Installed released actor/roster/effect/portrait catalogs and four exact released packs. Runtime scope is controlled separately by campaign_release238.h.')
 
-sceneHeader=(D/'chapter1_data200.h').read_text();(S/'chapter1_data200.h').write_text(sceneHeader)
+sceneHeader=(D/'chapter1_data200.h').read_text();sceneHeader=re.sub(r'^#define CAMPAIGN_RELEASE_SCENES193[^\n]+', '#include \"campaign_release238.h\"',sceneHeader,flags=re.M);(S/'chapter1_data200.h').write_text(sceneHeader)
 p=R/'XboxFiles/chapter1.bin';assert p.is_symlink();p.unlink();p.symlink_to(D/'chapter1.bin')

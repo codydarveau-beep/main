@@ -1,0 +1,305 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "cursor": 0,
+      "reachableMaps": 114,
+      "requiredSceneMaps": [
+        0
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 1,
+      "reachableMaps": 119,
+      "requiredSceneMaps": [
+        0
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 2,
+      "reachableMaps": 119,
+      "requiredSceneMaps": [
+        0
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 3,
+      "reachableMaps": 119,
+      "requiredSceneMaps": [
+        12
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 4,
+      "reachableMaps": 119,
+      "requiredSceneMaps": [
+        132
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 5,
+      "reachableMaps": 119,
+      "requiredSceneMaps": [
+        132
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 6,
+      "reachableMaps": 140,
+      "requiredSceneMaps": [
+        42
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 7,
+      "reachableMaps": 140,
+      "requiredSceneMaps": [
+        3
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 8,
+      "reachableMaps": 140,
+      "requiredSceneMaps": [
+        132
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 9,
+      "reachableMaps": 159,
+      "requiredSceneMaps": [
+        126
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 10,
+      "reachableMaps": 159,
+      "requiredSceneMaps": [
+        120
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 11,
+      "reachableMaps": 159,
+      "requiredSceneMaps": [
+        126
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 12,
+      "reachableMaps": 169,
+      "requiredSceneMaps": [
+        154,
+        156
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 13,
+      "reachableMaps": 189,
+      "requiredSceneMaps": [
+        188
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 14,
+      "reachableMaps": 189,
+      "requiredSceneMaps": [
+        132
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 15,
+      "reachableMaps": 260,
+      "requiredSceneMaps": [
+        253
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 16,
+      "reachableMaps": 273,
+      "requiredSceneMaps": [
+        277
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 17,
+      "reachableMaps": 273,
+      "requiredSceneMaps": [
+        273
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 18,
+      "reachableMaps": 297,
+      "requiredSceneMaps": [
+        351,
+        358,
+        364,
+        371
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 19,
+      "reachableMaps": 302,
+      "requiredSceneMaps": [
+        364
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 20,
+      "reachableMaps": 302,
+      "requiredSceneMaps": [
+        132
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 21,
+      "reachableMaps": 317,
+      "requiredSceneMaps": [
+        201
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 22,
+      "reachableMaps": 317,
+      "requiredSceneMaps": [
+        193
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 23,
+      "reachableMaps": 317,
+      "requiredSceneMaps": [
+        132
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 24,
+      "reachableMaps": 317,
+      "requiredSceneMaps": [
+        253
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 25,
+      "reachableMaps": 357,
+      "requiredSceneMaps": [
+        310,
+        323
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 26,
+      "reachableMaps": 357,
+      "requiredSceneMaps": [
+        323
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 27,
+      "reachableMaps": 362,
+      "requiredSceneMaps": [
+        313
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 28,
+      "reachableMaps": 384,
+      "requiredSceneMaps": [
+        280,
+        495
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 29,
+      "reachableMaps": 384,
+      "requiredSceneMaps": [
+        132
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 30,
+      "reachableMaps": 384,
+      "requiredSceneMaps": [
+        7
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 31,
+      "reachableMaps": 385,
+      "requiredSceneMaps": [
+        116
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 32,
+      "reachableMaps": 385,
+      "requiredSceneMaps": [
+        7
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 33,
+      "reachableMaps": 386,
+      "requiredSceneMaps": [
+        496
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 34,
+      "reachableMaps": 386,
+      "requiredSceneMaps": [
+        496
+      ],
+      "missing": []
+    },
+    {
+      "cursor": 35,
+      "reachableMaps": 393,
+      "requiredSceneMaps": [
+        2,
+        132
+      ],
+      "missing": []
+    }
+  ],
+  "unreachable": [],
+  "scope": "Necessary map-level reachability from opening camp to every current authored stage, including all four optional cursor-18 evidence locations, at each cursor; historical superseded early Morroc rows remain preserved but are not required for normal progression, using actual production map/NPC chronology and career/story gate predicates, static door graph and admitted native script map references/helper transport menus. Completed scene objectives are assumed to permit within-scene passages. Graph is an upper bound: native quest/event/fee requirements, precise entrance path and selected dynamic destination execution are not completed by this analysis. No scripts, maps or policies changed.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

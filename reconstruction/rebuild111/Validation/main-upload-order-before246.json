@@ -1,0 +1,6 @@
+{
+  "beforeSHA256": "33a613f43700bd79d42db486c0018a87b8ec41fa6d232666fc5018ea8d1edf2e",
+  "beforePrepareOffset": 51673,
+  "beforeUploadOffset": 51614,
+  "finding": "Campaign streamed poses were prepared after generic upload, so a cold scene/companion sprite reached fatal bounds checking before it had raw data."
+}

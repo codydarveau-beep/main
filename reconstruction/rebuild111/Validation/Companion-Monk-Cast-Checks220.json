@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "nativeComparisons": 1200,
+  "choiceCoverage": {
+    "1": 1105,
+    "202": 76,
+    "211": 19
+  },
+  "scope": "Original Suri complete inline choices/initialization in both careers: own learned Trifecta proc and same-target Quadruple window, exact target/life/expiry/aux-skill/configuration/preference/cooldown/resource rules, native RNG/proc chance, own job/weapon motion and original pending/repeat/delay fields. Native target eligibility/line are recording fixtures; actual impacts and live integration are separate",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

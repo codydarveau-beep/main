@@ -18,6 +18,6 @@
     495,
     496
   ],
-  "laterActivationChanged": false,
-  "remaining": "Full campaign binding, physical routes/geometry, scene transitions and companion progression need end-to-end integration"
+  "runtimeScenes": 36,
+  "remaining": "This isolated lifecycle check does not establish full journeys or target playtesting; see current campaign integration reports"
 }

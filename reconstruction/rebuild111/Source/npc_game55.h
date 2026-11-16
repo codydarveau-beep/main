@@ -24,6 +24,7 @@
 #define NPC_GAME_EVENT_BUDGET55 16u
 enum{N55_EVENT_INIT=1,N55_EVENT_TIMER=2,N55_EVENT_CALL=3,N55_EVENT_CHARACTER=4,N55_EVENT_TOUCH=5,N55_EVENT_RACER164=6,N55_EVENT_MONSTER172=7,N55_EVENT_ATTACHED=256};
 enum{N55_NPC_INIT_DONE=32,N55_NPC_INIT_QUEUED=64};
+typedef char NpcMapSpanCoverage242[(sizeof(npcMapSpans55)/sizeof(*npcMapSpans55)==MYRO_MAP_COUNT43)?1:-1];
 typedef struct{uint64_t start,elapsed;unsigned running,attached;}NpcGameTimer55;
 typedef struct{NpcPresentation172 presentation172;NpcPlayer55 player;NpcRuntime55 vm[NPC_GAME_VMS55];NpcProgramCache55 programs;NpcDisc55 disc;NpcScene55 scene;NpcEvents55 events;NpcShop55 shops;NpcMonsters55 monsters;NpcWaiting55 waiting;NpcStorage64 storage64;NpcBookView64 book64;NpcAudio64 audio64;int lobby;NpcWorld55 world[NPC_GAME_VMS55];NpcGameTimer55 timers[NPC_RECORD_COUNT55];unsigned char inside[NPC_RECORD_COUNT55];NpcWorldWarp55 warp;void*worldContext;uint64_t nifRetryAt180,ms,utc,claimAt,touchAt172,wake[NPC_GAME_VMS55],waitSteps;unsigned seasonMap64,seasonApplied64;uint64_t seasonDay64;unsigned map,choice,scroll,editorVisible,failures,eventKind[NPC_GAME_VMS55];unsigned raceActor164[NPC_GAME_VMS55],raceLife164[NPC_GAME_VMS55];int deathCount64[NPC_GAME_VMS55];unsigned deathMap64[NPC_GAME_VMS55],deathEntry64[NPC_GAME_VMS55];int ui,pendingTalk;NpcEditor55 editor;char musicRequest64[64];char failedCommand[NPC_GAME_VMS55][64],error[160],cutin[128];unsigned cutinPosition,emotion,cosmeticRequests,effect60,effectEntity60;}NpcGame55;
 #define NPC_HELD_ITEM_KEY55 UINT64_C(0x4d59525000000000)

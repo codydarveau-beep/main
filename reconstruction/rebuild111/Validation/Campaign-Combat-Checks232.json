@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "scenes": 36,
+  "roles": 1,
+  "replyVariants": 1,
+  "scope": "Actual scene traversal with production per-frame party binding, modal locks, all recruited companions and own independent EXP from real AI combat/damage/reward callback, chapter rewards and idempotency. Authored scene enemies retain actual HP, defenses and AI; player/companion damage and production reward/death callbacks execute. Qualified level/stat and continuously replenished player HP/SP are explicit host calibration fixtures, not balance acceptance. Native first-job completion remains a prerequisite fixture here, with actual final-quest branches tested separately in Native-First-Jobs-Checks231.json. GPU/raster/allocations host-recorded. Promotion boundary checks remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

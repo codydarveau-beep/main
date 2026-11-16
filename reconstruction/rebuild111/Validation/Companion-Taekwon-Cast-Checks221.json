@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "nativeComparisons": 1200,
+  "choiceCoverage": {
+    "1": 1190,
+    "388": 1,
+    "390": 2,
+    "386": 4,
+    "392": 3
+  },
+  "scope": "Original Daro/Haneul complete inline same-target kick choice and initialization: exact ready-window/aux-skill/target life/configuration/preference/cooldown/learning/SP rules, own job/weapon motion/buffs and native pending/timing fields, consumed preparation at launch and deferred payment. Native valid-target/line fixtures are explicit; actual impacts, stance arming and live integration are separate",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

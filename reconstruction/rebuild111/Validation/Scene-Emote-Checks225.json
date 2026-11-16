@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "nativeComparisons": 2639,
+  "sceneIntegrationEvidence": "Campaign-Sequence-Checks200.json",
+  "privateNativeEvidence": "Native-Checks194.json",
+  "emissions": 78,
+  "cueIDs": [
+    1,
+    2,
+    3,
+    6,
+    10,
+    19,
+    21,
+    22,
+    38
+  ],
+  "emissionContexts": {
+    "1": 7,
+    "2": 19,
+    "3": 6,
+    "4": 19,
+    "5": 19,
+    "6": 7,
+    "0": 1
+  },
+  "scope": "Actual original main-loop four-entry emote queue, speaker priority/position, one-shot cursor/node cache, positive one-based cue conversion, paused state, exact float aging/map/strict four-second expiry/ring wrap compared byte-for-byte to production. All surviving dialogue line records and original emote IDs are exercised. Native scene status/state reads and actor contexts are explicit fixtures; no quest writes, SP or currency changes. Actual scene/renderer lifecycle and frame decoding remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

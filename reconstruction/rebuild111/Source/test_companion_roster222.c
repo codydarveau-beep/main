@@ -1,0 +1,19 @@
+#include "test_companion_fixture205.h"
+static unsigned job222(unsigned id,unsigned phase){unsigned jobs[3],n=0;for(unsigned i=0;i<36;i++)if(partySkillPaths201[i].id==id&&n<3)jobs[n++]=partySkillPaths201[i].job;assert(n);return jobs[phase<n?phase:n-1];}
+static void baseline222(unsigned char*b,unsigned phase){party_progress_empty200(b);for(unsigned id=0;id<19;id++){unsigned job=job222(id,phase),hp,sp;unsigned char stats[6];assert(party_growth_stats200(id,job,90,stats,&hp,&sp));PartyGrowth200 p={90,1234+id,party_path_job_cap201(job),0,job,hp*3/4,sp*3/4};if(!p.hp)p.hp=1;assert(party_progress_put200(b,id,&p));}npc_state_put32_55(b+12,17);}
+static void run222(unsigned a,unsigned b,unsigned c,unsigned phase,const unsigned char*base){
+ npc_state_clear55(&record201);memset(&campaignParty200,0,sizeof campaignParty200);combat_init(&player201,100,100,NULL,NULL);player201.mapId=3;player201.level=100;player201.hp=player201.maxhp=1000;player201.sp=77;player201.zeny=12345;player201.time=10;player201.rng=222+a*361+b*19+c;player201.peaceful=0;owned_init52(&player201.owned52);assert(owned_add52(&player201.owned52,0,501,20,item_rule52)==OWNED_OK52);
+ memset(player201.mobs,0,sizeof player201.mobs);for(unsigned i=0;i<4;i++){CombatMob*e=player201.mobs+i;e->enabled=1;e->kind=0;e->life=123+i;e->hp=1000000000;e->x=112+i*2;e->y=100;e->faceX=1;}
+ player201.target=0;campaignPartyState200=&record201;assert(party_progress_commit200(&record201,base));party_config_default200(&campaignConfig200,(1u<<19)-1);unsigned original[3]={a,b,c},ids[3];for(unsigned i=0;i<3;i++)ids[i]=original[(i+phase)%3];select201((1u<<19)-1,ids,3);
+ for(unsigned i=0;i<3;i++){CampaignFollower200*m=campaignParty200.members+i;m->map=3;m->x=m->y=100;m->regenAt=1000;campaignConfig200.skills[m->id]=1;campaignConfig200.mode[m->id]=PARTY_ASSIST200;campaignConfig200.priority[m->id]=(unsigned char)((m->id+phase)%3);}
+ memset(campaignFx200,0,sizeof campaignFx200);memset(campaignNativeFx212,0,sizeof campaignNativeFx212);memset(campaignArrows212,0,sizeof campaignArrows212);campaignFxNext200=campaignNativeFxNext212=campaignArrowNext212=0;campaignCommandTarget200=-1;combat_companion_field194=party_wizard_hit194;
+ for(unsigned frame=0;frame<64;frame++){player201.time=10+frame*.05f;campaign_battle_tick200(&player201,.05f,0);combat_fields_tick(&player201);assert(campaignParty200.count==3&&player201.sp==77&&player201.zeny==12345&&player201.hp==1000);}
+ unsigned char saved[640];assert(party_progress_load200(&record201,saved)==1&&npc_state_u32_55(saved+12)==17);unsigned active=(1u<<a)|(1u<<b)|(1u<<c);
+ for(unsigned id=0;id<19;id++)if(!(active&(1u<<id)))assert(!memcmp(saved+16+id*32,base+16+id*32,32));
+ for(unsigned i=0;i<3;i++){CampaignFollower200*m=campaignParty200.members+i;PartyGrowth200 p;party_growth_read200(saved+16+m->id*32,&p);assert(m->hp==p.hp&&m->sp==p.sp&&m->level==p.level&&m->exp==p.exp&&m->job==p.job&&m->jobLevel==p.jobLevel&&m->hp<=m->maxHP&&m->sp<=m->maxSP&&p.exp==1234+m->id);}
+ assert(campaign_follow_select200(&campaignParty200,(1u<<19)-1,NULL,0));select201((1u<<19)-1,ids,3);
+ for(unsigned i=0;i<3;i++){CampaignFollower200*m=campaignParty200.members+i;PartyGrowth200 p;party_growth_read200(saved+16+m->id*32,&p);assert(m->hp==p.hp&&m->sp==p.sp&&m->exp==p.exp&&m->job==p.job&&!m->pendingSkill&&!m->impactPaid209&&!m->comboUntil220);}
+}
+int main(void){unsigned parties=0;for(unsigned phase=0;phase<3;phase++){unsigned char base[640];baseline222(base,phase);for(unsigned a=0;a<17;a++)for(unsigned b=a+1;b<18;b++)for(unsigned c=b+1;c<19;c++){run222(a,b,c,phase,base);parties++;}}
+ npc_state_clear55(&record201);printf("PASS %u mixed three-companion parties across career stages: actual AI/fields, slot rotations, own saved resources/growth, untouched reserve records and no swap healing/SP. Host only.\n",parties);
+}

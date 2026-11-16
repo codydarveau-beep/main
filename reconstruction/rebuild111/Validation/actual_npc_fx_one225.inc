@@ -1,0 +1,7 @@
+/* Exact production streamed draw function. */
+static void npc_fx_one172(const NpcFxClip172*c,unsigned age,const float*m,float x,float y,float zoom){unsigned index=age/c->ms;if(index>=c->count||art39DrawCount>=ART39_DRAW_LIMIT)return;unsigned frame=c->first+index;float sx,sy;world_project(m,x,y,height_at(x,y),&sx,&sy);float scale=zoom/(3*c->scale),rect[4];sprite_screen_rect(sx,sy,scale,64,192,256,rect);if(rect[0]+rect[2]<0||rect[0]>640||rect[1]+rect[3]<0||rect[1]>480)return;
+ unsigned slot=art39DrawCount++;artGpuUsed183[slot]=artCacheTime183;if(!art39Textures[slot]){MM_STATISTICS mem={0};mem.Length=sizeof(mem);MmQueryStatistics(&mem);if(mem.AvailablePages*4096u<4u*1024u*1024u)return;art39Textures[slot]=MmAllocateContiguousMemoryEx(65536,0,0x03ffafff,4096,PAGE_READWRITE|PAGE_WRITECOMBINE);if(!art39Textures[slot])return;}
+ if(art39Uploads[slot]!=frame||art39Sources[slot]!=0x10000u){if(!npc_fx_frame172(frame,npc_fx_read172,NULL,art39Textures[slot],65536)){art39Sources[slot]=art39Uploads[slot]=~0u;return;}art39Uploads[slot]=frame;art39Sources[slot]=0x10000u;}
+ SparseSprite shape={0};shape.w=128;shape.h=256;shape.anchorX=64;shape.anchorY=192;shape.bytesPerPixel=2;shape.alpha4444=1;float z=height_at(x,y),depth=m[8]*x+m[9]*y+m[10]*z+m[11]-WORLD_SPRITE_BIAS*2;
+ uint32_t*p=pb_begin();p=pb_push1(p,NV097_SET_BLEND_FUNC_SFACTOR,1);p=pb_push1(p,NV097_SET_BLEND_FUNC_DFACTOR,0x303);pb_end(p);gpu_sprite(art39Textures[slot],&shape,sx,sy,depth,scale);p=pb_begin();p=pb_push1(p,NV097_SET_BLEND_FUNC_SFACTOR,0x302);pb_end(p);
+}

@@ -27,4 +27,4 @@ int main(void){unsigned sampled[42]={0},runs=0;for(unsigned z=0;z<sizeof(encount
  campaign_encounter_tick198(&game,&monsters,&state,0);assert(!campaignEncounter198.pending&&campaign_load200(&state,&after)==1&&after.objectives==(c.objectives|pending)&&after.cursor==c.cursor&&after.checkpoint==c.checkpoint&&game.zeny==12345);assert(monsters.count==count);
  campaignStage200.active=0;campaign_encounter_tick198(&game,&monsters,&state,0);for(unsigned k=0;k<monsters.count;k++)if(campaign_encounter_owned198(monsters.rows+k))assert(!monsters.rows[k].alive);for(unsigned k=0;k<MOB_COUNT;k++)assert(!game.mobs[k].enabled);npc_monsters_clear55(&monsters);memset(&game,0,sizeof game);runs++;
  }
- npc_state_clear55(&state);printf("PASS original spawn fixtures and %u actual encounter lifecycles, pause/range/capacity limits, serial ownership, failed-save retry and cleanup. Full scene activation and Xbox execution remain pending.\n",runs);}
+ npc_state_clear55(&state);printf("PASS original spawn fixtures and %u actual encounter lifecycles, pause/range/capacity limits, serial ownership, failed-save retry and cleanup. Isolated lifecycle check; not an Xbox playtest.\n",runs);}

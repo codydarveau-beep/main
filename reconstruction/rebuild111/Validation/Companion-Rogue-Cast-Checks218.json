@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "nativeComparisons": 1200,
+  "choiceCoverage": {
+    "1": 1135,
+    "13": 56,
+    "142": 9
+  },
+  "scope": "Original Kest complete inline choices and initialization across Thief/Rogue/Stalker: rear-only Back Stab, Envenom/basic fallback, learned Double Attack including disabled/support/cooldown/resource cases, own RNG, weapon/job motion/buffs and exact attack records, deferred fee and no invented arrows. Native validity/line remain explicit fixtures; actual impact and durable live battle tests are separate",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

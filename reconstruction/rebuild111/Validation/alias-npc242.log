@@ -1,0 +1,1 @@
+PASS native NPC map transitions, near/touch/monster-touch/visibility on both empty campaign aliases, presentation/inside/marker reset and ordinary-map return. No native environment NPC scripts imported; host only.

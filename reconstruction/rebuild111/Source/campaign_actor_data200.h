@@ -3,7 +3,7 @@
 #define MYRO_CAMPAIGN_ACTOR_DATA200_H
 #define CAMPAIGN_ACTOR_COUNT200 45u
 #define CAMPAIGN_ACTIONS_PER_ACTOR200 48u
-#define CAMPAIGN_OPENING_READY200 0u /* Runtime restoration still being integrated. */
+#include "campaign_release238.h"
 #define CAMPAIGN_FRAME_COUNT200 9352u
 #define CAMPAIGN_ACTOR_BYTES200 14738055u
 static const struct{unsigned offset,packed,raw,crc;}campaignFrames200[]={

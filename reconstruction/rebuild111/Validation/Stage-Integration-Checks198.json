@@ -12,7 +12,10 @@
   "saveAllocationFailurePreserved": true,
   "blockedMovementPreserved": true,
   "staleStageRejected": true,
-  "activationChanged": false,
-  "preparedLaterRuntime": "Evidence decisions are implemented; later binding remains guarded pending encounter lifecycle and transition integration",
+  "runtimeScenes": 36,
+  "ordinaryLaterBindingChecked": true,
+  "unavailableArtGuardChecked": true,
+  "completionGuardChecked": true,
+  "preparedLaterRuntime": "Production staging uses the complete 36-scene configuration; ordinary later binding and art/completion guards are checked",
   "integrationSourceSHA256": "1a2a9df3644428fd50fab1523a5529aa2dcdce07c9102a1030a1a8df2f1c9962"
 }

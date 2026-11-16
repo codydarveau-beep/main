@@ -17,6 +17,9 @@ chains += [['main','party_resolve200','party_basic_step208','party_hit200','part
 chains += [['main','party_resolve200','party_specialist_step209','party_hit200','party_apply_damage205','combat_reward','campaign_killed200','party_gain_award200','party_progress_commit200'],['main','party_resolve200','party_specialist_step209','party_specialist_after209','combat_knockback']]
 chains += [['main','party_resolve200','party_archer_step212','party_hit200','party_apply_damage205','combat_reward','campaign_killed200','party_gain_award200','party_progress_commit200']]
 chains += [['main','party_resolve200','party_envenom_step213','party_hit200','party_apply_damage205','combat_reward','campaign_killed200','party_gain_award200','party_progress_commit200']]
+# Scene emote update is inlined into main; streamed drawing shares the existing decoder.
+assert 'npc_fx_frame172' not in u # Decoder locals are included in the emitted draw frame.
+chains += [['main','npc_fx_one172']]
 checks=[]
 # Maya support and candidate tick are inlined into main; its emitted frame includes their local transaction buffer.
 assert 'campaign_battle_tick200' not in u and 'party_maya_support215' not in u
@@ -24,6 +27,10 @@ chains += [['main','party_progress_load200'],['main','party_progress_commit200']
 # Oren/Lale deferred impact calls the shared growth-aware saved-vitals path.
 chains += [['main','party_resolve200','party_performer_step216','party_save_vital200','party_vital_store200','party_progress_commit200']]
 chains += [['main','party_resolve200','party_blacksmith_step217','party_save_vital200','party_vital_store200','party_progress_commit200']]
+chains += [['main','party_resolve200','party_cached_physical219','party_save_vital200','party_vital_store200','party_progress_commit200'],['main','party_resolve200','party_cached_physical219','party_apply_damage205','combat_reward','campaign_killed200','party_gain_award200','party_progress_commit200']]
+# Kick splash is inlined into the emitted cached resolver; readiness/status helpers are emitted.
+assert 'party_kick_area221' not in u
+chains += [['main','party_resolve200','party_cached_physical219','party_kick_ready221'],['main','party_resolve200','party_cached_physical219','class_stun50']]
 for chain in chains:
  frames={n:u[n] for n in chain};total=sum(frames.values());assert total+32768<=reserve,(frames,total,reserve);checks.append(dict(frames=frames,bytes=total,margin=32768))
 # Assembly wrappers reserve 6144 bytes plus alignment/saved registers; the
@@ -37,5 +44,5 @@ function=re.search(r'static int ui_round47a\(float value\)\{[^\n]+', (S/'ui_cont
 with tempfile.TemporaryDirectory(dir=V/'tmp') as td:
  d=Path(td);(d/'probe.c').write_text('#include <assert.h>\n'+function+'\nint main(void){assert(ui_round47a(0)==0);assert(ui_round47a(.49f)==0);assert(ui_round47a(.5f)==1);assert(ui_round47a(-.5f)==-1);assert(ui_round47a(1625.4f)==1625);return 0;}\n')
  subprocess.run(['cc','-O1',str(d/'probe.c'),str(nxdk/'lib/pdclib/platform/xbox/functions/math/lround.c'),'-lm','-o',str(d/'probe')],check=True);subprocess.run([str(d/'probe')],check=True)
-report=dict(nativeCompiled=True,title=title,xbeBytes=len(xbe),xbeSHA256=hashlib.sha256(xbe).hexdigest(),stackReserve=reserve,knownChains=checks,unsupportedLroundReference=False,boundedRoundingPassed=True,legacySDKHarness='Repaired: 42 SDK cases and 1806 sanitizer HUD cases pass; see SDK-Checks194.json and HUD-Checks194.json',warnings=['Ignored trigraph in inherited NPC text','Linker .edata merge warning'],scope='Private native compile/link and conservative known stack nesting plus 32KiB margin; not exhaustive stack analysis, hardware RAM measurement or Xbox/Xemu playtest',additionalReviewPassesCompleted=0,originalXboxPlaytested=False,xemuPlaytested=False)
+report=dict(nativeCompiled=True,title=title,xbeBytes=len(xbe),xbeSHA256=hashlib.sha256(xbe).hexdigest(),stackReserve=reserve,knownChains=checks,unsupportedLroundReference=False,boundedRoundingPassed=True,legacySDKHarness='Repaired; current SDK/HUD sanitizer results are recorded in SDK-Checks194.json and HUD-Checks194.json',warnings=['Ignored trigraph in inherited NPC text','Linker .edata merge warning'],scope='Private native compile/link and conservative known stack nesting plus 32KiB margin; not exhaustive stack analysis, hardware RAM measurement or Xbox/Xemu playtest',additionalReviewPassesCompleted=0,originalXboxPlaytested=False,xemuPlaytested=False)
 (V/'Native-Checks194.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))

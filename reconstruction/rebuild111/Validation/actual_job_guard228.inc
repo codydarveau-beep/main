@@ -1,0 +1,2 @@
+/* Exact production guard. */
+static int campaign_job_guard200(Combat*g,unsigned job){if(!questPins65||campaign_sandbox193(questPins65))return 1;Campaign200 c;int found=campaign_load200(questPins65,&c);if(!found)return 1;if(found<0){combat_message(g,"Your story record could not be read. Job change was not applied.");return 0;}if(campaign_career_allows200(c.lineage,job))return 1;combat_message(g,"Your chosen career is permanent. Promotions within that path remain available.");return 0;}

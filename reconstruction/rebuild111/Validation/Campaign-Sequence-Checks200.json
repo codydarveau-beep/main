@@ -4,9 +4,11 @@
   "roles": 3,
   "replyVariants": 2,
   "modalCompanionReplacementVerified": true,
+  "selectiveEmoteTickAndProductionDrawVerified": true,
+  "emoteGPUAllocationAndRasterBoundary": "Host recording; actual clip decoding and traversal",
   "activeCompanionDrawFixtures": 3,
-  "releaseCeiling": 12,
-  "privateOpeningGuard": 0,
+  "releaseCeiling": 36,
+  "privateOpeningGuard": 1,
   "phase": "normal candidate integration",
   "scope": "Actual packed world, scene/controller and dialogue layout, opening escort, authored evidence and encounter hooks, actor pose reader, camera projection and cleanup with host GPU recorder.",
   "limitations": [
@@ -16,5 +18,5 @@
     "World-map staging and local entrances are exercised; complete native travel and quest playthrough remains separate"
   ],
   "additionalReviewPassesCompleted": 0,
-  "sourceSHA256": "2debd021e87cd57559fe1579025ba5644c2c66dcae86521d1ac44522ed0e372e"
+  "sourceSHA256": "4083d27f0c6c7af82d5d091d9c9d1b2b2b8c11d933c351acc33b63c19452d9a8"
 }

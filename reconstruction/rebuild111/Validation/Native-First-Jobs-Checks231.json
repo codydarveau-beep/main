@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "scope": "Actual unmodified released bytecode from native NPC entry and production VM/player/job/world/career guard adapters: six classical first-job final quest branches through actual NPC open, chronology admission, full dispatcher, VM and production career guard, plus reachable missing-skill/material/funds conditions, Merchant cancellation and repeat turn-ins. Original native material consumption, Mage bonus, Merchant remaining fee, Thief score-based subsidy, Archer bow reward and earned campaign job proof remain unchanged. Earlier quest milestones/collected items are explicit prerequisites fixtures. Expanded careers and full native quest journeys remain separate; not an Xbox/Xemu playtest.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

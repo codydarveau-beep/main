@@ -1,0 +1,8 @@
+"""Normal whole-state alternating save regression; real codecs, host disk faults."""
+from pathlib import Path
+import subprocess,os,json
+R=Path(__file__).resolve().parent.parent;S=R/'Source';V=R/'Validation';env=os.environ.copy();env.update(ASAN_OPTIONS='detect_leaks=1:halt_on_error=1',UBSAN_OPTIONS='halt_on_error=1:print_stacktrace=1')
+with(V/'campaign-save-bundle229.log').open('w')as out:
+ subprocess.run(['cc','-O1','-g','-fsanitize=address,undefined','-fno-omit-frame-pointer','-I'+str(S),str(S/'test_campaign_save_bundle229.c'),'-lm','-lz','-o',str(V/'campaign-save-bundle229_asan')],stdout=out,stderr=subprocess.STDOUT,check=True)
+ subprocess.run([str(V/'campaign-save-bundle229_asan')],stdout=out,stderr=subprocess.STDOUT,env=env,check=True)
+(V/'Campaign-Save-Bundle-Checks229.json').write_text(json.dumps(dict(passed=True,scope='Actual save controller, four-domain bundle/character/sparse codecs and extension load/clean hooks with complete campaign, nineteen independent growth records, settings/vitals, guild/arcade scores, dispatch and native variables. Interrupted/lying writes preserve previous complete state, reload restores all domains, unsupported outer/character test-save versions are deliberately replaceable after loading the other known copy, per designer clarification. Host memory-backed disk faults, not FATX/power-loss playtesting; compatibility with obsolete test characters is deliberately outside release scope.',originalXboxPlaytested=False,xemuPlaytested=False,additionalReviewPassesCompleted=0),indent=2)+'\n');print('PASS complete persistent game-state bundle and alternating-save failures; host only.')
