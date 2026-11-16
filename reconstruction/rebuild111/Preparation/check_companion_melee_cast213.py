@@ -1,4 +1,4 @@
-"""Original Judia inline attack caller versus the production candidate tick."""
+"""Original Brann/Iruga inline attack caller versus the production candidate tick."""
 from pathlib import Path
 import runpy,ctypes,struct,json,random
 R=Path(__file__).resolve().parent.parent;V=R/'Validation'

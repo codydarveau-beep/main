@@ -1,4 +1,4 @@
-"""Compare original Judia basic/Double Strafe resolver with production impact step."""
+"""Compare original Iruga Envenom resolver with production impact step."""
 from pathlib import Path
 import sys,struct,ctypes,json,random,subprocess
 R=Path(__file__).resolve().parent.parent;V=R/'Validation';sys.path.insert(0,str(R.parent/'emulation-libs'))

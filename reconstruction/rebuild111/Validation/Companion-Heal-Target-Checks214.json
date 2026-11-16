@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "nativeComparisons": 1800,
+  "targetCoverage": {
+    "4294967294": 1542,
+    "4294967295": 149,
+    "1": 32,
+    "13": 54,
+    "4": 23
+  },
+  "scope": "Actual original shared support target helper: player/active ally/self priorities, preference thresholds and integer ratio ties, alive/initialized/map/full-HP filters, exact distance boundary and blocked-line fixture. Cast/payment behavior remains separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

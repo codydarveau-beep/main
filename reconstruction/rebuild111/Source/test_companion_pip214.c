@@ -1,0 +1,16 @@
+#include "test_companion_fixture205.h"
+#define main melee_fixture214
+#include "test_companion_melee213.c"
+#undef main
+static CampaignFollower200*prepare_pip214(unsigned jl){CampaignFollower200*m=prepare213(COMP200_PIP,40,jl);m->maxHP=100;return m;}
+static PartyGrowth200 saved214(unsigned id){unsigned char b[640];PartyGrowth200 p;assert(party_progress_load200(&record201,b)==1);party_growth_read200(b+16+id*32,&p);return p;}
+int main(void){
+ CampaignFollower200*m=prepare_pip214(99);unsigned rank=party_skill_rank193(m,SKILL_HEAL),cost=party_skill_cost200(SKILL_HEAL,rank),sp=m->sp;assert(rank);player201.hp=1;player201.peaceful=1;campaign_battle_tick200(&player201,.01f,0);assert(!m->pendingSkill&&m->lastSkill==SKILL_HEAL&&m->sp==sp-cost&&player201.hp==player201.maxhp&&player201.sp==77&&m->nextAttack==11&&m->attackUntil>player201.time);PartyGrowth200 p=saved214(COMP200_PIP);assert(p.sp==m->sp&&p.exp==1234&&p.job==40);
+ m=prepare_pip214(99);m->hp=1;assert(party_vital_store200(&record201,COMP200_PIP,m->level,1,m->sp));player201.peaceful=1;sp=m->sp;campaign_battle_tick200(&player201,.01f,0);assert(m->hp==100&&m->sp==sp-cost&&m->lastSkill==SKILL_HEAL);p=saved214(COMP200_PIP);assert(p.hp==100&&p.sp==m->sp&&p.exp==1234);
+ m=prepare_pip214(99);CampaignFollower200*a=campaignParty200.members+1;memset(a,0,sizeof(*a));a->id=COMP200_YUUFA;a->job=3;a->jobLevel=2;a->level=20;a->initialized=1;a->map=3;a->x=112;a->y=100;a->hp=1;a->maxHP=100;a->sp=10;a->life=4321;a->regenAt=1000;campaignParty200.count=2;unsigned char b[640];assert(party_progress_load200(&record201,b)==1);PartyGrowth200 friend={20,1234,2,0,3,1,10};assert(party_progress_put200(b,COMP200_YUUFA,&friend)&&party_progress_commit200(&record201,b));player201.peaceful=1;sp=m->sp;campaign_battle_tick200(&player201,.01f,0);assert(a->hp==100&&a->sp==10&&m->sp==sp-cost&&m->healTarget==COMP200_YUUFA);p=saved214(COMP200_YUUFA);assert(p.hp==100&&p.sp==10&&p.exp==1234);
+ m=prepare_pip214(1);assert(!party_skill_rank193(m,SKILL_HEAL));player201.hp=1;player201.peaceful=1;sp=m->sp;campaign_battle_tick200(&player201,.01f,0);assert(player201.hp==1&&m->sp==sp&&!m->pendingSkill);
+ m=prepare_pip214(99);player201.hp=1;player201.peaceful=1;m->x=165;sp=m->sp;campaign_battle_tick200(&player201,.01f,0);assert(player201.hp==1&&m->sp==sp&&m->x==165&&!m->pendingSkill);
+ m=prepare_pip214(99);player201.hp=1;player201.peaceful=1;unsigned revision=record201.revision;sp=m->sp;failGrowth200=1;campaign_battle_tick200(&player201,.01f,0);failGrowth200=0;assert(player201.hp==1&&m->sp==sp&&!m->pendingSkill&&record201.revision==revision);
+ m=prepare_pip214(99);sp=m->sp;rank=party_skill_rank193(m,SKILL_BASH);cost=party_skill_cost200(SKILL_BASH,rank);int hp=player201.mobs[0].hp;campaign_battle_tick200(&player201,.01f,0);assert(m->pendingSkill==SKILL_BASH&&m->sp==sp-cost);player201.time=m->impactAt+.001f;campaign_battle_tick200(&player201,.01f,0);assert(!m->pendingSkill&&player201.mobs[0].hp<hp&&m->sp==sp-cost&&player201.sp==77);
+ npc_state_clear55(&record201);puts("PASS actual Pip support/physical candidate: own learned Heal/Bash, saved player/ally/self recovery, one payment, progression and failed/range preservation. Host only; world activation and Xbox/Xemu acceptance remain separate.");
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "nativeComparisons": 1200,
+  "choiceCoverage": {
+    "0": 1190,
+    "1": 10
+  },
+  "scope": "Actual original Pip support branch with real native learning/target selection versus production helper: original raw Heal cost, learned-rank gating, player/ally/self/full-HP targets, range64/cooldown/preferences/line, failed save, exact timing/target life capture and unchanged player SP. Resolution is explicitly recorded at the caller boundary; actual Heal and physical integration remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

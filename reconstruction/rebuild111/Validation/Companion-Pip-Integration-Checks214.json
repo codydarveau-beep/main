@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "scope": "Actual Pip candidate ticks: own learned Heal/Bash and original priorities, real player/ally/self recovery with durable recipient/caster resources, one SP payment and unchanged player SP/experience, original rank/range and failed-save preservation, real physical fallback. Native target/choice/impact comparisons are separate; full roster activation and target playtests remain separate.",
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "additionalReviewPassesCompleted": 0
+}

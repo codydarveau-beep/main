@@ -37,6 +37,31 @@
       "evidence": "Release-Inputs194.json"
     },
     {
+      "name": "original shared companion healing target priorities",
+      "status": "passed",
+      "evidence": "Companion-Heal-Target-Checks214.json"
+    },
+    {
+      "name": "original Pip support choice/payment/initiation",
+      "status": "passed",
+      "evidence": "Companion-Pip-Cast-Checks214.json"
+    },
+    {
+      "name": "original Pip physical choice/payment/initiation",
+      "status": "passed",
+      "evidence": "Companion-Pip-Physical-Cast-Checks214.json"
+    },
+    {
+      "name": "original Pip physical impacts",
+      "status": "passed",
+      "evidence": "Companion-Pip-Basic-Checks214.json"
+    },
+    {
+      "name": "actual Pip support and physical candidate integration",
+      "status": "passed",
+      "evidence": "Companion-Pip-Integration-Checks214.json"
+    },
+    {
       "name": "original Brann and Iruga basic impacts",
       "status": "passed",
       "evidence": "Companion-Melee-Basic-Checks213.json"
