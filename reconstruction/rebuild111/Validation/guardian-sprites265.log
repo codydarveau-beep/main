@@ -1,0 +1,5 @@
+STATE bank7 guardian0 stream1 alpha1 anchor192,630 canvas384x768 frames3624
+STATE bank8 guardian0 stream1 alpha1 anchor192,630 canvas384x768 frames3760
+PASS bank7: 3624 alpha frames, 145472 metadata bytes, 39004596 transparent crop pixels.
+PASS bank8: 3760 alpha frames, 150912 metadata bytes, 27458362 transparent crop pixels.
+PASS actual sprite-only loader, all crop CRC/decompression, transparency, clipping,40Hz sequencing and map/cache cleanup for both Guardians.

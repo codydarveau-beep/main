@@ -9,7 +9,7 @@
     {
       "name": "expanded current HUD sanitizer/bounds cases",
       "status": "passed",
-      "cases": 1890,
+      "cases": 1922,
       "evidence": "HUD-Checks194.json"
     },
     {

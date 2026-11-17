@@ -1,0 +1,2 @@
+NPC7575 Hanson#nv mapnew_1-4 native-arrival796,84 reachable764 nearest28.8 at828,220 talkRadius28
+training-reach265_asan: Validation/training-reach265.c:5: main: Assertion `best<=28' failed.

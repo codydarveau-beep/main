@@ -1,0 +1,14 @@
+{
+  "source": "Released1.10 native executable, not newly chosen sizes",
+  "spriteAtlasAndAll348RectsMatch": true,
+  "nativeParticleFunction": "0x126100",
+  "normalParticleScale": 1.5,
+  "minimumParticleScale": 0.3,
+  "missScale": 0.64,
+  "receivedInitialScale": 0.6,
+  "criticalWidth": "max(42, digit width at style1 +12) times particle scale",
+  "criticalHeight": "36 times particle scale",
+  "geometryCases": 60,
+  "normalRestorationComplete": false,
+  "originalXboxPlaytested": false
+}

@@ -121,6 +121,8 @@ static int soullinker_revive60(Combat*g);
 static void soullinker_attacked60(Combat*g);
 static int soullinker_magic60(Combat*g,int target,int damage,int targeted);
 static void(*combat_npc_kill55)(void*,Combat*,CombatMob*);
+/* Original player-skill presentation, emitted at the actual hit boundary. */
+static void(*combat_skill_effect263)(Combat*,unsigned,float,float);
 static void(*combat_campaign_kill200)(Combat*,const CombatMob*);
 static void*combat_npc_context55;
 static void(*combat_racer_step164)(void*,Combat*,CombatMob*,float);

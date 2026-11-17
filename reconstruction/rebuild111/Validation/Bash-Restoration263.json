@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "scope": "Restored released native Bash path and focused host/native checks; not release-wide or target validation",
+  "nativeEvidence": {
+    "skill_hit_ex": "0xce1e0",
+    "bash_single_hit_branch": "0xce239-0xce401",
+    "impactDelaySeconds": 0.27,
+    "delayConstantVA": "0x74aed8",
+    "burst_tick": "0xce5f0",
+    "savedRankRestore": "0xce6c4-0xce743",
+    "singleHitSkipsCombo": "0xce81c-0xce825",
+    "castEffect16": "0xd9e85-0xd9eca",
+    "hitEffect1": "0xa8955-0xa89a1",
+    "fatalBlowAtImpact": "0xa8cf8 onward"
+  },
+  "changes": [
+    "Single player Bash hit scheduled270ms after cast; resources/cooldown still charged at cast",
+    "Queue readiness checked before costs",
+    "Rank captured/restored for queued hits; original context restored after impact",
+    "Fatal Blow existing chance/length moved to impact",
+    "No extra multi-hit total for one hit",
+    "Original16/1effect and audio cues emitted at cast/impact in separate bounded eight-entry player pool; companion effect pool preserved",
+    "NPC/companion native effect readers and global draw/cache caps reused; fixed position effects survive target death, cleared on campaign/map reset"
+  ],
+  "hostChecks": [
+    "test_bash263.c",
+    "test_damage262.c",
+    "test_timing49.c",
+    "test_review50c.c"
+  ],
+  "normalMeleeImpactStillToAudit": true,
+  "normalRestorationComplete": false,
+  "additionalRestorationReviewsCompleted": 0,
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false
+}

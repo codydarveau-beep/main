@@ -5,6 +5,8 @@ typedef struct{unsigned map;float x,y,toX,toY,start,end;}CampaignArrow212;
 static CampaignArrow212 campaignArrows212[8];static unsigned campaignArrowNext212;
 typedef struct{unsigned id,map,member,life;float at,x,y,z;unsigned positioned;}CampaignNativeFx212;
 static CampaignNativeFx212 campaignNativeFx212[8];static unsigned campaignNativeFxNext212;
+/* Player effects have their own eight slots; never evict companion effects. */
+static CampaignNativeFx212 combatNativeFx263[8];static unsigned combatNativeFxNext263;
 static void(*partyNativeSound212)(Combat*,unsigned);
 static void party_native_effect212(Combat*g,CampaignFollower200*m,unsigned effect){campaignNativeFx212[campaignNativeFxNext212++%8]=(CampaignNativeFx212){effect,g->mapId,m->id,m->life,g->time,0,0,0,0};if(partyNativeSound212)partyNativeSound212(g,effect);}
 

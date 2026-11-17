@@ -450,7 +450,7 @@
     },
     {
       "path": "Source/campaign_native_fx212.h",
-      "sha256": "0e1f4a60cfffb5f88f58288d5e8144e32e79566f87b6d0a8a2f46ca27d123889"
+      "sha256": "3cdccde650c2af3787799932f493157310fa94c07f76d4805f97cba0e761b0d5"
     },
     {
       "path": "Source/campaign_objectives200.h",
@@ -522,7 +522,7 @@
     },
     {
       "path": "Source/campaign_world200.h",
-      "sha256": "b868098ac6d323f10ff517ef56acfd00f56ee9eaa03eb88266181491771f0168"
+      "sha256": "7dde4e7b241ffbc2d3288bea9605df0b685197f2898cdeac4b185ff0bbc516c2"
     },
     {
       "path": "Source/career_access194.h",
@@ -794,7 +794,7 @@
     },
     {
       "path": "Source/combat.h",
-      "sha256": "2b81d19891ce430d5ef078fe2d597771b03d41e073a97bb9d2895e7ca49094a4"
+      "sha256": "3a04b163e1b67218fd8282dc1eaa0d4c169bc63c2cb1e76f15de511ee1467192"
     },
     {
       "path": "Source/combat_barriers.h",
@@ -814,7 +814,7 @@
     },
     {
       "path": "Source/companion_archer212.h",
-      "sha256": "3d47bf4b7d66e39ef806a04f16fc301d95e73af8f3250a87b6d49d809f30daa3"
+      "sha256": "c718a5c9141ad16d4c61109a7d720e607e6318882be1f502392f1fcce8ac35a7"
     },
     {
       "path": "Source/companion_art200.h",
@@ -994,7 +994,7 @@
     },
     {
       "path": "Source/controller_tokens64.h",
-      "sha256": "6cf648b905d71c048559a7ae8f6f03ad0d931d52846d265ffae2f55bcebfdc1f"
+      "sha256": "ac98c8785785356742437c40f6663e024bad22f5b7d3653fb939aebe4ba9b436"
     },
     {
       "path": "Source/controller_tolerance58.h",
@@ -1030,7 +1030,7 @@
     },
     {
       "path": "Source/damage_draw.h",
-      "sha256": "c40e1a2df66af591cf60c1ba98781668539871da30d0ea483338a370c38746d0"
+      "sha256": "acbe7d1e9350388298043a080ad27afcc7cc2bd0c6cd2c89d93f5189dbb9439e"
     },
     {
       "path": "Source/death_sound51.h",
@@ -1111,6 +1111,10 @@
     {
       "path": "Source/equipment_data52.h",
       "sha256": "dae6c7b75c06e51e82391fb2fc72173e0034ab7df25d1582d3e618fb65fa4ebc"
+    },
+    {
+      "path": "Source/equipment_preview260.h",
+      "sha256": "97ed429bcbb22413fc57eae90b95640d262586ec1db2c703824591bcfbbde8f3"
     },
     {
       "path": "Source/expanded_icons60.h",
@@ -1198,7 +1202,7 @@
     },
     {
       "path": "Source/frontend_assets56.c",
-      "sha256": "8ecd5e968caa80c7877358b8352c9ad0dd4c511d68d7db07c9a089e3f65c5a80"
+      "sha256": "c258ab1db4408323613123a7734d9c5bf2929bf04c23cbd7a7592cd36fe3b35d"
     },
     {
       "path": "Source/frontend_choices112.h",
@@ -1210,7 +1214,7 @@
     },
     {
       "path": "Source/frontend_prefs56.h",
-      "sha256": "eaad7e8201709c96eec2dec9f4d05bb255c9fa315eb7dc08ff3b899b03da231c"
+      "sha256": "ca73d762dde348a40b1ae84c7060716b43eaa4a38709d68195e0541dae9eefc5"
     },
     {
       "path": "Source/frontend_state56.h",
@@ -1218,7 +1222,7 @@
     },
     {
       "path": "Source/frontend_xbox56.h",
-      "sha256": "4faf48cd39895747aac08ec750aa93f7decb42a54bf085a56142d5fc3dc93fef"
+      "sha256": "952d8a87a4e33772d4800c09c00cb5cc0db73945b403d1155a6f6a421742b186"
     },
     {
       "path": "Source/game_rates164.h",
@@ -1242,7 +1246,7 @@
     },
     {
       "path": "Source/gpu.h",
-      "sha256": "7dcb01d61967fe5be1423e289471e4f67c4a91b4fef5046dd3b050ac0e0db53f"
+      "sha256": "4ef055143fe9ac169d33dab2bff3425ee480a927fd12b0ea58e3d6ecd8a16b0f"
     },
     {
       "path": "Source/gpu_ground45a.h",
@@ -1410,11 +1414,11 @@
     },
     {
       "path": "Source/hotbar_motion.h",
-      "sha256": "3824da95ce930c8f112c6c4e244ad313e3684b8bb5e63df8ec1f6cfbf6422cfe"
+      "sha256": "2999f9ccd8555b8d8e9d48a79f5e485b04cd65bf3e5b36ae9b55add1d9b22e01"
     },
     {
       "path": "Source/hud.h",
-      "sha256": "1de2fa488733fab56c87e310c3dfa1516809e2dd600dc1dbb2ec849793c5889e"
+      "sha256": "57d96e7ad9f092e7b9a9ccc079a722da8aa5d53d7d26f57908babb2b3979528d"
     },
     {
       "path": "Source/hud_batch.h",
@@ -1578,7 +1582,7 @@
     },
     {
       "path": "Source/main.c",
-      "sha256": "29cd671ca0fbcb60a1aaa024fb58b728b0061ea9c94a8d25c37d0ef581e09f81"
+      "sha256": "f12ef516d56ba8f6f8ebb9f59ddf05e1142644949fb671a07c974062b15f2f8b"
     },
     {
       "path": "Source/map_limits43.h",
@@ -1742,7 +1746,7 @@
     },
     {
       "path": "Source/native_admission194.h",
-      "sha256": "caf457bc42efc21ae68121c5846afc4dad0d688e34bc3ce8c7ce2ecaf75b4af0"
+      "sha256": "40fc816291d6bb8cef24803ea01d0f5c1fa4d33dff9da172b14d51d8cb63452f"
     },
     {
       "path": "Source/normal_towns52.h",
@@ -1818,7 +1822,7 @@
     },
     {
       "path": "Source/npc_dialogue_draw55.h",
-      "sha256": "97257c6c22d486094ada67fcf9ec1583193615df80e7e11504fb6c2190832ff7"
+      "sha256": "def4bc9b932928b249b00093f11ba441a8afe3a201e6e3ea0849cd01e7eca37e"
     },
     {
       "path": "Source/npc_dialogue_layout172.h",
@@ -2122,7 +2126,7 @@
     },
     {
       "path": "Source/options61.h",
-      "sha256": "63f2946ec0269dcfe7ce592df29c97f0c7594879e2950de40f64c0765d1862bd"
+      "sha256": "2924836ab27b73fb052e7f82e7a516e098fe1f60dbee1553ec86bd99807eaefd"
     },
     {
       "path": "Source/owned_codec52.h",
@@ -2150,15 +2154,15 @@
     },
     {
       "path": "Source/pause_draw.h",
-      "sha256": "00dfb5003bb81aa8705a1bb337233e580bbe9405a2037640e48fff917fcaf8f3"
+      "sha256": "49bbab79b7b44378e96878e03d365637a1129906038db67e7ffaa226ca3c2583"
     },
     {
       "path": "Source/pause_settings61.h",
-      "sha256": "da72d3597937702768ef63b2ed0ad4972a0719fd134af4d7bac81ec376a7cb07"
+      "sha256": "60cf51963160b5f1289683f6ce47b0e57f32541bc01468ad044378dddfbf83f9"
     },
     {
       "path": "Source/pause_ui.h",
-      "sha256": "2ca5155068d6084906badb3a06e92a703436db4797304162284d18f0165f1903"
+      "sha256": "7c7d7696429c1d2c46c52bf0fc0bd2841304e47f9fb3766acdb5f7c289487fa5"
     },
     {
       "path": "Source/pbkit_hardware54.c",
@@ -2174,7 +2178,7 @@
     },
     {
       "path": "Source/play_options52.h",
-      "sha256": "3ee29fc7bfde1f59196f4685f320a2bfaa7a9948e5b0d5031bb3ca2bf69f1b22"
+      "sha256": "889b6060be0eddea77982288e14e16621a45790b6a3304b63dd49eb0a507560f"
     },
     {
       "path": "Source/player_contact.h",
@@ -2230,11 +2234,11 @@
     },
     {
       "path": "Source/quest_draw65.h",
-      "sha256": "2b45f13f01b56de0918a8a3cdb08490d9bed6100228ecf1a4d0add13cce11fb7"
+      "sha256": "a69f11cf45baf352242823aa4ca770c05ea84aaff33b71a560945c2ff63de544"
     },
     {
       "path": "Source/quest_journal65.h",
-      "sha256": "abb27b0f668c9d5dc92bfedbd18e4adf186ccb5e6e220fae990ebb7252d09f5c"
+      "sha256": "f8f2d04cd4782cfb14b97ddfad5f1d98bed6ca59e811875e165db0a4325692ee"
     },
     {
       "path": "Source/quest_journal_data65.h",
@@ -2438,7 +2442,7 @@
     },
     {
       "path": "Source/skills.h",
-      "sha256": "3184cd9f7848334816d7fd2a03ff5e2a45959a1b600998cba5bfa089d74564a2"
+      "sha256": "d6b7875941616a59ce11e7849689e52f3cd6ea236af601b53adee49dff7680b2"
     },
     {
       "path": "Source/skills_ui.h",
@@ -2446,7 +2450,7 @@
     },
     {
       "path": "Source/skin_assets.c",
-      "sha256": "c5cd3fc9ec89a13af1b09423fd635229e58e6009cdcc8c332a3ade5535783fa7"
+      "sha256": "2ccd1b2940b99ff21c010e5dff19841ee77a8037950c6643503ba1adfc5bd088"
     },
     {
       "path": "Source/skin_colors.h",
@@ -2518,7 +2522,7 @@
     },
     {
       "path": "Source/story_departure193.h",
-      "sha256": "ce28418cd9b392b39ba8e82c568d180b52116361affacb798bbd06ccda1729c8"
+      "sha256": "cdcfd7ca76b3df43070d88c97eca4e8df57f7ddd33c7cffbd5477af3bf1b9cbd"
     },
     {
       "path": "Source/story_routes199.h",
@@ -2562,7 +2566,7 @@
     },
     {
       "path": "Source/target_marker40.h",
-      "sha256": "812c3379d486aa4db6c3065266354e0d703d8ef454f534188bcbcbec49318e78"
+      "sha256": "be554ee605780831295ae622ae014c1ffd2bebc69db995f6d95bd834c06f0857"
     },
     {
       "path": "Source/target_select47.h",
@@ -3414,7 +3418,7 @@
     },
     {
       "path": "Source/test_ui42.c",
-      "sha256": "b98b01e46a5a5d8c99dec67b5d24ef5bed328d0af06778c35713d484af3d6480"
+      "sha256": "7f71bf9623288a08677f3f798b1b1cc8907b3b65c5b77470275083296cff749e"
     },
     {
       "path": "Source/test_ui49.c",
@@ -3610,7 +3614,7 @@
     },
     {
       "path": "Source/water_mode190.h",
-      "sha256": "b5a7e92fe54b2843590cc11b41253fb7acd3e719224b6954cfa65ce79c022689"
+      "sha256": "bb46381a688c4484d97a065efe768c98803025bf9dffdd2ea4bfefcbe4d0b8e5"
     },
     {
       "path": "Source/water_original190.h",
@@ -3629,8 +3633,16 @@
       "sha256": "a15d5c01c1e920732cf3d6d5ffa7f794b6ecf46a5c743d834c7e942a9a433416"
     },
     {
+      "path": "Source/willow_art259.h",
+      "sha256": "c5a4cf8a0e4a993e190eeebc926030b9c785a43056711dfd92ab39b2924af734"
+    },
+    {
+      "path": "Source/willow_death259.h",
+      "sha256": "626dbe2f917a87fca788ecbbc2a17a33654669c6a27ec1a27a99cbc991a741b6"
+    },
+    {
       "path": "Source/window_draw.h",
-      "sha256": "11ae049350125f9f21eba48bf38fff8eb06921894abfc768d7049ea484730c88"
+      "sha256": "c66dc701b2a595d94e451cf2e9f7e386a7711f4cf2b66ae13cb35faa9464409f"
     },
     {
       "path": "Source/window_layout161.h",
@@ -3638,7 +3650,7 @@
     },
     {
       "path": "Source/window_ui.h",
-      "sha256": "fce7a7dccd8a6c9ff63e3686013d54144e85f9784f03da8389227462c06dce99"
+      "sha256": "3dca41c64278a55ee9e1e157f6b6561f29dab0df9d830ee2e8e12bbab8fa5f70"
     },
     {
       "path": "Source/world_availability44.h",
@@ -3666,7 +3678,7 @@
     },
     {
       "path": "Source/world_maps.h",
-      "sha256": "555849f4870a62a8793767aedcc59282ca79788bcc6201412fa9632845b3372c"
+      "sha256": "e6ddd34431b8637d5f92c14e4c493984312619e25e6ea6083f5fd47ed10c5378"
     },
     {
       "path": "Source/world_regions51.h",
@@ -3677,7 +3689,7 @@
       "sha256": "2388f6fa112ebb6fb9a860be872b853f5eb915c41266f2a9a7194e2c3ba5678e"
     }
   ],
-  "sourceDigest": "81b3cb77e8a3a230fe2bac63a97afd6d40073d35915f88f624d2170e9a1d46fb",
+  "sourceDigest": "2daadfb29024cec161ae7e0b763c6b8c50ae31f7b3a9bfad64aaead271c8b56e",
   "scope": "Fresh actual sanitizer integration and independent original-native comparisons for all restored companion careers, persistence/growth/learning, mixed parties, roster/controller and production world binding, plus travel/policy/guild integration regression.",
   "limitations": "Bounded host/native CPU checks; full chapter/travel/native-job/save context, GPU/64MB/target acceptance and final packaging remain separate.",
   "normalReleaseWideChecksComplete": false,

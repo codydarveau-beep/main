@@ -3,7 +3,7 @@
   "cases": 1922,
   "legacyCases": 1642,
   "currentSettingsAndWindowCases": 280,
-  "peakRecordedQuads": 781,
+  "peakRecordedQuads": 789,
   "capacity": 4096,
   "sanitizers": [
     "address",

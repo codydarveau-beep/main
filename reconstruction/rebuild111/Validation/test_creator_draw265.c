@@ -1,0 +1,15 @@
+#define main old_ui265
+#include "../Source/test_window_render.c"
+#undef main
+#include "frontend_layout58.h"
+#include "npc_editor55.h"
+static void frontend_stat_line112(int x,int y,int nx,int ny){int dx=abs(nx-x),dy=-abs(ny-y),sx=x<nx?1:-1,sy=y<ny?1:-1,error=dx+dy;for(;;){pb_fill(x,y,1,1,0xff8999b2);if(x==nx&&y==ny)break;int e=2*error;if(e>=dy){error+=dy;x+=sx;}if(e<=dx){error+=dx;y+=sy;}}}
+static void frontend_stat_web58(const unsigned char stats[6],int selected){
+ static const unsigned around[6]={0,1,2,3,5,4};float px[6],py[6];for(unsigned i=0;i<6;i++){unsigned a=around[i],b=around[(i+1)%6];frontend_stat_line112(frontStatPoints58[a][0],frontStatPoints58[a][1],frontStatPoints58[b][0],frontStatPoints58[b][1]);frontend_stat_line112(FRONT_STAT_X112,FRONT_STAT_Y112,frontStatPoints58[a][0],frontStatPoints58[a][1]);}
+ for(unsigned i=0;i<6;i++){unsigned n=around[i];float r=stats[n]/9.f;px[i]=FRONT_STAT_X112+(frontStatPoints58[n][0]-FRONT_STAT_X112)*r;py[i]=FRONT_STAT_Y112+(frontStatPoints58[n][1]-FRONT_STAT_Y112)*r;}
+ for(int y=136;y<261;y++){float left=1000,right=-1000;for(unsigned i=0;i<6;i++){unsigned j=(i+1)%6;if((py[i]<=y&&py[j]>y)||(py[j]<=y&&py[i]>y)){float x=px[i]+(y-py[i])*(px[j]-px[i])/(py[j]-py[i]);if(x<left)left=x;if(x>right)right=x;}}if(right>left)pb_fill((int)ceilf(left),y,(int)floorf(right)-(int)ceilf(left)+1,1,0x4065dffa);}
+ static const char*names[]={"STR","AGI","VIT","INT","DEX","LUK"};for(unsigned n=0;n<6;n++){int x=frontStatPoints58[n][0],y=frontStatPoints58[n][1];ui_cell(x-25,y-10,50,21,selected==(int)n);ui_scaled(x-20,y-6,.75f,"%s %u",names[n],stats[n]);}
+}
+static void frontend_keyboard56(NpcEditor55*e){unsigned count=npc_editor_count55(e),rows=(count+9)/10;int height=110+rows*20,top=(480-height)/2;ui_panel(120,top,400,height,"Character name",0,-1);ui_text(136,top+30,"%.19s",e->text);for(unsigned k=0;k<count;k++){unsigned x=136+(k%10)*36,y=top+64+(k/10)*20;ui_cell(x,y,34,19,k==e->choice);ui_scaled(x+5,y+2,.8f,k==count-1?"OK":"%c",k==count-1?' ':npcEditorKeys55[k]);}ui_hint64(134,top+height-29,.75f,"A: type  X: erase  Y: OK  B: cancel");}
+
+int main(void){static float vertices[HUD_BATCH_QUADS*HUD_QUAD_FLOATS];batch.vertices=vertices;skin_init();unsigned peak=0;for(int vertex=-1;vertex<6;vertex++){batch.count=0;unsigned char stats[6]={5,5,5,5,5,5};if(vertex>=0)front_stat_adjust58(stats,vertex,4);ui_panel(430,96,162,294,"Starting stats",1,-1);frontend_stat_web58(stats,vertex);NpcEditor55 e={.string=1,.choice=26};snprintf(e.text,sizeof(e.text),"Character name");frontend_keyboard56(&e);for(unsigned q=0;q<batch.count;q++){const float*v=vertices+q*HUD_QUAD_FLOATS;for(unsigned c=0;c<4;c++){assert(v[c*5]>=0&&v[c*5]<=640&&v[c*5+1]>=0&&v[c*5+1]<=480);}}if(batch.count>peak)peak=batch.count;}free(skinTexture);fprintf(stderr,"PASS actual creator web/name-modal layouts: all6selected vertices/default, original pair endpoints, shared atlas and screen bounds; peak%uquads. GPU prefix ownership checked separately; target raster/controller acceptance pending.\n",peak);}

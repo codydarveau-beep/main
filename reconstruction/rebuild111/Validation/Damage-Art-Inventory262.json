@@ -1,0 +1,18 @@
+{
+  "rects": 348,
+  "identicalNativeRectTableOffset": 7560536,
+  "atlasCandidates": [
+    {
+      "offset": "0x449658",
+      "packed": 23235,
+      "matchesCurrent": true,
+      "sha256": "2e275cca24d4e669765b1810b4082161053c482be642db78dc650e12e4688d82"
+    },
+    {
+      "offset": "0x452b34",
+      "packed": 19432,
+      "matchesCurrent": false,
+      "sha256": "12c12cdebad45dc0e7a8b71fea1e21408c7851aeb26db01e3d873ef380a3b8f6"
+    }
+  ]
+}

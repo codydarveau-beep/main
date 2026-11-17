@@ -1,0 +1,13 @@
+#include <assert.h>
+#include <stdio.h>
+#include "combat.h"
+static const unsigned guardianGroups7[5][3]={{0,81,2000},{81,81,2000},{162,62,1500},{224,81,2000},{305,148,3667}};
+static const unsigned guardianGroups8[5][3]={{0,135,3333},{135,76,1867},{211,75,1833},{286,62,1500},{348,122,3000}};
+#include "guardian_motion53.h"
+static Combat g;
+int main(void){for(unsigned bank=7;bank<=8;bank++){combat_init(&g,1000,1000,NULL,NULL);memset(g.mobs,0,sizeof(g.mobs));g.time=10;CombatMob*m=g.mobs;m->hp=1000000;m->kind=bank==7?448:449;m->life=1;m->attackAt=m->hurtAt=-100;assert(combat_enemy_delay164(&g,m)==.25f);GuardianMotion53 state={0};unsigned advanced=0;float previous=-1;for(unsigned n=0;n<40;n++){g.time=10+n*.025f;if(n%10==0)m->attackAt=g.time;GuardianPose53 p=guardian_motion_rate162(&state,&g,m,bank,guardian_attack_rate164(&g,m,bank));assert(p.group==2&&!p.repeat);if(p.elapsed>previous)advanced++;previous=p.elapsed;}assert(advanced>=35);}
+ combat_init(&g,1000,1000,NULL,NULL);memset(g.mobs,0,sizeof(g.mobs));g.hp=g.maxhp=100000;g.time=10;CombatMob*m=g.mobs;m->enabled=1;m->hp=1000000;m->kind=449;m->life=1;m->x=1096;m->y=1000;unsigned peak=0;for(unsigned n=0;n<100;n++){g.time=10+n*.025f;if(n<60&&n%10==0)combat_shot_begin45(&g,m,100);combat_shot_tick45(&g,m);unsigned pending=0;for(unsigned i=0;i<3;i++)pending+=m->arrows164[i].phase!=0;if(pending>peak)peak=pending;}assert(peak==3&&g.hp==99400);for(unsigned i=0;i<3;i++)assert(!m->arrows164[i].phase);
+ combat_shot_begin45(&g,m,100);m->hp=0;g.time+=.05f;combat_shot_tick45(&g,m);for(unsigned i=0;i<3;i++)assert(!m->arrows164[i].phase);assert(g.hp==99400);
+ for(unsigned kind=448;kind<=449;kind++){combat_init(&g,1000,1000,NULL,NULL);memset(g.mobs,0,sizeof(g.mobs));g.hp=g.maxhp=10000000;g.debugPlayerInvincible52=1;g.time=10;CombatMob*mob=g.mobs;mob->enabled=1;mob->kind=kind;mob->life=1;mob->hp=1000000;mob->x=mob->homeX=kind==448?1008:1032;mob->y=mob->homeY=1000;mob->aggro=1;mob->attackAt=mob->hurtAt=-100;mob->cooldown=0;unsigned attacks=0;float previous=mob->attackAt;for(unsigned n=0;n<400;n++){combat_tick(&g,.005f,0,0);if(mob->attackAt!=previous){attacks++;previous=mob->attackAt;}}if(attacks<7||attacks>9)fprintf(stderr,"Guardian kind%u actual AI attacks%u hp%d mobhp%d cooldown%f cast%f pos%f,%f time%f aggro%d\n",kind,attacks,g.hp,mob->hp,mob->cooldown,mob->castUntil48,mob->x,mob->y,g.time,mob->aggro);assert(attacks>=7&&attacks<=9);}
+ puts("PASS bothGuardian full-source attack cycles at4persecond with advancing frames; six arrows overlap without windup/flight overwrite and land exactly once; death cancels unlaunched arrows.");
+}

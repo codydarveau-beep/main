@@ -365,3 +365,8 @@ Designer reports extensive1.9.x UI/control/render regressions in delivered1.11.0
 ## Active restoration checkpoint261
 
 Designer-reported regressions are being restored; this is not a new packaged candidate. See Preparation/RESTORATION-CURRENT252.md and Validation/Restoration-Progress261.json for current source, fixed behavior, remaining actual work and target-only acceptance. Focused normal host/native checks have passed for the implemented batch; full restoration normal checks are incomplete. Additional restoration reviews0/2, unstarted. Old release-wide/review/package reports do not accept this changed source. Preserve full story/companion/guild/arcade/dispatch scope and original64MB Xbox target.
+
+
+## Active restoration checkpoint266
+
+Continue via Preparation/RESTORATION-CURRENT252.md and Validation/Restoration-Progress266.json. Damage/Bash, tutorial, creator and reachable graduation-room repairs passed focused host/native checks; normal restoration remains incomplete, extra reviews0/2, no corrective ZIP. Ordinary basic melee timing and remaining preservation integration continue. No Xbox/Xemu playtest claim.

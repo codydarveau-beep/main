@@ -1,0 +1,13 @@
+#define MYRO_HOST 1
+#include <assert.h>
+#include <stdio.h>
+#include <string.h>
+#include "combat.h"
+#include "developer.h"
+static Combat g;static unsigned cues[32],cueCount;static float cueAt[32];
+static void cue(Combat*game,unsigned effect,float x,float y){assert(x>=0&&y>=0&&cueCount<32);cues[cueCount]=effect;cueAt[cueCount++]=game->time;combat_sound_at(game,effect==16?SOUND_NPC_FIRST64+34:SOUND_NPC_FIRST64+44,0);}
+static void init(void){combat_init(&g,1500,1500,NULL,NULL);dev_class_preset(&g,1);memset(g.mobs,0,sizeof(g.mobs));g.debugFreeze=1;g.target=0;CombatMob*m=g.mobs;m->enabled=1;m->kind=0;m->hp=100000;m->life=33;m->x=1508;m->y=1500;g.sp=g.maxsp;g.ranks[0]=10;g.ranks[41]=1;g.soundRead=g.soundWrite=0;cueCount=0;combat_skill_effect263=cue;}
+int main(void){init();int hp=g.mobs[0].hp,sp=g.sp;assert(skill_cast(&g,2,1508,1500));assert(g.mobs[0].hp==hp&&!g.mobs[0].stun&&!g.damageNext&&g.sp==sp-skill_cost(&g,2));assert(cueCount==1&&cues[0]==16&&cueAt[0]==0);assert(g.bursts49[0].active&&g.bursts49[0].hits==1&&g.bursts49[0].rank==10);float at=g.bursts49[0].next;assert(fabsf(at-.27f)<.00001f);g.time=.269f;skill_burst_tick49(&g);assert(g.mobs[0].hp==hp&&!g.damageNext&&cueCount==1);g.fxSkill=3;g.fxRank48=1;g.time=.27f;skill_burst_tick49(&g);assert(g.mobs[0].hp<hp&&g.damageNext==1&&g.damage[0].at==g.time);assert(!g.bursts49[0].active&&cueCount==2&&cues[1]==1&&cueAt[1]==g.time);assert(g.fxSkill==3&&g.fxRank48==1);assert(g.soundWrite-g.soundRead==2&&g.soundDue[1]==g.time);int after=g.mobs[0].hp;skill_burst_tick49(&g);assert(g.mobs[0].hp==after&&g.damageNext==1);
+for(unsigned failure=0;failure<4;failure++){init();hp=g.mobs[0].hp;assert(skill_cast(&g,2,1508,1500));if(failure==0)g.mobs[0].life++;else if(failure==1)g.mapId++;else if(failure==2)g.jobId++;else g.hp=0;g.time=.3f;skill_burst_tick49(&g);assert(g.mobs[0].hp==hp&&!g.damageNext&&!g.bursts49[0].active&&cueCount==1);}
+init();for(unsigned i=0;i<SKILL_BURSTS49;i++)g.bursts49[i].active=1;sp=g.sp;hp=g.mobs[0].hp;assert(!skill_cast(&g,2,1508,1500)&&g.sp==sp&&g.mobs[0].hp==hp&&!g.damageNext&&!cueCount);
+init();g.fxSkill=17;g.fxRank48=4;skill_hit_ex(&g,0,100,0,2);assert(g.mobs[0].hp<100000&&g.bursts49[0].active);int first=g.mobs[0].hp;g.time=.199f;skill_burst_tick49(&g);assert(g.mobs[0].hp==first);g.time=.2f;skill_burst_tick49(&g);assert(g.mobs[0].hp<first&&!g.bursts49[0].active);printf("PASS actual Bash: original270ms impact, native16/1cast-hit cues, costs once, no early HP/numbers/stun, captured rank restored after another cast, one hit without duplicate total, target life/map/job/KO cancellation, queue-full denial keeps SP, Double Strafe200ms sequence retained. Host only.\n");}

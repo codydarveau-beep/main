@@ -1,0 +1,3 @@
+NPC7575 Hanson#nv mapnew_1-4 native-arrival796,84 reachable764 nearest28.8 at828,220 talkRadius36
+NPC7576 Bruce#nv mapnew_1-4 native-arrival796,84 reachable764 nearest0.0 at732,180 talkRadius28
+PASS actual graduation-room walk/height/scenery/room collision flood from actual native combat-exam arrival reaches interaction range of Hanson and Bruce. Actual NPC selection verified from those clear-floor points. Visual occlusion/controller comfort and natural training OnInit remain target acceptance.
