@@ -794,7 +794,7 @@
     },
     {
       "path": "Source/combat.h",
-      "sha256": "3a04b163e1b67218fd8282dc1eaa0d4c169bc63c2cb1e76f15de511ee1467192"
+      "sha256": "70c885b6e17fd039eb592014711b2c92ca72339c541186662ee5dd24d402236c"
     },
     {
       "path": "Source/combat_barriers.h",
@@ -1206,11 +1206,11 @@
     },
     {
       "path": "Source/frontend_choices112.h",
-      "sha256": "de9b6c0484bc3d9c72a510a088bd47ff4d8383045561fb214855c9e81ab2414a"
+      "sha256": "8e787263a6f9f0492bb23aac237553a0c943e538f31839696b2c407e45af0dd2"
     },
     {
       "path": "Source/frontend_layout58.h",
-      "sha256": "f51d3f14c00370a828047aff8e0038edda4dc22455a3973670294ac913675042"
+      "sha256": "9d029a45a6c6d4b642a29e02858960ac5803c8a264dd2be5933fb373a93cae83"
     },
     {
       "path": "Source/frontend_prefs56.h",
@@ -1222,7 +1222,7 @@
     },
     {
       "path": "Source/frontend_xbox56.h",
-      "sha256": "952d8a87a4e33772d4800c09c00cb5cc0db73945b403d1155a6f6a421742b186"
+      "sha256": "74dec3888efe2ec7a261224eae4360979f2cb466e4c9105df6e66e7dce7e961a"
     },
     {
       "path": "Source/game_rates164.h",
@@ -1818,11 +1818,11 @@
     },
     {
       "path": "Source/npc_dialogue55.h",
-      "sha256": "582be6924cc5fb8e1ad3ad309e8123d00df282bef6f05643e16e1e6083ea2955"
+      "sha256": "36d0848c2d64a06bdecd6071b312c6562a2f6159bbaac14785b5514718cf6e4f"
     },
     {
       "path": "Source/npc_dialogue_draw55.h",
-      "sha256": "def4bc9b932928b249b00093f11ba441a8afe3a201e6e3ea0849cd01e7eca37e"
+      "sha256": "bd580ba40ba844a00d754647d050dcc4a17b7e1fed6b05aeb79b946801a00ac1"
     },
     {
       "path": "Source/npc_dialogue_layout172.h",
@@ -1882,7 +1882,7 @@
     },
     {
       "path": "Source/npc_game55.h",
-      "sha256": "6589a95f303077294b8e91372e675ae8028841b8832f2a24c17739f73a0bdd37"
+      "sha256": "e711a58ed9e7774d585a689b8044d86fdbb08701ddef4ea0a9eadfbf0c63fa7f"
     },
     {
       "path": "Source/npc_game_xbox55.h",
@@ -2030,7 +2030,7 @@
     },
     {
       "path": "Source/npc_scene55.h",
-      "sha256": "0061f4ca8fffd1bbd98e114355e85e8694249299e1d142ce5d4af6cf71c4bf9a"
+      "sha256": "48c36d6bfbf9b34a3271f4f85315d41785b621fabc6734fff62f6d3efd7817ae"
     },
     {
       "path": "Source/npc_shop55.h",
@@ -2234,11 +2234,11 @@
     },
     {
       "path": "Source/quest_draw65.h",
-      "sha256": "a69f11cf45baf352242823aa4ca770c05ea84aaff33b71a560945c2ff63de544"
+      "sha256": "f1ee58b672a6b8b225a250100da85bbc5382a0708ba91e7dd48777c704fe1d1c"
     },
     {
       "path": "Source/quest_journal65.h",
-      "sha256": "f8f2d04cd4782cfb14b97ddfad5f1d98bed6ca59e811875e165db0a4325692ee"
+      "sha256": "b427c0810fb4c330047eb8bf00bf7236b8a7dea0910b2806158c387a2fe75f38"
     },
     {
       "path": "Source/quest_journal_data65.h",
@@ -2442,7 +2442,7 @@
     },
     {
       "path": "Source/skills.h",
-      "sha256": "d6b7875941616a59ce11e7849689e52f3cd6ea236af601b53adee49dff7680b2"
+      "sha256": "67694de51fbe4ef111168293c24ce961112df40e527a0544d1cda1e0f0b4fa4d"
     },
     {
       "path": "Source/skills_ui.h",
@@ -3557,6 +3557,10 @@
       "sha256": "e9ba39094704194ec87952ef5625cb3a5c66d460a39b493c30e6af25f4eb3315"
     },
     {
+      "path": "Source/tutorial_text264.h",
+      "sha256": "4d8953c2627de16649c933078800b926289ae8374d1b9ab0a9d2e45df391ac1e"
+    },
+    {
       "path": "Source/ui_assets.c",
       "sha256": "702d7e8929cbff2cd92afc58363a34bd2111bfb7fe55595e31d1625f5fcf9058"
     },
@@ -3642,7 +3646,7 @@
     },
     {
       "path": "Source/window_draw.h",
-      "sha256": "c66dc701b2a595d94e451cf2e9f7e386a7711f4cf2b66ae13cb35faa9464409f"
+      "sha256": "83152ce8af1c76705103c69f383a5f57834b307439944f3a160ab4480193be76"
     },
     {
       "path": "Source/window_layout161.h",
@@ -3689,7 +3693,7 @@
       "sha256": "2388f6fa112ebb6fb9a860be872b853f5eb915c41266f2a9a7194e2c3ba5678e"
     }
   ],
-  "sourceDigest": "2daadfb29024cec161ae7e0b763c6b8c50ae31f7b3a9bfad64aaead271c8b56e",
+  "sourceDigest": "6e4e10698b29d49317bcb0d44ec534ddc13bc5eb955697353f3c7c42e3c26cff",
   "scope": "Fresh actual sanitizer integration and independent original-native comparisons for all restored companion careers, persistence/growth/learning, mixed parties, roster/controller and production world binding, plus travel/policy/guild integration regression.",
   "limitations": "Bounded host/native CPU checks; full chapter/travel/native-job/save context, GPU/64MB/target acceptance and final packaging remain separate.",
   "normalReleaseWideChecksComplete": false,

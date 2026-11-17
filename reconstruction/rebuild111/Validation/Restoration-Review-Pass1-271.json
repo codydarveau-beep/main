@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "phase": "restoration additional review pass1 of2",
+  "startedUTC": "2026-11-17T05:57:28.553279+00:00",
+  "completedUTC": "2026-11-17T05:59:28.630977+00:00",
+  "normalCompletedBeforeReview": true,
+  "normalEvidence": "Normal-Complete-Checks244.json",
+  "preservationEvidence": "Restoration-Normal-Checks270.json",
+  "sourceDigest": "476321dafcec4166c719117b068d7f28cc45ce0adf2a4363ae1c2965478771be",
+  "sourceUnchanged": true,
+  "reviewedFiles": {
+    "combat.h": "70c885b6e17fd039eb592014711b2c92ca72339c541186662ee5dd24d402236c",
+    "skills.h": "67694de51fbe4ef111168293c24ce961112df40e527a0544d1cda1e0f0b4fa4d",
+    "quest_journal65.h": "b427c0810fb4c330047eb8bf00bf7236b8a7dea0910b2806158c387a2fe75f38",
+    "npc_travel_preflight194.h": "f65439a7ca95347843fbb3f522fb0de4ea3574655c9ac1d130a4a01e076fdf87",
+    "story_departure193.h": "cdcfd7ca76b3df43070d88c97eca4e8df57f7ddd33c7cffbd5477af3bf1b9cbd",
+    "tutorial_text264.h": "4d8953c2627de16649c933078800b926289ae8374d1b9ab0a9d2e45df391ac1e",
+    "npc_dialogue55.h": "36d0848c2d64a06bdecd6071b312c6562a2f6159bbaac14785b5514718cf6e4f",
+    "campaign_world200.h": "7dde4e7b241ffbc2d3288bea9605df0b685197f2898cdeac4b185ff0bbc516c2",
+    "window_ui.h": "3dca41c64278a55ee9e1e157f6b6561f29dab0df9d830ee2e8e12bbab8fa5f70",
+    "window_layout161.h": "07441667a4ef5bf83b9cfdf7bea593122a690766c38bb5a8536c9e2953f5ae5b",
+    "native_admission194.h": "40fc816291d6bb8cef24803ea01d0f5c1fa4d33dff9da172b14d51d8cb63452f",
+    "npc_scene55.h": "48c36d6bfbf9b34a3271f4f85315d41785b621fabc6734fff62f6d3efd7817ae",
+    "save_store.h": "9a423659ad1af9e9f840d3babe0cb04cce5870432be758fa915b56bb15773e22"
+  },
+  "findings": [
+    {
+      "area": "Session/character ownership",
+      "result": "New sanitizer probe executes exact production journal/session reset across different characters at the same state address, including both newly added player and existing companion native-FX pools. Distinct companion EXP/vitals/settings remain, resources clear.",
+      "evidence": [
+        "test_session_review271.c",
+        "actual_session_reset271.inc",
+        "session-review271.log"
+      ]
+    },
+    {
+      "area": "Delayed basic/Bash transactions",
+      "result": "Basic preflight obtains hit capacity before ammo, calculates original damage, and resolves HP/numbers/sounds/rewards together. Packet copied/deactivated before recursive multi-hit/proc entry; selection changes cannot clear a newer target. Native Bash rank is captured/restored and single-hit totals suppressed. Sit/Play Dead correction preceded the current full normal run. Source shape/save format unchanged.",
+      "evidence": [
+        "restoration270-basic-contact.log",
+        "restoration270-bash.log",
+        "restoration270-bash-fx.log",
+        "restoration270-packet-timing.log",
+        "restoration270-legacy-combat-regression.log"
+      ]
+    },
+    {
+      "area": "Quest/fee/script preservation",
+      "result": "Quest details/marks remain read-only, counter-ready precedes expiry and timer-only cooldowns never become invented failures. Travel preflight reads native menu ordinals/temp arrays before answer mutation; targeted Edwin filtering preserves original ordinals and is isolated by owner. No script pack/material/cost/reward replacement.",
+      "evidence": [
+        "restoration270-quests.log",
+        "restoration270-quest-marks.log",
+        "Integration-Checks194.json",
+        "Native-Ferry-Checks237.json",
+        "restoration270-tutorial-branches.log",
+        "Release-Inputs194.json"
+      ]
+    },
+    {
+      "area": "Tutorial/career boundary",
+      "result": "Empty pages preserve select/prompt/input/sleep and close2 flow; only tutorial speaker-only headers skip. Hanson admission is opening-only and radius change is restricted to its map/program. Effective opening redirect does not grant a job or modify native graduation scripts. First Aid/Play Dead grant IDs remain native and ordinary learning denies them.",
+      "evidence": [
+        "Training-Exit-Checks252.json",
+        "restoration270-training-floor.log",
+        "restoration270-gui-contract.log",
+        "Native-First-Jobs-Checks231.json"
+      ]
+    }
+  ],
+  "productionChangesRequired": false,
+  "additionalReviewPassesCompleted": 1,
+  "secondReviewStarted": false,
+  "packagingValidated": false,
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "limitations": [
+    "Source inspection plus host sanitizer execution; no Xbox/Xemu playtest",
+    "Generic contact phase is reconstructed and needs actual audiovisual acceptance",
+    "Native course/job prerequisites remain explicit fixtures; natural journey remains user testing"
+  ]
+}

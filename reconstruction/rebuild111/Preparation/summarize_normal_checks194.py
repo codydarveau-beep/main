@@ -17,12 +17,18 @@ currentSources={str(p.relative_to(R)):hashlib.sha256(p.read_bytes()).hexdigest()
 companion=load('Companion-Release-Checks224.json')
 companionSources={row['path']:row['sha256']for row in companion.get('sourceFiles',[])}
 normalComplete=bool(candidate.get('passed')and candidate.get('normalReleaseWideChecksComplete')and candidate.get('sourceFiles')==currentSources and companion.get('passed')and companionSources==currentSources)
+restoration=load('Restoration-Normal-Checks270.json')if(V/'Restoration-Normal-Checks270.json').exists()else{}
+if restoration:
+ normalComplete=bool(normalComplete and restoration.get('passed')and restoration.get('sourceFiles')==currentSources)
+ checks.append(dict(name='reported GUI/tutorial/combat/sprite preservation',status='passed'if restoration.get('passed')else'incomplete',evidence='Restoration-Normal-Checks270.json'))
 if normalComplete:checks.append(dict(name='frozen-source normal full-scope candidate integration',status='passed',evidence='Full-Candidate-Checks240.json'))
 reviewCount=0
-for i,name in enumerate(['Additional-Review-Pass1-245.json','Additional-Review-Pass2-247.json'],1):
+reviewNames=['Restoration-Review-Pass1-271.json','Restoration-Review-Pass2-272.json']if restoration else['Additional-Review-Pass1-245.json','Additional-Review-Pass2-247.json']
+for i,name in enumerate(reviewNames,1):
  review=load(name)if(V/name).exists()else{}
  if normalComplete and reviewCount==i-1 and review.get('passed')and review.get('countsForCurrentCandidate',True)and review.get('sourceDigest')==candidate.get('sourceDigest'):reviewCount=i
-package=load('Patch-Validation251.json')if(V/'Patch-Validation251.json').exists()else{}
+packageName='Patch-Validation276.json'if restoration else'Patch-Validation251.json'
+package=load(packageName)if(V/packageName).exists()else{}
 packageValid=bool(normalComplete and reviewCount==2 and package.get('passed')and package.get('sourceDigest')==candidate.get('sourceDigest'))
 remainingFunctionality=[] # No known missing original runtime feature; target acceptance is separate.
 remainingVerification=([]if normalComplete else['Finish post-activation normal integrated regression and full original companion-kit refresh on the same source'])+([]if reviewCount==2 else['Two additional review passes after normal integration'])+([]if packageValid else['Exact-1.10.0 patch packaging and updater validation'])+['Xemu execution when a usable emulator environment is available']

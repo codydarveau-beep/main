@@ -1,0 +1,34 @@
+PASS audit_release_inputs194.py
+PASS run_checks194.py
+PASS check_content195.py
+PASS check_scenes195.py
+PASS check_hud194.py
+PASS check_campaign_minimap200.py
+PASS check_alias_npc242.py
+PASS check_guild197.py
+PASS check_arcade_lift197.py
+PASS check_stage_rules198.py
+PASS check_encounter_reference198.py
+PASS check_stage_integration198.py
+PASS check_encounter_integration198.py
+PASS check_companion_runtime200.py
+PASS check_companion_roster222.py
+PASS check_companion_world223.py
+PASS check_companion_promotions227.py
+PASS check_scene_emote225.py
+PASS check_campaign_upload246.py
+PASS check_campaign_sequence200.py
+PASS check_campaign_companions226.py
+PASS check_campaign_combat232.py
+PASS check_native_first_jobs231.py
+PASS check_native_expanded_jobs233.py
+PASS check_native_supernovice235.py
+PASS check_campaign_save228.py
+PASS check_campaign_save_bundle229.py
+PASS check_world_residency234.py
+PASS check_campaign_reach236.py
+PASS check_native_ferry237.py
+PASS check_campaign_runtime239.py
+PASS check_native194.py
+PASS available normal checks; remaining functionality, verification and Xbox acceptance are listed separately; see current review status in Normal-Release-Checks194.json; no packaging.
+PASS normal full-scope candidate checks. Both additional review passes remain unstarted; no package or Xbox/Xemu claim.

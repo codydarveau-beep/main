@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "origin": ".5f inset",
+  "extent": "width/height minus1",
+  "nativeHelper": "0x9734e..0x9746b",
+  "nativeConstants": {
+    "0x74a044": 0.5,
+    "0x74a588": -1
+  },
+  "nativeDisassembly": "native-icon-97340268.log",
+  "productionSHA256": "83152ce8af1c76705103c69f383a5f57834b307439944f3a160ab4480193be76",
+  "scope": "Actual helper and bilinear footprint bounds; Xbox appearance still pending"
+}

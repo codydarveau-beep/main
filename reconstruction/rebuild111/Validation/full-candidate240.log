@@ -35,15 +35,15 @@ NORMAL CANDIDATE: check_scenes195.py
 PASS released scene wire, 458 node cue/checkpoint reads across three roles, corruption rejection and complete configured runtime scene scope. No world/playthrough claim.
 
 NORMAL CANDIDATE: check_hud194.py
-HOST HUD cases 0 / 1890
-HOST HUD cases 250 / 1890
-HOST HUD cases 500 / 1890
-HOST HUD cases 750 / 1890
-HOST HUD cases 1000 / 1890
-HOST HUD cases 1250 / 1890
-HOST HUD cases 1500 / 1890
-HOST HUD cases 1750 / 1890
-{"passed": true, "cases": 1890, "legacyCases": 1642, "currentSettingsAndWindowCases": 248, "peakRecordedQuads": 762, "capacity": 4096, "sanitizers": ["address", "undefined", "leaks"], "actualSDKAssertingMathStub": true, "scope": "Actual UI draw recorder and host platform adapters; not GPU rendering, Xbox/Xemu playtest or hardware RAM proof"}
+HOST HUD cases 0 / 1922
+HOST HUD cases 250 / 1922
+HOST HUD cases 500 / 1922
+HOST HUD cases 750 / 1922
+HOST HUD cases 1000 / 1922
+HOST HUD cases 1250 / 1922
+HOST HUD cases 1500 / 1922
+HOST HUD cases 1750 / 1922
+{"passed": true, "cases": 1922, "legacyCases": 1642, "currentSettingsAndWindowCases": 280, "peakRecordedQuads": 789, "capacity": 4096, "sanitizers": ["address", "undefined", "leaks"], "actualSDKAssertingMathStub": true, "scope": "Actual UI draw recorder and host platform adapters; not GPU rendering, Xbox/Xemu playtest or hardware RAM proof"}
 
 NORMAL CANDIDATE: check_campaign_minimap200.py
 PASS restored retained story minimap markers; host only.
@@ -185,69 +185,69 @@ NORMAL CANDIDATE: check_native194.py
 {
   "nativeCompiled": true,
   "title": "MyRO v1.11.0 RECOVERY",
-  "xbeBytes": 12333056,
-  "xbeSHA256": "4e4132e256b2808e5eba476b952540e2f96068237420b6bd9c4b72d8f80ac142",
+  "xbeBytes": 12529664,
+  "xbeSHA256": "987fd8be311e139f48d1d8232f05e2f5eac754abb7db5b9c79625f9da1aa7769",
   "stackReserve": 163840,
   "knownChains": [
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "save_commit": 48,
         "save_scan": 4,
         "save_decode": 36,
         "save_valid": 92
       },
-      "bytes": 55344,
+      "bytes": 55312,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "mp3dec_decode_frame": 17008
       },
-      "bytes": 72172,
+      "bytes": 72140,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "npc_player_command55": 2148,
         "npc_runtime_call55": 4508,
         "world_script_warp55": 47836
       },
-      "bytes": 109656,
+      "bytes": 109624,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "guild_world_visit194": 84,
         "world_script_warp55": 47836
       },
-      "bytes": 103084,
+      "bytes": 103052,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "regional_world_visit194": 100,
         "world_script_warp55": 47836
       },
-      "bytes": 103100,
+      "bytes": 103068,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "world_test_warp": 47788
       },
-      "bytes": 102952,
+      "bytes": 102920,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
-        "frontend_run56": 2956,
+        "main": 55132,
+        "frontend_run56": 2988,
         "frontend_fade56": 16412
       },
       "bytes": 74532,
@@ -255,77 +255,77 @@ NORMAL CANDIDATE: check_native194.py
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "campaign_encounter_tick198": 252,
         "npc_monster_attach55": 32,
         "npc_monster_place55": 140
       },
-      "bytes": 55588,
+      "bytes": 55556,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "combat_reward": 200,
         "campaign_killed200": 28,
         "campaign_encounter_flush198": 56,
         "campaign_store200": 212,
         "npc_state_set55": 48
       },
-      "bytes": 55708,
+      "bytes": 55676,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_gain_award200": 804,
         "party_progress_load200": 696
       },
-      "bytes": 56664,
+      "bytes": 56632,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 57904,
+      "bytes": 57872,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "campaign_party_bind200": 1032,
         "party_seed_recruits200": 692,
         "party_progress_commit200": 1936
       },
-      "bytes": 58824,
+      "bytes": 58792,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_vital_store200": 684,
         "party_progress_commit200": 1936
       },
-      "bytes": 57784,
+      "bytes": 57752,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_resolve200": 104,
         "party_save_vital200": 12,
         "party_vital_store200": 684,
         "party_progress_commit200": 1936
       },
-      "bytes": 57900,
+      "bytes": 57868,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "combat_fields_tick": 192,
         "party_wizard_hit194": 44,
         "party_apply_damage205": 48,
@@ -334,12 +334,12 @@ NORMAL CANDIDATE: check_native194.py
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 58416,
+      "bytes": 58384,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_resolve200": 104,
         "party_basic_step208": 80,
         "party_hit200": 44,
@@ -349,12 +349,12 @@ NORMAL CANDIDATE: check_native194.py
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 58408,
+      "bytes": 58376,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_resolve200": 104,
         "party_specialist_step209": 100,
         "party_hit200": 44,
@@ -364,23 +364,23 @@ NORMAL CANDIDATE: check_native194.py
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 58428,
+      "bytes": 58396,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_resolve200": 104,
         "party_specialist_step209": 100,
         "party_specialist_after209": 44,
         "combat_knockback": 60
       },
-      "bytes": 55472,
+      "bytes": 55440,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_resolve200": 104,
         "party_archer_step212": 80,
         "party_hit200": 44,
@@ -390,12 +390,12 @@ NORMAL CANDIDATE: check_native194.py
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 58408,
+      "bytes": 58376,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_resolve200": 104,
         "party_envenom_step213": 64,
         "party_hit200": 44,
@@ -405,72 +405,72 @@ NORMAL CANDIDATE: check_native194.py
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 58392,
+      "bytes": 58360,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "npc_fx_one172": 200
       },
-      "bytes": 55364,
+      "bytes": 55332,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_progress_load200": 696
       },
-      "bytes": 55860,
+      "bytes": 55828,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_progress_commit200": 1936
       },
-      "bytes": 57100,
+      "bytes": 57068,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_resolve200": 104,
         "party_performer_step216": 76,
         "party_save_vital200": 12,
         "party_vital_store200": 684,
         "party_progress_commit200": 1936
       },
-      "bytes": 57976,
+      "bytes": 57944,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_resolve200": 104,
         "party_blacksmith_step217": 92,
         "party_save_vital200": 12,
         "party_vital_store200": 684,
         "party_progress_commit200": 1936
       },
-      "bytes": 57992,
+      "bytes": 57960,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_resolve200": 104,
         "party_cached_physical219": 188,
         "party_save_vital200": 12,
         "party_vital_store200": 684,
         "party_progress_commit200": 1936
       },
-      "bytes": 58088,
+      "bytes": 58056,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_resolve200": 104,
         "party_cached_physical219": 188,
         "party_apply_damage205": 48,
@@ -479,36 +479,36 @@ NORMAL CANDIDATE: check_native194.py
         "party_gain_award200": 804,
         "party_progress_commit200": 1936
       },
-      "bytes": 58472,
+      "bytes": 58440,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_resolve200": 104,
         "party_cached_physical219": 188,
         "party_kick_ready221": 24
       },
-      "bytes": 55480,
+      "bytes": 55448,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "party_resolve200": 104,
         "party_cached_physical219": 188,
         "class_stun50": 28
       },
-      "bytes": 55484,
+      "bytes": 55452,
       "margin": 32768
     },
     {
       "frames": {
-        "main": 55164,
+        "main": 55132,
         "assemblyWrapper": 6176,
         "nestedHelpers": 512
       },
-      "bytes": 61852,
+      "bytes": 61820,
       "margin": 32768,
       "assemblyExplicit": true
     }

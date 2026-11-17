@@ -1,0 +1,67 @@
+45060: sbb al, 0
+45062: add byte ptr [edi + 0x3d], dh
+45065: lea edx, [ecx + ecx*4]
+45068: cmp dword ptr [edx*4 + 0x35d3d4], eax
+4506f: jne 0x450a2
+45071: movzx eax, word ptr [ecx + ecx + 0x3a6608]
+45079: mov ecx, dword ptr [eax*4 + 0x3561b0]
+45080: cmp ecx, 0x4000
+45086: jl 0x45091
+45088: call 0x97800
+4508d: mov esi, eax
+4508f: jmp 0x450a2
+45091: test ecx, ecx
+45093: lea esi, [ecx*8 + 0x2d7918]
+4509a: mov eax, 0
+4509f: cmovs esi, eax
+450a2: test esi, esi
+450a4: mov eax, 0x2d79a0
+450a9: cmove esi, eax
+450ac: mov ecx, dword ptr [0xd4769c]
+450b2: mov dword ptr [esp + 0xc], 1
+450ba: mov dword ptr [esp + 8], 0x1122a
+450c2: mov dword ptr [esp + 4], 0x800
+450ca: mov dword ptr [esp], 0x800
+450d1: mov edx, 0x200
+450d6: call 0x97c60
+450db: call 0x12f420
+450e0: mov dword ptr [esp], eax
+450e3: mov dword ptr [esp + 8], 1
+450eb: mov dword ptr [esp + 4], 0x30c
+450f3: call 0x13c860
+450f8: mov dword ptr [esp], eax
+450fb: mov dword ptr [esp + 8], 0
+45103: mov dword ptr [esp + 4], 0x35c
+4510b: call 0x13c860
+45110: mov dword ptr [esp], eax
+45113: call 0x12f430
+45118: movaps xmm0, xmmword ptr [esp + 0x280]
+45120: mulss xmm0, dword ptr [0x74a044]
+45128: addss xmm0, dword ptr [esp + 0xb0]
+45131: movss xmm1, dword ptr [esp + 0x60]
+45137: movaps xmm6, xmm1
+4513a: movaps xmm4, xmmword ptr [esp + 0x100]
+45142: subss xmm6, xmm4
+45146: movaps xmm7, xmm6
+45149: subss xmm7, xmm1
+4514d: mulss xmm7, dword ptr [esp + 0x158]
+45156: movss xmm5, dword ptr [esp + 0x70]
+4515c: addss xmm7, xmm5
+45160: movzx eax, word ptr [esi + 6]
+45164: xorps xmm1, xmm1
+45167: cvtsi2ss xmm1, eax
+4516b: movss dword ptr [esp + 0x40], xmm1
+45171: movzx eax, word ptr [esi + 4]
+45175: xorps xmm1, xmm1
+45178: cvtsi2ss xmm1, eax
+4517c: movss dword ptr [esp + 0xb0], xmm1
+45185: movzx eax, word ptr [esi + 2]
+45189: cvtsi2ss xmm2, eax
+4518d: movzx eax, word ptr [esi]
+45190: cvtsi2ss xmm3, eax
+45194: movss xmm1, dword ptr [esp + 0x40]
+4519a: movss dword ptr [esp + 0x24], xmm1
+451a0: movss xmm1, dword ptr [esp + 0xb0]
+451a9: movss dword ptr [esp + 0x20], xmm1
+451af: movss dword ptr [esp + 0x1c], xmm2
+451b5: movss dword ptr [esp + 0x18], xmm3

@@ -1,0 +1,210 @@
+{
+  "reason": "Space for sequential ISO reconstruction; only older reproducible host sanitizer executables",
+  "removed": [
+    {
+      "path": "Validation/companion-soullinker210_asan",
+      "bytes": 8909392
+    },
+    {
+      "path": "Validation/companion-taekwon221_asan",
+      "bytes": 8936784
+    },
+    {
+      "path": "Validation/guardian-sprites265_asan",
+      "bytes": 13029784
+    },
+    {
+      "path": "Validation/creator265_asan",
+      "bytes": 90224
+    },
+    {
+      "path": "Validation/damage262_asan",
+      "bytes": 12801240
+    },
+    {
+      "path": "Validation/dialogue264_asan",
+      "bytes": 528528
+    },
+    {
+      "path": "Validation/sprite-safety253_asan",
+      "bytes": 13397176
+    },
+    {
+      "path": "Validation/companion-cast201_asan",
+      "bytes": 8858840
+    },
+    {
+      "path": "Validation/timing-refresh263_asan",
+      "bytes": 15393000
+    },
+    {
+      "path": "Validation/companion-specialist209_asan",
+      "bytes": 7934872
+    },
+    {
+      "path": "Validation/companion-monk220_asan",
+      "bytes": 8931032
+    },
+    {
+      "path": "Validation/companion-runtime200_asan",
+      "bytes": 6142488
+    },
+    {
+      "path": "Validation/tutorial-options264_asan",
+      "bytes": 23618624
+    },
+    {
+      "path": "Validation/controls261_asan",
+      "bytes": 17111960
+    },
+    {
+      "path": "Validation/companion-pip214_asan",
+      "bytes": 8925416
+    },
+    {
+      "path": "Validation/companion-world223_asan",
+      "bytes": 12432344
+    },
+    {
+      "path": "Validation/water-stream254_asan",
+      "bytes": 336928
+    },
+    {
+      "path": "Validation/guardian-cadence265_asan",
+      "bytes": 14535632
+    },
+    {
+      "path": "Validation/quests257_asan",
+      "bytes": 17135632
+    },
+    {
+      "path": "Validation/bash-fx263_asan",
+      "bytes": 12757800
+    },
+    {
+      "path": "Validation/sprite-safety258_asan",
+      "bytes": 13403272
+    },
+    {
+      "path": "Validation/diagnostics261_asan",
+      "bytes": 18775320
+    },
+    {
+      "path": "Validation/companion-wizard205_asan",
+      "bytes": 9190272
+    },
+    {
+      "path": "Validation/equipment-budget266_asan",
+      "bytes": 13982632
+    },
+    {
+      "path": "Validation/companion-rogue218_asan",
+      "bytes": 8929984
+    },
+    {
+      "path": "Validation/companion-elemental211_asan",
+      "bytes": 8912720
+    },
+    {
+      "path": "Validation/multihit-refresh263_asan",
+      "bytes": 15426144
+    },
+    {
+      "path": "Validation/enemy_cache253_asan",
+      "bytes": 12997480
+    },
+    {
+      "path": "Validation/equipment-preview260_asan",
+      "bytes": 14264216
+    },
+    {
+      "path": "Validation/training-reach266_asan",
+      "bytes": 23549592
+    },
+    {
+      "path": "Validation/companion-archer212_asan",
+      "bytes": 9171792
+    },
+    {
+      "path": "Validation/companion-potion215_asan",
+      "bytes": 8942008
+    },
+    {
+      "path": "Validation/companion-gunner219_asan",
+      "bytes": 8929872
+    },
+    {
+      "path": "Validation/controls254_asan",
+      "bytes": 17093080
+    },
+    {
+      "path": "Validation/companion-promotions227_asan",
+      "bytes": 6241160
+    },
+    {
+      "path": "Validation/button-tokens254_asan",
+      "bytes": 86744
+    },
+    {
+      "path": "Validation/dialogue-empty264_asan",
+      "bytes": 300160
+    },
+    {
+      "path": "Validation/companion-performer216_asan",
+      "bytes": 8929112
+    },
+    {
+      "path": "Validation/companion-mage204_asan",
+      "bytes": 8867792
+    },
+    {
+      "path": "Validation/diagnostics255_asan",
+      "bytes": 18757624
+    },
+    {
+      "path": "Validation/tutorial-check264_asan",
+      "bytes": 23655120
+    },
+    {
+      "path": "Validation/companion-persistence200_asan",
+      "bytes": 230496
+    },
+    {
+      "path": "Validation/tutorial-audit264_asan",
+      "bytes": 23612760
+    },
+    {
+      "path": "Validation/companion-roster222_asan",
+      "bytes": 9169952
+    },
+    {
+      "path": "Validation/willow-layers259_asan",
+      "bytes": 277544
+    },
+    {
+      "path": "Validation/creator-draw265_asan",
+      "bytes": 19627856
+    },
+    {
+      "path": "Validation/bash263_asan",
+      "bytes": 14111904
+    },
+    {
+      "path": "Validation/companion-melee213_asan",
+      "bytes": 8879872
+    },
+    {
+      "path": "Validation/training-reach265_asan",
+      "bytes": 22874224
+    },
+    {
+      "path": "Validation/companion-blacksmith217_asan",
+      "bytes": 8928080
+    },
+    {
+      "path": "Validation/button-tokens261_asan",
+      "bytes": 86768
+    }
+  ],
+  "sourceAssetsReleasesPreserved": true
+}

@@ -16,7 +16,7 @@ static void skin_init(void){if(skin_image_raw!=512*SKIN_H*4)fail("HUD skin dimen
 /* A supplied original icon from the same item family is used when the client
  * has no graphic mapping for a server-only item variant. */
 static int skin_item_fallback52(int code);
-static void skin_icon(int id,int x,int y,int w,int h){const unsigned short*r=id>=ITEM_ICON_BASE52?item_icon_rect52(id):id>=0&&id<(int)(sizeof(skinRects)/sizeof(*skinRects))?skinRects[id]:NULL;if(!r&&id>=ITEM_ICON_BASE52){int fallback=skin_item_fallback52(id);if(fallback>=0&&fallback<(int)(sizeof(skinRects)/sizeof(*skinRects)))r=skinRects[fallback];}if(!r)return;hud_setup(skinTexture,512,SKIN_H,2048,0x0001122a,1);hud_quad(x,y,w,h,r[0],r[1],r[2],r[3]);}
+static void skin_icon(int id,int x,int y,int w,int h){const unsigned short*r=id>=ITEM_ICON_BASE52?item_icon_rect52(id):id>=0&&id<(int)(sizeof(skinRects)/sizeof(*skinRects))?skinRects[id]:NULL;if(!r&&id>=ITEM_ICON_BASE52){int fallback=skin_item_fallback52(id);if(fallback>=0&&fallback<(int)(sizeof(skinRects)/sizeof(*skinRects)))r=skinRects[fallback];}if(!r)return;hud_setup(skinTexture,512,SKIN_H,2048,0x0001122a,1);/* Native skin-icon sampling keeps linear filtering inside this atlas cell. */hud_quad(x,y,w,h,r[0]+.5f,r[1]+.5f,r[2]-1.f,r[3]-1.f);}
 static int ui_text_width(const char*,float);
 static void ui_scaled(int,int,float,const char*,...);
 static void ui_text(int x,int y,const char*fmt,...){char line[160];va_list a;va_start(a,fmt);vsnprintf(line,sizeof(line),fmt,a);va_end(a);hud_setup(skinTexture,512,SKIN_H,2048,0x0001122a,1);size_t length=strlen(line);while(length&&ui_text_width(line,1)>622-x)line[--length]=0;ui_scaled(x,y,1,"%s",line);}

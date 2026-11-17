@@ -1,0 +1,71 @@
+97340: sub eax, 0xbfc93100
+97345: push esp
+97346: xchg esp, eax
+97347: sub eax, 0x186e900
+9734c: add byte ptr [eax], al
+9734e: cmp ecx, 0x321
+97354: jae 0x9750e
+9735a: lea edi, [ecx*8 + 0x2d7918]
+97361: mov ecx, dword ptr [0xd4769c]
+97367: cmp byte ptr [0xd36980], 1
+9736e: jne 0x9740f
+97374: cmp dword ptr [0xd478c0], ecx
+9737a: je 0x9742d
+97380: cmp byte ptr [0xbde3e0], 1
+97387: jne 0x9738e
+97389: call 0x12f510
+9738e: mov dword ptr [esp + 0x28], 0
+97396: mov dword ptr [esp + 0x24], 0
+9739e: mov dword ptr [esp + 0x20], 0
+973a6: mov dword ptr [esp + 0x1c], 0
+973ae: mov dword ptr [esp + 0x18], 0
+973b6: mov dword ptr [esp + 0x14], 0
+973be: mov dword ptr [esp + 0x10], 0
+973c6: mov dword ptr [esp + 0xc], 0
+973ce: mov dword ptr [esp + 8], 0x24
+973d6: lea eax, [esp + 8]
+973da: push eax
+973db: call dword ptr [0xbd8f58]
+973e1: mov eax, dword ptr [esp + 0x10]
+973e5: shl eax, 2
+973e8: push eax
+973e9: push 0xbda09c
+973ee: push 0xa9a6ae
+973f3: push 0xbd8617
+973f8: call 0x13bd60
+973fd: add esp, 0x10
+97400: push 0x3e8
+97405: call 0x13a910
+9740a: add esp, 4
+9740d: jmp 0x97400
+9740f: mov edx, 0x200
+97414: push 1
+97416: push 0x1122a
+9741b: push 0x800
+97420: push 0x800
+97425: call 0x97c60
+9742a: add esp, 0x10
+9742d: movzx eax, word ptr [edi + 6]
+97431: cvtsi2ss xmm0, eax
+97435: movss xmm2, dword ptr [0x74a588]
+9743d: addss xmm0, xmm2
+97441: movzx eax, word ptr [edi + 4]
+97445: cvtsi2ss xmm1, eax
+97449: addss xmm1, xmm2
+9744d: movzx eax, word ptr [edi + 2]
+97451: xorps xmm2, xmm2
+97454: cvtsi2ss xmm2, eax
+97458: movss xmm3, dword ptr [0x74a044]
+97460: addss xmm2, xmm3
+97464: movzx eax, word ptr [edi]
+97467: cvtsi2ss xmm4, eax
+9746b: addss xmm4, xmm3
+9746f: xorps xmm3, xmm3
+97472: cvtsi2ss xmm3, dword ptr [esp + 0x48]
+97478: cvtsi2ss xmm5, dword ptr [esp + 0x44]
+9747e: cvtsi2ss xmm6, dword ptr [esp + 0x40]
+97484: cvtsi2ss xmm7, esi
+97488: sub esp, 0x20
+9748b: movss dword ptr [esp + 0x1c], xmm0
+97491: movss dword ptr [esp + 0x18], xmm1
+97497: movss dword ptr [esp + 0x14], xmm2

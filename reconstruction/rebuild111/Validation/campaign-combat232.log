@@ -1,3 +1,3 @@
 Scene emotes: 1496 recorded draws, 62 bounded packed-frame reads, 396 update frames, cue mask 340227. GPU/raster remains recorded.
 PASS candidate scene sequences 36, frames 396, physical proofs 57, scripted enemy events 23, camera records 3168 dialogue draw operations 1061 and portrait decodes 214. Host recorder with qualified stats and player HP/SP topups; actual authored enemy combat/death hooks execute. Native job prerequisites remain fixtures; not balance or target acceptance.
-PASS actual authored scene combat/death integration: 23 deaths, 75188 real combat ticks. Explicit qualified host fixture with explicit HP/SP topups; no balance, original Xbox or Xemu claim.
+PASS actual authored scene combat/death integration: 23 deaths, 75396 real combat ticks. Explicit qualified host fixture with explicit HP/SP topups; no balance, original Xbox or Xemu claim.

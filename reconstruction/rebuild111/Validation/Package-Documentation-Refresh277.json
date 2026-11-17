@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "change": "Historical regression ledger now explicitly points to completed corrective evidence instead of stale pending snapshots",
+  "protectedUpdaterPayloadManifestLauncherUnchanged": {
+    "payload.001.bin": "a365ded5e7c28507cb21fdb4270ec7993a5f01f591cfba3b939958253e141224",
+    "update.json": "7165c06ead18490043615df776065516fb2402c390c1eb98f1362bba8aeccb8e",
+    "Update-MyRO1.11.1.ps1": "c99638676c6efe001156139d30bad5588d23b993d10f58d65f920f47d03ad665",
+    "Apply-Update.cmd": "86eea7cdb8a0998cf3ae221bc6e87600ae2fa32580975802134125172fb31b38"
+  },
+  "fullZipCRCVerified": true,
+  "actualUpdaterEvidence": "Patch-Validation276.json",
+  "finalZipBytes": 7029823,
+  "finalZipSHA256": "387aa8d421d710cc8f17be21a6cce6096c9a1e74e702ddd0605820c91c5983a8"
+}

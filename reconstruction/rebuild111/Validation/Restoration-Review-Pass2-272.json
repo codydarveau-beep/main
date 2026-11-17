@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "phase": "restoration additional review pass2 of2",
+  "startedUTC": "2026-11-17T05:59:59.060429+00:00",
+  "completedUTC": "2026-11-17T06:04:43.010101+00:00",
+  "normalCompletedBeforeReview": true,
+  "firstReviewCompletedBeforeStart": true,
+  "normalEvidence": "Normal-Complete-Checks244.json",
+  "firstReviewEvidence": "Restoration-Review-Pass1-271.json",
+  "sourceDigest": "476321dafcec4166c719117b068d7f28cc45ce0adf2a4363ae1c2965478771be",
+  "sourceUnchanged": true,
+  "reviewedFiles": {
+    "main.c": "f12ef516d56ba8f6f8ebb9f59ddf05e1142644949fb671a07c974062b15f2f8b",
+    "gpu.h": "4ef055143fe9ac169d33dab2bff3425ee480a927fd12b0ea58e3d6ecd8a16b0f",
+    "hud.h": "57d96e7ad9f092e7b9a9ccc079a722da8aa5d53d7d26f57908babb2b3979528d",
+    "hud_state180.h": "d92f2f9ed3a843f431c44cb3b213cec233f2767390c3d16fe4f019f5e25d79d4",
+    "window_draw.h": "83152ce8af1c76705103c69f383a5f57834b307439944f3a160ab4480193be76",
+    "willow_death259.h": "626dbe2f917a87fca788ecbbc2a17a33654669c6a27ec1a27a99cbc991a741b6",
+    "equipment_preview260.h": "97ed429bcbb22413fc57eae90b95640d262586ec1db2c703824591bcfbbde8f3",
+    "gpu_stream51.h": "6b13802dcce7008bd975aef4c00f03c132305465c6a1530dc3e87e7091d06f9b",
+    "world_maps.h": "e6ddd34431b8637d5f92c14e4c493984312619e25e6ea6083f5fd47ed10c5378",
+    "frontend_xbox56.h": "74dec3888efe2ec7a261224eae4360979f2cb466e4c9105df6e66e7dce7e961a",
+    "art_draw39.h": "d895971f2e0cbaaea9b817a0f148b8c0e3c2ba6d84d4ae323ed14ee91d334645",
+    "campaign_native_fx212.h": "3cdccde650c2af3787799932f493157310fa94c07f76d4805f97cba0e761b0d5"
+  },
+  "findings": [
+    {
+      "area": "Frame ownership and atlas sampling",
+      "result": "Both title/game loops reset HUD arenas after previous GPU work completes. Equipment flushes before its independent textures and resumes a fresh retained segment. Minimap precedes the shared batch. HUD restores alpha/depth/blend/combiner state; source effect draws restore alpha blending before ordinary actors. Actual prefix/capacity and native icon UV checks pass again.",
+      "evidence": [
+        "shared-ui-review272.log",
+        "Icon-Sampling-Restoration268.json",
+        "icon-sampling-review272.log",
+        "HUD-Checks194.json"
+      ]
+    },
+    {
+      "area": "Willow resource pressure and clipping",
+      "result": "New additional probe repeats100 two-species map lifetimes and all poses/bearings under water clipping, cache reuse and wrapping idle clock. Peak shared residency stays983040bytes regardless of corpse/draw count, zero live bytes after teardown. Textures prepare at frame fence, never allocate in actor draw; world/title cleanup follows GPU wait. No original enemy pack changed.",
+      "evidence": [
+        "test_willow_review272.c",
+        "willow-review272.log",
+        "restoration270-sprite-safety.log"
+      ]
+    },
+    {
+      "area": "Equipment resource ownership",
+      "result": "New probe reopens/closes preview100times, verifies independent forward body/head attachments and complete cleanup without changing world-facing frames. Catalog maximum forward crop12480bytes bounds preview body+three head crops102976bytes, separate from existing world caches. Source uses existing scratch, one preview body and three cropped heads.",
+      "evidence": [
+        "test_equipment_review272.c",
+        "equipment-review272.log",
+        "equipment-budget266.log"
+      ]
+    },
+    {
+      "area": "Scope and device boundaries",
+      "result": "Original sprite-only guardians/ordinary arrows and current-map cache retirement remain; Screen selection is visibility-based and bounded. New player effect ring shares established global native effect reader/frame budgets and does not evict companions. Source-bound full campaign/companion/guild/arcade/native quest checks remain current. Private native title stays RECOVERY; no package or hardware result is inferred.",
+      "evidence": [
+        "Full-Candidate-Checks240.json",
+        "Companion-Release-Checks224.json",
+        "World-Residency-Checks234.json",
+        "Native-Checks194.json",
+        "Restoration-Normal-Checks270.json"
+      ]
+    }
+  ],
+  "productionChangesRequired": false,
+  "additionalReviewPassesCompleted": 2,
+  "packagingValidated": false,
+  "originalXboxPlaytested": false,
+  "xemuPlaytested": false,
+  "limitations": [
+    "GPU recording/source inspection/sanitizer execution, not Xbox or Xemu execution",
+    "Partial buffer/crop inventories exclude total runtime/framebuffer/audio/heap high-water",
+    "CRT, controller ergonomics, natural progression, demanding-map performance and actual audiovisual timing require Xbox acceptance"
+  ]
+}

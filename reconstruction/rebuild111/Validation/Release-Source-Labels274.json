@@ -1,0 +1,15 @@
+{
+  "sourceDigest": "476321dafcec4166c719117b068d7f28cc45ce0adf2a4363ae1c2965478771be",
+  "version": "1.11.1",
+  "changes": {
+    "pause_draw.h": {
+      "original": "49bbab79b7b44378e96878e03d365637a1129906038db67e7ffaa226ca3c2583",
+      "release": "42ac26818145c0370d9360e5ccfb2f603d7678692dc961a6fa5d55858d85b357"
+    },
+    "Makefile": {
+      "original": "6f86923abaaeab02c7d0b7bb4b2e08f4cc88b361e971e2647df0a388b53ef803",
+      "release": "885d60c603a2549e68a9265ce627e2b165d147a53a421c4bd1d07c0481cb2aa9"
+    }
+  },
+  "scope": "Separate native corrective build; only title/pause version labels change. Reviewed private Source remains unchanged."
+}

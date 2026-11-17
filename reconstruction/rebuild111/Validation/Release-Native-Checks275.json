@@ -1,0 +1,301 @@
+{
+  "passed": true,
+  "title": "MyRO v1.11.1",
+  "stackReserve": 163840,
+  "knownChains": [
+    {
+      "frames": {
+        "main": 55132,
+        "save_commit": 48,
+        "save_scan": 4,
+        "save_decode": 36,
+        "save_valid": 92
+      },
+      "bytes": 55312
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "mp3dec_decode_frame": 17008
+      },
+      "bytes": 72140
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "npc_player_command55": 2148,
+        "npc_runtime_call55": 4508,
+        "world_script_warp55": 47836
+      },
+      "bytes": 109624
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "guild_world_visit194": 84,
+        "world_script_warp55": 47836
+      },
+      "bytes": 103052
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "regional_world_visit194": 100,
+        "world_script_warp55": 47836
+      },
+      "bytes": 103068
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "world_test_warp": 47788
+      },
+      "bytes": 102920
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "frontend_run56": 2988,
+        "frontend_fade56": 16412
+      },
+      "bytes": 74532
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "campaign_encounter_tick198": 252,
+        "npc_monster_attach55": 32,
+        "npc_monster_place55": 140
+      },
+      "bytes": 55556
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "campaign_encounter_flush198": 56,
+        "campaign_store200": 212,
+        "npc_state_set55": 48
+      },
+      "bytes": 55676
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_gain_award200": 804,
+        "party_progress_load200": 696
+      },
+      "bytes": 56632
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57872
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "campaign_party_bind200": 1032,
+        "party_seed_recruits200": 692,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58792
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_vital_store200": 684,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57752
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_resolve200": 104,
+        "party_save_vital200": 12,
+        "party_vital_store200": 684,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57868
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "combat_fields_tick": 192,
+        "party_wizard_hit194": 44,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58384
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_resolve200": 104,
+        "party_basic_step208": 80,
+        "party_hit200": 44,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58376
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_resolve200": 104,
+        "party_specialist_step209": 100,
+        "party_hit200": 44,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58396
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_resolve200": 104,
+        "party_specialist_step209": 100,
+        "party_specialist_after209": 44,
+        "combat_knockback": 60
+      },
+      "bytes": 55440
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_resolve200": 104,
+        "party_archer_step212": 80,
+        "party_hit200": 44,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58376
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_resolve200": 104,
+        "party_envenom_step213": 64,
+        "party_hit200": 44,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58360
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "npc_fx_one172": 200
+      },
+      "bytes": 55332
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_progress_load200": 696
+      },
+      "bytes": 55828
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57068
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_resolve200": 104,
+        "party_performer_step216": 76,
+        "party_save_vital200": 12,
+        "party_vital_store200": 684,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57944
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_resolve200": 104,
+        "party_blacksmith_step217": 92,
+        "party_save_vital200": 12,
+        "party_vital_store200": 684,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 57960
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_resolve200": 104,
+        "party_cached_physical219": 188,
+        "party_save_vital200": 12,
+        "party_vital_store200": 684,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58056
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_resolve200": 104,
+        "party_cached_physical219": 188,
+        "party_apply_damage205": 48,
+        "combat_reward": 200,
+        "campaign_killed200": 28,
+        "party_gain_award200": 804,
+        "party_progress_commit200": 1936
+      },
+      "bytes": 58440
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_resolve200": 104,
+        "party_cached_physical219": 188,
+        "party_kick_ready221": 24
+      },
+      "bytes": 55448
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "party_resolve200": 104,
+        "party_cached_physical219": 188,
+        "class_stun50": 28
+      },
+      "bytes": 55452
+    },
+    {
+      "frames": {
+        "main": 55132,
+        "assemblyWrapper": 6176,
+        "nestedHelpers": 512
+      },
+      "bytes": 61820
+    }
+  ],
+  "sourceLabels": "Release-Source-Labels274.json",
+  "scope": "Separate release-labelled native compile and known conservative stack guards; no Xbox/Xemu execution or full RAM claim"
+}

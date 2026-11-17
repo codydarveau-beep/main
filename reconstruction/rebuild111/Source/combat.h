@@ -39,6 +39,8 @@
 #include "mob_motion49.h"
 #include "boss_state53.h"
 #define SKILL_BURSTS49 128
+/* Same transient hit pool:0 free,1 skill packet,2 pending basic contact. */
+#define BASIC_CONTACT267 2
 typedef struct {int active,target,hits,done,damage,applied,stun,skill,rank,companion50;unsigned life,map,job,combo;float next,gap;} SkillBurst49;
 typedef struct {float x,y,at;float hitGap;int value,hits,critical,kind,style;unsigned owner180,life180,spread180;} DamageEvent;
 #define PLAYER_ROUTE_POINTS53 192
@@ -300,6 +302,7 @@ static void skill_cast_tick(Combat*g,float dt);
 static int skill_approach_tick53(Combat*g,float dt);
 #define COMBAT_ATTACK_ANIMATION53 .45f
 static void skill_burst_tick49(Combat*g);
+static int skill_burst_slot49(const Combat*g);
 static void skill_hit_ex(Combat*g,int i,int damage,int stun,int hits);
 static void skill_stagger49(Combat*g,CombatMob*m);
 
@@ -475,6 +478,26 @@ static void combat_field_start(Combat*g,float x,float y,int rank,int power);
 static void combat_jupitel_tick45(Combat*g);
 static void combat_recovery_tick50(Combat*g,float dt);
 static void super_death53(Combat*g);
+/* Reconstructed normal-swing contact: damage, hit cues, procs and rewards
+ * resolve together. The surviving attack animation is450ms; contact is60%
+ * through it, matching the recovered Bash contact phase. Not a recovered
+ * generic-melee timeline. No allocations or save-format changes.
+ * Pending basic packets use rank=critical, stun=miss, gap=launch time. */
+static void combat_basic_impact267(Combat*g,SkillBurst49 hit){
+ CombatMob*m=&g->mobs[hit.target];
+ if(hit.stun){combat_miss(g,m->x,m->y);m->aggro=!m->training&&(mobSpecs[m->kind].flags&2)!=0;combat_notice(g,POP_DAMAGE,"Missed %s.",mobSpecs[m->kind].name);return;}
+ int damage=hit.damage,doubled=hit.hits==2,special=class_triple50(g,hit.target);
+ if(special){}else if(doubled){int old=g->fxSkill;g->fxSkill=0;skill_hit_ex(g,hit.target,damage,0,2);g->fxSkill=old;}
+ else{damage=combat_hit_bonus50(g,m,damage);combat_enemy_number180(g,m,damage,1,hit.rank);combat_hit_sound(g,1);g->itemDamageSkill52=0;combat_enemy_damage(g,m,damage);skill_stagger49(g,m);}
+ if(!special)item_proc_event52(g,0,hit.target,damage,0);
+ m->hurtAt=g->time;m->aggro=!m->training&&(mobSpecs[m->kind].flags&2)!=0;
+ if(g->class50.comboUntil>g->time&&g->cooldown<g->class50.comboUntil-g->time)g->cooldown=g->class50.comboUntil-g->time;
+ if(m->hp<=0){m->hp=0;m->deadAt=g->time;m->respawnAt=0;m->provokeLeft=0;m->provokeRank=0;m->aggro=0;
+  if(!doubled&&!special)combat_reward(g,m);
+  /* Resolving an earlier target must not clear a newly selected target. */
+  if(g->target==hit.target){if(!g->autoAttackToggle52)g->autoAttack=0;g->target=-1;g->floorScan60=0;}
+ }else{combat_notice(g,POP_DAMAGE,doubled?"Double Attack: %s for %d.":"Hit %s for %d.",mobSpecs[m->kind].name,damage);class_autospell48(g,hit.target);class_after_attack50(g,hit.target);}
+}
 static void combat_tick(Combat*g,float dt,float moveX,float moveY){
  if(dt<=0)return;g->ammoShot60=0;if(g->ammoDirty60){g->ammoDirty60=0;item_script_refresh52(g);}if(g->floorTarget58>=0&&(!ground_live58(g,g->floorTarget58)||combat_dist(g->x,g->y,groundItems58[g->floorTarget58].x,groundItems58[g->floorTarget58].y)>192)){g->floorTarget58=g->floorPickup58=-1;}boss_tick_state53(&g->bosses53,&g->bossSeenUTC53);
  if(moveX*moveX+moveY*moveY>.02f){g->floorGather60=0;g->floorPickup58=-1;g->autoAttack=0;g->approachSkill53=0;g->route53.state=0;}
@@ -496,15 +519,18 @@ static void combat_tick(Combat*g,float dt,float moveX,float moveY){
    CombatMob*m=&g->mobs[g->target];float dx=m->x-g->x,dy=m->y-g->y,d=sqrtf(dx*dx+dy*dy);if(g->time-g->attackAt>=COMBAT_ATTACK_ANIMATION53)combat_face(&g->faceX,&g->faceY,dx,dy);
    float reach=combat_attack_range(g);int clear53=class_ice_line48(g,g->x,g->y,m->x,m->y)&&(!g->canMove||g->canMove(g->world,g->x,g->y,m->x,m->y));if((d>reach||!clear53)&&g->time-g->attackAt<COMBAT_ATTACK_ANIMATION53){}else if(d>reach||!clear53){g->moving=player_route_step53(g,g->target,reach,0,dt)==1;}
    else if(g->cooldown<=0&&class_ice_line48(g,g->x,g->y,m->x,m->y)&&(!g->canMove||g->canMove(g->world,g->x,g->y,m->x,m->y))){
-    if(class_sacrifice_hit52(g,g->target)){}else{
+    if(class_sacrifice_hit52(g,g->target)){}else if(skill_burst_slot49(g)>=0){
+     int contactSlot267=skill_burst_slot49(g);
     if(inventory_wtype46(g)>=17&&inventory_wtype46(g)<=21&&!ammo_attack60(g,1)){g->autoAttack=0;return;}if(g->equipment&16){if(!inventory_count(g,ITEM_ARROW)){g->autoAttack=0;combat_message(g,"Out of Arrows. Buy or craft more.");return;}--*inventory_stack(g,ITEM_ARROW);}
-    int damage=combat_physical(g)+(int)(combat_random(g)%5);for(int e=96;e<=99;e++)if(g->jobId<12&&class_active48(g,e))damage=damage*class_attack_rate48(g,m,(int[]){3,1,4,2}[e-96])/100;int doubleRank=g->ranks[8]>g->itemBonuses52.grant[12]?g->ranks[8]:g->itemBonuses52.grant[12],doubleRate=5*doubleRank;if(inventory_wtype46(g)==17&&doubleRate<5*class_rank50(g,SK60_GS_CHAINACTION))doubleRate=5*class_rank50(g,SK60_GS_CHAINACTION);if(doubleRate<g->itemBonuses52.scalar[B52_bDoubleRate])doubleRate=g->itemBonuses52.scalar[B52_bDoubleRate];int doubled=(((job_first50(g->jobId)==4||g->jobId==J52_SUPER_NOVICE)&&inventory_wtype46(g)==1)||(inventory_wtype46(g)==17&&class_rank50(g,SK60_GS_CHAINACTION))||g->itemBonuses52.grant[12]||g->itemBonuses52.scalar[B52_bDoubleRate])&&combat_random(g)%100<(unsigned)doubleRate;int critical=!doubled&&combat_random(g)%1000<(unsigned)combat_target_crit(g,m);if(!critical&&combat_random(g)%100>=(unsigned)g->itemBonuses52.scalar[B52_bPerfectHitRate]&&combat_random(g)%100>=(unsigned)combat_hit_rate(combat_hit(g),combat_mob_flee(m))){combat_miss(g,m->x,m->y);m->aggro=!m->training&&(mobSpecs[m->kind].flags&2)!=0;g->attackAt=g->time;g->cooldown=stat_attack_delay(g);combat_notice(g,POP_DAMAGE,"Missed %s.",mobSpecs[m->kind].name);}else{if(g->jobId>=12){damage=class_weapon_power50(g,m,critical)*class_attack_rate48(g,m,class_weapon_element50(g))/100;damage=damage*(100+20*class_active50(g,SK52_WS_OVERTHRUSTMAX)+50*(class_active50(g,SK52_ASC_EDP)?class_active50(g,SK52_ASC_EDP)+1:0)+5*class_active50(g,233)+(class_active50(g,SK52_LK_BERSERK)?100:0))/100;if(class_offhand50(g)>=0)damage=damage*(50+10*class_rank50(g,127))/100;}damage=damage*(100+2*class_active50(g,SK52_SN_SIGHT))/100;damage=item_physical_bonus52(g,m,damage,0);if(doubled)damage*=2;if(critical)damage=damage*(140+g->itemBonuses52.scalar[B52_bCritAtkRate])/100;damage=mobSpecs[m->kind].flags&16?1:item_normal_def52(g,m,damage,critical);if(!(mobSpecs[m->kind].flags&16)&&(job_first50(g->jobId)==3||g->jobId==J52_SUPER_NOVICE)&&combat_bane_target(m))damage+=(int)(g->ranks[38]*(3+g->level/20.f));if(!(mobSpecs[m->kind].flags&16))damage+=20*class_active50(g,SK52_LK_AURABLADE);if(damage<1)damage=1;int special=class_triple50(g,g->target);if(special){}else if(doubled){int oldSkill=g->fxSkill;g->fxSkill=0;skill_hit_ex(g,g->target,damage,0,2);g->fxSkill=oldSkill;}else{damage=combat_hit_bonus50(g,m,damage);combat_enemy_number180(g,m,damage,1,critical);combat_hit_sound(g,1);g->itemDamageSkill52=0;combat_enemy_damage(g,m,damage);skill_stagger49(g,m);}if(!special)item_proc_event52(g,0,(int)(m-g->mobs),damage,0);m->hurtAt=g->time;m->aggro=!m->training&&(mobSpecs[m->kind].flags&2)!=0;g->attackAt=g->time;g->cooldown=stat_attack_delay(g);if(g->class50.comboUntil>g->time&&g->cooldown<g->class50.comboUntil-g->time)g->cooldown=g->class50.comboUntil-g->time;
-    if(m->hp<=0){m->hp=0;m->deadAt=g->time;m->respawnAt=0;m->provokeLeft=0;m->provokeRank=0;m->aggro=0;if(!doubled&&!special)combat_reward(g,m);if(!g->autoAttackToggle52)g->autoAttack=0;g->target=-1;g->floorScan60=0;}
-    else {combat_notice(g,POP_DAMAGE,doubled?"Double Attack: %s for %d.":"Hit %s for %d.",mobSpecs[m->kind].name,damage);class_autospell48(g,g->target);class_after_attack50(g,g->target);}}
+    int damage=combat_physical(g)+(int)(combat_random(g)%5);for(int e=96;e<=99;e++)if(g->jobId<12&&class_active48(g,e))damage=damage*class_attack_rate48(g,m,(int[]){3,1,4,2}[e-96])/100;int doubleRank=g->ranks[8]>g->itemBonuses52.grant[12]?g->ranks[8]:g->itemBonuses52.grant[12],doubleRate=5*doubleRank;if(inventory_wtype46(g)==17&&doubleRate<5*class_rank50(g,SK60_GS_CHAINACTION))doubleRate=5*class_rank50(g,SK60_GS_CHAINACTION);if(doubleRate<g->itemBonuses52.scalar[B52_bDoubleRate])doubleRate=g->itemBonuses52.scalar[B52_bDoubleRate];int doubled=(((job_first50(g->jobId)==4||g->jobId==J52_SUPER_NOVICE)&&inventory_wtype46(g)==1)||(inventory_wtype46(g)==17&&class_rank50(g,SK60_GS_CHAINACTION))||g->itemBonuses52.grant[12]||g->itemBonuses52.scalar[B52_bDoubleRate])&&combat_random(g)%100<(unsigned)doubleRate;int critical=!doubled&&combat_random(g)%1000<(unsigned)combat_target_crit(g,m);int missed267=!critical&&combat_random(g)%100>=(unsigned)g->itemBonuses52.scalar[B52_bPerfectHitRate]&&combat_random(g)%100>=(unsigned)combat_hit_rate(combat_hit(g),combat_mob_flee(m));
+     if(!missed267){if(g->jobId>=12){damage=class_weapon_power50(g,m,critical)*class_attack_rate48(g,m,class_weapon_element50(g))/100;damage=damage*(100+20*class_active50(g,SK52_WS_OVERTHRUSTMAX)+50*(class_active50(g,SK52_ASC_EDP)?class_active50(g,SK52_ASC_EDP)+1:0)+5*class_active50(g,233)+(class_active50(g,SK52_LK_BERSERK)?100:0))/100;if(class_offhand50(g)>=0)damage=damage*(50+10*class_rank50(g,127))/100;}damage=damage*(100+2*class_active50(g,SK52_SN_SIGHT))/100;damage=item_physical_bonus52(g,m,damage,0);if(doubled)damage*=2;if(critical)damage=damage*(140+g->itemBonuses52.scalar[B52_bCritAtkRate])/100;damage=mobSpecs[m->kind].flags&16?1:item_normal_def52(g,m,damage,critical);if(!(mobSpecs[m->kind].flags&16)&&(job_first50(g->jobId)==3||g->jobId==J52_SUPER_NOVICE)&&combat_bane_target(m))damage+=(int)(g->ranks[38]*(3+g->level/20.f));if(!(mobSpecs[m->kind].flags&16))damage+=20*class_active50(g,SK52_LK_AURABLADE);if(damage<1)damage=1;}
+     g->bursts49[contactSlot267]=(SkillBurst49){.active=BASIC_CONTACT267,.target=g->target,.hits=doubled?2:1,.damage=damage,.stun=missed267,.rank=critical,.life=m->life,.map=g->mapId,.job=g->jobId,.next=g->time+COMBAT_ATTACK_ANIMATION53*.6f,.gap=g->time};
+     g->attackAt=g->time;g->cooldown=stat_attack_delay(g);
     }
    }
   }
  }
+
  item_proc_tick52(g);
  mob_flow_tick53(g);g->awakeCount=g->sleepCount=0;unsigned char assistAggro45[MOB_SPEC_COUNT]={0};for(int j=0;j<MOB_COUNT;j++)if(g->mobs[j].enabled&&g->mobs[j].hp>0&&g->mobs[j].aggro)assistAggro45[g->mobs[j].kind]=1;
  if(!g->peaceful)for(int i=0;i<MOB_COUNT;i++){

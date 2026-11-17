@@ -495,23 +495,27 @@
       "name": "candidate twelve-chapter world/controller/presentation/evidence/encounter sequences",
       "status": "passed",
       "evidence": "Campaign-Sequence-Checks200.json"
+    },
+    {
+      "name": "reported GUI/tutorial/combat/sprite preservation",
+      "status": "passed",
+      "evidence": "Restoration-Normal-Checks270.json"
+    },
+    {
+      "name": "frozen-source normal full-scope candidate integration",
+      "status": "passed",
+      "evidence": "Full-Candidate-Checks240.json"
     }
   ],
-  "normalReleaseWideChecksComplete": false,
+  "normalReleaseWideChecksComplete": true,
   "releaseReady": false,
   "blockedGates": [
-    "Finish post-activation normal integrated regression and full original companion-kit refresh on the same source",
-    "Two additional review passes after normal integration",
-    "Exact-1.10.0 patch packaging and updater validation",
     "Xemu execution when a usable emulator environment is available",
     "Original 64 MB residency/stack high-water and frame/audio timing",
     "Controller/CRT/raster and current-format FATX/restart acceptance"
   ],
   "missingOrDisabledFunctionality": [],
   "presentAwaitingVerification": [
-    "Finish post-activation normal integrated regression and full original companion-kit refresh on the same source",
-    "Two additional review passes after normal integration",
-    "Exact-1.10.0 patch packaging and updater validation",
     "Xemu execution when a usable emulator environment is available"
   ],
   "requiresUserXboxTesting": [
@@ -525,10 +529,10 @@
     "Later scene environment aliases and functional staging"
   ],
   "closureCriteria": "RELEASE-GATES.md",
-  "additionalReviewPassesCompleted": 0,
-  "additionalReviewPassesStarted": false,
-  "packagingValidated": false,
-  "readyForPatchDelivery": false,
+  "additionalReviewPassesCompleted": 2,
+  "additionalReviewPassesStarted": true,
+  "packagingValidated": true,
+  "readyForPatchDelivery": true,
   "postReviewPackagingGate": "Exact-1.10.0 ZIP reconstruction/rejection/rollback validation, after both additional reviews",
   "privateExecutable": "development build only",
   "originalXboxPlaytested": false,

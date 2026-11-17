@@ -9,7 +9,7 @@ static void ui_quest_tracker65(const WindowUI*u){
   const int textX=39;char title[160],lines[8][96];
   if(id==CAMPAIGN_QUEST200)ui_weight61(textX,y,.9f,"MAIN QUEST",3);else ui_light(textX,y,.9f,"SIDE QUEST");
   /* A fixed mark gutter never shifts titles or objectives. */
-  if(quest_completed257(id)){pb_fill(25,y+6,3,3,0xff60d27a);pb_fill(28,y+3,3,6,0xff60d27a);}y+=15;
+  int mark269=quest_mark269(id);if(mark269==1){pb_fill(25,y+6,3,3,0xff60d27a);pb_fill(28,y+3,3,6,0xff60d27a);}else if(mark269==2){for(int k269=0;k269<7;k269++){pb_fill(25+k269,y+3+k269,1,1,0xffff4848);pb_fill(31-k269,y+3+k269,1,1,0xffff4848);}}y+=15;
   snprintf(title,sizeof(title),"%s",quest_title65(id));while(*title&&ui_text_width(title,1)>228)title[strlen(title)-1]=0;
   ui_light(textX,y,1,title);ui_light(textX+1,y,1,title);y+=16;
   int n=ui_wrap(quest_summary257(id),lines,228,1);if(n>3){n=3;size_t len=strlen(lines[2]);while(len&&ui_text_width(lines[2],1)+ui_text_width("...",1)>228)lines[2][--len]=0;strcat(lines[2],"...");}

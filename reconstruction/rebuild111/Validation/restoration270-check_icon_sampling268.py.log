@@ -1,0 +1,2 @@
+PASS actual skin_icon: 803 authored/dynamic/fallback rectangles preserve native half-texel origins and size-minus-one UV extents; no neighboring atlas pixels in bilinear footprint. Host arithmetic, not Xbox raster acceptance.
+

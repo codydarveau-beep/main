@@ -1,0 +1,448 @@
+{
+  "reason": "After normal checks and two extra reviews; space for sequential ISO reconstruction",
+  "removed": [
+    {
+      "path": "Validation/campaign-runtime239_asan",
+      "bytes": 20604472
+    },
+    {
+      "path": "Validation/restoration270-button-tokens_asan",
+      "bytes": 86856
+    },
+    {
+      "path": "Validation/restoration270-creator-draw_asan",
+      "bytes": 19648512
+    },
+    {
+      "path": "Validation/test_world_integration194_asan",
+      "bytes": 17866280
+    },
+    {
+      "path": "Validation/guild-room197_asan",
+      "bytes": 19129360
+    },
+    {
+      "path": "Validation/companion-soullinker210_asan",
+      "bytes": 8909400
+    },
+    {
+      "path": "Validation/restoration270-training-floor_asan",
+      "bytes": 23567448
+    },
+    {
+      "path": "Validation/companion-taekwon221_asan",
+      "bytes": 8936784
+    },
+    {
+      "path": "Validation/restoration270-quest-marks_asan",
+      "bytes": 16880704
+    },
+    {
+      "path": "Validation/campaign-upload246_asan",
+      "bytes": 1942008
+    },
+    {
+      "path": "Validation/companion_bolt204.so",
+      "bytes": 90384
+    },
+    {
+      "path": "Validation/encounter198.so",
+      "bytes": 19416
+    },
+    {
+      "path": "Validation/restoration270-creator_asan",
+      "bytes": 90576
+    },
+    {
+      "path": "Validation/restoration270-willow_asan",
+      "bytes": 278336
+    },
+    {
+      "path": "Validation/restoration270-tutorial-branches_asan",
+      "bytes": 23677856
+    },
+    {
+      "path": "Validation/campaign-save-bundle229_asan",
+      "bytes": 7558928
+    },
+    {
+      "path": "Validation/skill-maximum253_asan",
+      "bytes": 12705488
+    },
+    {
+      "path": "Validation/companion_blacksmith217.so",
+      "bytes": 2279848
+    },
+    {
+      "path": "Validation/companion-cast201_asan",
+      "bytes": 8858848
+    },
+    {
+      "path": "Validation/companion_specialist209.so",
+      "bytes": 287720
+    },
+    {
+      "path": "Validation/companion-specialist209_asan",
+      "bytes": 7934880
+    },
+    {
+      "path": "Validation/companion-monk220_asan",
+      "bytes": 8931040
+    },
+    {
+      "path": "Validation/companion-runtime200_asan",
+      "bytes": 6142488
+    },
+    {
+      "path": "Validation/companion_basic208.so",
+      "bytes": 1978552
+    },
+    {
+      "path": "Validation/companion-pip214_asan",
+      "bytes": 8925424
+    },
+    {
+      "path": "Validation/native-expanded-jobs233_asan",
+      "bytes": 15593992
+    },
+    {
+      "path": "Validation/session-review271_asan",
+      "bytes": 25586248
+    },
+    {
+      "path": "Validation/campaign-sequence200_asan",
+      "bytes": 20575896
+    },
+    {
+      "path": "Validation/companion-world223_asan",
+      "bytes": 12573752
+    },
+    {
+      "path": "Validation/restoration270-legacy-combat-regression_asan",
+      "bytes": 15448064
+    },
+    {
+      "path": "Validation/restoration270-diagnostics_asan",
+      "bytes": 18822152
+    },
+    {
+      "path": "Validation/native-first-jobs231_asan",
+      "bytes": 15561424
+    },
+    {
+      "path": "Validation/companion_monk220.so",
+      "bytes": 2287824
+    },
+    {
+      "path": "Validation/native-ferry237_asan",
+      "bytes": 23637728
+    },
+    {
+      "path": "Validation/test_guild_ui194_asan",
+      "bytes": 6599424
+    },
+    {
+      "path": "Validation/restoration270-bash_asan",
+      "bytes": 14158736
+    },
+    {
+      "path": "Validation/guild-interactions197_asan",
+      "bytes": 6721168
+    },
+    {
+      "path": "Validation/restoration270-guardian-cadence_asan",
+      "bytes": 14557592
+    },
+    {
+      "path": "Validation/test_gui_contract270_asan",
+      "bytes": 18372040
+    },
+    {
+      "path": "Validation/restoration270-equipment_asan",
+      "bytes": 14296176
+    },
+    {
+      "path": "Validation/companion-wizard205_asan",
+      "bytes": 9656920
+    },
+    {
+      "path": "Validation/companion_legacy_cast206.so",
+      "bytes": 2954784
+    },
+    {
+      "path": "Validation/campaign_reach236.so",
+      "bytes": 1663352
+    },
+    {
+      "path": "Validation/scenes195_asan",
+      "bytes": 166576
+    },
+    {
+      "path": "Validation/companion_archer212.so",
+      "bytes": 2062032
+    },
+    {
+      "path": "Validation/hud-arena253_asan",
+      "bytes": 51632
+    },
+    {
+      "path": "Validation/companion-rogue218_asan",
+      "bytes": 8929984
+    },
+    {
+      "path": "Validation/test_quest_marks269_asan",
+      "bytes": 16875928
+    },
+    {
+      "path": "Validation/hud194_asan",
+      "bytes": 14263672
+    },
+    {
+      "path": "Validation/native-supernovice235_asan",
+      "bytes": 15584368
+    },
+    {
+      "path": "Validation/scene_emote225.so",
+      "bytes": 3793752
+    },
+    {
+      "path": "Validation/icon-sampling268_asan",
+      "bytes": 73664
+    },
+    {
+      "path": "Validation/equipment-review272_asan",
+      "bytes": 14296336
+    },
+    {
+      "path": "Validation/restoration270-empty-dialogue_asan",
+      "bytes": 300280
+    },
+    {
+      "path": "Validation/campaign-companions226_asan",
+      "bytes": 22300376
+    },
+    {
+      "path": "Validation/companion-elemental211_asan",
+      "bytes": 8912720
+    },
+    {
+      "path": "Validation/companion_wizard205.so",
+      "bytes": 2915744
+    },
+    {
+      "path": "Validation/restoration270-damage_asan",
+      "bytes": 12837152
+    },
+    {
+      "path": "Validation/companion_skills201.so",
+      "bytes": 199928
+    },
+    {
+      "path": "Validation/stage_rules198.so",
+      "bytes": 28712
+    },
+    {
+      "path": "Validation/test_native_lifecycle194_asan",
+      "bytes": 12226296
+    },
+    {
+      "path": "Validation/companion-archer212_asan",
+      "bytes": 9171792
+    },
+    {
+      "path": "Validation/companion_potion215.so",
+      "bytes": 2180160
+    },
+    {
+      "path": "Validation/restoration270-guardian-sprites_asan",
+      "bytes": 13047600
+    },
+    {
+      "path": "Validation/companion_gunner219.so",
+      "bytes": 2283728
+    },
+    {
+      "path": "Validation/companion-potion215_asan",
+      "bytes": 8942016
+    },
+    {
+      "path": "Validation/companion-gunner219_asan",
+      "bytes": 8929872
+    },
+    {
+      "path": "Validation/world197_asan",
+      "bytes": 19108136
+    },
+    {
+      "path": "Validation/alias-npc242_asan",
+      "bytes": 15714656
+    },
+    {
+      "path": "Validation/companion_heal_target214.so",
+      "bytes": 15608
+    },
+    {
+      "path": "Validation/training-exit252_asan",
+      "bytes": 26546728
+    },
+    {
+      "path": "Validation/companion-promotions227_asan",
+      "bytes": 6241160
+    },
+    {
+      "path": "Validation/restoration270-gui-contract_asan",
+      "bytes": 18380904
+    },
+    {
+      "path": "Validation/companion_bolt_choice204.so",
+      "bytes": 183240
+    },
+    {
+      "path": "Validation/test_travel_preflight194_asan",
+      "bytes": 13842528
+    },
+    {
+      "path": "Validation/companion_taekwon221.so",
+      "bytes": 2283776
+    },
+    {
+      "path": "Validation/inline-buttons254_asan",
+      "bytes": 47712
+    },
+    {
+      "path": "Validation/restoration270-packet-timing_asan",
+      "bytes": 15419016
+    },
+    {
+      "path": "Validation/companion_performer216.so",
+      "bytes": 2234280
+    },
+    {
+      "path": "Validation/companion-performer216_asan",
+      "bytes": 8929120
+    },
+    {
+      "path": "Validation/test_policy194_asan",
+      "bytes": 5749544
+    },
+    {
+      "path": "Validation/companion-mage204_asan",
+      "bytes": 8867800
+    },
+    {
+      "path": "Validation/restoration270-quests_asan",
+      "bytes": 17172552
+    },
+    {
+      "path": "Validation/content195_asan",
+      "bytes": 584568
+    },
+    {
+      "path": "Validation/companion_element204.so",
+      "bytes": 15040
+    },
+    {
+      "path": "Validation/companion-persistence200_asan",
+      "bytes": 230496
+    },
+    {
+      "path": "Validation/companion_pip214.so",
+      "bytes": 37336
+    },
+    {
+      "path": "Validation/companion_rogue218.so",
+      "bytes": 2283728
+    },
+    {
+      "path": "Validation/companion_wire200.so",
+      "bytes": 15368
+    },
+    {
+      "path": "Validation/companion_wizard_cast205.so",
+      "bytes": 176512
+    },
+    {
+      "path": "Validation/campaign-minimap200_asan",
+      "bytes": 2920912
+    },
+    {
+      "path": "Validation/test_guild_regional194_asan",
+      "bytes": 6009096
+    },
+    {
+      "path": "Validation/restoration270-bash-fx_asan",
+      "bytes": 12775616
+    },
+    {
+      "path": "Validation/companion-roster222_asan",
+      "bytes": 9632512
+    },
+    {
+      "path": "Validation/companion_melee213.so",
+      "bytes": 2062072
+    },
+    {
+      "path": "Validation/campaign-encounter198_asan",
+      "bytes": 1862856
+    },
+    {
+      "path": "Validation/test_basic_contact267_asan",
+      "bytes": 14820904
+    },
+    {
+      "path": "Validation/restoration270-controls_asan",
+      "bytes": 17148672
+    },
+    {
+      "path": "Validation/restoration270-basic-contact_asan",
+      "bytes": 14825120
+    },
+    {
+      "path": "Validation/campaign_save228.so",
+      "bytes": 3777088
+    },
+    {
+      "path": "Validation/companion_envenom213.so",
+      "bytes": 2088936
+    },
+    {
+      "path": "Validation/companion-melee213_asan",
+      "bytes": 8879880
+    },
+    {
+      "path": "Validation/restoration270-sprite-safety_asan",
+      "bytes": 13428880
+    },
+    {
+      "path": "Validation/willow-review272_asan",
+      "bytes": 284280
+    },
+    {
+      "path": "Validation/campaign-stage198_asan",
+      "bytes": 2887152
+    },
+    {
+      "path": "Validation/campaign-combat232_asan",
+      "bytes": 22941904
+    },
+    {
+      "path": "Validation/companion-blacksmith217_asan",
+      "bytes": 8928088
+    },
+    {
+      "path": "Validation/companion_exp200.so",
+      "bytes": 114744
+    },
+    {
+      "path": "Validation/restoration270-dialogue_asan",
+      "bytes": 529520
+    }
+  ],
+  "preserved": [
+    "All source and test fixtures",
+    "All asset/recovery archives and exact released baseline",
+    "Earlier published ZIP",
+    "Native reference ELF and input binaries",
+    "Logs and JSON evidence"
+  ]
+}

@@ -370,3 +370,8 @@ Designer-reported regressions are being restored; this is not a new packaged can
 ## Active restoration checkpoint266
 
 Continue via Preparation/RESTORATION-CURRENT252.md and Validation/Restoration-Progress266.json. Damage/Bash, tutorial, creator and reachable graduation-room repairs passed focused host/native checks; normal restoration remains incomplete, extra reviews0/2, no corrective ZIP. Ordinary basic melee timing and remaining preservation integration continue. No Xbox/Xemu playtest claim.
+
+
+## Corrective1.11.1 validation complete277
+
+Preservation implementation passed same-source normal full-campaign/companion and focused checks, then two fresh additional reviews. Separate public1.11.1 native build and actual shipped ZIP/updater reconstruction/rejection/rollback passed. Only exact released1.10.0 is accepted. Public staging ../release1111; private Source remains RECOVERY-labelled. Entry point Preparation/RESTORATION-CURRENT252.md; detailed closure/acceptance in Restoration-Closure270.md and Validation/Restoration-Progress277.json. No Xbox/Xemu playtest or total64MB proof. Publication receipt follows upload.

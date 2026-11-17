@@ -1,0 +1,2 @@
+PASS actual layered Willow/Elder Willow death renderer: 344 original poses; source timing, unbounded source expansion, alpha atlas/UVs, all camera-facing directions, water clipping, shared allocation under 64 simultaneous draws, idle/map cleanup. GPU boundary modeled. Peak shared GPU bytes 983040.
+PASS restoration additional review2:100 repeated two-species map lifetimes, per-frame cache reuse, all poses/bearings under water clipping and timer wrap; peak983040 remains shared independently of draw count; zero live bytes after teardown. GPU boundary modeled.

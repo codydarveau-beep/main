@@ -1,0 +1,47 @@
+MYRO v1.11.0 — FULL CAMPAIGN UPDATE
+DRAFT: not a packaged release; normal checks/reviews/packaging gates still apply.
+
+REQUIRED PREVIOUS VERSION
+Use the released 1.10.0 ISO only. Earlier versions, modified images and private
+builds are not accepted. The updater checks the complete baseline and payload.
+
+INSTALLATION
+Extract the entire ZIP, then run Apply-Update.cmd and select your 1.10.0 ISO.
+The updater builds MyRO-Current.iso and keeps the previous accepted image for
+rollback. Use the rebuilt image with your usual Xbox or Xemu installation.
+For a folder installation, transfer ALL files from the rebuilt image, including
+guildviews.bin. Replacing only default.xbe is insufficient.
+
+IMPORTANT CHANGES (SPOILER-FREE)
+- The full twelve-chapter campaign is enabled with its authored encounters,
+  evidence, interactions and companion recruitment/progression.
+- Companions earn their own EXP/levels, follow individual preset career paths,
+  and require story milestones for promotions. Health, SP and behavior persist.
+  Up to three accompany you; you continue controlling your own character.
+- Guild construction, improvements and original furnishings are restored.
+  All six original arcade games and saved scores are included. Cabinets now
+  have eight camera directions, retaining their established designs.
+- Regional dispatches and campaign-aware map/NPC access are integrated.
+  Native job quest costs/rewards and existing offline content are preserved.
+
+CHARACTERS AND SAVES
+Start a fresh character for this complete-campaign playthrough. Obsolete testing
+characters are intentionally outside migration/preservation requirements.
+The updater does not edit Xbox save files. Current character saves use the
+recovered development namespace; exact paths are documented in the report.
+
+WHAT TO TEST ON YOUR XBOX
+Save and restart early, then confirm your character and companion health/SP,
+levels and behavior settings. Check that changing formation does not refill
+health/SP. Play through campaign entrances, objectives and recruitment in order.
+Try guild construction, all six cabinets, rotating the camera around them,
+regional dispatch rewards, and travel denied by funds or progression.
+On a 64 MB Xbox, watch for memory pressure, slowdowns, audio interruptions or
+instability during busy maps, travel and sustained three-companion combat.
+Report the nearest spoiler-free journal objective and steps if anything fails.
+
+VERIFICATION LIMITS
+Detailed normal checks, the two additional reviews and patch reconstruction
+results belong in the accompanying report once complete. Host checks, native
+compilation and native CPU comparisons are not Xbox or Xemu playtests.
+No original-Xbox or Xemu playtest is claimed for this recovered candidate.

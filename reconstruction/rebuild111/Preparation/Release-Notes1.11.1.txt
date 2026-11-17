@@ -1,0 +1,59 @@
+RAGNAROK OFFLINE 1.11.1 — GUI AND PRESERVATION RESTORATION
+
+REQUIRES: the exact released 1.10.0 ISO.
+This patch does not accept 1.11.0, private builds, or modified images.
+Use your retained released 1.10.0 image as the input, even if you have tested 1.11.0.
+
+HOW TO APPLY
+1. Extract the entire ZIP into a folder on your PC.
+2. Double-click Apply-Update.cmd and select your released 1.10.0 ISO.
+3. Wait for SUCCESS. Use the resulting MyRO-Current.iso.
+   If an unrelated MyRO-Current.iso is already in that folder, move it first.
+4. Transfer/use the rebuilt game with your usual Xbox or Xemu setup.
+   Start a new character for this restoration test, as planned.
+
+The updater checks the complete input and output. It preserves a rollback
+image and creates a receipt. Do not delete payload.001.bin before updating.
+
+IMPORTANT CHANGES
+- Restored approved OFFLINE title artwork and the released HUD atlas.
+- Fixed shared UI vertex ownership behind creator/name-window flicker.
+- Restored icon atlas sampling to prevent neighboring-pixel edge artifacts.
+- Character creation uses a spatial stat web: A enters; D-pad selects;
+  X raises and Y lowers; A keeps the edit and B cancels it.
+- Restored X stat allocation, equals column, hints and clearer row layout.
+- Equipment entries use one line; the larger centered preview faces forward.
+- Raised hotbars and restored active-bar ordering during assignment.
+- Restored original water and Screen draw defaults under Diagnostics >
+  Video Testing. Diagnostics remains available without Developer Mode.
+- Quest A opens details; X tracks/untracks. Dialogue objectives have no
+  false progress bar; real counters keep their progress bars.
+- Restored readable HP/SP/EXP bars, percent-only EXP, warning digits without
+  black outlines, and hidden enemy HP with an optional diagnostic toggle.
+- Repaired tutorial button graphics/prose, blank pages and outdated lessons.
+  Basic Skill retains its /9 maximum while earning ranks.
+- Restored the training graduation NPC and reachable interaction range.
+- Restored larger damage/MISS presentation and critical fitting; delayed
+  Bash and ordinary attack results to their contact point, retaining multi-hit timing.
+- Rebuilt Willow/Elder Willow deaths from original animation layers with
+  shared bounded resources instead of a blown-out clipped square.
+
+The complete twelve-chapter campaign, independent companions, guild upgrades,
+all six original arcade engines, directional cabinets, regional dispatches
+and existing native quest costs/rewards remain included.
+
+WHAT TO TEST ON YOUR ORIGINAL 64 MB XBOX
+Start with character creation and the complete Training Grounds route,
+including graduation. Check window entry/navigation, all inventory screens,
+equipment preview, quest details/tracking and hotbar assignment. Check CRT
+readability, water, Willow deaths and combat impact/audio alignment.
+Then check guardians and repeated KNT01/Lighthalzen travel and traversal.
+Continue campaign and companion progression from there.
+
+VERIFICATION
+Normal host/native integration checks and both subsequent review passes are
+required before this package is delivered. Detailed evidence accompanies it.
+Compilation and host checks are not Xbox or Xemu playtests. Actual hardware
+appearance, performance, total memory use and natural playthrough remain
+for your tests. See VERIFICATION-REPORT.txt and Verification for the final
+package-validation result.

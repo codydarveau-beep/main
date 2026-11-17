@@ -1,5 +1,8 @@
 # 1.11.0 preservation/restoration ledger
 
+**Current corrective status:** Restoration-Closure270.md and Validation/Restoration-Progress277.json supersede the pending snapshots below. The1.11.1 implementation passed normal checks, both fresh additional reviews and actual ZIP/updater validation. Xbox/Xemu appearance/performance/natural-playthrough acceptance remains separate.
+
+
 This replaces the earlier assumption that passing campaign integration established preservation of the complete later UI. It did not. The designer's Xbox observations identify real release regressions; host layout checks missed shared rendering paths and embedded executable assets. Preserve the twelve-chapter campaign, independent companions, guild/arcade/dispatch work while repairing them.
 
 Evidence labels: **H** = historical requirement/fix reported in the supplied Agent 2 ledger (not automatically independently native-verified); **C** = current source/reproduction confirmed; **S** = suspected cause only; **X** = actual Xbox visual/performance acceptance pending. “Era not retained” means no honest exact patch attribution is available. All listed issues require closure before a restoration patch. No additional review pass for this batch has started.
